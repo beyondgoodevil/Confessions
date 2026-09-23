@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" data-design="forester">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Write</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/writer.css">
+</head>
+<body class="writer">
+<header class="w-top">
+  <a id="brand" class="w-brand" href="./">Notes</a><span class="w-sub">Writer</span>
+  <nav class="w-tabs" role="tablist" aria-label="Writer">
+    <button type="button" class="w-tab" role="tab" data-tab="write">Write</button>
+    <button type="button" class="w-tab" role="tab" data-tab="edit">Edit</button>
+    <button type="button" class="w-tab" role="tab" data-tab="bulk">Bulk upload</button>
+    <button type="button" class="w-tab" role="tab" data-tab="settings">Settings</button>
+  </nav>
+  <p id="conn" class="w-conn"></p>
+</header>
+<p id="local-note" class="w-local" hidden>You're on the local preview. Publishing still commits to GitHub; run <code>git pull</code> afterwards to bring the changes to this computer.</p>
+<main id="app">
+  <section id="tab-write" class="w-panel" role="tabpanel"></section>
+  <section id="tab-edit" class="w-panel" role="tabpanel" hidden></section>
+  <section id="tab-bulk" class="w-panel" role="tabpanel" hidden></section>
+  <section id="tab-settings" class="w-panel" role="tabpanel" hidden></section>
+</main>
+<div id="busy" class="busy" hidden><div class="busy-box"><span class="spinner"></span><span id="busy-msg">Working…</span></div></div>
+<div id="toast" class="toast" role="status" hidden></div>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+<script>window.COMMONPLACE_LIBRARY = true;</script>
+<script src="assets/app.js"></script>
+<script src="assets/writer.js"></script>
+</body>
+</html>

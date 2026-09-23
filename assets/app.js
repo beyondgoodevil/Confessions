@@ -70,7 +70,7 @@ function yamlLoad(src) {
 const unq = s => s.replace(/^(['"])(.*)\1$/, '$2');
 
 /* ---------------- state ---------------- */
-const S = { config: null, sections: [], notes: [], byId: new Map(), resolve: new Map(), back: new Map(), tags: new Map(), cache: new Map(), updated: null };
+const S = { files: new Map(), config: null, sections: [], notes: [], byId: new Map(), resolve: new Map(), back: new Map(), tags: new Map(), cache: new Map(), updated: null };
 
 /* ---------------- indexing ---------------- */
 function prepareSections(cfg) {
@@ -132,8 +132,8 @@ function assignIds(notes) {
       else { if (n.explicitId) console.warn(`Duplicate id ${n.explicitId} in ${n.path}; assigning a new one.`); autos.push(n); }
     }
     autos.sort((a, b) => time(a.created) - time(b.created) || a.path.localeCompare(b.path));
-    let k = 1;
-    for (const n of autos) { while (used.has(k)) k++; n.id = `${sec.prefix}-${String(k).padStart(4, '0')}`; used.add(k); S.byId.set(n.id, n); }
+    let k = used.size ? Math.max(...used) : 0;   // new addresses always follow the highest in use, so deleted ones are never reused
+    for (const n of autos) { k++; n.id = `${sec.prefix}-${String(k).padStart(4, '0')}`; S.byId.set(n.id, n); }
   }
 }
 function* proseLines(src) {
@@ -152,9 +152,15 @@ function splitWiki(inner) {
   let heading = ''; const h = target.indexOf('#'); if (h >= 0) { heading = target.slice(h + 1).trim(); target = target.slice(0, h).trim(); }
   return { target, label, heading };
 }
+function resolveFile(name, dir) {
+  const clean = String(name).trim().replace(/^\.?\//, '');
+  const hit = S.files.get(clean.toLowerCase()) || S.files.get(clean.split('/').pop().toLowerCase());
+  return hit || (dir || '') + clean;
+}
 const resolveTarget = t => { if (!t) return null; const up = String(t).trim().toUpperCase(); if (S.byId.has(up)) return up; return S.resolve.get(slug(t)) || S.resolve.get(slug(String(t).split('/').pop().replace(/\.(md|markdown)$/i, ''))) || null; };
 
 function index(cfg, entries) {
+  S.cache = new Map();
   S.config = cfg; S.sections = prepareSections(cfg);
   const notes = entries.map(parseNote);
   assignIds(notes);
@@ -266,6 +272,10 @@ function renderMarkdown(src, ctx = {}) {
   const transform = (t, withNotes = true) => {
     t = t.replace(/\$\$([\s\S]+?)\$\$/g, (_, tex) => ph('D', `<span class="math-d">\\[${esc(tex.replace(/\n\s*>\s?/g, '\n').trim())}\\]</span>`));
     t = t.replace(/(^|[^\\$\w])\$(?=[^\s$])([^$\n]+?)(?<=[^\s\\])\$(?![\w$])/g, (_, pre, tex) => pre + ph('M', `<span class="math-i">\\(${esc(tex)}\\)</span>`));
+    t = t.replace(/!\[\[([^\[\]\n]+?\.(?:png|jpe?g|gif|svg|webp|avif|bmp))(?:\|([^\]\n]*))?\]\]/gi, (all, file, opt) => {
+      const src = resolveFile(file, ctx.dir); const w = /^\d+$/.test(opt || '') ? ` width="${opt}"` : '';
+      return ph('W', `<img src="${esc(src)}" alt="${esc(opt && !w ? opt : file.split('/').pop())}"${w} loading="lazy">`);
+    });
     t = t.replace(WIKI, (all, inner) => {
       const { target, label, heading } = splitWiki(inner);
       const id = target ? resolveTarget(target) : ctx.id;
@@ -335,7 +345,7 @@ function postProcess(root, ctx) {
     if (id) { a.classList.add('wikilink'); a.dataset.id = id; a.setAttribute('href', '#/' + id); }
   }
   // relative images live next to the note
-  if (ctx.dir) for (const img of $$('img[src]', root)) { const s = img.getAttribute('src'); if (!/^([a-z]+:|\/|#|data:)/i.test(s)) img.setAttribute('src', ctx.dir + s); img.loading = 'lazy'; }
+  if (ctx.dir) for (const img of $$('img[src]', root)) { const s = img.getAttribute('src'); if (!/^([a-z]+:|\/|#|data:|notes\/)/i.test(s)) img.setAttribute('src', ctx.dir + s); img.loading = 'lazy'; }
   for (const t of $$('table', root)) { const w = document.createElement('div'); w.className = 'table-wrap'; t.replaceWith(w); w.append(t); }
   for (const li of $$('li', root)) if (li.firstElementChild && li.firstElementChild.matches('input[type=checkbox]')) li.classList.add('task');
   for (const code of $$('pre > code', root)) { const l = (code.className.match(/language-([\w+#-]+)/) || [])[1]; if (l) code.parentElement.dataset.lang = l; }
@@ -368,8 +378,8 @@ const sectionNoun = sec => sec.noun || sec.name.toLowerCase();
 function viewIndex() {
   const c = S.config, per = c.indexPreviewCount || 4, perSub = c.indexPreviewCountPerSubsection || 3;
   const toc = S.sections.map(sec => {
-    const row = `<a href="#/s/${sec.id}"><span class="st-n">${sec.num}</span><span class="st-name">${esc(sec.name)}</span><span class="st-c">${notesIn(sec).length}</span></a>`;
-    return row + sec.subsections.map(u => `<a class="st-sub" href="#/s/${sec.id}/${u.id}"><span class="st-n">${u.num}</span><span class="st-name">${esc(u.name)}</span><span class="st-c">${notesIn(sec, u).length}</span></a>`).join('');
+    const row = `<a href="#/s/${sec.id}"><span class="st-name">${esc(sec.name)}</span><span class="st-c">${notesIn(sec).length}</span></a>`;
+    return row + sec.subsections.map(u => `<a class="st-sub" href="#/s/${sec.id}/${u.id}"><span class="st-name">${esc(u.name)}</span><span class="st-c">${notesIn(sec, u).length}</span></a>`).join('');
   }).join('');
   const secs = S.sections.map(sec => {
     const all = notesIn(sec);
@@ -377,17 +387,17 @@ function viewIndex() {
     if (!all.length) inner = `<p class="fr-empty">No notes here yet.</p>`;
     else if (sec.subsections.length) inner = sec.subsections.map(u => {
       const ns = notesIn(sec, u).sort(newest).slice(0, perSub);
-      return `<div class="subsec"><h3 class="fr-sub"><span class="sec-n">${u.num}</span><a href="#/s/${sec.id}/${u.id}">${esc(u.name)}</a></h3>${ns.length ? `<ol class="fr-list">${ns.map(n => entryLi(n)).join('')}</ol>` : '<p class="fr-empty fr-empty-sub">None yet.</p>'}</div>`;
+      return `<div class="subsec"><h3 class="fr-sub"><a href="#/s/${sec.id}/${u.id}">${esc(u.name)}</a></h3>${ns.length ? `<ol class="fr-list">${ns.map(n => entryLi(n)).join('')}</ol>` : '<p class="fr-empty fr-empty-sub">None yet.</p>'}</div>`;
     }).join('');
     else inner = `<ol class="fr-list">${all.sort(newest).slice(0, per).map(n => entryLi(n)).join('')}</ol>`;
     const more = all.length ? `<a class="fr-more" href="#/s/${sec.id}">All ${plural(all.length, sec.nounSingular || sectionNoun(sec) + ' note', (sec.nounSingular || sectionNoun(sec) + ' note') + 's')}</a>` : '';
-    return `<section class="fr-sec"><h2 class="fr-sec-title"><span class="sec-n">${sec.num}</span><a href="#/s/${sec.id}">${esc(sec.name)}</a></h2>${sec.description ? `<p class="fr-sec-desc">${esc(sec.description)}</p>` : ''}${inner}${more}</section>`;
+    return `<section class="fr-sec"><h2 class="fr-sec-title"><a href="#/s/${sec.id}">${esc(sec.name)}</a></h2>${sec.description ? `<p class="fr-sec-desc">${esc(sec.description)}</p>` : ''}${inner}${more}</section>`;
   }).join('');
-  const intro = c.intro ? `<div class="prose fr-abstract">${renderMarkdown(c.intro).innerHTML}</div>` : '';
+  const welcome = c.welcome || c.intro;
+  const intro = welcome ? `<div class="prose fr-welcome">${renderMarkdown(welcome).innerHTML}</div>` : '';
   return `<div class="home home-forester">
     <header class="fr-head"><h1 class="home-title">${esc(c.title || 'Notes')}</h1>${c.subtitle ? `<p class="home-sub">${esc(c.subtitle)}</p>` : ''}
-    ${c.author ? `<p class="fr-author">${esc(c.author)}</p>` : ''}
-    <p class="fr-date">${plural(S.notes.length, 'note', 'notes')}${S.updated ? `, last updated ${fmtDate(S.updated)}` : ''}</p></header>
+    ${c.author ? `<p class="fr-author">${esc(c.author)}</p>` : ''}</header>
     ${intro}<nav class="sec-toc" aria-label="Sections">${toc}</nav>${secs}</div>`;
 }
 
@@ -406,11 +416,10 @@ function viewSection(sec, subId, sort) {
   const groups = sec.subsections.length ? (sub ? [sub] : sec.subsections) : [null];
   const body = groups.map(u => {
     const ns = notesIn(sec, u).sort(cmp);
-    const head = u ? `<h2 class="yr"><span class="sec-n">${u.num}</span>${esc(u.name)}</h2>` : '';
+    const head = u ? `<h2 class="yr">${esc(u.name)}</h2>` : '';
     return `<section>${head}${ns.length ? `<ol class="fr-list fr-list-full">${ns.map(n => entryLi(n, true)).join('')}</ol>` : '<p class="fr-empty">No notes here yet.</p>'}</section>`;
   }).join('');
-  return `<div class="page page-section"><header class="fr-head"><p class="note-kicker"><span class="note-taxon">Section ${sec.num}</span></p>
-    <h1>${esc(sec.name)}</h1>${sec.description ? `<p class="home-sub">${esc(sec.description)}</p>` : ''}</header>
+  return `<div class="page page-section"><header class="fr-head"><h1>${esc(sec.name)}</h1>${sec.description ? `<p class="home-sub">${esc(sec.description)}</p>` : ''}</header>
     <div class="sec-tools">${filter}${sorter}</div>${body}</div>`;
 }
 
@@ -486,7 +495,7 @@ function viewTag(key) {
   if (!t) return viewMissing(`No notes are tagged “${esc(key)}”.`);
   const bySec = S.sections.map(sec => ({ sec, ns: t.notes.filter(n => n.section === sec).sort(newest) })).filter(g => g.ns.length);
   return `<div class="page page-section"><header class="fr-head"><p class="note-kicker"><a class="note-taxon" href="#/tags">Tag</a></p><h1>${esc(t.name)}</h1><p class="home-sub">${plural(t.notes.length, 'note', 'notes')}</p></header>
-    ${bySec.map(g => `<h2 class="yr"><span class="sec-n">${g.sec.num}</span>${esc(g.sec.name)}</h2><ol class="fr-list fr-list-full">${g.ns.map(n => entryLi(n, true)).join('')}</ol>`).join('')}</div>`;
+    ${bySec.map(g => `<h2 class="yr">${esc(g.sec.name)}</h2><ol class="fr-list fr-list-full">${g.ns.map(n => entryLi(n, true)).join('')}</ol>`).join('')}</div>`;
 }
 const viewMissing = msg => `<div class="page page-section"><header class="fr-head"><h1>Not found</h1><p class="home-sub">${msg}</p></header><p style="text-align:center"><a href="#/">Back to the index</a></p></div>`;
 
@@ -670,11 +679,14 @@ async function boot() {
     return;
   }
   await Promise.all([loadLib('marked'), loadLib('yaml'), loadLib('purify')]);
+  S.files = new Map((data.files || []).flatMap(f => [[f.toLowerCase(), f], [f.replace(/^notes\//, '').toLowerCase(), f], [f.split('/').pop().toLowerCase(), f]]));
   try { index(cfg, data.notes || []); }
   catch (e) { console.error(e); fail(`Something in <code>config.json</code> is wrong: ${esc(e.message)}`); return; }
   buildShell(); bindEvents();
   addEventListener('hashchange', route);
   route();
 }
-boot();
+if (window.COMMONPLACE_LIBRARY) {
+  window.Commonplace = { S, loadLib, index, parseNote, viewNote, renderMarkdown, enhance, sourceLine, esc, slug, list, str, getJSON, matchType, placeNote, prepareSections };
+} else boot();
 })();

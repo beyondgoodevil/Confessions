@@ -4,16 +4,16 @@ import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT, collectNotes } from './build.mjs';
+import { loadConfig } from './lib.mjs';
 
 const PORT = Number(process.env.PORT) || 8000;
 const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.md': 'text/markdown',
-  '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.pdf': 'application/pdf' };
+  '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.avif': 'image/avif', '.pdf': 'application/pdf' };
 
 http.createServer((req, res) => {
   const url = decodeURIComponent(new URL(req.url, 'http://x').pathname);
   if (url === '/notes.json') {
-    try { JSON.parse(fs.readFileSync(path.join(ROOT, 'config.json'), 'utf8')); }
-    catch (e) { res.writeHead(500); return res.end('config.json is not valid JSON: ' + e.message); }
+    try { loadConfig(); } catch (e) { res.writeHead(500); return res.end(e.message); }
     res.writeHead(200, { 'content-type': 'application/json', 'cache-control': 'no-store' });
     return res.end(JSON.stringify(collectNotes({ withGit: false })));
   }

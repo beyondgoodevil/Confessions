@@ -1,8 +1,8 @@
 {
   "title": "Confessions",
-  "subtitle": "Notes on books, lectures, talks and whatever else I’m thinking about",
+  "subtitle": "",
+  "welcome": "Welcome — this is my notebook, a running collection of notes I take as I read and consume content.",
   "author": "",
-  "intro": "A working notebook, kept in public. Notes are grouped by where the ideas came from, and every note keeps a permanent address, so a link like [[B-0001]] always points to the same page. New here? Start with [[How to use this notebook]].",
   "indexPreviewCount": 4,
   "indexPreviewCountPerSubsection": 3,
   "defaultSection": "misc",
@@ -15,8 +15,10 @@
       "kind": "book",
       "label": "Book notes",
       "nounSingular": "book note",
-      "aliases": ["book"],
-      "description": "Reading notes: arguments, key ideas and what I disagree with."
+      "aliases": [
+        "book"
+      ],
+      "description": "Notes from my readings."
     },
     {
       "id": "media",
@@ -24,10 +26,27 @@
       "prefix": "P",
       "folder": "media",
       "nounSingular": "podcast & video note",
-      "description": "Interviews, talks and documentaries worth writing down.",
+      "description": "Takeaways from podcast episodes and YouTube videos.",
       "subsections": [
-        { "id": "podcast", "name": "Podcasts", "folder": "podcasts", "label": "Podcast notes", "aliases": ["podcasts"] },
-        { "id": "video", "name": "Videos", "folder": "videos", "label": "Video notes", "aliases": ["videos", "talk"] }
+        {
+          "id": "podcast",
+          "name": "Podcasts",
+          "folder": "podcasts",
+          "label": "Podcast notes",
+          "aliases": [
+            "podcasts"
+          ]
+        },
+        {
+          "id": "video",
+          "name": "Videos",
+          "folder": "videos",
+          "label": "Video notes",
+          "aliases": [
+            "videos",
+            "talk"
+          ]
+        }
       ]
     },
     {
@@ -38,8 +57,10 @@
       "kind": "lecture",
       "label": "Lecture notes",
       "nounSingular": "lecture note",
-      "aliases": ["lecture"],
-      "description": "Course notes, with definitions and results typeset."
+      "aliases": [
+        "lecture"
+      ],
+      "description": "Notes from lectures I attend/watch."
     },
     {
       "id": "misc",
@@ -48,8 +69,11 @@
       "folder": "misc",
       "label": "Notes",
       "nounSingular": "miscellaneous note",
-      "aliases": ["note", "other"],
-      "description": "Everything else: half-formed ideas, lists, how-tos."
+      "aliases": [
+        "note",
+        "other"
+      ],
+      "description": "Random thoughts I am too lazy to organize."
     }
   ]
 }

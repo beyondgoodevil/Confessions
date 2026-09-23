@@ -434,3 +434,13 @@ code{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
 :root[data-design="forester"] .toc{order:1}
 :root[data-design="forester"] .note-body{order:2}
 :root[data-design="forester"] .note-foot{order:3}
+
+/* ===== unnumbered sections + welcome ===== */
+.sec-toc a{grid-template-columns:minmax(0,1fr) auto}
+.sec-toc a.st-sub{grid-template-columns:minmax(0,1fr) auto;padding-left:1.4rem}
+.sec-toc a.st-sub .st-name{grid-column:1;color:var(--ink-2)}
+.fr-sec-desc,.fr-list,.fr-more,.fr-sub,.fr-empty{margin-left:0}
+.fr-empty-sub{margin-left:0}
+.fr-sec-title{gap:0}
+.fr-welcome{max-width:31rem;margin:1.4rem auto 0;text-align:center;font-size:1.12em;line-height:1.55;color:var(--ink-2)}
+.fr-welcome p{margin:0}

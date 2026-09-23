@@ -1,0 +1,8 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "notes/misc",
+  "attachmentFolderPath": "notes/images",
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "userIgnoreFilters": ["_site/", "assets/", "tools/", "node_modules/"]
+}

@@ -2,9 +2,15 @@
 
 A notebook of book, podcast/video, lecture and miscellaneous notes, published with GitHub Pages.
 
-- **Add a note:** put a Markdown file in `notes/books/`, `notes/media/podcasts/`, `notes/media/videos/`, `notes/lectures/` or `notes/misc/`, then commit. The site rebuilds itself in about a minute.
-- **Start a note with the right fields:** `node tools/new.mjs book "Title"` (also `podcast`, `video`, `lecture`, `misc`).
-- **Preview on your computer:** `node tools/serve.mjs`, then open http://localhost:8000.
-- **Change the title, intro or sections:** edit `config.json`.
+Four ways to add notes; they all end up as Markdown files in `notes/`:
 
-The full guide lives in the Claude doc “Commonplace: setup and user guide”. The note `notes/misc/how-to-use-this-notebook.md` is a one-page syntax reference that also appears on the site.
+- **Writer app:** open `write.html` on your site (e.g. `https://beyondgoodevil.github.io/Confessions/write.html`), connect it once with a GitHub token, then write, edit or bulk-upload notes from any browser.
+- **Obsidian:** open this repository as a vault and sync it with the Obsidian Git plugin. Templates for each note type are in `templates/`.
+- **Claude Code:** ask it to import a folder of existing Markdown notes; `CLAUDE.md` tells it how.
+- **github.com or Git:** add `.md` files to `notes/books/`, `notes/media/podcasts/`, `notes/media/videos/`, `notes/lectures/` or `notes/misc/` and commit.
+
+On every push GitHub gives new notes their addresses (B-0001, P-0001, …), rebuilds the site and publishes it in about a minute.
+
+Tools (need Node.js): `node tools/serve.mjs` preview · `node tools/new.mjs book "Title"` new note · `node tools/import.mjs <folder>` bulk import · `node tools/check.mjs` find unwritten links · `node tools/stamp.mjs` add addresses.
+
+The full guide is the Claude doc “Commonplace: setup and user guide”.
