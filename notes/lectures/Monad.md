@@ -1,6 +1,8 @@
 ---
 id: L-0003
 date: 2026-09-23
+tags: [leibniz, monad]
+summary: Lecture notes on Leibniz' monad
 ---
 
 Video: https://youtu.be/d9AW5kg2Vms?si=gGDzjOdhzJTIrpA3
