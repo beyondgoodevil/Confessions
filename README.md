@@ -1,4 +1,4 @@
-# Commonplace
+# Confessions
 
 A notebook of book, podcast/video, lecture and miscellaneous notes, published with GitHub Pages.
 

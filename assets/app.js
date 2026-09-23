@@ -1,4 +1,4 @@
-/* Commonplace — a Forester-style notebook for GitHub Pages.
+/* Confessions — a Forester-style notebook for GitHub Pages.
    Reads config.json + notes.json (built by tools/build.mjs) and renders everything client-side. */
 (() => {
 'use strict';
