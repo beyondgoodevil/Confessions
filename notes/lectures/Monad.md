@@ -1,3 +1,8 @@
+---
+id: L-0003
+date: 2026-09-23
+---
+
 Video: https://youtu.be/d9AW5kg2Vms?si=gGDzjOdhzJTIrpA3
 
 - Described as the building blocks of reality
