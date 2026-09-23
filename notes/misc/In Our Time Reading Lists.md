@@ -1,6 +1,8 @@
 ---
 id: M-0002
 date: 2026-09-23
+tags: [lists]
+summary: Recommended reading given by academics from the BBC podcast In Our Time.
 ---
 
 
