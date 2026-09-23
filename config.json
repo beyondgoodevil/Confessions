@@ -1,0 +1,55 @@
+{
+  "title": "Commonplace",
+  "subtitle": "Notes on books, lectures, talks and whatever else I’m thinking about",
+  "author": "",
+  "intro": "A working notebook, kept in public. Notes are grouped by where the ideas came from, and every note keeps a permanent address, so a link like [[B-0001]] always points to the same page. New here? Start with [[How to use this notebook]].",
+  "indexPreviewCount": 4,
+  "indexPreviewCountPerSubsection": 3,
+  "defaultSection": "misc",
+  "sections": [
+    {
+      "id": "books",
+      "name": "Books",
+      "prefix": "B",
+      "folder": "books",
+      "kind": "book",
+      "label": "Book notes",
+      "nounSingular": "book note",
+      "aliases": ["book"],
+      "description": "Reading notes: arguments, key ideas and what I disagree with."
+    },
+    {
+      "id": "media",
+      "name": "Podcasts & Videos",
+      "prefix": "P",
+      "folder": "media",
+      "nounSingular": "podcast & video note",
+      "description": "Interviews, talks and documentaries worth writing down.",
+      "subsections": [
+        { "id": "podcast", "name": "Podcasts", "folder": "podcasts", "label": "Podcast notes", "aliases": ["podcasts"] },
+        { "id": "video", "name": "Videos", "folder": "videos", "label": "Video notes", "aliases": ["videos", "talk"] }
+      ]
+    },
+    {
+      "id": "lectures",
+      "name": "Lectures",
+      "prefix": "L",
+      "folder": "lectures",
+      "kind": "lecture",
+      "label": "Lecture notes",
+      "nounSingular": "lecture note",
+      "aliases": ["lecture"],
+      "description": "Course notes, with definitions and results typeset."
+    },
+    {
+      "id": "misc",
+      "name": "Miscellany",
+      "prefix": "M",
+      "folder": "misc",
+      "label": "Notes",
+      "nounSingular": "miscellaneous note",
+      "aliases": ["note", "other"],
+      "description": "Everything else: half-formed ideas, lists, how-tos."
+    }
+  ]
+}
