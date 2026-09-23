@@ -1,3 +1,8 @@
+---
+id: M-0002
+date: 2026-09-23
+---
+
 
 ### [Kant's Categorical Imperative](https://open.spotify.com/episode/1inzE6HWUEiFONLmad4bxn?si=MRJeU7ZPQ3e7LWPQJ4GoTQ)
  1. P. Guyer, _Kant’s Groundwork for the Metaphysics of Morals: A Reader’s Guide_ (Continuum, 2007)
