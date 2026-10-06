@@ -55,7 +55,7 @@ Write tags as `tags: [domain, scripture?, topic, topic]`, in that order, lower-c
 2. For each `[guessed]` file, read it. If it's clearly notes on a book, podcast, video or lecture, add `type:` to that file's front matter in the source folder (or ask the user if it's ambiguous). Add clearly stated metadata (author, show, course…) at the same time.
 3. `node tools/import.mjs <folder>` to copy the files in. It never overwrites; clashing names get `-2`.
 4. `node tools/stamp.mjs` to give every imported note its address and date.
-5. `node tools/check.mjs` to list links that point to notes that don't exist; report them rather than deleting them (they may be intentional).
+5. `node tools/check.mjs` to list links that point to notes that don't exist; report them rather than deleting them (they may be intentional). It also lists front matter that won't parse, duplicate addresses or titles, notes with identical text and embedded images that are missing: fix the front matter, report the rest.
 6. `node tools/build.mjs` must succeed. Optionally preview with `node tools/serve.mjs` (http://localhost:8000).
 7. Commit with a message like `Import 42 notes from Obsidian vault` and `git push`. The site updates about a minute later.
 
@@ -63,3 +63,4 @@ Write tags as `tags: [domain, scripture?, topic, topic]`, in that order, lower-c
 
 - `node tools/new.mjs book "Title"` (also `podcast`, `video`, `lecture`, `misc`) creates a note with the right fields.
 - `node tools/stamp.mjs --check` shows which notes still need an address.
+- `node tools/build.mjs` also writes `_site/<ID>/index.html` (a shareable address with a link preview that forwards to `#/<ID>`) and `_site/feed.xml`; set `SITE_URL` for absolute addresses (the workflow does).
