@@ -1,4 +1,6 @@
 ---
+id: M-0006
+date: 2026-10-05
 title: "2 Chronicles 29: Oral tradition, because Hezekiah had no written record about how David had done something"
 tags: [theology, scripture, tradition]
 summary: 2 Chronicles 29:1-19 — Hezekiah did according to all that David had done.

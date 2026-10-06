@@ -1,4 +1,6 @@
 ---
+id: M-0014
+date: 2026-10-05
 title: TAG
 tags: [theology, apologetics, epistemology]
 summary: The Transcendental Argument for God — knowledge requires transcendental categories, which must be grounded in God.

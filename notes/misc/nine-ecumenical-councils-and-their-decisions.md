@@ -1,4 +1,6 @@
 ---
+id: M-0012
+date: 2026-10-05
 title: Nine ecumenical councils and their decisions
 tags: [theology, councils, church-history]
 summary: Date, location and main decisions of each council, from Nicaea (325) to the Fifth Council of Constantinople (1351).

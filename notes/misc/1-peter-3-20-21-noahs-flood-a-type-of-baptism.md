@@ -1,4 +1,6 @@
 ---
+id: M-0004
+date: 2026-10-05
 title: "1 Peter 3:20-21: The events of Noah's flood were a type of baptism"
 tags: [theology, scripture, sacraments, covenant]
 summary: Peter presents the flood as a type of baptism — water, salvation through water, judgment and cleansing.
