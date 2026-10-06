@@ -1,4 +1,6 @@
 ---
+id: M-0224
+date: 2026-10-05
 title: Icons are biblical
 tags: [theology, icons-saints, scripture]
 summary: Ten biblical cases of sacred images and material things used by God.

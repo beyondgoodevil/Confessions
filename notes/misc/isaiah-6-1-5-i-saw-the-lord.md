@@ -1,4 +1,6 @@
 ---
+id: M-0228
+date: 2026-10-05
 title: "Isaiah 6:1-5: I saw the Lord"
 tags: [theology, scripture, christology]
 summary: Isaiah 6:1-5, Isaiah's vision of the Lord enthroned, with "I saw the Lord" highlighted.

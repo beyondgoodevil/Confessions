@@ -1,4 +1,6 @@
 ---
+id: M-0227
+date: 2026-10-05
 title: Is Ought
 tags: [theology, epistemology]
 summary: Hume's is-ought distinction in four points.

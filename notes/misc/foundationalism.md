@@ -1,4 +1,6 @@
 ---
+id: M-0204
+date: 2026-10-05
 title: Foundationalism
 tags: [theology, epistemology]
 summary: Foundationalism, three example principles, and two critiques.

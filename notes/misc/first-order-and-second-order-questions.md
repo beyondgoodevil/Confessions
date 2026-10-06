@@ -1,4 +1,6 @@
 ---
+id: M-0203
+date: 2026-10-05
 title: First-order and second-order questions
 tags: [theology, epistemology]
 summary: Questions about a subject versus questions about how we know the answers.

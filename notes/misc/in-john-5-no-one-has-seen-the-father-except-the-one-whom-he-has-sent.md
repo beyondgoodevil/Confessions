@@ -1,4 +1,6 @@
 ---
+id: M-0226
+date: 2026-10-05
 title: In John 5, Jesus explains that no one has seen the Father except the one whom He has sent
 tags: [theology, scripture, christology]
 summary: John 5:37 (KJV) — no one has heard the Father's voice or seen His shape.

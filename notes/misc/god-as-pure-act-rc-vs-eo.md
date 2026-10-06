@@ -1,4 +1,6 @@
 ---
+id: M-0213
+date: 2026-10-05
 title: "God as pure act: RC vs EO"
 tags: [theology, thomism, theosis]
 summary: What the Eastern Fathers meant by "pure act" compared with what Aquinas meant.

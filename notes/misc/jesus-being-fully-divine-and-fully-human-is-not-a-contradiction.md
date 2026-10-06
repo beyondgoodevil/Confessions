@@ -1,4 +1,6 @@
 ---
+id: M-0232
+date: 2026-10-05
 title: Jesus being fully divine and fully human is not a contradiction
 tags: [theology, christology, apologetics]
 summary: Why the excluded middle does not rule out two natures in one Person.

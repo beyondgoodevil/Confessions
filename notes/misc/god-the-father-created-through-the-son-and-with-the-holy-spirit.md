@@ -1,4 +1,6 @@
 ---
+id: M-0215
+date: 2026-10-05
 title: God the Father created through the Son and with the Holy Spirit
 tags: [theology, trinity, scripture]
 summary: Creation as the work of the Trinity — from the Father, through the Son, with the Holy Spirit.

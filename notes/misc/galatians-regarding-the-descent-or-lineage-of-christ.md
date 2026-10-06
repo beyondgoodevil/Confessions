@@ -1,4 +1,6 @@
 ---
+id: M-0207
+date: 2026-10-05
 title: Galatians regarding the descent or lineage of Christ
 tags: [theology, scripture, covenant]
 summary: Three verses from Galatians on Christ as Abraham's seed, born of a woman.

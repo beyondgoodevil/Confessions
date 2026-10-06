@@ -1,4 +1,6 @@
 ---
+id: M-0214
+date: 2026-10-05
 title: God being pure act makes incarnation impossible
 tags: [theology, thomism, christology]
 summary: Five ways a rigid notion of pure act undermines the Incarnation.

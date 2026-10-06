@@ -1,4 +1,6 @@
 ---
+id: M-0218
+date: 2026-10-05
 title: Hebrews 11 complements the idea of the heavenly liturgy and the intercession of saints
 tags: [theology, icons-saints, scripture]
 summary: The "cloud of witnesses" of Hebrews 11-12 as a basis for asking the saints' intercession.

@@ -1,4 +1,6 @@
 ---
+id: M-0221
+date: 2026-10-05
 title: How the Gospel of Matthew became canon
 tags: [theology, canon, church-history]
 summary: Five stages in the recognition of Matthew's Gospel, from Irenaeus to Augustine.

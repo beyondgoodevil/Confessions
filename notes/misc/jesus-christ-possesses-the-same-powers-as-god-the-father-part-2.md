@@ -1,4 +1,6 @@
 ---
+id: M-0234
+date: 2026-10-05
 title: Jesus Christ possesses the same powers as God the Father Part 2
 tags: [theology, christology, scripture]
 summary: Verses on Christ's authority over life and judgment and His role as Creator.

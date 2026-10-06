@@ -1,4 +1,6 @@
 ---
+id: M-0230
+date: 2026-10-05
 title: "Jeremiah 17:9 + 7:24: Corruption of faith due to human opinion"
 tags: [theology, scripture, tradition]
 summary: Jeremiah on the deceitful heart and on people following their own counsel.
