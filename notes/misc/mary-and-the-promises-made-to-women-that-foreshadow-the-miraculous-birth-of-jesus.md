@@ -1,7 +1,7 @@
 ---
 id: M-0184
 date: 2026-10-05
-title: Mary and the promises made to women that foreshadow the miraculous birth of Jesus
+title: Mary and the Promises Made to Women That Foreshadow the Miraculous Birth of Jesus
 tags: [theology, mary, scripture]
 summary: Old Testament promises to Eve, Sarah, Rachel and Hannah, Isaiah's prophecy, and their fulfilment in Mary.
 ---
@@ -46,7 +46,7 @@ summary: Old Testament promises to Eve, Sarah, Rachel and Hannah, Isaiah's proph
 
    This direct prophecy speaks of the virgin birth, which is ultimately fulfilled in Mary when she conceives Jesus by the Holy Spirit.
 
-### Fulfillment in Mary:
+## Fulfillment in Mary
 
 - Annunciation:
 
@@ -68,7 +68,7 @@ These verses illustrate how the promises made to women in the Old Testament conv
 
 ## Related
 
-- [[Virgin births in the OT]]
-- [[Sarah and Hannah experienced miraculous births: verses]]
-- [[The Virgin Birth of Mary: verses]]
-- [[Mary's consent to the angel Gabriel]]
+- [[Virgin Births in the OT]]
+- [[Sarah and Hannah Experienced Miraculous Births: Verses]]
+- [[The Virgin Birth of Mary: Verses]]
+- [[Mary's Consent to the Angel Gabriel]]

@@ -18,4 +18,4 @@ Ahrens' central claim: writing isn't the last step of research, it's the medium 
 
 ## Why links beat folders
 
-A folder asks *where does this belong?* A link asks *what does this connect to?* The second question is the one that produces new ideas. This notebook uses both: sections are the folders, `[[links]]` and tags do the connecting. See [[How to use this notebook]].
+A folder asks *where does this belong?* A link asks *what does this connect to?* The second question is the one that produces new ideas. This notebook uses both: sections are the folders, `[[Links]]` and tags do the connecting. See [[How to Use This Notebook]].

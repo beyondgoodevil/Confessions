@@ -1,12 +1,12 @@
 ---
 id: M-0127
 date: 2026-10-05
-title: Psalms and Isaiah speak about teaching of the nations
+title: Psalms and Isaiah Speak About Teaching of the Nations
 tags: [theology, scripture, covenant]
 summary: Six passages from the Psalms and Isaiah on the Messiah teaching all nations.
 ---
 
-### Psalms
+## Psalms
 
 1. Psalm 2:8:
     - **Verse:** "Ask of Me, and I will give You the nations for Your inheritance, and the ends of the earth for Your possession."
@@ -18,7 +18,7 @@ summary: Six passages from the Psalms and Isaiah on the Messiah teaching all nat
     - **Verse:** "All the nations You have made shall come and worship before You, O Lord, and shall glorify Your name."
     - **Significance:** This psalm expresses the hope that all nations will come to worship God, showcasing the inclusivity of His plan and the teaching role of the Messiah in leading nations to Him.
 
-### Isaiah
+## Isaiah
 
 1. Isaiah 2:2-3:
     - **Verses:** "It shall come to pass in the latter days that the mountain of the house of the Lord shall be established as the highest of the mountains, and shall be lifted up above the hills; and all the nations shall flow to it. And many peoples shall come and say: 'Come, let us go up to the mountain of the Lord, to the house of the God of Jacob, that He may teach us His ways and that we may walk in His paths.'"
@@ -32,7 +32,7 @@ summary: Six passages from the Psalms and Isaiah on the Messiah teaching all nat
 
 ## Related
 
-- [[The coming of the Messiah: all nations will be drawn to Him]]
-- [[Jesus fulfills prophecies]]
-- [[King David prophesied the incarnation of the Messiah]]
-- [[The first followers of Christ were Jews]]
+- [[The Coming of the Messiah: All Nations Will Be Drawn to Him]]
+- [[Jesus Fulfills Prophecies]]
+- [[King David Prophesied the Incarnation of the Messiah]]
+- [[The First Followers of Christ Were Jews]]

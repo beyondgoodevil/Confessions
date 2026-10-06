@@ -1,7 +1,7 @@
 ---
 id: M-0190
 date: 2026-10-05
-title: "Matthew 16:18: Jesus says the gates of hell will not prevail against the Church"
+title: "Matthew 16:18: Jesus Says the Gates of Hell Will Not Prevail Against the Church"
 tags: [theology, scripture, tradition]
 summary: Matthew 16:18, with "My church" highlighted.
 source: Matthew 16:18 (New King James Version)
@@ -14,6 +14,6 @@ source: Matthew 16:18 (New King James Version)
 ## Related
 
 - [[Matthew 15, 16: Office of the Keys]]
-- [[Christ set up His Church at Pentecost, and the Church is referred to as His]]
-- [[Jesus promises that the Holy Spirit will guide the Church]]
-- [[Branch theory refuted from the Bible]]
+- [[Christ Set Up His Church at Pentecost, and the Church Is Referred to as His]]
+- [[Jesus Promises That the Holy Spirit Will Guide the Church]]
+- [[Branch Theory Refuted From the Bible]]

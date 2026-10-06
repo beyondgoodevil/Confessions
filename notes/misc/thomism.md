@@ -10,7 +10,7 @@ summary: Thomism in outline, and what "God is pure act" means.
 
 Aquinas' Thomism emphasizes concepts such as the **existence of God**, **the nature of being**, **moral philosophy**, and the relationship between **grace** and **nature**. It holds that through **natural reason**, one can arrive at certain truths about God, the world, and morality, and that these truths align with **revelation** in Scripture.
 
-### "God is Pure Act"
+## "God is Pure Act"
 
 In Thomistic theology, when it is said that **"God is pure act"**, it refers to the concept of **"actus purus"** in Latin, meaning that God is **completely actualized** and lacks any potentiality. This idea is derived from Aquinas' interpretation of Aristotle's **Metaphysics**.
 
@@ -26,5 +26,5 @@ In summary, **"God is pure act"** in Thomism means that God is fully actualized,
 - [[Thomism EXTENDED]]
 - [[Thomism Leads to Eternal Creation]]
 - [[Thomism and the Originist Problematic]]
-- [[First and second actuality in Thomism]]
-- [[Aristotle and God as pure act]]
+- [[First and Second Actuality in Thomism]]
+- [[Aristotle and God as Pure Act]]

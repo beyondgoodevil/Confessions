@@ -1,7 +1,7 @@
 ---
 id: M-0205
 date: 2026-10-05
-title: Gabriel's announcement to Mary
+title: Gabriel's Announcement to Mary
 tags: [theology, mary, scripture]
 summary: Five passages from Luke 1-2 (KJV) on the Annunciation and the birth of Jesus.
 ---
@@ -23,7 +23,7 @@ summary: Five passages from Luke 1-2 (KJV) on the Annunciation and the birth of 
 
 ## Related
 
-- [[Mary's consent to the angel Gabriel]]
-- [[The Virgin Birth of Mary: verses]]
-- [[The prayer of Mary found in the Gospel of Luke]]
-- [[Mary and the promises made to women that foreshadow the miraculous birth of Jesus]]
+- [[Mary's Consent to the Angel Gabriel]]
+- [[The Virgin Birth of Mary: Verses]]
+- [[The Prayer of Mary Found in the Gospel of Luke]]
+- [[Mary and the Promises Made to Women That Foreshadow the Miraculous Birth of Jesus]]

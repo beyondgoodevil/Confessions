@@ -1,7 +1,7 @@
 ---
 id: M-0193
 date: 2026-10-05
-title: Moses wrote the Torah 1300 - 1500 BC
+title: Moses Wrote the Torah 1300 - 1500 BC
 tags: [theology, canon, church-history]
 summary: The traditional dating and authorship of the Torah.
 ---
@@ -14,5 +14,5 @@ The Torah is considered to have been written under **divine inspiration**. It in
 
 - [[Bible History]]
 - [[History of the Old Testament]]
-- [[NT books dates when written]]
-- [[Canon of the Bible: its history]]
+- [[NT Books Dates When Written]]
+- [[Canon of the Bible: Its History]]

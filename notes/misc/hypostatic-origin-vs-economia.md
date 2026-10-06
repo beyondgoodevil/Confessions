@@ -6,7 +6,7 @@ tags: [theology, trinity]
 summary: How the Persons relate within the Trinity, versus how God acts in the world.
 ---
 
-### 1. Hypostatic Origin
+## 1. Hypostatic Origin
 
 The term "hypostatic" comes from **hypostasis**, which means "person" or "individual reality" in the context of the Trinity. In the Trinity, there are three **hypostases**: the Father, the Son (Jesus Christ), and the Holy Spirit. The **hypostatic origin** refers to how each Person of the Trinity is related to the others:
 
@@ -16,7 +16,7 @@ The term "hypostatic" comes from **hypostasis**, which means "person" or "indivi
 
 This idea of origin helps explain the relationships within the Trinity without suggesting any inequality or division.
 
-### 2. Economia (or Divine Economy)
+## 2. Economia (or Divine Economy)
 
 **Economia** (Greek: οἰκονομία) refers to how God manages or governs the world, particularly in terms of **salvation history**—how God works to save humanity. In simple terms, it's about God's actions in the world:
 
@@ -25,7 +25,7 @@ This idea of origin helps explain the relationships within the Trinity without s
 
 While **hypostatic origin** focuses on how the Persons of the Trinity relate to one another, **economia** focuses on how God interacts with creation and carries out His plan for salvation.
 
-### Summary:
+## Summary
 
 - **Hypostatic origin** deals with how the Father, Son, and Holy Spirit relate within the Trinity: the Father is the source, the Son is begotten, and the Spirit proceeds.
 - **Economia** refers to God's actions in the world, especially the plan of salvation, including the incarnation of Christ and the work of the Holy Spirit.
@@ -33,7 +33,7 @@ While **hypostatic origin** focuses on how the Persons of the Trinity relate to 
 ## Related
 
 - [[Monarchical Trinitarianism]]
-- [[The distinction between relation of origin and relation of opposition]]
+- [[The Distinction Between Relation of Origin and Relation of Opposition]]
 - [[Economia]]
 - [[EO vs RC Trinity]]
 - [[Filioque and the Franks]]

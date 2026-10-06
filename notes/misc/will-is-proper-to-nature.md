@@ -1,7 +1,7 @@
 ---
 id: M-0032
 date: 2026-10-05
-title: Will is proper to nature
+title: Will Is Proper to Nature
 tags: [theology, christology]
 summary: Each of Christ's two natures has its own will, united in the one divine Person of the Son.
 ---
@@ -17,8 +17,8 @@ In summary, "will is proper to nature" means that Christ’s divine nature has a
 
 ## Related
 
-- [[The Question of Christ's two wills]]
-- [[St. Maximus on the two wills in Christ]]
-- [[The debate between Maximus the Confessor and Pyrrhus]]
-- [[Action is not proper to the person]]
-- [[Nature and person distinction in Christology]]
+- [[The Question of Christ's Two Wills]]
+- [[St. Maximus on the Two Wills in Christ]]
+- [[The Debate Between Maximus the Confessor and Pyrrhus]]
+- [[Action Is Not Proper to the Person]]
+- [[Nature and Person Distinction in Christology]]

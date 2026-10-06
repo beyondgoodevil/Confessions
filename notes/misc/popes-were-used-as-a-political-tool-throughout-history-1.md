@@ -1,12 +1,12 @@
 ---
 id: M-0121
 date: 2026-10-05
-title: Popes were used as a political tool throughout history 1
+title: Popes Were Used as a Political Tool Throughout History 1
 tags: [theology, church-history]
 summary: The papacy and secular rulers in the Carolingian era and the Investiture Controversy.
 ---
 
-### 1. The Carolingian Era (8th–9th Century) – The Pope as a Legitimizer of Kings
+## 1. The Carolingian Era (8th–9th Century) – The Pope as a Legitimizer of Kings
 
 - **Charlemagne (Reigned 768–814 AD)**
     - In **800 AD**, **Pope Leo III** crowned Charlemagne as **Holy Roman Emperor** in Rome.
@@ -16,7 +16,7 @@ summary: The papacy and secular rulers in the Carolingian era and the Investitur
     - Successors of Charlemagne continued using **papal approval** to justify their rule.
     - The Pope’s endorsement was seen as a **divine right** to rule over the Holy Roman Empire.
 
-### 2. The Investiture Controversy (11th–12th Century) – Struggles Between Pope and Kings
+## 2. The Investiture Controversy (11th–12th Century) – Struggles Between Pope and Kings
 
 - **Holy Roman Emperors (Henry IV vs. Pope Gregory VII, 1076–1122)**
     - **Henry IV** tried to control church appointments (lay investiture).
@@ -26,8 +26,8 @@ summary: The papacy and secular rulers in the Carolingian era and the Investitur
 
 ## Related
 
-- [[Popes were used as a political tool throughout history 2]]
-- [[Popes were used as a political tool throughout history 3]]
+- [[Popes Were Used as a Political Tool Throughout History 2]]
+- [[Popes Were Used as a Political Tool Throughout History 3]]
 - [[The Gregorian Reforms]]
 - [[St. Photios and the Political Use of the Filioque by the Franks]]
 - [[Filioque and the Franks]]

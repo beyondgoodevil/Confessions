@@ -1,7 +1,7 @@
 ---
 id: M-0202
 date: 2026-10-05
-title: Orthodox teaching about the sacraments being valid only within the canonical boundaries of the Church
+title: Orthodox Teaching About the Sacraments Being Valid Only Within the Canonical Boundaries of the Church
 tags: [theology, sacraments, tradition]
 summary: Four points on why the sacraments are efficacious only within the Church.
 ---
@@ -21,6 +21,6 @@ summary: Four points on why the sacraments are efficacious only within the Churc
 
 - [[Economia]]
 - [[Criteria for Valid Baptism in the Orthodox Church]]
-- [[EO view on Donatism]]
+- [[EO View on Donatism]]
 - [[St. Maximus on the Holy Spirit]]
-- [[3 necessary requirements of a valid sacrament (RC)]]
+- [[3 Necessary Requirements of a Valid Sacrament (RC)]]

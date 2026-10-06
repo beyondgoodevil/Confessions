@@ -9,7 +9,7 @@ source: Matthew 17:1-13 (New King James Version)
 
 The image is a screenshot of Matthew 17:1-13 in the New King James Version, under the heading **Jesus Transfigured on the Mount**, with the word "light" highlighted in verse 2. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
 
-### Jesus Transfigured on the Mount
+## Jesus Transfigured on the Mount
 
 - **17:1** – After six days Jesus takes Peter, James and John up a high mountain by themselves.
 - **17:2** (highlighted) – He is transfigured before them: His face shines like the sun and His clothes become as white as the ==light==.
@@ -23,6 +23,6 @@ The image is a screenshot of Matthew 17:1-13 in the New King James Version, unde
 ## Related
 
 - [[The Transfiguration of Jesus on Mount Tabor]]
-- [[1 Timothy 6:16: God dwells in unapproachable light, aka His uncreated Glory]]
-- [[God's uncreated energies]]
-- [[Acts 9:1-9: Paul (Saul) sees Christ as a light from heaven]]
+- [[1 Timothy 6:16: God Dwells in Unapproachable Light, aka His Uncreated Glory]]
+- [[God's Uncreated Energies]]
+- [[Acts 9:1-9: Paul (Saul) Sees Christ as a Light From Heaven]]

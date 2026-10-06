@@ -1,7 +1,7 @@
 ---
 id: M-0197
 date: 2026-10-05
-title: "Nicene Creed Canon 6: first among equals explanation"
+title: "Nicene Creed Canon 6: First Among Equals Explanation"
 tags: [theology, councils, church-history]
 summary: Canon 6 of Nicaea and what its "likewise" implies about Rome and the other sees.
 ---
@@ -15,7 +15,7 @@ This canon set the precedent for how authority was distributed among the early b
 
 ## Related
 
-- [[Laws/Canons that Nicea determined]]
-- [[Vatican 1 papal supremacy goes against the canons of Nicea]]
-- [[Vatican I's view of papal infallibility]]
-- [[Acts 15:6-22: Church government]]
+- [[Laws/Canons That Nicea Determined]]
+- [[Vatican 1 Papal Supremacy Goes Against the Canons of Nicea]]
+- [[Vatican I's View of Papal Infallibility]]
+- [[Acts 15:6-22: Church Government]]

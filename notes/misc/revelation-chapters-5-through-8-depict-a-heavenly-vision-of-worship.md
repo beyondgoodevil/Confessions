@@ -1,12 +1,12 @@
 ---
 id: M-0132
 date: 2026-10-05
-title: Revelation chapters 5 through 8 depict a heavenly vision of worship
+title: Revelation Chapters 5 Through 8 Depict a Heavenly Vision of Worship
 tags: [theology, icons-saints, scripture]
 summary: Key verses of heavenly worship in Revelation 5 to 8 and four themes drawn from them.
 ---
 
-### Key Verses Depicting Worship:
+## Key Verses Depicting Worship
 
 **Revelation 5:**
 
@@ -45,7 +45,7 @@ This scene illustrates how the prayers of believers are integrated into the wors
 
 ---
 
-### Themes of Worship:
+## Themes of Worship
 
 1. **The Centrality of the Lamb**: Jesus, the Lamb, is worshiped alongside God the Father, emphasizing His divine authority and role in salvation.
 2. **Liturgical Imagery**: Heavenly worship involves symbolic acts such as singing, the use of incense, and prostration.
@@ -56,8 +56,8 @@ These chapters highlight that worship is central to the life of the Church, both
 
 ## Related
 
-- [[Revelation 5:8 supports the doctrine of the intercession of the saints]]
-- [[Intercession of saints: Psalms and heavenly worship]]
+- [[Revelation 5:8 Supports the Doctrine of the Intercession of the Saints]]
+- [[Intercession of Saints: Psalms and Heavenly Worship]]
 - [[Old Testament Foreshadowings of Heavenly Worship]]
-- [[Liturgy origins]]
-- [[Hebrews 11 complements the idea of the heavenly liturgy and the intercession of saints]]
+- [[Liturgy Origins]]
+- [[Hebrews 11 Complements the Idea of the Heavenly Liturgy and the Intercession of Saints]]

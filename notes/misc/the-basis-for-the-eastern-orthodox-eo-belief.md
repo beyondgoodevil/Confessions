@@ -1,7 +1,7 @@
 ---
 id: M-0077
 date: 2026-10-05
-title: The basis for the Eastern Orthodox (EO) belief
+title: The Basis for the Eastern Orthodox (EO) Belief
 tags: [theology, tradition]
 summary: The seven elements of Holy Tradition on which Orthodox belief rests.
 ---
@@ -16,7 +16,7 @@ The basis for the **Eastern Orthodox (EO) belief** is fundamentally rooted in **
 6. **Apostolic Succession (Ἀποστολικὴ Διαδοχή)** – The uninterrupted transmission of spiritual authority from Christ and the Apostles through the bishops of the Orthodox Church. This ensures doctrinal continuity.
 7. **Hesychasm and the Vision of Uncreated Light** – The experience of the **Uncreated Light** (such as by St. Gregory Palamas and the hesychast saints) confirms Orthodox theology as not merely intellectual but **experiential** (*θεωρία* – theoria).
 
-### Core Theological Foundations:
+## Core Theological Foundations
 
 - **Monarchical Trinitarianism** – The Father is the source (*ἀρχή*) of the Son and the Holy Spirit.
 - **Christology** – Christ is one Person in two natures (divine and human), without confusion or separation (*Chalcedonian Definition*).
@@ -27,8 +27,8 @@ Eastern Orthodoxy does not rely on **one** single foundation (such as "Scripture
 
 ## Related
 
-- [[The word Orthodoxy meaning]]
+- [[The Word Orthodoxy Meaning]]
 - [[Monarchical Trinitarianism]]
 - [[2 Peter 1:3-4: Theosis]]
-- [[Paul commands to keep the oral traditions as well as the written ones]]
-- [[Nine ecumenical councils and their decisions]]
+- [[Paul Commands to Keep the Oral Traditions as Well as the Written Ones]]
+- [[Nine Ecumenical Councils and Their Decisions]]

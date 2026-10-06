@@ -1,7 +1,7 @@
 ---
 id: M-0200
 date: 2026-10-05
-title: NT books dates when written
+title: NT Books Dates When Written
 tags: [theology, canon, church-history]
 summary: Approximate dates of composition for 23 New Testament books.
 ---
@@ -33,6 +33,6 @@ summary: Approximate dates of composition for 23 New Testament books.
 ## Related
 
 - [[Bible History]]
-- [[Canon of the Bible: its history]]
-- [[How the Gospel of Matthew became canon]]
-- [[Moses wrote the Torah 1300 - 1500 BC]]
+- [[Canon of the Bible: Its History]]
+- [[How the Gospel of Matthew Became Canon]]
+- [[Moses Wrote the Torah 1300 - 1500 BC]]

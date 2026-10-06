@@ -1,7 +1,7 @@
 ---
 id: M-0177
 date: 2026-10-05
-title: "Judges 13:2-22: Samson's parents have seen God"
+title: "Judges 13:2-22: Samson's Parents Have Seen God"
 tags: [theology, scripture, christology]
 summary: Judges 13:2-22, where the Angel of the Lord appears to Manoah and his wife and they say they have seen God.
 source: Judges 13:2-22 (New King James Version)
@@ -24,6 +24,6 @@ The image is a screenshot of Judges 13:2-22 in the New King James Version, with 
 
 - [[The Angel of the Lord]]
 - [[Theophanies]]
-- [[Joshua 5:13-15: Joshua met the Lord]]
-- [[Genesis 32:24-30: Jacob wrestled and saw God]]
-- [[Jesus in the OT as theophany]]
+- [[Joshua 5:13-15: Joshua Met the Lord]]
+- [[Genesis 32:24-30: Jacob Wrestled and Saw God]]
+- [[Jesus in the OT as Theophany]]

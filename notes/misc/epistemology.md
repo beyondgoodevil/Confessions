@@ -13,7 +13,7 @@ summary: What epistemology studies and its key concepts, with the Orthodox groun
 3. **What are the limits of human knowledge?** (Skepticism and certainty)
 4. **How can we justify our beliefs?** (Standards of evidence and rationality)
 
-### Key Concepts in Epistemology
+## Key Concepts in Epistemology
 
 1. **Justified True Belief (JTB)** – The classical definition of knowledge:
     - A belief must be **true**.
@@ -30,14 +30,14 @@ summary: What epistemology studies and its key concepts, with the Orthodox groun
     - **Coherentism**: Beliefs are justified if they fit within a coherent system.
     - **Foundationalism**: Some beliefs (axioms) are self-justified and support others.
 
-### Epistemology and Worldviews
+## Epistemology and Worldviews
 
 A person’s **epistemology** determines how they evaluate **truth claims**. In **Eastern Orthodox thought**, epistemology is grounded in **divine revelation**, the **Church’s teaching**, and **spiritual experience**, rather than pure rationalism or empiricism.
 
 ## Related
 
-- [[Epistemic questions]]
-- [[Epistemic principle]]
+- [[Epistemic Questions]]
+- [[Epistemic Principle]]
 - [[The Gettier Problem]]
 - [[Foundationalism]]
 - [[Skepticism]]

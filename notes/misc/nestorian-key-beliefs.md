@@ -1,7 +1,7 @@
 ---
 id: M-0196
 date: 2026-10-05
-title: Nestorian key beliefs
+title: Nestorian Key Beliefs
 tags: [theology, christology]
 summary: Three key Nestorian beliefs and their condemnation at Ephesus.
 ---
@@ -15,7 +15,7 @@ Nestorians hold the following key beliefs:
 ## Related
 
 - [[Council of Ephesus: Nestorianism]]
-- [[Key teachings of the council of Ephesus]]
+- [[Key Teachings of the Council of Ephesus]]
 - [[The Third Letter of Cyril to Nestorius]]
-- [[Penal substitution leads to Nestorianism]]
+- [[Penal Substitution Leads to Nestorianism]]
 - [[Historical Position on Mary as Mother of God]]

@@ -1,7 +1,7 @@
 ---
 id: M-0145
 date: 2026-10-05
-title: St. Gregory of Nyssa's writings against Eunomius
+title: St. Gregory of Nyssa's Writings Against Eunomius
 tags: [theology, trinity, church-history]
 summary: Gregory's four points against Eunomius's claim that the Father and Son differ in essence.
 ---
@@ -19,7 +19,7 @@ In summary, St. Gregory of Nyssa's response to Eunomius was centered on defendin
 
 ## Related
 
-- [[Saint Gregory of Nyssa: essence energies]]
+- [[Saint Gregory of Nyssa: Essence Energies]]
 - [[The Trinity]]
 - [[Council of Nicea: Arianism]]
-- [[The distinction between relation of origin and relation of opposition]]
+- [[The Distinction Between Relation of Origin and Relation of Opposition]]

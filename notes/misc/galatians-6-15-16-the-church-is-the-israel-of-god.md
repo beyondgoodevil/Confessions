@@ -1,16 +1,16 @@
 ---
 id: M-0206
 date: 2026-10-05
-title: "Galatians 6:15-16: The Church is the Israel of God"
+title: "Galatians 6:15-16: The Church Is the Israel of God"
 tags: [theology, scripture, covenant]
 summary: Galatians 6:15-16 read as identifying the Church with the Israel of God.
 ---
 
-### Galatians 6:15-16 (ESV)
+## Galatians 6:15-16 (ESV)
 
 "For neither circumcision counts for anything, nor uncircumcision, but a new creation. And as for all who walk by this rule, peace and mercy be upon them, and upon the Israel of God."
 
-### Theological Breakdown:
+## Theological Breakdown
 
 1. New Creation in Christ:
     - Paul emphasizes that in Christ, physical circumcision (a key identity marker of Old Covenant Israel) no longer defines the people of God. Instead, what matters is being a **new creation** through faith in Christ. This reflects the transition from the **Old Covenant** to the **New Covenant**, where membership in God's people is determined by **faith** rather than ethnicity or adherence to the Mosaic Law.
@@ -21,8 +21,8 @@ summary: Galatians 6:15-16 read as identifying the Church with the Israel of God
 
 ## Related
 
-- [[EO continuity with OT]]
+- [[EO Continuity With OT]]
 - [[Types of Church in the OT]]
-- [[The first followers of Christ were Jews]]
-- [[Galatians regarding the descent or lineage of Christ]]
-- [[Believers inherit the promises of God only through their union with Christ]]
+- [[The First Followers of Christ Were Jews]]
+- [[Galatians Regarding the Descent or Lineage of Christ]]
+- [[Believers Inherit the Promises of God Only Through Their Union With Christ]]

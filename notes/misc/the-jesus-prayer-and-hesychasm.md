@@ -1,14 +1,14 @@
 ---
 id: M-0252
 date: 2026-10-06
-title: The Jesus Prayer and hesychasm
+title: The Jesus Prayer and Hesychasm
 tags: [theology, theosis, tradition]
 summary: The prayer, its biblical roots, the hesychast tradition from the Desert Fathers to St. Gregory Palamas, and how it is practised.
 ---
 
 **Hesychasm** (from the Greek *hesychia*, "stillness" or "quiet") is the Orthodox tradition of inner prayer and watchfulness that seeks unceasing remembrance of God. Its central practice is the **Jesus Prayer**.
 
-### 1. The Prayer
+## 1. The Prayer
 
 > **"Lord Jesus Christ, Son of God, have mercy on me, a sinner."**
 
@@ -23,7 +23,7 @@ What the words contain:
 - **"Lord Jesus Christ, Son of God"**: a confession of faith in who He is. "No man can say that Jesus is the Lord, but by the Holy Ghost" (1 Corinthians 12:3).
 - **"have mercy on me, a sinner"**: repentance, and trust in His compassion.
 
-### 2. Biblical Roots
+## 2. Biblical Roots
 
 - **Luke 18:13** – The publican: "God be merciful to me a sinner."
 - **Luke 18:38** – The blind man: "Jesus, thou Son of David, have mercy on me."
@@ -33,7 +33,7 @@ What the words contain:
 - **Acts 4:12** – "There is none other name under heaven given among men, whereby we must be saved."
 - **Matthew 6:6** – "Enter into thy closet, and when thou hast shut thy door, pray to thy Father which is in secret." The Fathers read the "closet" as the heart.
 
-### 3. History
+## 3. History
 
 1. **The Desert Fathers (4th–5th centuries)**:
     - Monks of Egypt used short, repeated prayers to keep the mind on God. **Evagrius** and **St. Macarius** taught guarding the thoughts and prayer of the heart.
@@ -52,7 +52,7 @@ What the words contain:
 5. **The Way of a Pilgrim (19th century)**:
     - An anonymous Russian account of a wanderer learning the prayer, which made it widely known among laypeople.
 
-### 4. Key Terms
+## 4. Key Terms
 
 - **Hesychia**: stillness, inner quiet before God.
 - **Nepsis**: watchfulness, sobriety; guarding the heart against thoughts.
@@ -62,7 +62,7 @@ What the words contain:
 - **Theoria**: the vision or contemplation of God.
 - **Theosis**: deification, participation in the divine life by grace.
 
-### 5. The Three Stages
+## 5. The Three Stages
 
 The tradition, following writers such as **St. Theophan the Recluse**, commonly describes three stages:
 
@@ -70,27 +70,27 @@ The tradition, following writers such as **St. Theophan the Recluse**, commonly 
 2. **Prayer of the mind**: the prayer is said inwardly, and attention rests in the words without wandering.
 3. **Prayer of the heart**: the prayer becomes continuous and self-acting, a gift of grace and not the product of a method.
 
-### 6. How It Is Practised
+## 6. How It Is Practised
 
 - **A set rule**: a fixed number of prayers or a fixed time, often counted on a **prayer rope** (*komboskini*, *chotki*).
 - **Throughout the day**: repeated during work, walking and waiting, to fulfil "pray without ceasing".
 - **Attention over quantity**: the Fathers stress enclosing the mind in the words of the prayer.
 - **Bodily aids**: some texts link the prayer to posture and breathing. These are secondary helps, and the Fathers warn against using them without guidance.
 
-### 7. Cautions in the Tradition
+## 7. Cautions in the Tradition
 
 - **Not a technique or mantra**: it is a prayer addressed to a Person, with faith and repentance. Its power is in the One invoked, not in repetition as such.
 - **Within the life of the Church**: it accompanies confession, the Eucharist, fasting and keeping the commandments. It does not replace them.
 - **A spiritual father**: the deeper practice should be undertaken with guidance, to avoid **prelest** (spiritual delusion).
 - **Do not seek experiences**: the Fathers teach that one should not look for lights, visions or sensations, and should distrust them if they come.
 
-### 8. Why It Matters Theologically
+## 8. Why It Matters Theologically
 
 - It rests on the **essence-energies distinction**: man can truly know and be united with God through His uncreated energies without comprehending His essence.
 - It shows that Orthodox theology is **experiential**: knowledge of God is communion, not only correct statements about Him.
 - It involves the **whole person**, body and soul, since the body too is to be sanctified and to share in the Resurrection.
 
-### Summary
+## Summary
 
 - The Jesus Prayer is a short confession of Christ joined to a plea for mercy, drawn from the Gospels.
 - Hesychasm is the tradition of stillness and watchfulness in which the prayer is practised.
@@ -99,11 +99,11 @@ The tradition, following writers such as **St. Theophan the Recluse**, commonly 
 
 ## Related
 
-- [[Essence-energies distinction]]
-- [[God's uncreated energies]]
+- [[Essence-Energies Distinction]]
+- [[God's Uncreated Energies]]
 - [[Nous]]
 - [[The Transfiguration of Jesus on Mount Tabor]]
-- [[Mysticism does not contradict evidentialism or evidence]]
-- [[Saint Gregory of Nyssa: essence energies]]
-- [[Nine ecumenical councils and their decisions]]
+- [[Mysticism Does Not Contradict Evidentialism or Evidence]]
+- [[Saint Gregory of Nyssa: Essence Energies]]
+- [[Nine Ecumenical Councils and Their Decisions]]
 - [[2 Peter 1:3-4: Theosis]]

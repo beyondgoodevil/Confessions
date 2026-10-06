@@ -6,7 +6,7 @@ tags: [theology, trinity, thomism]
 summary: The Cappadocian and Thomist models of the Trinity compared.
 ---
 
-### 1. The Cappadocian Model of the Trinity
+## 1. The Cappadocian Model of the Trinity
 
 The Cappadocians emphasized the personal, relational nature of the Trinity and rooted their theology in the distinction between *ousia* (essence) and *hypostases* (persons).
 
@@ -24,7 +24,7 @@ The Cappadocians emphasized the personal, relational nature of the Trinity and r
     - Resists philosophical abstraction, maintaining that the Trinity is revealed through Scripture and the life of the Church.
 - **Ontology:** The divine nature is understood as being fully present in each person, without division or hierarchy in terms of nature, though there is a hierarchy in terms of origin (the Father as the source).
 
-### 2. The Thomist Model of the Trinity
+## 2. The Thomist Model of the Trinity
 
 The Thomist model, rooted in the Western Latin tradition and heavily influenced by Augustine, approaches the Trinity with a more metaphysical framework. It seeks to explain the Trinity in terms of relations of origin and the inner life of God.
 
@@ -41,7 +41,7 @@ The Thomist model, rooted in the Western Latin tradition and heavily influenced 
     - Emphasizes the unity of the divine essence.
 - **Ontology:** The persons of the Trinity are understood more in terms of relations within the essence of God rather than distinct hypostases in the Cappadocian sense.
 
-### 3. Why the Difference Matters
+## 3. Why the Difference Matters
 
 - **Ecclesial Context:** The Cappadocian model reflects the Eastern Church's emphasis on relational theology, the monarchy of the Father, and the mystery of God. The Thomist model reflects the Western Church's focus on metaphysical unity and systematic theology.
 - **Filioque Controversy:** The different understandings of the procession of the Holy Spirit are at the heart of the East-West schism. The Cappadocians reject the *Filioque* because it compromises the monarchy of the Father, while the Thomist model sees the *Filioque* as safeguarding the relational unity of the persons.
@@ -52,7 +52,7 @@ In summary, the Cappadocian model is more apophatic and relational, emphasizing 
 ## Related
 
 - [[Monarchical Trinitarianism]]
-- [[The distinction between relation of origin and relation of opposition]]
+- [[The Distinction Between Relation of Origin and Relation of Opposition]]
 - [[Filioque and the Franks]]
 - [[The Trinity]]
 - [[Thomism EXTENDED]]

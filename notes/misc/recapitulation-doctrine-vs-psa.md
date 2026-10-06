@@ -18,8 +18,8 @@ summary: Penal substitution and recapitulation compared on Trinitarian unity, mo
 
 ## Related
 
-- [[Doctrine of recapitulation]]
-- [[Teaching of recapitulation]]
-- [[Penal substitution leads to Nestorianism]]
-- [[Reformer that believed that the Father damned the Son]]
-- [[Why Jesus' death and resurrection had to be so violent]]
+- [[Doctrine of Recapitulation]]
+- [[Teaching of Recapitulation]]
+- [[Penal Substitution Leads to Nestorianism]]
+- [[Reformer That Believed That the Father Damned the Son]]
+- [[Why Jesus' Death and Resurrection Had to Be So Violent]]

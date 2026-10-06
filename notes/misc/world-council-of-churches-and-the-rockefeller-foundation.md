@@ -8,7 +8,7 @@ summary: Rockefeller funding of the ecumenical movement that led to the World Co
 
 The **World Council of Churches (WCC)** was officially founded in **1948** in Amsterdam, Netherlands. However, discussions and preparatory work for its formation began much earlier, particularly in the **1920s and 1930s**.
 
-### Rockefeller Funding and Influence
+## Rockefeller Funding and Influence
 
 While the **Rockefeller Foundation** did not directly establish the WCC, it played a significant role in **funding and supporting** the ecumenical movement that led to its creation.
 

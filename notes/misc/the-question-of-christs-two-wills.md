@@ -1,7 +1,7 @@
 ---
 id: M-0088
 date: 2026-10-05
-title: The Question of Christ's two wills
+title: The Question of Christ's Two Wills
 tags: [theology, christology]
 summary: Dyothelitism — why two natures mean two wills, and why this does not divide Christ's person.
 ---
@@ -16,8 +16,8 @@ Thus, dyothelitism preserves the integrity of Christ's incarnation and His work 
 
 ## Related
 
-- [[Will is proper to nature]]
-- [[St. Maximus on the two wills in Christ]]
-- [[The debate between Maximus the Confessor and Pyrrhus]]
+- [[Will Is Proper to Nature]]
+- [[St. Maximus on the Two Wills in Christ]]
+- [[The Debate Between Maximus the Confessor and Pyrrhus]]
 - [[Canons of the Sixth Ecumenical Council]]
-- [[Action is not proper to the person]]
+- [[Action Is Not Proper to the Person]]

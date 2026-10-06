@@ -1,7 +1,7 @@
 ---
 id: M-0113
 date: 2026-10-05
-title: Why Christ's two natures can not mix
+title: Why Christ's Two Natures Can Not Mix
 tags: [theology, christology]
 summary: Why a single mixed nature in Christ would produce a "Tertium Quid", neither truly God nor truly man.
 ---
@@ -19,6 +19,6 @@ In conclusion, if one were to insist that there is only one nature in each hypos
 
 - [[The Council of Chalcedon (451 AD)]]
 - [[The Hypostatic Union]]
-- [[Nature and person distinction in Christology]]
-- [[Action is not proper to the person]]
-- [[Jesus being fully divine and fully human is not a contradiction]]
+- [[Nature and Person Distinction in Christology]]
+- [[Action Is Not Proper to the Person]]
+- [[Jesus Being Fully Divine and Fully Human Is Not a Contradiction]]

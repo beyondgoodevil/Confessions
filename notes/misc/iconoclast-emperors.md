@@ -6,7 +6,7 @@ tags: [theology, icons-saints, church-history]
 summary: Four Byzantine emperors and the political motives behind their iconoclasm.
 ---
 
-### 1. Emperor Leo III (r. 717–741) – The First Iconoclast Emperor
+## 1. Emperor Leo III (r. 717–741) – The First Iconoclast Emperor
 
 - **Political Motive:** Strengthening Imperial Authority
 - **How He Used Iconoclasm:**
@@ -15,7 +15,7 @@ summary: Four Byzantine emperors and the political motives behind their iconocla
     - By attacking icons, he **asserted imperial authority over the Church**, challenging the Patriarch of Constantinople and the Pope of Rome.
     - He also **hoped to appease Muslims and Jews**, who saw Christian icons as idolatrous.
 
-### 2. Emperor Constantine V (r. 741–775) – The Most Aggressive Iconoclast
+## 2. Emperor Constantine V (r. 741–775) – The Most Aggressive Iconoclast
 
 - **Political Motive:** Suppressing Monastic and Church Power
 - **How He Used Iconoclasm:**
@@ -25,7 +25,7 @@ summary: Four Byzantine emperors and the political motives behind their iconocla
     - His **brutality against iconodules was extreme**, leading to the **beating, exile, and execution** of those who resisted.
     - He promoted **imperial-controlled theology**, reducing the influence of bishops who supported icons.
 
-### 3. Emperor Leo V (r. 813–820) – Reviving Iconoclasm for Political Stability
+## 3. Emperor Leo V (r. 813–820) – Reviving Iconoclasm for Political Stability
 
 - **Political Motive:** Reuniting the Empire After Military Defeats
 - **How He Used Iconoclasm:**
@@ -34,7 +34,7 @@ summary: Four Byzantine emperors and the political motives behind their iconocla
     - He removed **Patriarch Nicephorus I**, who supported icons, and replaced him with an **iconoclast-friendly patriarch**.
     - Leo V’s policy was **less extreme than Constantine V’s**, but it still aimed at **strengthening the emperor’s control over religious affairs**.
 
-### 4. Emperor Theophilos (r. 829–842) – The Last Iconoclast Emperor
+## 4. Emperor Theophilos (r. 829–842) – The Last Iconoclast Emperor
 
 - **Political Motive:** Modernizing the Empire and Weakening Monastic Influence
 - **How He Used Iconoclasm:**
@@ -45,8 +45,8 @@ summary: Four Byzantine emperors and the political motives behind their iconocla
 
 ## Related
 
-- [[Icons are biblical]]
-- [[Icons: biblical justification]]
+- [[Icons Are Biblical]]
+- [[Icons: Biblical Justification]]
 - [[Roman Emperors Who Used Arianism for Political Power]]
-- [[Nine ecumenical councils and their decisions]]
-- [[Protestant heresy falls into heresies dealt with in the ecumenical councils]]
+- [[Nine Ecumenical Councils and Their Decisions]]
+- [[Protestant Heresy Falls Into Heresies Dealt With in the Ecumenical Councils]]

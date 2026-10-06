@@ -1,7 +1,7 @@
 ---
 id: M-0108
 date: 2026-10-05
-title: Usage of the term hypostasis in the NT
+title: Usage of the Term Hypostasis in the NT
 tags: [theology, scripture, christology]
 summary: Four New Testament passages that use the Greek word hypostasis.
 ---
@@ -25,6 +25,6 @@ While **hypostasis** is not used extensively in the New Testament, its appearanc
 ## Related
 
 - [[The Hypostatic Union]]
-- [[Nature and person distinction in Christology]]
-- [[St. John of Damascus on inhypostatisation of the human nature of Christ]]
-- [[Why Christ's two natures can not mix]]
+- [[Nature and Person Distinction in Christology]]
+- [[St. John of Damascus on Inhypostatisation of the Human Nature of Christ]]
+- [[Why Christ's Two Natures Can Not Mix]]

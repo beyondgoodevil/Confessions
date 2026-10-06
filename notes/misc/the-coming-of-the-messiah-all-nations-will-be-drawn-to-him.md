@@ -1,7 +1,7 @@
 ---
 id: M-0023
 date: 2026-10-05
-title: "The coming of the Messiah: all nations will be drawn to Him"
+title: "The Coming of the Messiah: All Nations Will Be Drawn to Him"
 tags: [theology, scripture, covenant]
 summary: Prophecies that all nations will flow to the Lord, from Isaiah, Micah, Zechariah and Acts.
 ---
@@ -24,7 +24,7 @@ This verse, quoting the prophet Joel, emphasizes the inclusivity of salvation, e
 
 ## Related
 
-- [[Psalms and Isaiah speak about teaching of the nations]]
-- [[Jesus fulfills prophecies]]
-- [[The first followers of Christ were Jews]]
-- [[Galatians 6:15-16: The Church is the Israel of God]]
+- [[Psalms and Isaiah Speak About Teaching of the Nations]]
+- [[Jesus Fulfills Prophecies]]
+- [[The First Followers of Christ Were Jews]]
+- [[Galatians 6:15-16: The Church Is the Israel of God]]

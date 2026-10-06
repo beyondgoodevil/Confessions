@@ -18,7 +18,7 @@ This council was convened to address controversies surrounding the teachings of 
 ## Related
 
 - [[The Hypostatic Union]]
-- [[Why Christ's two natures can not mix]]
-- [[Nine ecumenical councils and their decisions]]
+- [[Why Christ's Two Natures Can Not Mix]]
+- [[Nine Ecumenical Councils and Their Decisions]]
 - [[The Fifth Ecumenical Council]]
 - [[Council of Ephesus: Nestorianism]]

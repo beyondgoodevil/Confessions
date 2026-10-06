@@ -1,7 +1,7 @@
 ---
 id: M-0064
 date: 2026-10-05
-title: Moving the goalpost
+title: Moving the Goalpost
 tags: [theology, fallacies]
 summary: The fallacy of changing the criteria of an argument after they have been met.
 ---
@@ -14,7 +14,7 @@ This is a form of logical fallacy and intellectual dishonesty. It typically happ
 2. That standard is met.
 3. The person then changes the criteria to avoid conceding or admitting defeat.
 
-### Example:
+## Example
 
 - Person A: “If you can show me one Church Father who believed in the Real Presence of Christ in the Eucharist, I’ll believe it.”
 - Person B: “Here’s St. Ignatius of Antioch, writing in the 1st century.”
@@ -22,13 +22,13 @@ This is a form of logical fallacy and intellectual dishonesty. It typically happ
 
 Here, Person A has moved the goalpost.
 
-### Origin of the Phrase:
+## Origin of the Phrase
 
 It comes from sports, especially football (soccer or American), where moving the literal goalpost during the game would make scoring unfair or impossible. Applied rhetorically, it describes shifting demands mid-conversation to avoid losing or admitting an error.
 
 ## Related
 
-- [[Ad hoc claim]]
-- [[Double standard fallacy]]
-- [[Tu quoque fallacy]]
-- [[The ad hominem fallacy]]
+- [[Ad Hoc Claim]]
+- [[Double Standard Fallacy]]
+- [[Tu Quoque Fallacy]]
+- [[The Ad Hominem Fallacy]]

@@ -1,7 +1,7 @@
 ---
 id: M-0232
 date: 2026-10-05
-title: Jesus being fully divine and fully human is not a contradiction
+title: Jesus Being Fully Divine and Fully Human Is Not a Contradiction
 tags: [theology, christology, apologetics]
 summary: Why the excluded middle does not rule out two natures in one Person.
 ---
@@ -13,7 +13,7 @@ Furthermore, the distinction between **nature** and **person** is crucial. Natur
 ## Related
 
 - [[The Hypostatic Union]]
-- [[Nature and person distinction in Christology]]
-- [[The classic laws of logic]]
+- [[Nature and Person Distinction in Christology]]
+- [[The Classic Laws of Logic]]
 - [[The Council of Chalcedon (451 AD)]]
-- [[Why Christ's two natures can not mix]]
+- [[Why Christ's Two Natures Can Not Mix]]

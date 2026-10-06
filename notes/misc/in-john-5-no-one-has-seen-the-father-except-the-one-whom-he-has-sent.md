@@ -1,7 +1,7 @@
 ---
 id: M-0226
 date: 2026-10-05
-title: In John 5, Jesus explains that no one has seen the Father except the one whom He has sent
+title: In John 5, Jesus Explains That No One Has Seen the Father Except the One Whom He Has Sent
 tags: [theology, scripture, christology]
 summary: John 5:37 (KJV) — no one has heard the Father's voice or seen His shape.
 ---
@@ -12,7 +12,7 @@ summary: John 5:37 (KJV) — no one has heard the Father's voice or seen His sha
 
 ## Related
 
-- [[John 14:9: Jesus explicitly states that He is the image of the Father]]
-- [[Jesus in the OT as theophany]]
-- [[Isaiah 6:1-5: I saw the Lord]]
+- [[John 14:9: Jesus Explicitly States That He Is the Image of the Father]]
+- [[Jesus in the OT as Theophany]]
+- [[Isaiah 6:1-5: I Saw the Lord]]
 - [[Theophanies]]

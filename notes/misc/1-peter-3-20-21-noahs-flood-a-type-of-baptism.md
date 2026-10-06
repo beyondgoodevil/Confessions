@@ -1,7 +1,7 @@
 ---
 id: M-0004
 date: 2026-10-05
-title: "1 Peter 3:20-21: The events of Noah's flood were a type of baptism"
+title: "1 Peter 3:20-21: The Events of Noah's Flood Were a Type of Baptism"
 tags: [theology, scripture, sacraments, covenant]
 summary: Peter presents the flood as a type of baptism — water, salvation through water, judgment and cleansing.
 ---
@@ -12,7 +12,7 @@ summary: Peter presents the flood as a type of baptism — water, salvation thro
 
 In this passage, Peter explains that just as Noah and his family were saved through water in the ark, baptism now saves believers. However, he clarifies that baptism is not merely a physical cleansing but a spiritual act—a pledge of a good conscience toward God, accomplished through the resurrection of Jesus Christ.
 
-### Breakdown of the Typology:
+## Breakdown of the Typology
 
 1. **Water:**
    In both Noah's flood and baptism, water plays a central role. In the flood, it was an instrument of judgment on sin but also a means of salvation for Noah's family. In baptism, water symbolizes the washing away of sin.

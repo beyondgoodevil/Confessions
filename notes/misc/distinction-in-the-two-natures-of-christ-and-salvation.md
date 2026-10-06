@@ -1,7 +1,7 @@
 ---
 id: M-0235
 date: 2026-10-06
-title: Distinction in the two natures of Christ and salvation
+title: Distinction in the Two Natures of Christ and Salvation
 tags: [theology, christology]
 summary: Five reasons a "Tertium Quid" Christ could not save.
 ---
@@ -18,8 +18,8 @@ In summary, if Christ were reduced to a "Tertium Quid," His ability to save huma
 
 ## Related
 
-- [[Distinction in the two natures of Christ and salvation 2]]
-- [[Why Christ's two natures can not mix]]
-- [[Doctrine of recapitulation]]
+- [[Distinction in the Two Natures of Christ and Salvation 2]]
+- [[Why Christ's Two Natures Can Not Mix]]
+- [[Doctrine of Recapitulation]]
 - [[The Hypostatic Union]]
 - [[The Council of Chalcedon (451 AD)]]

@@ -10,7 +10,7 @@ The **Orthodox understanding of economia (οἰκονομία)** refers to the *
 
 ---
 
-### Key Aspects of Economia:
+## Key Aspects of Economia
 
 1. **Definition**:
     - The term *oikonomia* literally means “household management” or “stewardship.” In a theological and canonical context, it refers to the Church’s **authority to adapt or relax** certain canonical or disciplinary requirements to address specific circumstances without compromising doctrinal integrity.
@@ -63,7 +63,7 @@ The **Orthodox understanding of economia (οἰκονομία)** refers to the *
 
 ---
 
-### Why Is Economia Important?
+## Why Is Economia Important?
 
 1. **Focus on Salvation**:
     - The ultimate goal of economia is the **salvation of souls**. It allows the Church to adapt to specific circumstances without compromising essential truths.
@@ -74,14 +74,14 @@ The **Orthodox understanding of economia (οἰκονομία)** refers to the *
 
 ---
 
-### Summary:
+## Summary
 
 Economia is the Church’s way of balancing **truth with mercy** and **rigor with compassion**. It allows the Orthodox Church to maintain its doctrinal integrity while exercising pastoral flexibility to lead the faithful toward **salvation**. This principle ensures that the Church is not merely a legalistic institution but a living body guided by the Holy Spirit, always seeking to apply Christ’s love in every situation.
 
 ## Related
 
 - [[Criteria for Valid Baptism in the Orthodox Church]]
-- [[Orthodox teaching about the sacraments being valid only within the canonical boundaries of the Church]]
-- [[EO view on Donatism]]
+- [[Orthodox Teaching About the Sacraments Being Valid Only Within the Canonical Boundaries of the Church]]
+- [[EO View on Donatism]]
 - [[Hypostatic Origin vs Economia]]
-- [[Legalistic view on baptism: article, Roman Catholic Church]]
+- [[Legalistic View on Baptism: Article, Roman Catholic Church]]

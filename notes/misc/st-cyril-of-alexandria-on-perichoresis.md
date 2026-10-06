@@ -1,7 +1,7 @@
 ---
 id: M-0144
 date: 2026-10-05
-title: St. Cyril of Alexandria on perichoresis
+title: St. Cyril of Alexandria on Perichoresis
 tags: [theology, trinity]
 summary: Perichoresis — the mutual indwelling of the three Persons — as St. Cyril used it.
 ---
@@ -10,7 +10,7 @@ St. Cyril of Alexandria used the term **"perichoresis"** (Greek: περιχώρ�
 
 St. Cyril’s use of perichoresis was aimed at emphasizing the deep unity and inseparability of the three persons of the Trinity, while also maintaining their distinct personal properties. For Cyril, the perichoresis between the Father, Son, and Holy Spirit meant that they share the same divine essence (ousia) and are inseparably united in their actions and will, yet each person is distinct and retains their own personhood (hypostasis).
 
-### Key points of St. Cyril's understanding of perichoresis:
+## Key points of St. Cyril's understanding of perichoresis
 
 1. **Inseparable Union**: The Father, Son, and Holy Spirit are not three separate gods but are united in one divine essence. They cannot be divided or separated from one another. This mutual indwelling is central to understanding how they exist together in perfect unity while being distinct persons.
 2. **Mutual Interpenetration**: Each of the divine persons penetrates and indwells the others, meaning the Father is in the Son and the Son is in the Father, and the Holy Spirit is in both the Father and the Son. This interpenetration does not diminish the distinctness of each person but shows the perfect unity and relationship between them.
@@ -23,5 +23,5 @@ In summary, **perichoresis** refers to the profound interrelationship and mutual
 
 - [[The Trinity]]
 - [[The Third Letter of Cyril to Nestorius]]
-- [[God the Father created through the Son and with the Holy Spirit]]
-- [[Distinction does not necessitate separation, division, or composition]]
+- [[God the Father Created Through the Son and With the Holy Spirit]]
+- [[Distinction Does Not Necessitate Separation, Division, or Composition]]

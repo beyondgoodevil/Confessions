@@ -6,7 +6,7 @@ tags: [theology, covenant, scripture]
 summary: Ten Old Testament types of Christ, from Adam to the manna from heaven.
 ---
 
-### 1. Types of Christ in the Old Testament:
+## Types of Christ in the Old Testament
 
 - **Adam** (Romans 5:14)  
   Adam is a type of Christ as the first man through whom humanity fell, just as Christ is the "Second Adam" who redeems humanity.
@@ -33,6 +33,6 @@ summary: Ten Old Testament types of Christ, from Adam to the manna from heaven.
 
 - [[Types of Mary in the OT]]
 - [[Types of Church in the OT]]
-- [[Noah is a type of Christ]]
-- [[The Melchizedekian priesthood]]
-- [[Christ as the new Adam: verses]]
+- [[Noah Is a Type of Christ]]
+- [[The Melchizedekian Priesthood]]
+- [[Christ as the New Adam: Verses]]

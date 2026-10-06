@@ -1,12 +1,12 @@
 ---
 id: M-0051
 date: 2026-10-05
-title: Epistemic principle
+title: Epistemic Principle
 tags: [theology, epistemology]
 summary: What epistemic principles are, with four standard examples.
 ---
 
-### Key Aspects of Epistemic Principles in Philosophy:
+## Key Aspects of Epistemic Principles in Philosophy
 
 1. **Justification of Beliefs:**
 
@@ -20,7 +20,7 @@ summary: What epistemic principles are, with four standard examples.
 
    Many epistemic principles emphasize the role of evidence in justifying beliefs. A principle might assert that beliefs should be based on empirical evidence, logical coherence, or testimony from reliable sources.
 
-### Examples of Epistemic Principles:
+## Examples of Epistemic Principles
 
 1. **The Principle of Non-Contradiction:**
 
@@ -43,7 +43,7 @@ In summary, **epistemic principles** in philosophy help to explain how knowledge
 ## Related
 
 - [[Epistemology]]
-- [[Epistemic questions]]
+- [[Epistemic Questions]]
 - [[The Gettier Problem]]
-- [[The classic laws of logic]]
-- [[Criterion problem]]
+- [[The Classic Laws of Logic]]
+- [[Criterion Problem]]

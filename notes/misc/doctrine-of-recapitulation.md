@@ -1,14 +1,14 @@
 ---
 id: M-0047
 date: 2026-10-05
-title: Doctrine of recapitulation
+title: Doctrine of Recapitulation
 tags: [theology, christology, theosis]
 summary: St. Irenaeus's doctrine that Christ sums up and renews all humanity and creation in Himself.
 ---
 
 The doctrine of **recapitulation** is a theological concept most notably articulated by St. Irenaeus of Lyons (2nd century), which interprets the work of Christ as a "summing up" or "renewal" of all humanity and creation in Himself. It is a key element of Eastern Orthodox theology, emphasizing Christ's role in restoring what was lost through Adam's sin and uniting all things in Himself.
 
-### Key Points of the Doctrine:
+## Key Points of the Doctrine
 
 1. **Christ as the New Adam**:
     - Recapitulation is rooted in the biblical parallel between Adam and Christ (e.g., Romans 5:12-21, 1 Corinthians 15:22, 45). Just as Adam's disobedience led to humanity's fall, Christ's obedience reverses this and restores humanity to communion with God.
@@ -24,20 +24,20 @@ The doctrine of **recapitulation** is a theological concept most notably articul
 5. **Participation in Christ**:
     - Recapitulation is not merely a past event but an ongoing process. Through the Church and the sacraments, Christians participate in the life of Christ and are renewed in His image, progressing toward the ultimate restoration of all things.
 
-### Patristic Context:
+## Patristic Context
 
 St. Irenaeus explained recapitulation in his work *Against Heresies*. He emphasized that Christ, in His Incarnation, assumed all of human nature in order to heal and redeem it. He wrote:
 
 *"He [Christ] has therefore, in His work of recapitulation, summed up all things, both waging war against our enemy and crushing him who at the beginning led us away as captives in Adam, and trampling on his head…"* (Against Heresies, Book V, Chapter 21)
 
-### Summary:
+## Summary
 
 The doctrine of recapitulation views Christ’s Incarnation, life, death, and resurrection as a comprehensive renewal of humanity and creation. By reversing the effects of Adam's fall, Christ restores communion with God and makes it possible for humanity to share in divine life. It is not just a legal or transactional atonement but a holistic and transformative process of renewal and union with God.
 
 ## Related
 
-- [[Teaching of recapitulation]]
+- [[Teaching of Recapitulation]]
 - [[Recapitulation Doctrine vs PSA]]
-- [[Christ as the new Adam: verses]]
-- [[Adam as a type of Christ and Eve as a type of the Church]]
-- [[Penal substitution leads to Nestorianism]]
+- [[Christ as the New Adam: Verses]]
+- [[Adam as a Type of Christ and Eve as a Type of the Church]]
+- [[Penal Substitution Leads to Nestorianism]]

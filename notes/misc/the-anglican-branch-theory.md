@@ -17,7 +17,7 @@ Key points of the theory include:
 
 ## Related
 
-- [[Branch theory refuted from the Bible]]
+- [[Branch Theory Refuted From the Bible]]
 - [[Ecumenical Organizations]]
 - [[Vatican II Ecumenism]]
 - [[Mortalium Animos]]

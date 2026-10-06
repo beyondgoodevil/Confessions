@@ -1,7 +1,7 @@
 ---
 id: M-0115
 date: 2026-10-05
-title: "Acts 20:7-9: Paul gave a long sermon, but the details of what he said are not written down in Scripture"
+title: "Acts 20:7-9: Paul Gave a Long Sermon, but the Details of What He Said Are Not Written Down in Scripture"
 tags: [theology, tradition, scripture]
 summary: Acts 20:7-9, where Paul preaches until midnight and none of the sermon is recorded.
 source: Acts 20:7-9 (New King James Version)
@@ -9,7 +9,7 @@ source: Acts 20:7-9 (New King James Version)
 
 The image is a screenshot of Acts 20:7-9 in the New King James Version, under the heading **Ministering at Troas**. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
 
-### Ministering at Troas
+## Ministering at Troas
 
 - **20:7** – On the first day of the week the disciples gather to break bread. Paul, about to leave the next day, speaks to them and continues his message until midnight.
 - **20:8** – There are many lamps in the upper room where they are gathered.
@@ -17,7 +17,7 @@ The image is a screenshot of Acts 20:7-9 in the New King James Version, under th
 
 ## Related
 
-- [[Paul commands to keep the oral traditions as well as the written ones]]
-- [[John 20:30: Not everything Jesus did has been written down]]
-- [[Paul either had access to additional oral traditions of Jesus' teachings or through the inspiration of the Holy Spirit]]
-- [[Acts: Paul instructs]]
+- [[Paul Commands to Keep the Oral Traditions as Well as the Written Ones]]
+- [[John 20:30: Not Everything Jesus Did Has Been Written Down]]
+- [[Paul Either Had Access to Additional Oral Traditions of Jesus' Teachings or Through the Inspiration of the Holy Spirit]]
+- [[Acts: Paul Instructs]]

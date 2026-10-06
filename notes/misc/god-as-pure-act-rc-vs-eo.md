@@ -1,12 +1,12 @@
 ---
 id: M-0213
 date: 2026-10-05
-title: "God as pure act: RC vs EO"
+title: "God as Pure Act: RC vs EO"
 tags: [theology, thomism, theosis]
 summary: What the Eastern Fathers meant by "pure act" compared with what Aquinas meant.
 ---
 
-### What St. John of Damascus and St. Maximus the Confessor Meant
+## What St. John of Damascus and St. Maximus the Confessor Meant
 
 1. **God as Pure Actuality (Without Potentiality)**: For the Eastern Fathers like St. John and St. Maximus, God is described as "pure act" because He is entirely complete, lacking any potentiality. Unlike created beings, who can change, grow, or realize something they are not yet, God is perfect and unchanging. In this sense:
     - God is **pure actuality**, meaning He is fully and eternally everything He is, with no "potential" to change or become more or less. This aligns with their emphasis on God’s immutability (*apatheia*).
@@ -16,7 +16,7 @@ summary: What the Eastern Fathers meant by "pure act" compared with what Aquinas
     - For example, St. Maximus elaborates on how creation participates in God’s energies (not His essence), allowing creatures to be transformed without altering God Himself.
 3. **The Focus on God’s Relationship with Creation**: For these Fathers, "pure act" emphasizes God’s active engagement with creation. God is not static or passive but is always dynamically sustaining and perfecting creation. However, this activity does not imply any change within God Himself.
 
-### What Thomas Aquinas Meant by "Pure Act"
+## What Thomas Aquinas Meant by "Pure Act"
 
 Thomas Aquinas also described God as "actus purus" (pure act), but his understanding is rooted in Aristotelian metaphysics. While there are similarities to the Eastern Fathers, there are critical differences:
 
@@ -28,7 +28,7 @@ Thomas Aquinas also described God as "actus purus" (pure act), but his understan
     - God is the "Unmoved Mover" or the first cause of all things, whose pure actuality is the source of all motion, change, and existence in the universe.
 3. **Essence vs. Energies Debate**: Thomistic theology does not have the same distinction between **essence** and **energies** as found in the Eastern Fathers. In Aquinas’ view, God’s actions (e.g., His love, will, power) are identical to His essence. This differs from the Eastern view, which holds that God’s energies are distinct from His unknowable essence but still uncreated and eternal.
 
-### Why the Difference Matters
+## Why the Difference Matters
 
 For the Eastern Fathers, the concept of "pure act" stresses God’s relational and active presence in creation, without compromising His transcendence. Their emphasis on **energies** ensures that God remains actively involved with creation while His essence remains utterly beyond comprehension.
 
@@ -38,8 +38,8 @@ In summary, both traditions affirm God as "pure act," but they differ in focus: 
 
 ## Related
 
-- [[St. John of Damascus and St. Maximus the Confessor describe God as pure act]]
-- [[God being pure act makes incarnation impossible]]
-- [[Aristotle and God as pure act]]
+- [[St. John of Damascus and St. Maximus the Confessor Describe God as Pure Act]]
+- [[God Being Pure Act Makes Incarnation Impossible]]
+- [[Aristotle and God as Pure Act]]
 - [[Thomism]]
 - [[Differences Between Gregory’s Dunamis and Thomistic Pure Act]]

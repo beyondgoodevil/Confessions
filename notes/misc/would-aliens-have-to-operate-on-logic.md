@@ -1,12 +1,12 @@
 ---
 id: M-0034
 date: 2026-10-05
-title: Would aliens have to operate on logic
+title: Would Aliens Have to Operate on Logic
 tags: [theology, apologetics, epistemology]
 summary: Why any being, alien or human, must operate within objective truth, identity and order.
 ---
 
-### I. Being Requires Identity, and Identity Requires Stability
+## I. Being Requires Identity, and Identity Requires Stability
 
 For anything—alien or human—to exist as a *being*, it must possess some kind of essence or identity. To say that something "is" implies that it is distinguishable from what it is not. This presupposes the Law of Identity: *A is A*.
 
@@ -14,7 +14,7 @@ A creature composed of nothing but chaos and flux with no intelligible pattern c
 
 > Example: If an alien had no stable characteristics—no consistent shape, logic, or behavior—then there is no "it" to speak of. It would be like trying to define a circle without any reference to a center or a radius.
 
-### II. Flux Is Not the Same as Chaos
+## II. Flux Is Not the Same as Chaos
 
 Even if beings experience change (flux), change itself presupposes continuity and order. Heraclitus, often cited for the idea that "everything flows," did not mean that there is *no order*, but that the world is governed by a *Logos* behind the flux.
 
@@ -22,7 +22,7 @@ Even if beings experience change (flux), change itself presupposes continuity an
 
 Thus, even alien life subject to different conditions would still operate within ordered patterns that allow for recognition, causality, and interaction. No form of life, however strange, can function in total randomness.
 
-### III. Alien Intelligibility Assumes Shared Logical Structure
+## III. Alien Intelligibility Assumes Shared Logical Structure
 
 If we can even *conceive* of aliens, communicate with them, or detect them as real beings, we already assume a common logic and metaphysical backdrop.
 
@@ -32,7 +32,7 @@ If we can even *conceive* of aliens, communicate with them, or detect them as re
 
 Hence, even saying “they are governed by chaos” presupposes orderly categories that we apply universally.
 
-### IV. Objective Truth Is Not Culturally or Biologically Limited
+## IV. Objective Truth Is Not Culturally or Biologically Limited
 
 Mathematical truths (like 2 + 2 = 4), logical laws, and moral realities are not derived from the human brain—they are reflections of the rational structure of being.
 
@@ -42,7 +42,7 @@ Mathematical truths (like 2 + 2 = 4), logical laws, and moral realities are not 
 
 Thus, objective truth transcends biology. It is grounded not in the creature, but in the Creator, the Logos through Whom all things were made (John 1:3). The *logoi* embedded in all creation reflect this same universal structure—even in alien life.
 
-### V. If Aliens Deny Objective Truth, They Deny Themselves
+## V. If Aliens Deny Objective Truth, They Deny Themselves
 
 An alien that denies objective truth must do so objectively, or the denial is meaningless. This replicates the same self-defeating logic found in human relativism:
 
@@ -55,13 +55,13 @@ An alien that denies objective truth must do so objectively, or the denial is me
 
 Even an alien species that *worships chaos* must distinguish chaos from order, and so their conceptual world collapses unless it relies on objective reference points.
 
-### Conclusion
+## Conclusion
 
 Even alien beings must operate on objective truths, because existence itself presupposes order, identity, and intelligibility. To posit a being rooted in chaos and flux is to propose non-being, not life. Whether human or alien, all rational creatures are bound to the same eternal structure of truth—because all are made through the Logos, and all must answer to Him.
 
 ## Related
 
-- [[The classic laws of logic]]
+- [[The Classic Laws of Logic]]
 - [[Relativism]]
-- [[Transcendental categories are required for science and knowledge]]
+- [[Transcendental Categories Are Required for Science and Knowledge]]
 - [[TAG]]

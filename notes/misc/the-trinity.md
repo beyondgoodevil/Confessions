@@ -20,6 +20,6 @@ This distinction of Persons does not divide the divine nature, because each Pers
 
 - [[Monarchical Trinitarianism]]
 - [[EO vs RC Trinity]]
-- [[Pre-Nicene fathers teach the Trinity 1]]
-- [[The distinction between relation of origin and relation of opposition]]
-- [[Distinction does not necessitate separation, division, or composition]]
+- [[Pre-Nicene Fathers Teach the Trinity 1]]
+- [[The Distinction Between Relation of Origin and Relation of Opposition]]
+- [[Distinction Does Not Necessitate Separation, Division, or Composition]]

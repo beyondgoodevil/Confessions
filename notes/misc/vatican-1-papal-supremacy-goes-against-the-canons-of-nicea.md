@@ -1,7 +1,7 @@
 ---
 id: M-0109
 date: 2026-10-05
-title: Vatican 1 papal supremacy goes against the canons of Nicea
+title: Vatican 1 Papal Supremacy Goes Against the Canons of Nicea
 tags: [theology, church-history, councils]
 summary: Vatican I's declaration of papal supremacy contrasted with the earlier "first among equals" structure.
 ---
@@ -16,8 +16,8 @@ This marks a clear shift from the collegial structure implied by **first among e
 
 ## Related
 
-- [[Vatican I's view of papal infallibility]]
-- [[Nicene Creed Canon 6: first among equals explanation]]
-- [[Laws/Canons that Nicea determined]]
+- [[Vatican I's View of Papal Infallibility]]
+- [[Nicene Creed Canon 6: First Among Equals Explanation]]
+- [[Laws/Canons That Nicea Determined]]
 - [[The Gregorian Reforms]]
-- [[Acts 15:6-22: Church government]]
+- [[Acts 15:6-22: Church Government]]

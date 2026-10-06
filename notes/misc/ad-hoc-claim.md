@@ -1,21 +1,21 @@
 ---
 id: M-0038
 date: 2026-10-05
-title: Ad hoc claim
+title: Ad Hoc Claim
 tags: [theology, fallacies]
 summary: An explanation invented only to rescue a position, with its key characteristics and an example.
 ---
 
 An **ad hoc claim** is an **argument or explanation that is created solely to defend a specific position without independent justification**. It is often an **improvised, after-the-fact reasoning** made to avoid falsification or criticism rather than being based on prior evidence or principles.
 
-### Key Characteristics of Ad Hoc Claims
+## Key Characteristics of Ad Hoc Claims
 
 1. **Lack of Independent Justification** – The claim is not supported by broader evidence or reasoning but is introduced only to save a position.
 2. **Avoids Falsification** – Instead of addressing the actual criticism, it introduces an **arbitrary** explanation to make the position seem unfalsifiable.
 3. **Shifts the Goalposts** – Often, it moves the standards of proof to keep the claim alive, rather than admitting an issue with the argument.
 4. **Isolates the Claim** – Instead of applying a consistent principle, an exception is made to protect a particular belief.
 
-### Examples of Ad Hoc Claims
+## Examples of Ad Hoc Claims
 
 1. **Science Example**
     - *Claim:* "All swans are white."
@@ -25,7 +25,7 @@ An **ad hoc claim** is an **argument or explanation that is created solely to de
 
 ## Related
 
-- [[Moving the goalpost]]
-- [[Double standard fallacy]]
-- [[The fallacy of circular reasoning]]
+- [[Moving the Goalpost]]
+- [[Double Standard Fallacy]]
+- [[The Fallacy of Circular Reasoning]]
 - [[Appeal to Generality]]

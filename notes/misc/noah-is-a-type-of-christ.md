@@ -1,7 +1,7 @@
 ---
 id: M-0198
 date: 2026-10-05
-title: Noah is a type of Christ
+title: Noah Is a Type of Christ
 tags: [theology, covenant, scripture]
 summary: Ten parallels between Noah and Christ.
 ---
@@ -20,6 +20,6 @@ summary: Ten parallels between Noah and Christ.
 ## Related
 
 - [[Types of Christ in the OT]]
-- [[1 Peter 3:20-21: Baptism is like the ark]]
-- [[1 Peter 3:20-21: The events of Noah's flood were a type of baptism]]
-- [[List of all covenants]]
+- [[1 Peter 3:20-21: Baptism Is Like the Ark]]
+- [[1 Peter 3:20-21: The Events of Noah's Flood Were a Type of Baptism]]
+- [[List of All Covenants]]

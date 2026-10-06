@@ -1,7 +1,7 @@
 ---
 id: M-0031
 date: 2026-10-05
-title: Virgin births in the OT
+title: Virgin Births in the OT
 tags: [theology, mary, scripture]
 summary: Sarah, Rachel, Hannah and Elizabeth — barren women granted children, foreshadowing the virgin birth.
 ---
@@ -42,7 +42,7 @@ These stories illustrate God's power to grant children even to those who are con
 
 ## Related
 
-- [[Sarah and Hannah experienced miraculous births: verses]]
-- [[The Virgin Birth of Mary: verses]]
-- [[Mary and the promises made to women that foreshadow the miraculous birth of Jesus]]
+- [[Sarah and Hannah Experienced Miraculous Births: Verses]]
+- [[The Virgin Birth of Mary: Verses]]
+- [[Mary and the Promises Made to Women That Foreshadow the Miraculous Birth of Jesus]]
 - [[Types of Mary in the OT]]

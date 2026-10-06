@@ -1,7 +1,7 @@
 ---
 id: M-0163
 date: 2026-10-05
-title: Jesus established the New Covenant
+title: Jesus Established the New Covenant
 tags: [theology, covenant, scripture]
 summary: Luke 22:20, Matthew 26:28 and Hebrews 9:15 on the New Covenant in Christ's blood.
 ---
@@ -25,7 +25,7 @@ Thus, Jesus established the New Covenant at the Last Supper, and it was fully ra
 
 ## Related
 
-- [[List of all covenants]]
-- [[The relationship between the Old Covenant and the New Covenant]]
-- [[Christ fulfills the promises of the previous covenants]]
-- [[Laws from the Mosaic Covenant are still kept and fulfilled in the New Covenant]]
+- [[List of All Covenants]]
+- [[The Relationship Between the Old Covenant and the New Covenant]]
+- [[Christ Fulfills the Promises of the Previous Covenants]]
+- [[Laws From the Mosaic Covenant Are Still Kept and Fulfilled in the New Covenant]]

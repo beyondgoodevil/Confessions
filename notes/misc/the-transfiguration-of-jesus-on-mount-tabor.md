@@ -6,7 +6,7 @@ tags: [theology, theosis, scripture]
 summary: The Gospel accounts of the Transfiguration and its meaning as a revelation of the divine energies.
 ---
 
-### Biblical Account of the Transfiguration
+## Biblical Account of the Transfiguration
 
 The Transfiguration is recorded in three Synoptic Gospels:
 
@@ -17,7 +17,7 @@ The Transfiguration is recorded in three Synoptic Gospels:
 3. Luke 9:28-36
     - **Key Verses:** "And while He prayed, the appearance of His face was altered, and His robe became white and glistening."
 
-### Significance of the Transfiguration
+## Significance of the Transfiguration
 
 1. Revelation of Divine Glory:
     - The Transfiguration reveals the true divine nature of Christ, displaying His glory as the Son of God. This moment is crucial for understanding Jesus' identity and His relationship with the Father.
@@ -32,14 +32,14 @@ The Transfiguration is recorded in three Synoptic Gospels:
 5. The Presence of Moses and Elijah:
     - The appearance of Moses and Elijah during the Transfiguration signifies the continuity of God's revelation throughout salvation history. It connects the Law and the Prophets with Christ, affirming His fulfillment of both.
 
-### Conclusion
+## Conclusion
 
 The Transfiguration of Jesus on Mount Tabor is a profound revelation of His divine nature, marked by the radiating divine energies that transform Him and provide a glimpse of God's glory. In Eastern Orthodox thought, this event emphasizes the invitation for believers to partake in God's uncreated energies, facilitating spiritual transformation and a deeper relationship with the divine. The experience of the Transfiguration underscores the essential Christian belief in the interplay between the divine and human, calling believers to embrace the transformative power of God's grace in their lives.
 
 ## Related
 
 - [[Matthew 17: Jesus Transfigured on the Mount]]
-- [[Essence-energies distinction]]
-- [[God's uncreated energies]]
-- [[1 Timothy 6:16: God dwells in unapproachable light, aka His uncreated Glory]]
+- [[Essence-Energies Distinction]]
+- [[God's Uncreated Energies]]
+- [[1 Timothy 6:16: God Dwells in Unapproachable Light, aka His Uncreated Glory]]
 - [[2 Peter 1:3-4: Theosis]]

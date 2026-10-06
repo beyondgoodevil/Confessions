@@ -1,12 +1,12 @@
 ---
 id: M-0122
 date: 2026-10-05
-title: Popes were used as a political tool throughout history 2
+title: Popes Were Used as a Political Tool Throughout History 2
 tags: [theology, church-history]
 summary: The papacy and secular rulers in the High Middle Ages and the Renaissance.
 ---
 
-### 3. The High Middle Ages (12th–13th Century) – Popes as Pawns in European Politics
+## 3. The High Middle Ages (12th–13th Century) – Popes as Pawns in European Politics
 
 - **English Kings and the Papacy**
     - **King John of England (Reigned 1199–1216)**
@@ -19,7 +19,7 @@ summary: The papacy and secular rulers in the High Middle Ages and the Renaissan
         - This allowed France to **control the Pope** and use him for **French political interests**.
         - Philip also pressured **Clement V** into **dissolving the Knights Templar (1312)** and seizing their wealth.
 
-### 4. The Renaissance Papacy (15th–16th Century) – Popes as Political Tools of Families
+## 4. The Renaissance Papacy (15th–16th Century) – Popes as Political Tools of Families
 
 - **Spanish and French Influence over the Papacy**
     - **During the Renaissance, Popes were controlled by powerful Italian families** (e.g., the Borgias, Medicis).
@@ -33,7 +33,7 @@ summary: The papacy and secular rulers in the High Middle Ages and the Renaissan
 
 ## Related
 
-- [[Popes were used as a political tool throughout history 1]]
-- [[Popes were used as a political tool throughout history 3]]
+- [[Popes Were Used as a Political Tool Throughout History 1]]
+- [[Popes Were Used as a Political Tool Throughout History 3]]
 - [[The Gregorian Reforms]]
 - [[Emergence of Magic and Neoplatonism in the Renaissance]]

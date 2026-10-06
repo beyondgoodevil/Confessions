@@ -12,7 +12,7 @@ Regarding the Trinity, emanationism typically distorts the orthodox understandin
 
 ## Related
 
-- [[Neoplatonic idea of divine simplicity]]
+- [[Neoplatonic Idea of Divine Simplicity]]
 - [[Thomism Leads to Eternal Creation]]
 - [[Thomism and the Originist Problematic]]
 - [[The Trinity]]

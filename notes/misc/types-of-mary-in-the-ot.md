@@ -6,7 +6,7 @@ tags: [theology, mary, scripture]
 summary: Seven Old Testament types of Mary, from Eve to Hannah.
 ---
 
-### 2. Types of Mary in the Old Testament:
+## Types of Mary in the Old Testament
 
 - **Eve** (Genesis 3:15)  
   Mary is the New Eve, as Eve's disobedience led to the fall, but Mary's obedience brings forth the Redeemer. Genesis 3:15 refers to the enmity between the serpent and the woman's seed, symbolically referring to Mary and Christ.
@@ -27,6 +27,6 @@ summary: Seven Old Testament types of Mary, from Eve to Hannah.
 
 - [[Types of Christ in the OT]]
 - [[Types of Church in the OT]]
-- [[Mary as the Ark of the Covenant and as the New Heavenly Jerusalem, symbolizing the ultimate image of the Church: verses]]
-- [[Virgin births in the OT]]
+- [[Mary as the Ark of the Covenant and as the New Heavenly Jerusalem, Symbolizing the Ultimate Image of the Church: Verses]]
+- [[Virgin Births in the OT]]
 - [[Revelation 12, Genesis 3:15: Mary Prophecy]]

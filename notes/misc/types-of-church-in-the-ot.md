@@ -6,7 +6,7 @@ tags: [theology, covenant, scripture]
 summary: Nine Old Testament types of the Church, from Eve to the Tabernacle.
 ---
 
-### 3. Types of the Church in the Old Testament:
+## Types of the Church in the Old Testament
 
 - **Eve** (Genesis 2:21-23)  
   Eve, created from Adam's side, prefigures the Church, born from the side of Christ (the second Adam) when He was pierced on the cross (John 19:34).
@@ -31,6 +31,6 @@ summary: Nine Old Testament types of the Church, from Eve to the Tabernacle.
 
 - [[Types of Christ in the OT]]
 - [[Types of Mary in the OT]]
-- [[Adam as a type of Christ and Eve as a type of the Church]]
+- [[Adam as a Type of Christ and Eve as a Type of the Church]]
 - [[The Twelve Tribes of Israel]]
-- [[Galatians 6:15-16: The Church is the Israel of God]]
+- [[Galatians 6:15-16: The Church Is the Israel of God]]

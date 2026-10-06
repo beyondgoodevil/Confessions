@@ -1,6 +1,6 @@
 ---
 id: P-0002
-title: You and your research
+title: You and Your Research
 creator: Richard Hamming
 event: Talk at Bell Communications Research
 year: 1986

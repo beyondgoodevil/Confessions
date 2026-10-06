@@ -1,18 +1,18 @@
 ---
 id: M-0094
 date: 2026-10-05
-title: "The Virgin Birth of Mary: verses"
+title: "The Virgin Birth of Mary: Verses"
 tags: [theology, mary, scripture]
 summary: Isaiah 7:14, Matthew 1:18-25 and Luke 1:26-38 on the Virgin Birth.
 ---
 
-### 1. Isaiah 7:14
+## 1. Isaiah 7:14
 
 "Therefore the Lord himself will give you a sign. Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel."
 
 - This Old Testament prophecy foretells the virgin birth and is often cited in relation to the Nativity.
 
-### 2. Matthew 1:18-25
+## 2. Matthew 1:18-25
 
 The image quotes the full passage in a modern copyrighted translation; in outline:
 
@@ -24,7 +24,7 @@ The image quotes the full passage in a modern copyrighted translation; in outlin
 
 - This passage provides the New Testament account of Mary's virgin birth and emphasizes the fulfillment of Isaiah's prophecy.
 
-### 3. Luke 1:26-38
+## 3. Luke 1:26-38
 
 The image quotes the full passage in a modern copyrighted translation; in outline:
 
@@ -38,14 +38,14 @@ The image quotes the full passage in a modern copyrighted translation; in outlin
 
 - This passage details the Annunciation, where the angel Gabriel announces to Mary that she will conceive Jesus through the Holy Spirit, emphasizing her virginity.
 
-### Summary
+## Summary
 
 These passages collectively affirm the doctrine of the Virgin Birth, highlighting its significance in the Christian faith as a miraculous event that underscores Jesus's divine nature and fulfillment of prophetic Scripture.
 
 ## Related
 
-- [[Gabriel's announcement to Mary]]
-- [[Mary's consent to the angel Gabriel]]
-- [[Virgin births in the OT]]
-- [[Saint Jerome defends virginity of the Theotokos]]
+- [[Gabriel's Announcement to Mary]]
+- [[Mary's Consent to the Angel Gabriel]]
+- [[Virgin Births in the OT]]
+- [[Saint Jerome Defends Virginity of the Theotokos]]
 - [[History of the Old Testament]]

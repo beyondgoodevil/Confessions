@@ -1,7 +1,7 @@
 ---
 id: M-0173
 date: 2026-10-05
-title: "John 14:9: Jesus explicitly states that He is the image of the Father"
+title: "John 14:9: Jesus Explicitly States That He Is the Image of the Father"
 tags: [theology, scripture, christology]
 summary: John 14:9 (KJV) — he that hath seen me hath seen the Father.
 ---
@@ -12,7 +12,7 @@ summary: John 14:9 (KJV) — he that hath seen me hath seen the Father.
 
 ## Related
 
-- [[John 14:6: Jesus is the Truth]]
-- [[In John 5, Jesus explains that no one has seen the Father except the one whom He has sent]]
-- [[Icons are biblical]]
+- [[John 14:6: Jesus Is the Truth]]
+- [[In John 5, Jesus Explains That No One Has Seen the Father Except the One Whom He Has Sent]]
+- [[Icons Are Biblical]]
 - [[Bible: John 17, Jesus Has the Father's Glory]]

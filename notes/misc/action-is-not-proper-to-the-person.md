@@ -1,7 +1,7 @@
 ---
 id: M-0036
 date: 2026-10-05
-title: Action is not proper to the person
+title: Action Is Not Proper to the Person
 tags: [theology, christology]
 summary: Christ's actions belong to the nature through which they are performed, while attributed to the one Person of the Son.
 ---
@@ -17,8 +17,8 @@ In this way, the distinction between person and nature ensures that the divine a
 
 ## Related
 
-- [[Will is proper to nature]]
-- [[Nature and person distinction in Christology]]
+- [[Will Is Proper to Nature]]
+- [[Nature and Person Distinction in Christology]]
 - [[The Hypostatic Union]]
-- [[Why Christ's two natures can not mix]]
+- [[Why Christ's Two Natures Can Not Mix]]
 - [[The Council of Chalcedon (451 AD)]]

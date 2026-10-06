@@ -1,7 +1,7 @@
 ---
 id: M-0041
 date: 2026-10-05
-title: Believers inherit the promises of God only through their union with Christ
+title: Believers Inherit the Promises of God Only Through Their Union With Christ
 tags: [theology, covenant, scripture]
 summary: Five Pauline verses on being "in Christ" as the way believers inherit God's promises.
 ---
@@ -25,7 +25,7 @@ These passages affirm that believers inherit the promises of God only through th
 
 ## Related
 
-- [[Believers are called to fulfill their part of the covenant: NT verses]]
-- [[Jesus fulfills the covenant promises made to Abraham]]
-- [[Christ fulfills the promises of the previous covenants]]
-- [[Galatians 6:15-16: The Church is the Israel of God]]
+- [[Believers Are Called to Fulfill Their Part of the Covenant: NT Verses]]
+- [[Jesus Fulfills the Covenant Promises Made to Abraham]]
+- [[Christ Fulfills the Promises of the Previous Covenants]]
+- [[Galatians 6:15-16: The Church Is the Israel of God]]

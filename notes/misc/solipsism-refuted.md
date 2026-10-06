@@ -1,7 +1,7 @@
 ---
 id: M-0143
 date: 2026-10-05
-title: Solipsism refuted
+title: Solipsism Refuted
 tags: [theology, epistemology, apologetics]
 summary: Six reasons solipsism undermines itself.
 ---
@@ -26,4 +26,4 @@ Solipsism is self-refuting because it denies the external world while relying on
 - [[Skepticism]]
 - [[Relativism]]
 - [[TAG]]
-- [[It is impossible to have a coherent worldview without objective truths]]
+- [[It Is Impossible to Have a Coherent Worldview Without Objective Truths]]

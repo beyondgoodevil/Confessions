@@ -1,7 +1,7 @@
 ---
 id: M-0135
 date: 2026-10-05
-title: "Romans: not justified by works of the law"
+title: "Romans: Not Justified by Works of the Law"
 tags: [theology, scripture]
 summary: Five Pauline verses on justification apart from works "of the law".
 ---
@@ -28,7 +28,7 @@ summary: Five Pauline verses on justification apart from works "of the law".
 
 ## Related
 
-- [[Works are required: NT quotes]]
-- [[Sola fide still requires works: mental work]]
-- [[Word-concept fallacy: biblical examples]]
-- [[Laws from the Mosaic Covenant are still kept and fulfilled in the New Covenant]]
+- [[Works Are Required: NT Quotes]]
+- [[Sola Fide Still Requires Works: Mental Work]]
+- [[Word-Concept Fallacy: Biblical Examples]]
+- [[Laws From the Mosaic Covenant Are Still Kept and Fulfilled in the New Covenant]]

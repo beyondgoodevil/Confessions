@@ -1,7 +1,7 @@
 ---
 id: M-0111
 date: 2026-10-05
-title: Vatican I's view of papal infallibility
+title: Vatican I's View of Papal Infallibility
 tags: [theology, church-history, councils]
 summary: The three conditions under which Vatican I (1870) holds the Pope to be infallible.
 ---
@@ -14,7 +14,7 @@ summary: The three conditions under which Vatican I (1870) holds the Pope to be 
 
 ## Related
 
-- [[Vatican 1 papal supremacy goes against the canons of Nicea]]
-- [[Nicene Creed Canon 6: first among equals explanation]]
+- [[Vatican 1 Papal Supremacy Goes Against the Canons of Nicea]]
+- [[Nicene Creed Canon 6: First Among Equals Explanation]]
 - [[The Gregorian Reforms]]
-- [[Popes were used as a political tool throughout history 1]]
+- [[Popes Were Used as a Political Tool Throughout History 1]]

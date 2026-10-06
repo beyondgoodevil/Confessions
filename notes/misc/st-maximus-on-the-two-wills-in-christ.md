@@ -1,7 +1,7 @@
 ---
 id: M-0149
 date: 2026-10-05
-title: St. Maximus on the two wills in Christ
+title: St. Maximus on the Two Wills in Christ
 tags: [theology, christology, church-history]
 summary: St. Maximus's defence of Christ's two wills against Monothelitism, ratified at the Sixth Council.
 ---
@@ -16,8 +16,8 @@ Maximus’ defense of the two wills was central to maintaining the reality of Ch
 
 ## Related
 
-- [[The Question of Christ's two wills]]
-- [[Will is proper to nature]]
-- [[The debate between Maximus the Confessor and Pyrrhus]]
+- [[The Question of Christ's Two Wills]]
+- [[Will Is Proper to Nature]]
+- [[The Debate Between Maximus the Confessor and Pyrrhus]]
 - [[Canons of the Sixth Ecumenical Council]]
 - [[St. Maximus on the Holy Spirit]]

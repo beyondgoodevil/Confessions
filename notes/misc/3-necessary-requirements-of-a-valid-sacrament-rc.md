@@ -1,7 +1,7 @@
 ---
 id: M-0008
 date: 2026-10-05
-title: 3 necessary requirements of a valid sacrament (RC)
+title: 3 Necessary Requirements of a Valid Sacrament (RC)
 tags: [theology, sacraments]
 summary: Roman Catholic canon law — proper matter, proper form, and proper minister with intent.
 ---
@@ -10,7 +10,7 @@ In **Roman Catholic Canon Law**, three essential elements are required for the v
 
 ---
 
-### 1. Proper Matter:
+## 1. Proper Matter
 
 - Each sacrament has specific physical elements or actions as its matter.
     - **Baptism**: Water.
@@ -23,7 +23,7 @@ In **Roman Catholic Canon Law**, three essential elements are required for the v
 
 ---
 
-### 2. Proper Form:
+## 2. Proper Form
 
 - The specific words or prayers used in the administration of the sacrament.
     - **Baptism**: “I baptize you in the name of the Father, and of the Son, and of the Holy Spirit.”
@@ -36,7 +36,7 @@ In **Roman Catholic Canon Law**, three essential elements are required for the v
 
 ---
 
-### 3. Proper Minister with Intent:
+## 3. Proper Minister with Intent
 
 - The sacrament must be administered by someone with the proper authority and **intention**:
     - **Baptism**: Normally a priest or deacon, but in emergencies, anyone can baptize if they intend to do what the Church does.
@@ -49,6 +49,6 @@ In **Roman Catholic Canon Law**, three essential elements are required for the v
 
 ---
 
-### Summary:
+## Summary
 
 For a sacrament to be valid according to Roman Catholic law, it must have the **proper matter**, **proper form**, and be administered by a **proper minister** with the **intention** to perform the sacrament in accordance with the Church. Without these three elements, the sacrament is considered invalid.

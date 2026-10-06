@@ -1,7 +1,7 @@
 ---
 id: M-0221
 date: 2026-10-05
-title: How the Gospel of Matthew became canon
+title: How the Gospel of Matthew Became Canon
 tags: [theology, canon, church-history]
 summary: Five stages in the recognition of Matthew's Gospel, from Irenaeus to Augustine.
 ---
@@ -14,7 +14,7 @@ summary: Five stages in the recognition of Matthew's Gospel, from Irenaeus to Au
 
 ## Related
 
-- [[History of the EO canon of scriptures]]
-- [[Factors that played a role to determine the canon of the Bible]]
-- [[The gospel of Thomas and why it's wrong]]
-- [[NT books dates when written]]
+- [[History of the EO Canon of Scriptures]]
+- [[Factors That Played a Role to Determine the Canon of the Bible]]
+- [[The Gospel of Thomas and Why It's Wrong]]
+- [[NT Books Dates When Written]]

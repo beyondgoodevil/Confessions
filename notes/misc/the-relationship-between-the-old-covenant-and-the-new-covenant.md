@@ -1,12 +1,12 @@
 ---
 id: M-0027
 date: 2026-10-05
-title: The relationship between the Old Covenant and the New Covenant
+title: The Relationship Between the Old Covenant and the New Covenant
 tags: [theology, covenant, scripture]
 summary: Typology in Galatians and Hebrews linking the Old Covenant to its fulfilment in Christ.
 ---
 
-### Galatians
+## Galatians
 
 1. **Abraham as a Type:**
     - **Key Passage:** Galatians 3:6-9, 14
@@ -18,7 +18,7 @@ summary: Typology in Galatians and Hebrews linking the Old Covenant to its fulfi
     - **Key Passage:** Galatians 4:21-31
     - **Explanation:** Paul uses the story of Hagar and Sarah to illustrate two covenants: Hagar represents the covenant of the law (Mount Sinai), while Sarah represents the covenant of grace (the promise). This typology emphasizes the freedom found in Christ versus the bondage of the law.
 
-### Hebrews
+## Hebrews
 
 1. **Christ as the High Priest:**
     - **Key Passage:** Hebrews 4:14-16; 7:1-28
@@ -35,8 +35,8 @@ summary: Typology in Galatians and Hebrews linking the Old Covenant to its fulfi
 
 ## Related
 
-- [[List of all covenants]]
-- [[Jesus established the New Covenant]]
-- [[Christ fulfills the promises of the previous covenants]]
-- [[The Melchizedekian priesthood]]
-- [[Laws from the Mosaic Covenant are still kept and fulfilled in the New Covenant]]
+- [[List of All Covenants]]
+- [[Jesus Established the New Covenant]]
+- [[Christ Fulfills the Promises of the Previous Covenants]]
+- [[The Melchizedekian Priesthood]]
+- [[Laws From the Mosaic Covenant Are Still Kept and Fulfilled in the New Covenant]]

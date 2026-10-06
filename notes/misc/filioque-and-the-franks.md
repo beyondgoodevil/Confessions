@@ -24,4 +24,4 @@ Sources:
 - [[St. Photios and the Political Use of the Filioque by the Franks]]
 - [[EO vs RC Trinity]]
 - [[Monarchical Trinitarianism]]
-- [[Popes were used as a political tool throughout history 1]]
+- [[Popes Were Used as a Political Tool Throughout History 1]]

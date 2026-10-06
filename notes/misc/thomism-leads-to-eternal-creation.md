@@ -6,7 +6,7 @@ tags: [theology, thomism, theosis]
 summary: Why God as pure act implies an eternal, necessary creation, and the Orthodox alternative.
 ---
 
-### I. How Thomism Leads to Eternal Creation
+## I. How Thomism Leads to Eternal Creation
 
 Thomism teaches that God is Pure Act (actus purus)—meaning there is no potentiality in Him, and He is always in perfect, infinite actualization. According to Thomists:
 
@@ -26,7 +26,7 @@ This contradicts:
 - The Orthodox view that creation had a beginning in time, while God Himself exists beyond and before all time.
 - The teaching that God freely created the world, not out of necessity or natural outflow of His essence.
 
-### II. Contradiction with the Fact that God “Rested”
+## II. Contradiction with the Fact that God “Rested”
 
 The Scriptures teach clearly:
 
@@ -46,7 +46,7 @@ But in Thomism:
 
 Therefore, Thomism denies that God can truly rest, because this would imply a change in God’s activity, and thus potentiality—which Thomism rejects.
 
-### III. How This Negates God’s Free Will
+## III. How This Negates God’s Free Will
 
 Thomism affirms that God’s will is:
 
@@ -69,7 +69,7 @@ This denies true free will, because real freedom requires:
 - The ability to act at one time and not another.
 - The distinction between essence and will, which Thomism collapses.
 
-### IV. Orthodox Critique and Alternative
+## IV. Orthodox Critique and Alternative
 
 Eastern Orthodoxy, especially as articulated by St. Gregory Palamas, teaches:
 
@@ -87,7 +87,7 @@ Eastern Orthodoxy, especially as articulated by St. Gregory Palamas, teaches:
 ## Related
 
 - [[Thomism]]
-- [[Implications of no essence-energies distinction]]
-- [[Essence-energies distinction]]
+- [[Implications of No Essence-Energies Distinction]]
+- [[Essence-Energies Distinction]]
 - [[Emanationism]]
-- [[God as pure act: RC vs EO]]
+- [[God as Pure Act: RC vs EO]]

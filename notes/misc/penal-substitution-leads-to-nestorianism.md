@@ -1,7 +1,7 @@
 ---
 id: M-0067
 date: 2026-10-05
-title: Penal substitution leads to Nestorianism
+title: Penal Substitution Leads to Nestorianism
 tags: [theology, christology, trinity]
 summary: How penal substitution splits the Trinity and parallels the Nestorian division of Christ.
 ---
@@ -11,8 +11,8 @@ summary: How penal substitution splits the Trinity and parallels the Nestorian d
 
 ## Related
 
-- [[Penal substitution: Reformers that believed in penal substitution]]
-- [[Reformer that believed that the Father damned the Son]]
+- [[Penal Substitution: Reformers That Believed in Penal Substitution]]
+- [[Reformer That Believed That the Father Damned the Son]]
 - [[Recapitulation Doctrine vs PSA]]
-- [[Nestorian key beliefs]]
+- [[Nestorian Key Beliefs]]
 - [[Council of Ephesus: Nestorianism]]

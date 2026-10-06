@@ -1,7 +1,7 @@
 ---
 id: M-0053
 date: 2026-10-05
-title: Fideism (secular)
+title: Fideism (Secular)
 tags: [theology, epistemology]
 summary: Fideism outside a religious context — belief held without evidence or argument.
 ---
@@ -12,4 +12,4 @@ Fideism, outside of a religious context, refers to an approach where belief or t
 
 - [[Fideism]]
 - [[Fideism and Evidentialism]]
-- [[Mysticism does not contradict evidentialism or evidence]]
+- [[Mysticism Does Not Contradict Evidentialism or Evidence]]

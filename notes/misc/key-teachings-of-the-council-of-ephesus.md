@@ -1,12 +1,12 @@
 ---
 id: M-0178
 date: 2026-10-05
-title: Key teachings of the council of Ephesus
+title: Key Teachings of the Council of Ephesus
 tags: [theology, councils, sacraments]
 summary: Five teachings of Ephesus and their bearing on the Eucharist.
 ---
 
-### Key Teachings from the Council of Ephesus
+## Key Teachings from the Council of Ephesus
 
 1. **Christological Affirmation:**
     - The council primarily addressed the Nestorian controversy, which involved the nature of Christ and how the divine and human natures coexisted in Him. It affirmed that Jesus Christ is one Person (Hypostasis) with two natures: one divine and one human. This understanding is essential to Eucharistic theology because it underscores the reality of Christ's presence in the sacrament.
@@ -19,14 +19,14 @@ summary: Five teachings of Ephesus and their bearing on the Eucharist.
 5. **Affirmation of the Sacraments:**
     - The council's teachings contributed to the understanding of the sacraments as means of grace, where the Incarnation of Christ is manifested in the Eucharist. The faithful, through the sacraments, encounter the divine energies of Christ, leading to spiritual transformation and union with God.
 
-### Conclusion
+## Conclusion
 
 The Council of Ephesus played a critical role in articulating the relationship between Christ's two natures and the significance of the Eucharist in the life of the Church. It affirmed the real presence of Christ in the sacrament and emphasized the importance of the Eucharist as a means of participating in the divine life, thereby reinforcing the understanding of deification through the Incarnation and the sacraments.
 
 ## Related
 
 - [[Council of Ephesus: Nestorianism]]
-- [[Nestorian key beliefs]]
+- [[Nestorian Key Beliefs]]
 - [[The Third Letter of Cyril to Nestorius]]
 - [[Historical Position on Mary as Mother of God]]
 - [[2 Peter 1:3-4: Theosis]]

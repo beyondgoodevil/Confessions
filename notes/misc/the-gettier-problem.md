@@ -35,7 +35,7 @@ If you're thinking about this in the context of epistemology broadly, it’s a d
 
 ## Related
 
-- [[Epistemic principle]]
+- [[Epistemic Principle]]
 - [[Epistemology]]
-- [[Criterion problem]]
-- [[Critique of empiricism]]
+- [[Criterion Problem]]
+- [[Critique of Empiricism]]

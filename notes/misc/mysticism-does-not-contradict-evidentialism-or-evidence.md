@@ -1,14 +1,14 @@
 ---
 id: M-0065
 date: 2026-10-05
-title: Mysticism does not contradict evidentialism or evidence
+title: Mysticism Does Not Contradict Evidentialism or Evidence
 tags: [theology, epistemology, theosis]
 summary: Eastern Orthodox mysticism transcends reason and evidence without rejecting them.
 ---
 
 Eastern Orthodox (EO) mysticism does not contradict evidentialism or evidence in general because it **does not reject reason or evidence but transcends them**. Instead of opposing rational inquiry, EO mysticism integrates reason with spiritual experience, showing that true knowledge (*gnosis*) comes through both **intellectual understanding** and **divine encounter**.
 
-### 1. The Role of Evidence in EO Theology
+## 1. The Role of Evidence in EO Theology
 
 EO theology acknowledges that certain truths can be known through reason and evidence. For example:
 
@@ -18,7 +18,7 @@ EO theology acknowledges that certain truths can be known through reason and evi
 
 However, these forms of evidence alone are **insufficient** for full communion with God. Intellectual knowledge must be **illumined by grace** and purified through spiritual struggle.
 
-### 2. EO Mysticism Is Not Irrational
+## 2. EO Mysticism Is Not Irrational
 
 EO mysticism (or **hesychasm**) does not deny reason but **recognizes its limitations**. Unlike fideism, which rejects rational inquiry, EO maintains:
 
@@ -26,7 +26,7 @@ EO mysticism (or **hesychasm**) does not deny reason but **recognizes its limita
 - **Mystical experience is not subjective but objective** – It is the **direct participation in God's uncreated energies**, as seen in the lives of the saints (e.g., St. Gregory Palamas’ defense of theosis).
 - **Empirical verification exists in the lives of the saints** – Miracles, incorrupt relics, and prophetic insights serve as **evidence** of divine presence.
 
-### 3. Why Mysticism Does Not Contradict Evidentialism
+## 3. Why Mysticism Does Not Contradict Evidentialism
 
 Mysticism transcends evidentialism, but it does not contradict it because:
 
@@ -34,7 +34,7 @@ Mysticism transcends evidentialism, but it does not contradict it because:
 2. **It affirms that higher truths require experience** – Just as a blind person cannot fully grasp the concept of color through reason alone, divine realities must be experienced **directly** through purification, illumination, and theosis.
 3. **It does not reject logic, but logic alone is insufficient** – The ultimate goal of human life is not just intellectual knowledge of God but **union with Him** (*theosis*), which surpasses rational demonstration.
 
-### 4. Conclusion: The EO Balance
+## 4. Conclusion: The EO Balance
 
 Unlike fideism, EO does not reject reason and evidence, and unlike strict evidentialism, it acknowledges that **certain truths are beyond rational demonstration**. True knowledge (*gnosis*) comes through:
 
@@ -49,5 +49,5 @@ Thus, **EO mysticism does not contradict evidentialism**; it merely **goes beyon
 - [[Fideism and Evidentialism]]
 - [[Fideism]]
 - [[TAG]]
-- [[God's uncreated energies]]
+- [[God's Uncreated Energies]]
 - [[Nous]]

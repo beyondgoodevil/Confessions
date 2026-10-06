@@ -1,7 +1,7 @@
 ---
 id: M-0168
 date: 2026-10-05
-title: Jesus fulfills the covenant promises made to Abraham
+title: Jesus Fulfills the Covenant Promises Made to Abraham
 tags: [theology, covenant, scripture]
 summary: Four passages from Galatians on Christ as the fulfilment of the promises to Abraham.
 ---
@@ -23,8 +23,8 @@ These passages collectively affirm that Jesus is the fulfillment of the covenant
 
 ## Related
 
-- [[Galatians regarding the descent or lineage of Christ]]
-- [[Christ fulfills the promises of the previous covenants]]
-- [[Believers inherit the promises of God only through their union with Christ]]
-- [[Abraham's journey of faith and his covenant relationship with God]]
-- [[List of all covenants]]
+- [[Galatians Regarding the Descent or Lineage of Christ]]
+- [[Christ Fulfills the Promises of the Previous Covenants]]
+- [[Believers Inherit the Promises of God Only Through Their Union With Christ]]
+- [[Abraham's Journey of Faith and His Covenant Relationship With God]]
+- [[List of All Covenants]]

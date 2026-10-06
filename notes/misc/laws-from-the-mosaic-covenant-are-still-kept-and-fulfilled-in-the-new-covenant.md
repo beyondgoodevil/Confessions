@@ -1,12 +1,12 @@
 ---
 id: M-0060
 date: 2026-10-05
-title: Laws from the Mosaic Covenant are still kept and fulfilled in the New Covenant
+title: Laws From the Mosaic Covenant Are Still Kept and Fulfilled in the New Covenant
 tags: [theology, covenant, scripture]
 summary: Which Mosaic laws are still kept and which are fulfilled in Christ.
 ---
 
-### Laws Still Kept in the New Covenant
+## Laws Still Kept in the New Covenant
 
 1. Moral Law:
 
@@ -24,7 +24,7 @@ summary: Which Mosaic laws are still kept and which are fulfilled in Christ.
 
    **Fulfillment:** While the observance of the Sabbath is transformed in Christ, the principle of rest and worship is still upheld in the New Covenant. The Orthodox Church celebrates Sunday as the Lord's Day, commemorating Christ's resurrection.
 
-### Laws Fulfilled in the New Covenant
+## Laws Fulfilled in the New Covenant
 
 1. Ceremonial Laws:
 
@@ -40,7 +40,7 @@ summary: Which Mosaic laws are still kept and which are fulfilled in Christ.
 
 ## Related
 
-- [[The relationship between the Old Covenant and the New Covenant]]
-- [[List of all covenants]]
-- [[Jesus established the New Covenant]]
-- [[Romans: not justified by works of the law]]
+- [[The Relationship Between the Old Covenant and the New Covenant]]
+- [[List of All Covenants]]
+- [[Jesus Established the New Covenant]]
+- [[Romans: Not Justified by Works of the Law]]

@@ -16,7 +16,7 @@ Thus, the reason we can have knowledge is because the transcendental categories 
 
 ## Related
 
-- [[TAG for slowbois]]
+- [[TAG for Slowbois]]
 - [[Step-by-Step Breakdown of the TAG Argument]]
-- [[Transcendental categories are required for science and knowledge]]
+- [[Transcendental Categories Are Required for Science and Knowledge]]
 - [[Why Is the Transcendental Argument Prior to the Teleological, Cosmological, and Other Arguments]]

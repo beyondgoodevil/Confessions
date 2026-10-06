@@ -1,6 +1,6 @@
 ---
 id: L-0002
-title: Multiplication and inverse matrices
+title: Multiplication and Inverse Matrices
 course: MIT 18.06 Linear Algebra
 lecture: 3
 lecturer: Gilbert Strang
@@ -31,7 +31,7 @@ $$
 
 ## Gauss–Jordan
 
-Row-reduce $[\,A \mid I\,]$ until the left block is $I$; the right block is then $A^{-1}$. This is the elimination from [[Elimination with matrices]] carried all the way up as well as down: if $EA = I$ then $E = A^{-1}$.
+Row-reduce $[\,A \mid I\,]$ until the left block is $I$; the right block is then $A^{-1}$. This is the elimination from [[Elimination With Matrices]] carried all the way up as well as down: if $EA = I$ then $E = A^{-1}$.
 
 ```python
 import numpy as np

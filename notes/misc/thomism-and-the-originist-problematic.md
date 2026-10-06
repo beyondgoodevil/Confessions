@@ -6,7 +6,7 @@ tags: [theology, thomism, trinity]
 summary: Five ways Thomism can echo Origen's subordination of the Son.
 ---
 
-### Key Arguments: Thomism and the Originist Problematic
+## Key Arguments: Thomism and the Originist Problematic
 
 1. **Metaphysical Hierarchy:**
     - **Thomism** posits a metaphysical hierarchy where God is seen as Pure Act (actus purus) and creation as a series of participations in that act. This framework can lead to a perception of a hierarchy in the relationship between the Creator and creatures, potentially diminishing the full equality of the Son with the Father.
@@ -24,7 +24,7 @@ summary: Five ways Thomism can echo Origen's subordination of the Son.
     - While Aquinas affirms the doctrine of the eternal generation of the Son, his philosophical framework could be misinterpreted to imply a temporal aspect to the Son's existence, particularly in relation to the Father. This might evoke the same concerns seen in Origen's assertion that the Son is a creature or subordinate to the Father.
     - If the eternal generation is viewed through a strictly philosophical lens, it risks leading to confusion about the full co-eternity and co-equality of the Son, which parallels the issues raised by Origen regarding the nature of Christ.
 
-### Conclusion
+## Conclusion
 
 In conclusion, while Thomism generally aligns with orthodox Christian doctrine, it can unintentionally reflect certain aspects of the **Originist Problematic**. The metaphysical hierarchy, emphasis on essence and energies, divine simplicity, and the understanding of Christ's human nature all present potential challenges that can lead to misunderstandings about the relationship between the Father and the Son. These complexities echo the concerns surrounding Origen's teachings, particularly regarding the subordination and creatureliness of the Son, necessitating careful attention to maintain the integrity of the doctrine of the Trinity within the Thomistic framework.
 
@@ -32,6 +32,6 @@ In conclusion, while Thomism generally aligns with orthodox Christian doctrine, 
 
 - [[Thomism]]
 - [[Thomism EXTENDED]]
-- [[Neoplatonic idea of divine simplicity]]
+- [[Neoplatonic Idea of Divine Simplicity]]
 - [[Emanationism]]
 - [[The Fifth Ecumenical Council]]

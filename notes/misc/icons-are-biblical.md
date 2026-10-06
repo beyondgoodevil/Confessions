@@ -1,7 +1,7 @@
 ---
 id: M-0224
 date: 2026-10-05
-title: Icons are biblical
+title: Icons Are Biblical
 tags: [theology, icons-saints, scripture]
 summary: Ten biblical cases of sacred images and material things used by God.
 ---
@@ -29,7 +29,7 @@ summary: Ten biblical cases of sacred images and material things used by God.
 
 ## Related
 
-- [[Icons: biblical justification]]
+- [[Icons: Biblical Justification]]
 - [[Icons in the OT]]
 - [[Iconoclast Emperors]]
-- [[Saint Jerome against anti-relics heresies]]
+- [[Saint Jerome Against Anti-Relics Heresies]]

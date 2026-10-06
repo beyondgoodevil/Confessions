@@ -1,7 +1,7 @@
 ---
 id: M-0025
 date: 2026-10-05
-title: The first followers of Christ were Jews
+title: The First Followers of Christ Were Jews
 tags: [theology, scripture, church-history]
 summary: Scripture showing that Jesus' ministry, disciples and the early Church were Jewish first.
 ---
@@ -26,7 +26,7 @@ Thus, scripture consistently demonstrates that Jesus’ first followers were Jew
 
 ## Related
 
-- [[Religious diversity within Judaism after Christ]]
-- [[EO continuity with OT]]
-- [[Galatians 6:15-16: The Church is the Israel of God]]
-- [[The coming of the Messiah: all nations will be drawn to Him]]
+- [[Religious Diversity Within Judaism After Christ]]
+- [[EO Continuity With OT]]
+- [[Galatians 6:15-16: The Church Is the Israel of God]]
+- [[The Coming of the Messiah: All Nations Will Be Drawn to Him]]

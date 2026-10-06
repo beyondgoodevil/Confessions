@@ -1,7 +1,7 @@
 ---
 id: M-0142
 date: 2026-10-05
-title: "Sola fide still requires works: mental work"
+title: "Sola Fide Still Requires Works: Mental Work"
 tags: [theology, apologetics]
 summary: Believing is itself an act of the will, so sola fide does not remove works but moves them inward.
 ---
@@ -12,7 +12,7 @@ summary: Believing is itself an act of the will, so sola fide does not remove wo
 
 ## Related
 
-- [[Works are required: NT quotes]]
-- [[Romans: not justified by works of the law]]
-- [[Word-concept fallacy: biblical examples]]
-- [[Verses: the way we live our lives is deeply connected to our experience of the afterlife]]
+- [[Works Are Required: NT Quotes]]
+- [[Romans: Not Justified by Works of the Law]]
+- [[Word-Concept Fallacy: Biblical Examples]]
+- [[Verses: The Way We Live Our Lives Is Deeply Connected to Our Experience of the Afterlife]]

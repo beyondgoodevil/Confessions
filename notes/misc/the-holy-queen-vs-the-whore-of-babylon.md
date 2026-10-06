@@ -6,7 +6,7 @@ tags: [theology, mary, scripture]
 summary: The woman of Revelation 12 contrasted with the woman of Revelation 17.
 ---
 
-### Revelation 12: The Holy Queen
+## Revelation 12: The Holy Queen
 
 **Key Verses:**
 
@@ -21,7 +21,7 @@ The woman symbolizes Mary and the Church, representing purity and divine favor. 
 
 ---
 
-### Revelation 17: The Whore of Babylon
+## Revelation 17: The Whore of Babylon
 
 **Key Verses:**
 
@@ -36,7 +36,7 @@ The Whore of Babylon represents false religion and corruption, leading nations a
 
 ---
 
-### Comparison: Holy Queen vs. Whore of Babylon
+## Comparison: Holy Queen vs. Whore of Babylon
 
 1. Symbolism:
     - **Holy Queen:** Holiness, divine motherhood.
@@ -53,13 +53,13 @@ The Whore of Babylon represents false religion and corruption, leading nations a
 
 ---
 
-### Conclusion
+## Conclusion
 
 These figures highlight the spiritual conflict between good and evil, with the **Holy Queen** symbolizing hope and the establishment of God's kingdom, while the **Whore of Babylon** warns of the consequences of idolatry and rebellion against God.
 
 ## Related
 
 - [[Revelation 12, Genesis 3:15: Mary Prophecy]]
-- [[Mary referred to as The Woman in the Bible]]
-- [[Mary the most pure queen of heaven next to Christ]]
+- [[Mary Referred to as The Woman in the Bible]]
+- [[Mary the Most Pure Queen of Heaven Next to Christ]]
 - [[The Messiah and His Bride]]

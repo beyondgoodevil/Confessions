@@ -1,20 +1,20 @@
 ---
 id: M-0104
 date: 2026-10-05
-title: Tu quoque fallacy
+title: Tu Quoque Fallacy
 tags: [theology, fallacies]
 summary: Dismissing an argument by accusing the opponent of hypocrisy instead of addressing it.
 ---
 
 Tu quoque (Latin for "you too") is a logical fallacy in which someone dismisses an argument or criticism by accusing the opponent of hypocrisy instead of addressing the actual argument. It is a type of ad hominem fallacy because it attacks the person rather than engaging with their reasoning.
 
-### Structure of the Fallacy
+## Structure of the Fallacy
 
 1. Person A makes a claim or argument.
 2. Person B responds by accusing A of inconsistency or hypocrisy.
 3. Person B does not actually refute the argument itself.
 
-### Examples
+## Examples
 
 1. Moral Argument:
     - A: "Stealing is wrong."
@@ -29,7 +29,7 @@ Tu quoque (Latin for "you too") is a logical fallacy in which someone dismisses 
     - B: "But your political party has corrupt members too!"
     - (B does not argue against A’s claim, just shifts blame.)
 
-### Why Tu Quoque Is a Fallacy
+## Why Tu Quoque Is a Fallacy
 
 - Even if the accuser is guilty of the same thing, that does not make their argument false.
 - Hypocrisy does not determine truth or falsehood.
@@ -37,7 +37,7 @@ Tu quoque (Latin for "you too") is a logical fallacy in which someone dismisses 
 
 ## Related
 
-- [[The ad hominem fallacy]]
-- [[Double standard fallacy]]
-- [[The appeal to irrelevance fallacy]]
-- [[Moving the goalpost]]
+- [[The Ad Hominem Fallacy]]
+- [[Double Standard Fallacy]]
+- [[The Appeal to Irrelevance Fallacy]]
+- [[Moving the Goalpost]]

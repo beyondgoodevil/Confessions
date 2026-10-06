@@ -19,7 +19,7 @@ Saint Maximus the Confessor emphasized the omnipresence of the Holy Spirit while
 
 ## Related
 
-- [[Orthodox teaching about the sacraments being valid only within the canonical boundaries of the Church]]
-- [[God's uncreated energies]]
-- [[Jesus promises that the Holy Spirit will guide the Church]]
-- [[St. Maximus on the two wills in Christ]]
+- [[Orthodox Teaching About the Sacraments Being Valid Only Within the Canonical Boundaries of the Church]]
+- [[God's Uncreated Energies]]
+- [[Jesus Promises That the Holy Spirit Will Guide the Church]]
+- [[St. Maximus on the Two Wills in Christ]]

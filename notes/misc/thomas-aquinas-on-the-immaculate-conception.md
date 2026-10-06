@@ -1,7 +1,7 @@
 ---
 id: M-0097
 date: 2026-10-05
-title: Thomas Aquinas on the immaculate conception
+title: Thomas Aquinas on the Immaculate Conception
 tags: [theology, thomism, mary]
 summary: Aquinas did not hold that Mary had to be preserved from original sin at her conception.
 ---
@@ -18,5 +18,5 @@ This position was in line with the theological context of his time, where belief
 
 - [[Thomism]]
 - [[Historical Position on Mary as Mother of God]]
-- [[Mary the most pure queen of heaven next to Christ]]
-- [[Saint Jerome defends virginity of the Theotokos]]
+- [[Mary the Most Pure Queen of Heaven Next to Christ]]
+- [[Saint Jerome Defends Virginity of the Theotokos]]

@@ -6,8 +6,6 @@ tags: [theology, trinity, church-history]
 summary: St. Photios's argument that the Franks used the Filioque as a political tool against Byzantium.
 ---
 
-### St. Photios and the Political Use of the Filioque by the Franks
-
 1. **Frankish Political Ambitions and the Filioque**
     - St. Photios argued that the Franks, particularly under **Charlemagne (r. 768–814)**, **introduced the Filioque as a means to challenge Byzantine influence** and assert their own theological authority.
     - Charlemagne sought to position himself as the true defender of Christianity in the West and used the **Filioque** as a way to **distance the Latin Church from Constantinople**.
@@ -25,7 +23,7 @@ summary: St. Photios's argument that the Franks used the Filioque as a political
     - The Byzantines viewed the **Papacy’s increasing alignment with the Franks** as an attempt to break from the authority of **Rome-Constantinople's traditional unity**.
     - The Papacy, by the **9th century**, was already under strong Frankish influence, and the introduction of the **Filioque** into Latin liturgy signaled an assertion of **Frankish control over Rome**.
 
-### Key Quote from St. Photios
+## Key Quote from St. Photios
 
 One of St. Photios’ most famous critiques of the **Filioque** and the Franks’ use of it as a political tool can be found in his work **"Mystagogy of the Holy Spirit"**:
 
@@ -38,5 +36,5 @@ This shows how **Photios saw the Filioque as more than just a doctrinal error—
 - [[Filioque and the Franks]]
 - [[EO vs RC Trinity]]
 - [[Monarchical Trinitarianism]]
-- [[Popes were used as a political tool throughout history 1]]
-- [[Nine ecumenical councils and their decisions]]
+- [[Popes Were Used as a Political Tool Throughout History 1]]
+- [[Nine Ecumenical Councils and Their Decisions]]

@@ -1,14 +1,14 @@
 ---
 id: M-0033
 date: 2026-10-05
-title: "Word-concept fallacy: biblical examples"
+title: "Word-Concept Fallacy: Biblical Examples"
 tags: [theology, fallacies, scripture]
 summary: The word-concept fallacy, illustrated with the Trinity and with faith and works.
 ---
 
 The **word-concept fallacy** occurs when someone assumes that the presence (or absence) of a specific word in Scripture equates to the presence (or absence) of the concept it represents. Additionally, this fallacy can arise when someone insists that a word always carries the same meaning in every context, ignoring the flexibility of language.
 
-### Example 1: **The Trinity**
+## Example 1: **The Trinity**
 
 Critics often claim, *“The word ‘Trinity’ isn’t in the Bible, so it’s not a biblical concept.”* While the term doesn’t appear, the concept of one God in three Persons is clearly taught:
 
@@ -19,7 +19,7 @@ Though the word “Trinity” is absent, these passages illustrate the distinct 
 
 ---
 
-### Example 2: **Faith and Works**
+## Example 2: **Faith and Works**
 
 Another example involves the word “**faith**” in different contexts. Critics might argue from passages like:
 
@@ -32,6 +32,6 @@ However, the word “faith” can carry different nuances. In James, it refers t
 ## Related
 
 - [[The Trinity]]
-- [[Works are required: NT quotes]]
-- [[Romans: not justified by works of the law]]
-- [[Sola fide still requires works: mental work]]
+- [[Works Are Required: NT Quotes]]
+- [[Romans: Not Justified by Works of the Law]]
+- [[Sola Fide Still Requires Works: Mental Work]]

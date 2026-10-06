@@ -1,12 +1,12 @@
 ---
 id: M-0154
 date: 2026-10-05
-title: TAG for slowbois
+title: TAG for Slowbois
 tags: [theology, apologetics, epistemology]
 summary: The Transcendental Argument in four plain steps, using a scientist's experiment.
 ---
 
-### Step 1: A Scientist Conducts an Experiment
+## Step 1: A Scientist Conducts an Experiment
 
 Imagine a scientist is testing a new chemical reaction in a lab. He mixes two substances together and observes that they create a new compound.
 
@@ -17,7 +17,7 @@ But in order for the scientist to even do science at all, he has to assume some 
 3. Laws of nature exist and do not change – If gravity or chemical reactions changed randomly, experiments would be meaningless.
 4. Mathematics is valid – The scientist assumes that 2 + 2 always equals 4 and that measurements can be trusted.
 
-### Step 2: These Assumptions Are Transcendental Categories
+## Step 2: These Assumptions Are Transcendental Categories
 
 All of these things—logic, mathematics, laws of nature, and truth itself—are what we call transcendental categories.
 
@@ -27,7 +27,7 @@ All of these things—logic, mathematics, laws of nature, and truth itself—are
 
 The problem? Matter is always changing. If everything is just atoms moving around, then how can unchanging, universal, and immaterial truths exist?
 
-### Step 3: They Must Be Grounded in Something That is Also Universal, Immaterial, and Unchanging
+## Step 3: They Must Be Grounded in Something That is Also Universal, Immaterial, and Unchanging
 
 Since these necessary truths cannot be grounded in changing matter, they must be grounded in something immaterial and unchanging.
 
@@ -39,7 +39,7 @@ The only thing that fits this description is God:
 
 Therefore, God is the necessary foundation for all knowledge. Without God, we could not justify logic, truth, or science itself.
 
-### Step 4: The Impossibility of the Contrary
+## Step 4: The Impossibility of the Contrary
 
 What happens if we deny God as the foundation?
 
@@ -49,7 +49,7 @@ What happens if we deny God as the foundation?
 
 Without God, these questions have no answer. But because we do have knowledge, it proves that God must exist as the foundation of truth itself.
 
-### Final Summary:
+## Final Summary
 
 The scientist cannot even do science unless logic, math, and the laws of nature exist. These things are universal, immaterial, and unchanging, but matter is always changing. Therefore, they must be grounded in something immaterial and unchanging—God.
 
@@ -59,5 +59,5 @@ Without God, there is no reason for truth, logic, or science to work at all. Tha
 
 - [[TAG]]
 - [[Step-by-Step Breakdown of the TAG Argument]]
-- [[TAG: logic and its justification in other world views - a refutation]]
-- [[Transcendental categories are required for science and knowledge]]
+- [[TAG: Logic and Its Justification in Other World Views - A Refutation]]
+- [[Transcendental Categories Are Required for Science and Knowledge]]

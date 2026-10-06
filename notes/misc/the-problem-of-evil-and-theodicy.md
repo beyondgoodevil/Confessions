@@ -1,14 +1,14 @@
 ---
 id: M-0253
 date: 2026-10-06
-title: The problem of evil and theodicy
+title: The Problem of Evil and Theodicy
 tags: [theology, apologetics, epistemology]
 summary: The logical and evidential problems of evil, the main theodicies, and the Orthodox answer centred on privation, freedom and the Cross.
 ---
 
 The **problem of evil** asks how evil and suffering can exist if God is all-powerful, all-knowing and perfectly good. A **theodicy** (from *theos*, God, and *dike*, justice) is an attempt to answer it by showing why God permits evil.
 
-### 1. The Two Forms of the Problem
+## 1. The Two Forms of the Problem
 
 1. **The logical problem** (Epicurus, Hume, J. L. Mackie): the following are claimed to be contradictory, so at least one must be false.
     - God is omnipotent.
@@ -22,7 +22,7 @@ A related distinction:
 - **Moral evil**: evil done by free agents (murder, cruelty, betrayal).
 - **Natural evil**: suffering not directly caused by a human choice (disease, earthquakes, death itself).
 
-### 2. The Main Answers
+## 2. The Main Answers
 
 1. **Evil as privation** (St. Athanasius, St. Basil, St. Gregory of Nyssa, St. Augustine):
     - Evil is not a substance or a created thing. It is a lack or corruption of a good that ought to be there, as blindness is the lack of sight.
@@ -35,7 +35,7 @@ A related distinction:
 4. **Sceptical theism**:
     - A finite mind is in no position to judge that a given evil has no justifying reason. "Where wast thou when I laid the foundations of the earth?" (Job 38:4).
 
-### 3. The Orthodox Emphasis
+## 3. The Orthodox Emphasis
 
 1. **Death is an enemy, not part of the design**:
     - God "made not death: neither hath he pleasure in the destruction of the living" (Wisdom 1:13). Death and corruption entered through the Fall (Romans 5:12) and are "the last enemy" to be destroyed (1 Corinthians 15:26).
@@ -48,7 +48,7 @@ A related distinction:
 5. **The end of the story**:
     - Evil is permitted for a time, not forever. "God shall wipe away all tears from their eyes; and there shall be no more death" (Revelation 21:4).
 
-### 4. The Presuppositional Reply
+## 4. The Presuppositional Reply
 
 The objection itself assumes that evil is *really* evil, which needs an objective standard of good.
 
@@ -58,14 +58,14 @@ The objection itself assumes that evil is *really* evil, which needs an objectiv
 
 This does not remove the pain of suffering. It shows that the *argument* from evil does not succeed against God, while the atheist is left with suffering and no ground for calling it wrong.
 
-### 5. Common Objections and Short Answers
+## 5. Common Objections and Short Answers
 
 - **"Why not create free beings who always choose good?"** A will that cannot choose otherwise is not free in the sense love requires. The saints in glory are confirmed in the good freely, after having chosen it.
 - **"What about animal suffering and natural disasters?"** The Fathers connect the disorder of creation to the Fall of the one set over it; creation shares man's corruption and will share his restoration (Romans 8:21).
 - **"Why does God not stop it now?"** His patience is mercy: "not willing that any should perish, but that all should come to repentance" (2 Peter 3:9).
 - **Ivan Karamazov's protest** (Dostoevsky): no future harmony is worth the tears of one tortured child. Dostoevsky's own reply is not a counter-argument but the life of the Elder Zosima and Alyosha: active love, and Christ who suffers with the innocent.
 
-### Summary
+## Summary
 
 - The logical problem is answered if it is even *possible* that God has a good reason to permit evil, and free will supplies one.
 - The evidential problem assumes we could see such reasons if they existed.
@@ -75,10 +75,10 @@ This does not remove the pain of suffering. It shows that the *argument* from ev
 
 ## Related
 
-- [[Death and corruptibility as privations of life and the ability to sin]]
-- [[The Fall of humanity and its consequences]]
-- [[Why Jesus' death and resurrection had to be so violent]]
-- [[Romans 8:18-24: creation corruption]]
-- [[It is impossible to have a coherent worldview without objective truths]]
+- [[Death and Corruptibility as Privations of Life and the Ability to Sin]]
+- [[The Fall of Humanity and Its Consequences]]
+- [[Why Jesus' Death and Resurrection Had to Be So Violent]]
+- [[Romans 8:18-24: Creation Corruption]]
+- [[It Is Impossible to Have a Coherent Worldview Without Objective Truths]]
 - [[TAG]]
-- [[St. Athanasius, On the Incarnation: main argument]]
+- [[St. Athanasius, On the Incarnation: Main Argument]]

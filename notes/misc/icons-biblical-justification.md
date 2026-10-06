@@ -1,12 +1,12 @@
 ---
 id: M-0225
 date: 2026-10-05
-title: "Icons: biblical justification"
+title: "Icons: Biblical Justification"
 tags: [theology, icons-saints, scripture]
 summary: Five lines of scriptural support for icons, from the commandment on graven images to the Incarnation.
 ---
 
-### 1. Understanding the Commandment on Graven Images
+## 1. Understanding the Commandment on Graven Images
 
 The commandment *"You shall not make for yourself a graven image"* (Exodus 20:4, Deuteronomy 5:8) forbids idolatry—worshiping images or considering them divine. However, it does **not prohibit the making of all images** but only those intended for idolatrous worship.
 
@@ -19,7 +19,7 @@ The commandment *"You shall not make for yourself a graven image"* (Exodus 20:4,
 
 The prohibition against graven images is not an absolute ban on imagery but a specific command against idolatry—worshipping created things in place of the Creator.
 
-### 2. The Incarnation of Christ
+## 2. The Incarnation of Christ
 
 The Incarnation fundamentally changes the theological understanding of depicting God.
 
@@ -32,7 +32,7 @@ When Christ took on human form, He made the invisible God visible. The depiction
 
 By becoming human, Christ sanctified material creation, making it possible to use matter (e.g., wood, paint) to point to divine truths.
 
-### 3. Teaching and Remembrance Through Icons
+## 3. Teaching and Remembrance Through Icons
 
 Icons serve as visual representations of biblical truths and holy persons, aiding in teaching and devotion. This practice aligns with biblical examples of using visual symbols to convey spiritual realities:
 
@@ -41,7 +41,7 @@ Icons serve as visual representations of biblical truths and holy persons, aidin
 
 Icons are not worshipped but venerated, serving as windows to the heavenly reality they depict.
 
-### 4. Scriptural Support for Honor and Veneration
+## 4. Scriptural Support for Honor and Veneration
 
 The distinction between worship (*latreia*) due to God alone and veneration (*proskynesis*) given to holy objects or persons is biblical:
 
@@ -50,7 +50,7 @@ The distinction between worship (*latreia*) due to God alone and veneration (*pr
 
 Icons honor Christ and the saints, not as divine objects, but as reminders of God's work through His people.
 
-### 5. Biblical Foreshadowing of Visual Worship
+## 5. Biblical Foreshadowing of Visual Worship
 
 The imagery in the Tabernacle and Temple foreshadows the use of sacred art:
 
@@ -58,14 +58,14 @@ The imagery in the Tabernacle and Temple foreshadows the use of sacred art:
 
 Icons similarly adorn churches, pointing to heavenly realities and assisting in worship.
 
-### Summary:
+## Summary
 
 The use of icons is scripturally justified when understood within the broader biblical narrative. The prohibition against graven images addresses idolatry, not sacred art used to glorify God. The Incarnation of Christ sanctifies material creation, making icons a way to affirm biblical truths and bring the faithful closer to God.
 
 ## Related
 
-- [[Icons are biblical]]
+- [[Icons Are Biblical]]
 - [[Icons in the OT]]
 - [[Iconoclast Emperors]]
-- [[John 14:9: Jesus explicitly states that He is the image of the Father]]
-- [[Saint Jerome against anti-relics heresies]]
+- [[John 14:9: Jesus Explicitly States That He Is the Image of the Father]]
+- [[Saint Jerome Against Anti-Relics Heresies]]

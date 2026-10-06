@@ -6,11 +6,11 @@ tags: [theology, thomism]
 summary: Thomism's core doctrines, major figures, contrasts with other systems, and the Orthodox critique.
 ---
 
-### I. Core of Thomism
+## I. Core of Thomism
 
 At its foundation, Thomism is the synthesis of natural reason and divine revelation, where reason serves theology but is also capable of reaching truths about God independently. Thomism is the dominant theological and philosophical tradition in Roman Catholicism and was formally endorsed by the Church—especially from the time of Pope Leo XIII’s encyclical *Aeterni Patris* (1879) onward.
 
-### II. Key Philosophical and Theological Doctrines of Thomism
+## II. Key Philosophical and Theological Doctrines of Thomism
 
 1. Essence and Existence Distinction:
     - In every created being, essence (what a thing is) and existence (that a thing is) are distinct. Only in God are essence and existence identical.
@@ -42,13 +42,13 @@ At its foundation, Thomism is the synthesis of natural reason and divine revelat
     - God is simple (without parts) and immutable (unchanging).
     - God’s attributes (justice, mercy, knowledge) are identical with His essence.
 
-### III. Major Thomists and Revivals
+## III. Major Thomists and Revivals
 
 - Scholastic Thomists: Cajetan, John of St. Thomas, and Capreolus.
 - Neo-Thomism (19th–20th century): Led by Pope Leo XIII, figures such as Jacques Maritain, Étienne Gilson, and Reginald Garrigou-Lagrange systematized and revitalized Thomism.
 - Contemporary Thomism: Divided between Strict Observance Thomists (following classical scholastic categories) and Existential Thomists (emphasizing the dynamic metaphysics of being).
 
-### IV. Thomism in Contrast with Other Systems
+## IV. Thomism in Contrast with Other Systems
 
 1. vs. Augustinianism:  
    Augustinianism emphasizes divine illumination and the will, whereas Thomism is more intellect-centered and Aristotelian.
@@ -59,7 +59,7 @@ At its foundation, Thomism is the synthesis of natural reason and divine revelat
 4. vs. Eastern Orthodoxy (Palamism):  
    Thomism affirms absolute divine simplicity, while Orthodoxy, via St. Gregory Palamas, affirms a real distinction between the essence and energies of God—this is a key theological disagreement.
 
-### V. Criticism of Thomism (from an Eastern Orthodox perspective)
+## V. Criticism of Thomism (from an Eastern Orthodox perspective)
 
 1. Over-rationalization of Theology:  
    Thomism tends to subordinate mystical experience to reason, whereas Orthodoxy sees theosis and union with God as surpassing human understanding.
@@ -78,6 +78,6 @@ At its foundation, Thomism is the synthesis of natural reason and divine revelat
 
 - [[Thomism]]
 - [[Thomism Leads to Eternal Creation]]
-- [[Thomism is perennialism: all ways lead to God]]
-- [[The peripatetic axiom]]
-- [[Essence-energies distinction]]
+- [[Thomism Is Perennialism: All Ways Lead to God]]
+- [[The Peripatetic Axiom]]
+- [[Essence-Energies Distinction]]

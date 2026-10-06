@@ -1,7 +1,7 @@
 ---
 id: M-0129
 date: 2026-10-05
-title: Reformer that believed that the Father damned the Son
+title: Reformer That Believed That the Father Damned the Son
 tags: [theology, church-history]
 summary: Five Reformers whose penal substitution teaching implies Christ bore the Father's wrath.
 ---
@@ -19,7 +19,7 @@ summary: Five Reformers whose penal substitution teaching implies Christ bore th
 
 ## Related
 
-- [[Penal substitution: Reformers that believed in penal substitution]]
-- [[Penal substitution leads to Nestorianism]]
+- [[Penal Substitution: Reformers That Believed in Penal Substitution]]
+- [[Penal Substitution Leads to Nestorianism]]
 - [[Recapitulation Doctrine vs PSA]]
-- [[Calvinism views on humans]]
+- [[Calvinism Views on Humans]]

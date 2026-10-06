@@ -14,7 +14,7 @@ summary: Three parallels between the woman of Genesis 3:15 and the woman of Reve
 
 ---
 
-### Parallels:
+## Parallels
 
 1. **Woman and Seed:** In **Genesis 3:15**, the "woman" is traditionally understood as Eve, but also symbolically refers to Mary, the new Eve. The "seed" is Christ, who would crush the serpent's head. In **Revelation 12**, the woman can represent both Mary and the Church, with her child being Christ, destined to "rule all nations."
 2. **Conflict with the Serpent/Dragon:** **Genesis 3:15** speaks of enmity between the woman's seed and the serpent, symbolizing the ongoing battle between Christ and Satan. In **Revelation 12**, the dragon (Satan) tries to devour the child (Christ), but the child is protected by God, continuing the theme of enmity.
@@ -25,6 +25,6 @@ These parallels highlight the continuity between the promise of a Redeemer in Ge
 ## Related
 
 - [[The Holy Queen vs The Whore of Babylon]]
-- [[Mary referred to as The Woman in the Bible]]
+- [[Mary Referred to as The Woman in the Bible]]
 - [[Types of Mary in the OT]]
-- [[Genesis 3:1-6: Eve eats the fruit]]
+- [[Genesis 3:1-6: Eve Eats the Fruit]]

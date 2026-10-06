@@ -1,7 +1,7 @@
 ---
 id: M-0210
 date: 2026-10-05
-title: "Genesis 15:6: Abraham believed the Lord, not in the Lord"
+title: "Genesis 15:6: Abraham Believed the Lord, Not in the Lord"
 tags: [theology, scripture, covenant]
 summary: Abraham trusted what God specifically said to him, not merely that God exists.
 ---
@@ -12,7 +12,7 @@ This underscores that Abraham's righteousness came from trusting the specific pr
 
 ## Related
 
-- [[Genesis 15:6: Abraham believed the Lord, not in the Lord + Romans, Paul]]
-- [[Genesis 12:1-4: Abraham already believed in God]]
-- [[Abraham's journey of faith and his covenant relationship with God]]
-- [[Sola fide still requires works: mental work]]
+- [[Genesis 15:6: Abraham Believed the Lord, Not in the Lord + Romans, Paul]]
+- [[Genesis 12:1-4: Abraham Already Believed in God]]
+- [[Abraham's Journey of Faith and His Covenant Relationship With God]]
+- [[Sola Fide Still Requires Works: Mental Work]]

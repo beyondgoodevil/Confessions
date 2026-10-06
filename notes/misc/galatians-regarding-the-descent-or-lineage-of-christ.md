@@ -1,7 +1,7 @@
 ---
 id: M-0207
 date: 2026-10-05
-title: Galatians regarding the descent or lineage of Christ
+title: Galatians Regarding the Descent or Lineage of Christ
 tags: [theology, scripture, covenant]
 summary: Three verses from Galatians on Christ as Abraham's seed, born of a woman.
 ---
@@ -18,7 +18,7 @@ summary: Three verses from Galatians on Christ as Abraham's seed, born of a woma
 
 ## Related
 
-- [[Jesus fulfills the covenant promises made to Abraham]]
-- [[Believers inherit the promises of God only through their union with Christ]]
-- [[Mary referred to as The Woman in the Bible]]
-- [[Galatians 6:15-16: The Church is the Israel of God]]
+- [[Jesus Fulfills the Covenant Promises Made to Abraham]]
+- [[Believers Inherit the Promises of God Only Through Their Union With Christ]]
+- [[Mary Referred to as The Woman in the Bible]]
+- [[Galatians 6:15-16: The Church Is the Israel of God]]

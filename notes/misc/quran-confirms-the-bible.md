@@ -1,14 +1,14 @@
 ---
 id: M-0017
 date: 2026-10-05
-title: Quran confirms the Bible
+title: Quran Confirms the Bible
 tags: [theology, apologetics, canon]
 summary: An argument from the Qur'an's own verses that it confirms the Bible and that God's word cannot be changed.
 ---
 
-### Argument: The Qur'an's Confirmation of the Bible and the Immutability of God's Word
+## Argument: The Qur'an's Confirmation of the Bible and the Immutability of God's Word
 
-#### 1. The Qur'an's Confirmation of the Bible
+### 1. The Qur'an's Confirmation of the Bible
 
 - **1.1. Surah Al-Ma'idah (5:46):**
     - **Arabic:**
@@ -31,7 +31,7 @@ summary: An argument from the Qur'an's own verses that it confirms the Bible and
 
       Muhammad and the believers accepted all divine scriptures, including those that preceded the Qur'an.
 
-#### 2. The Immutability of God's Word
+### 2. The Immutability of God's Word
 
 - **2.1. Surah Al-An'am (6:115):**
     - **Arabic:**
@@ -54,7 +54,7 @@ summary: An argument from the Qur'an's own verses that it confirms the Bible and
 
       God's words cannot be altered, underscoring the divine authority and preservation of previous scriptures as well as the Qur'an.
 
-#### 3. The Historical Context of the Bible
+### 3. The Historical Context of the Bible
 
 - **3.1. The Codex Sinaiticus:**
     - **Description:**
@@ -64,7 +64,7 @@ summary: An argument from the Qur'an's own verses that it confirms the Bible and
 
       This manuscript existed several centuries before the Prophet Muhammad and includes texts that are consistent with the Christian Bible.
 
-#### 4. Theological Perspective on God's Eternity
+### 4. Theological Perspective on God's Eternity
 
 - **4.1. Sunni Belief:**
     - **Key Doctrine:**
@@ -76,7 +76,7 @@ summary: An argument from the Qur'an's own verses that it confirms the Bible and
 
 ---
 
-#### Summary
+### Summary
 
 1. The Qur'an confirms the divine origin and authority of earlier scriptures, including the Torah and Gospel.
 2. The Qur'an asserts that God's words are immutable and cannot be changed.
@@ -86,5 +86,5 @@ summary: An argument from the Qur'an's own verses that it confirms the Bible and
 ## Related
 
 - [[Bible History]]
-- [[Canon of the Bible: its history]]
+- [[Canon of the Bible: Its History]]
 - [[Comparison of Worldviews]]

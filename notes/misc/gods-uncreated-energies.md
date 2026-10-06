@@ -1,7 +1,7 @@
 ---
 id: M-0216
 date: 2026-10-05
-title: God's uncreated energies
+title: God's Uncreated Energies
 tags: [theology, theosis]
 summary: Ten of God's uncreated energies, each in a line.
 ---
@@ -19,8 +19,8 @@ summary: Ten of God's uncreated energies, each in a line.
 
 ## Related
 
-- [[Essence-energies distinction]]
-- [[Implications of no essence-energies distinction]]
+- [[Essence-Energies Distinction]]
+- [[Implications of No Essence-Energies Distinction]]
 - [[2 Peter 1:3-4: Theosis]]
 - [[The Transfiguration of Jesus on Mount Tabor]]
-- [[1 Timothy 6:16: God dwells in unapproachable light, aka His uncreated Glory]]
+- [[1 Timothy 6:16: God Dwells in Unapproachable Light, aka His Uncreated Glory]]

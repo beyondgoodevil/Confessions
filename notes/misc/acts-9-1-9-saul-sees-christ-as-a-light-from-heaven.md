@@ -1,7 +1,7 @@
 ---
 id: M-0009
 date: 2026-10-05
-title: "Acts 9:1-9: Paul (Saul) sees Christ as a light from heaven"
+title: "Acts 9:1-9: Paul (Saul) Sees Christ as a Light From Heaven"
 tags: [theology, scripture, theosis]
 summary: Acts 9:1-9 (NKJV) — the Damascus road.
 ---

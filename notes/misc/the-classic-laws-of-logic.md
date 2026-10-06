@@ -1,7 +1,7 @@
 ---
 id: M-0078
 date: 2026-10-05
-title: The classic laws of logic
+title: The Classic Laws of Logic
 tags: [theology, epistemology]
 summary: Identity, non-contradiction, excluded middle, and sufficient reason.
 ---
@@ -27,7 +27,7 @@ These laws form the foundation of logical reasoning and are **presupposed** in a
 
 ## Related
 
-- [[Epistemic principle]]
-- [[To give an account for something or to justify the existence of something]]
-- [[Would aliens have to operate on logic]]
+- [[Epistemic Principle]]
+- [[To Give an Account for Something or to Justify the Existence of Something]]
+- [[Would Aliens Have to Operate on Logic]]
 - [[TAG]]

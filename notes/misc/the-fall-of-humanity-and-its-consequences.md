@@ -1,7 +1,7 @@
 ---
 id: M-0024
 date: 2026-10-05
-title: The Fall of humanity and its consequences
+title: The Fall of Humanity and Its Consequences
 tags: [theology, scripture]
 summary: Eight passages on the Fall, sin, death and separation from God.
 ---
@@ -58,6 +58,6 @@ summary: Eight passages on the Fall, sin, death and separation from God.
 
 - [[Adam and Eve Sin]]
 - [[Adam and Eve]]
-- [[Genesis 3:1-6: Eve eats the fruit]]
-- [[Death and corruptibility as privations of life and the ability to sin]]
-- [[Christ as the new Adam: verses]]
+- [[Genesis 3:1-6: Eve Eats the Fruit]]
+- [[Death and Corruptibility as Privations of Life and the Ability to Sin]]
+- [[Christ as the New Adam: Verses]]

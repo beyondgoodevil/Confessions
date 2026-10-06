@@ -16,8 +16,8 @@ While the Fifth Council did not explicitly address monothelitism, its teachings 
 
 ## Related
 
-- [[Nine ecumenical councils and their decisions]]
+- [[Nine Ecumenical Councils and Their Decisions]]
 - [[The Council of Chalcedon (451 AD)]]
 - [[Canons of the Sixth Ecumenical Council]]
-- [[The Question of Christ's two wills]]
-- [[Nestorian key beliefs]]
+- [[The Question of Christ's Two Wills]]
+- [[Nestorian Key Beliefs]]

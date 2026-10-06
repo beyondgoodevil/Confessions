@@ -24,10 +24,10 @@ Results that resist the paradigm are at first set aside. Only when anomalies pil
 
 Competing paradigms can't be ranked by a neutral yardstick, because they disagree about which problems matter and even what their terms mean.
 
-This is the backdrop to Hamming's advice in [[You and your research]]: "important problems" are often exactly the anomalies a paradigm tells you to ignore.
+This is the backdrop to Hamming's advice in [[You and Your Research]]: "important problems" are often exactly the anomalies a paradigm tells you to ignore.
 
 ## What I disagree with
 
-The account fits physics and chemistry well and biology less so. I'm also not convinced incommensurability is as total as Kuhn suggests; [[Lakatos' research programmes]] look like a better middle ground. (That link is dimmed because I haven't written the note yet.)
+The account fits physics and chemistry well and biology less so. I'm also not convinced incommensurability is as total as Kuhn suggests; [[Lakatos' Research Programmes]] look like a better middle ground. (That link is dimmed because I haven't written the note yet.)
 
 [^paradigm]: Kuhn later admitted "paradigm" was overloaded. In the 1969 postscript he splits it into the *disciplinary matrix* and *exemplars*.

@@ -1,12 +1,12 @@
 ---
 id: M-0140
 date: 2026-10-05
-title: Septuagint history and contains Deuterocanonical books
+title: Septuagint History and Contains Deuterocanonical Books
 tags: [theology, canon, church-history]
 summary: The Septuagint, Dead Sea Scrolls and Masoretic Text compared, and which contain the Deuterocanonical books.
 ---
 
-### 1. Septuagint (LXX)
+## 1. Septuagint (LXX)
 
 - **Date:** 3rd-2nd centuries BCE.
 - **Origin:** Greek-speaking Jewish communities, primarily in Alexandria, Egypt.
@@ -20,19 +20,19 @@ summary: The Septuagint, Dead Sea Scrolls and Masoretic Text compared, and which
     - Additions to Daniel (e.g., Susanna, Bel and the Dragon)
     - Additions to Esther.
 
-### 2. Dead Sea Scrolls
+## 2. Dead Sea Scrolls
 
 - **Date:** 3rd century BCE – 1st century CE.
 - **Origin:** Discovered at Qumran, near the Dead Sea, likely written or collected by the Jewish Essene community.
 - **Contents:** While the Dead Sea Scrolls primarily contain Hebrew Scriptures, some manuscripts include texts that parallel the Deuterocanonical books, such as parts of Tobit and Sirach. However, these texts are not as complete in the Scrolls as they are in the Septuagint.
 
-### 3. Masoretic Text
+## 3. Masoretic Text
 
 - **Date:** Final form compiled around the 7th-10th centuries CE (based on earlier texts).
 - **Origin:** Rabbinic Jewish tradition in Israel and Babylon.
 - **Contents:** This became the authoritative Hebrew text for Judaism and **does not** include the Deuterocanonical books, which were not recognized by the Rabbinic canon. These books are considered **apocryphal** in the Jewish tradition.
 
-### Did These Texts Contain the Deuterocanonical Books?
+## Did These Texts Contain the Deuterocanonical Books?
 
 - **Septuagint:** Yes, it included the Deuterocanonical books and became the primary scripture for early Christians, who adopted these books into their canon.
 - **Dead Sea Scrolls:** Only fragments and references to some Deuterocanonical books were found, but the inclusion was not systematic.
@@ -41,7 +41,7 @@ summary: The Septuagint, Dead Sea Scrolls and Masoretic Text compared, and which
 ## Related
 
 - [[History of the Old Testament]]
-- [[Deuterocanonical citation in the NT]]
-- [[Paul quotes the Septuagint Part 1]]
-- [[Religious diversity within Judaism after Christ]]
-- [[Number of books in the Bible in different denominations]]
+- [[Deuterocanonical Citation in the NT]]
+- [[Paul Quotes the Septuagint Part 1]]
+- [[Religious Diversity Within Judaism After Christ]]
+- [[Number of Books in the Bible in Different Denominations]]

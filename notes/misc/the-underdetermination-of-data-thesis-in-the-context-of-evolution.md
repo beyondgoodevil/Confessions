@@ -1,7 +1,7 @@
 ---
 id: M-0093
 date: 2026-10-05
-title: The underdetermination of data thesis in the context of evolution
+title: The Underdetermination of Data Thesis in the Context of Evolution
 tags: [theology, epistemology, apologetics]
 summary: The argument that the same empirical data can support interpretations other than Darwinian evolution.
 ---
@@ -20,7 +20,7 @@ In summary, the underdetermination thesis in the context of evolution suggests t
 
 ## Related
 
-- [[Evolution can be understood as a paradigm-level theory]]
+- [[Evolution Can Be Understood as a Paradigm-Level Theory]]
 - [[What Is a Worldview or Paradigm]]
-- [[Critique of empiricism]]
-- [[10 Scientific scandals]]
+- [[Critique of Empiricism]]
+- [[10 Scientific Scandals]]

@@ -1,14 +1,14 @@
 ---
 id: M-0022
 date: 2026-10-05
-title: Teaching of recapitulation
+title: Teaching of Recapitulation
 tags: [theology, christology, theosis]
 summary: St. Irenaeus's teaching that Christ's life and work restore humanity and creation, reversing Adam's disobedience.
 ---
 
 The **teaching of recapitulation** is a central theological concept, particularly emphasized by **St. Irenaeus of Lyons**. It posits that Christ's life and work restore and fulfill humanity and creation, reversing the disobedience of Adam through His obedience. Here's a compact overview:
 
-### Key Elements of Recapitulation
+## Key Elements of Recapitulation
 
 1. **Christ as the New Adam:**
     - Adam's disobedience introduced sin and death; Christ's obedience brings salvation.
@@ -29,14 +29,14 @@ The **teaching of recapitulation** is a central theological concept, particularl
     - Christ's life contrasts with Adam's failure.
     - **Philippians 2:8:** Christ's obedience leads to salvation.
 
-### Conclusion
+## Conclusion
 
 The **teaching of recapitulation** emphasizes that Christ's incarnation, life, death, and resurrection restore humanity and creation. It highlights salvation as a transformative event, leading to *theosis*, where believers can share in divine life, overcoming the consequences of the Fall.
 
 ## Related
 
-- [[Doctrine of recapitulation]]
+- [[Doctrine of Recapitulation]]
 - [[Recapitulation Doctrine vs PSA]]
-- [[Christ as the new Adam: verses]]
+- [[Christ as the New Adam: Verses]]
 - [[2 Peter 1:3-4: Theosis]]
-- [[The Fall of humanity and its consequences]]
+- [[The Fall of Humanity and Its Consequences]]

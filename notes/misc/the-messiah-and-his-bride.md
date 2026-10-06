@@ -6,9 +6,7 @@ tags: [theology, mary, covenant]
 summary: Marriage imagery for God and His people in both Testaments, and Mary as its archetype.
 ---
 
-### The Messiah and His Bride
-
-#### 1. Biblical Foundations in the Old Testament:
+## 1. Biblical Foundations in the Old Testament
 
 **Isaiah 62:5**  
 "For as a young man marrieth a virgin, so shall thy sons marry thee: and as the bridegroom rejoiceth over the bride, so shall thy God rejoice over thee."
@@ -21,7 +19,7 @@ The imagery of marriage between God and His people is established in the Old Tes
 
 ---
 
-#### 2. The New Testament Teachings:
+## 2. The New Testament Teachings
 
 **Ephesians 5:25-27**  
 "Husbands, love your wives, even as Christ also loved the church, and gave himself for it... that he might present it to himself a glorious church."
@@ -34,7 +32,7 @@ In the New Testament, the Church is revealed as the Bride of Christ, emphasizing
 
 ---
 
-#### 3. Connection to Mary:
+## 3. Connection to Mary
 
 **Luke 1:28**  
 "And the angel came in unto her, and said, Hail, thou that art highly favored, the Lord is with thee."
@@ -47,7 +45,7 @@ Mary, the Theotokos (God-bearer), fulfills the promise of the Messiah. Her accep
 
 ---
 
-#### 4. Theological Implications:
+## 4. Theological Implications
 
 - **Mystical Union:**  
   The union between Christ and the Church is compared to the bond between a husband and wife.
@@ -56,13 +54,13 @@ Mary, the Theotokos (God-bearer), fulfills the promise of the Messiah. Her accep
 
 ---
 
-### Conclusion
+## Conclusion
 
 The relationship between the Messiah, His Bride (the Church), and Mary is rooted in both the Old and New Testaments. The marriage imagery establishes the covenant relationship between God and His people, which the New Testament expands upon. Mary exemplifies the ideal response to God's invitation, highlighting her integral role in salvation history and the Church's mission. Together, they embody the profound mystery of salvation and the intimate bond between Christ and His Church.
 
 ## Related
 
-- [[Adam as a type of Christ and Eve as a type of the Church]]
-- [[Mary as the Ark of the Covenant and as the New Heavenly Jerusalem, symbolizing the ultimate image of the Church: verses]]
+- [[Adam as a Type of Christ and Eve as a Type of the Church]]
+- [[Mary as the Ark of the Covenant and as the New Heavenly Jerusalem, Symbolizing the Ultimate Image of the Church: Verses]]
 - [[The Holy Queen vs The Whore of Babylon]]
 - [[Types of Church in the OT]]

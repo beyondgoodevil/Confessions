@@ -1,14 +1,14 @@
 ---
 id: M-0062
 date: 2026-10-05
-title: Liturgy origins
+title: Liturgy Origins
 tags: [theology, tradition, scripture]
 summary: How the apostles built Christian liturgy from Temple and synagogue worship.
 ---
 
 The apostles developed Christian liturgical worship by drawing heavily from the Jewish traditions of Temple worship and synagogue liturgy, adapting and fulfilling them in light of Christ's life, death, and resurrection. This process reflected the continuity of God's covenantal relationship with His people while embracing the new realities of the Gospel. Below is a detailed explanation of how these elements came together:
 
-### 1. Temple Worship Influences
+## 1. Temple Worship Influences
 
 Temple worship in Jerusalem, which revolved around sacrifices and formal liturgical structure, provided the foundational elements for the Christian Eucharistic celebration and other rituals.
 
@@ -23,7 +23,7 @@ Temple worship in Jerusalem, which revolved around sacrifices and formal liturgi
 
 The structure and reverence of the Temple worship inspired the formal, sacred character of Christian liturgical practices, especially the Eucharist.
 
-### 2. Synagogue Worship Influences
+## 2. Synagogue Worship Influences
 
 The synagogue, as the center of Jewish community worship outside the Temple, provided the framework for Christian liturgy of the Word and communal prayer.
 
@@ -38,7 +38,7 @@ The synagogue, as the center of Jewish community worship outside the Temple, pro
 
 The synagogue's emphasis on Scripture and prayer became the basis for the first part of Christian worship services, which evolved into the "Liturgy of the Word" in Eucharistic celebrations.
 
-### 3. Biblical Evidence for Apostolic Worship
+## 3. Biblical Evidence for Apostolic Worship
 
 The New Testament provides glimpses of how the apostles and early Christians blended these traditions into a distinct Christian liturgy:
 
@@ -48,7 +48,7 @@ The New Testament provides glimpses of how the apostles and early Christians ble
 - **1 Corinthians 11:23-26:** Paul describes the Lord's Supper, showing that the Eucharist was central to Christian worship from the earliest days.
 - **Revelation 4-5 and 8:** These chapters describe heavenly worship with elements like incense, prayers, and hymns, mirroring early Christian liturgy.
 
-### 4. Specific Liturgical Adaptations by the Apostles
+## 4. Specific Liturgical Adaptations by the Apostles
 
 The apostles adapted elements of Jewish worship to reflect the fulfillment of God's promises in Christ:
 
@@ -56,20 +56,20 @@ The apostles adapted elements of Jewish worship to reflect the fulfillment of Go
 - **Liturgical Leadership:** The apostles took on roles analogous to the Temple priesthood but as ministers of the new covenant (2 Corinthians 3:6).
 - **Worship Spaces:** Early Christians worshiped in homes (Acts 2:46), but these gatherings reflected the structure of synagogue services, with teaching, prayer, and the Eucharist.
 
-### 5. Continuity and Fulfillment of the Covenant
+## 5. Continuity and Fulfillment of the Covenant
 
 Christian liturgical worship was seen as a continuation of God's covenantal relationship with His people:
 
 - **New Covenant Sacraments:** Baptism and the Eucharist were instituted as the new signs of the covenant, replacing circumcision and Passover.
 - **Heavenly Worship:** Christian liturgy reflected and participated in the worship of heaven, fulfilling the eschatological hope found in the Old Testament (Isaiah 6:1-3, Revelation 4:8).
 
-### Summary
+## Summary
 
 The apostles created the Christian liturgical service by merging elements of Jewish Temple and synagogue worship with the new realities of Christ's work. The Eucharist replaced the Temple sacrifices, while the Liturgy of the Word mirrored synagogue practices. Scriptural evidence shows how this development emphasized continuity with the Old Testament while fulfilling its promises through Christ.
 
 ## Related
 
-- [[EO continuity with OT]]
+- [[EO Continuity With OT]]
 - [[Old Testament Foreshadowings of Heavenly Worship]]
-- [[Revelation chapters 5 through 8 depict a heavenly vision of worship]]
-- [[Intercession of saints: Psalms and heavenly worship]]
+- [[Revelation Chapters 5 Through 8 Depict a Heavenly Vision of Worship]]
+- [[Intercession of Saints: Psalms and Heavenly Worship]]

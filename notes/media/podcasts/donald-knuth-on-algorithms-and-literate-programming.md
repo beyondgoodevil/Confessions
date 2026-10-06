@@ -1,6 +1,6 @@
 ---
 id: P-0001
-title: Donald Knuth on algorithms and literate programming
+title: Donald Knuth on Algorithms and Literate Programming
 show: Lex Fridman Podcast
 host: Lex Fridman
 guest: Donald Knuth
@@ -20,4 +20,4 @@ summary: Sample podcast note — themes from a long conversation with the author
 
 ## Connections
 
-Knuth's patience is the opposite end of the spectrum from the urgency in [[You and your research]]; both are about choosing problems worth years of your life.
+Knuth's patience is the opposite end of the spectrum from the urgency in [[You and Your Research]]; both are about choosing problems worth years of your life.

@@ -8,7 +8,7 @@ summary: The 4th-century North African movement that tied sacramental validity t
 
 **Donatism** was a theological and ecclesiastical movement that arose in North Africa in the early 4th century. It centered on the belief that the validity of the sacraments, particularly **baptism** and the **Eucharist**, depended on the moral character and purity of the clergy administering them. Donatists argued that clergy who had betrayed the faith or committed serious sins could not validly perform sacraments, as their personal unworthiness invalidated their ministry.
 
-### Key Aspects of Donatism:
+## Key Aspects of Donatism
 
 1. **Historical Background**:
     - Donatism emerged during the aftermath of the **Diocletian persecution** (303–311 AD), when some Christian clergy, under threat of death or torture, handed over sacred texts or renounced their faith to save their lives. These individuals were called **"traditores"** (those who "handed over").
@@ -28,13 +28,13 @@ summary: The 4th-century North African movement that tied sacramental validity t
     - Although Donatism was officially condemned and gradually declined, its ideas persisted in some North African communities until the Islamic conquest of the region in the 7th century.
     - The controversy raised important theological questions about the nature of the Church, the sacraments, and the balance between moral integrity and ecclesiastical authority.
 
-### Summary:
+## Summary
 
 Donatism taught that the validity of sacraments depended on the moral purity of the clergy. It was opposed by figures like **St. Augustine**, who upheld that sacraments derive their efficacy from Christ, not the personal worthiness of the minister. Donatism was condemned as a heresy but left a lasting impact on discussions about the Church's nature and unity.
 
 ## Related
 
-- [[EO view on Donatism]]
-- [[Augustinian view on baptism]]
-- [[3 necessary requirements of a valid sacrament (RC)]]
-- [[Orthodox teaching about the sacraments being valid only within the canonical boundaries of the Church]]
+- [[EO View on Donatism]]
+- [[Augustinian View on Baptism]]
+- [[3 Necessary Requirements of a Valid Sacrament (RC)]]
+- [[Orthodox Teaching About the Sacraments Being Valid Only Within the Canonical Boundaries of the Church]]

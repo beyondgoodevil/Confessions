@@ -1,7 +1,7 @@
 ---
 id: M-0068
 date: 2026-10-05
-title: "Penal substitution: Reformers that believed in penal substitution"
+title: "Penal Substitution: Reformers That Believed in Penal Substitution"
 tags: [theology, church-history]
 summary: Ten Reformers and Reformed theologians who taught penal substitution.
 ---
@@ -19,7 +19,7 @@ summary: Ten Reformers and Reformed theologians who taught penal substitution.
 
 ## Related
 
-- [[Penal substitution leads to Nestorianism]]
-- [[Reformer that believed that the Father damned the Son]]
+- [[Penal Substitution Leads to Nestorianism]]
+- [[Reformer That Believed That the Father Damned the Son]]
 - [[Recapitulation Doctrine vs PSA]]
-- [[Calvinism views on humans]]
+- [[Calvinism Views on Humans]]

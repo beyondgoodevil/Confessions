@@ -1,12 +1,12 @@
 ---
 id: M-0180
 date: 2026-10-05
-title: Laws/Canons that Constantinople determined
+title: Laws/Canons That Constantinople Determined
 tags: [theology, councils, church-history]
 summary: A list of 28 canons attributed to the Council of Constantinople.
 ---
 
-### Canons of the Council of Constantinople
+## Canons of the Council of Constantinople
 
 1. **Canon 1:** Confirms the Nicene Creed and the faith of the 318 Fathers at Nicaea, asserting that it must be adhered to.
 2. **Canon 2:** Establishes the authority of the Bishop of Constantinople, granting him the same privileges as the Bishop of Rome.
@@ -39,7 +39,7 @@ summary: A list of 28 canons attributed to the Council of Constantinople.
 
 ## Related
 
-- [[Laws/Canons that Nicea determined]]
+- [[Laws/Canons That Nicea Determined]]
 - [[Canons of the Sixth Ecumenical Council]]
-- [[Nine ecumenical councils and their decisions]]
-- [[Nicene Creed Canon 6: first among equals explanation]]
+- [[Nine Ecumenical Councils and Their Decisions]]
+- [[Nicene Creed Canon 6: First Among Equals Explanation]]

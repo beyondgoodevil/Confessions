@@ -1,7 +1,7 @@
 ---
 id: M-0044
 date: 2026-10-05
-title: By two or more witnesses something is true
+title: By Two or More Witnesses Something Is True
 tags: [theology, scripture]
 summary: Four verses on a matter being established by two or three witnesses.
 ---
@@ -13,5 +13,5 @@ summary: Four verses on a matter being established by two or three witnesses.
 
 ## Related
 
-- [[Epistemic principle]]
-- [[Acts 15:6-22: Church government]]
+- [[Epistemic Principle]]
+- [[Acts 15:6-22: Church Government]]

@@ -1,7 +1,7 @@
 ---
 id: M-0212
 date: 2026-10-05
-title: "Genesis 32:24-30: Jacob wrestled and saw God"
+title: "Genesis 32:24-30: Jacob Wrestled and Saw God"
 tags: [theology, scripture, christology]
 summary: Genesis 32:24-30, where Jacob wrestles a Man and says he has seen God face to face.
 source: Genesis 32:24-30 (New King James Version)
@@ -20,5 +20,5 @@ The image is a screenshot of Genesis 32:24-30 in the New King James Version, wit
 
 - [[Theophanies]]
 - [[The Angel of the Lord]]
-- [[Judges 13:2-22: Samson's parents have seen God]]
-- [[Jesus in the OT as theophany]]
+- [[Judges 13:2-22: Samson's Parents Have Seen God]]
+- [[Jesus in the OT as Theophany]]

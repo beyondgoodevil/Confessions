@@ -1,13 +1,13 @@
 ---
 id: M-0211
 date: 2026-10-05
-title: "Genesis 3:1-6: Eve eats the fruit"
+title: "Genesis 3:1-6: Eve Eats the Fruit"
 tags: [theology, scripture]
 summary: Genesis 3:1-6 outlined, with the temptation, the threefold desire and the act.
 source: Genesis 3:1-6 (English Standard Version)
 ---
 
-### Genesis 3:1-6 (ESV)
+## Genesis 3:1-6 (ESV)
 
 The image quotes the passage in the English Standard Version, with each "fruit" highlighted. The ESV text is copyrighted, so it is outlined here verse by verse.
 
@@ -16,7 +16,7 @@ The image quotes the passage in the English Standard Version, with each "fruit" 
 - **3:4-5** – The serpent says they will not surely die; God knows their eyes will be opened and they will be like God, knowing good and evil.
 - **3:6** – Seeing the tree is good for food, a delight to the eyes and desirable to make one wise, she takes its ==fruit== and eats, and gives some to her husband, who eats.
 
-### Key Details:
+## Key Details
 
 1. **The Temptation:** The serpent deceives Eve by questioning God's command and promising her that eating the ==fruit== will make her like God, knowing good and evil.
 2. **The Desire:** Eve sees that the ==fruit== is desirable in three ways:
@@ -29,5 +29,5 @@ The image quotes the passage in the English Standard Version, with each "fruit" 
 
 - [[Adam and Eve Sin]]
 - [[Adam and Eve]]
-- [[The Fall of humanity and its consequences]]
+- [[The Fall of Humanity and Its Consequences]]
 - [[Revelation 12, Genesis 3:15: Mary Prophecy]]

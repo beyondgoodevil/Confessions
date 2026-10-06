@@ -24,5 +24,5 @@ The **Twelve Tribes of Israel** descend from Jacob's sons and grandsons:
 ## Related
 
 - [[Types of Church in the OT]]
-- [[Galatians 6:15-16: The Church is the Israel of God]]
-- [[List of all covenants]]
+- [[Galatians 6:15-16: The Church Is the Israel of God]]
+- [[List of All Covenants]]

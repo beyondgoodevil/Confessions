@@ -10,7 +10,7 @@ Relativism is wrong because it undermines logic and truth itself. If all truths 
 
 ## Related
 
-- [[It is impossible to have a coherent worldview without objective truths]]
+- [[It Is Impossible to Have a Coherent Worldview Without Objective Truths]]
 - [[Skepticism]]
-- [[Would aliens have to operate on logic]]
-- [[The classic laws of logic]]
+- [[Would Aliens Have to Operate on Logic]]
+- [[The Classic Laws of Logic]]

@@ -26,8 +26,8 @@ Here are some key theophanies in the Old Testament:
 
 ## Related
 
-- [[Jesus in the OT as theophany]]
+- [[Jesus in the OT as Theophany]]
 - [[The Angel of the Lord]]
 - [[Bible: Exodus 3, I AM WHO I AM, Theophany]]
-- [[Isaiah 6:1-5: I saw the Lord]]
-- [[Genesis 32:24-30: Jacob wrestled and saw God]]
+- [[Isaiah 6:1-5: I Saw the Lord]]
+- [[Genesis 32:24-30: Jacob Wrestled and Saw God]]

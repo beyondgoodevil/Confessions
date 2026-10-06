@@ -1,7 +1,7 @@
 ---
 id: M-0087
 date: 2026-10-05
-title: The prayer of Mary found in the Gospel of Luke
+title: The Prayer of Mary Found in the Gospel of Luke
 tags: [theology, mary, scripture]
 summary: The Magnificat (Luke 1:46-55, KJV) with a short summary.
 ---
@@ -30,7 +30,7 @@ in remembrance of his mercy;
 55 As he spake to our fathers,  
 to Abraham, and to his seed for ever."
 
-### Summary:
+## Summary
 
 This prayer reflects Mary's deep humility, acknowledging her lowliness and God's greatness. She praises God for His mercy and justice, highlighting how He lifts up the humble and casts down the proud. It also shows her awareness of the fulfillment of God's promises to Israel through the coming of the Messiah, Jesus, whom she is bearing.
 
@@ -38,7 +38,7 @@ The **Magnificat** has been a significant part of Christian liturgical tradition
 
 ## Related
 
-- [[Gabriel's announcement to Mary]]
-- [[Mary's consent to the angel Gabriel]]
-- [[Mary the most pure queen of heaven next to Christ]]
-- [[Sarah and Hannah experienced miraculous births: verses]]
+- [[Gabriel's Announcement to Mary]]
+- [[Mary's Consent to the Angel Gabriel]]
+- [[Mary the Most Pure Queen of Heaven Next to Christ]]
+- [[Sarah and Hannah Experienced Miraculous Births: Verses]]

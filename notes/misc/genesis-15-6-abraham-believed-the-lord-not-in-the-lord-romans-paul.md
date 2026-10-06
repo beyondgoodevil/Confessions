@@ -1,7 +1,7 @@
 ---
 id: M-0209
 date: 2026-10-05
-title: "Genesis 15:6: Abraham believed the Lord, not in the Lord + Romans, Paul"
+title: "Genesis 15:6: Abraham Believed the Lord, Not in the Lord + Romans, Paul"
 tags: [theology, scripture, covenant]
 summary: Romans 4:3 alongside Genesis 15:6 — Abraham believed God's specific word.
 ---
@@ -14,7 +14,7 @@ This underscores that Abraham's righteousness came from trusting the specific pr
 
 ## Related
 
-- [[Genesis 15:6: Abraham believed the Lord, not in the Lord]]
-- [[Genesis 12:1-4: Abraham already believed in God]]
-- [[Romans: not justified by works of the law]]
-- [[Abraham's journey of faith and his covenant relationship with God]]
+- [[Genesis 15:6: Abraham Believed the Lord, Not in the Lord]]
+- [[Genesis 12:1-4: Abraham Already Believed in God]]
+- [[Romans: Not Justified by Works of the Law]]
+- [[Abraham's Journey of Faith and His Covenant Relationship With God]]

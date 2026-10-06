@@ -1,16 +1,16 @@
 ---
 id: M-0028
 date: 2026-10-05
-title: "Thomism is perennialism: all ways lead to God"
+title: "Thomism Is Perennialism: All Ways Lead to God"
 tags: [theology, thomism]
 summary: How absolute divine simplicity can push Thomism toward a perennialist conclusion.
 ---
 
-### Perennialism
+## Perennialism
 
 Perennialism is the belief that all major religions contain a shared, underlying truth that leads to the same ultimate divine reality. Despite outward differences, Perennialists argue that the esoteric or mystical core of each tradition is a path to the same transcendent truth.
 
-### How Thomism Ends in Perennialism Due to Absolute Divine Simplicity
+## How Thomism Ends in Perennialism Due to Absolute Divine Simplicity
 
 **Thomism**, rooted in the thought of St. Thomas Aquinas, teaches **absolute divine simplicity**, meaning that God's essence is entirely simple, without parts, and identical to His attributes. In this view, God's essence is the same as His existence—there is no distinction between who God is and what God does.
 
@@ -27,5 +27,5 @@ Because **absolute divine simplicity** asserts that there are no distinctions wi
 - [[Thomism]]
 - [[Thomism EXTENDED]]
 - [[Thomism Leads to Eternal Creation]]
-- [[Neoplatonic idea of divine simplicity]]
-- [[Essence-energies distinction]]
+- [[Neoplatonic Idea of Divine Simplicity]]
+- [[Essence-Energies Distinction]]

@@ -1,7 +1,7 @@
 ---
 id: M-0073
 date: 2026-10-05
-title: "Works are required: NT quotes"
+title: "Works Are Required: NT Quotes"
 tags: [theology, scripture]
 summary: Eleven New Testament passages on works, obedience and judgment according to deeds.
 ---
@@ -52,8 +52,8 @@ summary: Eleven New Testament passages on works, obedience and judgment accordin
 
 ## Related
 
-- [[Verses: the way we live our lives is deeply connected to our experience of the afterlife]]
-- [[Believers are called to fulfill their part of the covenant: NT verses]]
-- [[Romans: not justified by works of the law]]
-- [[Sola fide still requires works: mental work]]
-- [[Word-concept fallacy: biblical examples]]
+- [[Verses: The Way We Live Our Lives Is Deeply Connected to Our Experience of the Afterlife]]
+- [[Believers Are Called to Fulfill Their Part of the Covenant: NT Verses]]
+- [[Romans: Not Justified by Works of the Law]]
+- [[Sola Fide Still Requires Works: Mental Work]]
+- [[Word-Concept Fallacy: Biblical Examples]]

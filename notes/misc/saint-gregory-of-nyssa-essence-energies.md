@@ -1,7 +1,7 @@
 ---
 id: M-0136
 date: 2026-10-05
-title: "Saint Gregory of Nyssa: essence energies"
+title: "Saint Gregory of Nyssa: Essence Energies"
 tags: [theology, theosis]
 summary: Gregory's doctrine of epektasis — the soul's endless ascent toward God through His energies.
 ---
@@ -16,8 +16,8 @@ This teaching emphasizes that the process of becoming united with God is an ongo
 
 ## Related
 
-- [[Essence-energies distinction]]
-- [[2 Corinthians 3:18: We move from glory to glory]]
-- [[St. Gregory of Nyssa's writings against Eunomius]]
+- [[Essence-Energies Distinction]]
+- [[2 Corinthians 3:18: We Move From Glory to Glory]]
+- [[St. Gregory of Nyssa's Writings Against Eunomius]]
 - [[Differences Between Gregory’s Dunamis and Thomistic Pure Act]]
-- [[God's uncreated energies]]
+- [[God's Uncreated Energies]]

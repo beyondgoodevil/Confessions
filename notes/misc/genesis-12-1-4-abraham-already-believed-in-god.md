@@ -1,7 +1,7 @@
 ---
 id: M-0208
 date: 2026-10-05
-title: "Genesis 12:1-4: Abraham already believed in God"
+title: "Genesis 12:1-4: Abraham Already Believed in God"
 tags: [theology, scripture, covenant]
 summary: Abraham's obedience in Genesis 12 shows faith that predates Genesis 15:6.
 ---
@@ -17,7 +17,7 @@ This shows that Abraham already believed **in** God before Genesis 15:6. The fac
 
 ## Related
 
-- [[Genesis 15:6: Abraham believed the Lord, not in the Lord]]
-- [[Genesis 15:6: Abraham believed the Lord, not in the Lord + Romans, Paul]]
-- [[Abraham's journey of faith and his covenant relationship with God]]
-- [[Works are required: NT quotes]]
+- [[Genesis 15:6: Abraham Believed the Lord, Not in the Lord]]
+- [[Genesis 15:6: Abraham Believed the Lord, Not in the Lord + Romans, Paul]]
+- [[Abraham's Journey of Faith and His Covenant Relationship With God]]
+- [[Works Are Required: NT Quotes]]

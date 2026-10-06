@@ -1,7 +1,7 @@
 ---
 id: M-0079
 date: 2026-10-05
-title: The debate between Maximus the Confessor and Pyrrhus
+title: The Debate Between Maximus the Confessor and Pyrrhus
 tags: [theology, christology, church-history]
 summary: Maximus's defence of two distinct natures and wills in Christ against Pyrrhus.
 ---
@@ -16,8 +16,8 @@ Maximus' view upheld the Chalcedonian definition, which affirmed that Christ is 
 
 ## Related
 
-- [[St. Maximus on the two wills in Christ]]
-- [[The Question of Christ's two wills]]
-- [[Will is proper to nature]]
-- [[Why Christ's two natures can not mix]]
+- [[St. Maximus on the Two Wills in Christ]]
+- [[The Question of Christ's Two Wills]]
+- [[Will Is Proper to Nature]]
+- [[Why Christ's Two Natures Can Not Mix]]
 - [[The Council of Chalcedon (451 AD)]]

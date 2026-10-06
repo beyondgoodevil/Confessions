@@ -1,12 +1,12 @@
 ---
 id: M-0185
 date: 2026-10-05
-title: "Mary as the Ark of the Covenant and as the New Heavenly Jerusalem, symbolizing the ultimate image of the Church: verses"
+title: "Mary as the Ark of the Covenant and as the New Heavenly Jerusalem, Symbolizing the Ultimate Image of the Church: Verses"
 tags: [theology, mary, scripture]
 summary: Verses for Mary as the Ark, as the New Jerusalem, and as the image of the Church.
 ---
 
-### 1. Mary as the Ark of the Covenant
+## 1. Mary as the Ark of the Covenant
 
 - Luke 1:35  
   "And the angel answered her, 'The Holy Spirit will come upon you, and the power of the Most High will overshadow you; therefore the child to be born will be called holy—the Son of God.'"
@@ -18,7 +18,7 @@ summary: Verses for Mary as the Ark, as the New Jerusalem, and as the image of t
   "There I will meet with you, and from above the mercy seat, from between the two cherubim that are on the ark of the testimony, I will speak with you about all that I will give you in commandment for the people of Israel."
     - The Ark was the meeting place of God and humanity, similar to how Mary bore Jesus, who is the fulfillment of God's covenant.
 
-### 2. Mary as the New Heavenly Jerusalem
+## 2. Mary as the New Heavenly Jerusalem
 
 - Galatians 4:26  
   "But the Jerusalem above is free, and she is our mother."
@@ -27,7 +27,7 @@ summary: Verses for Mary as the Ark, as the New Jerusalem, and as the image of t
   "And I saw the holy city, new Jerusalem, coming down out of heaven from God, prepared as a bride adorned for her husband."
     - The New Jerusalem represents the Church, and Mary, as the mother of Christ, embodies the Church's role in salvation history.
 
-### 3. Mary as the Ultimate Image of the Church
+## 3. Mary as the Ultimate Image of the Church
 
 - Ephesians 5:25-27  
   "Husbands, love your wives, as Christ loved the church and gave himself up for her, that he might sanctify her, having cleansed her by the washing of water with the word, so that he might present the church to himself in splendor, without spot or wrinkle or any such thing, that she might be holy and without blemish."
@@ -36,7 +36,7 @@ summary: Verses for Mary as the Ark, as the New Jerusalem, and as the image of t
   "For he has looked on the humble estate of his servant. For behold, from now on all generations will call me blessed."
     - Mary's acknowledgment of her role in God's plan signifies her exemplary faith and cooperation, making her a model for the Church.
 
-### Summary
+## Summary
 
 These verses collectively emphasize the significance of Mary as the Ark of the Covenant, the New Heavenly Jerusalem, and the ultimate image of the Church, underscoring her unique role in salvation history and the Christian faith.
 
@@ -44,5 +44,5 @@ These verses collectively emphasize the significance of Mary as the Ark of the C
 
 - [[Types of Mary in the OT]]
 - [[The Messiah and His Bride]]
-- [[Mary referred to as The Woman in the Bible]]
+- [[Mary Referred to as The Woman in the Bible]]
 - [[Symbolism of Aaron’s Rod in Relation to Christ and Mary]]

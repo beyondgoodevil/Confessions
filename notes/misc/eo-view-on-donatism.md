@@ -1,12 +1,12 @@
 ---
 id: M-0241
 date: 2026-10-06
-title: EO view on Donatism
+title: EO View on Donatism
 tags: [theology, sacraments, church-history]
 summary: Five reasons Orthodoxy is not Donatist, and how the East responded to Donatism.
 ---
 
-### Why Eastern Orthodoxy Is Not Donatist:
+## Why Eastern Orthodoxy Is Not Donatist
 
 1. **Christ as the Source of Sacramental Efficacy**:
     - The Eastern Orthodox Church teaches that **Christ** is the true minister of every sacrament. The clergy serve as instruments, but the grace imparted through the sacraments comes from Christ, not from the personal holiness of the priest or bishop.
@@ -26,21 +26,21 @@ summary: Five reasons Orthodoxy is not Donatist, and how the East responded to D
     - St. Cyprian of Carthage, although often cited by Donatists, is also upheld in Orthodoxy for his insistence on the Church's unity:  
       *"He who does not have the Church as his mother cannot have God as his Father."*
 
-### Eastern Orthodox Response to Donatism:
+## Eastern Orthodox Response to Donatism
 
 1. **Council of Carthage (411 AD)**:
     - Although this council was a Western gathering, it condemned Donatism, and its decisions were consistent with the broader patristic consensus, which Orthodoxy shares.
 2. **Eastern Fathers on Unity and Sacraments**:
     - Fathers like **St. Basil the Great** and **St. John Chrysostom** taught that sacraments administered within the Church retain their power, irrespective of the personal failings of the clergy. Their focus was on maintaining the Church's unity and sacramental integrity.
 
-### Summary:
+## Summary
 
 The **Eastern Orthodox Church** rejects Donatism because it wrongly ties the efficacy of sacraments to the moral state of the clergy. Orthodoxy teaches that sacraments derive their grace from **Christ**, and the Church remains holy and united despite the presence of sin within its members. This ensures that the Church is not reduced to a community of only the morally pure, which would undermine its mission of offering salvation to all.
 
 ## Related
 
 - [[Donatism]]
-- [[Orthodox teaching about the sacraments being valid only within the canonical boundaries of the Church]]
+- [[Orthodox Teaching About the Sacraments Being Valid Only Within the Canonical Boundaries of the Church]]
 - [[Economia]]
-- [[Augustinian view on baptism]]
+- [[Augustinian View on Baptism]]
 - [[Criteria for Valid Baptism in the Orthodox Church]]

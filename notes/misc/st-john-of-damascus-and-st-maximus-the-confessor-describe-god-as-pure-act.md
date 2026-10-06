@@ -1,7 +1,7 @@
 ---
 id: M-0146
 date: 2026-10-05
-title: St. John of Damascus and St. Maximus the Confessor describe God as pure act
+title: St. John of Damascus and St. Maximus the Confessor Describe God as Pure Act
 tags: [theology, thomism, theosis]
 summary: How the two Fathers use "pure act" differently from Aquinas.
 ---
@@ -17,8 +17,8 @@ While they borrow and adapt this terminology, the meaning differs from Aristotel
 
 ## Related
 
-- [[God as pure act: RC vs EO]]
-- [[Aristotle and God as pure act]]
+- [[God as Pure Act: RC vs EO]]
+- [[Aristotle and God as Pure Act]]
 - [[Differences Between Gregory’s Dunamis and Thomistic Pure Act]]
-- [[God being pure act makes incarnation impossible]]
+- [[God Being Pure Act Makes Incarnation Impossible]]
 - [[Thomism]]

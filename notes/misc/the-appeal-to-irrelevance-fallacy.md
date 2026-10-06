@@ -1,20 +1,20 @@
 ---
 id: M-0076
 date: 2026-10-05
-title: The appeal to irrelevance fallacy
+title: The Appeal to Irrelevance Fallacy
 tags: [theology, fallacies]
 summary: The red herring — answering an argument with something unrelated to it.
 ---
 
 The **appeal to irrelevance** (also known as the **irrelevant argument** or **red herring fallacy**) is a type of logical fallacy in which someone introduces an argument or point that **does not actually address the issue at hand** but is intended to distract from the original topic. Instead of responding to the actual argument or question, the person shifts to something unrelated, hoping that it will steer the discussion away from the real issue.
 
-### Structure of the Fallacy
+## Structure of the Fallacy
 
 1. **Person A presents an argument or question.**
 2. **Person B responds with something unrelated to the original argument.**
 3. **The unrelated response is used to distract or avoid addressing the real issue.**
 
-### Examples of Appeal to Irrelevance:
+## Examples of Appeal to Irrelevance
 
 1. **In a Debate About Ethics:**
     - A: "We should prioritize environmental protection to save the planet for future generations."
@@ -29,18 +29,18 @@ The **appeal to irrelevance** (also known as the **irrelevant argument** or **re
     - B: "But what about all the suffering in the world? How can we believe in a God who allows so much pain?"
     - (B avoids discussing the resurrection by bringing up the problem of evil, which is a separate theological question.)
 
-### Why It’s a Fallacy
+## Why It’s a Fallacy
 
 The appeal to irrelevance is a fallacy because it **does not address the issue** being discussed and instead **introduces a tangent** that has no direct bearing on the original argument. The person using this tactic may be trying to **distract or deflect** attention from weaknesses in their position. While bringing up other relevant topics is part of a comprehensive debate, introducing completely unrelated matters is a form of evasion.
 
-### Related Fallacies:
+## Related Fallacies
 
 - **Red Herring**: A diversionary tactic that introduces irrelevant information to mislead or distract.
 - **Straw Man**: Misrepresenting the opponent’s argument to make it easier to attack, though it’s not strictly the same as an appeal to irrelevance, as it distorts the argument rather than just changing the subject.
 
 ## Related
 
-- [[Tu quoque fallacy]]
-- [[The ad hominem fallacy]]
-- [[Moving the goalpost]]
+- [[Tu Quoque Fallacy]]
+- [[The Ad Hominem Fallacy]]
+- [[Moving the Goalpost]]
 - [[Appeal to Generality]]

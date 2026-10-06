@@ -1,7 +1,7 @@
 ---
 id: M-0061
 date: 2026-10-05
-title: "Legalistic view on baptism: article, Roman Catholic Church"
+title: "Legalistic View on Baptism: Article, Roman Catholic Church"
 tags: [theology, sacraments]
 summary: Summary of a 2022 NPR report on Catholic baptisms ruled invalid over a single word.
 source: "NPR, “An Arizona priest used one wrong word in baptisms for decades. They're all invalid”, Rachel Treisman, 15 February 2022"
@@ -17,8 +17,8 @@ The image is a screenshot of an NPR news article (Religion section, 15 February 
 
 ## Related
 
-- [[3 necessary requirements of a valid sacrament (RC)]]
+- [[3 Necessary Requirements of a Valid Sacrament (RC)]]
 - [[Criteria for Valid Baptism in the Orthodox Church]]
-- [[Augustinian view on baptism]]
+- [[Augustinian View on Baptism]]
 - [[Donatism]]
 - [[Economia]]

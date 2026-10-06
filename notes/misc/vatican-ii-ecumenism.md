@@ -6,7 +6,7 @@ tags: [theology, church-history, councils]
 summary: Key points of Vatican II's ecumenical turn and its legacy, with the Orthodox objection.
 ---
 
-### Key Points on Ecumenism in Vatican II:
+## Key Points on Ecumenism in Vatican II
 
 1. **Decree on Ecumenism (*Unitatis Redintegratio*)**:
 
@@ -26,7 +26,7 @@ summary: Key points of Vatican II's ecumenical turn and its legacy, with the Ort
 
    Many traditional Roman Catholics viewed this ecumenical openness as problematic, arguing that it diluted the Church’s claim to exclusive truth. Groups like the **Society of St. Pius X (SSPX)** continue to reject Vatican II’s ecumenical principles.
 
-### Legacy:
+## Legacy
 
 Vatican II’s ecumenical reforms significantly influenced the Roman Church’s relationships with other Christians and religious traditions. However, these changes have been both praised for fostering unity and criticized for compromising traditional theological positions. From an **Orthodox perspective**, the council's emphasis on unity without full doctrinal agreement is seen as problematic, as true unity must be based on the fullness of Apostolic faith.
 
@@ -36,4 +36,4 @@ Vatican II’s ecumenical reforms significantly influenced the Roman Church’s 
 - [[Ecumenical Organizations]]
 - [[World Council of Churches and the Rockefeller Foundation]]
 - [[The Anglican Branch Theory]]
-- [[Branch theory refuted from the Bible]]
+- [[Branch Theory Refuted From the Bible]]

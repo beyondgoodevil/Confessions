@@ -6,7 +6,7 @@ tags: [theology, church-history]
 summary: The World Council of Churches and nine other ecumenical bodies.
 ---
 
-### World Council of Churches (WCC):
+## World Council of Churches (WCC)
 
 - **Founded**: 1948 in Amsterdam, the Netherlands.
 - **Membership**: The WCC is composed of over 350 Christian denominations, including most of the Protestant, Anglican, and Orthodox churches, but notably excluding the Roman Catholic Church (although it maintains a close working relationship with the WCC, and individual Catholics can be involved in its activities).
@@ -18,7 +18,7 @@ summary: The World Council of Churches and nine other ecumenical bodies.
     - Some **Oriental Orthodox Churches** (such as the Ethiopian Orthodox Church and the Armenian Apostolic Church).
 - However, the **Roman Catholic Church** is not a member, although it participates in certain activities and dialogues. The **Assyrian Church of the East** (Nestorian) is not a member, either.
 
-### Other Ecumenical Organizations:
+## Other Ecumenical Organizations
 
 1. **The Pontifical Council for Promoting Christian Unity (Catholic Church)**:  
    Established by the Vatican to foster dialogue and cooperation with non-Catholic Christian groups, especially after the Second Vatican Council (1962-1965). Though not an ecumenical organization in itself, it works closely with the WCC and other groups to promote unity, particularly with Orthodox and Protestant denominations.
@@ -45,4 +45,4 @@ summary: The World Council of Churches and nine other ecumenical bodies.
 - [[Vatican II Ecumenism]]
 - [[Mortalium Animos]]
 - [[The Anglican Branch Theory]]
-- [[Branch theory refuted from the Bible]]
+- [[Branch Theory Refuted From the Bible]]

@@ -1,7 +1,7 @@
 ---
 id: M-0231
 date: 2026-10-05
-title: "Jeremiah, Acts 2: the beginning of the Church, where God dwells with His people"
+title: "Jeremiah, Acts 2: The Beginning of the Church, Where God Dwells With His People"
 tags: [theology, covenant, scripture]
 summary: Jeremiah 31:31-33 and Acts 2:1-4 — the promised new covenant fulfilled at Pentecost.
 ---
@@ -19,7 +19,7 @@ Jeremiah prophesies a "new covenant," one that is not merely written on stone bu
 
 ## Related
 
-- [[Christ set up His Church at Pentecost, and the Church is referred to as His]]
-- [[Jesus established the New Covenant]]
-- [[Jesus promises that the Holy Spirit will guide the Church]]
-- [[List of all covenants]]
+- [[Christ Set Up His Church at Pentecost, and the Church Is Referred to as His]]
+- [[Jesus Established the New Covenant]]
+- [[Jesus Promises That the Holy Spirit Will Guide the Church]]
+- [[List of All Covenants]]

@@ -1,14 +1,14 @@
 ---
 id: M-0244
 date: 2026-10-06
-title: Epistemic questions
+title: Epistemic Questions
 tags: [theology, epistemology]
 summary: Six types of epistemic question, with examples of each.
 ---
 
 **Epistemic questions** are questions related to **epistemology**, the branch of philosophy that studies knowledge, belief, and justification. These questions explore how we come to know things, what justifies our beliefs, and what distinguishes knowledge from mere opinion.
 
-### Types of Epistemic Questions
+## Types of Epistemic Questions
 
 1. **Questions About the Nature of Knowledge**
     - *What is knowledge?*
@@ -38,7 +38,7 @@ summary: Six types of epistemic question, with examples of each.
 ## Related
 
 - [[Epistemology]]
-- [[First-order and second-order questions]]
+- [[First-Order and Second-Order Questions]]
 - [[The Gettier Problem]]
 - [[Skepticism]]
 - [[Foundationalism]]

@@ -1,12 +1,12 @@
 ---
 id: M-0131
 date: 2026-10-05
-title: Revelation 5:8 supports the doctrine of the intercession of the saints
+title: Revelation 5:8 Supports the Doctrine of the Intercession of the Saints
 tags: [theology, icons-saints, scripture]
 summary: Key highlights of Revelation 5:6-14 and 8:3-4 on the elders offering the prayers of the saints.
 ---
 
-### Revelation 5:6-14 (Key Highlights):
+## Revelation 5:6-14 (Key Highlights)
 
 1. **The Lamb in the Midst of the Throne:**
     - **Verse 6:** "And I looked, and behold, in the midst of the throne and of the four living creatures, and in the midst of the elders, stood a Lamb as though it had been slain, having seven horns and seven eyes, which are the seven Spirits of God sent out into all the earth."
@@ -28,7 +28,7 @@ summary: Key highlights of Revelation 5:6-14 and 8:3-4 on the elders offering th
 
 ## Related
 
-- [[Revelation chapters 5 through 8 depict a heavenly vision of worship]]
-- [[Intercession of saints: Psalms and heavenly worship]]
+- [[Revelation Chapters 5 Through 8 Depict a Heavenly Vision of Worship]]
+- [[Intercession of Saints: Psalms and Heavenly Worship]]
 - [[Praying to the Saints: Intercession in the Book of Amos]]
-- [[Hebrews 11 complements the idea of the heavenly liturgy and the intercession of saints]]
+- [[Hebrews 11 Complements the Idea of the Heavenly Liturgy and the Intercession of Saints]]

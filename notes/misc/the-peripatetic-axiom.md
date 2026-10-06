@@ -1,7 +1,7 @@
 ---
 id: M-0086
 date: 2026-10-05
-title: The peripatetic axiom
+title: The Peripatetic Axiom
 tags: [theology, epistemology, thomism]
 summary: The Aristotelian axiom and four reasons it is criticised from an Orthodox perspective.
 ---
@@ -10,7 +10,7 @@ The **peripatetic axiom** is a term that often refers to a principle associated 
 
 In the context of **theological debate** or **epistemology**, this axiom might be used to imply that knowledge of God or the nature of reality can be derived through sensory experience and logical reasoning alone, a perspective that is often connected to **empiricism** or **rationalism**.
 
-### Why it's Wrong (in this view):
+## Why it's Wrong (in this view)
 
 From a more orthodox theological perspective, the **peripatetic axiom** is criticized for a few key reasons:
 
@@ -24,7 +24,7 @@ Thus, the **peripatetic axiom** can be seen as problematic because it encourages
 ## Related
 
 - [[Thomism EXTENDED]]
-- [[Critique of empiricism]]
-- [[Rationalism, a priori knowledge, and non-empirical propositions]]
-- [[Aristotle and God as pure act]]
+- [[Critique of Empiricism]]
+- [[Rationalism, A Priori Knowledge, and Non-Empirical Propositions]]
+- [[Aristotle and God as Pure Act]]
 - [[Nous]]

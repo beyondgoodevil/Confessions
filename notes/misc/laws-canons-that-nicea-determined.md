@@ -1,14 +1,14 @@
 ---
 id: M-0181
 date: 2026-10-05
-title: Laws/Canons that Nicea determined
+title: Laws/Canons That Nicea Determined
 tags: [theology, councils, church-history]
 summary: Ten key canons of the First Council of Nicaea (325 AD).
 ---
 
 The **Canons of the First Council of Nicaea (325 AD)** were a set of church laws created to address disciplinary and doctrinal issues. They formed the foundation of canon law in the early Church. Here's a summary:
 
-### Key Canons:
+## Key Canons
 
 1. **Canon 1: Eunuchs and Clergy**
     - Those who became eunuchs voluntarily cannot join the clergy. However, those made eunuchs by necessity (e.g., through medical or violent circumstances) can.
@@ -60,14 +60,14 @@ The **Canons of the First Council of Nicaea (325 AD)** were a set of church laws
 
 ---
 
-### Importance of the Canons
+## Importance of the Canons
 
 These canons established norms for ecclesiastical governance, addressing issues of authority, discipline, and heresy. They also affirmed unity under the Church's hierarchical structure and clarified procedures for resolving disputes, which contributed to stabilizing the early Church.
 
 ## Related
 
-- [[Nicene Creed Canon 6: first among equals explanation]]
-- [[Laws/Canons that Constantinople determined]]
+- [[Nicene Creed Canon 6: First Among Equals Explanation]]
+- [[Laws/Canons That Constantinople Determined]]
 - [[Council of Nicea: Arianism]]
-- [[Vatican 1 papal supremacy goes against the canons of Nicea]]
-- [[Nine ecumenical councils and their decisions]]
+- [[Vatican 1 Papal Supremacy Goes Against the Canons of Nicea]]
+- [[Nine Ecumenical Councils and Their Decisions]]

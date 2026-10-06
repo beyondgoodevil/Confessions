@@ -1,7 +1,7 @@
 ---
 id: M-0026
 date: 2026-10-05
-title: The Melchizedekian priesthood
+title: The Melchizedekian Priesthood
 tags: [theology, scripture, covenant]
 summary: Psalm 110:4 and Hebrews 7 on Christ's eternal priesthood after the order of Melchizedek.
 ---
@@ -21,7 +21,7 @@ Thus, the Melchizedekian priesthood, unlike the temporary Levitical priesthood, 
 
 ## Related
 
-- [[The relationship between the Old Covenant and the New Covenant]]
-- [[Christ's ascension: NT and Psalm 110]]
+- [[The Relationship Between the Old Covenant and the New Covenant]]
+- [[Christ's Ascension: NT and Psalm 110]]
 - [[Types of Christ in the OT]]
-- [[King David prophesied the incarnation of the Messiah]]
+- [[King David Prophesied the Incarnation of the Messiah]]

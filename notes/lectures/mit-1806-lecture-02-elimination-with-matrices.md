@@ -1,6 +1,6 @@
 ---
 id: L-0001
-title: Elimination with matrices
+title: Elimination With Matrices
 course: MIT 18.06 Linear Algebra
 lecture: 2
 lecturer: Gilbert Strang

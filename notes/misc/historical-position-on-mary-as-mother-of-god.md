@@ -6,8 +6,6 @@ tags: [theology, mary, church-history]
 summary: The title Theotokos from Ephesus to the Reformation.
 ---
 
-### Historical Position on Mary as "Mother of God"
-
 - The title **Theotokos** (Greek for "God-bearer" or "Mother of God") was widely accepted in the early Church.
 - It was officially affirmed at the **Council of Ephesus (431 AD)**.
     - This council declared that Mary bore Jesus Christ, who is both **fully God and fully man**, in a single person.
@@ -15,7 +13,7 @@ summary: The title Theotokos from Ephesus to the Reformation.
 - The title emphasized the **divinity of Christ** and preserved the unity of His two natures.
 - This belief remains foundational in **Eastern Orthodoxy**, **Roman Catholicism**, and **most historic Christian traditions**.
 
-### When Did the Reformation Happen?
+## When Did the Reformation Happen?
 
 - The **Reformation** began in **1517 AD**.
     - Initiated by **Martin Luther** with the **95 Theses**, challenging certain teachings and practices of the **Roman Catholic Church**.
@@ -27,7 +25,7 @@ summary: The title Theotokos from Ephesus to the Reformation.
 ## Related
 
 - [[Council of Ephesus: Nestorianism]]
-- [[Nestorian key beliefs]]
-- [[Saint Jerome defends virginity of the Theotokos]]
-- [[Key teachings of the council of Ephesus]]
-- [[Mary the most pure queen of heaven next to Christ]]
+- [[Nestorian Key Beliefs]]
+- [[Saint Jerome Defends Virginity of the Theotokos]]
+- [[Key Teachings of the Council of Ephesus]]
+- [[Mary the Most Pure Queen of Heaven Next to Christ]]

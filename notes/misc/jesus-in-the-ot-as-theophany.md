@@ -1,7 +1,7 @@
 ---
 id: M-0169
 date: 2026-10-05
-title: Jesus in the OT as theophany
+title: Jesus in the OT as Theophany
 tags: [theology, scripture, christology]
 summary: Five Old Testament theophanies read as appearances of the pre-incarnate Christ.
 ---
@@ -25,6 +25,6 @@ These theophanies are understood as manifestations of the second person of the T
 
 - [[Theophanies]]
 - [[The Angel of the Lord]]
-- [[Joshua 5:13-15: Joshua met the Lord]]
-- [[Isaiah 6:1-5: I saw the Lord]]
+- [[Joshua 5:13-15: Joshua Met the Lord]]
+- [[Isaiah 6:1-5: I Saw the Lord]]
 - [[Bible: Exodus 3, I AM WHO I AM, Theophany]]
