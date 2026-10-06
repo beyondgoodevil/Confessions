@@ -487,3 +487,11 @@ code{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
 @media (hover:none){
   .nav a:hover,.nav>button:hover,.nav .edit-tools>button:hover{background:none}
 }
+
+/* ===== heading numbers =====
+   The stylesheet numbers h2/h3 itself. Notes that already number their own headings (.own-num)
+   and the "Related" heading (.h-plain) are left alone so numbers never appear twice. */
+:root[data-design="forester"] .own-num .note-body h2::before,:root[data-design="forester"] .own-num .note-body h3::before,:root[data-design="forester"] .note-body h2.h-plain::before{content:none}
+:root[data-design="forester"] .note-body h2.h-plain{counter-increment:none}
+:root[data-design="forester"] .own-num .toc li.lvl-2>a::before,:root[data-design="forester"] .toc li.plain>a::before{content:none}
+:root[data-design="forester"] .toc li.plain{counter-increment:none}

@@ -333,7 +333,8 @@ function postProcess(root, ctx) {
   for (const h of $$('h2,h3,h4', root)) {
     let a = slug(h.textContent) || 'section', k = a, i = 2; while (seen.has(k)) k = `${a}-${i++}`; seen.add(k);
     h.dataset.anchor = k;
-    if (h.tagName !== 'H4') ctx.toc.push({ level: +h.tagName[1], anchor: k, text: h.textContent });
+    const plain = /^related$/i.test(h.textContent.trim()); if (plain) h.classList.add('h-plain');
+    if (h.tagName !== 'H4') ctx.toc.push({ level: +h.tagName[1], anchor: k, text: h.textContent, plain });
   }
   // links
   for (const a of $$('a[href]', root)) {
@@ -370,7 +371,9 @@ function entryLi(n, withSummary) {
   const src = sourceLine(n);
   return `<li><span class="fr-addr">${n.id}</span><div>${noteLink(n)}${src ? `<span class="fr-src">${esc(src)}</span>` : ''}${withSummary && n.summary ? `<span class="fr-sum">${esc(n.summary)}</span>` : ''}</div></li>`;
 }
-const newest = (a, b) => time(b.created) - time(a.created) || time(b.updated) - time(a.updated) || a.title.localeCompare(b.title);
+// newest first; notes published on the same day fall back to their address, which is handed out in publishing order
+const idNum = n => +String(n.id).split('-')[1] || 0;
+const newest = (a, b) => time(b.created) - time(a.created) || idNum(b) - idNum(a) || a.title.localeCompare(b.title);
 const notesIn = (sec, sub) => S.notes.filter(n => n.section === sec && (!sub || n.sub === sub));
 const plural = (k, one, many) => `${k} ${k === 1 ? one : many}`;
 const sectionNoun = sec => sec.noun || sec.name.toLowerCase();
@@ -457,8 +460,10 @@ function viewNote(n) {
     const i = run.indexOf(n);
     if (run.length > 1) series = `<p class="series">${i > 0 ? `Previous: <a href="#/${run[i - 1].id}">${run[i - 1].id} ${esc(run[i - 1].title)}</a>` : ''}${i < run.length - 1 ? `Next: <a href="#/${run[i + 1].id}">${run[i + 1].id} ${esc(run[i + 1].title)}</a>` : ''}</p>`;
   }
-  const toc = r.toc.filter(t => t.level === 2).length >= 2
-    ? `<nav class="toc" aria-label="Contents"><p class="toc-title">Contents</p><ol>${r.toc.map(t => `<li class="lvl-${t.level}"><a href="#" data-scroll="${t.anchor}">${esc(t.text)}</a></li>`).join('')}</ol></nav>` : '';
+  // notes whose headings carry their own numbers ("1. …", "A. …") are not numbered again by the stylesheet
+  const ownNum = r.toc.some(t => /^(\d+|[A-Z]|[IVX]+)[.)]\s/.test(t.text));
+  const toc = r.toc.filter(t => t.level === 2 && !t.plain).length >= 2
+    ? `<nav class="toc" aria-label="Contents"><p class="toc-title">Contents</p><ol>${r.toc.map(t => `<li class="lvl-${t.level}${t.plain ? ' plain' : ''}"><a href="#" data-scroll="${t.anchor}">${esc(t.text)}</a></li>`).join('')}</ol></nav>` : '';
   const back = (S.back.get(n.id) || []).map(b => ({ ...b, n: S.byId.get(b.from) })).sort((a, b) => a.n.id.localeCompare(b.n.id));
   const backHTML = `<section class="backlinks"><h2>Referenced by</h2>${back.length
     ? `<ul>${back.map(b => `<li><span class="bl-addr">[${b.n.id}]</span><a class="bl-title" href="#/${b.n.id}" data-id="${b.n.id}">${esc(b.n.title)}</a><p class="bl-ctx">${contextSnippet(b.line, n.id)}</p></li>`).join('')}</ul>`
@@ -468,7 +473,7 @@ function viewNote(n) {
   const relHTML = related.length ? `<section class="related"><h2>Shares tags with</h2><ul>${related.map(x => `<li><span class="bl-addr">[${x.m.id}]</span><a href="#/${x.m.id}" data-id="${x.m.id}">${esc(x.m.title)}</a> <span class="rel-tags">${x.shared.map(esc).join(', ')}</span></li>`).join('')}</ul></section>` : '';
   const outgoing = [...n.links].map(id => S.byId.get(id)).filter(m => m && !back.some(b => b.n === m));
   const outHTML = outgoing.length ? `<section class="related"><h2>Links from this note</h2><ul>${outgoing.map(m => `<li><span class="bl-addr">[${m.id}]</span><a href="#/${m.id}" data-id="${m.id}">${esc(m.title)}</a></li>`).join('')}</ul></section>` : '';
-  return `<div class="note-page"><article class="note" data-id="${n.id}"><div class="note-main">
+  return `<div class="note-page"><article class="note${ownNum ? ' own-num' : ''}" data-id="${n.id}"><div class="note-main">
     <header class="note-head">
       <p class="note-kicker"><a class="note-taxon" href="#/s/${sec.id}${n.sub ? '/' + n.sub.id : ''}">${esc(label)}</a><span class="note-addr">${n.id}</span></p>
       <h1 class="note-title">${esc(n.title)}</h1>
@@ -477,7 +482,6 @@ function viewNote(n) {
       ${n.updated ? `<p class="note-updated">Updated ${fmtDate(n.updated)}</p>` : ''}
       ${tags ? `<p class="note-tags">${tags}</p>` : ''}
       ${series}
-      ${n.summary ? `<p class="note-summary">${esc(n.summary)}</p>` : ''}
     </header>
     ${toc}
     <div class="prose note-body">${r.html}</div>
@@ -566,7 +570,7 @@ function plainText(n) {
 }
 function search(q) {
   const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
-  if (!terms.length) return [...S.notes].sort((a, b) => time(b.updated) - time(a.updated)).slice(0, 8).map(n => ({ n, snip: '' }));
+  if (!terms.length) return [...S.notes].sort((a, b) => time(b.updated) - time(a.updated) || newest(a, b)).slice(0, 8).map(n => ({ n, snip: '' }));
   const res = [];
   for (const n of S.notes) {
     const title = n.title.toLowerCase(), meta = [n.id, n.tags.join(' '), sourceLine(n), n.aliases.join(' ')].join(' ').toLowerCase(), body = plainText(n), low = body.toLowerCase();
@@ -587,13 +591,13 @@ function openSearch() {
   const ov = document.createElement('div'); ov.className = 'overlay';
   ov.innerHTML = `<div class="dialog search-dialog" role="dialog" aria-modal="true" aria-label="Search notes">
     <input class="search-input" type="search" placeholder="Search titles, tags, sources and text" aria-label="Search" autocomplete="off">
-    <p class="results-label">Recently updated</p><ul class="results" role="listbox"></ul></div>`;
+    <p class="results-label">Newest</p><ul class="results" role="listbox"></ul></div>`;
   document.body.append(ov);
   const input = $('input', ov), ul = $('.results', ov), label = $('.results-label', ov);
   let items = [], sel = 0;
   const draw = () => {
     items = search(input.value.trim()); sel = 0;
-    label.textContent = input.value.trim() ? `${plural(items.length, 'result', 'results')}` : 'Recently updated';
+    label.textContent = input.value.trim() ? `${plural(items.length, 'result', 'results')}` : 'Newest';
     ul.innerHTML = items.length ? items.map((r, i) => `<li role="option" data-i="${i}" aria-selected="${i === sel}"><div class="r-title"><span class="r-addr">${r.n.id}</span>${esc(r.n.title)}</div>${r.snip ? `<p class="r-snip">${r.snip}</p>` : ''}</li>`).join('') : '<li class="r-empty">Nothing matches. Try fewer words.</li>';
   };
   const mark = () => $$('li[data-i]', ul).forEach((li, i) => { li.setAttribute('aria-selected', i === sel); if (i === sel) li.scrollIntoView({ block: 'nearest' }); });
