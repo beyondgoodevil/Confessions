@@ -1,13 +1,7 @@
 {
   "title": "Confessions",
-  "subtitle": "A commonplace book of theology and philosophy",
+  "subtitle": "",
   "welcome": "Welcome — this is my notebook, a running collection of notes I take as I read and consume content. New here? Begin with [[Guide: Start Here|the guides]].",
-  "epigraph": {
-    "text": "Fecisti nos ad te et inquietum est cor nostrum, donec requiescat in te.",
-    "lang": "la",
-    "translation": "You have made us for yourself, and our heart is restless until it rests in you.",
-    "source": "Augustine, *Confessions* I.1.1"
-  },
   "author": "",
   "indexPreviewCount": 4,
   "indexPreviewCountPerSubsection": 3,

@@ -11,8 +11,6 @@ Four ways to add notes; they all end up as Markdown files in `notes/`:
 
 On every push GitHub gives new notes their addresses (B-0001, P-0001, …), rebuilds the site and publishes it in about a minute.
 
-The site is laid out as a commonplace book: a title page with an epigraph, the guides as *Loci communes* (topics, each a reading order with previous/next links), and indices of Scripture passages, authors and subjects. The title page wording (`subtitle`, `author`, `epigraph`, `welcome`) is in `config.json`; the Bible book table and the list of indexed authors are in `assets/loci.js`.
-
 Tools (need Node.js): `node tools/serve.mjs` preview · `node tools/new.mjs book "Title"` new note · `node tools/import.mjs <folder>` bulk import · `node tools/check.mjs` find unwritten links · `node tools/stamp.mjs` add addresses.
 
 The full guide is the Claude doc “Commonplace: setup and user guide”.
