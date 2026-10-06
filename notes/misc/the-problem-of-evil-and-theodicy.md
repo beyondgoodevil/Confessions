@@ -82,3 +82,5 @@ This does not remove the pain of suffering. It shows that the *argument* from ev
 - [[It Is Impossible to Have a Coherent Worldview Without Objective Truths]]
 - [[TAG]]
 - [[St. Athanasius, On the Incarnation: Main Argument]]
+- [[Free Will and Divine Foreknowledge]]
+- [[Synergy: Grace and Free Will]]

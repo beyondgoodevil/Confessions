@@ -57,3 +57,4 @@ Monarchical Trinitarianism is supported by a biblical understanding of the Fathe
 - [[The Distinction Between Relation of Origin and Relation of Opposition]]
 - [[St. Photios and the Political Use of the Filioque by the Franks]]
 - [[The Basis for the Eastern Orthodox (EO) Belief]]
+- [[The Trinity Hinted in the Old Testament]]

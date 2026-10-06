@@ -34,3 +34,4 @@ summary: 2 Peter 1:3-4 on divine power and becoming partakers of the divine natu
 - [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]]
 - [[The Basis for the Eastern Orthodox (EO) Belief]]
 - [[The Jesus Prayer and Hesychasm]]
+- [[Synergy: Grace and Free Will]]

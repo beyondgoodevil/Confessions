@@ -83,3 +83,4 @@ At its foundation, Thomism is the synthesis of natural reason and divine revelat
 - [[Essence-Energies Distinction]]
 - [[First and Second Actuality in Thomism]]
 - [[Thomism and the Originist Problematic]]
+- [[The Problem of Universals: Realism vs Nominalism]]

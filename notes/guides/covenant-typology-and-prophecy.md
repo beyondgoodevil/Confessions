@@ -39,8 +39,9 @@ Persons and things that prefigure Christ and the Church.
 3. [[Adam as a Type of Christ and Eve as a Type of the Church]] — Three ways Adam prefigures Christ and four ways Eve prefigures the Church.
 4. [[Noah Is a Type of Christ]] — Ten parallels between Noah and Christ.
 5. [[The Melchizedekian Priesthood]] — Psalm 110:4 and Hebrews 7 on Christ's eternal priesthood after the order of Melchizedek.
-6. [[1 Peter 3:20-21: Baptism Is Like the Ark]] — 1 Peter 3:20-21, with "baptism" highlighted as the antitype of the ark.
-7. [[1 Peter 3:20-21: The Events of Noah's Flood Were a Type of Baptism]] — Peter presents the flood as a type of baptism — water, salvation through water, judgment and cleansing.
+6. [[The Eucharist in Type and Fulfilment]] — Old Testament types of the Eucharist and their fulfilment in John 6, the Last Supper and the apostolic Church.
+7. [[1 Peter 3:20-21: Baptism Is Like the Ark]] — 1 Peter 3:20-21, with "baptism" highlighted as the antitype of the ark.
+8. [[1 Peter 3:20-21: The Events of Noah's Flood Were a Type of Baptism]] — Peter presents the flood as a type of baptism — water, salvation through water, judgment and cleansing.
 
 ## Prophecy Fulfilled
 

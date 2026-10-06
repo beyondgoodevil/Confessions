@@ -16,3 +16,4 @@ summary: Believing is itself an act of the will, so sola fide does not remove wo
 - [[Romans: Not Justified by Works of the Law]]
 - [[Word-Concept Fallacy: Biblical Examples]]
 - [[Verses: The Way We Live Our Lives Is Deeply Connected to Our Experience of the Afterlife]]
+- [[Synergy: Grace and Free Will]]

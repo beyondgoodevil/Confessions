@@ -43,10 +43,11 @@ The Reformation model and the Orthodox objection to it.
 What Scripture says about works and judgment.
 
 1. [[Romans: Not Justified by Works of the Law]] — Five Pauline verses on justification apart from works "of the law".
-2. [[Works Are Required: NT Quotes]] — Eleven New Testament passages on works, obedience and judgment according to deeds.
-3. [[Sola Fide Still Requires Works: Mental Work]] — Believing is itself an act of the will, so sola fide does not remove works but moves them inward.
-4. [[Believers Are Called to Fulfill Their Part of the Covenant: NT Verses]] — Seven New Testament passages on obedience, perseverance and works within the covenant.
-5. [[Verses: The Way We Live Our Lives Is Deeply Connected to Our Experience of the Afterlife]] — Seven New Testament passages on judgment according to works.
+2. [[Synergy: Grace and Free Will]] — The Orthodox teaching that salvation is the cooperation of divine grace and human freedom, set against Pelagianism and monergism.
+3. [[Works Are Required: NT Quotes]] — Eleven New Testament passages on works, obedience and judgment according to deeds.
+4. [[Sola Fide Still Requires Works: Mental Work]] — Believing is itself an act of the will, so sola fide does not remove works but moves them inward.
+5. [[Believers Are Called to Fulfill Their Part of the Covenant: NT Verses]] — Seven New Testament passages on obedience, perseverance and works within the covenant.
+6. [[Verses: The Way We Live Our Lives Is Deeply Connected to Our Experience of the Afterlife]] — Seven New Testament passages on judgment according to works.
 
 ## Resurrection
 

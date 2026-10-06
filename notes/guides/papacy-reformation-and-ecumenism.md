@@ -13,12 +13,13 @@ Start with the papacy, then the Reformation, then ecumenism.
 From first among equals to supremacy.
 
 1. [[Nicene Creed Canon 6: First Among Equals Explanation]] — Canon 6 of Nicaea and what its "likewise" implies about Rome and the other sees.
-2. [[The Gregorian Reforms]] — Seven changes of the 11th-century Gregorian Reforms, each with what came before.
-3. [[Vatican I's View of Papal Infallibility]] — The three conditions under which Vatican I (1870) holds the Pope to be infallible.
-4. [[Vatican 1 Papal Supremacy Goes Against the Canons of Nicea]] — Vatican I's declaration of papal supremacy contrasted with the earlier "first among equals" structure.
-5. [[Popes Were Used as a Political Tool Throughout History 1]] — The papacy and secular rulers in the Carolingian era and the Investiture Controversy.
-6. [[Popes Were Used as a Political Tool Throughout History 2]] — The papacy and secular rulers in the High Middle Ages and the Renaissance.
-7. [[Popes Were Used as a Political Tool Throughout History 3]] — The papacy and secular rulers from the Counter-Reformation to the 20th century.
+2. [[The Great Schism of 1054: Causes and Timeline]] — The long estrangement between Rome and the East, its doctrinal and political causes, and a timeline from 330 to 1965.
+3. [[The Gregorian Reforms]] — Seven changes of the 11th-century Gregorian Reforms, each with what came before.
+4. [[Vatican I's View of Papal Infallibility]] — The three conditions under which Vatican I (1870) holds the Pope to be infallible.
+5. [[Vatican 1 Papal Supremacy Goes Against the Canons of Nicea]] — Vatican I's declaration of papal supremacy contrasted with the earlier "first among equals" structure.
+6. [[Popes Were Used as a Political Tool Throughout History 1]] — The papacy and secular rulers in the Carolingian era and the Investiture Controversy.
+7. [[Popes Were Used as a Political Tool Throughout History 2]] — The papacy and secular rulers in the High Middle Ages and the Renaissance.
+8. [[Popes Were Used as a Political Tool Throughout History 3]] — The papacy and secular rulers from the Counter-Reformation to the 20th century.
 
 ## The Reformation
 

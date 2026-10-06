@@ -57,4 +57,4 @@ summary: Eleven New Testament passages on works, obedience and judgment accordin
 - [[Romans: Not Justified by Works of the Law]]
 - [[Sola Fide Still Requires Works: Mental Work]]
 - [[Word-Concept Fallacy: Biblical Examples]]
-
+- [[Synergy: Grace and Free Will]]

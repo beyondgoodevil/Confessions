@@ -31,3 +31,4 @@ Mary's consent in this moment is seen as crucial in the divine plan of salvation
 - [[The Virgin Birth of Mary: Verses]]
 - [[The Prayer of Mary Found in the Gospel of Luke]]
 - [[Types of Mary in the OT]]
+- [[Synergy: Grace and Free Will]]

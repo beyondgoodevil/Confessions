@@ -36,6 +36,7 @@ Rationalism, empiricism and their limits.
 1. [[Rationalism, A Priori Knowledge, and Non-Empirical Propositions]] — Key terms for propositions whose content is not found in sense data.
 2. [[Critique of Empiricism]] — Seven reasons not all knowledge can come from the senses.
 3. [[The Peripatetic Axiom]] — The Aristotelian axiom and four reasons it is criticised from an Orthodox perspective.
+4. [[The Problem of Universals: Realism vs Nominalism]] — Whether shared natures such as "humanity" are real, the main answers from Plato to Ockham, and why the question matters for theology.
 
 ## Faith and Reason
 

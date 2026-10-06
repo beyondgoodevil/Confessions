@@ -73,3 +73,4 @@ They collectively provide the theological framework and safeguard against heresi
 - [[Council of Ephesus: Nestorianism]]
 - [[The Council of Chalcedon (451 AD)]]
 - [[The Jesus Prayer and Hesychasm]]
+- [[The Great Schism of 1054: Causes and Timeline]]

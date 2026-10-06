@@ -68,3 +68,4 @@ In this way, the Eastern Orthodox Church sees itself as fulfilling and continuin
 - [[Revelation Chapters 5 Through 8 Depict a Heavenly Vision of Worship]]
 - [[The Melchizedekian Priesthood]]
 - [[Icons in the OT]]
+- [[The Eucharist in Type and Fulfilment]]

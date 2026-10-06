@@ -92,3 +92,4 @@ These fulfilled prophecies demonstrate the divine plan of salvation, where Chris
 - [[The Coming of the Messiah: All Nations Will Be Drawn to Him]]
 - [[Luke 21:20-25]]
 - [[Psalms and Isaiah Speak About Teaching of the Nations]]
+- [[Free Will and Divine Foreknowledge]]

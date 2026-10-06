@@ -37,3 +37,4 @@ summary: Ten Old Testament types of Christ, from Adam to the manna from heaven.
 - [[The Melchizedekian Priesthood]]
 - [[Christ as the New Adam: Verses]]
 - [[Symbolism of Aaron’s Rod in Relation to Christ and Mary]]
+- [[The Eucharist in Type and Fulfilment]]

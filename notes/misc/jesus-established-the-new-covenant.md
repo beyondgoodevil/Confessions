@@ -30,3 +30,4 @@ Thus, Jesus established the New Covenant at the Last Supper, and it was fully ra
 - [[Christ Fulfills the Promises of the Previous Covenants]]
 - [[Laws From the Mosaic Covenant Are Still Kept and Fulfilled in the New Covenant]]
 - [[Jeremiah, Acts 2: The Beginning of the Church, Where God Dwells With His People]]
+- [[The Eucharist in Type and Fulfilment]]

@@ -49,3 +49,4 @@ The **Gregorian Reforms**, initiated by **Pope Gregory VII** in the 11th century
 - [[Vatican 1 Papal Supremacy Goes Against the Canons of Nicea]]
 - [[Filioque and the Franks]]
 - [[Popes Were Used as a Political Tool Throughout History 3]]
+- [[The Great Schism of 1054: Causes and Timeline]]

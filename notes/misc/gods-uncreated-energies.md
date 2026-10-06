@@ -28,3 +28,4 @@ summary: Ten of God's uncreated energies, each in a line.
 - [[Bible: John 17, Jesus Has the Father's Glory]]
 - [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]]
 - [[Matthew 17: Jesus Transfigured on the Mount]]
+

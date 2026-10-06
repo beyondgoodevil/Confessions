@@ -33,3 +33,4 @@ Here are some key theophanies in the Old Testament:
 - [[Genesis 32:24-30: Jacob Wrestled and Saw God]]
 - [[Anthropomorphic Language in the Context of God and the Bible]]
 - [[In John 5, Jesus Explains That No One Has Seen the Father Except the One Whom He Has Sent]]
+- [[The Trinity Hinted in the Old Testament]]

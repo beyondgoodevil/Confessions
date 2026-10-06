@@ -29,3 +29,4 @@ In summary, if God's essence were the same as His energies, it would imply that 
 - [[God as Pure Act: RC vs EO]]
 - [[Saint Gregory of Nyssa: Essence Energies]]
 - [[Jesus Walking on Water: Eternal Act, Essence-Energy Distinction]]
+- [[Free Will and Divine Foreknowledge]]

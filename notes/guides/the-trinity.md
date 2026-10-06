@@ -13,12 +13,13 @@ Start with the doctrine, then its early witnesses, then the East-West dispute.
 One God in three Persons.
 
 1. [[The Trinity]] — One God in three Persons, with the Father as the eternal source of the Son and the Holy Spirit.
-2. [[Monarchical Trinitarianism]] — A biblical and patristic defence of the Father as the sole source of divinity in the Trinity.
-3. [[Hypostatic Origin vs Economia]] — How the Persons relate within the Trinity, versus how God acts in the world.
-4. [[Distinction Does Not Necessitate Separation, Division, or Composition]] — Five everyday examples of things that are distinct without being separate.
-5. [[St. Cyril of Alexandria on Perichoresis]] — Perichoresis — the mutual indwelling of the three Persons — as St. Cyril used it.
-6. [[God the Father Created Through the Son and With the Holy Spirit]] — Creation as the work of the Trinity — from the Father, through the Son, with the Holy Spirit.
-7. [[St. Maximus on the Holy Spirit]] — St. Maximus on the Spirit's omnipresence and His particular activity within the Church.
+2. [[The Trinity Hinted in the Old Testament]] — Old Testament verses that speak of plurality in God, of the Word and Spirit, and of a divine Son, read in the light of the New Testament.
+3. [[Monarchical Trinitarianism]] — A biblical and patristic defence of the Father as the sole source of divinity in the Trinity.
+4. [[Hypostatic Origin vs Economia]] — How the Persons relate within the Trinity, versus how God acts in the world.
+5. [[Distinction Does Not Necessitate Separation, Division, or Composition]] — Five everyday examples of things that are distinct without being separate.
+6. [[St. Cyril of Alexandria on Perichoresis]] — Perichoresis — the mutual indwelling of the three Persons — as St. Cyril used it.
+7. [[God the Father Created Through the Son and With the Holy Spirit]] — Creation as the work of the Trinity — from the Father, through the Son, with the Holy Spirit.
+8. [[St. Maximus on the Holy Spirit]] — St. Maximus on the Spirit's omnipresence and His particular activity within the Church.
 
 ## The Divinity of the Son
 

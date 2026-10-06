@@ -32,3 +32,4 @@ summary: Psalm 110:1 and five New Testament passages that cite it.
 - [[The Melchizedekian Priesthood]]
 - [[Jesus Fulfills Prophecies 3]]
 - [[Jesus Christ Possesses the Same Powers as God the Father Part 1]]
+- [[The Trinity Hinted in the Old Testament]]

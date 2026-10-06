@@ -73,3 +73,4 @@ The apostles created the Christian liturgical service by merging elements of Jew
 - [[Old Testament Foreshadowings of Heavenly Worship]]
 - [[Revelation Chapters 5 Through 8 Depict a Heavenly Vision of Worship]]
 - [[Intercession of Saints: Psalms and Heavenly Worship]]
+- [[The Eucharist in Type and Fulfilment]]

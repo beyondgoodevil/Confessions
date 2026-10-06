@@ -30,3 +30,4 @@ The Council of Ephesus played a critical role in articulating the relationship b
 - [[The Third Letter of Cyril to Nestorius]]
 - [[Historical Position on Mary as Mother of God]]
 - [[2 Peter 1:3-4: Theosis]]
+- [[The Eucharist in Type and Fulfilment]]

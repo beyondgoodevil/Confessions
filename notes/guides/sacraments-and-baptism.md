@@ -17,6 +17,13 @@ Scripture and practice.
 3. [[1 Peter 3:20-21: Baptism Is Like the Ark]] — 1 Peter 3:20-21, with "baptism" highlighted as the antitype of the ark.
 4. [[Acts 19:1–6: Paul Episcopate]] — Acts 19:1-6 (KJV), where Paul completes the initiation of John's disciples by baptism and the laying on of hands.
 
+## The Eucharist
+
+Type, institution and apostolic practice.
+
+1. [[The Eucharist in Type and Fulfilment]] — Old Testament types of the Eucharist and their fulfilment in John 6, the Last Supper and the apostolic Church.
+2. [[Key Teachings of the Council of Ephesus]] — Five teachings of Ephesus and their bearing on the Eucharist.
+
 ## Validity
 
 East and West on what a sacrament requires.

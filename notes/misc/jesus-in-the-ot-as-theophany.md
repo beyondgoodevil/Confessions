@@ -30,3 +30,4 @@ These theophanies are understood as manifestations of the second person of the T
 - [[Bible: Exodus 3, I AM WHO I AM, Theophany]]
 - [[Genesis 32:24-30: Jacob Wrestled and Saw God]]
 - [[In John 5, Jesus Explains That No One Has Seen the Father Except the One Whom He Has Sent]]
+- [[The Trinity Hinted in the Old Testament]]

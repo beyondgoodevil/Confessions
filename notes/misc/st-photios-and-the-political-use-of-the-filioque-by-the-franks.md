@@ -38,3 +38,4 @@ This shows how **Photios saw the Filioque as more than just a doctrinal error—
 - [[Monarchical Trinitarianism]]
 - [[Popes Were Used as a Political Tool Throughout History 1]]
 - [[Nine Ecumenical Councils and Their Decisions]]
+- [[The Great Schism of 1054: Causes and Timeline]]

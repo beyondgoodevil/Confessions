@@ -26,3 +26,4 @@ Thus, the Melchizedekian priesthood, unlike the temporary Levitical priesthood, 
 - [[Types of Christ in the OT]]
 - [[King David Prophesied the Incarnation of the Messiah]]
 - [[Symbolism of Aaron’s Rod in Relation to Christ and Mary]]
+- [[The Eucharist in Type and Fulfilment]]

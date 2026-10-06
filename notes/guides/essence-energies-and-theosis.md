@@ -34,8 +34,9 @@ Partaking of the divine nature.
 
 1. [[2 Peter 1:3-4: Theosis]] — 2 Peter 1:3-4 on divine power and becoming partakers of the divine nature.
 2. [[Being Made in the Image of God]] — Seven things man shares with God, and the distinction between image and likeness.
-3. [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]] — Seven Fathers, from Irenaeus to Photios, on deification through the Incarnation.
-4. [[Nous]] — The nous as the eye of the soul in Orthodox Christianity.
+3. [[The Logoi of Creation in St. Maximus]] — St. Maximus the Confessor's teaching that every creature has its logos in the one Logos, and what follows for creation, knowledge and theosis.
+4. [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]] — Seven Fathers, from Irenaeus to Photios, on deification through the Incarnation.
+5. [[Nous]] — The nous as the eye of the soul in Orthodox Christianity.
 
 ## Practice
 

@@ -17,4 +17,5 @@ Therefore, Calvinism does not claim that humans, in their fallen state, are infa
 - [[Reformer That Believed That the Father Damned the Son]]
 - [[The Fall of Humanity and Its Consequences]]
 - [[Jeremiah 17:9 + 7:24: Corruption of Faith Due to Human Opinion]]
-
+- [[Free Will and Divine Foreknowledge]]
+- [[Synergy: Grace and Free Will]]

@@ -33,3 +33,4 @@ In summary, the **nature** performs the acts corresponding to it (divine acts ar
 - [[Jesus Being Fully Divine and Fully Human Is Not a Contradiction]]
 - [[St. John of Damascus on Inhypostatisation of the Human Nature of Christ]]
 - [[Usage of the Term Hypostasis in the NT]]
+- [[The Problem of Universals: Realism vs Nominalism]]

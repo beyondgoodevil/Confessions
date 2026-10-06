@@ -23,3 +23,4 @@ In this passage, Peter explains that just as Noah and his family were saved thro
 
 Thus, Peter presents the flood as a "type" or foreshadowing of the sacrament of baptism, where judgment and salvation come through water, ultimately pointing to the saving work of Christ.
 - [[1 Peter 3:20-21: Baptism Is Like the Ark]]
+- [[1 Peter 3:20-21: Baptism Is Like the Ark]]

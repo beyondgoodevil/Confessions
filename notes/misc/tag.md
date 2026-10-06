@@ -24,3 +24,4 @@ Thus, the reason we can have knowledge is because the transcendental categories 
 - [[A System That Works Can Not Guarantee True Knowledge]]
 - [[Solipsism Refuted]]
 - [[The Problem of Evil and Theodicy]]
+- [[The Euthyphro Dilemma and the Orthodox Answer]]

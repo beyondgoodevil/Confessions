@@ -32,3 +32,4 @@ These laws form the foundation of logical reasoning and are **presupposed** in a
 - [[Would Aliens Have to Operate on Logic]]
 - [[TAG]]
 - [[Jesus Being Fully Divine and Fully Human Is Not a Contradiction]]
+- [[Free Will and Divine Foreknowledge]]

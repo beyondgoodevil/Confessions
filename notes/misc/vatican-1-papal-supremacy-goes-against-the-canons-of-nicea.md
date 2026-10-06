@@ -21,3 +21,4 @@ This marks a clear shift from the collegial structure implied by **first among e
 - [[Laws/Canons That Nicea Determined]]
 - [[The Gregorian Reforms]]
 - [[Acts 15:6-22: Church Government]]
+- [[The Great Schism of 1054: Causes and Timeline]]

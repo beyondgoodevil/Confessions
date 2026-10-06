@@ -21,3 +21,4 @@ Maximus’ defense of the two wills was central to maintaining the reality of Ch
 - [[The Debate Between Maximus the Confessor and Pyrrhus]]
 - [[Canons of the Sixth Ecumenical Council]]
 - [[St. Maximus on the Holy Spirit]]
+- [[Synergy: Grace and Free Will]]

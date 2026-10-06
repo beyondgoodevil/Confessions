@@ -86,3 +86,4 @@ These instances affirm the Church’s belief in Christ’s eternal existence and
 - [[Judges 13:2-22: Samson's Parents Have Seen God]]
 - [[Bible: Exodus 3, I AM WHO I AM, Theophany]]
 - [[Genesis 32:24-30: Jacob Wrestled and Saw God]]
+- [[The Trinity Hinted in the Old Testament]]

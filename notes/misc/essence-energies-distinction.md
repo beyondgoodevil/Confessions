@@ -75,3 +75,4 @@ This distinction is not optional; it is **dogmatic**, affirmed by the **Palamite
 - [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]]
 - [[Jesus Walking on Water: Eternal Act, Essence-Energy Distinction]]
 - [[The Jesus Prayer and Hesychasm]]
+

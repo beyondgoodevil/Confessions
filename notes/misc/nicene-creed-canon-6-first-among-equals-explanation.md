@@ -20,3 +20,4 @@ This canon set the precedent for how authority was distributed among the early b
 - [[Vatican I's View of Papal Infallibility]]
 - [[Acts 15:6-22: Church Government]]
 - [[Laws/Canons That Constantinople Determined]]
+- [[The Great Schism of 1054: Causes and Timeline]]

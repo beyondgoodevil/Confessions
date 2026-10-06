@@ -26,3 +26,4 @@ Sources:
 - [[Monarchical Trinitarianism]]
 - [[Popes Were Used as a Political Tool Throughout History 1]]
 - [[Roman Emperors Who Used Arianism for Political Power]]
+- [[The Great Schism of 1054: Causes and Timeline]]

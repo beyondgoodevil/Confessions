@@ -22,3 +22,4 @@ Thus, dyothelitism preserves the integrity of Christ's incarnation and His work 
 - [[Canons of the Sixth Ecumenical Council]]
 - [[Action Is Not Proper to the Person]]
 - [[Augustine's Christology: Possible Heresies]]
+- [[Synergy: Grace and Free Will]]

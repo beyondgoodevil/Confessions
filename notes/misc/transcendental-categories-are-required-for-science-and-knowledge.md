@@ -43,3 +43,4 @@ Thus, the transcendental categories are not only **necessary** but also **inesca
 - [[Would Aliens Have to Operate on Logic]]
 - [[A System That Works Can Not Guarantee True Knowledge]]
 - [[Rationalism, A Priori Knowledge, and Non-Empirical Propositions]]
+- [[The Problem of Universals: Realism vs Nominalism]]

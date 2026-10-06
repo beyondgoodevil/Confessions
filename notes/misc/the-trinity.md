@@ -27,3 +27,4 @@ This distinction of Persons does not divide the divine nature, because each Pers
 - [[Pre-Nicene Fathers Teach the Trinity 2]]
 - [[Pre-Nicene Fathers Teach the Trinity 3]]
 - [[St. Cyril of Alexandria on Perichoresis]]
+

@@ -24,3 +24,4 @@ summary: 2 Chronicles 29:1-19 — Hezekiah did according to all that David had d
 
 **18** Then they went in to King Hezekiah and said, "We have cleansed all the house of the LORD, the altar of burnt offerings with all its articles, and the table of the showbread with all its articles. **19** Moreover all the articles which King Ahaz in his reign had cast aside in his transgression we have prepared and \[f\]sanctified; and there they *are*, before the altar of the LORD."
 - [[Books Quoted in the Bible That Aren't in the Bible Part 1]]
+- [[Books Quoted in the Bible That Aren't in the Bible Part 1]]

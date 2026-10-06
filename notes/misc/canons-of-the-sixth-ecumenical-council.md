@@ -63,4 +63,4 @@ The **Trullan Canons** are essential for the governance of the Orthodox Church, 
 - [[The Question of Christ's Two Wills]]
 - [[Economia]]
 - [[Nine Ecumenical Councils and Their Decisions]]
-
+- [[The Great Schism of 1054: Causes and Timeline]]

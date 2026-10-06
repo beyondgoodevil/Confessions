@@ -51,9 +51,11 @@ The same questions applied to science as a paradigm.
 
 ## Objections
 
-The hardest objection, and its answer.
+Common objections and their answers.
 
 1. [[The Problem of Evil and Theodicy]] — The logical and evidential problems of evil, the main theodicies, and the Orthodox answer centred on privation, freedom and the Cross.
+2. [[The Euthyphro Dilemma and the Orthodox Answer]] — Plato's dilemma about God and goodness, the two horns, and the answer that goodness is neither above God nor arbitrary but is God's own nature and energy.
+3. [[Free Will and Divine Foreknowledge]] — The argument that God's foreknowledge rules out free will, the main replies, and the patristic answer that foreknowledge does not cause.
 
 ## Other Guides
 

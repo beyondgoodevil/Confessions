@@ -82,3 +82,4 @@ The Eastern Orthodox Church's claim to continuity with the Old Testament is deep
 - [[The Melchizedekian Priesthood]]
 - [[List of All Covenants]]
 - [[The Word Orthodoxy Meaning]]
+- [[The Eucharist in Type and Fulfilment]]
