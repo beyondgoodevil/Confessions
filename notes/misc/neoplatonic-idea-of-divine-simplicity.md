@@ -2,7 +2,7 @@
 id: M-0195
 date: 2026-10-05
 title: Neoplatonic Idea of Divine Simplicity
-tags: [theology, thomism]
+tags: [theology, neoplatonism, thomism]
 summary: Five aspects of the Neoplatonic One and its absolute simplicity.
 ---
 

@@ -2,7 +2,7 @@
 id: M-0022
 date: 2026-10-05
 title: Teaching of Recapitulation
-tags: [theology, christology, theosis]
+tags: [theology, salvation, christology]
 summary: St. Irenaeus's teaching that Christ's life and work restore humanity and creation, reversing Adam's disobedience.
 ---
 

@@ -2,7 +2,7 @@
 id: G-0004
 date: 2026-10-06
 title: "Guide: Epistemology"
-tags: [theology, guide, epistemology]
+tags: [philosophy, guide, epistemology]
 summary: A reading order for the notes on knowledge, justification and the limits of reason.
 ---
 

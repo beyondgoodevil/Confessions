@@ -2,7 +2,7 @@
 id: M-0015
 date: 2026-10-05
 title: Pre-Nicene Fathers Teach the Trinity 3
-tags: [theology, trinity, church-history]
+tags: [theology, trinity, patristics]
 summary: Origen, Cyprian and Hippolytus on the Trinity, and the conclusion that it was taught before Nicaea.
 ---
 

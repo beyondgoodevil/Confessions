@@ -31,6 +31,16 @@ YAML front matter, then Markdown. Fields by section (all optional except that a 
 
 Links: `[[Note title]]`, `[[B-0003]]`, `[[Title|shown text]]`, `[[Title#Heading]]`. Maths with `$…$` / `$$…$$`. Callouts: `> [!definition] Title`, `[!theorem]`, `[!proof]`, `[!note]`, etc.
 
+## Tags
+
+Write tags as `tags: [domain, scripture?, topic, topic]`, in that order, lower-case, hyphenated. Tag what a note is *about*, not what it mentions in passing.
+
+- Domain (at least one): `theology`, `philosophy` (both only when a note really is both, e.g. a Plato note with an Orthodox section). Other fields: `mathematics`, `note-taking`, `programming`, `research`.
+- `scripture` only when the note is built on biblical passages (verse notes, verse collections, exegesis).
+- Theology topics: `trinity`, `christology`, `theosis` (essence-energies, uncreated light, deification), `salvation` (atonement, recapitulation, faith and works, resurrection), `the-fall`, `typology`, `prophecy`, `covenant` (the covenants themselves), `theophany`, `mary`, `sacraments`, `liturgy` (worship, heavenly liturgy), `icons-saints` (icons, relics, intercession), `prayer`, `tradition` (Holy Tradition, oral and written), `ecclesiology` (the Church: authority, succession, government, unity), `canon` (formation of the Bible, LXX, deuterocanon), `councils` (the ecumenical councils, their canons and the heresies they answered), `patristics` (notes built on the Fathers' writings), `church-history`, `papacy`, `reformation`, `ecumenism`, `catholicism` (Roman Catholic doctrine and documents), `thomism`, `neoplatonism`, `islam`.
+- Philosophy topics: `epistemology` (knowledge, justification, belief, scepticism; not every argument that mentions knowing), `logic`, `fallacies`, `metaphysics`, `ethics`, `mind`, `time`, `philosophy-of-science`, `apologetics` (TAG, presuppositions, worldview arguments), and a thinker's name when the note is about that thinker (`plato`, `aristotle`, `nietzsche`, `leibniz`, `kant`).
+- Guides carry `guide` plus their topic's tag.
+
 ## Rules
 
 - Never invent an `id`. Leave it out and run `node tools/stamp.mjs` (or let the workflow do it). Never change an existing `id`, and never reuse one.

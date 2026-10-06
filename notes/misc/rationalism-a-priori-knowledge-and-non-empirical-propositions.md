@@ -2,7 +2,7 @@
 id: M-0018
 date: 2026-10-05
 title: Rationalism, A Priori Knowledge, and Non-Empirical Propositions
-tags: [theology, epistemology]
+tags: [philosophy, epistemology]
 summary: Key terms for propositions whose content is not found in sense data.
 ---
 

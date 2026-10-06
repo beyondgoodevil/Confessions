@@ -2,7 +2,7 @@
 id: M-0090
 date: 2026-10-05
 title: The Transfiguration of Jesus on Mount Tabor
-tags: [theology, theosis, scripture]
+tags: [theology, scripture, theosis]
 summary: The Gospel accounts of the Transfiguration and its meaning as a revelation of the divine energies.
 ---
 

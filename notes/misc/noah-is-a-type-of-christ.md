@@ -2,7 +2,7 @@
 id: M-0198
 date: 2026-10-05
 title: Noah Is a Type of Christ
-tags: [theology, covenant, scripture]
+tags: [theology, scripture, typology]
 summary: Ten parallels between Noah and Christ.
 ---
 

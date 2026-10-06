@@ -2,7 +2,7 @@
 id: M-0167
 date: 2026-10-05
 title: Jesus Fulfills Prophecies
-tags: [theology, scripture, covenant]
+tags: [theology, scripture, prophecy]
 summary: Fifteen Old Testament prophecies and their fulfilment in Christ, from the virgin birth to the ascension.
 ---
 

@@ -2,7 +2,7 @@
 id: M-0074
 date: 2026-10-05
 title: World Council of Churches and the Rockefeller Foundation
-tags: [theology, church-history]
+tags: [theology, ecumenism, church-history]
 summary: Rockefeller funding of the ecumenical movement that led to the World Council of Churches in 1948.
 ---
 

@@ -5,7 +5,7 @@ author: Thomas S. Kuhn
 year: 1962
 publisher: University of Chicago Press
 date: 2026-09-14
-tags: [philosophy-of-science, history-of-science]
+tags: [philosophy, philosophy-of-science, history-of-science]
 summary: Science does not accumulate steadily. It alternates between long periods of “normal science” inside a shared framework and short, disruptive revolutions in which the framework itself is replaced.
 ---
 

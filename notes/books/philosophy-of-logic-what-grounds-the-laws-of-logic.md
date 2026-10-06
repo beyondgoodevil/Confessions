@@ -2,7 +2,7 @@
 id: B-0015
 date: 2026-10-07
 title: "Philosophy of Logic: What Grounds the Laws of Logic"
-tags: [philosophy, logic, epistemology, theology]
+tags: [philosophy, theology, logic, metaphysics, apologetics]
 summary: Gensler's survey. Abstract entities, whether logic shows the structure of reality, five accounts of why logical laws hold (supernaturalism, psychologism, pragmatism, conventionalism, realism), truth and the liar. Plus my notes on the Orthodox angle.
 author: Harry J. Gensler
 source: "Introduction to Logic, 2nd ed. (Routledge, 2010), ch. 18"

@@ -2,7 +2,7 @@
 id: G-0002
 date: 2026-10-06
 title: "Guide: Councils and Heresies"
-tags: [theology, guide, councils]
+tags: [theology, guide, councils, church-history]
 summary: A reading order for the notes on the ecumenical councils, their canons and the heresies they answered.
 ---
 

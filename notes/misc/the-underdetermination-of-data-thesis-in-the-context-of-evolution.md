@@ -2,7 +2,7 @@
 id: M-0093
 date: 2026-10-05
 title: The Underdetermination of Data Thesis in the Context of Evolution
-tags: [theology, epistemology, apologetics]
+tags: [philosophy, philosophy-of-science, apologetics]
 summary: The argument that the same empirical data can support interpretations other than Darwinian evolution.
 ---
 

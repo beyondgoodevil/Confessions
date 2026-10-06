@@ -2,7 +2,7 @@
 id: M-0307
 date: 2026-10-06
 title: The Euthyphro Dilemma and the Orthodox Answer
-tags: [theology, apologetics, epistemology]
+tags: [philosophy, theology, ethics, apologetics]
 summary: Plato's dilemma about God and goodness, why both horns are bad, the third option (God is the Good), the fuller Orthodox version with energies and logoi, and follow-up objections.
 ---
 

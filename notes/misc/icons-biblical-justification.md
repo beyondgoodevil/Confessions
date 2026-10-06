@@ -2,7 +2,7 @@
 id: M-0225
 date: 2026-10-05
 title: "Icons: Biblical Justification"
-tags: [theology, icons-saints, scripture]
+tags: [theology, scripture, icons-saints]
 summary: Five lines of scriptural support for icons, from the commandment on graven images to the Incarnation.
 ---
 

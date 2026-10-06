@@ -2,7 +2,7 @@
 id: M-0048
 date: 2026-10-05
 title: Double Standard Fallacy 2
-tags: [theology, fallacies]
+tags: [philosophy, fallacies]
 summary: The structure of a double standard, with examples from morals, politics and religion.
 ---
 

@@ -2,7 +2,7 @@
 id: M-0298
 date: 2026-10-06
 title: Critique of Empiricism
-tags: [theology, epistemology, apologetics]
+tags: [philosophy, epistemology]
 summary: Seven reasons not all knowledge can come from the senses.
 ---
 

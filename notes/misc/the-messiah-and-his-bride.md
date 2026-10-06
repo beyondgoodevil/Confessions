@@ -2,7 +2,7 @@
 id: M-0085
 date: 2026-10-05
 title: The Messiah and His Bride
-tags: [theology, mary, covenant]
+tags: [theology, scripture, mary, typology]
 summary: Marriage imagery for God and His people in both Testaments, and Mary as its archetype.
 ---
 

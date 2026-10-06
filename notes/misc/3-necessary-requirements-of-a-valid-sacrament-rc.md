@@ -2,7 +2,7 @@
 id: M-0008
 date: 2026-10-05
 title: 3 Necessary Requirements of a Valid Sacrament (RC)
-tags: [theology, sacraments]
+tags: [theology, sacraments, catholicism]
 summary: Roman Catholic canon law — proper matter, proper form, and proper minister with intent.
 ---
 

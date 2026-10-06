@@ -2,7 +2,7 @@
 id: M-0272
 date: 2026-10-06
 title: Adam and Eve Sin
-tags: [theology, scripture]
+tags: [theology, scripture, the-fall]
 summary: Five passages on the command, the transgression and its consequence.
 ---
 

@@ -2,7 +2,7 @@
 id: M-0244
 date: 2026-10-06
 title: Epistemic Questions
-tags: [theology, epistemology]
+tags: [philosophy, epistemology]
 summary: Six types of epistemic question, with examples of each.
 ---
 

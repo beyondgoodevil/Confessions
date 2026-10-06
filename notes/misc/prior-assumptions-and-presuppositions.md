@@ -2,7 +2,7 @@
 id: M-0125
 date: 2026-10-05
 title: Prior Assumptions and Presuppositions
-tags: [theology, epistemology, apologetics]
+tags: [philosophy, epistemology, apologetics]
 summary: The difference between prior assumptions and presuppositions, with examples.
 ---
 

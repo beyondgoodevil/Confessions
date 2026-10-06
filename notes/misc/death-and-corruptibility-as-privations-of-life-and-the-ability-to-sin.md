@@ -2,7 +2,7 @@
 id: M-0046
 date: 2026-10-05
 title: Death and Corruptibility as Privations of Life and the Ability to Sin
-tags: [theology, theosis, church-history]
+tags: [theology, patristics, the-fall]
 summary: The Fathers and Scripture on death, corruption and sin as privations rather than created things.
 ---
 

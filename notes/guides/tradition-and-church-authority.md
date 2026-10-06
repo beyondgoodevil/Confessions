@@ -2,7 +2,7 @@
 id: G-0018
 date: 2026-10-06
 title: "Guide: Tradition and Church Authority"
-tags: [theology, guide, tradition]
+tags: [theology, guide, tradition, ecclesiology]
 summary: A reading order for the notes on oral tradition, apostolic succession and the one Church.
 ---
 

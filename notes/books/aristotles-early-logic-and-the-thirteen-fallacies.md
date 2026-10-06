@@ -2,7 +2,7 @@
 id: B-0011
 date: 2026-10-07
 title: "Aristotle's Early Logic and the Thirteen Fallacies"
-tags: [philosophy, logic, fallacies]
+tags: [philosophy, logic, fallacies, aristotle]
 summary: Aristotle's logic before the Prior Analytics. Why he invented it, what a syllogism is in the broad sense, how a refutation works, where "ad hominem" really comes from, and the original list of thirteen fallacies from On Sophistical Refutations.
 author: John Woods and Andrew Irvine
 source: "Handbook of the History of Logic, vol. 1, eds. Gabbay and Woods (Elsevier, 2004), pp. 27–99"

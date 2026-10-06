@@ -2,7 +2,7 @@
 id: M-0270
 date: 2026-10-06
 title: "Acts 20:29-30: Paul Speaks About Heretical Teachings"
-tags: [theology, scripture, tradition]
+tags: [theology, scripture, ecclesiology]
 summary: Acts 20:29-30 (KJV) — Paul's warning of wolves and of false teachers arising from within.
 ---
 

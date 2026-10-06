@@ -1,7 +1,7 @@
 ---
 id: L-0003
 date: 2026-09-23
-tags: [leibniz, monad]
+tags: [philosophy, metaphysics, leibniz]
 summary: Lecture notes on Leibniz' monad
 ---
 

@@ -2,7 +2,7 @@
 id: M-0039
 date: 2026-10-05
 title: "Apostles Have the Authority to Forgive Sins: Book of John"
-tags: [theology, tradition, sacraments]
+tags: [theology, scripture, ecclesiology, sacraments]
 summary: John 20:22-23 as the basis for the apostles' authority to forgive sins and for confession.
 ---
 

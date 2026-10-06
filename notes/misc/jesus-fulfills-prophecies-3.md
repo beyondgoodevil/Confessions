@@ -2,7 +2,7 @@
 id: M-0166
 date: 2026-10-05
 title: Jesus Fulfills Prophecies 3
-tags: [theology, scripture, covenant]
+tags: [theology, scripture, prophecy]
 summary: Prophecies 13 to 15 — burial, resurrection and ascension.
 ---
 

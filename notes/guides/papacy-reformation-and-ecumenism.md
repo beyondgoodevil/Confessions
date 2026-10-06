@@ -2,7 +2,7 @@
 id: G-0009
 date: 2026-10-06
 title: "Guide: Papacy, Reformation and Ecumenism"
-tags: [theology, guide, church-history]
+tags: [theology, guide, papacy, reformation, ecumenism]
 summary: A reading order for the notes on the papacy, the Reformers and the modern ecumenical movement.
 ---
 

@@ -2,7 +2,7 @@
 id: G-0016
 date: 2026-10-06
 title: "Guide: Theophanies, Christ in the Old Testament"
-tags: [theology, guide, scripture]
+tags: [theology, guide, scripture, theophany]
 summary: A reading order for the notes on appearances of God in the Old Testament.
 ---
 

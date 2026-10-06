@@ -2,7 +2,7 @@
 id: M-0137
 date: 2026-10-05
 title: Saint Jerome Against Anti-Relics Heresies
-tags: [theology, icons-saints, church-history]
+tags: [theology, icons-saints, patristics]
 summary: Saint Jerome's four arguments for the veneration of relics.
 ---
 

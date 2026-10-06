@@ -2,7 +2,7 @@
 id: M-0185
 date: 2026-10-05
 title: "Mary as the Ark of the Covenant and as the New Heavenly Jerusalem, Symbolizing the Ultimate Image of the Church: Verses"
-tags: [theology, mary, scripture]
+tags: [theology, scripture, mary, typology]
 summary: Verses for Mary as the Ark, as the New Jerusalem, and as the image of the Church.
 ---
 

@@ -2,7 +2,7 @@
 id: M-0237
 date: 2026-10-06
 title: Ecumenical Organizations
-tags: [theology, church-history]
+tags: [theology, ecumenism]
 summary: The World Council of Churches and nine other ecumenical bodies.
 ---
 

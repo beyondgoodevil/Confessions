@@ -2,7 +2,7 @@
 id: M-0155
 date: 2026-10-05
 title: "TAG: Logic and Its Justification in Other World Views - A Refutation"
-tags: [theology, apologetics, epistemology]
+tags: [philosophy, apologetics, logic]
 summary: Five non-theistic accounts of logic and why each fails to ground it.
 ---
 

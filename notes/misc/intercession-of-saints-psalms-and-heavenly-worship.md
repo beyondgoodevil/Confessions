@@ -2,7 +2,7 @@
 id: M-0059
 date: 2026-10-05
 title: "Intercession of Saints: Psalms and Heavenly Worship"
-tags: [theology, icons-saints, scripture]
+tags: [theology, scripture, icons-saints, liturgy]
 summary: How the heavenly liturgy in the Psalms grounds asking the saints for intercession.
 ---
 

@@ -2,7 +2,7 @@
 id: G-0007
 date: 2026-10-06
 title: "Guide: Logical Fallacies"
-tags: [theology, guide, fallacies]
+tags: [philosophy, guide, fallacies]
 summary: The fallacy notes grouped by the kind of mistake they describe.
 ---
 

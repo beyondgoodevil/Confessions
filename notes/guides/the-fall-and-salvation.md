@@ -2,7 +2,7 @@
 id: G-0014
 date: 2026-10-06
 title: "Guide: The Fall and Salvation"
-tags: [theology, guide]
+tags: [theology, guide, the-fall, salvation]
 summary: A reading order for the notes on the Fall, the atonement, faith and works, and the resurrection.
 ---
 

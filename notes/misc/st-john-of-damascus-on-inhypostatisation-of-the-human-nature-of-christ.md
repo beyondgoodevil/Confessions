@@ -2,7 +2,7 @@
 id: M-0147
 date: 2026-10-05
 title: St. John of Damascus on Inhypostatisation of the Human Nature of Christ
-tags: [theology, christology]
+tags: [theology, christology, patristics]
 summary: Christ's human nature has no hypostasis of its own but subsists in the Person of the Logos.
 ---
 

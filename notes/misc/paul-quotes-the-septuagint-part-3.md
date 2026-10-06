@@ -2,7 +2,7 @@
 id: M-0120
 date: 2026-10-05
 title: Paul Quotes the Septuagint Part 3
-tags: [theology, canon, scripture]
+tags: [theology, scripture, canon]
 summary: 1 Corinthians 15:54 and a summary of Paul's use of the Septuagint.
 ---
 

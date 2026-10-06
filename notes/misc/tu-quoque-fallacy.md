@@ -2,7 +2,7 @@
 id: M-0104
 date: 2026-10-05
 title: Tu Quoque Fallacy
-tags: [theology, fallacies]
+tags: [philosophy, fallacies]
 summary: Dismissing an argument by accusing the opponent of hypocrisy instead of addressing it.
 ---
 

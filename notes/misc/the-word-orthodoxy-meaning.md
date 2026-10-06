@@ -2,7 +2,7 @@
 id: M-0095
 date: 2026-10-05
 title: The Word Orthodoxy Meaning
-tags: [theology, church-history]
+tags: [theology, tradition]
 summary: "Orthodoxy" means "correct belief", from the Greek ortho and doxa.
 ---
 

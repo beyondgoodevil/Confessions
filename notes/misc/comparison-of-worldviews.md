@@ -2,7 +2,7 @@
 id: M-0294
 date: 2026-10-06
 title: Comparison of Worldviews
-tags: [theology, apologetics, epistemology]
+tags: [philosophy, apologetics]
 summary: Transcendental argumentation and how four kinds of worldview fare under it.
 ---
 

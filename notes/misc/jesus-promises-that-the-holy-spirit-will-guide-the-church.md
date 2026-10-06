@@ -2,7 +2,7 @@
 id: M-0170
 date: 2026-10-05
 title: Jesus Promises That the Holy Spirit Will Guide the Church
-tags: [theology, tradition, scripture]
+tags: [theology, scripture, ecclesiology, tradition]
 summary: Six passages from John and Acts on the promise and coming of the Holy Spirit.
 ---
 

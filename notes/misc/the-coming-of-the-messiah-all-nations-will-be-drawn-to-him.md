@@ -2,7 +2,7 @@
 id: M-0023
 date: 2026-10-05
 title: "The Coming of the Messiah: All Nations Will Be Drawn to Him"
-tags: [theology, scripture, covenant]
+tags: [theology, scripture, prophecy]
 summary: Prophecies that all nations will flow to the Lord, from Isaiah, Micah, Zechariah and Acts.
 ---
 

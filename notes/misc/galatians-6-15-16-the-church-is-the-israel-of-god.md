@@ -2,7 +2,7 @@
 id: M-0206
 date: 2026-10-05
 title: "Galatians 6:15-16: The Church Is the Israel of God"
-tags: [theology, scripture, covenant]
+tags: [theology, scripture, covenant, ecclesiology]
 summary: Galatians 6:15-16 read as identifying the Church with the Israel of God.
 ---
 

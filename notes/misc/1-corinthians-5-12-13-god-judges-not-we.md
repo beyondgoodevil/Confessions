@@ -2,7 +2,7 @@
 id: M-0254
 date: 2026-10-06
 title: "1 Corinthians 5:12-13: God Judges, Not We"
-tags: [theology, scripture, tradition]
+tags: [theology, scripture, ecclesiology]
 summary: 1 Corinthians 5:12-13 (KJV) on judging those within the Church and leaving those outside to God.
 ---
 

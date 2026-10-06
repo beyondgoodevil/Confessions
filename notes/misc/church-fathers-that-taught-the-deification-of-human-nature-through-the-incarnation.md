@@ -2,7 +2,7 @@
 id: M-0293
 date: 2026-10-06
 title: Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation
-tags: [theology, theosis, church-history]
+tags: [theology, patristics, theosis]
 summary: Seven Fathers, from Irenaeus to Photios, on deification through the Incarnation.
 ---
 

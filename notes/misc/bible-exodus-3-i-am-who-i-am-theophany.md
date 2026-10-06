@@ -2,7 +2,7 @@
 id: M-0282
 date: 2026-10-06
 title: "Bible: Exodus 3, I AM WHO I AM, Theophany"
-tags: [theology, scripture, christology]
+tags: [theology, scripture, theophany]
 summary: Exodus 3:1-22, the burning bush and the revelation of the divine name.
 source: Exodus 3:1-22 (New King James Version)
 ---

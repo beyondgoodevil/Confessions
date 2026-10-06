@@ -6,7 +6,7 @@ lecture: 2
 lecturer: Gilbert Strang
 institution: MIT OpenCourseWare
 date: 2026-09-04
-tags: [linear-algebra, mit-18-06]
+tags: [mathematics, linear-algebra, mit-18-06]
 summary: Gaussian elimination, pivots, and elimination steps written as matrix multiplications.
 ---
 

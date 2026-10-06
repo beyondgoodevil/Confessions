@@ -2,7 +2,7 @@
 id: G-0003
 date: 2026-10-06
 title: "Guide: Covenant, Typology and Prophecy"
-tags: [theology, guide, covenant]
+tags: [theology, guide, covenant, typology, prophecy]
 summary: A reading order for the notes on the covenants, Old Testament types and fulfilled prophecy.
 ---
 

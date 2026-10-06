@@ -2,7 +2,7 @@
 id: M-0224
 date: 2026-10-05
 title: Icons Are Biblical
-tags: [theology, icons-saints, scripture]
+tags: [theology, scripture, icons-saints]
 summary: Ten biblical cases of sacred images and material things used by God.
 ---
 

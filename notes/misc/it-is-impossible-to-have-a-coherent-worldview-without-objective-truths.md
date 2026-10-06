@@ -2,7 +2,7 @@
 id: M-0229
 date: 2026-10-05
 title: It Is Impossible to Have a Coherent Worldview Without Objective Truths
-tags: [theology, apologetics, epistemology]
+tags: [philosophy, apologetics, logic]
 summary: What collapses without objective truth, with ten examples.
 ---
 

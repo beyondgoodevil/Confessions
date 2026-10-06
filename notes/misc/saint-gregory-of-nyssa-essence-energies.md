@@ -2,7 +2,7 @@
 id: M-0136
 date: 2026-10-05
 title: "Saint Gregory of Nyssa: Essence Energies"
-tags: [theology, theosis]
+tags: [theology, theosis, patristics]
 summary: Gregory's doctrine of epektasis — the soul's endless ascent toward God through His energies.
 ---
 

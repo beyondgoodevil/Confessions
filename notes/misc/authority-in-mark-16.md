@@ -2,7 +2,7 @@
 id: M-0280
 date: 2026-10-06
 title: Authority in Mark 16
-tags: [theology, tradition, scripture]
+tags: [theology, scripture, ecclesiology]
 summary: The signs promised to believers in Mark 16 do not give every believer the same authority, as Acts shows.
 ---
 

@@ -2,7 +2,7 @@
 id: M-0069
 date: 2026-10-05
 title: Pre-Nicene Fathers Teach the Trinity 1
-tags: [theology, trinity, church-history]
+tags: [theology, trinity, patristics]
 summary: Ignatius of Antioch, the Didache and Justin Martyr on the Trinity before Nicaea.
 ---
 

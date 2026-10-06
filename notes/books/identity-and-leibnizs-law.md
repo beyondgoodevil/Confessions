@@ -2,7 +2,7 @@
 id: B-0018
 date: 2026-10-07
 title: "Identity and Leibniz's Law"
-tags: [philosophy, metaphysics, logic, theology]
+tags: [philosophy, theology, metaphysics, trinity, christology]
 summary: What identity is, Leibniz's law and the identity of indiscernibles, and three unorthodox proposals (relative identity, time-indexed identity, contingent identity). Hawthorne thinks the puzzles are never really about identity. Plus my notes on the Trinity and Christology.
 author: John Hawthorne
 source: "The Oxford Handbook of Metaphysics, eds. Loux and Zimmerman (OUP, 2003), ch. 4"

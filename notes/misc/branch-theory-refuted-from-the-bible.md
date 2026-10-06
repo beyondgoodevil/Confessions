@@ -2,7 +2,7 @@
 id: M-0285
 date: 2026-10-06
 title: Branch Theory Refuted From the Bible
-tags: [theology, scripture, tradition]
+tags: [theology, scripture, ecclesiology, ecumenism]
 summary: Gospel and Acts passages showing that acting in Christ's name is not the same as belonging to His one Church.
 ---
 

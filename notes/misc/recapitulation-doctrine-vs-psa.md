@@ -2,7 +2,7 @@
 id: M-0128
 date: 2026-10-05
 title: Recapitulation Doctrine vs PSA
-tags: [theology, christology, trinity]
+tags: [theology, salvation, trinity]
 summary: Penal substitution and recapitulation compared on Trinitarian unity, motivation and sacrifice.
 ---
 

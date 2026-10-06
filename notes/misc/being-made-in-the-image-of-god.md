@@ -2,7 +2,7 @@
 id: M-0281
 date: 2026-10-06
 title: Being Made in the Image of God
-tags: [theology, theosis, scripture]
+tags: [theology, scripture, theosis]
 summary: Seven things man shares with God, and the distinction between image and likeness.
 ---
 

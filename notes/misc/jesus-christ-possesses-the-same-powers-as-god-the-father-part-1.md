@@ -2,7 +2,7 @@
 id: M-0233
 date: 2026-10-05
 title: Jesus Christ Possesses the Same Powers as God the Father Part 1
-tags: [theology, christology, scripture]
+tags: [theology, scripture, christology, trinity]
 summary: Verses on Christ's omnipotence, omniscience and omnipresence.
 ---
 

@@ -2,7 +2,7 @@
 id: M-0026
 date: 2026-10-05
 title: The Melchizedekian Priesthood
-tags: [theology, scripture, covenant]
+tags: [theology, scripture, typology]
 summary: Psalm 110:4 and Hebrews 7 on Christ's eternal priesthood after the order of Melchizedek.
 ---
 

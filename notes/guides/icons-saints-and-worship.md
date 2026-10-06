@@ -2,7 +2,7 @@
 id: G-0006
 date: 2026-10-06
 title: "Guide: Icons, Saints and Worship"
-tags: [theology, guide, icons-saints]
+tags: [theology, guide, icons-saints, liturgy]
 summary: A reading order for the notes on icons, relics, the intercession of saints and the liturgy.
 ---
 

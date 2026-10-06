@@ -2,7 +2,7 @@
 id: M-0260
 date: 2026-10-06
 title: 10 Scientific Scandals
-tags: [theology, apologetics, epistemology]
+tags: [philosophy, philosophy-of-science, apologetics]
 summary: Ten cases of fraud, bias or manipulation in science.
 ---
 

@@ -2,7 +2,7 @@
 id: B-0012
 date: 2026-10-07
 title: Deviant Logics
-tags: [philosophy, logic, epistemology]
+tags: [philosophy, logic]
 summary: Logics that drop a standard assumption. Many-valued (more than true/false), paraconsistent (some contradictions true), intuitionist (no excluded middle), relevance (stricter if-then). What each rejects, why, and the standard replies.
 author: Harry J. Gensler
 source: "Introduction to Logic, 2nd ed. (Routledge, 2010), ch. 17"

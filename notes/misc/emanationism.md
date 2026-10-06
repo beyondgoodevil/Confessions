@@ -2,7 +2,7 @@
 id: M-0238
 date: 2026-10-06
 title: Emanationism
-tags: [theology, trinity, thomism]
+tags: [theology, trinity, neoplatonism]
 summary: Emanationism and how it distorts the doctrine of the Trinity.
 ---
 

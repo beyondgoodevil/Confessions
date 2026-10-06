@@ -2,7 +2,7 @@
 id: G-0012
 date: 2026-10-06
 title: "Guide: TAG and Presuppositional Apologetics"
-tags: [theology, guide, apologetics]
+tags: [philosophy, theology, guide, apologetics]
 summary: A reading order for the Transcendental Argument for God and the worldview notes around it.
 ---
 

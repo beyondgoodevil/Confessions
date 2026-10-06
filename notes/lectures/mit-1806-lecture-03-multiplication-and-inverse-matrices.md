@@ -6,7 +6,7 @@ lecture: 3
 lecturer: Gilbert Strang
 institution: MIT OpenCourseWare
 date: 2026-09-11
-tags: [linear-algebra, mit-18-06]
+tags: [mathematics, linear-algebra, mit-18-06]
 summary: Four ways to read a matrix product, when a matrix has an inverse, and Gauss–Jordan.
 ---
 

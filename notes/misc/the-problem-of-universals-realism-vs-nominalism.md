@@ -2,7 +2,7 @@
 id: M-0310
 date: 2026-10-06
 title: "The Problem of Universals: Realism vs Nominalism"
-tags: [theology, epistemology, apologetics]
+tags: [philosophy, theology, metaphysics]
 summary: Are shared natures like "humanity" real? Plato, Aristotle, conceptualism, nominalism; the Christian synthesis; why it matters for Trinity and Christology; what nominalism led to.
 ---
 

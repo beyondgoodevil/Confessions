@@ -2,7 +2,7 @@
 id: M-0286
 date: 2026-10-06
 title: Calvinism Views on Humans
-tags: [theology, church-history]
+tags: [theology, reformation, the-fall]
 summary: Total Depravity in Calvinism, and why it excludes human infallibility.
 ---
 

@@ -2,7 +2,7 @@
 id: M-0029
 date: 2026-10-05
 title: Transcendental Categories Are Required for Science and Knowledge
-tags: [theology, apologetics, epistemology]
+tags: [philosophy, apologetics, epistemology]
 summary: Why identity, causality, logic and the other transcendental categories are preconditions of science and knowledge.
 ---
 

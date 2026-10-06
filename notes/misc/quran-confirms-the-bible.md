@@ -2,7 +2,7 @@
 id: M-0017
 date: 2026-10-05
 title: Quran Confirms the Bible
-tags: [theology, apologetics, canon]
+tags: [theology, apologetics, islam]
 summary: An argument from the Qur'an's own verses that it confirms the Bible and that God's word cannot be changed.
 ---
 

@@ -2,7 +2,7 @@
 id: M-0105
 date: 2026-10-05
 title: Types of Christ in the OT
-tags: [theology, covenant, scripture]
+tags: [theology, scripture, typology]
 summary: Ten Old Testament types of Christ, from Adam to the manna from heaven.
 ---
 

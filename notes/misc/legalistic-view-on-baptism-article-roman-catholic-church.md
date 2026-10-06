@@ -2,7 +2,7 @@
 id: M-0061
 date: 2026-10-05
 title: "Legalistic View on Baptism: Article, Roman Catholic Church"
-tags: [theology, sacraments]
+tags: [theology, sacraments, catholicism]
 summary: Summary of a 2022 NPR report on Catholic baptisms ruled invalid over a single word.
 source: "NPR, “An Arizona priest used one wrong word in baptisms for decades. They're all invalid”, Rachel Treisman, 15 February 2022"
 ---

@@ -2,7 +2,7 @@
 id: M-0291
 date: 2026-10-06
 title: Christ Set Up His Church at Pentecost, and the Church Is Referred to as His
-tags: [theology, scripture, tradition]
+tags: [theology, scripture, ecclesiology]
 summary: Verses on the Church's establishment at Pentecost and on the Church as the Body of Christ.
 ---
 

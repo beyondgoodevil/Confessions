@@ -2,7 +2,7 @@
 id: M-0211
 date: 2026-10-05
 title: "Genesis 3:1-6: Eve Eats the Fruit"
-tags: [theology, scripture]
+tags: [theology, scripture, the-fall]
 summary: Genesis 3:1-6 outlined, with the temptation, the threefold desire and the act.
 source: Genesis 3:1-6 (English Standard Version)
 ---

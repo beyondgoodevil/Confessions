@@ -2,7 +2,7 @@
 id: M-0212
 date: 2026-10-05
 title: "Genesis 32:24-30: Jacob Wrestled and Saw God"
-tags: [theology, scripture, christology]
+tags: [theology, scripture, theophany]
 summary: Genesis 32:24-30, where Jacob wrestles a Man and says he has seen God face to face.
 source: Genesis 32:24-30 (New King James Version)
 ---

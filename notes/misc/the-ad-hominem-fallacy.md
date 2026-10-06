@@ -2,7 +2,7 @@
 id: M-0075
 date: 2026-10-05
 title: The Ad Hominem Fallacy
-tags: [theology, fallacies]
+tags: [philosophy, fallacies]
 summary: Attacking the person instead of the argument, with five types.
 ---
 

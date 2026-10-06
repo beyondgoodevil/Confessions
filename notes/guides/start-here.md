@@ -2,7 +2,7 @@
 id: G-0011
 date: 2026-10-06
 title: "Guide: Start Here"
-tags: [theology, guide]
+tags: [theology, philosophy, guide]
 summary: A map of the theology and philosophy notes, with a guide for each theme.
 ---
 

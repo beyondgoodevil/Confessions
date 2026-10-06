@@ -2,7 +2,7 @@
 id: M-0178
 date: 2026-10-05
 title: Key Teachings of the Council of Ephesus
-tags: [theology, councils, sacraments]
+tags: [theology, councils, christology, sacraments]
 summary: Five teachings of Ephesus and their bearing on the Eucharist.
 ---
 

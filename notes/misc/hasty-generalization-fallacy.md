@@ -2,7 +2,7 @@
 id: M-0217
 date: 2026-10-05
 title: Hasty Generalization Fallacy
-tags: [theology, fallacies]
+tags: [philosophy, fallacies]
 summary: Drawing a universal conclusion from too small a sample.
 ---
 

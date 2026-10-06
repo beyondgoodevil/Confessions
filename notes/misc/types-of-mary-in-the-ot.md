@@ -2,7 +2,7 @@
 id: M-0107
 date: 2026-10-05
 title: Types of Mary in the OT
-tags: [theology, mary, scripture]
+tags: [theology, scripture, mary, typology]
 summary: Seven Old Testament types of Mary, from Eve to Hannah.
 ---
 

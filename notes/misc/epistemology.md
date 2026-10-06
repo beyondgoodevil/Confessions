@@ -2,7 +2,7 @@
 id: M-0245
 date: 2026-10-06
 title: Epistemology
-tags: [theology, epistemology]
+tags: [philosophy, theology, epistemology]
 summary: What epistemology studies and its key concepts, with the Orthodox grounding in revelation.
 ---
 

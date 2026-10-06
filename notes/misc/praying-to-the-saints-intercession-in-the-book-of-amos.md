@@ -2,7 +2,7 @@
 id: M-0124
 date: 2026-10-05
 title: "Praying to the Saints: Intercession in the Book of Amos"
-tags: [theology, icons-saints, scripture]
+tags: [theology, scripture, icons-saints]
 summary: Amos 7:1-6, where the prophet's intercession leads God to relent.
 ---
 

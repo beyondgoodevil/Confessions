@@ -2,7 +2,7 @@
 id: M-0064
 date: 2026-10-05
 title: Moving the Goalpost
-tags: [theology, fallacies]
+tags: [philosophy, fallacies]
 summary: The fallacy of changing the criteria of an argument after they have been met.
 ---
 

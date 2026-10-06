@@ -2,7 +2,7 @@
 id: M-0252
 date: 2026-10-06
 title: The Jesus Prayer and Hesychasm
-tags: [theology, theosis, tradition]
+tags: [theology, theosis, prayer]
 summary: The prayer and where it comes from in Scripture, the hesychast line from the Desert Fathers to Palamas and the Philokalia, terms, practice and the usual warnings.
 ---
 
