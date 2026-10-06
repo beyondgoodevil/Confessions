@@ -155,4 +155,5 @@ I don't think this argument is as finished as it's usually presented, so listing
 - [[TAG]]
 - [[Why Only the Orthodox Paradigm Can Account for Knowledge]]
 - [[Identity and Leibniz's Law]]
+- [[Monad]]
 - [[Logic Before Aristotle]]
