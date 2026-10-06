@@ -3,76 +3,73 @@ id: B-0010
 date: 2026-10-06
 title: "The Unmoved Mover"
 tags: [philosophy, metaphysics, aristotle, theology]
-summary: Eric Perl's reading of Aristotle's first principle — the priority of act over potency, pure actuality as pure form, the mover as final cause, and thought thinking itself — with a note on the Orthodox response.
+summary: Reading notes on Perl's account of Aristotle's first principle. Act before potency, pure act as pure form, moving as final cause, thought thinking itself. Plus my notes on the Orthodox response.
 author: Eric D. Perl
 source: "Thinking Being: Introduction to Metaphysics in the Classical Tradition (Brill, 2014), ch. 3, pp. 89–97"
 aliases: [Unmoved Mover]
 ---
 
-Aristotle's *Metaphysics* ends its search for the first cause of being in a reality that moves all things without itself being moved. This note summarises the sections "The Priority of Act" and "The Unmoved Mover" in **Eric D. Perl**, *Thinking Being* (pp. 89–97), and adds a section of my own on the Orthodox response.
+Reading notes on **Perl**, *Thinking Being*, ch. 3, sections "The Priority of Act" and "The Unmoved Mover" (pp. 89–97). Texts: *Metaphysics* IX (Theta) 8 and XII (Lambda) 6–9. Last section is mine.
 
 ## 1. Act and Potency
 
-- **Potency** (*dynamis*): what a thing can be. The bronze can be a statue; the child can be a man.
-- **Act** (*energeia*): what a thing actually is.
-- **Form is act**. A thing's form is not a shape laid on it but its being-at-work as the kind of thing it is.
-- Matter is potency: it is what can receive form.
+- **Potency** (*dynamis*): what a thing can be. Bronze can be a statue.
+- **Act** (*energeia*): what it actually is.
+- **Form is act.** Not a shape stuck on matter. It's the thing's being-at-work as the kind of thing it is.
+- Matter = potency, what can take form.
 
-## 2. The Priority of Act
+## 2. Act Comes First
 
-Act comes before potency in three ways (*Metaphysics* IX 8):
+*Met.* IX 8. Three senses:
 
-1. **In account**: a potency is defined by its act. "Able to see" is understood only through "seeing".
-2. **In time**: an individual is potential before it is actual, but it is always brought to act by something already actual. A man is begotten by a man.
-3. **In reality**: act is the end for the sake of which the potency exists. And what is eternal is prior to what perishes, and nothing eternal exists merely potentially.
+1. **In account.** You define a potency by its act. "Able to see" only makes sense through "seeing".
+2. **In time.** The individual is potential first (child before man), *but* is always brought to act by something already actual. "Man begets man."
+3. **In being** (*ousia*). Act is the end the potency is for. And eternal things are prior to perishable ones, and nothing eternal is merely potential.
 
-It follows that the first principle of everything cannot be a potency, a seed or a chaos. It must be **fully actual**.
+Upshot: the first principle of everything can't be a seed, a chaos, a mere possibility. It has to be **fully actual**. (Against the old poets who put Night or Chaos first.)
 
 ## 3. The Unmoved Mover
 
-- Motion is eternal, so there must be an eternal cause of it.
-- A cause that itself moved would have potency and would need a further cause. The first cause is therefore **unmoved** and is **pure actuality**, with no matter and no potency.
-- Pure act is **pure form**: not a form of something, but form by itself.
-- Perl stresses that this is not a strange extra being added to the world. It is **reality itself**, being in its complete sense, of which everything else falls short in some degree.
-- "God" in Aristotle works as a predicate: this is what is divine. The argument is not a proof of monotheism in the biblical sense.
+- Motion is eternal → needs an eternal cause.
+- If that cause itself changed it would have potency and need a further cause. So: **unmoved**, **pure act**, no matter.
+- Pure act = **pure form**. Not the form *of* anything. Just form.
+- Perl's emphasis: this isn't a weird extra object beyond the world. It is **reality itself**, being in the full sense. Everything else is being to a lesser degree.
+- "God" (*theos*) works as a predicate here: *this* is what's divine. It's not an argument for the God of Abraham.
 
-## 4. How It Moves
+## 4. How It Moves Things
 
-- It does not push. It moves **as what is loved** moves the lover: as final cause, the good that all things aim at.
-- Every natural thing strives to be actual in its own way: to live, to reproduce its kind, to move in a circle.
-- In doing so each imitates, as far as it can, the complete actuality of the first principle. So all things have "something divine" in them.
+- It doesn't push. It moves "as being loved" (*hōs erōmenon*). Final cause.
+- Every natural thing is trying to be actual in its own way: to live, reproduce, go round in a circle (the heavens).
+- That is each thing imitating pure actuality as far as it can. So everything has "something divine" in it.
 
 ## 5. Thought Thinking Itself
 
-- The life of pure act is **intellection**, the highest activity.
-- It cannot depend on an object outside itself, or it would be in potency to that object. So it thinks itself: *noesis noeseos*, thinking of thinking.
-- Perl rejects the reading that makes this an empty self-regard:
-    - In things without matter, the intellect and what it understands are **the same**.
-    - The content of divine thought is the whole of intelligible reality, the forms without matter.
-    - "Thinking itself" therefore means being the complete understanding of all that is.
-- This is close to Plato's union of intellect and the forms, and it is not a doctrine of "two worlds": the divine is the actuality in which sensible things share.
+- Its life is **intellection**, the best activity.
+- It can't depend on an object outside itself (that would be potency). So it thinks itself: *noēsis noēseōs*.
+- Usual complaint: a god gazing at his own navel, knowing nothing of the world.
+- Perl says that misreads it:
+    - In things without matter, intellect and its object are **the same** (*De Anima* III).
+    - So the content of divine thought is the whole of intelligible reality, forms without matter.
+    - "Thinks itself" = *is* the complete understanding of all that is.
+- So Aristotle ends up close to Plato on intellect and forms (see [[The Forms and the Demiurge]]). And no "two worlds": the divine is the actuality that sensible things share in.
+
+Still not sure this gets Aristotle's god to know *Socrates*, as opposed to "man". Perl's reading gives knowledge of forms, not individuals.
 
 ## 6. Orthodox Connections
 
-*This section is my own, not Perl's.*
+*Mine, not Perl's.*
 
-1. **What the Fathers accept**:
-    - God has no unrealised potential, does not change and is the cause of all. St. John of Damascus and St. Maximus can speak of God as act in this sense.
-    - That all things move toward God as their end by desire is central to St. Dionysius and St. Maximus: God moves all things as the beloved.
-2. **What changes with revelation**:
-    - Aristotle's god does not create, does not know individuals as such, and does not love. The God of Scripture creates from nothing, knows each creature, and "so loved the world".
-    - The world is not eternal. If the first cause is only pure act with no distinction in it, its effect seems to be as necessary and eternal as it is.
-3. **Essence and energies**:
-    - Orthodox theology distinguishes God's unknowable **essence** from His many uncreated **energies** (the same word, *energeia*).
-    - God is fully actual, but His acts toward creation are free and are not identical with His essence. This is the Orthodox objection to the Thomist identification of God with *actus purus*.
-4. **Thought and Trinity**:
-    - "Thought thinking itself" is a single self-enclosed mind. The Christian God is a communion of three Persons, and His self-knowledge is personal: the Father knows Himself in the Son.
-
-## Summary
-
-- Act is prior to potency, so the first principle is pure actuality: pure form, without matter.
-- It moves everything as the object of desire, and its life is the understanding of all intelligible reality.
-- Orthodoxy keeps God's full actuality but insists on freedom, creation from nothing, and the distinction of essence and energies.
+- **What can be kept.**
+    - God has no unrealised potential, doesn't change, causes everything. St. John of Damascus and St. Maximus can call God act in this sense. See [[St. John of Damascus and St. Maximus the Confessor Describe God as Pure Act]].
+    - Everything moving toward God by desire is all over Dionysius and Maximus.
+- **What revelation changes.**
+    - Aristotle's god doesn't create, doesn't love, doesn't know individuals (see my doubt above). The God of Scripture does all three. "God so loved the world."
+    - World isn't eternal. If the first cause is *only* pure act with no distinction in it, the effect looks as necessary and eternal as the cause. See [[Thomism Leads to Eternal Creation]].
+- **Essence and energies.**
+    - Same Greek word, *energeia*. Orthodoxy: God's essence is unknowable, His energies are many, uncreated, and free.
+    - So God is fully actual but His acts toward creatures aren't identical with His essence. This is the objection to Thomist *actus purus*. See [[God as Pure Act: RC vs EO]].
+- **Trinity.** "Thought thinking itself" is one closed mind. The Christian God is three Persons. The Father knows Himself in the Son.
+- Side note from the Nietzsche reading: Hatab says a power with no resistance left, pure actuality, wouldn't be power at all. That's the exact opposite intuition to Aristotle's. See [[Nietzsche: The Will to Power]].
 
 ## Related
 

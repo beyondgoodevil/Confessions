@@ -3,73 +3,105 @@ id: B-0005
 date: 2026-10-06
 title: "Nietzsche: Eternal Recurrence"
 tags: [philosophy, nietzsche, metaphysics]
-summary: Paul Loeb's case that Nietzsche taught eternal recurrence as a truth about the cosmos, not a thought experiment — the texts, the logic, the physics and the ethics.
-author: Paul S. Loeb
-source: "The Oxford Handbook of Nietzsche, eds. Ken Gemes and John Richardson (OUP, 2013), ch. 28"
+summary: Reading notes on eternal recurrence. Loeb says Nietzsche meant it literally as cosmology. Johnson says the cosmology is the dwarf's version and the real thing is personal. Hatab links it to will to power.
+author: Paul S. Loeb; Dirk R. Johnson; Lawrence J. Hatab
+source: "Oxford Handbook of Nietzsche (2013), ch. 28; New Cambridge Companion to Nietzsche (2019), chs. 7 and 13; A Companion to Friedrich Nietzsche (Camden House, 2012), ch. 7"
 aliases: [Eternal Recurrence, Eternal Return]
 ---
 
-**Eternal recurrence** is the teaching that one's life, and everything in the world, returns identically an infinite number of times. This note summarises **Paul S. Loeb**, "Eternal Recurrence", ch. 28 of *The Oxford Handbook of Nietzsche* (pp. 645–672).
+Reading notes. The idea: your life, and everything else, comes back exactly the same, forever. The fight in the literature is over whether N. *believed* that.
 
-## 1. The Dispute
+- **Loeb**, "Eternal Recurrence" (*Oxford Handbook*, ch. 28): yes, literally.
+- **Johnson**, "Zarathustra: Nietzsche's Rendezvous with Eternity" (*New Cambridge Companion*, ch. 7): no, and the text itself tells you so.
+- Also used: **Hatab** (same volume, ch. 13) and **Lampert** (Camden House *Companion*, ch. 7).
 
-- **The consensus**: Nietzsche did not believe the world actually recurs. He offered recurrence as a **thought experiment** to test whether a person can affirm life (Williams, Nehamas, Clark, Reginster).
-- **Loeb's thesis**: Nietzsche held it as a **cosmological truth**, called it his most important discovery, and built his ethics on its being true.
+N. = Nietzsche, ER = eternal recurrence, GS = *Gay Science*, Z = *Zarathustra*, EH = *Ecce Homo*.
 
-## 2. The Primary Text
+## 1. The Texts
 
-- *The Gay Science* 341, "The Heaviest Weight": a demon comes to you in your most solitary solitude and says that you will live this life again, innumerable times, with nothing new in it.
-- Loeb insists it be read with the sections around it:
-    - **GS 340**, the dying Socrates, who reveals at the end that he found life a sickness.
-    - **GS 342**, the opening of *Zarathustra*.
-- Read together, the demon recalls Socrates' *daimon*, and the passage presents a **revelation**, not a supposition. Socrates, who suffered from life, would be crushed by it.
-- The fuller statement is in *Thus Spoke Zarathustra*: "On the Vision and the Riddle" and "The Convalescent".
+- **GS 341**, "The Heaviest Weight". A demon comes to you in your "loneliest loneliness" (Loeb: better "most solitary solitude") and says you'll live this life again, countless times, nothing new in it. Would you curse him or call him a god?
+- N. dates the thought to **August 1881** and calls it the basic conception of Z (EH).
+- In Z:
+    - II "The Soothsayer": first hint. "All is empty, all is the same."
+    - II "The Stillest Hour": he knows the thought is coming and isn't ready.
+    - III "On the Vision and the Riddle": gateway called Moment, two eternal paths, the dwarf; then the shepherd choking on a snake.
+    - III "The Convalescent": he finally calls up his "most abysmal thought", is ill seven days, the animals sing it back to him.
+    - III "The Other Dance Song", "The Seven Seals": "for I love you, O eternity."
+- Lampert notes that Part I of Z finishes with ER nowhere in sight. It arrives late.
 
-## 3. Truth in Fiction
+## 2. The Standard View
 
-- The consensus notes that recurrence is asserted mainly by characters in a poetic book and in unpublished notes.
-- Loeb answers that *Zarathustra* is modelled on Plato's dialogues: a fictional form chosen to convey what the author takes to be true.
+ER is a **thought experiment**. N. didn't think the universe repeats. It's a test: can you say yes to your life as it is? (Williams, Nehamas, Clark, Reginster.)
 
-## 4. The Logic
+## 3. Loeb: He Meant It
 
-Standard objections and Loeb's replies:
+**Reading GS 341 in context**
 
-1. **No memory, so no weight** (Simmel, Soll): if I cannot remember earlier cycles, the recurring life is not mine and need not concern me.
-    - *Reply:* the doctrine concerns one and the same life. Nietzsche's narrative also allows a kind of memory running forward, as when Zarathustra recognises what is to come.
-2. **Indistinguishable cycles** (Magnus): if each cycle is exactly alike, nothing distinguishes one from another, so there is only one.
-    - *Reply:* Nietzsche holds that **time itself** recurs. Qualitatively there is one life; it is lived numerically many times.
-3. **No evidence is possible** (Danto): identical cycles leave no trace to observe.
-    - *Reply:* the proof Nietzsche offers is a priori, as some of the best arguments in physics have been.
+- Put it with GS 340 (dying Socrates, who lets slip that life was a sickness) and 342 (start of Z).
+- Then the demon = Socrates' *daimon*, and the passage is a *revelation*, not "suppose that". Socrates would be crushed by it.
 
-## 5. The Physics
+**"But it's only in a fictional book and in notes"**
 
-- GS 109 calls the world a "music box" that eternally repeats its tune; elsewhere Nietzsche uses the hourglass and the "great year" of becoming.
-- The argument in "On the Vision and the Riddle":
-    1. An eternity lies behind the present moment and an eternity lies ahead.
+- Z is modelled on Plato's dialogues. Fiction used to say what the author holds true.
+
+**Logic: objections and replies**
+
+| Objection | Loeb's reply |
+|---|---|
+| No memory between cycles, so it isn't *me* and I needn't care (Simmel, Soll) | It's one and the same life. And Z has a sort of forward memory (Zarathustra recognising what's coming) |
+| Identical cycles can't be told apart, so there's only one (Magnus) | Time itself recurs. One life in quality, many in number |
+| No possible evidence (Danto) | The proof is a priori. So were some of the best arguments in physics |
+
+**Physics**
+
+- GS 109: world as a "music box" repeating its tune. Also the hourglass, the "great year".
+- Argument in "Vision and Riddle":
+    1. Eternity behind this moment, eternity ahead.
     2. Whatever can happen must already have happened in an infinite past.
-    3. All things are **knotted together** causally, so that this moment draws every other after it.
-    4. Therefore this moment, and with it everything, has occurred before and will occur again.
-- Loeb adds that Nietzsche's view of time is relational: there is no time apart from the events, so a return of all events is a return of time.
+    3. Everything is **knotted together**, so this moment drags all the rest after it.
+    4. So this moment has been before and will be again.
+- Plus: time is relational for N. No time apart from events, so if all events return, time returns.
 
-## 6. The Ethics
+**Ethics**
 
-- Everyone agrees recurrence is tied to **life affirmation**: it is the "highest formula of affirmation" (*Ecce Homo*).
-- A notebook entry gives the imperative: live so that you must wish to live again; "you will anyway".
-- The reasoning, on Loeb's reading:
-    1. We should affirm life.
-    2. Life does in fact recur eternally.
-    3. So to affirm life is to affirm its recurrence; to wish it would not recur is to deny life.
-- **Problems for the thought-experiment reading**:
-    - *Motivation*: why should a mere fantasy weigh on anyone? (Williams raises this himself.)
-    - *Contrivance*: why imagine recurrence at all, why identical, why eternal and not once more?
-- Loeb reviews the attempts to answer these (recurrence as mere possibility, as counter-myth, as a conditional, as something imagined uncritically, as an image of finitude) and argues each strains the texts.
-- Against Reginster's finitude reading: "eternal" qualifies the **recurrence**, not the life. Death is unavoidable, but it is not final.
+- Everyone agrees ER goes with life affirmation, "highest formula of affirmation" (EH).
+- Notebook: live so that you must wish to live again, "you will anyway!"
+- Loeb's reconstruction: we should affirm life; life in fact recurs; so affirming life = affirming its recurrence, and wishing it wouldn't recur = denying life.
+- His two problems for the thought-experiment people:
+    - *Motivation.* Why would a fantasy be the "heaviest weight"? (Williams asks this himself.)
+    - *Contrivance.* Why recurrence, why identical, why eternal and not once more?
+- He goes through the answers (ER as mere possibility, as counter-myth, as a conditional, as imagined uncritically, as about finitude) and says each one strains the text.
+- Against Reginster: "eternal" attaches to the *recurrence*, not the life. Death is unavoidable but not final.
 
-## Summary
+## 4. Johnson: The Cosmology Belongs to the Dwarf
 
-- Loeb reads eternal recurrence literally: the same finite life, lived again without end.
-- He defends it against the charges of incoherence and argues that Nietzsche offered a real proof.
-- The ethical demand to affirm recurrence follows from its truth, which is why the thought can be "the heaviest weight".
+This is a direct problem for Loeb, and I find it pretty convincing.
+
+- In "Vision and Riddle" the cosmological version (circular time etc.) comes up in the exchange with the **dwarf**, who *is* the spirit of gravity, Zarathustra's "devil and arch-enemy". The dwarf says "time itself is a circle" and Zarathustra tells him not to make it too easy.
+- In "The Convalescent" it's the **animals** who give the full cosmic doctrine ("you are the teacher of the eternal return"). Zarathustra doesn't join in. He lies there talking with his own soul. Earlier he shook his head at his disciple's neat interpretation of his dream, same pattern.
+- So the "scientific" ER is what the spirit of gravity and the well-meaning followers make of it. Not Zarathustra's own final understanding, "let alone Nietzsche's".
+- What ER is instead: the **dark side of the feeling of eternity**. If you get the moment where everything is perfect and you want it forever, the price is that everything woven into your life comes with it, including what disgusts you. For Zarathustra that's the small man returning eternally.
+- Affirming "Life" in the abstract is easy. Affirming *your own* life, as it was and is, is the test.
+- Part IV: the higher men make ER a spectacle and a creed. Last temptation is pity for them. Only at the very end is he the laughing shepherd who bit the snake's head off.
+
+Lampert (Camden House) is closer to Loeb on seriousness: ER is the new "centre of gravity", what a lover of life would most want, and Zarathustra's affirming it is how he proves to Life that he loves her.
+
+## 5. Hatab: Why Recurrence Goes with Will to Power
+
+- Z II "On Redemption": the problem is revenge against time and its "it was". The answer, "thus I willed it", is tied to WtP.
+- Hatab's explanation: WtP always involves resistance, so my meaning is bound up with what I oppose. To affirm my life I have to affirm the return of the opposition as well.
+- Important: **affirm ≠ approve**. Zarathustra rejects "omni-satisfaction". He wills the return of the small man as something to keep fighting.
+- ER rules out three escapes: a different past, an end in nothingness, and even endless novelty. *Amor fati*: wanting nothing different.
+
+See [[Nietzsche: The Will to Power]] sec. 7.
+
+## 6. What I Think So Far
+
+- Loeb is right that the thought-experiment reading has a motivation problem. Why lose sleep over a hypothetical?
+- But Johnson's point about *who speaks* the cosmology in Z is hard to get round. Loeb uses exactly those two passages as his proof texts.
+- Maybe a middle position: N. was tempted by the cosmology (the notebook proofs are real) but in Z what matters is whether you can bear it.
+- Havas's "it was" problem in [[Nietzsche: The Overman]] is the same issue from the side of agency.
+- Not read yet: Loeb's conclusion; Stern's chapter on affirmation in the Cambridge volume.
 
 ## Related
 

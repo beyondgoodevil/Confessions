@@ -3,65 +3,59 @@ id: B-0008
 date: 2026-10-06
 title: "The Forms and the Demiurge"
 tags: [philosophy, metaphysics, plato, theology]
-summary: Eric Perl's reading of the Timaeus — the craftsman is intellect, the paradigm is within intellect, and neither the demiurge nor the forms comes first — with a note on the divine ideas and the logoi.
+summary: Reading notes on Perl's account of the Timaeus. The craftsman is intellect, the model is inside intellect, and neither demiurge nor forms comes first. Plus my notes on the logoi.
 author: Eric D. Perl
 source: "Thinking Being: Introduction to Metaphysics in the Classical Tradition (Brill, 2014), ch. 2, pp. 61–65"
 ---
 
-In the *Timaeus* Plato describes the world as the work of a divine **craftsman** (*demiourgos*) who makes it by looking to an eternal model.
+Reading notes on **Perl**, *Thinking Being*, ch. 2, "The Forms and the Demiurge" (pp. 61–65). Text is the *Timaeus* (27d–30c or so). Last section is mine.
 
-## 1. The Account in the Timaeus
+## 1. The Story
 
-- The cosmos is ordered, beautiful and good. Such a thing is the work of **intellect** (*nous*), not chance.
-- The craftsman is good and without envy, and so wishes all things to be as like himself as possible.
-- He makes the sensible world as an **image** of an intelligible **paradigm**, called the "intelligible living thing", which contains all the forms.
+- The cosmos is ordered and beautiful, so it's the work of **intellect** (*nous*), not chance.
+- The craftsman (*demiourgos*) is good, "without envy", wants everything as like himself as possible.
+- He makes the visible world as an **image** of an eternal model, the "intelligible living thing", which holds all the forms.
 
-## 2. What Craftsmanship Means
+## 2. What "Craftsman" Is Saying
 
-- A craftsman works by looking to a pattern: the carpenter makes a bed by attending to what a bed is.
-- So to say the world is crafted is to say it is **made according to form**. Its order is the presence in it of intelligible pattern.
-- The story of making is Plato's way of stating that the sensible world depends at every moment on the intelligible. It is not a report of an event in time.
+- A craftsman works by looking at a pattern. Carpenter makes a bed by attending to what a bed *is*.
+- So "the world is crafted" = the world is **made according to form**. Its order is the presence of intelligible pattern in it.
+- Not a report of something that happened one day. It's a way of saying the sensible depends on the intelligible, always.
 
-## 3. Where the Paradigm Is
+## 3. Where Is the Model?
 
-The usual picture has three separate things: a god, a set of forms outside him that he consults, and the world he makes. Perl rejects this.
+The picture I had before reading this: a god here, the forms over there, he looks across at them and copies. Perl says no.
 
-1. The pattern a craftsman looks to is **in his own mind**. The carpenter does not look at an object beside him; he understands what he is making.
-2. The demiurge is **nothing but intellect**: he is the act of understanding the forms, and has no other nature.
-3. Intellect is not blank, with its objects outside it. To understand is to possess what is understood.
-4. Therefore the demiurge and the paradigm are **not two things**. Intellect and the intelligible are one reality seen from two sides.
+1. A craftsman's pattern is **in his mind**. The carpenter isn't looking at a second bed. He understands what he's making.
+2. The demiurge is *nothing but* intellect. He just is the act of understanding the forms.
+3. Intellect isn't an empty container with its objects outside. To understand is to have what's understood.
+4. So demiurge and model are **not two things**. One reality, described from the side of knowing and from the side of known.
 
-## 4. Not "Thoughts of God"
+## 4. But Not "Thoughts of God" Either
 
-- It does not follow that the forms are *products* of a mind that existed first and then thought them up.
-- That would make intellect prior to the intelligible, and the forms would depend on a thinker who, before thinking them, understood nothing.
-- Nor are the forms prior to an intellect that later discovers them.
-- **Neither is prior.** Being and understanding belong together, as Parmenides said: thinking and being are the same.
-- The cosmos, as an image of this, is intelligible all the way through.
+This is the subtle part and I got it wrong first time.
+
+- You might conclude: fine, so the forms are ideas a divine mind thinks up.
+- Perl: no. That makes mind *prior*, a thinker who before thinking understood nothing, and the forms become its products.
+- And the forms aren't prior to a mind that later finds them.
+- **Neither is prior.** Thinking and being go together. Parmenides: "the same thing is for thinking and for being."
+- The cosmos as image of this is intelligible all the way down.
+
+Follow-up: this is where Perl is heading with Plotinus, where Intellect and the forms are one hypostasis, and the Good/One is above both. See [[The Good in Plato]].
 
 ## 5. Orthodox Connections
 
-*This section is my own, not Perl's.*
+*Mine, not Perl's.*
 
-1. **The Logos as Creator**:
-    - "All things were made through Him" (John 1:3). "In Him all things were created" (Colossians 1:16).
-    - The Church reads the demiurge's role in the light of the Word and Wisdom of God, through whom and in whom the Father creates.
-2. **The logoi**:
-    - St. Maximus the Confessor teaches that the *logoi* of all creatures pre-exist in the one Logos.
-    - This is the Christian form of "the paradigm is within intellect": the patterns of things are not outside God.
-3. **Where the Fathers differ from Plato**:
-    - The *logoi* are **divine wills** (St. Dionysius, St. Maximus), not a necessary content of the divine essence. God creates freely.
-    - Creation is **from nothing**. Plato's craftsman orders a pre-existing disorder; the Christian God gives being itself.
-    - The Creator is **personal** and tri-hypostatic, not intellect as such.
-    - The *logoi* belong to the divine **energies**, so the simplicity of the essence is not divided by them.
-4. **Against Arius**:
-    - Arius made the Son a created demiurge standing between God and the world. Nicaea answered that the one through whom all is made is Himself uncreated, of one essence with the Father.
-
-## Summary
-
-- The demiurge is intellect; the paradigm is what intellect understands; the two are one.
-- The forms are neither made by a prior mind nor independent of mind.
-- Patristic theology places the patterns of creation in the Logos, as freely willed and uncreated.
+- **Logos as Creator.** John 1:3 "all things were made through Him"; Col 1:16 "in Him all things were created". The Church reads the craftsman's role through the Word and Wisdom of God.
+- **Logoi.** St. Maximus: the *logoi* of all creatures pre-exist in the one Logos. That's the Christian version of "the model is inside intellect". The patterns aren't outside God. See [[The Logoi of Creation in St. Maximus]].
+- **Differences**, and they're big:
+    - The *logoi* are **divine wills** (Dionysius, Maximus), not a content God necessarily has. He creates freely.
+    - Creation is **from nothing**. Plato's craftsman orders stuff that's already there (the receptacle). God gives being itself.
+    - The Creator is personal, three hypostases. Not "intellect as such".
+    - The *logoi* belong to the **energies**, so they don't split the essence up. See [[Essence-Energies Distinction]].
+- **Arius.** He more or less made the Son a created demiurge between God and world. Nicaea: the one through whom all things are made is Himself uncreated, *homoousios* with the Father.
+- Question: Perl's "neither is prior" sounds fine for Plato, but a Christian has to say the Father is the source of the Son, without the Son being later or lesser. Different kind of priority. Worth working out.
 
 ## Related
 

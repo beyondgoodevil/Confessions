@@ -3,63 +3,86 @@ id: B-0006
 date: 2026-10-06
 title: "Nietzsche: The Overman"
 tags: [philosophy, nietzsche]
-summary: Randall Havas's reading of the overman as a way of life defined by commitment — owning one's past and answering for one's future — and not as a solitary hero.
-author: Randall Havas
-source: "The Oxford Handbook of Nietzsche, eds. Ken Gemes and John Richardson (OUP, 2013), ch. 20"
+summary: Reading notes on the overman. Havas reads it as commitment (owning your past, answering for your future). Johnson and Lampert follow what happens to the idea inside Zarathustra.
+author: Randall Havas; Dirk R. Johnson; Laurence Lampert
+source: "Oxford Handbook of Nietzsche (2013), ch. 20; New Cambridge Companion to Nietzsche (2019), ch. 7; A Companion to Friedrich Nietzsche (Camden House, 2012), ch. 7"
 aliases: [The Overman, Übermensch]
 ---
 
-The **overman** (*Übermensch*) is the figure Zarathustra announces as "the meaning of the earth". This note summarises **Randall Havas**, "The Overman", ch. 20 of *The Oxford Handbook of Nietzsche* (pp. 461–484).
+Reading notes on the *Übermensch*. Main source is **Havas**, "The Overman" (*Oxford Handbook*, ch. 20). Added later: **Johnson** on *Zarathustra* (*New Cambridge Companion*, ch. 7) and bits of **Lampert** (*Companion to Friedrich Nietzsche*, ch. 7), who translates it "Overhuman".
 
-## 1. What the Overman Is Not
+N. = Nietzsche, Z = *Thus Spoke Zarathustra*, BGE = *Beyond Good and Evil*, GM = *Genealogy of Morals*.
 
-- Not a biological type, a master race or a superhuman individual.
-- Not a lone hero who invents himself from nothing.
-- The word plays little part in Nietzsche's writing outside the Prologue of *Thus Spoke Zarathustra*. Havas treats it as a name for a **way of life**: what it would be to live as a real agent.
+## 1. What It Isn't
 
-## 2. The Problem: The Will and Its "It Was"
+- Not a biological type or master race.
+- Not a lone genius who invents himself from nothing.
+- Barely appears outside the Prologue of Z. For something so famous that is striking.
+- Havas: it names a **way of life**, what it would be to really be an agent.
 
-- Zarathustra says the will suffers from "ill will" toward time and its "it was". The past cannot be changed, so the will feels powerless before it.
-- This resentment of time is the root of revenge, and of the wish for another world in which nothing passes away.
-- To overcome man is to overcome this ill will: to stand in a different relation to time.
+## 2. In the Text of Zarathustra
 
-## 3. Agency as Commitment
+(from Johnson and Lampert)
 
-Havas's central claim is that being an agent means being **committed**, and commitment has two sides in time.
+- Prologue: Zarathustra comes down the mountain and tells the marketplace that man is something to be overcome, the overman is "the meaning of the earth". He uses evolution imagery because the crowd knows it: ape → man → overman, man as a rope or bridge.
+- The opposite figure is the **last man** ("last human" in Lampert): wants comfort, equality, no suffering, blinks. The crowd shouts that they'd rather have *him*.
+- The tightrope walker falls and dies. Zarathustra gives up on crowds and decides to look for companions.
+- **Three transformations** (Z I): camel (carries duty, "you ought") → lion (says "I want", wins freedom but can't create) → child (new beginning, "sacred yes-saying", can create values).
+- Johnson's point: after the Prologue the overman **fades**. It was a lure to attract disciples. The real business of the book becomes Zarathustra facing eternal recurrence himself (Parts II and III), i.e. affirming *his own* life, not preaching a future type.
+- By Part IV the "higher men" turn his ideas into a new religion (the ass festival). They wanted a replacement god. So the teaching can't just be handed over as doctrine.
+- Johnson generally: Z's importance is not a set of doctrines (WtP, overman, recurrence) but the way it acts out moods and a journey.
 
-1. **Indebtedness to the past**:
-    - No one is the cause of himself. Nietzsche rejects the *causa sui* (BGE 21).
-    - What we can do depends on long training and obedience (BGE 188). Freedom grows out of discipline; it is not the absence of it.
-    - To act is to take up what one has been given and make it one's own.
-2. **Responsibility for the future**:
-    - The **sovereign individual** of the *Genealogy* (II 1–2) has "the right to make promises": he can bind his future self and answer for it.
-    - A promise is the model of a commitment. It holds a person to something across time.
+This fits Havas better than the popular picture. If the overman were a programme, it's odd that N. drops the word.
 
-The overman is the one who accepts both: who neither disowns his past nor evades his future.
+## 3. The Problem: "It Was"
 
-## 4. Three Difficulties
+- Z II "On Redemption": the will has "ill will" against time and its "it was". The past can't be changed and the will hates being powerless before it.
+- That resentment of time = root of revenge, and of wanting another world where nothing passes.
+- Overcoming man = getting into a different relation to time. "Thus I willed it."
 
-- **Regret**: how can I affirm a past I did not choose and cannot alter? Only by treating it as the ground of what I now undertake.
-- **Transience**: nothing I do lasts. The demand for permanence is itself a form of the ill will.
-- **Originality**: if everything I am is inherited, what is mine? What is mine is the commitment by which I take it up.
+## 4. Havas: Agency = Commitment
 
-## 5. After the Death of God
+Central claim. To be an agent is to be committed, and commitment faces two ways in time.
 
-- While God, or any authority outside us, guarantees meaning, the question of our own responsibility for it does not arise.
-- The "death of God" removes that guarantee. Only then is the overman possible, and only then is he needed.
-- **Nihilism**, on this reading, is an evasion: the refusal to be responsible for what one's life means. The **last man** wants comfort and no commitments.
+**Backwards: indebted to the past**
 
-## 6. Community and Herd
+- Nobody is cause of himself. N. mocks the *causa sui* (BGE 21).
+- What we can do comes from long training and obedience (BGE 188). Freedom grows out of discipline.
+- Acting = taking up what you were given and making it yours.
 
-- Commitment is intelligible only among others who can hold one to one's word. The overman therefore implies a **community of peers**.
-- The **herd** is its opposite: people held together by conformity, where no one answers for anything himself.
-- The contrast between overman and herd is not strong against weak but **responsible against irresponsible**.
+**Forwards: responsible for the future**
 
-## Summary
+- The **sovereign individual** (GM II 1–2) has "the right to make promises". He can bind his later self and answer for it.
+- A promise is the model commitment. It holds you to something across time.
 
-- Havas reads the overman as an account of human agency, not a prophecy of a higher species.
-- To be an agent is to be committed: indebted to a past and answerable for a future.
-- Nihilism and the herd are ways of avoiding that responsibility.
+Overman = someone who accepts both sides. Doesn't disown the past, doesn't dodge the future.
+
+## 5. Three Difficulties Havas Raises
+
+- **Regret.** How do I affirm a past I didn't choose? By treating it as the ground of what I'm now undertaking.
+- **Transience.** Nothing I do lasts. But demanding permanence is the ill will again.
+- **Originality.** If I'm all inheritance, what is mine? The commitment by which I take it up.
+
+Not sure the regret answer works for really bad pasts. Come back to this with [[Nietzsche: Eternal Recurrence]], which is the hard version of the same test.
+
+## 6. After the Death of God
+
+- While God (or any outside authority) guarantees meaning, the question of our responsibility for it doesn't come up.
+- So the overman is only possible, and only needed, *after* the death of God.
+- **Nihilism** on Havas's reading = evasion. Refusing to be responsible for what your life means. The last man is the comfortable form of it.
+
+## 7. Community vs Herd
+
+- A commitment only makes sense among others who can hold you to your word. So the overman implies **peers**.
+- Herd = held together by conformity, nobody answering for anything.
+- So the contrast isn't strong vs weak but **responsible vs irresponsible**.
+- Cf. Golomb in the WtP notes: among equals a healthy aristocracy refrains from exploitation (BGE 259).
+
+## 8. Loose Ends
+
+- Havas makes N. sound nearly Kantian (promises, responsibility). Is that too respectable? Golomb also brings in autonomy/heteronomy, so maybe it's a real strand.
+- Johnson says the overman is a lure that gets dropped; Lampert treats it as the real founding teaching. They can't both be right.
+- Link with WtP: Golomb says the overman is the "optimal" will to power, someone who has sublimated his drives into a whole.
 
 ## Related
 

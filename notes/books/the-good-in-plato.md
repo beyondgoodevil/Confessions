@@ -3,71 +3,66 @@ id: B-0009
 date: 2026-10-06
 title: "The Good in Plato"
 tags: [philosophy, metaphysics, plato, theology]
-summary: Eric Perl's reading of the Good in the Republic — the source of intelligibility and being, "beyond being" because it is the condition of every form — with a note on its Orthodox reception.
+summary: Reading notes on Perl's account of the Good in the Republic. Source of intelligibility and being, "beyond being" because it conditions every form. Plus my notes on the Orthodox side.
 author: Eric D. Perl
 source: "Thinking Being: Introduction to Metaphysics in the Classical Tradition (Brill, 2014), ch. 2, pp. 54–60"
 ---
 
-In the *Republic* Plato places one principle above all the forms: **the Good**. This note summarises the section "The Good" in **Eric D. Perl**, *Thinking Being* (pp. 54–60), and adds a section of my own on how the idea was received in Orthodox theology.
+Reading notes on **Perl**, *Thinking Being*, ch. 2, the section "The Good" (pp. 54–60). Texts: *Republic* VI 506–509, some *Philebus*. Last section is mine, not Perl's.
 
 ## 1. The Sun Analogy
 
-- Sight needs a third thing besides the eye and the visible object: **light**, which comes from the sun. Light is the "yoke" that joins seeing and seen.
-- In the same way, knowing and what is known are joined by something that comes from the Good.
+- Seeing needs three things, not two: eye, object, and **light**. Light comes from the sun and is the "yoke" between seeing and seen.
+- Same for knowing. Something has to join intellect and what it knows, and that comes from the Good.
 
-| Visible realm | Intelligible realm |
+| Visible | Intelligible |
 |---|---|
-| Sun | The Good |
-| Light | Truth and being |
-| Eye, sight | Intellect, knowledge |
-| Visible things | The forms |
+| sun | the Good |
+| light | truth / being |
+| eye, sight | intellect, knowledge |
+| visible things | forms |
 
-- The sun also gives visible things their coming to be and growth. So the Good gives the forms not only their being known but their **being**.
+- Second half of the analogy, easy to skip: the sun also makes things *grow*, not only be seen. So the Good gives the forms their **being**, not only their being known.
 
-## 2. What the Good Is
+## 2. So What Is the Good?
 
-- Perl draws on the *Philebus*: the good shows itself as **beauty, proportion and truth**, that is, as measure.
-- The Good is **unity understood as integration**: what makes a many into one whole.
-- To be intelligible is to be unified. A thing with no unity at all could not be thought, and so could not be anything.
-- Hence the Good is the reason anything is intelligible, and so the reason anything is.
+Perl's answer, leaning on *Philebus* (beauty, proportion, truth):
+
+- The Good = **unity as integration**. What makes a many into one whole. Measure.
+- To be intelligible is to be unified. Something with no unity at all couldn't be thought, so couldn't be anything.
+- So: source of unity → source of intelligibility → source of being.
+
+This was the bit I had to reread. The steps are: being = being intelligible (that's Perl's thesis for the whole book, from Parmenides), and intelligible = one. Grant both and the Good as "the One" follows almost automatically. Plotinus is already here.
 
 ## 3. "Beyond Being"
 
-- *Republic* 509b: the Good is not being (*ousia*) but is beyond it "in seniority and power".
-- Perl's reading:
-    - The Good is **not one form among the others**, not even the highest member of the series.
-    - It is the **enabling condition** of all the forms: that by which each is one, intelligible and real.
-    - What conditions all being cannot itself be one of the beings.
-- This is not a denial that the Good is real. It is the claim that the source of reality is not an item within reality.
+- *Rep.* 509b: the Good is not *ousia* but beyond it "in seniority and power". (Glaucon laughs: "what a daimonic excess!")
+- Perl:
+    - Not one more form, not even the top of the list.
+    - It's the **condition** of all the forms. That by which each is one, knowable, real.
+    - What conditions all beings can't be one of the beings.
+- NB this doesn't mean the Good is unreal or a mere ideal. It means the source of reality isn't an item *in* reality.
 
-## 4. Why It Matters
+## 4. Why Perl Thinks It Matters
 
-- If intelligibility has a source beyond us, then the good is the **measure** of thought and action.
-- Without it, man becomes the measure, as Protagoras said, and nothing is good or true except by decision. Perl names this outcome nihilism.
-- The philosopher's ascent in the *Republic* (the divided line, the cave) is therefore an ascent toward the ground of both knowing and being.
+- If intelligibility has a source that isn't us, then the Good is the **measure** for thought and action.
+- Take it away and "man is the measure" (Protagoras). Nothing true or good except by decision. Perl says this is nihilism.
+- The divided line and the cave are then about climbing toward the ground of both knowing and being.
+
+Compare Hatab's Nietzsche, who starts from exactly the opposite assumption (no measure outside life, only measures "immanent in the contest"). See [[Nietzsche: The Will to Power]].
 
 ## 5. Orthodox Connections
 
-*This section is my own, not Perl's.*
+*Mine, not Perl's.*
 
-1. **God beyond being**:
-    - St. Dionysius the Areopagite calls God *hyperousios*, "beyond being", and the Good is the first of the divine names he treats.
-    - The Fathers apply to the Creator what Plato said of the Good: He is not one being among beings but the cause of all being.
-2. **The difference**:
-    - Plato's Good is a principle, not a person. The God of Scripture says "I AM" and is known as Father, Son and Holy Spirit.
-    - The world comes from the Good in Plato by a kind of necessity of intelligibility; in Christian teaching creation is free and from nothing.
-3. **Apophatic theology**:
-    - "Beyond being" becomes the ground for saying that God's essence is unknowable, while He is truly known in His energies.
-4. **Goodness and God**:
-    - That the Good is the measure, and not a standard that God consults or invents, is the classical root of the answer to the Euthyphro dilemma.
-5. **Light**:
-    - The sun image returns in the Church's language of divine light, though there the light is uncreated grace, not only intelligibility.
-
-## Summary
-
-- The Good is to the forms what the sun is to visible things: the source of their being known and of their being.
-- It is "beyond being" because it is the condition of all being and not a member of it.
-- Christian theology keeps the insight and names its source as the personal God.
+- **Beyond being.** St. Dionysius calls God *hyperousios* and treats "Good" as the first divine name. The Fathers say of the Creator what Plato says of the Good: not a being among beings but cause of all being.
+- **Where they part.**
+    - Plato's Good is a principle. The God of Exodus 3:14 says "I AM", and is Father, Son and Holy Spirit.
+    - In Plato things follow from the Good more or less necessarily. In the Church's teaching creation is free and out of nothing.
+- **Apophatic theology.** "Beyond being" is the philosophical root of saying God's essence is unknowable. Orthodoxy adds: but truly known in His energies. See [[Essence-Energies Distinction]].
+- **Euthyphro.** If the Good is the measure itself, not a rule God looks up or makes up, the dilemma loses its grip. See [[The Euthyphro Dilemma and the Orthodox Answer]].
+- **Light.** The sun image comes back as divine light, but in St. Gregory Palamas that light is uncreated grace, not only "intelligibility".
+- Question I can't answer yet: is the Good "unity" in a way that pushes toward the absolute simplicity the Orthodox notes here criticise? See [[Neoplatonic Idea of Divine Simplicity]].
 
 ## Related
 

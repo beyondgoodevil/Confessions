@@ -3,119 +3,188 @@ id: B-0007
 date: 2026-10-06
 title: "Nietzsche: The Will to Power"
 tags: [philosophy, nietzsche, metaphysics]
-summary: Two readings of the will to power from the Oxford Handbook of Nietzsche — Golomb's psychological reading (power as self-overcoming, not force) and Poellner's metaphysical reading (power as the inner nature of causation).
-author: Jacob Golomb; Peter Poellner
-source: "The Oxford Handbook of Nietzsche, eds. Ken Gemes and John Richardson (OUP, 2013), chs. 23 and 29"
+summary: Reading notes on three chapters about will to power. Golomb (psychology, power is not force), Poellner (the causation argument), Hatab (resistance and the agon).
+author: Jacob Golomb; Peter Poellner; Lawrence J. Hatab
+source: "Oxford Handbook of Nietzsche (2013), chs. 23 and 29; New Cambridge Companion to Nietzsche (2019), ch. 13"
 aliases: [Will to Power]
 ---
 
-The **will to power** (*Wille zur Macht*) is Nietzsche's name for the basic drive he finds in human beings, and in some notes in everything that exists. This note summarises two chapters of *The Oxford Handbook of Nietzsche* that take the idea in different directions:
+Reading notes on *Wille zur Macht*. Three chapters, and they don't agree with each other, which is sort of the point:
 
-- **Jacob Golomb**, "Will to Power: Does It Lead to the 'Coldest of All Cold Monsters'?" (ch. 23, pp. 525–550): the will to power as **psychology**.
-- **Peter Poellner**, "Nietzsche's Metaphysical Sketches: Causality and Will to Power" (ch. 29, pp. 675–700): the will to power as **metaphysics**.
+- **Golomb**, "Will to Power: Does It Lead to the 'Coldest of All Cold Monsters'?" (*Oxford Handbook*, ch. 23). Keeps it psychological.
+- **Poellner**, "Nietzsche's Metaphysical Sketches: Causality and Will to Power" (*Oxford Handbook*, ch. 29). Takes the metaphysics seriously.
+- **Hatab**, "The Will to Power" (*New Cambridge Companion*, ch. 13). Neither: reads it as a field of resistances.
 
-## 1. The Problem of the Text
+Abbreviations: N. = Nietzsche, WtP = will to power, WP = the book *The Will to Power*, BGE = *Beyond Good and Evil*, GM = *Genealogy*, GS = *Gay Science*, Z = *Zarathustra*, HAH = *Human, All Too Human*.
 
-- *The Will to Power* is not a book Nietzsche wrote. It is a selection from his notebooks of the 1880s, arranged and published after his death by his sister (1901, expanded 1906).
-- Nietzsche appears to have abandoned the project the notes were written for.
-- Readers therefore divide:
-    1. Those who treat the notebooks as his final, unpolished views tend to read him as a **metaphysician** (Heidegger, Schacht, Richardson).
-    2. Those who trust only the published books tend to deny it (Jaspers, Nehamas, Clark).
-- Golomb uses the notes only as a "thought laboratory" (Kaufmann's phrase). Poellner examines the notebook arguments on their merits and leaves Nietzsche's own verdict to the end.
+## 1. The Text Problem (Read This First)
 
-## 2. Golomb: Power Is Not Force
+- *The Will to Power* is **not a book N. wrote**. His sister Elisabeth and Peter Gast put it together from the notebooks after his collapse (1901, bigger edition 1906). Hatab calls it a "non-book".
+- N. did plan a big work with that title (mentioned in GM III 27), sometimes just called *Revaluation of All Values*. Whether he dropped the plan is disputed. The usual story is that a late 1888 letter shows he considered it finished with *The Antichrist*. Hatab is not convinced by one letter from a shaky period.
+- How much of it is there really? Hatab's count: 32 aphorisms in the published books, 147 notebook entries. Under 5% of everything N. wrote. Smaller than I expected for something this famous.
+- First appears in print in Z ("On a Thousand and One Goals", "On Self-Overcoming", "On Redemption"), then in every book after, mostly BGE and GM. Before that only "feeling of power", "craving for power" in *Daybreak*.
+- The scope seems to grow over time: human psychology, then all organic life, then everything.
+- How people handle this:
+    - Trust the notebooks and you get N. the metaphysician (Heidegger, Schacht, Richardson).
+    - Trust only the published books and you don't (Jaspers, Nehamas, Clark).
+    - Golomb: notebooks = "thought laboratory" (Kaufmann's phrase), use with care.
+    - Hatab: can't settle N.'s intentions, so treat it as a question of interpretation, and on that basis WtP is central.
+- Hatab also makes a slightly cynical point I liked: how much weight a scholar gives WtP tends to track how comfortable they are with the idea.
 
-Golomb's target is the Nazi reading (Bäumler), which took "power" to mean military and physical domination. His answer is that Nietzsche uses three different words:
+## 2. Hatab's List of Readings
 
-| Term | Meaning | Character |
+Useful as a map. WtP has been read as:
+
+1. Celebration of force and domination (the fascist appropriation)
+2. A metaphysical thesis, the end point of Western metaphysics (Heidegger)
+3. A theory about drives, not persons
+4. Psychology of motivation and self-control
+5. Something about agency and norms
+6. Self-creation
+7. A non-metaphysical plurality of force relations
+8. Sublimation, not domination
+9. Naturalistic empirical theory
+10. Tied to valuing and life affirmation
+11. Dispensable
+
+Hatab goes for 7 and 10. Golomb is basically 4 + 8. Poellner is working out what 2 would need.
+
+## 3. Golomb: Power Is Not Force
+
+Target = the Nazi reading (Bäumler). Golomb's move is that N. has three words and the Nazis ran them together.
+
+| German | English | What it is |
 |---|---|---|
-| ***Kraft*** (force) | Raw, undirected energy; a potential | Quantitative, physical |
-| ***Macht*** (power) | Force shaped and sublimated into creative form | Qualitative, spiritual |
-| ***Gewalt*** (violence) | Force turned to suppress, exploit or destroy | Excessive, brutal |
+| *Kraft* | force | raw energy, a potential, quantitative |
+| *Macht* | power | force that has been shaped / sublimated, qualitative |
+| *Gewalt* | violence | force used to crush, exploit, destroy |
 
-- **Power is sublimated force**. The move from *Kraft* to *Macht* is the move from potential to actual, from the "Dionysian" drive to its "Apollonian" form.
-- The key to the idea is **self-overcoming** (*Selbstüberwindung*): the will continually negates what it has already formed and creates beyond it.
-- Its aim is maturity and selfhood: becoming a person able to create and live by values. Its ideal case is the [[Nietzsche: The Overman|overman]].
-- What the Nazis called *Macht* is what Nietzsche calls *Kraft* and *Gewalt*.
+- **Power = sublimated force.** Goes back to *Birth of Tragedy*: Apollonian form shaping Dionysian drive.
+- The key idea is **self-overcoming** (*Selbstüberwindung*). The will keeps negating what it has made and going beyond it. Z II "On Self-Overcoming": life says it is "that which must always overcome itself".
+- What's it for? Maturity, selfhood, being able to make your own values. The ideal case is the [[Nietzsche: The Overman|overman]].
+- So what the Nazis called *Macht* is really *Kraft* and *Gewalt*.
 
-## 3. Golomb: Why "Force" Is the Wrong Concept
+Why "force" won't do as the concept (Golomb's three reasons):
 
-1. Force is a **quantitative** notion taken from mechanistic physics; sublimation and overcoming are **qualitative**.
-2. Force is conserved in a closed system; the will to power **grows** and intensifies.
-3. Force obeys "nothing comes from nothing"; self-overcoming produces something that was not in its cause.
+1. It's quantitative (from mechanics). Sublimation is a change in quality.
+2. Force is conserved. WtP grows.
+3. Force follows "nothing from nothing". Self-overcoming gets out more than went in.
 
-In the published books, Golomb argues, the will to power is a **psychological and anthropological** principle. The cosmological version ("this world is the will to power, and nothing besides", WP 1067) stays in the notebooks, and it conflicts with Nietzsche's own criticism of Schopenhauer's metaphysical Will. *Beyond Good and Evil* 36 is the one published passage that tries it, and there only as an experiment.
+In the *published* work, Golomb says, WtP is psychology and anthropology only. The cosmic version ("this world is the will to power, and nothing besides", WP 1067) is a note N. set aside, and it clashes with his own attack on Schopenhauer's Will as "mythology" (GS 127). BGE 36 is the one published exception and it is framed as an experiment.
 
-## 4. Golomb: Limits on Violence
+## 4. Golomb: Limits on Violence, and Two Kinds of Power
 
-Self-overcoming is directed at oneself. Where the will does act on things outside it, Nietzsche sets three limits:
+Three limits on power directed outward:
 
-1. Assimilation is creative, not merely destructive: the object is transformed, not wiped out.
-2. What is taken in is one's own experience of the object, not the object by physical conquest.
-3. The purpose is to transform the **agent**, not to remake or destroy the other.
+1. It assimilates and transforms, it doesn't wipe out.
+2. What gets "taken in" is your experience of the thing, not the thing by conquest.
+3. The aim is to change the *agent*, not to remake the other.
 
-- Exploiting others is a sign that genuine power is **lacking**. It is the behaviour of the insecure, driven by revenge.
-- Among equals, a healthy aristocracy refrains from injury and exploitation (BGE 259); justice is a settlement between parties of roughly equal power (GM II 8).
+- Exploiting people = sign you **lack** power. It is what insecure people do, out of revenge.
+- BGE 259: among equals a healthy aristocracy holds back from injury and exploitation. GM II 8: justice = settlement between roughly equal powers.
 
-## 5. Golomb: Positive and Negative Power
+**Positive vs negative power**
 
-- Everyone has power. The difference between strong and weak is **not one of amount** but of the direction and manner of its expression.
-- **Positive power**: autonomous, spontaneous, self-legislating; it does not need to acquire more or to dominate.
-- **Negative power**: the pattern of a weak personality that lacks the feeling of power and keeps trying to obtain it from others, through pity, guilt and resentment.
-- The **ascetic** practises *Gewalt* on himself: he sets one drive to tyrannise the rest. The overman sublimates; the ascetic represses.
-- This explains a puzzle: how could "weak" slave morality defeat the "strong"? Because genuine power is spiritual, and spirit is **vulnerable** to brute force and to manipulation. Nietzsche separates the *history of power* (culture) from the *history of force* (domination).
-- A fully autonomous will to power is only a **regulative ideal**: approached, never completed.
-- The title's "coldest of all cold monsters" is Zarathustra's name for the state. Golomb's answer to his own question is no: the doctrine, read correctly, opposes racism, nationalism and state-worship.
+- Everybody has power. Strong and weak differ in *how* it comes out, not how much.
+- Positive: autonomous, spontaneous, doesn't need to dominate.
+- Negative: weak personality that needs the feeling of power and gets it off other people (pity, guilt, ressentiment).
+- The ascetic does *Gewalt* to himself, one drive tyrannising the others. Overman sublimates, ascetic represses.
+- This answers the obvious objection (if slave morality is weak, how did it win?): real power is spiritual and spirit loses to brute force and to manipulation. N. separates the *history of power* (culture) from the *history of force*.
+- A fully autonomous WtP is only a regulative ideal. Never finished.
+- "Coldest of all cold monsters" = the state (Z I "On the New Idol"). Golomb's answer to his title: no.
 
-## 6. Poellner: From Causation to Will
+My worry: Golomb's N. comes out very tidy. The Kraft/Macht/Gewalt scheme is neat but Hatab admits N. "does not always distinguish" them.
 
-Poellner asks what could justify saying the world *is* will to power. The argument starts from **causation**.
+## 5. Poellner: The Argument from Causation
 
-1. **The everyday idea of a cause** includes compulsion: a thing with a power that *makes* its effect happen.
-2. **Hume** denied that we ever perceive such a power; we only feel our own expectation after repeated sequences, and project it.
-3. **Nietzsche agrees** that we have no "sense" for efficient causes, but says what we project is not habit but **agency**: we cannot help reading every event as a deed with a doer.
-4. **Against regularity theories**: if causation is only regular succession among unconnected things, the order of the world is a brute fact with no ground. Nietzsche's version: science *describes* better than before but *explains* no more (GS 112). It keeps the equations and drops the content of causality.
-5. **Against mechanism**: following Boscovich and Lange, matter is not solid lumps but **centres of force**. Then pressure and impact cannot show us what force is in itself; we meet only its effects, "translated" into a foreign language.
-6. **Therefore** our only acquaintance with force, if we have any, is in **willing**. We experience things as real because they *resist* us, and that presupposes experiencing ourselves as agents.
+Different question: what could *justify* saying the world is will to power? Starts from causation, not psychology.
 
-The result is a choice: either the inner nature of causation is a mystery ("force we cannot imagine is an empty word"), or it is something like will. The notebooks develop the second option.
+1. Ordinary idea of cause includes **compulsion**. The cause *makes* the effect happen.
+2. Hume: we never perceive that. We just get used to sequences and project our expectation.
+3. N. agrees we have no "sense" for efficient causes. But what we project is **agency**, not habit. We can't help seeing every event as a deed with a doer (WP 550).
+4. Against regularity theories: if causation is only regular succession between unconnected things, the order of the world is a brute fact, basically a miracle. N.: science describes better and better but explains nothing (GS 112).
+5. Against mechanism: after Boscovich (and Lange), matter is centres of force, not solid lumps. So bumping into things doesn't show you what force *is*. We only get effects "translated into a completely foreign language" (WP 620).
+6. So the only place we could be acquainted with force is **our own willing**. Things count as real for us because they *resist*, and that presupposes we experience ourselves as agents.
 
-## 7. Poellner: Where Is Force Experienced?
+Conclusion is a fork: either the inside of causation is a total mystery ("force we cannot imagine is an empty word", WP 621), or it is something like will. The notebooks go with the second.
 
-Nietzsche analyses an act of will (BGE 19) into feelings, a thought of the goal, and an **"affect of command"**. Force is located in the last. Poellner finds three models in the notes:
+Where in willing? BGE 19 breaks an act of will into feelings + a thought of the goal + an **"affect of command"**. The force is supposed to be in the third. Poellner finds three models:
 
-1. Being bound by a **norm** one accepts: "I must do X".
-2. **Mental effort**: holding to a purpose against opposing inclinations.
-3. **Resistance**: the way perceived objects refuse to yield to our wishes.
+- being bound by a norm you accept ("I must")
+- mental effort, holding to a purpose against other pulls
+- resistance of objects to what we want
 
-Nietzsche is not consistent. In some places (*Twilight of the Idols*, "Four Great Errors" 3) he says we only *believe* the will is effective. Poellner counts this wavering as a main cause of disagreement among interpreters.
+Problem: N. isn't consistent. In *Twilight* ("Four Great Errors" 3) he says we only *believe* the will is effective. Poellner thinks this wobble is why interpreters disagree so much.
 
-## 8. Poellner: Why Will *to Power*?
+## 6. Why "to Power"? Three Accounts
 
-Three recent accounts of the psychological doctrine:
-
-| Reader | Will to power is… |
+| Who | WtP is |
 |---|---|
-| **Clark** | A second-order desire for the ability to satisfy one's other desires |
-| **Richardson** | The tendency of every *drive* to grow and to raise its own activity to a higher level |
-| **Reginster** | The desire to overcome **resistance** in pursuing some end, and to feel oneself doing so |
+| Clark | second-order desire: wanting to be able to satisfy your other desires |
+| Richardson | every *drive* tends to grow, to push its own activity higher |
+| Reginster | desire to overcome **resistance** in pursuing something, and to feel yourself doing it |
 
-- On Reginster's reading the **feeling of power** is the awareness of successfully overcoming an obstacle. It is wanted for its own sake.
-- This explains why the will to power can never rest: it needs fresh resistance.
-- All three hold that power cannot be the *only* thing wanted; one must want something else in order to want power in pursuing it.
-- Poellner replies that the stronger, reductive claim (every desire is a desire for the feeling of power) is not incoherent, only doubtful as a matter of fact: human desire is more various than that.
-- If the reduction fails for human beings, the extension to all of nature has a weak base. The later sections of the chapter turn to that extension and to Nietzsche's own doubts about it.
+- Reginster's version explains why it can never be satisfied. It needs new resistance.
+- All three say power can't be the *only* thing wanted. You need some other end to want power in pursuing.
+- Poellner: the strong claim (all desire is desire for the feeling of power) isn't incoherent, just probably false. People want too many different things.
+- And if it fails for humans, extending it to all of nature is on thin ice.
 
-## Summary
+(I only got through sec. 3 of Poellner. Still to read: his sections on the full metaphysical picture and on what N. finally thought of it.)
 
-- "Power" in Nietzsche means sublimated, creative strength shown above all in **self-overcoming**; it is distinguished from force and from violence.
-- Golomb keeps the doctrine within psychology and uses it to refute the fascist reading.
-- Poellner shows how the notebooks reach a metaphysics of will by way of a critique of causation, and how unsure Nietzsche himself was of the step.
+## 7. Hatab: Resistance and the Agon
+
+This was the chapter that made the most sense to me.
+
+**Starting point.** Death of God (GS 125) is addressed to *unbelievers* who haven't seen what follows. Morality, truth, even science were underwritten by God, so they are his "shadows" (GS 108). Metaphysics lives on "faith in opposite values" (BGE 2): being/becoming, reason/passion, good/evil. WtP is N.'s way of redescribing meaning and value inside natural life, with the opposites tied together.
+
+**WtP is a relation, not a thing.**
+
+- Not a substance, not Schopenhauer's one Will. "There is no will", only "will-points" gaining and losing power. Will is "a unity only as a word" (BGE 19).
+- A note says WtP is "not a being, not a becoming, but a pathos".
+- Hatab: the term has a *nominal* function. It points at a network of tensions and you shouldn't turn it into an entity.
+
+**Resistance.** This is the main thing.
+
+- WtP "can manifest itself only against resistances; therefore it seeks that which resists it."
+- So if you destroy what resists you, your power evaporates. **Total domination defeats itself.**
+- It's will *toward* power: aimed at the activity of overcoming, not an end state.
+- Hence N. against "happiness" as the measure of life. Displeasure is built into overcoming. Pleasure is a symptom of power achieved, not the goal.
+- Even pacifism counts as WtP (overcoming one's own savagery).
+
+**The agon.** Source is the early essay "Homer's Contest".
+
+- Greek contest culture: athletics, drama, rhetoric, politics. Competition produces excellence because you *don't* annihilate the opponent.
+- Ostracism = getting rid of someone too dominant, to keep the contest going.
+- So WtP has a kind of **measure** in it. Not a fixed rule, but "laws and measures immanent in the contest".
+- Agon vs violence: violence wants to *end* the conflict by removing the other side. That's anti-agonistic.
+- N. applies this to himself: he fights the Christian ideal to end its tyranny, not to destroy it. New ideals need strong opponents. "We immoralists" benefit from the church existing (*Twilight*, "Morality" 3).
+- Hatab maps this onto the same words as Golomb: natural WtP = *Kraft*/*Gewalt*, cultural WtP = *Macht*. Also *Macht* is related to *machen* (to make): power-for more than power-over. "Gift-giving virtue."
+
+Nice line of thought: if power became pure actuality with no resistance (the old dream of "being"), it would stop being power. Compare [[The Unmoved Mover]], which is exactly pure act.
+
+**Interpretation.**
+
+- Knowledge is interpretation, and interpreting is a form of WtP. "There are no facts, only interpretations" (notebook).
+- Not relativism though. Hatab: absolutism = one truth nobody may contest; relativism = many truths nobody may contest. Both are non-agonistic. Perspectives *fight*.
+- More perspectives gives a fuller, more "objective" view (GM III 12).
+- Self-refutation objection (isn't that only an interpretation?): N. says yes, "so much the better" (BGE 22). Makes sense on the agon model: he wants opposition.
+
+**Affirmation.** Why Z ties willing recurrence to WtP: if meaning always involves what you oppose, then to affirm your life you must affirm the return of what you oppose too. But affirm ≠ approve. Zarathustra wills the return of the small man *and* of his fight against him. See [[Nietzsche: Eternal Recurrence]].
+
+## 8. Where I've Got To
+
+- Golomb and Hatab agree power is not domination, for different reasons. Golomb: real power is inward, sublimated. Hatab: power structurally needs an opponent left standing.
+- Poellner is the only one asking whether the metaphysical claim could actually be *true*.
+- Open questions for me:
+    - Is the Kraft/Macht distinction really N.'s, or tidied up by commentators?
+    - If WtP is "only an interpretation", why prefer it? Hatab's answer (agonistic) is clever but feels like it dodges.
+    - How does this square with [[Relativism]]?
 
 ## Related
 
 - [[Nietzsche: The Overman]]
 - [[Nietzsche: Eternal Recurrence]]
 - [[Nietzsche and the Greeks]]
+- [[The Unmoved Mover]]
 - [[Critique of Empiricism]]
 - [[Relativism]]
