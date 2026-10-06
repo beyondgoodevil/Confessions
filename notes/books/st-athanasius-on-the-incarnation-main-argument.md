@@ -1,10 +1,11 @@
 ---
-id: M-0251
+id: B-0003
 date: 2026-10-06
 title: "St. Athanasius, On the Incarnation: main argument"
 tags: [theology, christology, theosis]
 summary: Why the Word became flesh — the "divine dilemma", the defeat of death and the renewal of the image of God.
-source: St. Athanasius of Alexandria, On the Incarnation of the Word (De Incarnatione Verbi Dei), 4th century
+author: St. Athanasius of Alexandria
+aliases: [On the Incarnation]
 ---
 
 ***On the Incarnation of the Word*** is a short treatise by **St. Athanasius of Alexandria** (c. 296–373), written as the second half of a two-part work with *Against the Heathen*. It answers one question: **why did the Word of God become man?**
