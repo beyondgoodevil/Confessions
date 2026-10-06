@@ -531,6 +531,8 @@ function route() {
   main.innerHTML = html;
   document.title = title;
   $$('.nav a[data-nav]').forEach(a => a.dataset.nav === navKey ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
+  const links = $('.nav-links'), cur = $('.nav a[aria-current="page"]');
+  if (links && cur && links.scrollWidth > links.clientWidth) links.scrollLeft += cur.getBoundingClientRect().left - links.getBoundingClientRect().left - (links.clientWidth - cur.offsetWidth) / 2;
   const key = r.name === 'section' ? `s/${r.sec}` : location.hash;
   if (key !== lastRoute) window.scrollTo(0, 0);
   lastRoute = key;
@@ -544,8 +546,8 @@ function buildShell() {
   const c = S.config;
   document.body.innerHTML = `<a class="skip" href="#main">Skip to content</a>
   <header class="topbar"><a class="brand" href="#/"><span class="brand-title">${esc(c.title || 'Notes')}</span></a>
-    <nav class="nav" aria-label="Main"><a href="#/" data-nav="index">Index</a>${S.sections.map(s => `<a href="#/s/${s.id}" data-nav="${s.id}">${esc(s.shortName || s.name)}</a>`).join('')}
-    <a href="#/tags" data-nav="tags">Tags</a><button type="button" data-action="search">Search<kbd>/</kbd></button>
+    <nav class="nav" aria-label="Main"><span class="nav-links"><a href="#/" data-nav="index">Index</a>${S.sections.map(s => `<a href="#/s/${s.id}" data-nav="${s.id}">${esc(s.shortName || s.name)}</a>`).join('')}
+    <a href="#/tags" data-nav="tags">Tags</a></span><button type="button" data-action="search">Search<kbd>/</kbd></button>
     <button type="button" class="theme-btn" data-action="theme" aria-label="Switch colour theme" title="Switch colour theme"></button></nav></header>
   <main id="main" tabindex="-1"></main>
   <div class="popover" id="popover" hidden></div>`;
