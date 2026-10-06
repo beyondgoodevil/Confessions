@@ -540,10 +540,26 @@ function route() {
   const links = $('.nav-links'), cur = $('.nav a[aria-current="page"]');
   if (links && cur && links.scrollWidth > links.clientWidth) links.scrollLeft += cur.getBoundingClientRect().left - links.getBoundingClientRect().left - (links.clientWidth - cur.offsetWidth) / 2;
   const key = r.name === 'section' ? `s/${r.sec}` : location.hash;
-  if (key !== lastRoute) window.scrollTo(0, 0);
+  const saved = scrollMemory[entryKey()];
+  if (!entryKey()) { try { history.replaceState({ ...(history.state || {}), cp: Date.now().toString(36) + Math.random().toString(36).slice(2, 7) }, ''); } catch (e) {} }
+  if (saved != null) window.scrollTo(0, saved);   // Back, Forward or reload: return to where the reader was
+  else { if (key !== lastRoute) window.scrollTo(0, 0); if (r.anchor) scrollToAnchor(r.anchor); }
   lastRoute = key;
-  if (r.anchor) scrollToAnchor(r.anchor);
   enhance(main);
+}
+// Each history entry gets a key in history.state; its last scroll position is kept for the session.
+const SCROLL_STORE = 'cp-scroll';
+const scrollMemory = (() => { try { return JSON.parse(sessionStorage.getItem(SCROLL_STORE)) || {}; } catch (e) { return {}; } })();
+const entryKey = () => (history.state && history.state.cp) || '';
+let scrollSaveTimer = 0;
+function rememberScroll() {
+  const k = entryKey(); if (!k) return;
+  scrollMemory[k] = Math.round(window.scrollY);
+  clearTimeout(scrollSaveTimer);
+  scrollSaveTimer = setTimeout(() => {
+    const keys = Object.keys(scrollMemory); keys.slice(0, Math.max(0, keys.length - 200)).forEach(x => delete scrollMemory[x]);
+    try { sessionStorage.setItem(SCROLL_STORE, JSON.stringify(scrollMemory)); } catch (e) {}
+  }, 300);
 }
 function scrollToAnchor(a) { const h = $(`[data-anchor="${CSS.escape(a)}"]`, $('#main')); if (h) h.scrollIntoView({ block: 'start' }); }
 
@@ -570,19 +586,36 @@ function plainText(n) {
     .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/[#*_>`=~|$\\-]+/g, ' ').replace(/\s+/g, ' ').trim();
   return n._plain;
 }
+// Search ignores case, accents and breathings: "theosis" finds "théosis", "θεωσις" finds "θέωσις".
+const fold = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\u03c2/g, '\u03c3');   // final sigma ς counts as σ
+function folded(n) {
+  if (!n._fold) n._fold = { title: fold(n.title), meta: fold([n.id, n.tags.join(' '), sourceLine(n), n.aliases.join(' ')].join(' ')), body: fold(plainText(n)) };
+  return n._fold;
+}
+// wrap each match of the (folded) terms in <mark>, mapping folded positions back to the original text
+function markTerms(text, terms) {
+  let f = '', map = [];
+  for (let i = 0; i < text.length; i++) { const c = fold(text[i]); for (let j = 0; j < c.length; j++) { f += c[j]; map.push(i); } }
+  map.push(text.length);
+  const spans = [];
+  for (const t of terms) for (let i = f.indexOf(t); i >= 0; i = f.indexOf(t, i + t.length)) spans.push([map[i], map[i + t.length]]);
+  spans.sort((a, b) => a[0] - b[0]);
+  let out = '', last = 0;
+  for (const [a, b] of spans) { if (a < last) continue; out += esc(text.slice(last, a)) + `<mark>${esc(text.slice(a, b))}</mark>`; last = b; }
+  return out + esc(text.slice(last));
+}
 function search(q) {
-  const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+  const terms = fold(q).split(/\s+/).filter(Boolean);
   if (!terms.length) return [...S.notes].sort((a, b) => time(b.updated) - time(a.updated) || newest(a, b)).slice(0, 8).map(n => ({ n, snip: '' }));
-  const res = [];
+  const res = [], whole = fold(q.trim());
   for (const n of S.notes) {
-    const title = n.title.toLowerCase(), meta = [n.id, n.tags.join(' '), sourceLine(n), n.aliases.join(' ')].join(' ').toLowerCase(), body = plainText(n), low = body.toLowerCase();
+    const F = folded(n), body = plainText(n);
     let score = 0, ok = true;
-    for (const t of terms) { if (title.includes(t)) score += 10; else if (meta.includes(t)) score += 5; else if (low.includes(t)) score += 1; else { ok = false; break; } }
+    for (const t of terms) { if (F.title.includes(t)) score += 10; else if (F.meta.includes(t)) score += 5; else if (F.body.includes(t)) score += 1; else { ok = false; break; } }
     if (!ok) continue;
-    if (title.startsWith(q.toLowerCase())) score += 20;
-    const at = low.indexOf(terms[0]);
-    let snip = at < 0 ? (n.summary || body.slice(0, 140)) : (at > 60 ? '…' : '') + body.slice(Math.max(0, at - 60), at + 110) + '…';
-    snip = esc(snip); for (const t of terms) snip = snip.replace(new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), m => `<mark>${m}</mark>`);
+    if (F.title.startsWith(whole)) score += 20;
+    const at = F.body.indexOf(terms[0]);
+    const snip = at < 0 ? markTerms(n.summary || body.slice(0, 140), terms) : (at > 60 ? '…' : '') + markTerms(body.slice(Math.max(0, at - 60), at + 110), terms) + '…';
     res.push({ n, snip, score });
   }
   return res.sort((a, b) => b.score - a.score).slice(0, 20);
@@ -669,7 +702,7 @@ function bindEvents() {
       if (e.target.closest('#main a.wikilink[data-id], #main .bl-title[data-id], #popover')) { clearTimeout(popTimer); popHide = setTimeout(hidePopover, 250); }
     });
   }
-  addEventListener('scroll', hidePopover, { passive: true });
+  addEventListener('scroll', () => { hidePopover(); rememberScroll(); }, { passive: true });
 }
 
 /* ---------------- boot ---------------- */
@@ -679,7 +712,9 @@ function fail(msg) {
 async function boot() {
   applyTheme(currentTheme());
   let cfg, data;
-  try { [cfg, data] = await Promise.all([getJSON('config.json'), getJSON('notes.json')]); }
+  // index.html starts these downloads before the libraries load; reuse them if it did
+  const early = Array.isArray(window.__notebookData) && window.__notebookData.length === 2 ? window.__notebookData : null;
+  try { [cfg, data] = await Promise.all(early || [getJSON('config.json'), getJSON('notes.json')]); }
   catch (e) {
     fail(location.protocol === 'file:'
       ? 'Browsers block pages opened straight from disk from reading files. Run <code>node tools/serve.mjs</code> in the site folder and open <code>http://localhost:8000</code> instead.'
@@ -691,6 +726,7 @@ async function boot() {
   try { index(cfg, data.notes || []); }
   catch (e) { console.error(e); fail(`Something in <code>config.json</code> is wrong: ${esc(e.message)}`); return; }
   buildShell(); bindEvents();
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';   // route() restores positions itself
   addEventListener('hashchange', route);
   route();
 }
