@@ -1,4 +1,6 @@
 ---
+id: M-0111
+date: 2026-10-05
 title: Vatican I's view of papal infallibility
 tags: [theology, church-history, councils]
 summary: The three conditions under which Vatican I (1870) holds the Pope to be infallible.

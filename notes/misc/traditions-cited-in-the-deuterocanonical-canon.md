@@ -1,4 +1,6 @@
 ---
+id: M-0103
+date: 2026-10-05
 title: Traditions cited in the deuterocanonical canon
 tags: [theology, canon, tradition]
 summary: Eight deuterocanonical passages and the traditions they support, such as prayers for the dead and intercession.

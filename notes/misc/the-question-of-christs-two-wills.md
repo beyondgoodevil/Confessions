@@ -1,4 +1,6 @@
 ---
+id: M-0088
+date: 2026-10-05
 title: The Question of Christ's two wills
 tags: [theology, christology]
 summary: Dyothelitism — why two natures mean two wills, and why this does not divide Christ's person.

@@ -1,4 +1,6 @@
 ---
+id: M-0079
+date: 2026-10-05
 title: The debate between Maximus the Confessor and Pyrrhus
 tags: [theology, christology, church-history]
 summary: Maximus's defence of two distinct natures and wills in Christ against Pyrrhus.

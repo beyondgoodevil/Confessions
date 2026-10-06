@@ -1,4 +1,6 @@
 ---
+id: M-0080
+date: 2026-10-05
 title: The distinction between relation of origin and relation of opposition
 tags: [theology, trinity, thomism]
 summary: The Cappadocian relation of origin compared with the medieval scholastic relation of opposition.

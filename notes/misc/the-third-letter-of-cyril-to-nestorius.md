@@ -1,4 +1,6 @@
 ---
+id: M-0089
+date: 2026-10-05
 title: The Third Letter of Cyril to Nestorius
 tags: [theology, christology, church-history]
 summary: St. Cyril's teaching that the distinction of Christ's natures implies neither separation nor composition.

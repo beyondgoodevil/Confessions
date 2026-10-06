@@ -1,4 +1,6 @@
 ---
+id: M-0082
+date: 2026-10-05
 title: The gospel of Thomas and why it's wrong
 tags: [theology, canon, church-history]
 summary: Five reasons the Orthodox Church rejects the Gospel of Thomas.

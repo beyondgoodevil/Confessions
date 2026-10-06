@@ -1,4 +1,6 @@
 ---
+id: M-0076
+date: 2026-10-05
 title: The appeal to irrelevance fallacy
 tags: [theology, fallacies]
 summary: The red herring — answering an argument with something unrelated to it.

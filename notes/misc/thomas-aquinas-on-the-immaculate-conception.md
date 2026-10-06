@@ -1,4 +1,6 @@
 ---
+id: M-0097
+date: 2026-10-05
 title: Thomas Aquinas on the immaculate conception
 tags: [theology, thomism, mary]
 summary: Aquinas did not hold that Mary had to be preserved from original sin at her conception.

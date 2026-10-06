@@ -1,4 +1,6 @@
 ---
+id: M-0077
+date: 2026-10-05
 title: The basis for the Eastern Orthodox (EO) belief
 tags: [theology, tradition]
 summary: The seven elements of Holy Tradition on which Orthodox belief rests.

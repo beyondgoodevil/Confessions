@@ -1,4 +1,6 @@
 ---
+id: M-0102
+date: 2026-10-05
 title: To give an account for something or to justify the existence of something
 tags: [theology, epistemology, apologetics]
 summary: What it means to justify something, using logic as the example, and why "we use our brain" is not enough.

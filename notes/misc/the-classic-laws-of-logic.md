@@ -1,4 +1,6 @@
 ---
+id: M-0078
+date: 2026-10-05
 title: The classic laws of logic
 tags: [theology, epistemology]
 summary: Identity, non-contradiction, excluded middle, and sufficient reason.

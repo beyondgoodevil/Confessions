@@ -1,4 +1,6 @@
 ---
+id: M-0084
+date: 2026-10-05
 title: The Hypostatic Union
 tags: [theology, christology]
 summary: One divine Person in two natures, the nature-person distinction, and the errors that follow from denying it.

@@ -1,4 +1,6 @@
 ---
+id: M-0075
+date: 2026-10-05
 title: The ad hominem fallacy
 tags: [theology, fallacies]
 summary: Attacking the person instead of the argument, with five types.

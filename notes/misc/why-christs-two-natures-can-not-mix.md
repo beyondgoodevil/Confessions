@@ -1,4 +1,6 @@
 ---
+id: M-0113
+date: 2026-10-05
 title: Why Christ's two natures can not mix
 tags: [theology, christology]
 summary: Why a single mixed nature in Christ would produce a "Tertium Quid", neither truly God nor truly man.

@@ -1,4 +1,6 @@
 ---
+id: M-0081
+date: 2026-10-05
 title: The fallacy of circular reasoning
 tags: [theology, fallacies]
 summary: Circular reasoning (begging the question) — its structure and three examples.

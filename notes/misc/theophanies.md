@@ -1,4 +1,6 @@
 ---
+id: M-0096
+date: 2026-10-05
 title: Theophanies
 tags: [theology, scripture, theosis]
 summary: Fifteen key theophanies in the Old Testament.
