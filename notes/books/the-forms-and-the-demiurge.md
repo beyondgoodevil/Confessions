@@ -8,7 +8,7 @@ author: Eric D. Perl
 source: "Thinking Being: Introduction to Metaphysics in the Classical Tradition (Brill, 2014), ch. 2, pp. 61–65"
 ---
 
-In the *Timaeus* Plato describes the world as the work of a divine **craftsman** (*demiourgos*) who makes it by looking to an eternal model. This note summarises the section "The Forms and the Demiurge" in **Eric D. Perl**, *Thinking Being* (pp. 61–65), and adds a section of my own on its Christian reception.
+In the *Timaeus* Plato describes the world as the work of a divine **craftsman** (*demiourgos*) who makes it by looking to an eternal model.
 
 ## 1. The Account in the Timaeus
 
