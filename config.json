@@ -1,12 +1,25 @@
 {
   "title": "Confessions",
   "subtitle": "",
-  "welcome": "Welcome — this is my notebook, a running collection of notes I take as I read and consume content.",
+  "welcome": "Welcome — this is my notebook, a running collection of notes I take as I read and consume content. New here? Begin with [[Guide: Start Here|the guides]].",
   "author": "",
   "indexPreviewCount": 4,
   "indexPreviewCountPerSubsection": 3,
   "defaultSection": "misc",
   "sections": [
+    {
+      "id": "guides",
+      "name": "Guides",
+      "prefix": "G",
+      "folder": "guides",
+      "label": "Guides",
+      "nounSingular": "guide",
+      "aliases": [
+        "guide",
+        "hub"
+      ],
+      "description": "Reading orders that tie the notes together, theme by theme. Begin with Start Here."
+    },
     {
       "id": "books",
       "name": "Books",

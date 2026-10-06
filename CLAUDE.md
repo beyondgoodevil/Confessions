@@ -6,6 +6,7 @@ This repository is a personal notebook published with GitHub Pages. Every Markdo
 
 | Folder | Section | Address prefix |
 | --- | --- | --- |
+| `notes/guides/` | Guides (reading orders that link the notes by theme) | `G-` |
 | `notes/books/` | Books | `B-` |
 | `notes/media/podcasts/` | Podcasts & Videos → Podcasts | `P-` |
 | `notes/media/videos/` | Podcasts & Videos → Videos | `P-` |
