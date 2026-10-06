@@ -1,4 +1,6 @@
 ---
+id: M-0062
+date: 2026-10-05
 title: Liturgy origins
 tags: [theology, tradition, scripture]
 summary: How the apostles built Christian liturgy from Temple and synagogue worship.

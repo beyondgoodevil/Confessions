@@ -1,4 +1,6 @@
 ---
+id: M-0071
+date: 2026-10-05
 title: Why Is the Transcendental Argument Prior to the Teleological, Cosmological, and Other Arguments
 tags: [theology, apologetics, epistemology]
 summary: TAG examines the preconditions that the cosmological, teleological and moral arguments all assume.

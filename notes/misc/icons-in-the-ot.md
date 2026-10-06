@@ -1,4 +1,6 @@
 ---
+id: M-0056
+date: 2026-10-05
 title: Icons in the OT
 tags: [theology, icons-saints, scripture]
 summary: Old Testament passages where God commands images in the Tabernacle and Temple.

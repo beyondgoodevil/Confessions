@@ -1,4 +1,6 @@
 ---
+id: M-0054
+date: 2026-10-05
 title: First and second actuality in Thomism
 tags: [theology, thomism]
 summary: The Thomistic distinction between first and second actuality, and why it does not apply to God as pure act.

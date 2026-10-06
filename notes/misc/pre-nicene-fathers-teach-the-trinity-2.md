@@ -1,4 +1,6 @@
 ---
+id: M-0070
+date: 2026-10-05
 title: Pre-Nicene fathers teach the Trinity 2
 tags: [theology, trinity, church-history]
 summary: Irenaeus and Tertullian on the Trinity before Nicaea.

@@ -1,4 +1,6 @@
 ---
+id: M-0072
+date: 2026-10-05
 title: Why Jesus' death and resurrection had to be so violent
 tags: [theology, christology]
 summary: The Orthodox understanding of the violence of the Passion as Christ confronting sin, death and the devil.

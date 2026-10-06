@@ -1,4 +1,6 @@
 ---
+id: M-0067
+date: 2026-10-05
 title: Penal substitution leads to Nestorianism
 tags: [theology, christology, trinity]
 summary: How penal substitution splits the Trinity and parallels the Nestorian division of Christ.

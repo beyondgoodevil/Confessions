@@ -1,4 +1,6 @@
 ---
+id: M-0044
+date: 2026-10-05
 title: By two or more witnesses something is true
 tags: [theology, scripture]
 summary: Four verses on a matter being established by two or three witnesses.

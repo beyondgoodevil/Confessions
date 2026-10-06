@@ -1,4 +1,6 @@
 ---
+id: M-0040
+date: 2026-10-05
 title: "Believers are called to fulfill their part of the covenant: NT verses"
 tags: [theology, covenant, scripture]
 summary: Seven New Testament passages on obedience, perseverance and works within the covenant.

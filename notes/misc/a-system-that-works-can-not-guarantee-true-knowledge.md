@@ -1,4 +1,6 @@
 ---
+id: M-0035
+date: 2026-10-05
 title: A system that works can not guarantee true knowledge
 tags: [theology, epistemology, apologetics]
 summary: Why pragmatic success does not establish truth and a transcendental justification is needed.

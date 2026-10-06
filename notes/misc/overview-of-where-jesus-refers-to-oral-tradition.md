@@ -1,4 +1,6 @@
 ---
+id: M-0066
+date: 2026-10-05
 title: Overview of where Jesus refers to oral tradition
 tags: [theology, tradition, scripture]
 summary: Six Gospel passages in which Jesus refers to or relies on oral tradition.

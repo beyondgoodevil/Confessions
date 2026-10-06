@@ -1,4 +1,6 @@
 ---
+id: M-0037
+date: 2026-10-05
 title: "Acts 15:6-22: Church government"
 tags: [theology, scripture, tradition]
 summary: The Jerusalem Council in Acts 15:6-22 as a model of conciliar Church government.

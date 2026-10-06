@@ -1,4 +1,6 @@
 ---
+id: M-0043
+date: 2026-10-05
 title: Books quoted in the Bible that aren't in the Bible Part 2
 tags: [theology, canon, scripture]
 summary: Lost or non-canonical books cited in Scripture, items 15 to 23.

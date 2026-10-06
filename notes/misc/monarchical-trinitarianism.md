@@ -1,4 +1,6 @@
 ---
+id: M-0063
+date: 2026-10-05
 title: Monarchical Trinitarianism
 tags: [theology, trinity, scripture]
 summary: A biblical and patristic defence of the Father as the sole source of divinity in the Trinity.

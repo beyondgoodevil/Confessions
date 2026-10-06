@@ -1,4 +1,6 @@
 ---
+id: M-0036
+date: 2026-10-05
 title: Action is not proper to the person
 tags: [theology, christology]
 summary: Christ's actions belong to the nature through which they are performed, while attributed to the one Person of the Son.

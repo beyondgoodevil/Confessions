@@ -1,4 +1,6 @@
 ---
+id: M-0038
+date: 2026-10-05
 title: Ad hoc claim
 tags: [theology, fallacies]
 summary: An explanation invented only to rescue a position, with its key characteristics and an example.

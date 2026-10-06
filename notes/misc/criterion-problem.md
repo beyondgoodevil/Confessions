@@ -1,4 +1,6 @@
 ---
+id: M-0045
+date: 2026-10-05
 title: Criterion problem
 tags: [theology, epistemology]
 summary: The problem of the criterion — what we know and how we know it depend on each other.

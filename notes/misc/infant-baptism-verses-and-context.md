@@ -1,4 +1,6 @@
 ---
+id: M-0058
+date: 2026-10-05
 title: Infant baptism verses and context
 tags: [theology, sacraments, scripture]
 summary: Covenant, household baptisms and early Church practice as the basis for baptising infants.

@@ -1,4 +1,6 @@
 ---
+id: M-0052
+date: 2026-10-05
 title: Essence-energies distinction
 tags: [theology, theosis]
 summary: God's essence and His uncreated energies, created energies of angels and demons, and the Fathers who taught the distinction.
