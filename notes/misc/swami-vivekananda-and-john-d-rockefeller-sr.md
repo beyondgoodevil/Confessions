@@ -1,4 +1,6 @@
 ---
+id: M-0152
+date: 2026-10-05
 title: Swami Vivekananda and John D. Rockefeller Sr.
 tags: [theology, church-history]
 summary: The reported 1890s meeting between Vivekananda and Rockefeller, and Vivekananda's role in interfaith dialogue.

@@ -1,4 +1,6 @@
 ---
+id: M-0132
+date: 2026-10-05
 title: Revelation chapters 5 through 8 depict a heavenly vision of worship
 tags: [theology, icons-saints, scripture]
 summary: Key verses of heavenly worship in Revelation 5 to 8 and four themes drawn from them.

@@ -1,4 +1,6 @@
 ---
+id: M-0156
+date: 2026-10-05
 title: The Angel of the Lord
 tags: [theology, scripture, christology]
 summary: Ten Old Testament appearances of the Angel of the Lord read as the pre-incarnate Christ.

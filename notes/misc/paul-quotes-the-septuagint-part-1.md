@@ -1,4 +1,6 @@
 ---
+id: M-0118
+date: 2026-10-05
 title: Paul quotes the Septuagint Part 1
 tags: [theology, canon, scripture]
 summary: Four Pauline quotations that follow the Septuagint rather than the Masoretic Text.

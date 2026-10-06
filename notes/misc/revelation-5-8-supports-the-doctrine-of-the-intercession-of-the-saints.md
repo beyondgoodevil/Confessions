@@ -1,4 +1,6 @@
 ---
+id: M-0131
+date: 2026-10-05
 title: Revelation 5:8 supports the doctrine of the intercession of the saints
 tags: [theology, icons-saints, scripture]
 summary: Key highlights of Revelation 5:6-14 and 8:3-4 on the elders offering the prayers of the saints.

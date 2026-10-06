@@ -1,4 +1,6 @@
 ---
+id: M-0149
+date: 2026-10-05
 title: St. Maximus on the two wills in Christ
 tags: [theology, christology, church-history]
 summary: St. Maximus's defence of Christ's two wills against Monothelitism, ratified at the Sixth Council.

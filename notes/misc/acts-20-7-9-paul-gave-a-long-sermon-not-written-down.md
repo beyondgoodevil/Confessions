@@ -1,4 +1,6 @@
 ---
+id: M-0115
+date: 2026-10-05
 title: "Acts 20:7-9: Paul gave a long sermon, but the details of what he said are not written down in Scripture"
 tags: [theology, tradition, scripture]
 summary: Acts 20:7-9, where Paul preaches until midnight and none of the sermon is recorded.

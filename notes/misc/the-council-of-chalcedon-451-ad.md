@@ -1,4 +1,6 @@
 ---
+id: M-0159
+date: 2026-10-05
 title: The Council of Chalcedon (451 AD)
 tags: [theology, councils, christology]
 summary: The Chalcedonian Definition — two natures in one person without confusion, change, division or separation.

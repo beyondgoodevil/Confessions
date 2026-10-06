@@ -1,4 +1,6 @@
 ---
+id: M-0116
+date: 2026-10-05
 title: Paul commands to keep the oral traditions as well as the written ones
 tags: [theology, tradition, scripture]
 summary: 2 Thessalonians 2:15 and 1 Corinthians 11:2 on holding to traditions delivered by word and by letter.

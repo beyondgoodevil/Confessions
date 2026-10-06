@@ -1,4 +1,6 @@
 ---
+id: M-0153
+date: 2026-10-05
 title: Symbolism of Aaron’s Rod in Relation to Christ and Mary
 tags: [theology, mary, scripture]
 summary: Aaron's budding rod and the rod of Jesse as types of Christ and of Mary.

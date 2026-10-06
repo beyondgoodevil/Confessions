@@ -1,4 +1,6 @@
 ---
+id: M-0162
+date: 2026-10-05
 title: The Gregorian Reforms
 tags: [theology, church-history]
 summary: Seven changes of the 11th-century Gregorian Reforms, each with what came before.

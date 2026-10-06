@@ -1,4 +1,6 @@
 ---
+id: M-0145
+date: 2026-10-05
 title: St. Gregory of Nyssa's writings against Eunomius
 tags: [theology, trinity, church-history]
 summary: Gregory's four points against Eunomius's claim that the Father and Son differ in essence.

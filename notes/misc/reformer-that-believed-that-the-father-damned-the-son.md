@@ -1,4 +1,6 @@
 ---
+id: M-0129
+date: 2026-10-05
 title: Reformer that believed that the Father damned the Son
 tags: [theology, church-history]
 summary: Five Reformers whose penal substitution teaching implies Christ bore the Father's wrath.

@@ -1,4 +1,6 @@
 ---
+id: M-0127
+date: 2026-10-05
 title: Psalms and Isaiah speak about teaching of the nations
 tags: [theology, scripture, covenant]
 summary: Six passages from the Psalms and Isaiah on the Messiah teaching all nations.

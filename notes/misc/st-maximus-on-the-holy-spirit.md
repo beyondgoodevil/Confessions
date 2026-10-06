@@ -1,4 +1,6 @@
 ---
+id: M-0148
+date: 2026-10-05
 title: St. Maximus on the Holy Spirit
 tags: [theology, trinity, theosis]
 summary: St. Maximus on the Spirit's omnipresence and His particular activity within the Church.

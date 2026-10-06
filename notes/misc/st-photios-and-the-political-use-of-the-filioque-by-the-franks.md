@@ -1,4 +1,6 @@
 ---
+id: M-0150
+date: 2026-10-05
 title: St. Photios and the Political Use of the Filioque by the Franks
 tags: [theology, trinity, church-history]
 summary: St. Photios's argument that the Franks used the Filioque as a political tool against Byzantium.

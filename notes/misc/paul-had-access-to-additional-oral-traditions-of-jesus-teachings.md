@@ -1,4 +1,6 @@
 ---
+id: M-0117
+date: 2026-10-05
 title: Paul either had access to additional oral traditions of Jesus' teachings or through the inspiration of the Holy Spirit
 tags: [theology, tradition, scripture]
 summary: Five sayings Paul attributes to the Lord that are not recorded in the Gospels.

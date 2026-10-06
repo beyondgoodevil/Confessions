@@ -1,4 +1,6 @@
 ---
+id: M-0160
+date: 2026-10-05
 title: The Fifth Ecumenical Council
 tags: [theology, councils, christology]
 summary: Constantinople II (553) reaffirmed Chalcedon and laid the groundwork for the doctrine of two wills.

@@ -1,4 +1,6 @@
 ---
+id: M-0161
+date: 2026-10-05
 title: The Gettier Problem
 tags: [theology, epistemology]
 summary: Gettier's challenge to knowledge as justified true belief, with the classic coins example.

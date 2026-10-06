@@ -1,4 +1,6 @@
 ---
+id: M-0122
+date: 2026-10-05
 title: Popes were used as a political tool throughout history 2
 tags: [theology, church-history]
 summary: The papacy and secular rulers in the High Middle Ages and the Renaissance.

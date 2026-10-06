@@ -1,4 +1,6 @@
 ---
+id: M-0146
+date: 2026-10-05
 title: St. John of Damascus and St. Maximus the Confessor describe God as pure act
 tags: [theology, thomism, theosis]
 summary: How the two Fathers use "pure act" differently from Aquinas.

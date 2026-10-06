@@ -1,4 +1,6 @@
 ---
+id: M-0158
+date: 2026-10-05
 title: The Consensus Fallacy
 tags: [theology, fallacies]
 summary: The appeal to popularity — a belief is not true because many hold it.
