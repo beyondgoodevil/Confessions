@@ -4,8 +4,8 @@ date: 2026-10-07
 title: "Modal Logic: Necessity and Possibility"
 tags: [philosophy, logic, metaphysics]
 summary: Box and diamond, possible worlds, necessary / contingent / impossible, the box-inside vs box-outside ambiguity (and the arguments that trade on it), and the systems T, S4, B, S5.
-author: Harry J. Gensler
-source: "Introduction to Logic, 2nd ed. (Routledge, 2010), chs. 10–11"
+author: Harry J. Gensler; Theodore Sider
+source: "Gensler, Introduction to Logic, 2nd ed. (Routledge, 2010), chs. 10–11; Conee and Sider, Riddles of Existence (OUP, 2005), ch. 9"
 ---
 
 Modal logic = arguments that turn on "necessary", "possible", "must", "can't". Adds two symbols to propositional logic.
@@ -110,7 +110,58 @@ Same machinery, different reading of the box:
 - **Epistemic / belief**: □ = known / believed.
 - **Temporal**: □ = always, ◇ = sometimes.
 
-## 8. Loose Ends
+## 8. What Are Necessity and Possibility, Though?
+
+Added from Sider's chapter in *Riddles of Existence* (ch. 9). The logic above tells you how □ and ◇ behave. It doesn't tell you what makes a □-statement true. Hume's point: you can observe that a stone falls, never that it *must*.
+
+First, sort the senses of "possible":
+
+| Kind | "Must" means | Example |
+|---|---|---|
+| epistemic | for all I know | "It's possible they won; I don't follow it" |
+| moral (deontic) | required | "You must not murder" |
+| **natural** | given the laws of nature | a dropped stone must fall |
+| **absolute** | no matter what | bachelors must be unmarried |
+
+- Absolute possibility is the widest: breaking the laws of nature is absolutely possible (you can imagine the stone hovering). Absolute necessity is the narrowest.
+- Sider's "absolute" = what Gensler calls logical necessity, roughly. Others say "metaphysical".
+- Philosophy cares about the absolute kind because it's after **essences**: what's true of a thing in every possible case. That's why thought experiments about cases that never happen are fair.
+
+### Natural necessity: what is a law?
+
+- **Divine legislation.** God decrees the laws. Sider's objection: God also decrees non-laws (say, that the number of trees in North America is odd). So what's the *extra* thing He does to make something a law? The theory doesn't say.
+- **Regularity theory** (Hume). A law is just a pattern with no exceptions. Demystifies laws. Problems:
+    1. leaves out the *must*
+    2. the law can't explain the pattern if it *is* the pattern
+    3. makes laws global (about all of space and time) when necessity seems local
+    4. accidental regularities: "no Thursday dinner party ever has more than N guests" is exceptionless and obviously not a law
+- **Universals theory** (Armstrong). A law is one universal *necessitating* another. Fixes all four. But "necessitates" is unexplained. His silencer joke: "the gun is built so the sound doesn't get out."
+
+Same choice as Poellner's Nietzsche on causation: regularities with no "must", or a "must" nobody can explain. See [[Nietzsche: The Will to Power]] sec. 5.
+
+On the divine theory: the objection assumes God's willing is all of one kind. The Maximus picture has an answer of sorts. A law would follow from the *logoi* of natures (what methane and oxygen are), where the number of trees is providence over particulars. See [[The Logoi of Creation in St. Maximus]].
+
+### Absolute necessity: two theories
+
+**Possible worlds, taken literally** (David Lewis)
+
+- Every way things could have been *is* a world, as real as ours, with its own space and time. No travel between them. "Actual" just means "this one".
+- Necessary = true in all worlds. Possible = true in some.
+- Gain: fully demystifies □ and ◇. No ghostly possibilities.
+- Cost: you have to believe in real flying pigs. Lewis says it's worth it for the theory, like believing in electrons. Sider can't bring himself to.
+
+**Conventionalism** (Ayer)
+
+- Necessary = true by definition. Necessity comes from how we use words.
+- Cheap, no extra worlds.
+- Problems:
+    - **Essences of individuals.** Clinton could have been shorter, or never president. Could he have been a *flower*? No. So "Clinton is human" is necessary. But a name has no definition for that to follow from. (This is the *de re* necessity of sec. 6.)
+    - **Philosophy would be dictionary work.** If all necessity is definitional, questions about what justice or knowledge essentially is get settled by looking words up. Conventionalists often accept this. It's a big deflation.
+- Gensler's objection to conventionalism about logic applies here too: it makes necessity depend on our decisions. See [[Philosophy of Logic: What Grounds the Laws of Logic]] sec. 3.4.
+
+Missing from Sider's chapter: the middle view that possible worlds are *abstract* (maximal consistent stories, Gensler's version; Plantinga's "states of affairs"), and the old view that what's possible is grounded in what God can do. The Oxford Handbook has two chapters on this (Fine on possibilia, Sider on reductive theories) that I haven't read.
+
+## 9. Loose Ends
 
 - Are possible worlds real things (David Lewis) or just stories / abstract objects (Gensler's "consistent descriptions")? Where would they be grounded? There's an old answer that possibilities are grounded in God's power and ideas, which fits with [[The Logoi of Creation in St. Maximus]].
 - Logical vs metaphysical necessity. "Water is H₂O" is supposed to be necessary but not known a priori (Kripke). Not in Gensler's chapter.
@@ -123,3 +174,6 @@ Same machinery, different reading of the box:
 - [[Free Will and Divine Foreknowledge]]
 - [[Is Ought]]
 - [[The Classic Laws of Logic]]
+- [[The Problem of Universals: Realism vs Nominalism]]
+- [[The Logoi of Creation in St. Maximus]]
+- [[Philosophy of Logic: What Grounds the Laws of Logic]]
