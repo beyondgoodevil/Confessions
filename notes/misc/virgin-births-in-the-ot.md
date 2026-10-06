@@ -1,4 +1,6 @@
 ---
+id: M-0031
+date: 2026-10-05
 title: Virgin births in the OT
 tags: [theology, mary, scripture]
 summary: Sarah, Rachel, Hannah and Elizabeth — barren women granted children, foreshadowing the virgin birth.

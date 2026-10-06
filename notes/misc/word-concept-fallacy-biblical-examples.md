@@ -1,4 +1,6 @@
 ---
+id: M-0033
+date: 2026-10-05
 title: "Word-concept fallacy: biblical examples"
 tags: [theology, fallacies, scripture]
 summary: The word-concept fallacy, illustrated with the Trinity and with faith and works.

@@ -1,4 +1,6 @@
 ---
+id: M-0020
+date: 2026-10-05
 title: Religious diversity within Judaism after Christ
 tags: [theology, canon, church-history]
 summary: Sects, textual traditions and the lack of a fixed Jewish canon in the first two centuries AD.

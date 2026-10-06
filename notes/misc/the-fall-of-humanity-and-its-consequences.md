@@ -1,4 +1,6 @@
 ---
+id: M-0024
+date: 2026-10-05
 title: The Fall of humanity and its consequences
 tags: [theology, scripture]
 summary: Eight passages on the Fall, sin, death and separation from God.

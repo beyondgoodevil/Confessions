@@ -1,4 +1,6 @@
 ---
+id: M-0019
+date: 2026-10-05
 title: Relativism
 tags: [theology, epistemology, apologetics]
 summary: Why relativism refutes itself.

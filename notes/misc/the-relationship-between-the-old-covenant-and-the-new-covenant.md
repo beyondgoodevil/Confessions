@@ -1,4 +1,6 @@
 ---
+id: M-0027
+date: 2026-10-05
 title: The relationship between the Old Covenant and the New Covenant
 tags: [theology, covenant, scripture]
 summary: Typology in Galatians and Hebrews linking the Old Covenant to its fulfilment in Christ.

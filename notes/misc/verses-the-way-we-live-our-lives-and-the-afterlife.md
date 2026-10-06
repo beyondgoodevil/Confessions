@@ -1,4 +1,6 @@
 ---
+id: M-0030
+date: 2026-10-05
 title: "Verses: the way we live our lives is deeply connected to our experience of the afterlife"
 tags: [theology, scripture]
 summary: Seven New Testament passages on judgment according to works.

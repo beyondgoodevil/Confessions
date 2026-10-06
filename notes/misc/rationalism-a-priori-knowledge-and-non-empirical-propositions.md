@@ -1,4 +1,6 @@
 ---
+id: M-0018
+date: 2026-10-05
 title: Rationalism, a priori knowledge, and non-empirical propositions
 tags: [theology, epistemology]
 summary: Key terms for propositions whose content is not found in sense data.

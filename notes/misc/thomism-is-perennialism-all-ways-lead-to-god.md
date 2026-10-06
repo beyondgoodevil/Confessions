@@ -1,4 +1,6 @@
 ---
+id: M-0028
+date: 2026-10-05
 title: "Thomism is perennialism: all ways lead to God"
 tags: [theology, thomism]
 summary: How absolute divine simplicity can push Thomism toward a perennialist conclusion.
