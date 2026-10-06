@@ -8,7 +8,7 @@ author: Jessica N. Berry
 source: "The Oxford Handbook of Nietzsche, eds. Ken Gemes and John Richardson (OUP, 2013), ch. 4"
 ---
 
-Nietzsche was a professor of classical philology before he was a philosopher, and the Greeks stay at the centre of his thought. This note summarises **Jessica N. Berry**, "Nietzsche and the Greeks", ch. 4 of *The Oxford Handbook of Nietzsche* (pp. 83–107).
+Nietzsche was a professor of classical philology before he was a philosopher, and the Greeks stay at the centre of his thought.
 
 ## 1. Nietzsche the Philologist
 
