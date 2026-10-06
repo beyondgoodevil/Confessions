@@ -15,7 +15,7 @@ The pattern across the Old Testament.
 1. [[Theophanies]] — Fifteen key theophanies in the Old Testament.
 2. [[Jesus in the OT as Theophany]] — Five Old Testament theophanies read as appearances of the pre-incarnate Christ.
 3. [[The Angel of the Lord]] — Ten Old Testament appearances of the Angel of the Lord read as the pre-incarnate Christ.
-4. [[The Trinity Hinted in the Old Testament]] — Old Testament verses that speak of plurality in God, of the Word and Spirit, and of a divine Son, read in the light of the New Testament.
+4. [[The Trinity Hinted in the Old Testament]] — OT verses grouped by theme (plural speech, Word and Spirit, two called LORD, the Son, Wisdom, threefold patterns) that make sense in light of the NT.
 
 ## The Passages
 

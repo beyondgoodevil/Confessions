@@ -43,7 +43,7 @@ The Reformation model and the Orthodox objection to it.
 What Scripture says about works and judgment.
 
 1. [[Romans: Not Justified by Works of the Law]] — Five Pauline verses on justification apart from works "of the law".
-2. [[Synergy: Grace and Free Will]] — The Orthodox teaching that salvation is the cooperation of divine grace and human freedom, set against Pelagianism and monergism.
+2. [[Synergy: Grace and Free Will]] — Salvation as cooperation of grace and freedom. Verses, comparison with Pelagianism and monergism, the Fathers, the link to Christ's two wills, and the "semi-Pelagian" charge.
 3. [[Works Are Required: NT Quotes]] — Eleven New Testament passages on works, obedience and judgment according to deeds.
 4. [[Sola Fide Still Requires Works: Mental Work]] — Believing is itself an act of the will, so sola fide does not remove works but moves them inward.
 5. [[Believers Are Called to Fulfill Their Part of the Covenant: NT Verses]] — Seven New Testament passages on obedience, perseverance and works within the covenant.

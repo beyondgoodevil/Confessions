@@ -21,7 +21,7 @@ Scripture and practice.
 
 Type, institution and apostolic practice.
 
-1. [[The Eucharist in Type and Fulfilment]] — Old Testament types of the Eucharist and their fulfilment in John 6, the Last Supper and the apostolic Church.
+1. [[The Eucharist in Type and Fulfilment]] — OT types of the Eucharist (Melchizedek, Passover, manna, covenant blood, shewbread, Isaiah's coal, Malachi's pure offering) and their fulfilment in John 6, the Last Supper and the early Church.
 2. [[Key Teachings of the Council of Ephesus]] — Five teachings of Ephesus and their bearing on the Eucharist.
 
 ## Validity

@@ -34,7 +34,7 @@ Partaking of the divine nature.
 
 1. [[2 Peter 1:3-4: Theosis]] — 2 Peter 1:3-4 on divine power and becoming partakers of the divine nature.
 2. [[Being Made in the Image of God]] — Seven things man shares with God, and the distinction between image and likeness.
-3. [[The Logoi of Creation in St. Maximus]] — St. Maximus the Confessor's teaching that every creature has its logos in the one Logos, and what follows for creation, knowledge and theosis.
+3. [[The Logoi of Creation in St. Maximus]] — St. Maximus on the logoi. Every creature has its logos in the one Logos; logos vs tropos; being, well-being, eternal well-being; the reply to Origenism; natural contemplation.
 4. [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]] — Seven Fathers, from Irenaeus to Photios, on deification through the Incarnation.
 5. [[Nous]] — The nous as the eye of the soul in Orthodox Christianity.
 
@@ -42,7 +42,7 @@ Partaking of the divine nature.
 
 How the tradition is lived.
 
-1. [[The Jesus Prayer and Hesychasm]] — The prayer, its biblical roots, the hesychast tradition from the Desert Fathers to St. Gregory Palamas, and how it is practised.
+1. [[The Jesus Prayer and Hesychasm]] — The prayer and where it comes from in Scripture, the hesychast line from the Desert Fathers to Palamas and the Philokalia, terms, practice and the usual warnings.
 2. [[Mysticism Does Not Contradict Evidentialism or Evidence]] — Eastern Orthodox mysticism transcends reason and evidence without rejecting them.
 
 ## Other Guides

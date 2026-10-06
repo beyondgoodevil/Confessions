@@ -10,7 +10,7 @@ The notes on this site are short and each covers one point. These guides put the
 
 ## Philosophy
 
-- [[Guide: TAG and Presuppositional Apologetics]] — A reading order for the Transcendental Argument for God and the worldview notes around it (24 notes)
+- [[Guide: TAG and Presuppositional Apologetics]] — A reading order for the Transcendental Argument for God and the worldview notes around it (25 notes)
 - [[Guide: Epistemology]] — A reading order for the notes on knowledge, justification and the limits of reason (20 notes)
 - [[Guide: Logical Fallacies]] — The fallacy notes grouped by the kind of mistake they describe (14 notes)
 

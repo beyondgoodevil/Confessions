@@ -13,7 +13,7 @@ Start with the doctrine, then its early witnesses, then the East-West dispute.
 One God in three Persons.
 
 1. [[The Trinity]] — One God in three Persons, with the Father as the eternal source of the Son and the Holy Spirit.
-2. [[The Trinity Hinted in the Old Testament]] — Old Testament verses that speak of plurality in God, of the Word and Spirit, and of a divine Son, read in the light of the New Testament.
+2. [[The Trinity Hinted in the Old Testament]] — OT verses grouped by theme (plural speech, Word and Spirit, two called LORD, the Son, Wisdom, threefold patterns) that make sense in light of the NT.
 3. [[Monarchical Trinitarianism]] — A biblical and patristic defence of the Father as the sole source of divinity in the Trinity.
 4. [[Hypostatic Origin vs Economia]] — How the Persons relate within the Trinity, versus how God acts in the world.
 5. [[Distinction Does Not Necessitate Separation, Division, or Composition]] — Five everyday examples of things that are distinct without being separate.
