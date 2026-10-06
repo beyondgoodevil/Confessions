@@ -61,7 +61,49 @@ This looks like an abstract medieval quarrel until you see what hangs on it.
 
 Caveat: "nominalism caused the Reformation and modernity" is a big-picture story and historians argue about it. As a logical connection it holds up. As history it's probably too tidy.
 
-## 6. The Transcendental Point
+## 6. The Modern Debate
+
+Added after reading Conee's chapter in *Riddles of Existence* (ch. 8). He doesn't pick a side, which is useful: every position gets its problems listed. A **property** = any way a thing could be. A **universal** = a property more than one thing can have.
+
+### Arguments for
+
+1. **One over many.** Three red apples have something in common. Things can't share what doesn't exist.
+    - "But no two things are *exactly* alike." Doesn't help: they're all exactly alike in being apples. And physics says every electron has the same charge.
+    - Even if no two things happened to match, another thing *could* have had that exact charge. Sharable is enough.
+2. **Perception.** We see colours and feel shapes, not only objects. Even if I'm wrong that the apple is red, red is the way I see it *as* being, so there is such a way.
+3. **Meaning.** In "Bob is baffled", the subject picks out Bob. What does the predicate do? It says how Bob is, i.e. expresses a property.
+4. **Quick one.** Red and blue are two colours. So there are at least two colours. Colours are sharable. Done.
+
+### Problems for universals
+
+- **Where are they?**
+    - Nowhere (Plato's answer): then how do we *see* the apple's colour, and how does a thing with no location get attached to this apple and not that one?
+    - Wherever their instances are (Aristotle's): then is it *part* of redness in each apple (so they don't share one thing after all), or the *whole* of it in each? Whole-in-many-places isn't contradictory ("wholly here" isn't "only here"), but nothing else behaves like that. His parking-ticket example with a multiply located car part is funny and makes the point.
+- **Is redness red?** If yes, there are too many red things and I'm seeing the colour's colour. If no, I'm seeing a colourless thing and seeing red. Version of Plato's own Third Man.
+- **Instantiation regress.** If my being happy = me + happiness + the *instantiation* relation, then those three are related too, by a further relation, and so on forever. (Bradley's regress.) If instantiation can relate without itself being related, why can't things just *be* some way without universals at all?
+- **The non-self-instantiation paradox.** Most properties aren't instances of themselves (being an apple isn't an apple). So is there a universal "not instantiating itself"? If it instantiates itself it doesn't, and if it doesn't it does. So no such universal. But the meaning and one-over-many arguments would "prove" it exists. So those arguments can't be trusted in general. This is Russell's paradox for properties, and Conee treats it as the most serious objection.
+
+### The options, with costs
+
+| View | Idea | Main cost |
+|---|---|---|
+| Abundant universals | a universal for every predicate | all the problems above |
+| **Sparse universals** (Armstrong) | only the properties real science needs | which science? And can't say "other properties *could have been* fundamental". Location problem remains |
+| **Tropes** | properties are real but **particular**: this hydrant's redness, that hydrant's redness | then what makes two tropes "the same colour"? Exact resemblance. But resemblance in what respect, if there are no respects? |
+| **Sets** | redness = the set of red things | properties with no instances all collapse into the empty set (being phlogiston = being a Salem witch). And Oprah becomes part of what *your* happiness is |
+| **Nominalism** | only particulars; "red" just applies to red things | has to paraphrase away "blue is a colour", and "sloth is a vice" resists. And the explanation stops at "blue things just are blue" |
+| **Conceptualism** | generality is in our concepts | apples having grown on trees is a fact about apples, not minds. And why does the concept apply to *these* things? |
+
+Things I notice:
+
+- Tropes are the option missing from the medieval table in sec. 2, and the most popular modern way to avoid universals. A trope theorist can say Christ's humanity and mine are two exactly resembling tropes. Is that enough for "what is not assumed is not healed"? I don't think resemblance gives the solidarity sec. 4 needs, but it's a better opponent than crude nominalism.
+- "Sparse" realism fits the *logoi* quite well: not a Form for every word we can make up (no logos of "non-apple"), only for real natures.
+- Every theistic move in sec. 3 addresses **location** ("nowhere" becomes "in the mind of God"). It doesn't obviously address the instantiation regress or the paradox. Worth working out.
+- Sider (ch. 9 of the same book) uses universals to explain **laws of nature**: a law is one universal *necessitating* another, not just a regularity. So realism does work in science too. See [[Modal Logic: Necessity and Possibility]].
+
+Not yet read: the *Oxford Handbook of Metaphysics* chapters on this (Szabó on nominalism, Hoffman and Rosenkrantz on Platonism, Lowe on individuation).
+
+## 7. The Transcendental Point
 
 - The nominalist argues using universals: "all", "every", "argument", "true". He relies on logic holding in every case.
 - "Only particulars exist" is itself a universal claim.
@@ -81,3 +123,6 @@ Open question: modern "trope theory" and resemblance nominalism claim to do the 
 - [[Thomism EXTENDED]]
 - [[TAG]]
 - [[The Forms and the Demiurge]]
+- [[Modal Logic: Necessity and Possibility]]
+- [[Philosophy of Logic: What Grounds the Laws of Logic]]
+- [[Mind and Body: Dualism, Materialism, Emergence]]

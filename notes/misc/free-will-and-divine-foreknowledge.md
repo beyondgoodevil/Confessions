@@ -73,7 +73,57 @@ KJV.
 - God foreknows because He decreed all of it. Freedom gets redefined as acting on your desires, which are themselves determined.
 - Rejected by Orthodoxy. Makes God the author of sin.
 
-## 4. St. John of Damascus
+## 4. The Same Problem Without God: Fatalism
+
+Added from Conee's chapter on fatalism in *Riddles of Existence* (ch. 2). The foreknowledge argument is a religious version of an older, purely logical one. Seeing them side by side shows which bits are really about God.
+
+**Metaphysical fatalism** = everything, past, present and future, *has* to be as it is. Not the same as:
+
+- being fated by gods, or "everything happens for a reason"
+- **determinism** (causes plus laws fix the future). Fatalism is supposed to hold even if nothing is caused
+- "effort is pointless". The fatalist says your efforts were fated too
+
+**The Sea Battle** (Aristotle, *On Interpretation* 9)
+
+1. Either "there will be a battle tomorrow" is true or "there won't" is true.
+2. If a statement is true, it has to be true.
+3. So whichever is true, has to be. Whatever will be, must be.
+
+Two ways out:
+
+- *Deny 1* (excluded middle for future statements; this is Aristotle's own answer, and the "half-true" value in [[Deviant Logics]]). Conee's objection: if Alice said yesterday it would storm and it does, we say she *was right*. And the truth-maker for a prediction is in the future, which is where it should be.
+- *Deny 2.* It's ambiguous:
+    - "It has to be that: if true, then true." Trivial. Like "if the wall is red, it's red", which doesn't mean the wall *had* to be red.
+    - "If true, then it has to be true." This is what the argument needs and there's no reason to believe it.
+
+That's the same necessity slip as reply (a) above. Formal version in [[Modal Logic: Necessity and Possibility]] sec. 3.
+
+**Past Predictions**
+
+1. For every future fact there was, in the past, a true proposition saying so.
+2. Everything about the past is fixed ("accidental necessity").
+3. So the future is fixed.
+
+- This is the foreknowledge argument with "true proposition" in place of "God's belief".
+- Conee's reply: not every fact *about* the past is fixed *by* the past. That a prediction was **made** is settled. That it was **true** depends on what happens later. So its truth is only as settled as the future is.
+- Philosophers call these **hard facts** and **soft facts** about the past. "Caesar died" is hard. "Caesar died 2,000 years before I wrote this" is soft: it wasn't settled in 44 BC.
+- Applied to God (this is Ockham's move): "God believed in 1000 BC that I'd do X" is a *soft* fact, because what He believed depends on what I freely do.
+
+So that's a fourth reply to add to the list: **Ockhamism**. It keeps God in time, unlike Boethius. Worry: a *belief* someone actually held looks like a hard fact if anything is. Easier to call a proposition's truth soft than a person's past mental state. Which is probably why the Fathers and Boethius go for eternity instead.
+
+**Necessary Conditions** (roughly Richard Taylor's argument)
+
+- If a necessary condition for an alternative is missing, the alternative isn't open. I can't finish a mile run now because I haven't been running.
+- Every condition is necessary for itself. If Cathy *will* accept the job, then "Cathy doesn't accept" is missing, now and always.
+- So her not accepting was never open.
+- Reply: a missing condition only closes things off if it's **unavailable**. I can't run the mile because I can't now *cause* the past to be different. Nothing like that stops Cathy supplying the condition by choosing.
+
+What I take from this:
+
+- The fatalist arguments work, if they work, with no God in them. So foreknowledge isn't the source of the problem. Dropping omniscience (open theism) wouldn't even help, unless you also deny that future statements are true or false.
+- The standard reply is the same in both cases: truth (or knowledge) depends on the event, not the other way round.
+
+## 5. St. John of Damascus
 
 *Exact Exposition* 2.30. The key sentence, roughly: God **foreknows all things but does not predetermine all things**.
 
@@ -87,13 +137,13 @@ Two wills:
 
 So **predestination follows foreknowledge**. God predestines those He foreknows will freely answer grace. Not a decree that comes first and causes the answer. See [[Synergy: Grace and Free Will]].
 
-## 5. Why Keep Both
+## 6. Why Keep Both
 
 - Drop foreknowledge → not God any more. Prophecy fails, providence is improvising.
 - Drop freedom → no sin, no virtue, no love, no just judgment, and God causes evil.
 - Keep both → God, outside time, knows free acts *as* free.
 
-## 6. Where Explanation Stops
+## 7. Where Explanation Stops
 
 - *How* an eternal God knows free acts in time is past us. We've no experience of knowing outside time.
 - The replies show there's no contradiction. They don't claim to show the mechanism.
@@ -111,3 +161,5 @@ Still bothers me a bit: if God's knowledge *depends* on what I do, does that put
 - [[The Euthyphro Dilemma and the Orthodox Answer]]
 - [[Jesus Fulfills Prophecies]]
 - [[The Classic Laws of Logic]]
+- [[Modal Logic: Necessity and Possibility]]
+- [[Deviant Logics]]
