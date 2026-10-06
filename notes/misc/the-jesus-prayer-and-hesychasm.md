@@ -1,4 +1,6 @@
 ---
+id: M-0252
+date: 2026-10-06
 title: The Jesus Prayer and hesychasm
 tags: [theology, theosis, tradition]
 summary: The prayer, its biblical roots, the hesychast tradition from the Desert Fathers to St. Gregory Palamas, and how it is practised.

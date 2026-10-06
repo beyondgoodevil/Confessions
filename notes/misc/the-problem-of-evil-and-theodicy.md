@@ -1,4 +1,6 @@
 ---
+id: M-0253
+date: 2026-10-06
 title: The problem of evil and theodicy
 tags: [theology, apologetics, epistemology]
 summary: The logical and evidential problems of evil, the main theodicies, and the Orthodox answer centred on privation, freedom and the Cross.

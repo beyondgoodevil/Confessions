@@ -1,4 +1,6 @@
 ---
+id: M-0251
+date: 2026-10-06
 title: "St. Athanasius, On the Incarnation: main argument"
 tags: [theology, christology, theosis]
 summary: Why the Word became flesh — the "divine dilemma", the defeat of death and the renewal of the image of God.
