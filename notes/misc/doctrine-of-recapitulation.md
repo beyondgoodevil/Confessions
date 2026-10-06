@@ -42,6 +42,5 @@ The doctrine of recapitulation views Christ’s Incarnation, life, death, and re
 - [[Adam as a Type of Christ and Eve as a Type of the Church]]
 - [[Penal Substitution Leads to Nestorianism]]
 - [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]]
-- [[Distinction in the Two Natures of Christ and Salvation 2]]
 - [[Distinction in the Two Natures of Christ and Salvation]]
 - [[Romans 8:18-24: Creation Corruption]]

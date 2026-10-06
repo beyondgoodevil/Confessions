@@ -19,8 +19,7 @@ One divine Person in two natures.
 5. [[Jesus Being Fully Divine and Fully Human Is Not a Contradiction]] — Why the excluded middle does not rule out two natures in one Person.
 6. [[Why Christ's Two Natures Can Not Mix]] — Why a single mixed nature in Christ would produce a "Tertium Quid", neither truly God nor truly man.
 7. [[Distinction in the Two Natures of Christ and Salvation]] — Five reasons a "Tertium Quid" Christ could not save.
-8. [[Distinction in the Two Natures of Christ and Salvation 2]] — Five reasons a "Tertium Quid" Christ could not save.
-9. [[Action Is Not Proper to the Person]] — Christ's actions belong to the nature through which they are performed, while attributed to the one Person of the Son.
+8. [[Action Is Not Proper to the Person]] — Christ's actions belong to the nature through which they are performed, while attributed to the one Person of the Son.
 
 ## The Two Wills
 
