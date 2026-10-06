@@ -1,4 +1,6 @@
 ---
+id: M-0235
+date: 2026-10-06
 title: Distinction in the two natures of Christ and salvation
 tags: [theology, christology]
 summary: Five reasons a "Tertium Quid" Christ could not save.

@@ -1,4 +1,6 @@
 ---
+id: M-0246
+date: 2026-10-06
 title: Evolution can be understood as a paradigm-level theory
 tags: [theology, apologetics, epistemology]
 summary: Six ways evolutionary theory functions as a worldview rather than only a biological explanation.

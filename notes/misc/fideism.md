@@ -1,4 +1,6 @@
 ---
+id: M-0249
+date: 2026-10-06
 title: Fideism
 tags: [theology, epistemology]
 summary: Fideism — faith rather than reason or evidence as the basis of religious knowledge.

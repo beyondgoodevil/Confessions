@@ -1,4 +1,6 @@
 ---
+id: M-0241
+date: 2026-10-06
 title: EO view on Donatism
 tags: [theology, sacraments, church-history]
 summary: Five reasons Orthodoxy is not Donatist, and how the East responded to Donatism.

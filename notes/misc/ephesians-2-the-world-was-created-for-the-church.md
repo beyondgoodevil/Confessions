@@ -1,4 +1,6 @@
 ---
+id: M-0243
+date: 2026-10-06
 title: "Ephesians 2: the world was created for the Church"
 tags: [theology, scripture, covenant]
 summary: Ephesians 2:14-22 and what it implies about the Church's place in creation.

@@ -1,4 +1,6 @@
 ---
+id: M-0236
+date: 2026-10-06
 title: Donatism
 tags: [theology, sacraments, church-history]
 summary: The 4th-century North African movement that tied sacramental validity to the purity of the clergy.
