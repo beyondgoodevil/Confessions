@@ -116,3 +116,4 @@ Compare [[Free Will and Divine Foreknowledge]] sec. 4, where Conee answers the f
 - [[Nietzsche: Eternal Recurrence]]
 - [[The Unmoved Mover]]
 - [[Thomism Leads to Eternal Creation]]
+- [[Mind and Body: Dualism, Materialism, Emergence]]
