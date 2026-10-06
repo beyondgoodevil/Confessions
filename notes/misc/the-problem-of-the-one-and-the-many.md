@@ -2,7 +2,7 @@
 id: M-0313
 date: 2026-10-07
 title: The Problem of the One and the Many
-tags: [theology, epistemology, apologetics, trinity]
+tags: [philosophy, theology, metaphysics, apologetics, trinity]
 summary: What the problem is, how the Greeks kept falling to one side or the other (Parmenides, Heraclitus, Plato, Aristotle, Plotinus), where it shows up outside metaphysics, and the claim that the Trinity answers it. With objections.
 ---
 

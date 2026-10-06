@@ -2,7 +2,7 @@
 id: M-0312
 date: 2026-10-07
 title: Why Only the Orthodox Paradigm Can Account for Knowledge
-tags: [theology, epistemology, apologetics]
+tags: [theology, philosophy, epistemology, apologetics]
 summary: The ontological, epistemological and theological foundations of knowledge in the Eastern Orthodox paradigm, and why competing worldviews fail to provide them.
 ---
 
