@@ -27,7 +27,7 @@ function guessRepo() {
 async function gh(path, opts = {}) {
   const c = conn(); if (!c || !c.token) throw new Error('Not connected. Open Settings and add your token.');
   const r = await fetch(`https://api.github.com/repos/${c.owner}/${c.repo}${path}`, {
-    ...opts, headers: { Authorization: `Bearer ${c.token}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', ...(opts.body ? { 'Content-Type': 'application/json' } : {}) }
+    cache: 'no-store', ...opts, headers: { Authorization: `Bearer ${c.token}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', ...(opts.body ? { 'Content-Type': 'application/json' } : {}) }
   });
   if (!r.ok) {
     let msg = `${r.status}`; try { msg = (await r.json()).message || msg; } catch {}
@@ -55,7 +55,7 @@ async function commitFiles(files, message, attempt = 0) {
     await gh(`/git/refs/heads/${branch}`, { method: 'PATCH', body: JSON.stringify({ sha: c.sha }) });
     return c;
   } catch (e) {
-    if (e.status === 422 && attempt < 2) return commitFiles(files, message, attempt + 1);   // branch moved (e.g. the address-stamping commit); retry on top of it
+    if (e.status === 422 && attempt < 4) { await new Promise(r => setTimeout(r, 1500 * (attempt + 1))); return commitFiles(files, message, attempt + 1); }   // branch moved (e.g. the address-stamping commit); retry on top of it
     throw e;
   }
 }
