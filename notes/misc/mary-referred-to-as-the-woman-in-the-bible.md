@@ -1,4 +1,6 @@
 ---
+id: M-0186
+date: 2026-10-05
 title: Mary referred to as The Woman in the Bible
 tags: [theology, mary, scripture]
 summary: Six passages where Mary is called or identified as "the woman".

@@ -1,4 +1,6 @@
 ---
+id: M-0199
+date: 2026-10-05
 title: Nous
 tags: [theology, theosis, epistemology]
 summary: The nous as the eye of the soul in Orthodox Christianity.

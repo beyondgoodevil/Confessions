@@ -1,4 +1,6 @@
 ---
+id: M-0194
+date: 2026-10-05
 title: Nature and person distinction in Christology
 tags: [theology, christology]
 summary: Nature and person defined, which of them acts, and why the distinction matters.

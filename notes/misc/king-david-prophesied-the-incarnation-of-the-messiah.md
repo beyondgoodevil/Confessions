@@ -1,4 +1,6 @@
 ---
+id: M-0179
+date: 2026-10-05
 title: King David prophesied the incarnation of the Messiah
 tags: [theology, scripture, covenant]
 summary: Five Psalms read as prophecies of the Messiah's sonship, resurrection, suffering, kingship and exaltation.

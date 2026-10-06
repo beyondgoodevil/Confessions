@@ -1,4 +1,6 @@
 ---
+id: M-0165
+date: 2026-10-05
 title: Jesus fulfills prophecies 2
 tags: [theology, scripture, covenant]
 summary: Prophecies 7 to 12, from the triumphal entry to no broken bones.

@@ -1,4 +1,6 @@
 ---
+id: M-0173
+date: 2026-10-05
 title: "John 14:9: Jesus explicitly states that He is the image of the Father"
 tags: [theology, scripture, christology]
 summary: John 14:9 (KJV) — he that hath seen me hath seen the Father.

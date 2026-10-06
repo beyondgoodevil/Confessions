@@ -1,4 +1,6 @@
 ---
+id: M-0176
+date: 2026-10-05
 title: "Joshua 5:13-15: Joshua met the Lord"
 tags: [theology, scripture, christology]
 summary: Joshua 5:13-15, where Joshua worships the Commander of the army of the Lord.

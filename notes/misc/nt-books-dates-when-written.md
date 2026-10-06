@@ -1,4 +1,6 @@
 ---
+id: M-0200
+date: 2026-10-05
 title: NT books dates when written
 tags: [theology, canon, church-history]
 summary: Approximate dates of composition for 23 New Testament books.

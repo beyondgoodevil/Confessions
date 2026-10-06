@@ -1,4 +1,6 @@
 ---
+id: M-0169
+date: 2026-10-05
 title: Jesus in the OT as theophany
 tags: [theology, scripture, christology]
 summary: Five Old Testament theophanies read as appearances of the pre-incarnate Christ.

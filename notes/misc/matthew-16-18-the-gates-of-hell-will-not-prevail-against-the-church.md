@@ -1,4 +1,6 @@
 ---
+id: M-0190
+date: 2026-10-05
 title: "Matthew 16:18: Jesus says the gates of hell will not prevail against the Church"
 tags: [theology, scripture, tradition]
 summary: Matthew 16:18, with "My church" highlighted.

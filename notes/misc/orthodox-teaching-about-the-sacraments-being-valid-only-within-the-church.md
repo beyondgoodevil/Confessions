@@ -1,4 +1,6 @@
 ---
+id: M-0202
+date: 2026-10-05
 title: Orthodox teaching about the sacraments being valid only within the canonical boundaries of the Church
 tags: [theology, sacraments, tradition]
 summary: Four points on why the sacraments are efficacious only within the Church.

@@ -1,4 +1,6 @@
 ---
+id: M-0197
+date: 2026-10-05
 title: "Nicene Creed Canon 6: first among equals explanation"
 tags: [theology, councils, church-history]
 summary: Canon 6 of Nicaea and what its "likewise" implies about Rome and the other sees.

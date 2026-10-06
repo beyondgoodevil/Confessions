@@ -1,4 +1,6 @@
 ---
+id: M-0177
+date: 2026-10-05
 title: "Judges 13:2-22: Samson's parents have seen God"
 tags: [theology, scripture, christology]
 summary: Judges 13:2-22, where the Angel of the Lord appears to Manoah and his wife and they say they have seen God.

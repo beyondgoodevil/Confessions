@@ -1,4 +1,6 @@
 ---
+id: M-0172
+date: 2026-10-05
 title: "John 14:6: Jesus is the Truth"
 tags: [theology, scripture, apologetics]
 summary: John 14:6 and the Orthodox understanding that Truth is a Person.

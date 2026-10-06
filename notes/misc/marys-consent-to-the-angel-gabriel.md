@@ -1,4 +1,6 @@
 ---
+id: M-0188
+date: 2026-10-05
 title: Mary's consent to the angel Gabriel
 tags: [theology, mary, scripture]
 summary: Luke 1:38 and the significance of Mary's "let it be".

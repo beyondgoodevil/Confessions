@@ -1,4 +1,6 @@
 ---
+id: M-0163
+date: 2026-10-05
 title: Jesus established the New Covenant
 tags: [theology, covenant, scripture]
 summary: Luke 22:20, Matthew 26:28 and Hebrews 9:15 on the New Covenant in Christ's blood.

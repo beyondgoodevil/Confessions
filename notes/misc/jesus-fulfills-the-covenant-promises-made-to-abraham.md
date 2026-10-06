@@ -1,4 +1,6 @@
 ---
+id: M-0168
+date: 2026-10-05
 title: Jesus fulfills the covenant promises made to Abraham
 tags: [theology, covenant, scripture]
 summary: Four passages from Galatians on Christ as the fulfilment of the promises to Abraham.

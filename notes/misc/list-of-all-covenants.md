@@ -1,4 +1,6 @@
 ---
+id: M-0182
+date: 2026-10-05
 title: List of all covenants
 tags: [theology, covenant, scripture]
 summary: The six biblical covenants from Adam to the New Covenant in Christ.

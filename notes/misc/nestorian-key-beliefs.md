@@ -1,4 +1,6 @@
 ---
+id: M-0196
+date: 2026-10-05
 title: Nestorian key beliefs
 tags: [theology, christology]
 summary: Three key Nestorian beliefs and their condemnation at Ephesus.

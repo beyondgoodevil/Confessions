@@ -1,4 +1,6 @@
 ---
+id: M-0180
+date: 2026-10-05
 title: Laws/Canons that Constantinople determined
 tags: [theology, councils, church-history]
 summary: A list of 28 canons attributed to the Council of Constantinople.
