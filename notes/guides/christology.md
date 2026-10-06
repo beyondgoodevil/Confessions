@@ -45,7 +45,7 @@ The dispute settled at Ephesus.
 
 Why the Word became flesh.
 
-1. [[St. Athanasius, On the Incarnation: Main Argument]] — Why the Word became flesh — the "divine dilemma", the defeat of death and the renewal of the image of God.
+1. [[St. Athanasius, On the Incarnation: Main Argument]] — Outline of the argument. Why the Word became flesh, the "divine dilemma", why the Cross, the proofs of the Resurrection, and "He was made man that we might be made God".
 2. [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]] — Seven Fathers, from Irenaeus to Photios, on deification through the Incarnation.
 3. [[Christ's Ascension: NT and Psalm 110]] — Psalm 110:1 and five New Testament passages that cite it.
 

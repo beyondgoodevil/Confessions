@@ -27,19 +27,21 @@ From the short statement to the full version.
 2. [[TAG]] — The Transcendental Argument for God — knowledge requires transcendental categories, which must be grounded in God.
 3. [[Step-by-Step Breakdown of the TAG Argument]] — The four steps of the Transcendental Argument and what transcendental categories are.
 4. [[Transcendental Categories Are Required for Science and Knowledge]] — Why identity, causality, logic and the other transcendental categories are preconditions of science and knowledge.
-5. [[Why Is the Transcendental Argument Prior to the Teleological, Cosmological, and Other Arguments]] — TAG examines the preconditions that the cosmological, teleological and moral arguments all assume.
+5. [[The Problem of the One and the Many]] — What the problem is, how the Greeks kept falling to one side or the other (Parmenides, Heraclitus, Plato, Aristotle, Plotinus), where it shows up outside metaphysics, and the claim that the Trinity answers it. With objections.
+6. [[Why Is the Transcendental Argument Prior to the Teleological, Cosmological, and Other Arguments]] — TAG examines the preconditions that the cosmological, teleological and moral arguments all assume.
 
 ## Testing Other Worldviews
 
 How rival accounts of logic and knowledge fare.
 
 1. [[Comparison of Worldviews]] — Transcendental argumentation and how four kinds of worldview fare under it.
-2. [[TAG: Logic and Its Justification in Other World Views - A Refutation]] — Five non-theistic accounts of logic and why each fails to ground it.
-3. [[A System That Works Can Not Guarantee True Knowledge]] — Why pragmatic success does not establish truth and a transcendental justification is needed.
-4. [[Would Aliens Have to Operate on Logic]] — Why any being, alien or human, must operate within objective truth, identity and order.
-5. [[Relativism]] — Why relativism refutes itself.
-6. [[Solipsism Refuted]] — Six reasons solipsism undermines itself.
-7. [[Quran Confirms the Bible]] — An argument from the Qur'an's own verses that it confirms the Bible and that God's word cannot be changed.
+2. [[Why Only the Orthodox Paradigm Can Account for Knowledge]] — The ontological, epistemological and theological foundations of knowledge in the Eastern Orthodox paradigm, and why competing worldviews fail to provide them.
+3. [[TAG: Logic and Its Justification in Other World Views - A Refutation]] — Five non-theistic accounts of logic and why each fails to ground it.
+4. [[A System That Works Can Not Guarantee True Knowledge]] — Why pragmatic success does not establish truth and a transcendental justification is needed.
+5. [[Would Aliens Have to Operate on Logic]] — Why any being, alien or human, must operate within objective truth, identity and order.
+6. [[Relativism]] — Why relativism refutes itself.
+7. [[Solipsism Refuted]] — Six reasons solipsism undermines itself.
+8. [[Quran Confirms the Bible]] — An argument from the Qur'an's own verses that it confirms the Bible and that God's word cannot be changed.
 
 ## Science and Evolution
 
@@ -53,9 +55,9 @@ The same questions applied to science as a paradigm.
 
 Common objections and their answers.
 
-1. [[The Problem of Evil and Theodicy]] — The logical and evidential problems of evil, the main theodicies, and the Orthodox answer centred on privation, freedom and the Cross.
-2. [[The Euthyphro Dilemma and the Orthodox Answer]] — Plato's dilemma about God and goodness, the two horns, and the answer that goodness is neither above God nor arbitrary but is God's own nature and energy.
-3. [[Free Will and Divine Foreknowledge]] — The argument that God's foreknowledge rules out free will, the main replies, and the patristic answer that foreknowledge does not cause.
+1. [[The Problem of Evil and Theodicy]] — Logical vs evidential problem of evil, the usual theodicies, where Orthodoxy puts the weight (privation, freedom, the Cross), and the presuppositional reply.
+2. [[The Euthyphro Dilemma and the Orthodox Answer]] — Plato's dilemma about God and goodness, why both horns are bad, the third option (God is the Good), the fuller Orthodox version with energies and logoi, and follow-up objections.
+3. [[Free Will and Divine Foreknowledge]] — The argument that foreknowledge rules out freedom, where it goes wrong (the modal slip), Boethius, Molina, and St. John of Damascus on foreknowing without predetermining.
 
 ## Other Guides
 
