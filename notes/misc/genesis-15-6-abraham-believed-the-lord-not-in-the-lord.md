@@ -16,3 +16,4 @@ This underscores that Abraham's righteousness came from trusting the specific pr
 - [[Genesis 12:1-4: Abraham Already Believed in God]]
 - [[Abraham's Journey of Faith and His Covenant Relationship With God]]
 - [[Sola Fide Still Requires Works: Mental Work]]
+

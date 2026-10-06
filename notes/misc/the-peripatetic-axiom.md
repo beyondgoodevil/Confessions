@@ -28,3 +28,4 @@ Thus, the **peripatetic axiom** can be seen as problematic because it encourages
 - [[Rationalism, A Priori Knowledge, and Non-Empirical Propositions]]
 - [[Aristotle and God as Pure Act]]
 - [[Nous]]
+

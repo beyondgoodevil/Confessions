@@ -27,3 +27,4 @@ In summary, the Neoplatonic idea of divine simplicity centers on the concept of 
 - [[Thomism Leads to Eternal Creation]]
 - [[Emergence of Magic and Neoplatonism in the Renaissance]]
 - [[Essence-Energies Distinction]]
+- [[Thomism and the Originist Problematic]]

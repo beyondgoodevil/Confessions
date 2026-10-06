@@ -23,3 +23,4 @@ summary: Ten parallels between Noah and Christ.
 - [[1 Peter 3:20-21: Baptism Is Like the Ark]]
 - [[1 Peter 3:20-21: The Events of Noah's Flood Were a Type of Baptism]]
 - [[List of All Covenants]]
+

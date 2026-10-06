@@ -26,3 +26,4 @@ The image is a screenshot of John 20:24-31 in the New King James Version, with p
 - [[John 21:20-25: And There Are Also Many Other Things That Jesus Did, Which If They Were Written One by One, I Suppose That Even the World Itself Could Not Contain the Books That Would Be Written]]
 - [[Overview of Where Jesus Refers to Oral Tradition]]
 - [[Paul Either Had Access to Additional Oral Traditions of Jesus' Teachings or Through the Inspiration of the Holy Spirit]]
+- [[Acts 20:7-9: Paul Gave a Long Sermon, but the Details of What He Said Are Not Written Down in Scripture]]

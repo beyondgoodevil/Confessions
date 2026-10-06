@@ -43,3 +43,5 @@ The Transfiguration of Jesus on Mount Tabor is a profound revelation of His divi
 - [[God's Uncreated Energies]]
 - [[1 Timothy 6:16: God Dwells in Unapproachable Light, aka His Uncreated Glory]]
 - [[2 Peter 1:3-4: Theosis]]
+- [[2 Corinthians 3:18: We Move From Glory to Glory]]
+- [[The Jesus Prayer and Hesychasm]]

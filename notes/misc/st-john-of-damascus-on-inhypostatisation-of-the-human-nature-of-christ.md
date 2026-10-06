@@ -20,3 +20,4 @@ In summary, St. John of Damascus teaches that Christ's human nature, though comp
 - [[Usage of the Term Hypostasis in the NT]]
 - [[Nature and Person Distinction in Christology]]
 - [[Nestorian Key Beliefs]]
+

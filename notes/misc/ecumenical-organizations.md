@@ -46,3 +46,4 @@ summary: The World Council of Churches and nine other ecumenical bodies.
 - [[Mortalium Animos]]
 - [[The Anglican Branch Theory]]
 - [[Branch Theory Refuted From the Bible]]
+- [[Swami Vivekananda and John D. Rockefeller Sr.]]

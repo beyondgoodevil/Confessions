@@ -79,3 +79,6 @@ These variants are **not accidental** but often reflect theological **redactions
 - [[Religious Diversity Within Judaism After Christ]]
 - [[History of the EO Canon of Scriptures]]
 - [[Different Biblical Canons in History]]
+- [[Moses Wrote the Torah 1300 - 1500 BC]]
+- [[Paul Quotes the Septuagint Part 2]]
+- [[Paul Quotes the Septuagint Part 3]]

@@ -57,3 +57,5 @@ This covenant is fulfilled in **Jesus Christ**, who establishes a new relationsh
 - [[The Relationship Between the Old Covenant and the New Covenant]]
 - [[Abraham's Journey of Faith and His Covenant Relationship With God]]
 - [[Noah Is a Type of Christ]]
+- [[Jeremiah, Acts 2: The Beginning of the Church, Where God Dwells With His People]]
+- [[The Twelve Tribes of Israel]]

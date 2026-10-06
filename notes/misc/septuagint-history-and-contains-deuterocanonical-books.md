@@ -45,3 +45,5 @@ summary: The Septuagint, Dead Sea Scrolls and Masoretic Text compared, and which
 - [[Paul Quotes the Septuagint Part 1]]
 - [[Religious Diversity Within Judaism After Christ]]
 - [[Number of Books in the Bible in Different Denominations]]
+- [[Paul Quotes the Septuagint Part 3]]
+- [[Publishing Companies Stopped Printing Bibles With the Full OT Canon in the 19th Century]]

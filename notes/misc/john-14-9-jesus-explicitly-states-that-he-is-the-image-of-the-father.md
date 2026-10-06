@@ -16,3 +16,4 @@ summary: John 14:9 (KJV) — he that hath seen me hath seen the Father.
 - [[In John 5, Jesus Explains That No One Has Seen the Father Except the One Whom He Has Sent]]
 - [[Icons Are Biblical]]
 - [[Bible: John 17, Jesus Has the Father's Glory]]
+

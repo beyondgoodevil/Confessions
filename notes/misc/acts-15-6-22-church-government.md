@@ -28,3 +28,5 @@ The image is a screenshot of Acts 15:6-22 in the New King James Version, under t
 - [[Jesus Promises That the Holy Spirit Will Guide the Church]]
 - [[Nicene Creed Canon 6: First Among Equals Explanation]]
 - [[By Two or More Witnesses Something Is True]]
+- [[1 Corinthians 5:12-13: God Judges, Not We]]
+- [[Authority in Mark 16]]

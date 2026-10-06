@@ -71,3 +71,7 @@ This distinction is not optional; it is **dogmatic**, affirmed by the **Palamite
 - [[Saint Gregory of Nyssa: Essence Energies]]
 - [[2 Peter 1:3-4: Theosis]]
 - [[The Transfiguration of Jesus on Mount Tabor]]
+- [[Anthropomorphic Language in the Context of God and the Bible]]
+- [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]]
+- [[Jesus Walking on Water: Eternal Act, Essence-Energy Distinction]]
+- [[The Jesus Prayer and Hesychasm]]

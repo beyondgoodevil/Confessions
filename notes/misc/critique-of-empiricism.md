@@ -32,3 +32,4 @@ Sense data provide a limited and contingent form of knowledge, but they cannot a
 - [[Nous]]
 - [[Transcendental Categories Are Required for Science and Knowledge]]
 - [[Is Ought]]
+- [[The Underdetermination of Data Thesis in the Context of Evolution]]

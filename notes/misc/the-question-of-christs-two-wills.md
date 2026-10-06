@@ -21,3 +21,4 @@ Thus, dyothelitism preserves the integrity of Christ's incarnation and His work 
 - [[The Debate Between Maximus the Confessor and Pyrrhus]]
 - [[Canons of the Sixth Ecumenical Council]]
 - [[Action Is Not Proper to the Person]]
+- [[Augustine's Christology: Possible Heresies]]

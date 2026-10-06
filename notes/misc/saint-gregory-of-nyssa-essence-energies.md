@@ -21,3 +21,4 @@ This teaching emphasizes that the process of becoming united with God is an ongo
 - [[St. Gregory of Nyssa's Writings Against Eunomius]]
 - [[Differences Between Gregory’s Dunamis and Thomistic Pure Act]]
 - [[God's Uncreated Energies]]
+- [[The Jesus Prayer and Hesychasm]]

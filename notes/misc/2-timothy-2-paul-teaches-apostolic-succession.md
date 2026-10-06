@@ -28,3 +28,6 @@ The image is a screenshot of 2 Timothy 2:1-13 in the New King James Version, und
 - [[Paul Commands to Keep the Oral Traditions as Well as the Written Ones]]
 - [[Matthew 15, 16: Office of the Keys]]
 - [[Acts 20:29-30: Paul Speaks About Heretical Teachings]]
+- [[Acts 19:1–6: Paul Episcopate]]
+- [[Apostles Have the Authority to Forgive Sins: Book of John]]
+- [[Authority in Mark 16]]

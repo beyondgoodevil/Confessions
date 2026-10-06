@@ -44,3 +44,4 @@ summary: Which Mosaic laws are still kept and which are fulfilled in Christ.
 - [[List of All Covenants]]
 - [[Jesus Established the New Covenant]]
 - [[Romans: Not Justified by Works of the Law]]
+- [[Believers Are Called to Fulfill Their Part of the Covenant: NT Verses]]

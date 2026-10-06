@@ -85,3 +85,4 @@ Economia is the Church’s way of balancing **truth with mercy** and **rigor wit
 - [[EO View on Donatism]]
 - [[Hypostatic Origin vs Economia]]
 - [[Legalistic View on Baptism: Article, Roman Catholic Church]]
+- [[1 Corinthians 5:12-13: God Judges, Not We]]

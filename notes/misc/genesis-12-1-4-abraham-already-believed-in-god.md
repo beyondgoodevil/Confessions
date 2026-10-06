@@ -21,3 +21,4 @@ This shows that Abraham already believed **in** God before Genesis 15:6. The fac
 - [[Genesis 15:6: Abraham Believed the Lord, Not in the Lord + Romans, Paul]]
 - [[Abraham's Journey of Faith and His Covenant Relationship With God]]
 - [[Works Are Required: NT Quotes]]
+

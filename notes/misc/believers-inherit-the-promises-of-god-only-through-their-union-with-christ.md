@@ -29,3 +29,4 @@ These passages affirm that believers inherit the promises of God only through th
 - [[Jesus Fulfills the Covenant Promises Made to Abraham]]
 - [[Christ Fulfills the Promises of the Previous Covenants]]
 - [[Galatians 6:15-16: The Church Is the Israel of God]]
+

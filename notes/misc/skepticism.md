@@ -26,3 +26,4 @@ There are different types of skepticism, such as:
 - [[Solipsism Refuted]]
 - [[Criterion Problem]]
 - [[Why Is It Necessary to Justify One’s Presuppositions]]
+- [[A System That Works Can Not Guarantee True Knowledge]]

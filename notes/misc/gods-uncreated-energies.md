@@ -24,3 +24,7 @@ summary: Ten of God's uncreated energies, each in a line.
 - [[2 Peter 1:3-4: Theosis]]
 - [[The Transfiguration of Jesus on Mount Tabor]]
 - [[1 Timothy 6:16: God Dwells in Unapproachable Light, aka His Uncreated Glory]]
+- [[2 Corinthians 3:18: We Move From Glory to Glory]]
+- [[Bible: John 17, Jesus Has the Father's Glory]]
+- [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]]
+- [[Matthew 17: Jesus Transfigured on the Mount]]

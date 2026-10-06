@@ -53,3 +53,4 @@ summary: Seven New Testament passages on the resurrection of believers.
 - [[1 Corinthians 15:26: The Last Enemy That Will Be Destroyed Is Death]]
 - [[Why Jesus' Death and Resurrection Had to Be So Violent]]
 - [[Verses: The Way We Live Our Lives Is Deeply Connected to Our Experience of the Afterlife]]
+- [[Romans 8:18-24: Creation Corruption]]

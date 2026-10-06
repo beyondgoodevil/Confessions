@@ -34,3 +34,4 @@ The image is a screenshot of the Wikipedia article on **Nous**. This note summar
 - [[Being Made in the Image of God]]
 - [[Essence-Energies Distinction]]
 - [[The Peripatetic Axiom]]
+- [[The Jesus Prayer and Hesychasm]]

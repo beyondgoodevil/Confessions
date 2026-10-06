@@ -32,3 +32,4 @@ To claim that God as pure act requires external actualization misunderstands bot
 - [[First and Second Actuality in Thomism]]
 - [[St. John of Damascus and St. Maximus the Confessor Describe God as Pure Act]]
 - [[Bible: Exodus 3, I AM WHO I AM, Theophany]]
+

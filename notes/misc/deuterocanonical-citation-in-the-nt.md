@@ -44,3 +44,5 @@ summary: New Testament passages that echo six deuterocanonical books.
 - [[Septuagint History and Contains Deuterocanonical Books]]
 - [[Paul Quotes the Septuagint Part 1]]
 - [[Publishing Companies Stopped Printing Bibles With the Full OT Canon in the 19th Century]]
+- [[Books Quoted in the Bible That Aren't in the Bible Part 2]]
+- [[Paul Quotes the Septuagint Part 2]]

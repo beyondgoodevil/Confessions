@@ -25,3 +25,4 @@ It’s a logical inconsistency in reasoning and can undermine fairness and ratio
 - [[Tu Quoque Fallacy]]
 - [[Moving the Goalpost]]
 - [[The Ad Hominem Fallacy]]
+

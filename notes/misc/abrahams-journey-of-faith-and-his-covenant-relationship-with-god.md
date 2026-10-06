@@ -35,3 +35,4 @@ These instances mark significant moments in Abraham's journey of faith and his c
 - [[List of All Covenants]]
 - [[Jesus Fulfills the Covenant Promises Made to Abraham]]
 - [[Types of Christ in the OT]]
+- [[Genesis 15:6: Abraham Believed the Lord, Not in the Lord + Romans, Paul]]

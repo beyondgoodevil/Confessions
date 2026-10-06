@@ -22,3 +22,6 @@ In conclusion, if one were to insist that there is only one nature in each hypos
 - [[Nature and Person Distinction in Christology]]
 - [[Action Is Not Proper to the Person]]
 - [[Jesus Being Fully Divine and Fully Human Is Not a Contradiction]]
+- [[Distinction in the Two Natures of Christ and Salvation 2]]
+- [[Distinction in the Two Natures of Christ and Salvation]]
+- [[Usage of the Term Hypostasis in the NT]]

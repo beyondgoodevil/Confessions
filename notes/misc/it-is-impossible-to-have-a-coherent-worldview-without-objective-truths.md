@@ -42,3 +42,6 @@ Thus, without objective truths, there is no coherence, no meaning, no salvationâ
 - [[What Is a Worldview or Paradigm]]
 - [[Would Aliens Have to Operate on Logic]]
 - [[The Classic Laws of Logic]]
+- [[Is Ought]]
+- [[Solipsism Refuted]]
+- [[The Problem of Evil and Theodicy]]

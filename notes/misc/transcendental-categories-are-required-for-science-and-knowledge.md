@@ -41,3 +41,5 @@ Thus, the transcendental categories are not only **necessary** but also **inesca
 - [[Step-by-Step Breakdown of the TAG Argument]]
 - [[Critique of Empiricism]]
 - [[Would Aliens Have to Operate on Logic]]
+- [[A System That Works Can Not Guarantee True Knowledge]]
+- [[Rationalism, A Priori Knowledge, and Non-Empirical Propositions]]

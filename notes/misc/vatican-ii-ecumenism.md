@@ -37,3 +37,4 @@ Vatican II’s ecumenical reforms significantly influenced the Roman Church’s 
 - [[World Council of Churches and the Rockefeller Foundation]]
 - [[The Anglican Branch Theory]]
 - [[Branch Theory Refuted From the Bible]]
+- [[Swami Vivekananda and John D. Rockefeller Sr.]]

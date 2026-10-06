@@ -56,3 +56,4 @@ In summary, the Cappadocian model is more apophatic and relational, emphasizing 
 - [[Filioque and the Franks]]
 - [[The Trinity]]
 - [[Thomism EXTENDED]]
+- [[St. Photios and the Political Use of the Filioque by the Franks]]

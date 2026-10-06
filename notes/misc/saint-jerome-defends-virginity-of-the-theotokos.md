@@ -32,3 +32,4 @@ Through his writings, Saint Jerome played a vital role in affirming Mary's title
 - [[Saint Jerome Against Anti-Relics Heresies]]
 - [[Council of Ephesus: Nestorianism]]
 - [[The Virgin Birth of Mary: Verses]]
+- [[Thomas Aquinas on the Immaculate Conception]]

@@ -38,3 +38,4 @@ To counter this fallacy, demand **specific definitions, examples, and precise ev
 - [[The Consensus Fallacy]]
 - [[Ad Hoc Claim]]
 - [[The Appeal to Irrelevance Fallacy]]
+

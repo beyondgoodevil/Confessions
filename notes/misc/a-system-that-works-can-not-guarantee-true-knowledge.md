@@ -61,3 +61,4 @@ Pragmatism alone is insufficient for true knowledge because:
 - [[Why Is It Necessary to Justify One’s Presuppositions]]
 - [[Skepticism]]
 - [[To Give an Account for Something or to Justify the Existence of Something]]
+- [[10 Scientific Scandals]]

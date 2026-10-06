@@ -71,3 +71,4 @@ These canons established norms for ecclesiastical governance, addressing issues 
 - [[Council of Nicea: Arianism]]
 - [[Vatican 1 Papal Supremacy Goes Against the Canons of Nicea]]
 - [[Nine Ecumenical Councils and Their Decisions]]
+

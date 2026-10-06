@@ -34,3 +34,5 @@ This concept is central to ecclesiology, especially in discussions on apostolic 
 - [[Matthew 16:18: Jesus Says the Gates of Hell Will Not Prevail Against the Church]]
 - [[Acts 15:6-22: Church Government]]
 - [[2 Timothy 2: Paul Teaches Apostolic Succession]]
+- [[1 Corinthians 5:12-13: God Judges, Not We]]
+- [[Authority in Mark 16]]

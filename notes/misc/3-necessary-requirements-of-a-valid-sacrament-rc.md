@@ -52,3 +52,4 @@ In **Roman Catholic Canon Law**, three essential elements are required for the v
 ## Summary
 
 For a sacrament to be valid according to Roman Catholic law, it must have the **proper matter**, **proper form**, and be administered by a **proper minister** with the **intention** to perform the sacrament in accordance with the Church. Without these three elements, the sacrament is considered invalid.
+- [[Legalistic View on Baptism: Article, Roman Catholic Church]]

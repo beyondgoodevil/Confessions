@@ -39,3 +39,4 @@ A rigid understanding of God as pure act (without the essential relational disti
 - [[Thomism Leads to Eternal Creation]]
 - [[Jesus Walking on Water: Eternal Act, Essence-Energy Distinction]]
 - [[Essence-Energies Distinction]]
+- [[St. John of Damascus and St. Maximus the Confessor Describe God as Pure Act]]

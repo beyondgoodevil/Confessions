@@ -90,3 +90,5 @@ These fulfilled prophecies demonstrate the divine plan of salvation, where Chris
 - [[Jesus Fulfills Prophecies 3]]
 - [[King David Prophesied the Incarnation of the Messiah]]
 - [[The Coming of the Messiah: All Nations Will Be Drawn to Him]]
+- [[Luke 21:20-25]]
+- [[Psalms and Isaiah Speak About Teaching of the Nations]]

@@ -33,3 +33,4 @@ In epistemological debates, this fallacy is often used to silence dissenting vie
 - [[Hasty Generalization Fallacy]]
 - [[Appeal to Generality]]
 - [[The Appeal to Irrelevance Fallacy]]
+- [[10 Scientific Scandals]]

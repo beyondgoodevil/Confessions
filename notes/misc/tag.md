@@ -20,3 +20,7 @@ Thus, the reason we can have knowledge is because the transcendental categories 
 - [[Step-by-Step Breakdown of the TAG Argument]]
 - [[Transcendental Categories Are Required for Science and Knowledge]]
 - [[Why Is the Transcendental Argument Prior to the Teleological, Cosmological, and Other Arguments]]
+- [[A Circular Argument]]
+- [[A System That Works Can Not Guarantee True Knowledge]]
+- [[Solipsism Refuted]]
+- [[The Problem of Evil and Theodicy]]

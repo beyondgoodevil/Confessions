@@ -91,3 +91,5 @@ Eastern Orthodoxy, especially as articulated by St. Gregory Palamas, teaches:
 - [[Essence-Energies Distinction]]
 - [[Emanationism]]
 - [[God as Pure Act: RC vs EO]]
+- [[Anthropomorphic Language in the Context of God and the Bible]]
+- [[Jesus Walking on Water: Eternal Act, Essence-Energy Distinction]]

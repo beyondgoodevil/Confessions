@@ -32,3 +32,4 @@ Eastern Orthodoxy does not rely on **one** single foundation (such as "Scripture
 - [[2 Peter 1:3-4: Theosis]]
 - [[Paul Commands to Keep the Oral Traditions as Well as the Written Ones]]
 - [[Nine Ecumenical Councils and Their Decisions]]
+

@@ -38,3 +38,4 @@ summary: Five conciliar heresies and their parallels in Protestant traditions.
 - [[Council of Ephesus: Nestorianism]]
 - [[The Council of Chalcedon (451 AD)]]
 - [[Iconoclast Emperors]]
+- [[Augustine's Christology: Possible Heresies]]

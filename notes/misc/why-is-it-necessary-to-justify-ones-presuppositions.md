@@ -52,3 +52,5 @@ A worldview that **fails to justify** these fundamental presuppositions **underm
 - [[TAG]]
 - [[Skepticism]]
 - [[The Fallacy of Circular Reasoning]]
+- [[A Circular Argument]]
+- [[A System That Works Can Not Guarantee True Knowledge]]

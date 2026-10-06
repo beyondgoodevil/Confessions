@@ -47,3 +47,4 @@ In summary, **epistemic principles** in philosophy help to explain how knowledge
 - [[The Gettier Problem]]
 - [[The Classic Laws of Logic]]
 - [[Criterion Problem]]
+- [[By Two or More Witnesses Something Is True]]

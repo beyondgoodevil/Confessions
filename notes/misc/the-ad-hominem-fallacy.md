@@ -31,3 +31,4 @@ The **ad hominem** fallacy is logically flawed because **a person's character, b
 - [[The Appeal to Irrelevance Fallacy]]
 - [[Double Standard Fallacy]]
 - [[The Consensus Fallacy]]
+- [[Hasty Generalization Fallacy]]

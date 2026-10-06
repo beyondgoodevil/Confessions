@@ -35,3 +35,4 @@ In summary, the **Cappadocian Fathers** did not articulate the *relation of oppo
 - [[Filioque and the Franks]]
 - [[The Trinity]]
 - [[Hypostatic Origin vs Economia]]
+- [[St. Gregory of Nyssa's Writings Against Eunomius]]

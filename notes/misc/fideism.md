@@ -17,3 +17,4 @@ Fideism has been criticized by many philosophers, especially those in the tradit
 - [[Fideism and Evidentialism]]
 - [[Fideism (Secular)]]
 - [[Mysticism Does Not Contradict Evidentialism or Evidence]]
+

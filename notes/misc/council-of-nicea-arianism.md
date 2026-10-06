@@ -35,3 +35,6 @@ The **First Council of Nicaea**, held in **325 AD**, was the first ecumenical co
 - [[Roman Emperors Who Used Arianism for Political Power]]
 - [[Pre-Nicene Fathers Teach the Trinity 1]]
 - [[St. Gregory of Nyssa's Writings Against Eunomius]]
+- [[9 Ecumenical Councils]]
+- [[Pre-Nicene Fathers Teach the Trinity 2]]
+- [[Pre-Nicene Fathers Teach the Trinity 3]]

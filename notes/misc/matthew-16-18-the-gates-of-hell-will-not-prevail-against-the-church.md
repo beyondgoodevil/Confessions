@@ -7,9 +7,9 @@ summary: Matthew 16:18, with "My church" highlighted.
 source: Matthew 16:18 (New King James Version)
 ---
 
-**Matthew 16:18** (NKJV)
+The image is a screenshot of Matthew 16:18 in the New King James Version, with "My church" highlighted. The NKJV text is copyrighted, so the verse is given in outline.
 
-"And I also say to you that you are Peter, and on this rock I will build ==My church==, and the gates of Hades shall not prevail against it."
+- **16:18** (highlighted) – Jesus tells Peter that he is Peter, that on this rock He will build ==My church==, and that the gates of Hades will not prevail against it.
 
 ## Related
 

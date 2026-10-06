@@ -43,3 +43,4 @@ The Church is Christ's body because believers are united with Him through the Ho
 - [[Jesus Promises That the Holy Spirit Will Guide the Church]]
 - [[Ephesians 2: The World Was Created for the Church]]
 - [[Branch Theory Refuted From the Bible]]
+

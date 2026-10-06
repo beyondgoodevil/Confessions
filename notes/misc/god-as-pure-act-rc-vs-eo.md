@@ -43,3 +43,4 @@ In summary, both traditions affirm God as "pure act," but they differ in focus: 
 - [[Aristotle and God as Pure Act]]
 - [[Thomism]]
 - [[Differences Between Gregory’s Dunamis and Thomistic Pure Act]]
+- [[First and Second Actuality in Thomism]]

@@ -57,3 +57,4 @@ St. Gregory Palamas emphasizes that separation from God's divine energies leads 
 - [[1 Corinthians 15:26: The Last Enemy That Will Be Destroyed Is Death]]
 - [[Essence-Energies Distinction]]
 - [[Doctrine of Recapitulation]]
+- [[The Problem of Evil and Theodicy]]

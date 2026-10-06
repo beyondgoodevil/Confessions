@@ -105,3 +105,5 @@ Reasons for Exclusion:
 - [[The Gospel of Thomas and Why It's Wrong]]
 - [[Septuagint History and Contains Deuterocanonical Books]]
 - [[NT Books Dates When Written]]
+- [[Moses Wrote the Torah 1300 - 1500 BC]]
+- [[Quran Confirms the Bible]]

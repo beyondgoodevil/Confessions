@@ -26,3 +26,6 @@ summary: Galatians 6:15-16 read as identifying the Church with the Israel of God
 - [[The First Followers of Christ Were Jews]]
 - [[Galatians Regarding the Descent or Lineage of Christ]]
 - [[Believers Inherit the Promises of God Only Through Their Union With Christ]]
+- [[Ephesians 2: The World Was Created for the Church]]
+- [[Luke 21:20-25]]
+- [[The Twelve Tribes of Israel]]

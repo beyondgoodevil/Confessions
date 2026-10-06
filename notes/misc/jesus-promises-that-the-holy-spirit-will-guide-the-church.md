@@ -41,3 +41,4 @@ These passages collectively demonstrate Jesus' promise to send the Holy Spirit t
 - [[St. Maximus on the Holy Spirit]]
 - [[Monarchical Trinitarianism]]
 - [[Matthew 16:18: Jesus Says the Gates of Hell Will Not Prevail Against the Church]]
+- [[Jeremiah, Acts 2: The Beginning of the Church, Where God Dwells With His People]]

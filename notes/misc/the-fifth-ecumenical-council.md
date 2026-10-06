@@ -21,3 +21,4 @@ While the Fifth Council did not explicitly address monothelitism, its teachings 
 - [[Canons of the Sixth Ecumenical Council]]
 - [[The Question of Christ's Two Wills]]
 - [[Nestorian Key Beliefs]]
+- [[Thomism and the Originist Problematic]]

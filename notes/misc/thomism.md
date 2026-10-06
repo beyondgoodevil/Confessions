@@ -28,3 +28,5 @@ In summary, **"God is pure act"** in Thomism means that God is fully actualized,
 - [[Thomism and the Originist Problematic]]
 - [[First and Second Actuality in Thomism]]
 - [[Aristotle and God as Pure Act]]
+- [[St. John of Damascus and St. Maximus the Confessor Describe God as Pure Act]]
+- [[Thomas Aquinas on the Immaculate Conception]]

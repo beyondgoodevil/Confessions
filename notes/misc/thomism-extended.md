@@ -81,3 +81,5 @@ At its foundation, Thomism is the synthesis of natural reason and divine revelat
 - [[Thomism Is Perennialism: All Ways Lead to God]]
 - [[The Peripatetic Axiom]]
 - [[Essence-Energies Distinction]]
+- [[First and Second Actuality in Thomism]]
+- [[Thomism and the Originist Problematic]]

@@ -31,3 +31,4 @@ These laws form the foundation of logical reasoning and are **presupposed** in a
 - [[To Give an Account for Something or to Justify the Existence of Something]]
 - [[Would Aliens Have to Operate on Logic]]
 - [[TAG]]
+- [[Jesus Being Fully Divine and Fully Human Is Not a Contradiction]]

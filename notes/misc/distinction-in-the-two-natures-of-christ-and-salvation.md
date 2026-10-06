@@ -23,3 +23,4 @@ In summary, if Christ were reduced to a "Tertium Quid," His ability to save huma
 - [[Doctrine of Recapitulation]]
 - [[The Hypostatic Union]]
 - [[The Council of Chalcedon (451 AD)]]
+

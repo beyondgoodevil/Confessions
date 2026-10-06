@@ -21,3 +21,4 @@ The image is a screenshot of Acts 20:7-9 in the New King James Version, under th
 - [[John 20:30: Not Everything Jesus Did Has Been Written Down]]
 - [[Paul Either Had Access to Additional Oral Traditions of Jesus' Teachings or Through the Inspiration of the Holy Spirit]]
 - [[Acts: Paul Instructs]]
+- [[John 21:20-25: And There Are Also Many Other Things That Jesus Did, Which If They Were Written One by One, I Suppose That Even the World Itself Could Not Contain the Books That Would Be Written]]

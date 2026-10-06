@@ -90,3 +90,7 @@ summary: Date, location and main decisions of each council, from Nicaea (325) to
 - [[Council of Ephesus: Nestorianism]]
 - [[The Council of Chalcedon (451 AD)]]
 - [[The Fifth Ecumenical Council]]
+- [[Laws/Canons That Constantinople Determined]]
+- [[St. Photios and the Political Use of the Filioque by the Franks]]
+- [[The Basis for the Eastern Orthodox (EO) Belief]]
+- [[The Jesus Prayer and Hesychasm]]

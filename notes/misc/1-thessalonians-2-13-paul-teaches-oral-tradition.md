@@ -19,3 +19,4 @@ The image is a screenshot of 1 Thessalonians 2:13 in the New King James Version,
 - [[Paul Commands to Keep the Oral Traditions as Well as the Written Ones]]
 - [[Overview of Where Jesus Refers to Oral Tradition]]
 - [[2 Chronicles 29: Oral Tradition, Because Hezekiah Had No Written Record About How David Had Done Something]]
+

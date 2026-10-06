@@ -31,3 +31,4 @@ This passage underscores the communal and sacramental nature of forgiveness with
 - [[2 Timothy 2: Paul Teaches Apostolic Succession]]
 - [[1 Timothy 4:14: Apostolic Succession by Paul, Laying on of Hands]]
 - [[Authority in Mark 16]]
+

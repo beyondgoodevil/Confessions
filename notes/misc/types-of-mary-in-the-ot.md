@@ -30,3 +30,4 @@ summary: Seven Old Testament types of Mary, from Eve to Hannah.
 - [[Mary as the Ark of the Covenant and as the New Heavenly Jerusalem, Symbolizing the Ultimate Image of the Church: Verses]]
 - [[Virgin Births in the OT]]
 - [[Revelation 12, Genesis 3:15: Mary Prophecy]]
+- [[Symbolism of Aaron’s Rod in Relation to Christ and Mary]]

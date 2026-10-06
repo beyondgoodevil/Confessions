@@ -46,3 +46,5 @@ Gregory’s use of dunamis refers to the active manifestation of God's divine en
 - [[Word-Concept Fallacy: Biblical Examples]]
 - [[Thomism]]
 - [[Essence-Energies Distinction]]
+- [[First and Second Actuality in Thomism]]
+- [[St. John of Damascus and St. Maximus the Confessor Describe God as Pure Act]]

@@ -42,3 +42,4 @@ summary: Ignatius of Antioch, the Didache and Justin Martyr on the Trinity befor
 - [[Pre-Nicene Fathers Teach the Trinity 3]]
 - [[The Trinity]]
 - [[Council of Nicea: Arianism]]
+

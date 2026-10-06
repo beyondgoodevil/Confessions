@@ -102,3 +102,4 @@ The *Gospel of Thomas* and other apocryphal texts were excluded because:
 - [[The Gospel of Thomas and Why It's Wrong]]
 - [[How the Gospel of Matthew Became Canon]]
 - [[Different Biblical Canons in History]]
+- [[Publishing Companies Stopped Printing Bibles With the Full OT Canon in the 19th Century]]

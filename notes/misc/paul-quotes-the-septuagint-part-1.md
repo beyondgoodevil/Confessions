@@ -58,3 +58,4 @@ The **Masoretic Text** is nearly the same but with nuances in **tense** and **em
 - [[Paul Quotes the Septuagint Part 3]]
 - [[History of the Old Testament]]
 - [[Septuagint History and Contains Deuterocanonical Books]]
+

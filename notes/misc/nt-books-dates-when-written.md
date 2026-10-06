@@ -36,3 +36,4 @@ summary: Approximate dates of composition for 23 New Testament books.
 - [[Canon of the Bible: Its History]]
 - [[How the Gospel of Matthew Became Canon]]
 - [[Moses Wrote the Torah 1300 - 1500 BC]]
+

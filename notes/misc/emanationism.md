@@ -17,3 +17,4 @@ Regarding the Trinity, emanationism typically distorts the orthodox understandin
 - [[Thomism and the Originist Problematic]]
 - [[The Trinity]]
 - [[Emergence of Magic and Neoplatonism in the Renaissance]]
+

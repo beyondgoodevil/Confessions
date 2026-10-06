@@ -28,3 +28,5 @@ These theophanies are understood as manifestations of the second person of the T
 - [[Joshua 5:13-15: Joshua Met the Lord]]
 - [[Isaiah 6:1-5: I Saw the Lord]]
 - [[Bible: Exodus 3, I AM WHO I AM, Theophany]]
+- [[Genesis 32:24-30: Jacob Wrestled and Saw God]]
+- [[In John 5, Jesus Explains That No One Has Seen the Father Except the One Whom He Has Sent]]

@@ -18,3 +18,4 @@ The image is a screenshot of 1 Timothy 6:16 in the New King James Version. The N
 - [[The Transfiguration of Jesus on Mount Tabor]]
 - [[Matthew 17: Jesus Transfigured on the Mount]]
 - [[Acts 9:1-9: Paul (Saul) Sees Christ as a Light From Heaven]]
+- [[Bible: John 17, Jesus Has the Father's Glory]]

@@ -64,3 +64,4 @@ Throughout the Book of Acts, Paul consistently instructed those who had either n
 - [[Acts 9:1-9: Paul (Saul) Sees Christ as a Light From Heaven]]
 - [[Acts 20:7-9: Paul Gave a Long Sermon, but the Details of What He Said Are Not Written Down in Scripture]]
 - [[Infant Baptism Verses and Context]]
+

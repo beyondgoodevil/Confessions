@@ -49,3 +49,4 @@ The violence in Christ’s death highlights the profound reality of sin and the 
 - [[Recapitulation Doctrine vs PSA]]
 - [[Penal Substitution Leads to Nestorianism]]
 - [[Death and Corruptibility as Privations of Life and the Ability to Sin]]
+- [[The Problem of Evil and Theodicy]]

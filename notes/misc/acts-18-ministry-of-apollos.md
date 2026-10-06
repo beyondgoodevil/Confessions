@@ -23,3 +23,4 @@ The image is a screenshot of Acts 18:24-28 in the New King James Version, under 
 - [[Acts: Paul Instructs]]
 - [[Paul Commands to Keep the Oral Traditions as Well as the Written Ones]]
 - [[1 Timothy 1:3: Paul Puts Timothy in Charge in Ephesus]]
+

@@ -103,3 +103,4 @@ Athanasius argues from present evidence, not only from past testimony:
 - [[Why Jesus' Death and Resurrection Had to Be So Violent]]
 - [[Recapitulation Doctrine vs PSA]]
 - [[The Problem of Evil and Theodicy]]
+- [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]]

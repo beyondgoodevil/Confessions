@@ -23,3 +23,7 @@ This distinction of Persons does not divide the divine nature, because each Pers
 - [[Pre-Nicene Fathers Teach the Trinity 1]]
 - [[The Distinction Between Relation of Origin and Relation of Opposition]]
 - [[Distinction Does Not Necessitate Separation, Division, or Composition]]
+- [[Jesus Christ Possesses the Same Powers as God the Father Part 2]]
+- [[Pre-Nicene Fathers Teach the Trinity 2]]
+- [[Pre-Nicene Fathers Teach the Trinity 3]]
+- [[St. Cyril of Alexandria on Perichoresis]]

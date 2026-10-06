@@ -46,3 +46,4 @@ Thus, **everyone operates within a worldview**, whether consciously or unconscio
 - [[Comparison of Worldviews]]
 - [[It Is Impossible to Have a Coherent Worldview Without Objective Truths]]
 - [[Evolution Can Be Understood as a Paradigm-Level Theory]]
+- [[The Underdetermination of Data Thesis in the Context of Evolution]]

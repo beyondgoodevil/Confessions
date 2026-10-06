@@ -34,3 +34,4 @@ summary: Nine Old Testament types of the Church, from Eve to the Tabernacle.
 - [[Adam as a Type of Christ and Eve as a Type of the Church]]
 - [[The Twelve Tribes of Israel]]
 - [[Galatians 6:15-16: The Church Is the Israel of God]]
+- [[Ephesians 2: The World Was Created for the Church]]

@@ -29,3 +29,4 @@ summary: The title Theotokos from Ephesus to the Reformation.
 - [[Saint Jerome Defends Virginity of the Theotokos]]
 - [[Key Teachings of the Council of Ephesus]]
 - [[Mary the Most Pure Queen of Heaven Next to Christ]]
+- [[Thomas Aquinas on the Immaculate Conception]]

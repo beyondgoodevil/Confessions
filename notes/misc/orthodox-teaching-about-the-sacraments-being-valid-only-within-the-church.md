@@ -24,3 +24,4 @@ summary: Four points on why the sacraments are efficacious only within the Churc
 - [[EO View on Donatism]]
 - [[St. Maximus on the Holy Spirit]]
 - [[3 Necessary Requirements of a Valid Sacrament (RC)]]
+- [[1 Corinthians 5:12-13: God Judges, Not We]]

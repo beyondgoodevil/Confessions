@@ -42,3 +42,4 @@ summary: Old and New Testament book counts for Catholic, Orthodox, Protestant, A
 - **Total Books:** 66
     - **Old Testament:** 39
     - **New Testament:** 27
+- [[Publishing Companies Stopped Printing Bibles With the Full OT Canon in the 19th Century]]

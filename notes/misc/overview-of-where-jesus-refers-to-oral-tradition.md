@@ -42,3 +42,4 @@ This verse suggests that much of Jesus' teachings and actions were transmitted o
 - [[John 20:30: Not Everything Jesus Did Has Been Written Down]]
 - [[1 Thessalonians 2:13: Paul Teaches Oral Tradition]]
 - [[2 Chronicles 29: Oral Tradition, Because Hezekiah Had No Written Record About How David Had Done Something]]
+- [[John 21:20-25: And There Are Also Many Other Things That Jesus Did, Which If They Were Written One by One, I Suppose That Even the World Itself Could Not Contain the Books That Would Be Written]]

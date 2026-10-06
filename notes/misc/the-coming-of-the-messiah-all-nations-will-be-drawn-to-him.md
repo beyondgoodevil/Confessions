@@ -28,3 +28,4 @@ This verse, quoting the prophet Joel, emphasizes the inclusivity of salvation, e
 - [[Jesus Fulfills Prophecies]]
 - [[The First Followers of Christ Were Jews]]
 - [[Galatians 6:15-16: The Church Is the Israel of God]]
+

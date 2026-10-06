@@ -23,3 +23,4 @@ summary: 2 Chronicles 29:1-19 — Hezekiah did according to all that David had d
 **17** Now they began to \[e\]sanctify on the first *day* of the first month, and on the eighth day of the month they came to the vestibule of the LORD. So they sanctified the house of the LORD in eight days, and on the sixteenth day of the first month they finished.
 
 **18** Then they went in to King Hezekiah and said, "We have cleansed all the house of the LORD, the altar of burnt offerings with all its articles, and the table of the showbread with all its articles. **19** Moreover all the articles which King Ahaz in his reign had cast aside in his transgression we have prepared and \[f\]sanctified; and there they *are*, before the altar of the LORD."
+- [[Books Quoted in the Bible That Aren't in the Bible Part 1]]

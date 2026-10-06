@@ -22,3 +22,7 @@ This council was convened to address controversies surrounding the teachings of 
 - [[Nine Ecumenical Councils and Their Decisions]]
 - [[The Fifth Ecumenical Council]]
 - [[Council of Ephesus: Nestorianism]]
+- [[9 Ecumenical Councils]]
+- [[Distinction in the Two Natures of Christ and Salvation 2]]
+- [[Distinction in the Two Natures of Christ and Salvation]]
+- [[Jesus Being Fully Divine and Fully Human Is Not a Contradiction]]

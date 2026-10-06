@@ -54,3 +54,4 @@ The first two centuries AD were marked by **religious diversity within Judaism**
 - [[History of the Old Testament]]
 - [[The First Followers of Christ Were Jews]]
 - [[Publishing Companies Stopped Printing Bibles With the Full OT Canon in the 19th Century]]
+- [[Luke 21:20-25]]

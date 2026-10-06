@@ -49,3 +49,4 @@ Thus, the **Council of Nicaea did not invent the Trinity**; it merely defended w
 - [[Pre-Nicene Fathers Teach the Trinity 2]]
 - [[The Trinity]]
 - [[Council of Nicea: Arianism]]
+

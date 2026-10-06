@@ -24,3 +24,4 @@ In summary, the underdetermination thesis in the context of evolution suggests t
 - [[What Is a Worldview or Paradigm]]
 - [[Critique of Empiricism]]
 - [[10 Scientific Scandals]]
+

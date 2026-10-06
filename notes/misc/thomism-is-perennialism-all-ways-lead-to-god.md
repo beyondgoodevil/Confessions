@@ -29,3 +29,5 @@ Because **absolute divine simplicity** asserts that there are no distinctions wi
 - [[Thomism Leads to Eternal Creation]]
 - [[Neoplatonic Idea of Divine Simplicity]]
 - [[Essence-Energies Distinction]]
+- [[John 14:6: Jesus Is the Truth]]
+- [[Swami Vivekananda and John D. Rockefeller Sr.]]

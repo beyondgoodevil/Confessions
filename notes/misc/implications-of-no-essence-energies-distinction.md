@@ -28,3 +28,4 @@ In summary, if God's essence were the same as His energies, it would imply that 
 - [[Thomism Leads to Eternal Creation]]
 - [[God as Pure Act: RC vs EO]]
 - [[Saint Gregory of Nyssa: Essence Energies]]
+- [[Jesus Walking on Water: Eternal Act, Essence-Energy Distinction]]

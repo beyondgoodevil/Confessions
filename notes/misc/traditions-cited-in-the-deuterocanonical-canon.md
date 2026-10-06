@@ -53,3 +53,4 @@ summary: Eight deuterocanonical passages and the traditions they support, such a
 - [[Revelation 5:8 Supports the Doctrine of the Intercession of the Saints]]
 - [[Intercession of Saints: Psalms and Heavenly Worship]]
 - [[Books Quoted in the Bible That Aren't in the Bible Part 1]]
+- [[Books Quoted in the Bible That Aren't in the Bible Part 2]]

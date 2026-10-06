@@ -54,3 +54,4 @@ Paul uses the **Greek word for “tree” (ξύλον)** matching the **LXX**, w
 - [[Paul Quotes the Septuagint Part 3]]
 - [[History of the Old Testament]]
 - [[Deuterocanonical Citation in the NT]]
+

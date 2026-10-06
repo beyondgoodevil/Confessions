@@ -85,3 +85,4 @@ These instances affirm the Church’s belief in Christ’s eternal existence and
 - [[Joshua 5:13-15: Joshua Met the Lord]]
 - [[Judges 13:2-22: Samson's Parents Have Seen God]]
 - [[Bible: Exodus 3, I AM WHO I AM, Theophany]]
+- [[Genesis 32:24-30: Jacob Wrestled and Saw God]]

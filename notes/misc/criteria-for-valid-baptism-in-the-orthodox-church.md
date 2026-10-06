@@ -72,3 +72,5 @@ The Orthodox Church evaluates baptism based on its **form, matter, intent, and c
 - [[Orthodox Teaching About the Sacraments Being Valid Only Within the Canonical Boundaries of the Church]]
 - [[Infant Baptism Verses and Context]]
 - [[Legalistic View on Baptism: Article, Roman Catholic Church]]
+- [[1 Peter 3:20-21: Baptism Is Like the Ark]]
+- [[Acts 19:1–6: Paul Episcopate]]

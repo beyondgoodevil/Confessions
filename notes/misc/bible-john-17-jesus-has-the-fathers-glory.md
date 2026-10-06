@@ -23,3 +23,4 @@ The image is a screenshot of John 17:1-5 in the New King James Version, under th
 - [[John 14:9: Jesus Explicitly States That He Is the Image of the Father]]
 - [[God's Uncreated Energies]]
 - [[1 Timothy 6:16: God Dwells in Unapproachable Light, aka His Uncreated Glory]]
+- [[Jesus Christ Possesses the Same Powers as God the Father Part 2]]

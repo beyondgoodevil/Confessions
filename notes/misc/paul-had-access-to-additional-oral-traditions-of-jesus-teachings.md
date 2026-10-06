@@ -47,3 +47,4 @@ Paul says:
 - [[Overview of Where Jesus Refers to Oral Tradition]]
 - [[John 20:30: Not Everything Jesus Did Has Been Written Down]]
 - [[1 Thessalonians 2:13: Paul Teaches Oral Tradition]]
+- [[Acts 20:7-9: Paul Gave a Long Sermon, but the Details of What He Said Are Not Written Down in Scripture]]

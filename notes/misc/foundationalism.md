@@ -28,3 +28,4 @@ Foundationalism is an epistemological theory that holds that knowledge and justi
 - [[Epistemology]]
 - [[Why Is It Necessary to Justify One’s Presuppositions]]
 - [[Skepticism]]
+- [[A Circular Argument]]

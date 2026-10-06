@@ -31,3 +31,4 @@ summary: The papacy and secular rulers in the Carolingian era and the Investitur
 - [[The Gregorian Reforms]]
 - [[St. Photios and the Political Use of the Filioque by the Franks]]
 - [[Filioque and the Franks]]
+- [[Roman Emperors Who Used Arianism for Political Power]]

@@ -38,3 +38,4 @@ Donatism taught that the validity of sacraments depended on the moral purity of 
 - [[Augustinian View on Baptism]]
 - [[3 Necessary Requirements of a Valid Sacrament (RC)]]
 - [[Orthodox Teaching About the Sacraments Being Valid Only Within the Canonical Boundaries of the Church]]
+- [[Legalistic View on Baptism: Article, Roman Catholic Church]]

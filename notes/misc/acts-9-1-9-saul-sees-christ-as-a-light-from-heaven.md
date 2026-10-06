@@ -23,3 +23,4 @@ Then the Lord said, "I am Jesus, whom you are persecuting. \[a\]It *is* hard for
 Then the Lord *said* to him, "Arise and go into the city, and you will be told what you must do."
 
 **7** And the men who journeyed with him stood speechless, hearing a voice but seeing no one. **8** Then Saul arose from the ground, and when his eyes were opened he saw no one. But they led him by the hand and brought *him* into Damascus. **9** And he was three days without sight, and neither ate nor drank.
+- [[Matthew 17: Jesus Transfigured on the Mount]]

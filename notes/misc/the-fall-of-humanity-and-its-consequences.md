@@ -61,3 +61,6 @@ summary: Eight passages on the Fall, sin, death and separation from God.
 - [[Genesis 3:1-6: Eve Eats the Fruit]]
 - [[Death and Corruptibility as Privations of Life and the Ability to Sin]]
 - [[Christ as the New Adam: Verses]]
+- [[Jeremiah 17:9 + 7:24: Corruption of Faith Due to Human Opinion]]
+- [[Romans 8:18-24: Creation Corruption]]
+- [[The Problem of Evil and Theodicy]]

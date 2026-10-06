@@ -27,3 +27,4 @@ In summary, the name **Orthodoxy** means "correct belief" and encapsulates the c
 - [[The Basis for the Eastern Orthodox (EO) Belief]]
 - [[EO Continuity With OT]]
 - [[Nine Ecumenical Councils and Their Decisions]]
+

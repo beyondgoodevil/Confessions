@@ -37,3 +37,4 @@ summary: The papacy and secular rulers in the High Middle Ages and the Renaissan
 - [[Popes Were Used as a Political Tool Throughout History 3]]
 - [[The Gregorian Reforms]]
 - [[Emergence of Magic and Neoplatonism in the Renaissance]]
+

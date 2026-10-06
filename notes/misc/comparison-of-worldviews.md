@@ -52,3 +52,4 @@ In conclusion, transcendental argumentation does not just argue that God is **li
 - [[TAG: Logic and Its Justification in Other World Views - A Refutation]]
 - [[Step-by-Step Breakdown of the TAG Argument]]
 - [[Quran Confirms the Bible]]
+

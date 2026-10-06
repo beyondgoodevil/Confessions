@@ -31,3 +31,5 @@ summary: The Book of Jashar, Nathan the Prophet, Ahijah the Shilonite and Iddo t
   *"And the rest of the acts of Abijah, his ways, and his sayings are written in the story of the prophet Iddo."*
 
 These books are historical sources referenced by the biblical writers, but they are not part of the standard canonical scriptures in any tradition.
+- [[Books Quoted in the Bible That Aren't in the Bible Part 1]]
+- [[Books Quoted in the Bible That Aren't in the Bible Part 2]]

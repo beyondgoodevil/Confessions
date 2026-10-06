@@ -19,3 +19,5 @@ Nestorians hold the following key beliefs:
 - [[The Third Letter of Cyril to Nestorius]]
 - [[Penal Substitution Leads to Nestorianism]]
 - [[Historical Position on Mary as Mother of God]]
+- [[Augustine's Christology: Possible Heresies]]
+- [[St. John of Damascus on Inhypostatisation of the Human Nature of Christ]]

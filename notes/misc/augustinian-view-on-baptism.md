@@ -39,3 +39,4 @@ For Augustine, the personal belief of the minister—including whether they are 
 - [[Criteria for Valid Baptism in the Orthodox Church]]
 - [[3 Necessary Requirements of a Valid Sacrament (RC)]]
 - [[Augustine's Christology: Possible Heresies]]
+- [[Legalistic View on Baptism: Article, Roman Catholic Church]]

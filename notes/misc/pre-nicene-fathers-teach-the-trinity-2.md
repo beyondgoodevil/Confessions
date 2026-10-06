@@ -34,3 +34,4 @@ summary: Irenaeus and Tertullian on the Trinity before Nicaea.
 - [[Pre-Nicene Fathers Teach the Trinity 3]]
 - [[The Trinity]]
 - [[Council of Nicea: Arianism]]
+

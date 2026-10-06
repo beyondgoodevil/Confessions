@@ -42,3 +42,4 @@ summary: Verses on Christ's omnipotence, omniscience and omnipresence.
 - [[Pre-Nicene Fathers Teach the Trinity 1]]
 - [[Council of Nicea: Arianism]]
 - [[The Trinity]]
+- [[Bible: John 17, Jesus Has the Father's Glory]]

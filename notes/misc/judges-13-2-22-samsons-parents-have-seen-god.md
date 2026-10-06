@@ -27,3 +27,4 @@ The image is a screenshot of Judges 13:2-22 in the New King James Version, with 
 - [[Joshua 5:13-15: Joshua Met the Lord]]
 - [[Genesis 32:24-30: Jacob Wrestled and Saw God]]
 - [[Jesus in the OT as Theophany]]
+

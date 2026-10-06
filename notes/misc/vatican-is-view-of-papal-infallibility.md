@@ -18,3 +18,4 @@ summary: The three conditions under which Vatican I (1870) holds the Pope to be 
 - [[Nicene Creed Canon 6: First Among Equals Explanation]]
 - [[The Gregorian Reforms]]
 - [[Popes Were Used as a Political Tool Throughout History 1]]
+- [[Popes Were Used as a Political Tool Throughout History 3]]

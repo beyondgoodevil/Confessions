@@ -32,3 +32,4 @@ It comes from sports, especially football (soccer or American), where moving the
 - [[Double Standard Fallacy]]
 - [[Tu Quoque Fallacy]]
 - [[The Ad Hominem Fallacy]]
+- [[Double Standard Fallacy 2]]

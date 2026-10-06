@@ -54,3 +54,4 @@ summary: Seven New Testament passages on judgment according to works.
 - [[Romans: Not Justified by Works of the Law]]
 - [[Sola Fide Still Requires Works: Mental Work]]
 - [[Resurrection Verses]]
+- [[Believers Are Called to Fulfill Their Part of the Covenant: NT Verses]]

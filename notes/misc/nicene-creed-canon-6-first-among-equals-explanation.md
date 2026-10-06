@@ -19,3 +19,4 @@ This canon set the precedent for how authority was distributed among the early b
 - [[Vatican 1 Papal Supremacy Goes Against the Canons of Nicea]]
 - [[Vatican I's View of Papal Infallibility]]
 - [[Acts 15:6-22: Church Government]]
+- [[Laws/Canons That Constantinople Determined]]

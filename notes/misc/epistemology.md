@@ -41,3 +41,5 @@ A person’s **epistemology** determines how they evaluate **truth claims**. In 
 - [[The Gettier Problem]]
 - [[Foundationalism]]
 - [[Skepticism]]
+- [[Is Ought]]
+- [[Rationalism, A Priori Knowledge, and Non-Empirical Propositions]]

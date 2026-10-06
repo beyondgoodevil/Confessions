@@ -13,3 +13,4 @@ summary: Historical continuity, patristic witness, manuscripts, councils and lit
 5. **Extensive Use in Liturgy:** Many of the books in the broader canon, including the Deuterocanonical ones, were used extensively in early Christian liturgy, prayers, and doctrine. This widespread use reflects their early and consistent acceptance as inspired scripture.
 
 Together, these points underline how the ancient canon used by early Christians reflects the authentic tradition, based on continuous usage, preservation, and the authority of the early Church.
+- [[Publishing Companies Stopped Printing Bibles With the Full OT Canon in the 19th Century]]

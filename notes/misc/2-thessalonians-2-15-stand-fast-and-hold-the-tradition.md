@@ -17,3 +17,4 @@ The image is a screenshot of 2 Thessalonians 2:15 in the New King James Version.
 - [[Paul Commands to Keep the Oral Traditions as Well as the Written Ones]]
 - [[1 Thessalonians 2:13: Paul Teaches Oral Tradition]]
 - [[Overview of Where Jesus Refers to Oral Tradition]]
+- [[1 Thessalonians 2:13: The Word of God Which You Heard From Us, You Welcomed It Not as the Word of Men, but as It Is in Truth, the Word of God]]

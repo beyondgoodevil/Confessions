@@ -37,3 +37,4 @@ While **hypostatic origin** focuses on how the Persons of the Trinity relate to 
 - [[Economia]]
 - [[EO vs RC Trinity]]
 - [[Filioque and the Franks]]
+- [[Anthropomorphic Language in the Context of God and the Bible]]

@@ -41,3 +41,5 @@ Tu quoque (Latin for "you too") is a logical fallacy in which someone dismisses 
 - [[Double Standard Fallacy]]
 - [[The Appeal to Irrelevance Fallacy]]
 - [[Moving the Goalpost]]
+- [[Double Standard Fallacy 2]]
+- [[Hasty Generalization Fallacy]]

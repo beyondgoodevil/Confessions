@@ -14,3 +14,5 @@ Relativism is wrong because it undermines logic and truth itself. If all truths 
 - [[Skepticism]]
 - [[Would Aliens Have to Operate on Logic]]
 - [[The Classic Laws of Logic]]
+- [[John 14:6: Jesus Is the Truth]]
+- [[Solipsism Refuted]]

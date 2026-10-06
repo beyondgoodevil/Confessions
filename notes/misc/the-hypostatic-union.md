@@ -46,3 +46,7 @@ If one denies the distinction between **nature and person**, it leads to serious
 - [[Why Christ's Two Natures Can Not Mix]]
 - [[Nestorian Key Beliefs]]
 - [[The Third Letter of Cyril to Nestorius]]
+- [[Augustine's Christology: Possible Heresies]]
+- [[Distinction in the Two Natures of Christ and Salvation 2]]
+- [[Distinction in the Two Natures of Christ and Salvation]]
+- [[Jesus Being Fully Divine and Fully Human Is Not a Contradiction]]

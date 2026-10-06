@@ -51,3 +51,5 @@ Thus, **EO mysticism does not contradict evidentialism**; it merely **goes beyon
 - [[TAG]]
 - [[God's Uncreated Energies]]
 - [[Nous]]
+- [[Fideism (Secular)]]
+- [[The Jesus Prayer and Hesychasm]]

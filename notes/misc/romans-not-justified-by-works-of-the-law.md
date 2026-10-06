@@ -32,3 +32,4 @@ summary: Five Pauline verses on justification apart from works "of the law".
 - [[Sola Fide Still Requires Works: Mental Work]]
 - [[Word-Concept Fallacy: Biblical Examples]]
 - [[Laws From the Mosaic Covenant Are Still Kept and Fulfilled in the New Covenant]]
+- [[Genesis 15:6: Abraham Believed the Lord, Not in the Lord + Romans, Paul]]

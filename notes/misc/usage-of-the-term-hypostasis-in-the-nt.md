@@ -28,3 +28,4 @@ While **hypostasis** is not used extensively in the New Testament, its appearanc
 - [[Nature and Person Distinction in Christology]]
 - [[St. John of Damascus on Inhypostatisation of the Human Nature of Christ]]
 - [[Why Christ's Two Natures Can Not Mix]]
+

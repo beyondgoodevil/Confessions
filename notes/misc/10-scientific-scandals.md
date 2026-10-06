@@ -27,3 +27,4 @@ These scandals show that scientific consensus doesn't always guarantee truth and
 - [[The Underdetermination of Data Thesis in the Context of Evolution]]
 - [[Evolution Can Be Understood as a Paradigm-Level Theory]]
 - [[A System That Works Can Not Guarantee True Knowledge]]
+

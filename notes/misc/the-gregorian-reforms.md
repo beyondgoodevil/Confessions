@@ -48,3 +48,4 @@ The **Gregorian Reforms**, initiated by **Pope Gregory VII** in the 11th century
 - [[Vatican I's View of Papal Infallibility]]
 - [[Vatican 1 Papal Supremacy Goes Against the Canons of Nicea]]
 - [[Filioque and the Franks]]
+- [[Popes Were Used as a Political Tool Throughout History 3]]

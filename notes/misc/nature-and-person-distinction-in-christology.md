@@ -30,3 +30,6 @@ In summary, the **nature** performs the acts corresponding to it (divine acts ar
 - [[Will Is Proper to Nature]]
 - [[Why Christ's Two Natures Can Not Mix]]
 - [[Distinction in the Two Natures of Christ and Salvation]]
+- [[Jesus Being Fully Divine and Fully Human Is Not a Contradiction]]
+- [[St. John of Damascus on Inhypostatisation of the Human Nature of Christ]]
+- [[Usage of the Term Hypostasis in the NT]]

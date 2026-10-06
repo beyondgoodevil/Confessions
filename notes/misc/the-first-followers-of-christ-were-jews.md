@@ -30,3 +30,4 @@ Thus, scripture consistently demonstrates that Jesus’ first followers were Jew
 - [[EO Continuity With OT]]
 - [[Galatians 6:15-16: The Church Is the Israel of God]]
 - [[The Coming of the Messiah: All Nations Will Be Drawn to Him]]
+- [[Psalms and Isaiah Speak About Teaching of the Nations]]

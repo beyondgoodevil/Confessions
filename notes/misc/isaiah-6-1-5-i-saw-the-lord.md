@@ -23,3 +23,4 @@ The image is a screenshot of Isaiah 6:1-5 in the New King James Version, under t
 - [[Theophanies]]
 - [[In John 5, Jesus Explains That No One Has Seen the Father Except the One Whom He Has Sent]]
 - [[Old Testament Foreshadowings of Heavenly Worship]]
+

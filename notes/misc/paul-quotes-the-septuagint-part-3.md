@@ -34,3 +34,4 @@ This reinforces the Orthodox position that the **Septuagint is the true Old Test
 - [[History of the Old Testament]]
 - [[Septuagint History and Contains Deuterocanonical Books]]
 - [[1 Corinthians 15:26: The Last Enemy That Will Be Destroyed Is Death]]
+

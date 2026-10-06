@@ -18,3 +18,4 @@ summary: Acts 20:29-30 (KJV) — Paul's warning of wolves and of false teachers 
 - [[2 Timothy 2: Paul Teaches Apostolic Succession]]
 - [[Paul Commands to Keep the Oral Traditions as Well as the Written Ones]]
 - [[Protestant Heresy Falls Into Heresies Dealt With in the Ecumenical Councils]]
+- [[1 Timothy 1:3: Paul Puts Timothy in Charge in Ephesus]]

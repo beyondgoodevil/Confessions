@@ -43,3 +43,4 @@ The Council of Ephesus, convened in 431 AD, was the third Ecumenical Council. It
 - [[The Third Letter of Cyril to Nestorius]]
 - [[Historical Position on Mary as Mother of God]]
 - [[Nine Ecumenical Councils and Their Decisions]]
+- [[9 Ecumenical Councils]]

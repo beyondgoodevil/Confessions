@@ -107,3 +107,4 @@ The tradition, following writers such as **St. Theophan the Recluse**, commonly 
 - [[Saint Gregory of Nyssa: Essence Energies]]
 - [[Nine Ecumenical Councils and Their Decisions]]
 - [[2 Peter 1:3-4: Theosis]]
+- [[9 Ecumenical Councils]]

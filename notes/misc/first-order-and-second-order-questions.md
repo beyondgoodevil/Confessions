@@ -59,3 +59,4 @@ Here, second-order questions are not concerned with the immediate answer to the 
 - [[Epistemology]]
 - [[Prior Assumptions and Presuppositions]]
 - [[To Give an Account for Something or to Justify the Existence of Something]]
+- [[Is Ought]]
