@@ -9,7 +9,7 @@ source: "Thinking Being: Introduction to Metaphysics in the Classical Tradition 
 aliases: [Unmoved Mover]
 ---
 
-Reading notes on **Perl**, *Thinking Being*, ch. 3, sections "The Priority of Act" and "The Unmoved Mover" (pp. 89–97). Texts: *Metaphysics* IX (Theta) 8 and XII (Lambda) 6–9. Last section is mine.
+*Metaphysics* IX (Theta) 8 and XII (Lambda) 6–9. Aristotle's first cause, which moves everything without being moved. Notes on how Perl reads this. Last section is mine.
 
 ## 1. Act and Potency
 

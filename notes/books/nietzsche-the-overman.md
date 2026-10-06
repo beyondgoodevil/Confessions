@@ -9,7 +9,7 @@ source: "Oxford Handbook of Nietzsche (2013), ch. 20; New Cambridge Companion to
 aliases: [The Overman, Übermensch]
 ---
 
-Reading notes on the *Übermensch*. Main source is **Havas**, "The Overman" (*Oxford Handbook*, ch. 20). Added later: **Johnson** on *Zarathustra* (*New Cambridge Companion*, ch. 7) and bits of **Lampert** (*Companion to Friedrich Nietzsche*, ch. 7), who translates it "Overhuman".
+Notes on the *Übermensch*. Mostly Havas, with Johnson and Lampert (who translates it "Overhuman") for what happens to the idea inside *Zarathustra*.
 
 N. = Nietzsche, Z = *Thus Spoke Zarathustra*, BGE = *Beyond Good and Evil*, GM = *Genealogy of Morals*.
 

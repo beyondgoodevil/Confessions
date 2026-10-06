@@ -8,11 +8,7 @@ author: Jessica N. Berry; James I. Porter
 source: "Oxford Handbook of Nietzsche (2013), ch. 4; New Cambridge Companion to Nietzsche (2019), chs. 2 and 13"
 ---
 
-Reading notes. N. was a classics professor (Basel, appointed 1869 at 24, left about ten years later) before he was a philosopher, and the Greeks never go away.
-
-- **Berry**, "Nietzsche and the Greeks" (*Oxford Handbook*, ch. 4): what he took from them.
-- **Porter**, "Nietzsche's Untimely Antiquity" (*New Cambridge Companion*, ch. 2): what he *did* with them.
-- A bit from **Hatab** (same volume, ch. 13) on the contest.
+N. was a classics professor (Basel, appointed 1869 at 24, left about ten years later) before he was a philosopher, and the Greeks never go away. Berry is about what he took from them, Porter about what he *did* with them, Hatab about the contest.
 
 N. = Nietzsche, GM = *Genealogy of Morals*, BT = *Birth of Tragedy*.
 

@@ -8,7 +8,7 @@ author: Eric D. Perl
 source: "Thinking Being: Introduction to Metaphysics in the Classical Tradition (Brill, 2014), ch. 2, pp. 54–60"
 ---
 
-Reading notes on **Perl**, *Thinking Being*, ch. 2, the section "The Good" (pp. 54–60). Texts: *Republic* VI 506–509, some *Philebus*. Last section is mine, not Perl's.
+*Republic* VI 506–509, with some *Philebus*. Plato puts one principle above all the forms, the Good. Notes on how Perl reads this. Last section is mine.
 
 ## 1. The Sun Analogy
 

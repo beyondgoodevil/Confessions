@@ -9,11 +9,7 @@ source: "Oxford Handbook of Nietzsche (2013), ch. 28; New Cambridge Companion to
 aliases: [Eternal Recurrence, Eternal Return]
 ---
 
-Reading notes. The idea: your life, and everything else, comes back exactly the same, forever. The fight in the literature is over whether N. *believed* that.
-
-- **Loeb**, "Eternal Recurrence" (*Oxford Handbook*, ch. 28): yes, literally.
-- **Johnson**, "Zarathustra: Nietzsche's Rendezvous with Eternity" (*New Cambridge Companion*, ch. 7): no, and the text itself tells you so.
-- Also used: **Hatab** (same volume, ch. 13) and **Lampert** (Camden House *Companion*, ch. 7).
+The idea: your life, and everything else, comes back exactly the same, forever. The fight in the literature is over whether N. *believed* that. Loeb says yes, literally. Johnson says no, and that the text itself tells you so. Hatab and Lampert come in on the side.
 
 N. = Nietzsche, ER = eternal recurrence, GS = *Gay Science*, Z = *Zarathustra*, EH = *Ecce Homo*.
 

@@ -9,11 +9,7 @@ source: "Oxford Handbook of Nietzsche (2013), chs. 23 and 29; New Cambridge Comp
 aliases: [Will to Power]
 ---
 
-Reading notes on *Wille zur Macht*. Three chapters, and they don't agree with each other, which is sort of the point:
-
-- **Golomb**, "Will to Power: Does It Lead to the 'Coldest of All Cold Monsters'?" (*Oxford Handbook*, ch. 23). Keeps it psychological.
-- **Poellner**, "Nietzsche's Metaphysical Sketches: Causality and Will to Power" (*Oxford Handbook*, ch. 29). Takes the metaphysics seriously.
-- **Hatab**, "The Will to Power" (*New Cambridge Companion*, ch. 13). Neither: reads it as a field of resistances.
+Notes on *Wille zur Macht*. Three readings that don't agree with each other, which is sort of the point: Golomb keeps it psychological, Poellner takes the metaphysics seriously, Hatab does neither and reads it as a field of resistances.
 
 Abbreviations: N. = Nietzsche, WtP = will to power, WP = the book *The Will to Power*, BGE = *Beyond Good and Evil*, GM = *Genealogy*, GS = *Gay Science*, Z = *Zarathustra*, HAH = *Human, All Too Human*.
 

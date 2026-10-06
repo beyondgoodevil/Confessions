@@ -8,7 +8,7 @@ author: Eric D. Perl
 source: "Thinking Being: Introduction to Metaphysics in the Classical Tradition (Brill, 2014), ch. 2, pp. 61–65"
 ---
 
-Reading notes on **Perl**, *Thinking Being*, ch. 2, "The Forms and the Demiurge" (pp. 61–65). Text is the *Timaeus* (27d–30c or so). Last section is mine.
+In the *Timaeus* (27d–30c or so) Plato describes the world as the work of a divine craftsman who makes it by looking to an eternal model. Notes on how Perl reads this. Last section is mine.
 
 ## 1. The Story
 
