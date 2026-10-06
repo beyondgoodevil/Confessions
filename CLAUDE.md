@@ -16,6 +16,16 @@ This repository is a personal notebook published with GitHub Pages. Every Markdo
 
 Sections are defined in `config.json` (strict JSON). `templates/` holds Obsidian templates and is not published.
 
+## The site
+
+The site is laid out as a commonplace book: a title page (`title`, `subtitle`, `author`, `epigraph` and `welcome` in `config.json`), the guides grouped as *Loci communes* (groups come from the H2 headings of the guide that lists the other guides, i.e. Start Here; set `"map": "G-0011"` to name it explicitly), and indices at `#/indices`:
+
+- **Index of Scripture** (`#/scripture`): references such as `John 17:5`, `1 Cor. 15:26`, `Psalm 13(14):3` or `Genesis 37–50` are found in note titles and text automatically. Book names and their order (Septuagint order for the Old Testament) live in `assets/loci.js`.
+- **Index of Authors** (`#/authors`): a curated, dated list in `assets/loci.js`. To index another thinker, add `{ name, dates, era, match: [regex strings] }` there. Names in `author`, `lecturer`, `creator`, `host` and `guest` front matter are added automatically.
+- **Index of Subjects** (`#/tags`): the tags.
+
+Guides are reading orders: every note a guide links to (outside its "Other Guides" heading) gets previous/next links for that guide. Links inside `[[…]]` are never counted by the indices; only a note's own prose is.
+
 ## Note format
 
 YAML front matter, then Markdown. Fields by section (all optional except that a title is strongly preferred):
@@ -36,7 +46,7 @@ Links: `[[Note title]]`, `[[B-0003]]`, `[[Title|shown text]]`, `[[Title#Heading]
 - Never invent an `id`. Leave it out and run `node tools/stamp.mjs` (or let the workflow do it). Never change an existing `id`, and never reuse one.
 - Never invent metadata. Fill `author`, `show`, `course`, etc. only from what the note itself states (or the user tells you). If unsure, leave the field out.
 - Don't rewrite the body of a user's note unless asked. Adding front matter is fine.
-- Don't edit `assets/app.js`, `assets/style.css` or the workflow unless the user asks for a site change.
+- Don't edit `assets/app.js`, `assets/style.css`, `assets/loci.js` or the workflow unless the user asks for a site change. `write.html`, `assets/writer.js` and `assets/writer.css` are the user's editor: leave its behaviour alone. It reuses `app.js` as a library (`window.Commonplace`), so keep that API working.
 - Keep `config.json` valid JSON; run `node tools/build.mjs` after touching it.
 
 ## Importing existing notes (the usual request)
