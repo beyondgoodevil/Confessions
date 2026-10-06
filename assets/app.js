@@ -196,6 +196,8 @@ function citeHTML(n) {
   const k = kindOf(n), t = `<em>${esc(n.title)}</em>`, y = str(f.year);
   if (k === 'book') {
     const a = str(f.author ?? f.authors), pub = str(f.publisher);
+    // notes on a chapter name the book in `source`; cite that rather than presenting the note's title as a book
+    if (f.source && !y && !pub) return `${a ? esc(a) + '. ' : ''}${inlineMd(str(f.source))}`.replace(/([^.])$/, '$1.');
     if (!a && !y && !pub) return '';
     return `${a ? esc(a) + (y ? ` (${esc(y)})` : '') + '. ' : y ? `(${esc(y)}). ` : ''}${t}.${pub ? ' ' + esc(pub) + '.' : ''}`;
   }
