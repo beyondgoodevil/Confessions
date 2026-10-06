@@ -126,3 +126,4 @@ Open question: modern "trope theory" and resemblance nominalism claim to do the 
 - [[Modal Logic: Necessity and Possibility]]
 - [[Philosophy of Logic: What Grounds the Laws of Logic]]
 - [[Mind and Body: Dualism, Materialism, Emergence]]
+- [[Natural Theology: Is It Legitimate]]

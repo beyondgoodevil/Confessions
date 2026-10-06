@@ -177,3 +177,5 @@ Missing from Sider's chapter: the middle view that possible worlds are *abstract
 - [[The Problem of Universals: Realism vs Nominalism]]
 - [[The Logoi of Creation in St. Maximus]]
 - [[Philosophy of Logic: What Grounds the Laws of Logic]]
+- [[The Ontological Argument]]
+- [[The Leibnizian Cosmological Argument]]

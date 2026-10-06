@@ -75,3 +75,5 @@ Compare Hatab's Nietzsche, who starts from exactly the opposite assumption (no m
 - [[Neoplatonic Idea of Divine Simplicity]]
 - [[Relativism]]
 - [[Nietzsche and the Greeks]]
+- [[The Ontological Argument]]
+- [[The Problem of the One and the Many]]

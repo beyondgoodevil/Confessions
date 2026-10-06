@@ -109,7 +109,52 @@ Van Til's phrase: in God, unity and plurality are **equally ultimate**.
 
 **Against absolute divine simplicity.** If God is so simple that essence = attributes = will = act, then God is a Plotinian One with a Trinity added on, and the many again have no real ground in Him. That's the Orthodox complaint about Thomism: it lands on the "one" side. See [[Thomism]], [[God as Pure Act: RC vs EO]], [[Thomism Leads to Eternal Creation]].
 
-## 6. How It Works as an Argument
+## 6. The One-and-Many Proof of God: Feser's Neo-Platonic Argument
+
+Added from Feser, *Five Proofs of the Existence of God*, ch. 2. This is the Plotinus of sec. 2 turned into a proof. Worth having here because it argues from the many to the One and lands exactly where sec. 5 says not to.
+
+**The argument**
+
+1. Things we meet are **composite**: made of parts.
+2. A composite exists at any moment only because its parts are combined at that moment.
+3. It can't be the cause of its own parts being combined (circular: the whole depends on the parts being together).
+4. So every composite has a cause of its existence *right now*.
+5. If that cause is composite, it needs one too. This is a hierarchical series (everything acting at once), so it must end.
+6. It can only end in something **absolutely simple**, with no parts of any kind.
+
+"Parts" is meant widely. Not only physical bits:
+
+- matter and form
+- **essence and existence**
+- substance and attributes
+- act and potency
+
+**Then the attributes**
+
+- **One**: two simple things would need a feature to tell them apart, and having a feature besides what you are = having parts.
+- **Immutable**, **eternal**, **uncaused**: each would need parts.
+- **A mind**: everything is a mind, a mental content, a material thing or an abstract object. Abstract objects cause nothing, matter has parts, contents need a mind. So it's a mind.
+- **Purely actual**: act + potency would be two parts. From there the rest follows as in the Aristotelian proof. See [[The Unmoved Mover]] sec. 6.
+
+**Objections he takes**
+
+- *"What caused God?"* Only composites need causes. A simple thing couldn't have one.
+- *Why can't one of the parts unify the others?* Then what unifies *that* part with the rest? Regress. (Vallicella. Same shape as the instantiation regress in [[The Problem of Universals: Realism vs Nominalism]] sec. 6.)
+- *Why can't a thing's unity be a brute fact?* That isn't an alternative explanation. It's declining to give one.
+- Like the Aristotelian proof, nothing here depends on the universe having a beginning.
+
+**Why it matters for this note**
+
+- It's a direct argument that the many presuppose a One. So it supports half of sec. 5 (bare plurality can't be ultimate).
+- But its conclusion is a One with **no distinctions whatsoever**. Feser means that: for him this is where absolute divine simplicity comes from.
+- Then the uniqueness step ("no differentiating feature without parts") looks like it rules out three Persons, and many energies, as much as it rules out two gods. The Thomist answer is that the Persons are distinguished only by relations of opposition, which aren't "parts". Whether that's enough is the old argument. See [[Neoplatonic Idea of Divine Simplicity]], [[EO vs RC Trinity]].
+- The Orthodox move would be to question premise 6's wide sense of "part". A real distinction isn't automatically a *composition*. Essence and energies are really distinct and God isn't assembled out of them, any more than the sun is assembled out of itself and its rays. Three hypostases aren't three parts of God. So you can have: not composite, hence uncaused, **and** really many. Palamas says this in so many words: God is not composite on account of the energies.
+- If that works, the Neo-Platonic proof still goes through as far as "the first cause is not put together from parts", and stops short of Plotinus.
+- Feser's opening is a nice statement of the one-and-many in miniature, too: parts are understood through the whole (a leg is *for* walking), yet the whole depends on the parts. Each is prior in a different way.
+
+Not checked: the exact place in Palamas (I think the *One Hundred and Fifty Chapters*).
+
+## 7. How It Works as an Argument
 
 In TAG form:
 
@@ -120,7 +165,7 @@ In TAG form:
 
 See [[TAG]], [[Why Only the Orthodox Paradigm Can Account for Knowledge]].
 
-## 7. Objections
+## 8. Objections
 
 I don't think this argument is as finished as it's usually presented, so listing what a critic would say.
 
@@ -131,7 +176,7 @@ I don't think this argument is as finished as it's usually presented, so listing
 - **"A Platonist can have one and many both basic"** (late Plato, or a modern realist with universals and particulars as two irreducible categories). True, and this is the hard one. The reply is about *why* they go together: two unrelated brute categories that happen to fit, vs a personal source in whom they are united. And Conee's problems for universals (location, the instantiation regress) show that fit isn't free. See [[The Problem of Universals: Realism vs Nominalism]] sec. 6.
 - **Relative identity.** Someone might say the logic of "one God, three Persons" needs sorting out before it can ground anything. See [[Identity and Leibniz's Law]] sec. 8.
 
-## 8. To Read
+## 9. To Read
 
 - Plato, *Parmenides* (first half) and *Sophist* 251–259.
 - Gregory of Nyssa, *To Ablabius*.
@@ -157,3 +202,4 @@ I don't think this argument is as finished as it's usually presented, so listing
 - [[Identity and Leibniz's Law]]
 - [[Monad]]
 - [[Logic Before Aristotle]]
+- [[Natural Theology: Is It Legitimate]]

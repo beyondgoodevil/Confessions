@@ -4,8 +4,8 @@ date: 2026-10-07
 title: "Philosophy of Logic: What Grounds the Laws of Logic"
 tags: [philosophy, theology, logic, metaphysics, apologetics]
 summary: Gensler's survey. Abstract entities, whether logic shows the structure of reality, five accounts of why logical laws hold (supernaturalism, psychologism, pragmatism, conventionalism, realism), truth and the liar. Plus my notes on the Orthodox angle.
-author: Harry J. Gensler
-source: "Introduction to Logic, 2nd ed. (Routledge, 2010), ch. 18"
+author: Harry J. Gensler; Edward Feser
+source: "Gensler, Introduction to Logic, 2nd ed. (Routledge, 2010), ch. 18; Feser, Five Proofs of the Existence of God (Ignatius, 2017), ch. 3"
 ---
 
 Logicians mostly agree on *what* the laws are. They don't agree on what they're based on or how we know them. This is the chapter closest to the TAG material, so I've gone through it slowly. Last section is mine.
@@ -121,7 +121,66 @@ Three of the five fail the same way: they try to justify logic by something (evo
 - Quine wanted "logic" to be just classical propositional + quantificational. Modal and deontic are philosophy, set theory is maths, deviant logics are illegitimate.
 - Most people now are looser. No sharp edge.
 
-## 6. The Orthodox Angle
+## 6. From Realism to God: Feser's Augustinian Proof
+
+Added from Feser, *Five Proofs of the Existence of God*, ch. 3. Gensler's realism (3.5) ends with "but what and where are these truths?" This argument is an answer to exactly that. Historically it's Augustine's and Leibniz's "argument from eternal truths".
+
+**Step 1: abstract objects are real.** Four kinds:
+
+- universals (triangularity, redness)
+- propositions (what "snow is white" and "Schnee ist weiss" both say)
+- numbers and other mathematical objects
+- possible worlds
+
+Against nominalism and conceptualism he lists the standard arguments (one over many, geometry, mathematics, the nature of propositions, science, and that the alternatives undermine themselves). Same ground as [[The Problem of Universals: Realism vs Nominalism]]. Didn't reread these.
+
+**Step 2: which realism?**
+
+| Version | Abstract objects exist... | Problem |
+|---|---|---|
+| **Platonic** | in a "third realm", neither mind nor matter | how do causally inert things in a third realm connect to anything? Third Man. How do we know them? |
+| **Aristotelian** | only in things, and in minds that abstract them | then no truths before there were minds or things? But 2+2=4 didn't begin |
+| **Scholastic** | in things, in our minds, and first of all in an **eternal divine intellect** | |
+
+Feser calls the third "Scholastic realism". It's the "Christian synthesis" in sec. 3 of the Universals note.
+
+**Step 3: to God.**
+
+1. Necessary truths, and possibilities, would hold whether or not the material world existed. So they don't depend on matter.
+2. They don't depend on human minds, or any contingent minds (aliens, angels). Those might not have existed.
+3. They can't float in a third realm (step 2).
+4. So they exist in a **necessarily existing intellect**.
+5. Only one: the truths form one **interlocking system** (to grasp "human" you need "animal" and "rational"; every proposition is consistent or inconsistent with every other). No way to share them out between several minds.
+6. That intellect grasps all essences, possibilities and necessary truths: "conceptually omniscient" (Robert Adams's phrase).
+7. What exists of absolute necessity is purely actual. So it has the other attributes too (one, immutable, omnipotent, good), and knows contingent truths as well.
+
+He also gives **Greg Welty's six tests** for a theory of abstract objects: objectivity, necessity, intentionality (propositions are *about* things, like thoughts), relevance, plenitude, simplicity.
+
+- Intentionality is the neat one. Propositions represent. The only things we know of that represent in that way are thoughts. So propositions look like thoughts, and necessary ones like necessary thoughts.
+- Relevance: why would a Platonic object "Socrates as carpenter" make it *possible* for Socrates to be a carpenter, any more than a drawing would? But an idea in the mind of an omnipotent creator who could have made it so, does. That's an answer to the grounding question about possible worlds in [[Modal Logic: Necessity and Possibility]] sec. 8.
+
+**How this sits with the five accounts in sec. 3**
+
+- It's Gensler's **moderate supernaturalism**, but arrived at *through* realism instead of as a rival to it.
+- It answers realism's "too mysterious" objection: the laws are the contents of a necessary mind, and we know them because our minds are made like it.
+- Gensler's objection 1 (the laws hold even in godless worlds) is met head on: if the laws need a necessary mind, there are no godless worlds.
+
+**How this differs from TAG**
+
+Looks very close, so trying to be exact:
+
+- Feser's is a straight deductive argument with premises about abstract objects. An opponent attacks a premise (usually: go Platonist, or go nominalist).
+- [[TAG]] is transcendental: it says the opponent's *act of arguing* already presupposes what's in question, so denial is self-defeating.
+- Feser would be classed as "classical", not presuppositional. He thinks natural reason can prove this without assuming revelation.
+- But the material is the same: universals, logic, mathematics, necessity. I'd say TAG at its best uses the Augustinian argument's content with a transcendental form, and adds that only the Triune God will do (which Feser's argument doesn't try to show). See [[The Problem of the One and the Many]].
+
+**Weak points**
+
+- Step 2 has to really defeat Platonism. Platonists have replies to the "inert third realm" worry.
+- Step 5's "interlocking" shows the truths need to be grasped *together*. Does that rule out several omniscient minds each grasping all of them? He needs step 7 (pure act → unique) for that, so the proof borrows from the Aristotelian one. See [[The Unmoved Mover]] sec. 6.
+- "God's thoughts are the truths" raises the question whether God could have thought otherwise. Answer has to be no for necessary truths, yes for which possibilities to create.
+
+## 7. The Orthodox Angle
 
 *Mine, not Gensler's.*
 
@@ -135,7 +194,7 @@ Three of the five fail the same way: they try to justify logic by something (evo
 - **But careful with essence and energies.** I don't think Orthodoxy wants to say the law of non-contradiction *is* the divine essence. God's essence is beyond our concepts. Better: the order of reason is how the Logos is present to created minds, on the side of the energies. Apophatic language ("God is and is not being") isn't a breach of logic. It's marking that our predicates don't fit. See [[Deviant Logics]] sec. 3.
 - **How this relates to TAG.** Sec. 3 basically hands over the materials: psychologism, pragmatism and conventionalism are all circular, realism is left with a mystery. What Gensler's survey *doesn't* do is show that theism is the only way out. A Platonist realist will say "abstract objects just exist". That step still has to be argued. See [[TAG]].
 
-## 7. Still Open for Me
+## 8. Still Open for Me
 
 - Is "the laws are God's thoughts" (Augustine, and people like Plantinga and Welty now) the same as what Maximus means by logoi, or a more Western picture?
 - Does the theistic answer cover deviant logics too, or does it assume classical logic is the right one?
@@ -154,3 +213,7 @@ Three of the five fail the same way: they try to justify logic by something (evo
 - [[The Logoi of Creation in St. Maximus]]
 - [[Would Aliens Have to Operate on Logic]]
 - [[Critique of Empiricism]]
+- [[Modal Logic: Necessity and Possibility]]
+- [[The Problem of the One and the Many]]
+- [[The Unmoved Mover]]
+- [[Natural Theology: Is It Legitimate]]
