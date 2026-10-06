@@ -3,17 +3,18 @@ id: M-0311
 date: 2026-10-06
 title: The Trinity Hinted in the Old Testament
 tags: [theology, trinity, scripture]
-summary: Old Testament verses that speak of plurality in God, of the Word and Spirit, and of a divine Son, read in the light of the New Testament.
+summary: OT verses grouped by theme (plural speech, Word and Spirit, two called LORD, the Son, Wisdom, threefold patterns) that make sense in light of the NT.
 ---
 
-The Old Testament teaches plainly that God is one. It also contains passages that do not fit a bare, solitary oneness: God speaks as "Us", a second figure is called Lord and God, and the Word and the Spirit act as God acts. The Fathers read these as shadows that the New Testament brings into the light. All quotations are from the King James Version.
+The OT is clear that God is one. But there are passages that don't sit well with a bare solitary oneness: God says "Us", a second figure gets called Lord and God, Word and Spirit do what God does. Collecting them by theme. KJV throughout.
 
 ## 1. One God
 
 **Deuteronomy 6:4**  
 "Hear, O Israel: The LORD our God is one LORD."
 
-- Everything below is read inside this confession. The Trinity is not three gods; the hints are of distinction within the one God.
+- Starting point. Everything below is read inside this. The claim is distinction *within* the one God, never three gods.
+- (The word for "one" here, *echad*, is the same used for "one flesh" in Gen 2:24. People make a lot of that. Not sure how much weight it bears.)
 
 ## 2. God Speaks in the Plural
 
@@ -29,9 +30,10 @@ The Old Testament teaches plainly that God is one. It also contains passages tha
 **Isaiah 6:8**  
 "Also I heard the voice of the Lord, saying, Whom shall I send, and who will go for us?"
 
-- God is not addressing angels: man is made in the image of God alone, and the "us" who send in Isaiah is the one Lord who speaks.
+- Usual reply: He's talking to the angels / heavenly court. Problem: man is made in the image of *God*, not of God and angels. And in Isa 6 "I" and "us" are the same speaker.
+- "Plural of majesty" is the other reply. As far as I can tell that isn't a normal Hebrew usage for verbs and pronouns.
 
-## 3. The Word and the Spirit in Creation
+## 3. Word and Spirit at Creation
 
 **Genesis 1:1-3**  
 "In the beginning God created the heaven and the earth... And the Spirit of God moved upon the face of the waters. And God said, Let there be light: and there was light."
@@ -39,14 +41,16 @@ The Old Testament teaches plainly that God is one. It also contains passages tha
 **Psalm 33:6**  
 "By the word of the LORD were the heavens made; and all the host of them by the breath of his mouth."
 
-- God, His Word and His Spirit (breath) appear together at creation. John 1:1-3 names the Word as the one through whom all things were made.
+- God, His Word, His Spirit (breath), all three in the act of creating. John 1:1-3 picks this up directly.
 
-## 4. The Three at Mamre
+## 4. Three at Mamre
 
 **Genesis 18:1-2**  
 "And the LORD appeared unto him in the plains of Mamre: and he sat in the tent door in the heat of the day; And he lift up his eyes and looked, and, lo, three men stood by him."
 
-- The LORD appears, and Abraham sees three. This scene is the basis of the icon of the Hospitality of Abraham.
+- "The LORD appeared", and what Abraham sees is three. He addresses them in the singular ("My Lord").
+- Basis of Rublev's icon (Hospitality of Abraham).
+- Fathers differ: some read it as the Son with two angels, others as an image of the Trinity.
 
 ## 5. The LORD and the LORD
 
@@ -59,7 +63,9 @@ The Old Testament teaches plainly that God is one. It also contains passages tha
 **Psalm 45:6-7**  
 "Thy throne, O God, is for ever and ever: the sceptre of thy kingdom is a right sceptre. Thou lovest righteousness, and hatest wickedness: therefore God, thy God, hath anointed thee with the oil of gladness above thy fellows."
 
-- One who is called LORD or God is distinguished from another who is also LORD or God. Christ Himself presses Psalm 110 on the Pharisees (Matthew 22:41-46), and Hebrews 1:8-9 applies Psalm 45 to the Son.
+- Someone called LORD / God, distinguished from another who is also LORD / God.
+- Ps 110 is the one Christ Himself uses on the Pharisees (Matt 22:41-46). Most quoted OT verse in the NT.
+- Heb 1:8-9 applies Ps 45 to the Son.
 
 ## 6. The Son
 
@@ -72,14 +78,16 @@ The Old Testament teaches plainly that God is one. It also contains passages tha
 **Daniel 7:13-14**  
 "I saw in the night visions, and, behold, one like the Son of man came with the clouds of heaven, and came to the Ancient of days, and they brought him near before him. And there was given him dominion, and glory, and a kingdom, that all people, nations, and languages, should serve him."
 
-- A Son is begotten of the LORD, and a figure distinct from the Ancient of Days receives the worship of all nations.
+- A Son begotten of the LORD. And in Daniel a figure distinct from the Ancient of Days who receives service from all nations, i.e. worship.
+- Dan 7 is what Christ quotes at His trial (Mark 14:62), and the high priest calls it blasphemy. So they understood it as a divine claim.
 
-## 7. Wisdom Beside God
+## 7. Wisdom
 
 **Proverbs 8:22-23, 30**  
 "The LORD possessed me in the beginning of his way, before his works of old. I was set up from everlasting, from the beginning, or ever the earth was... Then I was by him, as one brought up with him: and I was daily his delight."
 
-- Wisdom is with God before creation. St. Paul calls Christ "the power of God, and the wisdom of God" (1 Corinthians 1:24).
+- Wisdom with God before creation. Paul: Christ is "the power of God, and the wisdom of God" (1 Cor 1:24).
+- Careful with this one. The LXX of 8:22 says "created me", and that was the Arians' main proof text. Athanasius spends ages on it. See [[Council of Nicea: Arianism]].
 
 ## 8. Three Named Together
 
@@ -89,9 +97,10 @@ The Old Testament teaches plainly that God is one. It also contains passages tha
 **Isaiah 63:9-10**  
 "In all their affliction he was afflicted, and the angel of his presence saved them... But they rebelled, and vexed his holy Spirit."
 
-- The speaker who has been "from the beginning" is sent by the Lord GOD and His Spirit. In Isaiah 63 the LORD, the Angel of His presence and His Holy Spirit are named side by side.
+- 48:16 is the strongest single verse, I think. The speaker has been there "from the beginning" (so, God), and is *sent* by the Lord GOD and His Spirit.
+- 63: the LORD, the Angel of His presence, His Holy Spirit, side by side.
 
-## 9. The Threefold Pattern in Worship
+## 9. Threefold Patterns in Worship
 
 **Isaiah 6:3**  
 "Holy, holy, holy, is the LORD of hosts: the whole earth is full of his glory."
@@ -99,13 +108,14 @@ The Old Testament teaches plainly that God is one. It also contains passages tha
 **Numbers 6:24-26**  
 "The LORD bless thee, and keep thee: The LORD make his face shine upon thee, and be gracious unto thee: The LORD lift up his countenance upon thee, and give thee peace."
 
-- The seraphim cry "Holy" three times to the one LORD, and the priestly blessing names the LORD three times. The Fathers saw in both an echo of the three Persons.
+- Weakest category taken alone (triple repetition can just be emphasis). But the Fathers heard the three Persons here, and "Holy, holy, holy" went straight into the Liturgy.
 
-## How to Read These Passages
+## 10. How to Use These
 
-- **Hints, not proofs:** none of these verses states the doctrine. They are consistent with it and puzzling without it.
-- **Read from the New Testament backwards:** the baptism of Christ (Matthew 3:16-17) and the baptismal formula (Matthew 28:19) reveal openly what these passages foreshadow.
-- **Gradual revelation:** St. Gregory the Theologian taught that the Old Testament proclaimed the Father openly and the Son more obscurely, the New manifested the Son and suggested the divinity of the Spirit, and the Spirit now dwells among us and makes Himself more clearly known.
+- **Hints, not proofs.** None of them states the doctrine. They fit it, and they're odd without it.
+- **Read backwards from the NT.** The Baptism (Matt 3:16-17) and "in the name of the Father, and of the Son, and of the Holy Ghost" (Matt 28:19) say openly what these foreshadow.
+- **Gradual revelation.** St. Gregory the Theologian (Oration 31): the OT proclaimed the Father openly and the Son more dimly; the NT showed the Son and hinted at the Spirit's divinity; now the Spirit dwells among us and makes Himself known more clearly.
+- Don't argue from these to someone who rejects the NT as if they settled it. They show the NT isn't a foreign graft.
 
 ## Related
 
@@ -117,3 +127,4 @@ The Old Testament teaches plainly that God is one. It also contains passages tha
 - [[God the Father Created Through the Son and With the Holy Spirit]]
 - [[Christ's Ascension: NT and Psalm 110]]
 - [[Monarchical Trinitarianism]]
+- [[Council of Nicea: Arianism]]

@@ -3,36 +3,36 @@ id: M-0305
 date: 2026-10-06
 title: "Synergy: Grace and Free Will"
 tags: [theology, theosis, scripture]
-summary: The Orthodox teaching that salvation is the cooperation of divine grace and human freedom, set against Pelagianism and monergism.
+summary: Salvation as cooperation of grace and freedom. Verses, comparison with Pelagianism and monergism, the Fathers, the link to Christ's two wills, and the "semi-Pelagian" charge.
 ---
 
-**Synergy** (Greek *synergeia*, "working together") is the Orthodox teaching that salvation involves the cooperation of two unequal wills: the grace of God, which is first and decisive, and the free response of man, which is real and necessary.
+**Synergy**, Greek *synergeia*, "working together". Salvation involves two wills that are not equal: God's grace, which comes first and does the decisive thing, and man's free response, which is real and has to be there.
 
-## 1. The Teaching
+## 1. The Teaching in Four Lines
 
-- **Grace comes first**: God calls, enlightens and strengthens. No one comes to Him unprompted.
-- **Man must respond**: God does not save anyone against his will. Love that is forced is not love.
-- **Not equal partners**: the contribution of grace is incomparably greater. Man's part is consent and effort, themselves aided by grace.
-- **Not a transaction**: human effort does not earn salvation. It is the opening of the hand that receives a gift.
+- **Grace first.** God calls, enlightens, strengthens. Nobody comes unprompted.
+- **Man must answer.** God saves no one against his will.
+- **Not equal partners.** Grace does incomparably more. Our part is consent and effort, and even those are helped by grace.
+- **Not a deal.** Effort doesn't earn anything. It's opening your hand to take a gift.
 
-## 2. Scripture
+## 2. Verses
 
-All quotations are from the King James Version.
+KJV.
 
 **1 Corinthians 3:9**  
 "For we are labourers together with God."
 
-- The Greek word is *synergoi*, the source of the term.
+- Greek is *synergoi*. That's where the word comes from.
 
 **Philippians 2:12-13**  
 "Work out your own salvation with fear and trembling. For it is God which worketh in you both to will and to do of his good pleasure."
 
-- Both halves in one sentence: man works, and God works in him.
+- Both halves in one sentence. Best single text.
 
 **Revelation 3:20**  
 "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him."
 
-- Christ knocks; He does not break the door.
+- He knocks. He doesn't kick the door in.
 
 **2 Peter 1:5, 10**  
 "Giving all diligence, add to your faith virtue... give diligence to make your calling and election sure."
@@ -46,55 +46,54 @@ All quotations are from the King James Version.
 **Matthew 23:37**  
 "How often would I have gathered thy children together... and ye would not!"
 
-- God willed it and they refused: grace can be resisted.
+- He willed it, they refused. So grace can be resisted. Hard verse for irresistible grace.
 
 **Luke 1:38**  
 "Behold the handmaid of the Lord; be it unto me according to thy word."
 
-- The Incarnation itself waited on a free human "yes". The Theotokos is the model of synergy.
+- The Incarnation waited on a free human yes. The Theotokos is the model case.
 
-## 3. Three Positions Compared
+## 3. Three Positions
 
-| | Pelagianism | Monergism (Augustinian-Calvinist) | Synergy (Orthodox) |
+| | Pelagianism | Monergism (Augustinian / Calvinist) | Synergy (Orthodox) |
 |---|---|---|---|
-| Fallen human will | Unharmed | Wholly unable to turn to God | Weakened and darkened, not destroyed |
-| Role of grace | Helpful, not necessary | Does everything; irresistible | Necessary at every step; can be refused |
-| Role of human will | Decisive | None in conversion | Free consent and cooperation |
-| Why some are lost | They failed to try | God did not choose them | They refused the grace offered to all |
+| Fallen will | fine | totally unable to turn to God | weakened, darkened, not destroyed |
+| Grace | helpful, not needed | does everything, irresistible | needed at every step, can be refused |
+| Human will | decisive | nothing in conversion | free consent and cooperation |
+| Why some are lost | didn't try | God didn't choose them | refused grace offered to all |
 
-- **Against Pelagius**: man cannot save himself or even begin without grace.
-- **Against monergism**: grace does not override freedom, and God "will have all men to be saved" (1 Timothy 2:4).
+- Against Pelagius: we can't save ourselves or even start.
+- Against monergism: grace doesn't override freedom, and God "will have all men to be saved" (1 Tim 2:4).
 
-## 4. The Fathers
+## 4. Fathers
 
-- **St. John Chrysostom**: God does not anticipate our choice so as to violate our freedom; when we have chosen, He gives much help.
-- **St. John Cassian** (*Conference 13*): grace and free will work together; sometimes grace precedes the good will, sometimes it answers its first stirring.
-- **St. Macarius the Great**: the will of man is an essential condition; without it God does nothing.
-- **St. Maximus the Confessor**: man has two wings, freedom and grace, and cannot fly with one.
+- **Chrysostom**: God doesn't get in ahead of our choice so as to violate freedom. Once we've chosen, He gives a great deal of help.
+- **Cassian**, *Conference 13*: sometimes grace comes before the good will, sometimes it answers the will's first stirring.
+- **Macarius**: man's will is an essential condition. Without it God does nothing.
+- **Maximus**: two wings, freedom and grace. Can't fly on one.
 
-## 5. The Christological Foundation
+## 5. The Christological Root
 
-- Synergy mirrors Christ Himself. The Sixth Ecumenical Council taught that He has two wills, divine and human, working together without conflict.
-- In Gethsemane the human will of Christ freely consents to the divine: "Not my will, but thine, be done" (Luke 22:42).
-- A salvation in which the human will did nothing would resemble Monothelitism: a humanity that is merely moved, not one that freely acts.
+This was the part that made it click for me.
 
-## 6. The Western Charge of "Semi-Pelagianism"
+- 6th Ecumenical Council: Christ has two wills, divine and human, working together with no conflict.
+- Gethsemane: the human will freely consents. "Not my will, but thine, be done" (Luke 22:42).
+- So a salvation where the human will does nothing looks like **Monothelitism** applied to us: a humanity that's only moved, never acts.
+- See [[St. Maximus on the Two Wills in Christ]].
 
-- The Council of Orange (529) condemned the view that the first movement toward faith comes from man without grace.
-- Orthodoxy agrees that grace is always first. It does not accept the Augustinian conclusion that grace is irresistible or given only to the elect.
-- The label "semi-Pelagian" assumes the Augustinian framework; the Eastern Fathers were answering a different question.
+## 6. "Semi-Pelagian"?
+
+- Council of Orange (529) condemned saying the *first* movement toward faith comes from man without grace.
+- Orthodoxy agrees grace is always first. It doesn't accept Augustine's further step that grace is irresistible or only for the elect.
+- The label assumes Augustine's framework. The Eastern Fathers weren't answering his question. (Orange was a local Western council in any case. Cassian is a saint in the East.)
 
 ## 7. In Practice
 
-- **Ascetic effort**: prayer, fasting, almsgiving and keeping the commandments are how the will cooperates. They do not earn grace; they make room for it.
-- **The sacraments**: grace is given in them, and it bears fruit according to the faith and preparation of the one who receives.
-- **Theosis**: deification is a lifelong synergy, never completed in this life.
+- **Ascetic effort.** Prayer, fasting, almsgiving, the commandments. This is how the will cooperates. Makes room for grace, doesn't purchase it.
+- **Sacraments.** Grace is given. It bears fruit according to faith and preparation.
+- **Theosis** is synergy for a lifetime, never done here.
 
-## Summary
-
-- Salvation is God's work and man's free cooperation with it.
-- Grace is first, greater and necessary; freedom is real and required.
-- The pattern is Christ's two wills, and the first human example is the Theotokos.
+Question to chase: how is this different from Arminianism? Looks similar on the table above. I think the difference is in what grace *is* (uncreated energy, participation) and that the context is theosis, not a one-time decision.
 
 ## Related
 
@@ -108,4 +107,3 @@ All quotations are from the King James Version.
 - [[The Logoi of Creation in St. Maximus]]
 - [[2 Peter 1:3-4: Theosis]]
 - [[The Problem of Evil and Theodicy]]
-

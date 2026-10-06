@@ -3,75 +3,70 @@ id: M-0253
 date: 2026-10-06
 title: The Problem of Evil and Theodicy
 tags: [theology, apologetics, epistemology]
-summary: The logical and evidential problems of evil, the main theodicies, and the Orthodox answer centred on privation, freedom and the Cross.
+summary: Logical vs evidential problem of evil, the usual theodicies, where Orthodoxy puts the weight (privation, freedom, the Cross), and the presuppositional reply.
 ---
 
-The **problem of evil** asks how evil and suffering can exist if God is all-powerful, all-knowing and perfectly good. A **theodicy** (from *theos*, God, and *dike*, justice) is an attempt to answer it by showing why God permits evil.
+How can there be evil if God is all-powerful, all-knowing and good? **Theodicy** = *theos* + *dike* (justice): trying to show why God allows it.
 
-## 1. The Two Forms of the Problem
+## 1. Two Versions of the Problem
 
-1. **The logical problem** (Epicurus, Hume, J. L. Mackie): the following are claimed to be contradictory, so at least one must be false.
-    - God is omnipotent.
-    - God is omniscient.
-    - God is perfectly good.
-    - Evil exists.
-2. **The evidential problem** (William Rowe): even if there is no strict contradiction, the *amount* and *kind* of suffering, especially suffering that seems pointless, is said to make God's existence unlikely.
+**Logical** (Epicurus, Hume, Mackie). These four are supposed to contradict, so one has to go:
 
-A related distinction:
+- God is omnipotent
+- God is omniscient
+- God is perfectly good
+- evil exists
 
-- **Moral evil**: evil done by free agents (murder, cruelty, betrayal).
-- **Natural evil**: suffering not directly caused by a human choice (disease, earthquakes, death itself).
+**Evidential** (Rowe). No strict contradiction, but the *amount* and *kind* of suffering, especially the apparently pointless kind (his example is a fawn burning in a forest fire), makes God unlikely.
 
-## 2. The Main Answers
+Also keep apart:
 
-1. **Evil as privation** (St. Athanasius, St. Basil, St. Gregory of Nyssa, St. Augustine):
-    - Evil is not a substance or a created thing. It is a lack or corruption of a good that ought to be there, as blindness is the lack of sight.
-    - Therefore God, who created all things good (Genesis 1:31), is not the author of evil.
-2. **The free will defence** (Alvin Plantinga, building on the Fathers):
-    - A world with creatures who can freely love must be a world in which they can freely refuse.
-    - It is logically possible that God could not create free creatures who never choose wrongly. This is widely held to answer the *logical* problem, since it shows the four claims are not strictly contradictory.
-3. **Soul-making** (often traced to St. Irenaeus; developed by John Hick):
-    - Humanity was created immature and called to grow into the likeness of God. Virtues such as courage, patience and compassion cannot be formed in a world without difficulty.
-4. **Sceptical theism**:
-    - A finite mind is in no position to judge that a given evil has no justifying reason. "Where wast thou when I laid the foundations of the earth?" (Job 38:4).
+- **moral evil**: done by free agents
+- **natural evil**: disease, earthquakes, death itself
 
-## 3. The Orthodox Emphasis
+## 2. The Standard Answers
 
-1. **Death is an enemy, not part of the design**:
-    - God "made not death: neither hath he pleasure in the destruction of the living" (Wisdom 1:13). Death and corruption entered through the Fall (Romans 5:12) and are "the last enemy" to be destroyed (1 Corinthians 15:26).
-2. **Ancestral sin and a fallen cosmos**:
-    - Natural evil is tied to the Fall. Creation itself "was made subject to vanity" and "groaneth and travaileth in pain" awaiting deliverance (Romans 8:20-22).
-3. **God's answer is a Person, not only an argument**:
-    - God does not explain suffering from a distance. In the Incarnation He enters it, bears it on the Cross, and defeats it in the Resurrection: "by death He trampled down death."
-4. **Synergy and freedom**:
-    - God does not override the will He gave. Love that is forced is not love, so the possibility of refusal is the cost of the possibility of communion.
-5. **The end of the story**:
-    - Evil is permitted for a time, not forever. "God shall wipe away all tears from their eyes; and there shall be no more death" (Revelation 21:4).
+1. **Privation** (Athanasius, Basil, Gregory of Nyssa, Augustine)
+    - Evil isn't a thing. It's a lack or corruption of a good that should be there. Blindness is a lack of sight.
+    - So God, who made everything "very good" (Gen 1:31), didn't make evil.
+2. **Free will defence** (Plantinga, though the Fathers say much the same)
+    - Creatures who can freely love can freely refuse.
+    - It's at least *possible* God couldn't make free creatures who never go wrong. That is enough against the logical problem, since it only needs a possibility. Most philosophers, including atheists, accept this now.
+3. **Soul-making** (Hick, who credits St. Irenaeus)
+    - Man made immature, meant to grow into God's likeness. Courage, patience, compassion don't form in a world with no difficulty.
+4. **Sceptical theism**
+    - We're not placed to say a given evil has no good reason. "Where wast thou when I laid the foundations of the earth?" (Job 38:4)
+
+Honest note: 3 and 4 are the ones I find least satisfying on their own. 3 sounds bad next to really horrific cases. 4 is right but can be used to dodge anything.
+
+## 3. Where Orthodoxy Puts the Weight
+
+- **Death is an enemy, not the plan.** "God made not death" (Wisdom 1:13). It came in through the Fall (Rom 5:12) and is "the last enemy" (1 Cor 15:26).
+- **Fallen cosmos.** Natural evil is tied to the Fall. Creation "was made subject to vanity" and "groaneth and travaileth" (Rom 8:20-22).
+- **God's answer is a Person.** He doesn't explain suffering from a distance. He enters it, carries it on the Cross, defeats it in the Resurrection. "By death He trampled down death."
+- **Freedom.** God won't override the will He gave. Forced love isn't love.
+- **It ends.** Evil is allowed for a time. "God shall wipe away all tears" (Rev 21:4).
+
+This is the main difference from the philosophy-of-religion treatment: the Western debate is mostly about whether God is *justified*. The Fathers ask what God has *done* about it.
 
 ## 4. The Presuppositional Reply
 
-The objection itself assumes that evil is *really* evil, which needs an objective standard of good.
+The objection assumes evil is *really* evil. That needs a real standard of good.
 
-- If there is no God, "evil" reduces to personal dislike, social convention or evolutionary instinct. The objector then has no objective evil to complain of.
-- If evil is objectively real, there is an objective good by which it is measured, and that is what the argument was meant to deny.
-- So the problem of evil cannot be stated without borrowing the moral categories of the worldview it attacks. This is the same move as the Transcendental Argument: ask what must be true for the objection to make sense.
+- No God → "evil" comes down to dislike, convention, or instinct. Then there's no objective evil to complain about.
+- Evil is objective → there's an objective good it falls short of. Which is what the argument was trying to deny.
+- So you can't state the problem without borrowing moral categories from the view you're attacking. Same move as [[TAG]]: what has to be true for the objection to make sense?
 
-This does not remove the pain of suffering. It shows that the *argument* from evil does not succeed against God, while the atheist is left with suffering and no ground for calling it wrong.
+NB this doesn't make suffering hurt less. It only shows the *argument* fails, and that the atheist still has the suffering but no ground for calling it wrong.
 
-## 5. Common Objections and Short Answers
+Possible comeback: the atheist can run it as an internal critique ("on *your* view evil is real, so your view is inconsistent"). Then the reply has to fall back on sections 2 and 3. So you need both.
 
-- **"Why not create free beings who always choose good?"** A will that cannot choose otherwise is not free in the sense love requires. The saints in glory are confirmed in the good freely, after having chosen it.
-- **"What about animal suffering and natural disasters?"** The Fathers connect the disorder of creation to the Fall of the one set over it; creation shares man's corruption and will share his restoration (Romans 8:21).
-- **"Why does God not stop it now?"** His patience is mercy: "not willing that any should perish, but that all should come to repentance" (2 Peter 3:9).
-- **Ivan Karamazov's protest** (Dostoevsky): no future harmony is worth the tears of one tortured child. Dostoevsky's own reply is not a counter-argument but the life of the Elder Zosima and Alyosha: active love, and Christ who suffers with the innocent.
+## 5. Objections I've Heard
 
-## Summary
-
-- The logical problem is answered if it is even *possible* that God has a good reason to permit evil, and free will supplies one.
-- The evidential problem assumes we could see such reasons if they existed.
-- Evil is a privation, not a creation of God.
-- The Orthodox answer is finally the Cross and the Resurrection: God takes evil on Himself and undoes it from within.
-- The objection presupposes an objective good that only theism can ground.
+- *Why not make free beings who always choose good?* A will that can't do otherwise isn't free in the way love needs. The saints in glory are fixed in the good, but freely, having chosen it.
+- *Animal suffering, natural disasters?* The Fathers connect the disorder of creation to the fall of the one set over it. Creation shares man's corruption and will share his restoration (Rom 8:21). (This is the hardest one. Animal pain before man is the obvious follow-up and I don't have a neat answer.)
+- *Why doesn't God stop it now?* His patience is mercy: "not willing that any should perish" (2 Pet 3:9).
+- *Ivan Karamazov*: no final harmony is worth one tortured child's tears. Dostoevsky doesn't answer with an argument. He answers with Zosima and Alyosha: active love, and Christ suffering with the innocent.
 
 ## Related
 

@@ -3,74 +3,75 @@ id: M-0309
 date: 2026-10-06
 title: The Logoi of Creation in St. Maximus
 tags: [theology, theosis, epistemology]
-summary: St. Maximus the Confessor's teaching that every creature has its logos in the one Logos, and what follows for creation, knowledge and theosis.
+summary: St. Maximus on the logoi. Every creature has its logos in the one Logos; logos vs tropos; being, well-being, eternal well-being; the reply to Origenism; natural contemplation.
 ---
 
-**St. Maximus the Confessor** (c. 580–662) taught that every created thing has a **logos** (plural **logoi**): a divine intention or principle that defines what it is and what it is for. All the logoi are held together in the one **Logos**, Christ, through whom all things were made. His fullest treatment is in *Ambiguum 7*.
+**St. Maximus the Confessor** (c. 580–662). Every created thing has a **logos** (pl. **logoi**): God's intention for it, what it is and what it's for. All the logoi are held in the one **Logos**, Christ. Main text is *Ambiguum 7* (which is hard going).
 
 ## 1. What the Logoi Are
 
-- **Divine wills for creatures**: the logoi are God's eternal intentions for each thing He would create. Maximus, following St. Dionysius, calls them "predeterminations" and "divine wills".
-- **Uncreated**: they belong to God, not to the created order. Creatures are made *according to* their logoi.
-- **Many and one**: there are as many logoi as there are creatures, yet they are one in the Logos. Maximus's phrase is that "the one Logos is many logoi, and the many logoi are one Logos."
-- **Not the divine essence**: the logoi belong to God's will and activity toward creation, not to what He is in Himself. Creation is therefore free, not necessary.
+- **Divine wills.** God's eternal intentions for each thing He'd make. Maximus takes from St. Dionysius the terms "predeterminations" and "divine wills".
+- **Uncreated.** They belong to God. Creatures are made *according to* them.
+- **Many and one.** As many logoi as creatures, but one in the Logos: "the one Logos is many logoi, and the many logoi are one Logos."
+- **Not the essence.** They're on the side of God's will and action toward creation, not what He is in Himself. So creation is free. He didn't have to.
 
-## 2. Biblical Roots
+Compare Plato's forms: see [[The Forms and the Demiurge]]. Same job (patterns of things) but willed, personal, and inside the Logos.
 
-- **John 1:1-3** – "All things were made by him; and without him was not any thing made that was made."
-- **Colossians 1:16-17** – "All things were created by him, and for him: And he is before all things, and by him all things consist."
-- **Ephesians 1:10** – God will "gather together in one all things in Christ."
-- **Psalm 104:24** – "O LORD, how manifold are thy works! in wisdom hast thou made them all."
-- **Acts 17:28** – "In him we live, and move, and have our being."
+## 2. Scripture Behind It
+
+- **John 1:1-3**: "All things were made by him; and without him was not any thing made that was made."
+- **Col 1:16-17**: "All things were created by him, and for him... and by him all things consist."
+- **Eph 1:10**: God will "gather together in one all things in Christ."
+- **Ps 104:24**: "In wisdom hast thou made them all."
+- **Acts 17:28**: "In him we live, and move, and have our being."
 
 ## 3. Logos and Tropos
 
-Maximus distinguishes two things in every creature:
+Two things to tell apart in any creature:
 
-1. **Logos of nature** (*logos physeos*): what the thing is. It is fixed by God and cannot be corrupted.
-2. **Mode of existence** (*tropos hyparxeos*): how the creature actually lives out its nature. This can be according to its logos or against it.
+| | | |
+|---|---|---|
+| **logos of nature** (*logos physeos*) | what it is | fixed by God, can't be corrupted |
+| **mode of existence** (*tropos hyparxeos*) | how it actually lives that nature out | can go with the logos or against it |
 
-- Sin does not change human nature. It is a wrong *mode*: living against one's logos.
-- Salvation does not replace human nature. It restores and raises its mode of existence.
-- The same distinction serves Christology: in Christ the logos of human nature is unchanged, while its mode is renewed, as in the virgin birth and the walking on water.
+- Sin doesn't change human nature. It's a wrong *mode*, living against your logos.
+- Salvation doesn't swap human nature for something else. It heals and lifts the mode.
+- Same distinction does work in Christology: in Christ the logos of human nature is untouched, the mode is new (virgin birth, walking on water).
+
+This is probably the most useful single tool in Maximus. Keeps turning up.
 
 ## 4. Being, Well-Being, Eternal Well-Being
 
-Maximus describes the path of a rational creature in three stages:
+1. **Being**: given at creation.
+2. **Well-being**: by freely choosing to live according to one's logos.
+3. **Eternal well-being**: given by grace in the age to come.
 
-1. **Being** – given by God in creation.
-2. **Well-being** – reached by the free choice to live according to one's logos.
-3. **Eternal well-being** – given by grace in the age to come.
-
-- The first and third are gifts. The second requires the creature's free cooperation, which is the place of synergy.
+First and third are gifts. The middle one needs our cooperation. That's where synergy sits. See [[Synergy: Grace and Free Will]].
 
 ## 5. Against Origenism
 
-- The Origenists taught that souls pre-existed in a unity with God, fell through satiety, and were then given bodies.
-- Maximus reverses the sequence. It is not *rest, movement, becoming* but **becoming, movement, rest**: creatures come into being, move toward God, and find rest in Him at the end.
-- What pre-exists in God is the *logos* of each creature, not the creature itself.
-- Movement is therefore not a fall. It is the creature's natural course toward its goal.
+- Origenists: souls pre-existed in unity with God, got bored ("satiety"), fell, were put in bodies.
+- Their order: rest → movement → becoming.
+- Maximus flips it: **becoming → movement → rest**. Creatures come to be, move toward God, rest in Him at the end.
+- What pre-exists in God is the *logos* of each creature, not the creature.
+- So movement isn't a fall. It's the natural road to the goal.
+- And his killer point: if souls could get bored of God once, why not again? Then nothing is ever secure.
 
 ## 6. Natural Contemplation
 
-- The logoi make creation intelligible. To know a thing truly is to perceive its logos.
-- **Natural contemplation** (*theoria physike*) is the stage of the spiritual life in which the purified mind sees the logoi in created things and is led through them to the Logos.
-- Creation is thus a kind of scripture, and Scripture a kind of cosmos: both are read by looking through the letter to the Logos within.
+- The logoi are why creation is intelligible. To really know a thing = to see its logos.
+- ***Theoria physike***: the stage where the purified mind sees the logoi in things and is led through them to the Logos. (Middle stage of three: practice → natural contemplation → theology.)
+- Creation is a kind of scripture and Scripture a kind of cosmos. Both read by looking through the letter to the Logos.
 
 ## 7. Why It Matters
 
-- **Creation is good and meaningful**: every creature expresses a divine intention.
-- **Neither pantheism nor deism**: God is present in all things through their logoi without being identified with them.
-- **Theosis**: to be deified is to become fully what one's logos intends, by participation in God.
-- **Ground of knowledge**: universal, stable meanings exist because things are made according to logoi in the divine Logos. This is the Orthodox answer to the problem of universals.
-- **Related to the divine energies**: later theology, especially St. Gregory Palamas, connects the logoi with the uncreated energies, as God's willed presence and activity in creation.
+- Creation is good and means something. Every creature expresses a divine intention.
+- Avoids both pantheism and deism. God is present in everything through the logoi without *being* everything.
+- **Theosis** = becoming fully what your logos intends, by sharing in God.
+- **Knowledge.** There are stable universal meanings because things are made according to logoi in the Logos. This is the Orthodox answer to [[The Problem of Universals: Realism vs Nominalism]].
+- Later theology (Palamas) ties the logoi to the uncreated energies.
 
-## Summary
-
-- Every creature has a logos, an uncreated divine intention, in the one Logos.
-- The logos of a nature is fixed; its mode of existence is free.
-- Creatures move from being, through well-being, to eternal well-being.
-- Seeing the logoi in creation leads the mind to Christ, and living by one's logos is the path to theosis.
+Not clear to me yet: are the logoi simply *identical* with the energies, or related to them? People seem to say both.
 
 ## Related
 
@@ -83,4 +84,4 @@ Maximus describes the path of a rational creature in three stages:
 - [[Synergy: Grace and Free Will]]
 - [[Being Made in the Image of God]]
 - [[Nous]]
-
+- [[The Forms and the Demiurge]]

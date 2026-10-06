@@ -3,93 +3,103 @@ id: M-0304
 date: 2026-10-06
 title: Free Will and Divine Foreknowledge
 tags: [theology, apologetics, epistemology]
-summary: The argument that God's foreknowledge rules out free will, the main replies, and the patristic answer that foreknowledge does not cause.
+summary: The argument that foreknowledge rules out freedom, where it goes wrong (the modal slip), Boethius, Molina, and St. John of Damascus on foreknowing without predetermining.
 ---
 
-If God knows infallibly what I will do tomorrow, can I do otherwise? The problem of **foreknowledge and free will** asks whether divine omniscience and human freedom can both be true.
+If God knows for certain what I'll do tomorrow, can I do anything else? Whether omniscience and freedom can both be true.
 
 ## 1. The Argument
 
-1. God knew yesterday that I will do X tomorrow.
-2. God cannot be mistaken.
-3. The past cannot be changed, so God's past knowledge is now fixed.
-4. Therefore it is now fixed that I will do X tomorrow.
-5. Therefore I am not free to refrain from X.
+1. God knew yesterday that I'll do X tomorrow.
+2. God can't be wrong.
+3. The past can't be changed, so what God knew is fixed.
+4. So it's fixed now that I'll do X.
+5. So I'm not free not to do X.
 
-If this holds, either God does not know the future or no one acts freely.
+If that works: either God doesn't know the future, or nobody acts freely.
 
-## 2. Scripture Affirms Both
+## 2. Scripture Says Both
 
-All quotations are from the King James Version.
+KJV.
 
 **Foreknowledge**
 
-- **Isaiah 46:10** – "Declaring the end from the beginning, and from ancient times the things that are not yet done."
-- **Psalm 139:4, 16** – "For there is not a word in my tongue, but, lo, O LORD, thou knowest it altogether... in thy book all my members were written."
-- **John 13:38** – "The cock shall not crow, till thou hast denied me thrice."
+- **Isa 46:10**: "Declaring the end from the beginning, and from ancient times the things that are not yet done."
+- **Ps 139:4, 16**: "There is not a word in my tongue, but, lo, O LORD, thou knowest it altogether... in thy book all my members were written."
+- **John 13:38**: "The cock shall not crow, till thou hast denied me thrice."
 
-**Freedom and responsibility**
+**Freedom / responsibility**
 
-- **Deuteronomy 30:19** – "I have set before you life and death... therefore choose life."
-- **Joshua 24:15** – "Choose you this day whom ye will serve."
-- **Sirach 15:14-17** – God made man from the beginning and left him in the hand of his own counsel; before man are life and death, and whichever he chooses will be given him.
+- **Deut 30:19**: "I have set before you life and death... therefore choose life."
+- **Josh 24:15**: "Choose you this day whom ye will serve."
+- **Sirach 15:14-17**: God made man and left him "in the hand of his own counsel". Life and death are before him, and whichever he chooses is given.
 
-**Both together**
+**Both in one verse**
 
-- **Acts 2:23** – "Him, being delivered by the determinate counsel and foreknowledge of God, ye have taken, and by wicked hands have crucified and slain."
-    - The Cross was foreknown, and those who carried it out are still called wicked.
-- **Romans 8:29** – "For whom he did foreknow, he also did predestinate."
-    - Foreknowledge is named first.
+- **Acts 2:23**: "Him, being delivered by the determinate counsel and foreknowledge of God, ye have taken, and by wicked hands have crucified and slain."
+    - Foreknown, and the people who did it are still "wicked". Peter sees no tension.
+- **Rom 8:29**: "For whom he did foreknow, he also did predestinate."
+    - Foreknow comes first in the order.
 
-## 3. The Main Replies
+## 3. The Replies
 
-1. **Foreknowledge does not cause** (Origen, St. John Chrysostom, St. John of Damascus):
-    - A thing does not happen because God foreknows it; God foreknows it because it will happen.
-    - The argument confuses two necessities. "Necessarily, if God knows I will do X, I will do X" is true. "If God knows I will do X, I will do X *necessarily*" does not follow.
-    - Watching a man walk does not make him walk. Knowing it in advance adds certainty to the knower, not compulsion to the doer.
-2. **Divine eternity** (Boethius, *Consolation of Philosophy*, Book 5):
-    - God is not in time. He does not *fore*-see; He sees all times in one eternal present.
-    - As seeing a present act does not make it necessary, God's eternal sight of my future act does not make it necessary.
-3. **Middle knowledge** (Luis de Molina):
-    - God knows not only what will happen but what every free creature *would* do in any circumstance, and orders the world accordingly.
-4. **Open theism**:
-    - The future free acts of creatures cannot be known, so God does not know them.
-    - This is rejected by Orthodoxy, as it contradicts Scripture and makes prophecy guesswork.
-5. **Theological determinism** (strict Calvinism):
-    - God foreknows because He has decreed everything. Freedom is redefined as acting on one's desires, which are themselves determined.
-    - This is rejected by Orthodoxy, as it makes God the author of sin.
+**a. Foreknowledge isn't a cause** (Origen, Chrysostom, John of Damascus)
 
-## 4. The Patristic Position
+- It doesn't happen because God foreknows it. God foreknows it because it's going to happen.
+- The argument slips between two kinds of necessity:
+    - "Necessarily: if God knows I'll do X, I'll do X." True.
+    - "If God knows I'll do X, then I do X *necessarily*." Doesn't follow.
+- Watching someone walk doesn't make him walk. Knowing in advance adds certainty in the knower, not compulsion in the doer.
 
-**St. John of Damascus**, *Exact Exposition of the Orthodox Faith* 2.30:
+(In logic terms it's the difference between necessity of the consequence and necessity of the consequent. Step 3–4 of the argument is where it sneaks in. Though premise 3, the fixity of the past, is what makes people feel it's more than a simple fallacy. Hence the next reply.)
 
-- God **foreknows all things but does not predetermine all things**.
-- He foreknows what is in our power but does not predetermine it, for He does not will evil nor compel virtue.
-- Predetermination is the work of the divine command based on foreknowledge.
+**b. Eternity** (Boethius, *Consolation* Bk 5)
 
-Two wills are distinguished:
+- God isn't in time. He doesn't *fore*-see. He sees all times in one eternal present.
+- Seeing a present act doesn't make it necessary. Same for God's eternal seeing of what is future to me.
+- This takes out premise 1: there's no "yesterday" in which God knew.
 
-- **Antecedent will**: what God wills in itself, that all be saved (1 Timothy 2:4).
-- **Consequent will**: what God wills in view of free human choices, including permitting and judging sin.
+**c. Middle knowledge** (Molina)
 
-**Predestination**, on this reading, follows foreknowledge: God predestines those He foreknows will freely respond to His grace. It is not an arbitrary decree that precedes and causes their response.
+- God knows what will happen, and also what every free creature *would* do in any possible situation, and arranges the world with that in view.
 
-## 5. Why Both Must Be Kept
+**d. Open theism**
 
-- **Deny foreknowledge** and God is no longer God: prophecy fails and providence becomes improvisation.
-- **Deny freedom** and there is no sin, no virtue, no love and no just judgment; God becomes the cause of evil.
-- **Keep both** and the picture is coherent: God, outside time, knows free acts as free.
+- Future free acts can't be known, so God doesn't know them.
+- Rejected by Orthodoxy. Contradicts the verses above and turns prophecy into guessing.
 
-## 6. A Limit to Explanation
+**e. Theological determinism** (strict Calvinism)
 
-- How an eternal God knows free temporal acts is beyond our comprehension, because we have no experience of knowing outside time.
-- The replies above show there is no contradiction. They do not claim to describe how God knows.
+- God foreknows because He decreed all of it. Freedom gets redefined as acting on your desires, which are themselves determined.
+- Rejected by Orthodoxy. Makes God the author of sin.
 
-## Summary
+## 4. St. John of Damascus
 
-- The argument against freedom treats God's knowledge as a cause. It is not.
-- God knows what we will freely do because we will do it.
-- Orthodoxy holds that God foreknows all and predetermines only what is not in our power, and that predestination follows foreknowledge.
+*Exact Exposition* 2.30. The key sentence, roughly: God **foreknows all things but does not predetermine all things**.
+
+- He foreknows what's in our power but doesn't predetermine it. He doesn't will evil and doesn't force virtue.
+- Predetermination is God's command *based on* foreknowledge.
+
+Two wills:
+
+- **Antecedent**: what God wants in itself. That all be saved (1 Tim 2:4).
+- **Consequent**: what God wills given our free choices, including permitting and judging sin.
+
+So **predestination follows foreknowledge**. God predestines those He foreknows will freely answer grace. Not a decree that comes first and causes the answer. See [[Synergy: Grace and Free Will]].
+
+## 5. Why Keep Both
+
+- Drop foreknowledge → not God any more. Prophecy fails, providence is improvising.
+- Drop freedom → no sin, no virtue, no love, no just judgment, and God causes evil.
+- Keep both → God, outside time, knows free acts *as* free.
+
+## 6. Where Explanation Stops
+
+- *How* an eternal God knows free acts in time is past us. We've no experience of knowing outside time.
+- The replies show there's no contradiction. They don't claim to show the mechanism.
+- I think that's a fair place to stop and not a cop-out. The objection claimed a contradiction; removing it is all that's owed.
+
+Still bothers me a bit: if God's knowledge *depends* on what I do, does that put something in God that's caused by a creature? Probably connects to essence/energies. See [[Implications of No Essence-Energies Distinction]].
 
 ## Related
 
@@ -101,4 +111,3 @@ Two wills are distinguished:
 - [[The Euthyphro Dilemma and the Orthodox Answer]]
 - [[Jesus Fulfills Prophecies]]
 - [[The Classic Laws of Logic]]
-
