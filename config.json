@@ -31,7 +31,8 @@
       "aliases": [
         "book"
       ],
-      "description": "Notes from my readings."
+      "description": "Notes from my readings.",
+      "arrange": "author"
     },
     {
       "id": "media",
@@ -86,7 +87,102 @@
         "note",
         "other"
       ],
-      "description": "Random thoughts I am too lazy to organize."
+      "description": "Random thoughts I am too lazy to organize.",
+      "arrange": "topic"
     }
-  ]
+  ],
+  "browse": {
+    "fields": [
+      "theology",
+      "philosophy",
+      "mathematics",
+      "note-taking",
+      "programming",
+      "research",
+      "guide"
+    ],
+    "secondary": [
+      "scripture"
+    ],
+    "shelves": [
+      {
+        "name": "God and Christ",
+        "tags": [
+          "trinity",
+          "christology",
+          "theophany",
+          "theosis"
+        ]
+      },
+      {
+        "name": "Scripture",
+        "tags": [
+          "scripture",
+          "canon",
+          "typology",
+          "prophecy",
+          "covenant"
+        ]
+      },
+      {
+        "name": "Salvation and worship",
+        "tags": [
+          "salvation",
+          "the-fall",
+          "sacraments",
+          "liturgy",
+          "prayer",
+          "mary",
+          "icons-saints"
+        ]
+      },
+      {
+        "name": "The Church",
+        "tags": [
+          "ecclesiology",
+          "tradition",
+          "councils",
+          "patristics",
+          "church-history",
+          "papacy",
+          "reformation",
+          "ecumenism",
+          "catholicism",
+          "islam"
+        ]
+      },
+      {
+        "name": "Philosophy",
+        "tags": [
+          "apologetics",
+          "epistemology",
+          "logic",
+          "fallacies",
+          "metaphysics",
+          "ethics",
+          "mind",
+          "time",
+          "philosophy-of-science",
+          "thomism",
+          "neoplatonism",
+          "plato",
+          "aristotle",
+          "nietzsche",
+          "leibniz",
+          "kant"
+        ]
+      }
+    ],
+    "labels": {
+      "the-fall": "The Fall",
+      "icons-saints": "Icons and saints",
+      "church-history": "Church history",
+      "philosophy-of-science": "Philosophy of science",
+      "history-of-science": "History of science",
+      "linear-algebra": "Linear algebra",
+      "mit-18-06": "MIT 18.06",
+      "note-taking": "Note-taking",
+      "reading-lists": "Reading lists"
+    }
+  }
 }

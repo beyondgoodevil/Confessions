@@ -185,6 +185,15 @@ function index(cfg, entries) {
     for (const t of n.tags) { const k = t.toLowerCase(); const e = S.tags.get(k) || { name: t, notes: [] }; e.notes.push(n); S.tags.set(k, e); }
   }
   S.updated = notes.reduce((a, n) => time(n.updated) > time(a) ? n.updated : a, null);
+  // config.browse: how tags become topics for browsing (see viewSection and viewTags)
+  const b = cfg.browse || {}, low = v => list(v).map(t => t.toLowerCase());
+  S.browse = {
+    fields: new Set(low(b.fields)),          // broad tags (theology, philosophy…): too wide to browse by
+    secondary: new Set(low(b.secondary)),    // tags such as "scripture" that say what kind of note it is; it's filed under its next topic
+    shelves: (Array.isArray(b.shelves) ? b.shelves : []).map(s => ({ name: str(s && s.name), tags: low(s && s.tags) })).filter(s => s.name && s.tags.length),
+    labels: b.labels && typeof b.labels === 'object' ? b.labels : {},
+    minNotes: +b.minNotes || 20              // sections with at least this many notes get the topic list and the filter
+  };
 }
 
 /* ---------------- citations ---------------- */
@@ -371,7 +380,7 @@ async function enhance(el) {
 const noteLink = n => `<a href="#/${n.id}" data-id="${n.id}">${esc(n.title)}</a>`;
 function entryLi(n, withSummary) {
   const src = sourceLine(n);
-  return `<li><span class="fr-addr">${n.id}</span><div>${noteLink(n)}${src ? `<span class="fr-src">${esc(src)}</span>` : ''}${withSummary && n.summary ? `<span class="fr-sum">${esc(n.summary)}</span>` : ''}</div></li>`;
+  return `<li data-id="${n.id}"><span class="fr-addr">${n.id}</span><div>${noteLink(n)}${src ? `<span class="fr-src">${esc(src)}</span>` : ''}${withSummary && n.summary ? `<span class="fr-sum">${esc(n.summary)}</span>` : ''}</div></li>`;
 }
 // newest first; notes published on the same day fall back to their address, which is handed out in publishing order
 const idNum = n => +String(n.id).split('-')[1] || 0;
@@ -406,26 +415,118 @@ function viewIndex() {
     ${intro}<nav class="sec-toc" aria-label="Sections">${toc}</nav>${secs}</div>`;
 }
 
-function viewSection(sec, subId, sort) {
+/* ---------------- browsing: topics, people and the section filter ---------------- */
+const tagLabel = t => S.browse.labels[t] || humanize(t);
+const topicsOf = n => [...new Set(n.tags.map(t => t.toLowerCase()))].filter(t => !S.browse.fields.has(t));
+// the one topic a note is filed under when a section is arranged by topic
+const mainTopic = n => { const ts = topicsOf(n); return ts.find(t => !S.browse.secondary.has(t)) || ts[0] || ''; };
+// config.browse.shelves, keeping the topics these notes use; anything on no shelf goes on a last one
+function shelvesFor(ns) {
+  const count = new Map();
+  for (const n of ns) for (const t of topicsOf(n)) count.set(t, (count.get(t) || 0) + 1);
+  const placed = new Set(S.browse.shelves.flatMap(s => s.tags));
+  const out = S.browse.shelves.map(s => ({ name: s.name, topics: s.tags.filter(t => count.has(t)) }));
+  const rest = [...count.keys()].filter(t => !placed.has(t)).sort((a, b) => count.get(b) - count.get(a) || a.localeCompare(b));
+  if (rest.length) out.push({ name: S.browse.shelves.length ? 'Other topics' : 'Topics', topics: rest });
+  return { shelves: out.filter(s => s.topics.length), count };
+}
+// people and series a section can be arranged by, besides topic, newest and title
+const splitNames = v => (Array.isArray(v) ? v.map(str) : str(v).split(/\s*;\s*|\s+and\s+|\s*&\s*/)).map(s => s.trim()).filter(Boolean);
+const GROUPINGS = {
+  author: { kinds: ['book'], of: n => splitNames(n.fm.author ?? n.fm.authors) },
+  course: { kinds: ['lecture'], of: n => splitNames(n.fm.course) },
+  show: { kinds: ['podcast'], of: n => splitNames(n.fm.show ?? n.fm.podcast) },
+  channel: { kinds: ['video'], of: n => splitNames(n.fm.channel ?? n.fm.creator) }
+};
+// "Eric D. Perl" under P, "St. Athanasius of Alexandria" under A
+const sortName = s => { const t = s.replace(/^(st\.?|saint)\s+/i, '').split(/\s+of\s+/i)[0].trim(); return (t.split(/\s+/).pop() + ' ' + t).toLowerCase(); };
+
+function viewSection(sec, subId, opts = {}) {
   const sub = sec.subsections.find(u => u.id === subId) || null;
-  const all = notesIn(sec);
-  const hasAuthor = all.some(n => n.fm.author || n.fm.authors);
-  const sorts = [['newest', 'newest'], ['title', 'title']].concat(hasAuthor ? [['author', 'author']] : []);
-  sort = sorts.some(s => s[0] === sort) ? sort : 'newest';
-  const cmp = sort === 'title' ? (a, b) => a.title.localeCompare(b.title) : sort === 'author' ? (a, b) => str(a.fm.author ?? a.fm.authors).split(' ').pop().localeCompare(str(b.fm.author ?? b.fm.authors).split(' ').pop()) || a.title.localeCompare(b.title) : newest;
-  const base = `#/s/${sec.id}`;
-  const filter = sec.subsections.length ? `<span class="medium-filter">Show <a href="${base}?sort=${sort}"${!sub ? ' aria-current="true"' : ''}>all ${all.length}</a>${sec.subsections.map(u => ` <a href="${base}/${u.id}?sort=${sort}"${sub === u ? ' aria-current="true"' : ''}>${esc(u.name.toLowerCase())} ${notesIn(sec, u).length}</a>`).join('')}</span>`
-    : `<span>${plural(all.length, 'note', 'notes')}</span>`;
-  const here = sub ? `${base}/${sub.id}` : base;
-  const sorter = `<span class="sort">Sort by ${sorts.map(([k, l]) => `<a href="${here}?sort=${k}"${k === sort ? ' aria-current="true"' : ''}>${l}</a>`).join(' ')}</span>`;
-  const groups = sec.subsections.length ? (sub ? [sub] : sec.subsections) : [null];
-  const body = groups.map(u => {
-    const ns = notesIn(sec, u).sort(cmp);
-    const head = u ? `<h2 class="yr">${esc(u.name)}</h2>` : '';
-    return `<section>${head}${ns.length ? `<ol class="fr-list fr-list-full">${ns.map(n => entryLi(n, true)).join('')}</ol>` : '<p class="fr-empty">No notes here yet.</p>'}</section>`;
-  }).join('');
-  return `<div class="page page-section"><header class="fr-head"><h1>${esc(sec.name)}</h1>${sec.description ? `<p class="home-sub">${esc(sec.description)}</p>` : ''}</header>
-    <div class="sec-tools">${filter}${sorter}</div>${body}</div>`;
+  const all = notesIn(sec), inSub = notesIn(sec, sub);
+  const browsing = all.length >= S.browse.minNotes;
+  const { shelves, count } = shelvesFor(inSub);
+  const topic = browsing && count.has(String(opts.topic || '').toLowerCase()) ? opts.topic.toLowerCase() : '';
+  const groupings = Object.keys(GROUPINGS).filter(k => inSub.some(n => GROUPINGS[k].kinds.includes(kindOf(n)) && GROUPINGS[k].of(n).length));
+  const sorts = ['newest', 'title', ...groupings, ...(browsing && !topic && count.size > 1 ? ['topic'] : [])];
+  const sort = sorts.includes(opts.sort) ? opts.sort : sorts.includes(sec.arrange) ? sec.arrange : 'newest';
+  const ns = topic ? inSub.filter(n => topicsOf(n).includes(topic)) : inSub;
+  const base = `#/s/${sec.id}${sub ? '/' + sub.id : ''}`;
+  // links carry their own settings in data-browse; initBrowse adds the filter words to them
+  const link = (params, text, current) => `<a href="${base}${params ? '?' + params : ''}" data-browse="${esc(params)}"${current ? ' aria-current="true"' : ''}>${text}</a>`;
+  const qs = o => new URLSearchParams(Object.entries(o).filter(([, v]) => v)).toString();
+  const keepSort = opts.sort && sorts.includes(opts.sort) && opts.sort !== 'topic' ? opts.sort : '';
+
+  const filterBox = browsing ? `<input class="sec-filter" type="search" placeholder="Filter by title, topic or summary" aria-label="Filter these notes" autocomplete="off" spellcheck="false">` : '';
+  // open on wider screens; on a phone it starts folded unless a topic is chosen, so the notes aren't pushed a screen down
+  const open = topic || !matchMedia('(max-width: 560px)').matches;
+  const topicList = browsing && count.size > 1 ? `<details class="topics"${open ? ' open' : ''}><summary>Browse by topic</summary><nav class="topic-rows" aria-label="Topics">${shelves.map(s => `<div class="topic-row"><span class="topic-shelf">${esc(s.name)}</span><span class="topic-links">${s.topics.map(t =>
+    link(qs({ topic: t === topic ? '' : t, sort: keepSort }), `${esc(tagLabel(t))}<span class="count">${count.get(t)}</span>`, t === topic)).join('')}</span></div>`).join('')}</nav></details>` : '';
+  const medium = sec.subsections.length ? `<span class="medium-filter">Show <a href="#/s/${sec.id}?sort=${sort}"${!sub ? ' aria-current="true"' : ''}>all ${all.length}</a>${sec.subsections.map(u => ` <a href="#/s/${sec.id}/${u.id}?sort=${sort}"${sub === u ? ' aria-current="true"' : ''}>${esc(u.name.toLowerCase())} ${notesIn(sec, u).length}</a>`).join('')}</span>` : '';
+  const summary = topic ? `${plural(ns.length, 'note', 'notes')} on <strong>${esc(tagLabel(topic))}</strong> · ${link(qs({ sort: keepSort }), 'all topics')}` : medium || plural(ns.length, 'note', 'notes');
+  const sorter = `<span class="sort">Sort by ${sorts.map(k => link(qs({ topic, sort: k }), k, k === sort)).join(' ')}</span>`;
+
+  const entries = xs => `<ol class="fr-list fr-list-full">${xs.map(n => entryLi(n, true)).join('')}</ol>`;
+  let body;
+  if (sort === 'topic') {
+    const by = new Map();
+    for (const n of [...ns].sort(newest)) { const t = mainTopic(n); if (!by.has(t)) by.set(t, []); by.get(t).push(n); }
+    const shelf = (name, ts) => {
+      const groups = ts.filter(t => by.has(t)).map(t => {
+        const xs = by.get(t), more = count.get(t) > xs.length ? link(qs({ topic: t }), `All ${count.get(t)} notes on ${esc(tagLabel(t).toLowerCase())}`) : '';
+        return `<section class="tgroup" data-group><h3 class="topic-head">${esc(tagLabel(t))}<span class="count">${xs.length}</span></h3>${entries(xs)}${more ? `<p class="topic-more">${more}</p>` : ''}</section>`;
+      }).join('');
+      return groups ? `<section class="shelf" data-group><h2 class="shelf-head">${esc(name)}</h2>${groups}</section>` : '';
+    };
+    body = shelves.map(s => shelf(s.name, s.topics)).join('') + (by.has('') ? `<section class="shelf" data-group><h2 class="shelf-head">No topic</h2><section class="tgroup" data-group>${entries(by.get(''))}</section></section>` : '');
+  } else if (GROUPINGS[sort]) {
+    const by = new Map();
+    for (const n of ns) for (const name of GROUPINGS[sort].of(n)) { if (!by.has(name)) by.set(name, []); by.get(name).push(n); }
+    const key = sort === 'author' ? sortName : x => x.toLowerCase();
+    const names = [...by.keys()].sort((a, b) => key(a).localeCompare(key(b)));
+    const none = ns.filter(n => !GROUPINGS[sort].of(n).length);
+    body = names.map(name => `<section class="tgroup" data-group><h2 class="yr">${esc(name)}<span class="count">${by.get(name).length}</span></h2>${entries(by.get(name).sort((a, b) => a.title.localeCompare(b.title)))}</section>`).join('')
+      + (none.length ? `<section class="tgroup" data-group><h2 class="yr">No ${esc(sort)} given</h2>${entries(none.sort(newest))}</section>` : '');
+  } else {
+    const cmp = sort === 'title' ? (a, b) => a.title.localeCompare(b.title) : newest;
+    const groups = sec.subsections.length && !topic ? (sub ? [sub] : sec.subsections) : [null];
+    body = groups.map(u => {
+      const xs = (u ? ns.filter(n => n.sub === u) : ns).sort(cmp);
+      return `<section data-group>${u ? `<h2 class="yr">${esc(u.name)}</h2>` : ''}${xs.length ? entries(xs) : '<p class="fr-empty">No notes here yet.</p>'}</section>`;
+    }).join('');
+  }
+  return `<div class="page page-section" data-base="${esc(base)}"><header class="fr-head"><h1>${esc(sec.name)}</h1>${sec.description ? `<p class="home-sub">${esc(sec.description)}</p>` : ''}</header>
+    ${filterBox || topicList ? `<div class="browse">${filterBox}${topicList}</div>` : ''}
+    <div class="sec-tools"><span class="sec-count">${summary}</span>${sorter}</div>${body}
+    <p class="fr-empty sec-nomatch" hidden>No notes match. Try fewer or shorter words.</p></div>`;
+}
+// the filter box: hides entries (and emptied groups) that don't contain every word typed; Enter opens the first one left
+const hay = n => n._hay || (n._hay = fold([n.id, n.title, n.summary, sourceLine(n), ...n.tags, ...n.tags.map(t => tagLabel(t.toLowerCase())), ...n.aliases].join(' ')));
+function initBrowse(main, q) {
+  const page = $('[data-base]', main), input = page && $('.sec-filter', page);
+  if (!input) return;
+  const count = $('.sec-count', page), plainCount = count.innerHTML, items = $$('li[data-id]', page), groups = $$('[data-group]', page).reverse();
+  let urlTimer = 0;
+  const apply = () => {
+    const words = fold(input.value).split(/\s+/).filter(Boolean), shown = new Set();
+    for (const li of items) { const ok = words.every(w => hay(S.byId.get(li.dataset.id)).includes(w)); li.hidden = !ok; if (ok) shown.add(li.dataset.id); }
+    for (const g of groups) g.hidden = !!words.length && !$('li[data-id]:not([hidden])', g);
+    $$('.fr-list', page).forEach(l => l.classList.toggle('is-filtered', !!words.length));
+    const total = new Set(items.map(li => li.dataset.id)).size;
+    if (words.length) count.textContent = `${shown.size} of ${plural(total, 'note', 'notes')}`; else count.innerHTML = plainCount;
+    $('.sec-nomatch', page).hidden = !words.length || shown.size > 0;
+    // remember the words in the address (so Back and reload keep them) and in the topic and sort links
+    const v = input.value.trim();
+    for (const a of $$('a[data-browse]', page)) { const p = new URLSearchParams(a.dataset.browse); if (v) p.set('q', v); a.setAttribute('href', page.dataset.base + (p.toString() ? '?' + p : '')); }
+    clearTimeout(urlTimer);
+    urlTimer = setTimeout(() => { if (!page.isConnected) return; const p = new URLSearchParams(location.hash.split('?')[1] || ''); if (v) p.set('q', v); else p.delete('q'); try { history.replaceState(history.state, '', page.dataset.base + (p.toString() ? '?' + p : '')); } catch (e) {} }, 250);
+  };
+  input.addEventListener('input', apply);
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && input.value) { e.stopPropagation(); input.value = ''; apply(); }
+    if (e.key === 'Enter') { const first = $('li[data-id]:not([hidden]) a[data-id]', page); if (first) location.hash = first.getAttribute('href'); }
+  });
+  if (q) { input.value = q; apply(); }
 }
 
 function contextSnippet(line, targetId) {
@@ -493,8 +594,15 @@ function viewNote(n) {
 
 function viewTags() {
   const tags = [...S.tags.values()].sort((a, b) => a.name.localeCompare(b.name));
-  return `<div class="page page-section"><header class="fr-head"><h1>Tags</h1><p class="home-sub">${plural(tags.length, 'tag', 'tags')} across ${plural(S.notes.length, 'note', 'notes')}</p></header>
-    ${tags.length ? `<ul class="tag-cloud">${tags.map(t => `<li><a href="#/tags/${encodeURIComponent(t.name.toLowerCase())}">${esc(t.name)} <span class="count">${t.notes.length}</span></a></li>`).join('')}</ul>` : '<p class="fr-empty">No tags yet. Add <code>tags: [one, two]</code> to a note’s front matter.</p>'}</div>`;
+  const head = `<header class="fr-head"><h1>Tags</h1><p class="home-sub">${plural(tags.length, 'tag', 'tags')} across ${plural(S.notes.length, 'note', 'notes')}</p></header>`;
+  const cloud = ts => `<ul class="tag-cloud">${ts.map(t => `<li><a href="#/tags/${encodeURIComponent(t.name.toLowerCase())}">${esc(t.name)} <span class="count">${t.notes.length}</span></a></li>`).join('')}</ul>`;
+  if (!tags.length) return `<div class="page page-section">${head}<p class="fr-empty">No tags yet. Add <code>tags: [one, two]</code> to a note’s front matter.</p></div>`;
+  if (!S.browse.shelves.length) return `<div class="page page-section">${head}${cloud(tags)}</div>`;
+  // grouped like the topic lists on the section pages: broad fields, then each shelf, then whatever is left
+  const used = new Set(), take = keys => keys.map(k => S.tags.get(k)).filter(t => t && !used.has(t)).map(t => (used.add(t), t));
+  const groups = [['Fields', take([...S.browse.fields]).sort((a, b) => b.notes.length - a.notes.length)], ...S.browse.shelves.map(s => [s.name, take(s.tags)])];
+  groups.push(['Other tags', tags.filter(t => !used.has(t))]);
+  return `<div class="page page-section page-tags">${head}${groups.filter(([, ts]) => ts.length).map(([name, ts]) => `<section class="tag-shelf"><h2 class="shelf-head">${esc(name)}</h2>${cloud(ts)}</section>`).join('')}</div>`;
 }
 function viewTag(key) {
   const t = S.tags.get(key);
@@ -512,7 +620,7 @@ function parseHash() {
   const parts = path.split('/').filter(Boolean).map(p => { try { return decodeURIComponent(p); } catch (e) { return p; } });
   const q = new URLSearchParams(query);
   if (!parts.length) return { name: 'index' };
-  if (parts[0] === 's') return { name: 'section', sec: parts[1], sub: parts[2], sort: q.get('sort') };
+  if (parts[0] === 's') return { name: 'section', sec: parts[1], sub: parts[2], sort: q.get('sort'), topic: q.get('topic'), q: q.get('q') };
   if (parts[0] === 'tags') return parts[1] ? { name: 'tag', tag: parts[1] } : { name: 'tags' };
   return { name: 'note', id: parts[0].toUpperCase(), anchor: parts[1] };
 }
@@ -524,8 +632,8 @@ function route() {
   if (r.name === 'index') html = viewIndex();
   else if (r.name === 'section') {
     const sec = S.sections.find(s => s.id === r.sec);
-    html = sec ? viewSection(sec, r.sub, r.sort) : viewMissing('That section doesn’t exist.');
-    if (sec) { title = `${sec.name} — ${title}`; navKey = sec.id; }
+    html = sec ? viewSection(sec, r.sub, { sort: r.sort, topic: r.topic }) : viewMissing('That section doesn’t exist.');
+    if (sec) { title = `${r.topic && S.tags.has(r.topic.toLowerCase()) ? tagLabel(r.topic.toLowerCase()) + ' — ' : ''}${sec.name} — ${title}`; navKey = sec.id; }
   } else if (r.name === 'tags') { html = viewTags(); title = `Tags — ${title}`; }
   else if (r.name === 'tag') { html = viewTag(r.tag.toLowerCase()); title = `${r.tag} — ${title}`; }
   else {
@@ -535,11 +643,12 @@ function route() {
     if (n) { title = `${n.title} — ${title}`; navKey = n.section.id; }
   }
   main.innerHTML = html;
+  if (r.name === 'section') initBrowse(main, r.q);   // before restoring the scroll position, since filtering changes the page's length
   document.title = title;
   $$('.nav a[data-nav]').forEach(a => a.dataset.nav === navKey ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
   const links = $('.nav-links'), cur = $('.nav a[aria-current="page"]');
   if (links && cur && links.scrollWidth > links.clientWidth) links.scrollLeft += cur.getBoundingClientRect().left - links.getBoundingClientRect().left - (links.clientWidth - cur.offsetWidth) / 2;
-  const key = r.name === 'section' ? `s/${r.sec}` : location.hash;
+  const key = r.name === 'section' ? `s/${r.sec}?${(r.topic || '').toLowerCase()}` : location.hash;
   const saved = scrollMemory[entryKey()];
   if (!entryKey()) { try { history.replaceState({ ...(history.state || {}), cp: Date.now().toString(36) + Math.random().toString(36).slice(2, 7) }, ''); } catch (e) {} }
   if (saved != null) window.scrollTo(0, saved);   // Back, Forward or reload: return to where the reader was
