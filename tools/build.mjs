@@ -20,12 +20,15 @@ const isDraft = raw => {
 export function collectNotes({ withGit = true } = {}) {
   const all = walk(path.join(ROOT, 'notes'));
   const notes = []; let drafts = 0;
+  // edits before config.editsCountFrom (YYYY-MM-DD) don't count as updates: such a note shows its own date instead
+  let from = ''; try { from = String(loadConfig().editsCountFrom || ''); } catch { /* the build reports a broken config itself */ }
+  const counted = d => d && (!from || d >= from) ? d : null;
   for (const f of all.filter(f => NOTE_EXT.test(f)).sort()) {
     const raw = fs.readFileSync(f, 'utf8');
     if (isDraft(raw)) { drafts++; continue; }
     const r = rel(f);
     const git = withGit ? gitDates(r) : {};
-    notes.push({ path: r, raw, created: git.created || null, updated: git.updated || fs.statSync(f).mtime.toISOString().slice(0, 10) });
+    notes.push({ path: r, raw, created: git.created || null, updated: counted(withGit ? git.updated : fs.statSync(f).mtime.toISOString().slice(0, 10)) });
   }
   const files = all.filter(f => MEDIA_EXT.test(f)).map(rel).sort();
   return { notes, files, drafts };
@@ -141,6 +144,6 @@ export function build() {
   console.log(`Built ${notes.length} note${notes.length === 1 ? '' : 's'} into _site/${drafts ? ` (${drafts} draft${drafts === 1 ? '' : 's'} skipped)` : ''}.`);
 }
 
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   try { build(); } catch (e) { console.error('Build failed:', e.message); process.exit(1); }
 }

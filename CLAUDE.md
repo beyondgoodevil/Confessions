@@ -16,7 +16,7 @@ This repository is a personal notebook published with GitHub Pages. Every Markdo
 
 Sections are defined in `config.json` (strict JSON). `templates/` holds Obsidian templates and is not published.
 
-Browsing is set in `config.json` too. `browse.shelves` puts topic tags under headings (God and Christ, Scripture, …) for the topic list on large sections and the Tags page; `browse.fields` are broad tags (theology, philosophy…) that aren't offered as topics; `browse.secondary` tags (scripture) don't decide where a note is filed when a section is sorted by topic; `browse.labels` gives display names (`icons-saints` → Icons and saints). A section's `arrange` picks its default order (`topic`, `author`, `newest`, `title`). When you add a new topic tag to the vocabulary below, add it to a shelf as well.
+Browsing is set in `config.json` too. `browse.shelves` puts topic tags under headings (God and Christ, Scripture, …) for the topic list on large sections and the Tags page; `browse.fields` are broad tags (theology, philosophy…) that aren't offered as topics; `browse.secondary` tags (scripture) don't decide where a note is filed when a section is sorted by topic; `browse.labels` gives display names (`icons-saints` → Icons and saints). `editsCountFrom` (a date) sets when edits start counting: a note's "Updated" line shows its last commit only if that commit is on or after this date, otherwise the note's own `date`. A section's `arrange` picks its default order (`topic`, `author`, `newest`, `title`). When you add a new topic tag to the vocabulary below, add it to a shelf as well.
 
 ## Note format
 
