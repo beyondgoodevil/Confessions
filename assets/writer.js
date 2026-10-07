@@ -219,7 +219,16 @@ function relatedDialog(ta, getMeta) {
 const isGuide = n => !!n._meta && (n._meta.tags.includes('guide') || /^notes\/guides\//.test(n.path));
 const guideNotes = () => W.notes.filter(isGuide).sort((a, b) => a._meta.title.localeCompare(b._meta.title));
 const bodyOf = raw => String(raw || '').replace(/^﻿?---[\s\S]*?\n---[ \t]*(\n|$)/, '');
-const guideParts = raw => headings(bodyOf(raw)).filter(h => h.level === 2 && !UNNUMBERED.test(h.text.replace(NUM_PREFIX, ''))).map(h => h.text);
+// A guide's parts: its ## headings, or the ### sub-parts under them, named "Part › Sub-part"
+function partList(body) {
+  const out = []; let top = '';
+  for (const h of headings(body)) {
+    if (h.level === 2) { top = UNNUMBERED.test(h.text.replace(NUM_PREFIX, '')) ? null : h.text; if (top) out.push({ name: top, level: 2, line: h.line }); }
+    else if (h.level === 3 && top) { out.push({ name: `${top} › ${h.text}`, level: 3, line: h.line }); const p = out.find(x => x.name === top && x.level === 2); if (p) p.hasSubs = true; }
+  }
+  return out;
+}
+const guideParts = raw => partList(bodyOf(raw)).filter(p => !p.hasSubs).map(p => p.name);
 const lists = (raw, title) => wikiLinks(String(raw || '')).some(t => t.toLowerCase() === String(title).toLowerCase());
 // Adds "N. [[title]] — summary" to the end of a part's list (or of the guide), numbering on from the
 // list it joins; a bulleted list gets a bullet. Returns null when the guide already lists the note.
@@ -227,11 +236,16 @@ function addToGuide(raw, part, title, summary) {
   if (!title || lists(raw, title)) return null;
   const lines = String(raw).replace(/\s+$/, '').split('\n');
   const fmEnd = /^﻿?---[ \t]*$/.test(lines[0]) ? lines.findIndex((l, i) => i > 0 && /^---[ \t]*$/.test(l)) : -1;
-  const h2 = []; let fence = false;
-  lines.forEach((l, i) => { if (i <= fmEnd) return; if (/^\s*(```|~~~)/.test(l)) fence = !fence; else if (!fence && /^##[ \t]+/.test(l)) h2.push({ i, text: l.replace(/^##[ \t]+/, '').replace(/[ \t#]*$/, '') }); });
-  const parts = h2.filter(h => !UNNUMBERED.test(h.text.replace(NUM_PREFIX, '')));
-  const at = parts.find(h => h.text === part) || parts[parts.length - 1];
-  const start = at ? at.i : fmEnd, next = h2.find(h => h.i > start), end = next ? next.i : lines.length;
+  const hs = []; let fence = false;
+  lines.forEach((l, i) => { if (i <= fmEnd) return; if (/^\s*(```|~~~)/.test(l)) fence = !fence; else { const m = !fence && l.match(/^(#{2,3})[ \t]+(.+?)[ \t#]*$/); if (m) hs.push({ i, level: m[1].length, text: m[2] }); } });
+  const parts = []; let top = null;
+  for (const h of hs) {
+    if (h.level === 2) { top = UNNUMBERED.test(h.text.replace(NUM_PREFIX, '')) ? null : h.text; if (top) parts.push({ ...h, name: top }); }
+    else if (top) parts.push({ ...h, name: `${top} › ${h.text}` });
+  }
+  const leaves = parts.filter(p => !parts.some(q => q.level === 3 && p.level === 2 && q.name.startsWith(p.name + ' › ')));
+  const at = leaves.find(h => h.name === part) || leaves[leaves.length - 1];
+  const start = at ? at.i : fmEnd, next = hs.find(h => h.i > start && h.level <= (at ? at.level : 2)), end = next ? next.i : lines.length;
   let last = -1, num = 0, bullet = false;
   for (let i = start + 1; i < end; i++) {
     const m = lines[i].match(/^(\d+)[.)]\s/), b = /^[-*+]\s/.test(lines[i]);
@@ -249,10 +263,10 @@ function guideSuggestions(meta) {
   const idx = noteIndex(), freq = new Map(); for (const n of W.notes) for (const t of (n._meta ? n._meta.tags : [])) freq.set(t, (freq.get(t) || 0) + 1);
   const weight = ts => ts.filter(t => mine.includes(t)).reduce((s, t) => s + 1 / Math.log(2 + (freq.get(t) || 1)), 0);
   return guideNotes().filter(g => g.path !== meta.path).map(g => {
-    const raw = String(g.raw || ''), body = bodyOf(raw).split('\n'), hs = headings(bodyOf(raw)).filter(h => h.level === 2);
+    const raw = String(g.raw || ''), body = bodyOf(raw).split('\n'), all = partList(bodyOf(raw)), hs = headings(bodyOf(raw));
     let best = '', bestScore = 0;
-    for (const p of guideParts(raw)) {
-      const h = hs.find(x => x.text === p), nx = hs.find(x => x.line > h.line), chunk = body.slice(h.line, nx ? nx.line : body.length).join('\n');
+    for (const h of all.filter(p => !p.hasSubs)) {
+      const p = h.name, nx = hs.find(x => x.line > h.line && x.level <= h.level), chunk = body.slice(h.line, nx ? nx.line : body.length).join('\n');
       const s = wikiLinks(chunk).map(t => idx.get(t.toLowerCase())).filter(Boolean).reduce((a, x) => a + weight(x.tags), 0);
       if (s > bestScore) { bestScore = s; best = p; }
     }

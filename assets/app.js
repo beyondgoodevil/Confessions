@@ -391,11 +391,12 @@ const sectionNoun = sec => sec.noun || sec.name.toLowerCase();
 
 function viewIndex() {
   const c = S.config, per = c.indexPreviewCount || 4, perSub = c.indexPreviewCountPerSubsection || 3;
-  const toc = S.sections.map(sec => {
+  const shown = S.sections.filter(sec => sec.index !== false);   // a section can opt out of the index page with "index": false
+  const toc = shown.map(sec => {
     const row = `<a href="#/s/${sec.id}"><span class="st-name">${esc(sec.name)}</span><span class="st-c">${notesIn(sec).length}</span></a>`;
     return row + sec.subsections.map(u => `<a class="st-sub" href="#/s/${sec.id}/${u.id}"><span class="st-name">${esc(u.name)}</span><span class="st-c">${notesIn(sec, u).length}</span></a>`).join('');
   }).join('');
-  const secs = S.sections.map(sec => {
+  const secs = shown.map(sec => {
     const all = notesIn(sec);
     let inner;
     if (!all.length) inner = `<p class="fr-empty">No notes here yet.</p>`;
