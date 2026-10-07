@@ -105,7 +105,14 @@ function toolbar() {
   return `<div class="w-tools" role="toolbar" aria-label="Formatting">
     <button type="button" data-ins="bold" title="Bold (Ctrl+B)"><b>B</b></button>
     <button type="button" data-ins="italic" title="Italic (Ctrl+I)"><i>I</i></button>
-    <button type="button" data-ins="h2" title="Section heading">H</button>
+    <button type="button" data-ins="hl" title="Highlight">==</button>
+    <button type="button" data-ins="h2" title="Section heading">H2</button>
+    <button type="button" data-ins="h3" title="Sub-heading">H3</button>
+    <button type="button" data-ins="ul" title="Bulleted list">• List</button>
+    <button type="button" data-ins="ol" title="Numbered list">1. List</button>
+    <button type="button" data-ins="quote" title="Quotation">“ ”</button>
+    <button type="button" data-ins="table" title="Insert a table">Table</button>
+    <button type="button" data-ins="hr" title="Dividing line">—</button>
     <button type="button" data-ins="link" title="Link to a note (or type [[)">[[ ]]</button>
     <button type="button" data-ins="math" title="Inline maths">$x$</button>
     <button type="button" data-ins="mathd" title="Display equation">$$</button>
@@ -114,7 +121,181 @@ function toolbar() {
       <option>definition</option><option>theorem</option><option>lemma</option><option>proof</option><option>example</option>
       <option>note</option><option>quote</option><option>question</option><option>idea</option></select>
     <label class="w-img" title="Insert an image">Image<input type="file" accept="image/*" hidden data-img></label>
+    <select data-sec aria-label="Section tools"><option value="">Sections…</option>
+      <option value="number">Number the sections</option><option value="strip">Remove section numbers</option>
+      <option value="related">Build the Related list…</option></select>
   </div>`;
+}
+// Shown under the editor: a live outline of the headings and a list of things to check before publishing.
+const sidePanels = () => `<div class="w-side"><details class="w-outline" open><summary>Outline</summary><ol></ol></details>
+  <details class="w-checks" open><summary>Before you publish</summary><ul></ul></details></div>`;
+
+/* ---- structure helpers ---- */
+const UNNUMBERED = /^(related|references|footnotes|see also|sources|further reading)$/i;
+const NUM_PREFIX = /^(\d+|[IVXLC]+)[.)]\s+/;
+// Every heading in the body with its line number, skipping fenced code.
+function headings(body) {
+  const out = []; let fence = false;
+  body.split('\n').forEach((line, i) => {
+    if (/^\s*(```|~~~)/.test(line)) { fence = !fence; return; }
+    const m = !fence && line.match(/^(#{1,6})[ \t]+(.+?)[ \t#]*$/);
+    if (m) out.push({ level: m[1].length, text: m[2], line: i });
+  });
+  return out;
+}
+function numberSections(body, strip) {
+  const lines = body.split('\n'); let n = 0;
+  for (const h of headings(body)) {
+    if (h.level !== 2) continue;
+    const bare = h.text.replace(NUM_PREFIX, '');
+    lines[h.line] = '## ' + (strip || UNNUMBERED.test(bare) ? bare : `${++n}. ${bare}`);
+  }
+  return lines.join('\n');
+}
+const wikiLinks = body => [...body.matchAll(/(!?)\[\[([^\]\n|#]+)(?:#[^\]\n|]*)?(?:\|[^\]\n]*)?\]\]/g)].filter(m => !m[1]).map(m => m[2].trim());
+function noteIndex() {
+  const m = new Map();
+  for (const x of W.notes.map(n => n._meta).filter(Boolean)) { for (const k of [x.title, x.id, ...x.aliases]) m.set(String(k).toLowerCase(), x); }
+  return m;
+}
+// Splits the body into what comes before "## Related" and the titles already listed there.
+function splitRelated(body) {
+  const hs = headings(body), lines = body.split('\n');
+  const i = hs.findIndex(h => h.level === 2 && /^related$/i.test(h.text.replace(NUM_PREFIX, '')));
+  if (i < 0) return { before: body.replace(/\s+$/, ''), listed: [], after: '' };
+  const start = hs[i].line, next = hs.slice(i + 1).find(h => h.level <= 2), end = next ? next.line : lines.length;
+  return { before: lines.slice(0, start).join('\n').replace(/\s+$/, ''), listed: wikiLinks(lines.slice(start, end).join('\n')), after: lines.slice(end).join('\n').replace(/\s+$/, '') };
+}
+function relatedCandidates(meta) {
+  const idx = noteIndex(), mine = new Set(meta.tags), { before, listed } = splitRelated(meta.body);
+  const freq = new Map(); for (const n of W.notes) for (const t of (n._meta ? n._meta.tags : [])) freq.set(t, (freq.get(t) || 0) + 1);
+  const picked = new Map();
+  const add = (x, why, on) => { if (!x || x.path === meta.path) return; const p = picked.get(x.path); if (p) { p.on = p.on || on; if (!p.why.includes(why)) p.why.push(why); } else picked.set(x.path, { x, why: [why], on, score: 0 }); };
+  listed.forEach(t => add(idx.get(t.toLowerCase()), 'already listed', true));
+  wikiLinks(before).forEach(t => add(idx.get(t.toLowerCase()), 'linked in the text', true));
+  const title = (meta.title || '').toLowerCase();
+  for (const n of W.notes) { const x = n._meta; if (!x || x.path === meta.path) continue;
+    if (title && wikiLinks(String(n.raw || '')).some(t => t.toLowerCase() === title)) add(x, 'links here', false);
+    const shared = x.tags.filter(t => mine.has(t) && t !== 'guide'); if (!shared.length) continue;
+    const score = shared.reduce((s, t) => s + 1 / Math.log(2 + (freq.get(t) || 1)), 0);
+    if (score > 0.42 || picked.has(x.path)) { add(x, 'shares ' + shared.slice(0, 3).join(', '), false); picked.get(x.path).score = score; }
+  }
+  return [...picked.values()].sort((a, b) => b.on - a.on || b.score - a.score || a.x.title.localeCompare(b.x.title)).slice(0, 60);
+}
+// A small modal. Buttons are handled directly instead of waiting for the dialog's own close event.
+function modal(cls, html, onOk, after) {
+  const dlg = document.createElement('dialog'); dlg.className = 'w-dialog ' + cls;
+  dlg.innerHTML = `<form onsubmit="return false">${html}</form>`; document.body.append(dlg);
+  const finish = ok => { if (ok) onOk(dlg); if (dlg.open) dlg.close(); dlg.remove(); if (after) after(); };
+  dlg.addEventListener('click', e => { const b = e.target.closest('button[value]'); if (b) finish(b.value === 'ok'); });
+  dlg.addEventListener('cancel', e => { e.preventDefault(); finish(false); });
+  $('form', dlg).addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.tagName === 'INPUT' && e.target.type !== 'search' && e.target.type !== 'checkbox') { e.preventDefault(); finish(true); } });
+  dlg.showModal(); return dlg;
+}
+function relatedDialog(ta, getMeta) {
+  const meta = getMeta(); let cands = relatedCandidates(meta);
+  const row = c => `<li><label><input type="checkbox" value="${esc(c.x.title)}"${c.on ? ' checked' : ''}> <span class="w-mono">${esc(c.x.id)}</span> ${esc(c.x.title)} <small>${esc(c.why.join(' · '))}</small></label></li>`;
+  const dlg = modal('', `<h2>Related notes</h2>
+    <p class="w-muted">Ticked notes go into the <code>## Related</code> list at the end of the note. Suggestions come from links in your text, notes that link here, and shared tags.</p>
+    <input type="search" placeholder="Find any other note to add" aria-label="Find a note">
+    <ul class="w-rel">${cands.map(row).join('') || '<li class="w-empty">No suggestions yet. Add tags or links, or search above.</li>'}</ul>
+    <div class="w-actions"><button type="button" class="w-btn" value="cancel">Cancel</button><button type="button" class="w-btn w-primary" value="ok">Update the list</button></div>`,
+    d => {
+      const titles = $$('input[type=checkbox]:checked', d).map(i => i.value);
+      const { before, after } = splitRelated(ta.value);
+      ta.value = before + (titles.length ? '\n\n## Related\n\n' + titles.map(t => `- [[${t}]]`).join('\n') : '') + (after ? '\n\n' + after : '') + '\n';
+      ta.dispatchEvent(new Event('input'));
+    }, () => ta.focus());
+  const ul = $('.w-rel', dlg), q = $('input[type=search]', dlg);
+  q.addEventListener('input', () => {
+    const s = q.value.trim().toLowerCase(); $$('li[data-found]', ul).forEach(li => { if (!$('input', li).checked) li.remove(); });
+    if (s.length < 2) return;
+    const have = new Set($$('input', ul).map(i => i.value));
+    W.notes.map(n => n._meta).filter(x => x && x.path !== meta.path && !have.has(x.title) && (x.title.toLowerCase().includes(s) || x.id.toLowerCase() === s)).slice(0, 8)
+      .forEach(x => { const li = document.createElement('li'); li.dataset.found = '1'; li.innerHTML = `<label><input type="checkbox" value="${esc(x.title)}"> <span class="w-mono">${esc(x.id)}</span> ${esc(x.title)} <small>search</small></label>`; ul.prepend(li); });
+  });
+}
+function tableDialog(ta) {
+  modal('w-small', `<h2>Insert a table</h2>
+    <div class="w-grid"><label class="w-field"><span>Columns</span><input name="c" type="number" min="1" max="8" value="3"></label>
+    <label class="w-field"><span>Rows</span><input name="r" type="number" min="1" max="30" value="3"></label></div>
+    <label class="w-field"><span>Column headings <small>comma-separated, optional</small></span><input name="h" placeholder="View, Says, Problem"></label>
+    <div class="w-actions"><button type="button" class="w-btn" value="cancel">Cancel</button><button type="button" class="w-btn w-primary" value="ok">Insert</button></div>`,
+    d => {
+      const f = $('form', d), heads = f.h.value.split(',').map(s => s.trim()).filter(Boolean);
+      const c = Math.max(1, Math.min(8, heads.length || +f.c.value || 3)), r = Math.max(1, Math.min(30, +f.r.value || 3));
+      const cells = a => '| ' + a.join(' | ') + ' |';
+      insertLine(ta, [cells(Array.from({ length: c }, (_, i) => heads[i] || `Column ${i + 1}`)), cells(Array(c).fill('---')), ...Array.from({ length: r }, () => cells(Array(c).fill(' ')))].join('\n') + '\n');
+    }, () => ta.focus());
+}
+// Prefix every selected line (lists, quotations).
+function prefixLines(ta, make) {
+  const v = ta.value, a = v.lastIndexOf('\n', ta.selectionStart - 1) + 1; let b = v.indexOf('\n', ta.selectionEnd); if (b < 0) b = v.length;
+  const out = v.slice(a, b).split('\n').map((l, i) => make(i) + l).join('\n');
+  ta.setRangeText(out, a, b, 'end'); ta.focus(); ta.dispatchEvent(new Event('input'));
+}
+// Enter continues a list or quotation; on an empty item it ends it. Tab / Shift+Tab indent list items.
+function smartKey(e, ta) {
+  if (e.ctrlKey || e.metaKey || e.altKey) return false;
+  const v = ta.value, s = ta.selectionStart, en = ta.selectionEnd, ls = v.lastIndexOf('\n', s - 1) + 1;
+  if (e.key === 'Enter' && !e.shiftKey && s === en) {
+    const line = v.slice(ls, s), m = line.match(/^(\s*)(?:([-*+])|(\d+)([.)])|(>))(\s+)(.*)$/);
+    if (!m) return false;
+    if (!m[7].trim()) { ta.setRangeText('', ls, s, 'end'); ta.dispatchEvent(new Event('input')); return true; }
+    const marker = m[2] || (m[3] ? (+m[3] + 1) + m[4] : m[5]);
+    ta.setRangeText('\n' + m[1] + marker + m[6], s, en, 'end'); ta.dispatchEvent(new Event('input')); return true;
+  }
+  if (e.key === 'Tab') {
+    let le = v.indexOf('\n', en); if (le < 0) le = v.length;
+    const block = v.slice(ls, le);
+    if (s === en && !/^\s*([-*+]|\d+[.)])\s/.test(block)) return false;       // leave Tab alone outside lists so the keyboard can still move on
+    const out = block.split('\n').map(l => e.shiftKey ? l.replace(/^( {1,4}|\t)/, '') : '    ' + l).join('\n');
+    const d0 = e.shiftKey ? -Math.min(4, (block.match(/^ */) || [''])[0].length) : 4;
+    ta.setRangeText(out, ls, le, 'preserve');
+    if (s === en) ta.selectionStart = ta.selectionEnd = Math.max(ls, s + d0); else { ta.selectionStart = ls; ta.selectionEnd = ls + out.length; }
+    ta.dispatchEvent(new Event('input')); return true;
+  }
+  return false;
+}
+function drawOutline(root, ta) {
+  const ol = $('.w-outline ol', root); if (!ol) return;
+  const hs = headings(ta.value); let prev = 1;
+  ol.innerHTML = hs.map(h => { const skip = h.level > prev + 1; prev = h.level;
+    return `<li class="lvl-${h.level}"><button type="button" data-line="${h.line}">${esc(h.text)}</button>${h.level === 1 ? ' <small>use ## — the title is already the top heading</small>' : skip ? ' <small>skips a level</small>' : ''}</li>`; }).join('')
+    || '<li class="w-empty">No headings yet. Start a section with <code>## </code>.</li>';
+}
+const SMALL_WORDS = /^(a|an|and|as|at|but|by|for|from|if|in|into|is|nor|of|on|or|so|the|to|up|via|vs|with|yet)$/i;
+// Returns a list of plain-language warnings. Nothing here blocks publishing.
+function checkNote(meta) {
+  const out = [], body = meta.body || '', hs = headings(body), idx = noteIndex(), words = body.trim().split(/\s+/).filter(Boolean).length;
+  if (!meta.title) out.push('The note has no title.');
+  else {
+    const w = meta.title.split(/\s+/), bad = w.filter((x, i) => /^[a-z]/.test(x) && (i === 0 || !SMALL_WORDS.test(x)));
+    if (bad.length) out.push(`Title isn't in title case (“${bad[0]}”).`);
+    if (W.notes.some(n => n._meta && n._meta.path !== meta.path && n._meta.title.toLowerCase() === meta.title.toLowerCase())) out.push('Another note already has this title, so links to it will be ambiguous.');
+  }
+  if (!meta.tags.length) out.push('No tags.');
+  if (!meta.summary) out.push('No summary. It is what shows under the title in lists and guides.');
+  const missing = [...new Set(wikiLinks(body).filter(t => !idx.has(t.toLowerCase())))];
+  if (missing.length) out.push(`Links to notes that don't exist: ${missing.slice(0, 4).map(t => `“${t}”`).join(', ')}${missing.length > 4 ? ` and ${missing.length - 4} more` : ''}.`);
+  if (/\[\[\s*\]\]/.test(body)) out.push('An empty [[ ]] link is left in the note.');
+  if (hs.some(h => h.level === 1)) out.push('A single # heading repeats the title. Use ## for sections.');
+  if (words > 250 && hs.filter(h => h.level === 2).length < 2) out.push('A long note with no sections. Two or more ## headings give it a table of contents.');
+  const nums = hs.filter(h => h.level === 2).map(h => (h.text.match(/^(\d+)[.)]\s/) || [])[1]).filter(Boolean).map(Number);
+  const h2 = hs.filter(h => h.level === 2 && !UNNUMBERED.test(h.text.replace(NUM_PREFIX, '')));
+  if (nums.some((n, i) => n !== i + 1) || (nums.length && nums.length < h2.length)) out.push('Section numbers are out of order. “Sections… → Number the sections” fixes them.');
+  if (words > 80 && !hs.some(h => /^related$/i.test(h.text.replace(NUM_PREFIX, '')))) out.push('No Related list. “Sections… → Build the Related list” suggests one.');
+  return out;
+}
+function drawChecks(root, getMeta) {
+  const ul = $('.w-checks ul', root); if (!ul || !getMeta) return;
+  const issues = checkNote(getMeta());
+  ul.innerHTML = issues.map(i => `<li>${esc(i)}</li>`).join('') || '<li class="w-ok">Nothing to fix.</li>';
+  $('.w-checks summary', root).textContent = issues.length ? `Before you publish (${issues.length})` : 'Before you publish';
+}
+function confirmChecks(meta) {
+  const issues = checkNote(meta);
+  return !issues.length || confirm(`${issues.length === 1 ? 'One thing' : issues.length + ' things'} to check:\n\n• ${issues.join('\n• ')}\n\nPublish anyway?`);
 }
 function wrapSel(ta, before, after = before, placeholder = '') {
   const { selectionStart: a, selectionEnd: b, value } = ta;
@@ -127,13 +308,27 @@ function insertLine(ta, text) {
   const a = ta.selectionStart, v = ta.value, lead = a > 0 && v[a - 1] !== '\n' ? '\n\n' : (a > 1 && v[a - 2] !== '\n' ? '\n' : '');
   ta.setRangeText(lead + text, a, ta.selectionEnd, 'end'); ta.focus(); ta.dispatchEvent(new Event('input'));
 }
-function bindEditor(root, onChange) {
+function bindEditor(root, onChange, getMeta) {
   const ta = $('textarea.w-body', root);
+  const redraw = () => { drawOutline(root, ta); drawChecks(root, getMeta); };
   root.addEventListener('click', e => {
+    const j = e.target.closest('[data-line]');
+    if (j) {      // jump to a heading from the outline
+      const lines = ta.value.split('\n'), pos = lines.slice(0, +j.dataset.line).join('\n').length + (+j.dataset.line ? 1 : 0);
+      ta.focus(); ta.selectionStart = pos; ta.selectionEnd = pos + lines[+j.dataset.line].length;
+      ta.scrollTop = Math.max(0, (+j.dataset.line / Math.max(1, lines.length)) * ta.scrollHeight - 60); return;
+    }
     const b = e.target.closest('[data-ins]'); if (!b) return;
     const k = b.dataset.ins;
     if (k === 'bold') wrapSel(ta, '**', '**', 'bold text');
     if (k === 'italic') wrapSel(ta, '*', '*', 'italic text');
+    if (k === 'hl') wrapSel(ta, '==', '==', 'highlighted');
+    if (k === 'h3') insertLine(ta, '### ');
+    if (k === 'ul') prefixLines(ta, () => '- ');
+    if (k === 'ol') prefixLines(ta, i => `${i + 1}. `);
+    if (k === 'quote') prefixLines(ta, () => '> ');
+    if (k === 'hr') insertLine(ta, '---\n\n');
+    if (k === 'table') tableDialog(ta);
     if (k === 'h2') insertLine(ta, '## ');
     if (k === 'link') { wrapSel(ta, '[[', ']]', ''); openSuggest(ta); }
     if (k === 'math') wrapSel(ta, '$', '$', 'x^2');
@@ -144,6 +339,13 @@ function bindEditor(root, onChange) {
     }
   });
   $('[data-callout]', root).addEventListener('change', e => { const t = e.target.value; if (!t) return; insertLine(ta, `> [!${t}]${t === 'proof' ? '' : ' Title'}\n> `); e.target.value = ''; });
+  $('[data-sec]', root).addEventListener('change', e => {
+    const t = e.target.value; e.target.value = ''; if (!t) return;
+    if (t === 'related') return relatedDialog(ta, getMeta || (() => ({ title: '', tags: [], body: ta.value, path: '' })));
+    const next = numberSections(ta.value, t === 'strip');
+    if (next !== ta.value) { const p = ta.selectionStart; ta.value = next; ta.selectionStart = ta.selectionEnd = Math.min(p, next.length); ta.dispatchEvent(new Event('input')); }
+    else toast(t === 'strip' ? 'No section numbers to remove.' : 'The sections are already numbered in order.');
+  });
   $('[data-img]', root).addEventListener('change', e => { [...e.target.files].forEach(f => addImage(f, ta)); e.target.value = ''; });
   ta.addEventListener('paste', e => { const f = [...(e.clipboardData?.files || [])].find(f => f.type.startsWith('image/')); if (f) { e.preventDefault(); addImage(f, ta); } });
   ta.addEventListener('drop', e => { const fs = [...(e.dataTransfer?.files || [])].filter(f => f.type.startsWith('image/')); if (fs.length) { e.preventDefault(); fs.forEach(f => addImage(f, ta)); } });
@@ -151,10 +353,12 @@ function bindEditor(root, onChange) {
     if (suggest.open && ['ArrowDown', 'ArrowUp', 'Enter', 'Tab', 'Escape'].includes(e.key)) { e.preventDefault(); suggestKey(e.key, ta); return; }
     if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'b') { e.preventDefault(); wrapSel(ta, '**', '**', 'bold text'); }
     if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'i') { e.preventDefault(); wrapSel(ta, '*', '*', 'italic text'); }
-    if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') { e.preventDefault(); $('[data-publish]', root.closest('.w-pane'))?.click(); }
+    if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') { e.preventDefault(); $('[data-publish]', root.closest('.w-pane'))?.click(); return; }
+    if (smartKey(e, ta)) e.preventDefault();
   });
   let t = null;
-  ta.addEventListener('input', () => { openSuggest(ta); clearTimeout(t); t = setTimeout(onChange, 250); });
+  ta.addEventListener('input', () => { openSuggest(ta); clearTimeout(t); t = setTimeout(() => { onChange(); redraw(); }, 250); });
+  root._redraw = redraw; redraw();
   ta.addEventListener('blur', () => setTimeout(closeSuggest, 150));
 }
 function addImage(file, ta) {
@@ -210,6 +414,25 @@ function caretXY(ta) {
   return { x: r.left + sl, y: r.top + sr - ta.scrollTop + parseFloat(cs.lineHeight || 20) + 4 };
 }
 
+/* ---------------- templates ---------------- */
+// Skeletons modelled on the notes already in the notebook. `kind` picks the section when it exists.
+const TEMPLATES = [
+  { name: 'Scripture theme', tags: 'theology, scripture', hint: 'Verses that connect one theme, grouped, with a line on each.',
+    body: 'One or two sentences on the theme and how the passages hang together. Quotations from the KJV.\n\n## 1. First Group\n\n**Book 1:1**  \n"Verse text."\n\n- What this verse shows.\n\n**Book 2:2**  \n"Verse text."\n\n- What this verse shows.\n\n## 2. Second Group\n\n**Book 3:3**  \n"Verse text."\n\n- What this verse shows.\n\n## 3. How to Read These\n\n- What the passages establish together.\n- What they do not establish.\n\n## Related\n\n- [[]]\n' },
+  { name: 'Book or reading notes', kind: 'book', tags: 'philosophy', hint: 'What the chapter argues, in order, with my questions.',
+    body: 'What the text is, and which parts were read closely and which skimmed.\n\n## 1. The Question\n\n- What the author is trying to settle.\n- The usual view he is arguing against.\n\n## 2. The Argument\n\n1. First step.\n2. Second step.\n3. Conclusion.\n\n## 3. Key Terms\n\n| Term | Meaning |\n|---|---|\n|  |  |\n\n## 4. Objections and Replies\n\n- *Objection.* Reply.\n\n## 5. What I Make of It\n\n- What convinces me.\n- What does not.\n\n## 6. To Do\n\n- What to read next.\n\n## Related\n\n- [[]]\n' },
+  { name: 'Argument', tags: 'philosophy, apologetics', hint: 'The argument in numbered steps, the objections, and where it stands.',
+    body: 'What the argument is meant to show, in one or two sentences.\n\n## 1. The Argument\n\n1. First premise.\n2. Second premise.\n3. Therefore, conclusion.\n\n## 2. Why Accept the Premises\n\n- **Premise 1:** reason.\n- **Premise 2:** reason.\n\n## 3. Objections and Replies\n\n| Objection | Reply |\n|---|---|\n|  |  |\n|  |  |\n\n## 4. The Orthodox View\n\n- What the Fathers accept here.\n- Where they would qualify it.\n\n## 5. Where It Stands\n\n- Strongest point.\n- Weakest point.\n\n## Related\n\n- [[]]\n' },
+  { name: 'Fallacy', tags: 'philosophy, logic, fallacies', hint: 'What the fallacy is, its form, an example and how to answer it.',
+    body: 'A one-sentence definition of the fallacy.\n\n## 1. The Form\n\n1. Premise.\n2. Premise.\n3. Therefore, conclusion (which does not follow).\n\n## 2. Why It Fails\n\n- What the conclusion would actually need.\n\n## 3. Examples\n\n- **Everyday:** example.\n- **In debate:** example.\n\n## 4. How to Answer It\n\n- Name the step that fails.\n- Ask the question that exposes it.\n\n## 5. Not to Be Confused With\n\n- A legitimate move that looks similar.\n\n## Related\n\n- [[]]\n' },
+  { name: 'Comparison of positions', tags: 'theology', hint: 'The positions side by side, what each says and what each costs.',
+    body: 'The question the positions disagree about.\n\n## 1. The Positions\n\n| Position | Says | Problem |\n|---|---|---|\n|  |  |  |\n|  |  |  |\n|  |  |  |\n\n## 2. First Position\n\n- Main claim.\n- Who holds it.\n- Strongest argument for it.\n\n## 3. Second Position\n\n- Main claim.\n- Who holds it.\n- Strongest argument for it.\n\n## 4. What Is at Stake\n\n- Why the difference matters.\n\n## 5. The Orthodox View\n\n- Where the Church stands and why.\n\n## Related\n\n- [[]]\n' },
+  { name: 'Council or history', tags: 'theology, church-history', hint: 'Background, what happened, what was decided and why it matters.',
+    body: 'What happened, when and where, in one or two sentences.\n\n## 1. Background\n\n- The question in dispute.\n- The people involved.\n\n## 2. Timeline\n\n| Year | Event |\n|---|---|\n|  |  |\n|  |  |\n|  |  |\n\n## 3. What Was Decided\n\n1. First decision.\n2. Second decision.\n\n## 4. Key Terms\n\n- **Term:** meaning.\n\n## 5. Aftermath\n\n- What followed.\n\n## 6. Why It Matters\n\n- What it settles for theology.\n\n## Related\n\n- [[]]\n' },
+  { name: 'Doctrine or concept', tags: 'theology', hint: 'What the teaching is, where it comes from in Scripture and the Fathers, and what it rules out.',
+    body: 'A plain definition of the teaching.\n\n## 1. The Teaching\n\n- First point.\n- Second point.\n\n## 2. Scripture\n\n**Book 1:1**  \n"Verse text."\n\n- What it shows.\n\n## 3. The Fathers\n\n- **St. Name:** what he says.\n\n## 4. What It Rules Out\n\n- The error on one side.\n- The error on the other.\n\n## 5. Why It Matters\n\n- What depends on it.\n\n## Related\n\n- [[]]\n' }
+];
+
 /* ---------------- Write tab ---------------- */
 function writeForm() {
   const draft = store.get('draft', {});
@@ -220,6 +443,7 @@ function writeForm() {
     <form class="w-form" autocomplete="off" onsubmit="return false">
       <div class="w-row">
         <label class="w-field"><span>Section</span><select name="kind">${W.kinds.map(k => `<option value="${k.key}"${k === kind ? ' selected' : ''}>${esc(k.label)}</option>`).join('')}</select></label>
+        <label class="w-field"><span>Start from a template</span><select name="tpl"><option value="">Blank note</option>${TEMPLATES.map((t, i) => `<option value="${i}">${esc(t.name)}</option>`).join('')}</select></label>
         <p class="w-addr">Address <strong id="addr">…</strong></p>
       </div>
       <label class="w-field"><span>Title</span><input name="title" required value="${esc(draft.title || '')}" placeholder="What is this note about?"></label>
@@ -227,7 +451,7 @@ function writeForm() {
       <label class="w-field"><span>Tags <small>comma-separated</small></span><input name="tags" value="${esc(draft.tags || '')}" placeholder="philosophy-of-science, history"></label>
       ${tags.length ? `<p class="w-chips" aria-label="Existing tags">${tags.map(t => `<button type="button" data-tag="${esc(t)}">${esc(t)}</button>`).join('')}</p>` : ''}
       <label class="w-field"><span>Summary <small>one or two sentences; shown as the abstract</small></span><textarea name="summary" rows="2">${esc(draft.summary || '')}</textarea></label>
-      <div class="w-field w-editor"><span>Note</span>${toolbar()}<textarea class="w-body" name="body" rows="18" placeholder="Write in Markdown. Type [[ to link another note.">${esc(draft.body || '')}</textarea></div>
+      <div class="w-field w-editor"><span>Note</span>${toolbar()}<textarea class="w-body" name="body" rows="18" placeholder="Write in Markdown. Type [[ to link another note.">${esc(draft.body || '')}</textarea>${sidePanels()}</div>
       <div class="w-actions"><button type="button" class="w-btn" data-clear>Clear</button><button type="button" class="w-btn w-primary" data-publish>Publish</button></div>
       <p class="w-status" role="status"></p>
       <datalist id="courses">${courses.map(c => `<option value="${esc(c)}">`).join('')}</datalist>
@@ -255,9 +479,20 @@ function writeForm() {
     return lines.join('\n');
   };
   const pathFor = d => uniquePath(folderOf(d.k), slug(d.title) || 'untitled');
-  const refresh = () => { const d = collect(); const { k, ...save } = d; store.set('draft', save); previewRaw(toRaw(d), pathFor(d)); };
+  const tagList = s => [...new Set(s.split(',').map(t => slug(t)).filter(Boolean))];
+  const getMeta = () => { const d = collect(); return { title: d.title, tags: tagList(d.tags), summary: d.summary, body: d.body, path: pathFor(d) }; };
+  const refresh = () => { const d = collect(); const { k, ...save } = d; store.set('draft', save); previewRaw(toRaw(d), pathFor(d)); const ed = $('.w-editor', form); if (ed._redraw) ed._redraw(); };
   form.addEventListener('input', e => { if (!e.target.classList.contains('w-body')) { clearTimeout(form._t); form._t = setTimeout(refresh, 250); } });
   form.kind.addEventListener('change', () => { draft.f = collect().f; kindFields(); refresh(); });
+  form.tpl.addEventListener('change', () => {
+    const t = TEMPLATES[form.tpl.value]; form.tpl.value = ''; if (!t) return;
+    if (form.body.value.trim() && !confirm(`Replace what you've written with the “${t.name}” template?`)) return;
+    form.body.value = t.body;
+    form.tags.value = [...new Set([...tagList(form.tags.value), ...tagList(t.tags)])].join(', ');
+    form.summary.placeholder = t.hint;
+    const k = t.kind && W.kinds.find(k => k.kind === t.kind); if (k && form.kind.value !== k.key) { form.kind.value = k.key; draft.f = collect().f; kindFields(); }
+    refresh(); (form.title.value ? form.body : form.title).focus();
+  });
   form.addEventListener('click', e => {
     const t = e.target.closest('[data-tag]');
     if (t) { const cur = form.tags.value.split(',').map(s => s.trim()).filter(Boolean); if (!cur.includes(t.dataset.tag)) cur.push(t.dataset.tag); form.tags.value = cur.join(', '); refresh(); }
@@ -267,6 +502,7 @@ function writeForm() {
     const d = collect(); const status = $('.w-status', form);
     if (!d.title) { status.textContent = 'Give the note a title first.'; form.title.focus(); return; }
     if (!conn()) { status.textContent = 'Connect to GitHub in Settings first.'; return; }
+    if (!confirmChecks(getMeta())) return;
     const raw = toRaw(d), path = pathFor(d);
     busy(true, 'Publishing…');
     try {
@@ -278,8 +514,25 @@ function writeForm() {
     } catch (e) { status.textContent = e.message; }
     finally { busy(false); }
   });
-  kindFields(); bindEditor($('.w-editor', form), refresh); refresh();
+  kindFields(); bindEditor($('.w-editor', form), refresh, getMeta); refresh();
 }
+
+/* ---------------- front matter for the Edit tab ---------------- */
+// Splits a file into its front-matter entries (kept verbatim, in order) and the body, so that
+// only the fields you change are rewritten. Returns null when there is no readable front matter.
+function splitFront(raw) {
+  const text = raw.replace(/^﻿/, '').replace(/\r\n?/g, '\n');
+  const m = text.match(/^---[ \t]*\n([\s\S]*?)\n---[ \t]*(?:\n|$)/); if (!m) return null;
+  let data; try { data = window.jsyaml.load(m[1]); } catch { return null; }
+  if (!data || typeof data !== 'object' || Array.isArray(data)) return null;
+  const blocks = [];
+  for (const line of m[1].split('\n')) {
+    const k = line.match(/^([A-Za-z_][\w-]*):(\s|$)/);
+    if (k) blocks.push({ key: k[1], text: line }); else if (blocks.length) blocks[blocks.length - 1].text += '\n' + line; else blocks.push({ key: '', text: line });
+  }
+  return { blocks, data, body: text.slice(m[0].length).replace(/^\n+/, '') };
+}
+function joinFront(blocks, body) { return '---\n' + blocks.map(b => b.text).filter(t => t.trim()).join('\n') + '\n---\n\n' + body.replace(/\s+$/, '') + '\n'; }
 
 /* ---------------- Edit tab ---------------- */
 function editList() {
@@ -293,36 +546,83 @@ function editTab() {
   $('#tab-edit').innerHTML = `<div class="w-pane"><div class="w-edit-pick"><label class="w-field"><span>Find a note</span><input id="edit-q" type="search" placeholder="Title or address"></label><ul class="w-list">${editList()}</ul></div></div>`;
   $('#edit-q').addEventListener('input', () => { $('#tab-edit .w-list').innerHTML = editList(); });
 }
-async function openEditor(path) {
+async function openEditor(path, rawMode = false) {
   if (!conn()) { toast('Connect to GitHub in Settings first.'); showTab('settings'); return; }
   busy(true, 'Loading the latest version…');
   let raw; try { raw = await readFile(path); } catch (e) { busy(false); toast(e.message); return; } busy(false);
   W.editing = { path, original: raw };
+  // With readable front matter the note opens as fields; otherwise (or on request) as the raw file.
+  const fmx = rawMode ? null : splitFront(raw);
+  const C0 = fmx ? { title: C.str(fmx.data.title), tags: C.list(fmx.data.tags).join(', '), summary: C.str(fmx.data.summary) } : null;
+  const others = fmx ? fmx.blocks.filter(b => !['title', 'tags', 'summary'].includes(b.key)).map(b => b.text).join('\n') : '';
+  const allTags = [...new Set(W.notes.flatMap(n => n._meta ? n._meta.tags : []))].sort();
   $('#tab-edit').innerHTML = `<div class="w-pane w-split">
     <form class="w-form" onsubmit="return false">
-      <p class="w-back"><button type="button" class="w-link" data-back>← All notes</button></p>
+      <p class="w-back"><button type="button" class="w-link" data-back>← All notes</button> <button type="button" class="w-link w-right" data-mode>${fmx ? 'Edit the raw file' : (splitFront(raw) ? 'Edit with fields' : '')}</button></p>
       <label class="w-field"><span>File <small>change it to rename or move the note</small></span><input name="path" value="${esc(path)}" spellcheck="false" class="w-mono"></label>
-      <div class="w-field w-editor"><span>Note, including its front matter</span>${toolbar()}<textarea class="w-body w-raw" rows="26" spellcheck="true">${esc(raw)}</textarea></div>
+      ${fmx ? `<label class="w-field"><span>Title</span><input name="title" value="${esc(C0.title)}"></label>
+      <label class="w-field"><span>Tags <small>comma-separated</small></span><input name="tags" value="${esc(C0.tags)}"></label>
+      <p class="w-chips" aria-label="Existing tags">${allTags.map(t => `<button type="button" data-tag="${esc(t)}">${esc(t)}</button>`).join('')}</p>
+      <label class="w-field"><span>Summary <small>one or two sentences; shown in lists and guides</small></span><textarea name="summary" rows="2">${esc(C0.summary)}</textarea></label>
+      <details class="w-more"><summary>Other fields <small>address, date, author, source…</small></summary><textarea name="others" rows="${Math.min(8, others.split('\n').length + 1)}" class="w-mono" spellcheck="false">${esc(others)}</textarea></details>` : ''}
+      <div class="w-field w-editor"><span>${fmx ? 'Note' : 'Note, including its front matter'}</span>${toolbar()}<textarea class="w-body${fmx ? '' : ' w-raw'}" rows="${fmx ? 22 : 26}" spellcheck="true">${esc(fmx ? fmx.body : raw)}</textarea>${sidePanels()}</div>
       <div class="w-actions"><button type="button" class="w-btn w-danger" data-delete>Delete</button><button type="button" class="w-btn w-primary" data-publish>Publish changes</button></div>
       <p class="w-status" role="status"></p>
     </form>
     <section class="w-preview-wrap" aria-label="Preview"><p class="w-preview-label">Preview</p><div id="preview" class="w-preview"></div></section>
   </div>`;
   const form = $('#tab-edit form'), ta = $('.w-body', form);
-  const refresh = () => previewRaw(ta.value, form.path.value.trim());
-  bindEditor($('.w-editor', form), refresh); refresh();
+  const tagList = s => [...new Set(s.split(',').map(t => slug(t)).filter(Boolean))];
+  // Rebuild the file: untouched entries stay byte-for-byte as they were.
+  const build = () => {
+    if (!fmx) return ta.value;
+    const now = { title: form.title.value.trim(), tags: tagList(form.tags.value).join(', '), summary: form.summary.value.trim() };
+    const line = { title: v => `title: ${yamlVal(v)}`, tags: v => `tags: [${v}]`, summary: v => `summary: ${yamlVal(v)}` };
+    const kept = new Map(fmx.blocks.map(b => [b.key, b.text]));
+    const extra = form.others.value.replace(/\r/g, '').split('\n').filter(l => l.trim());
+    const out = []; let placedOthers = false;
+    const field = k => { if (!now[k]) return; out.push({ text: now[k] === (k === 'tags' ? tagList(C0.tags).join(', ') : C0[k]) && kept.has(k) ? kept.get(k) : line[k](now[k]) }); };
+    const done = new Set();
+    for (const b of fmx.blocks) {
+      if (['title', 'tags', 'summary'].includes(b.key)) { field(b.key); done.add(b.key); }
+      else if (!placedOthers) { extra.forEach(l => out.push({ text: l })); placedOthers = true; }
+    }
+    if (!placedOthers) extra.forEach(l => out.push({ text: l }));
+    ['title', 'tags', 'summary'].filter(k => !done.has(k)).forEach(field);
+    return joinFront(out, ta.value);
+  };
+  const getMeta = () => {
+    if (fmx) return { title: form.title.value.trim(), tags: tagList(form.tags.value), summary: form.summary.value.trim(), body: ta.value, path };
+    const s = splitFront(ta.value); return s ? { title: C.str(s.data.title), tags: C.list(s.data.tags), summary: C.str(s.data.summary), body: s.body, path } : { title: '', tags: [], summary: '', body: ta.value, path };
+  };
+  const original = build();
+  const refresh = () => { previewRaw(build(), form.path.value.trim()); const ed = $('.w-editor', form); if (ed._redraw) ed._redraw(); };
+  bindEditor($('.w-editor', form), refresh, getMeta); refresh();
   form.path.addEventListener('change', refresh);
-  $('[data-back]', form).onclick = () => { if (ta.value === W.editing.original || confirm('Discard your changes?')) editTab(); };
+  form.addEventListener('input', e => { if (!e.target.classList.contains('w-body')) { clearTimeout(form._t); form._t = setTimeout(refresh, 250); } });
+  form.addEventListener('click', e => {
+    const t = e.target.closest('[data-tag]');
+    if (t && form.tags) { const cur = form.tags.value.split(',').map(s => s.trim()).filter(Boolean); if (!cur.includes(t.dataset.tag)) cur.push(t.dataset.tag); form.tags.value = cur.join(', '); refresh(); }
+  });
+  $('[data-mode]', form).onclick = () => {
+    if (build() !== original && !confirm('Switching views discards the changes you have not published. Continue?')) return;
+    openEditor(path, !!fmx);
+  };
+  $('[data-back]', form).onclick = () => { if (build() === original || confirm('Discard your changes?')) editTab(); };
   $('[data-publish]', form).onclick = async () => {
     const np = form.path.value.trim().replace(/^\/+/, ''); const status = $('.w-status', form);
     if (!/^notes\/.+\.(md|markdown)$/i.test(np)) { status.textContent = 'The file must stay inside notes/ and end in .md.'; return; }
     if (np !== path && W.notes.some(n => n.path.toLowerCase() === np.toLowerCase())) { status.textContent = 'Another note already uses that file name.'; return; }
+    if (fmx && !form.title.value.trim()) { status.textContent = 'Give the note a title first.'; form.title.focus(); return; }
+    const content = build();
+    if (fmx) { try { window.jsyaml.load(content.match(/^---\n([\s\S]*?)\n---/)[1]); } catch (e) { status.textContent = `“Other fields” isn't valid: ${e.reason || e.message}`; return; } }
+    if (!confirmChecks(getMeta())) return;
     busy(true, 'Publishing…');
     try {
-      const files = [{ path: np, content: ta.value }, ...await imageCommits(ta.value)];
+      const files = [{ path: np, content }, ...await imageCommits(content)];
       if (np !== path) files.push({ path, remove: true });
       await commitFiles(files, np !== path ? `Move ${path} to ${np}` : `Edit ${np}`);
-      const n = W.notes.find(n => n.path === path); if (n) { n.path = np; n.raw = ta.value; } annotate();
+      const n = W.notes.find(n => n.path === path); if (n) { n.path = np; n.raw = content; } annotate();
       done(`Published your changes to <code>${esc(np)}</code>. The site updates in about a minute.`); editTab();
     } catch (e) { status.textContent = e.message; } finally { busy(false); }
   };
