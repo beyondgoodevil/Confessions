@@ -32,7 +32,7 @@
         "book"
       ],
       "description": "Notes from my readings.",
-      "arrange": "author"
+      "arrange": "title"
     },
     {
       "id": "media",
