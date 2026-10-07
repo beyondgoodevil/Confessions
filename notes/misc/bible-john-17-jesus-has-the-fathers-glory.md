@@ -1,6 +1,6 @@
 ---
-id: M-0284
-date: 2026-10-06
+id: M-0012
+date: 2026-02-03
 title: "Bible: John 17, Jesus Has the Father's Glory"
 tags: [theology, scripture, christology, trinity]
 summary: John 17:1-5, where Christ asks to be glorified with the glory He had with the Father before the world was.

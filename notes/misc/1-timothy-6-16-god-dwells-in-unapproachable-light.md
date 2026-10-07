@@ -1,6 +1,6 @@
 ---
-id: M-0259
-date: 2026-10-06
+id: M-0210
+date: 2026-07-24
 title: "1 Timothy 6:16: God Dwells in Unapproachable Light, aka His Uncreated Glory"
 tags: [theology, scripture, theosis]
 summary: 1 Timothy 6:16 — God alone has immortality and dwells in unapproachable light.

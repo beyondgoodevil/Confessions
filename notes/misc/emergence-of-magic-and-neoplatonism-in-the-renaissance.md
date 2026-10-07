@@ -1,6 +1,6 @@
 ---
-id: M-0239
-date: 2026-10-06
+id: M-0247
+date: 2026-08-24
 title: Emergence of Magic and Neoplatonism in the Renaissance
 tags: [philosophy, theology, neoplatonism]
 summary: Renaissance magic and Neoplatonism read as expressions of perennialism.

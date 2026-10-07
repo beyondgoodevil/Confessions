@@ -1,6 +1,6 @@
 ---
-id: M-0157
-date: 2026-10-05
+id: M-0266
+date: 2026-09-03
 title: The Anglican Branch Theory
 tags: [theology, ecumenism, ecclesiology]
 summary: The theory that Rome, Orthodoxy and Anglicanism are three branches of one Church.

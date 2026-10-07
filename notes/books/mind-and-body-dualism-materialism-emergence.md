@@ -1,6 +1,6 @@
 ---
-id: B-0019
-date: 2026-10-07
+id: B-0018
+date: 2026-07-18
 title: "Mind and Body: Dualism, Materialism, Emergence"
 tags: [philosophy, metaphysics, mind, theology]
 summary: Three Handbook chapters on persons and minds. Zimmerman on which material thing I could be, Robinson on why sensation and thought resist reduction, Kim on supervenience, emergence, realization and reduction. Plus my notes on soul and body in Orthodox teaching.

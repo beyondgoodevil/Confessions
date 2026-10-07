@@ -1,6 +1,6 @@
 ---
-id: M-0250
-date: 2026-10-06
+id: M-0236
+date: 2026-08-15
 title: Filioque and the Franks
 tags: [theology, trinity, church-history]
 summary: How the Frankish kingdom drove the addition of the Filioque to the Creed, and the Eastern response.

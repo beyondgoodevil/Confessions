@@ -1,6 +1,6 @@
 ---
-id: M-0123
-date: 2026-10-05
+id: M-0215
+date: 2026-07-28
 title: Popes Were Used as a Political Tool Throughout History 3
 tags: [theology, papacy, church-history]
 summary: The papacy and secular rulers from the Counter-Reformation to the 20th century.

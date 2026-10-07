@@ -1,6 +1,6 @@
 ---
-id: M-0002
-date: 2026-09-23
+id: M-0145
+date: 2026-06-02
 tags: [philosophy, kant, reading-lists]
 summary: Recommended reading given by academics from the BBC podcast In Our Time.
 ---

@@ -1,6 +1,6 @@
 ---
-id: M-0205
-date: 2026-10-05
+id: M-0197
+date: 2026-07-13
 title: Gabriel's Announcement to Mary
 tags: [theology, mary, scripture]
 summary: Five passages from Luke 1-2 (KJV) on the Annunciation and the birth of Jesus.

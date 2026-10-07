@@ -1,6 +1,6 @@
 ---
-id: M-0209
-date: 2026-10-05
+id: M-0128
+date: 2026-05-15
 title: "Genesis 15:6: Abraham Believed the Lord, Not in the Lord + Romans, Paul"
 tags: [theology, scripture, covenant]
 summary: Romans 4:3 alongside Genesis 15:6 — Abraham believed God's specific word.

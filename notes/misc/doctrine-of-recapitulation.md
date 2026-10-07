@@ -1,6 +1,6 @@
 ---
-id: M-0047
-date: 2026-10-05
+id: M-0205
+date: 2026-07-22
 title: Doctrine of Recapitulation
 tags: [theology, salvation, christology]
 summary: St. Irenaeus's doctrine that Christ sums up and renews all humanity and creation in Himself.

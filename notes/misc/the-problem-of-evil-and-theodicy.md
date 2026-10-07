@@ -1,6 +1,6 @@
 ---
-id: M-0253
-date: 2026-10-06
+id: M-0094
+date: 2026-04-21
 title: The Problem of Evil and Theodicy
 tags: [philosophy, theology, apologetics]
 summary: Logical vs evidential problem of evil, the usual theodicies, where Orthodoxy puts the weight (privation, freedom, the Cross), and the presuppositional reply.

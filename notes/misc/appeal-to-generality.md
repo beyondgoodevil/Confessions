@@ -1,6 +1,6 @@
 ---
-id: M-0276
-date: 2026-10-06
+id: M-0146
+date: 2026-06-02
 title: Appeal to Generality
 tags: [philosophy, fallacies]
 summary: Making a claim too vague or sweeping to be challenged.

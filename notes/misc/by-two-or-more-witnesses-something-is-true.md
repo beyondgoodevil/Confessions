@@ -1,6 +1,6 @@
 ---
-id: M-0044
-date: 2026-10-05
+id: M-0070
+date: 2026-03-28
 title: By Two or More Witnesses Something Is True
 tags: [theology, scripture, epistemology]
 summary: Four verses on a matter being established by two or three witnesses.

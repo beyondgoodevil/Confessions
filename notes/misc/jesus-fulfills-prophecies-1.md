@@ -1,6 +1,6 @@
 ---
-id: M-0164
-date: 2026-10-05
+id: M-0018
+date: 2026-02-12
 title: Jesus Fulfills Prophecies 1
 tags: [theology, scripture, prophecy]
 summary: Prophecies 1 to 6, from the virgin birth to healing and miracles.

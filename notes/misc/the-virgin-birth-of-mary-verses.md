@@ -1,6 +1,6 @@
 ---
-id: M-0094
-date: 2026-10-05
+id: M-0265
+date: 2026-09-03
 title: "The Virgin Birth of Mary: Verses"
 tags: [theology, mary, scripture]
 summary: Isaiah 7:14, Matthew 1:18-25 and Luke 1:26-38 on the Virgin Birth.

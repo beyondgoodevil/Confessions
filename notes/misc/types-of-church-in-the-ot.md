@@ -1,6 +1,6 @@
 ---
-id: M-0106
-date: 2026-10-05
+id: M-0202
+date: 2026-07-20
 title: Types of Church in the OT
 tags: [theology, scripture, typology]
 summary: Nine Old Testament types of the Church, from Eve to the Tabernacle.

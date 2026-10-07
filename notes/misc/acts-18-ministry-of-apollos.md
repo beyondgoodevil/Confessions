@@ -1,6 +1,6 @@
 ---
-id: M-0268
-date: 2026-10-06
+id: M-0175
+date: 2026-06-26
 title: "Acts 18: Ministry of Apollos"
 tags: [theology, scripture, tradition]
 summary: Acts 18:24-28, where Apollos, knowing only John's baptism, is taught the way of God more accurately.

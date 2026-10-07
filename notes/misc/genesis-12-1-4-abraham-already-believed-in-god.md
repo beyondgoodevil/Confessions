@@ -1,6 +1,6 @@
 ---
-id: M-0208
-date: 2026-10-05
+id: M-0099
+date: 2026-04-26
 title: "Genesis 12:1-4: Abraham Already Believed in God"
 tags: [theology, scripture, covenant]
 summary: Abraham's obedience in Genesis 12 shows faith that predates Genesis 15:6.

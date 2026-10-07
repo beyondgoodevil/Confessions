@@ -1,6 +1,6 @@
 ---
-id: B-0021
-date: 2026-10-08
+id: B-0005
+date: 2026-02-01
 title: "Natural Theology: Is It Legitimate"
 tags: [philosophy, apologetics, epistemology, theology]
 summary: What natural theology is, five objections to the whole project (Taliaferro), his replies, cumulative cases, and the theological objections that come from inside Christianity. Where the Fathers and the Orthodox tradition stand, and how TAG relates to the classical proofs.

@@ -1,6 +1,6 @@
 ---
-id: M-0049
-date: 2026-10-05
+id: M-0208
+date: 2026-07-23
 title: Double Standard Fallacy
 tags: [philosophy, fallacies]
 summary: Applying different standards to comparable situations or people without justification.

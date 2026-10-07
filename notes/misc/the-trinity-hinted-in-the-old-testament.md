@@ -1,6 +1,6 @@
 ---
-id: M-0311
-date: 2026-10-06
+id: M-0125
+date: 2026-05-12
 title: The Trinity Hinted in the Old Testament
 tags: [theology, scripture, trinity, theophany]
 summary: OT verses grouped by theme (plural speech, Word and Spirit, two called LORD, the Son, Wisdom, threefold patterns) that make sense in light of the NT.

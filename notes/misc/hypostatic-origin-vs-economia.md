@@ -1,6 +1,6 @@
 ---
-id: M-0222
-date: 2026-10-05
+id: M-0291
+date: 2026-09-16
 title: Hypostatic Origin vs Economia
 tags: [theology, trinity]
 summary: How the Persons relate within the Trinity, versus how God acts in the world.

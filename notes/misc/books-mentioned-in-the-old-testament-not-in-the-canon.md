@@ -1,6 +1,6 @@
 ---
-id: M-0011
-date: 2026-10-05
+id: M-0149
+date: 2026-06-03
 title: Books Mentioned in the Old Testament That Are Not Part of the Current Biblical Canon but Are Referenced as Historical Records
 tags: [theology, canon, scripture]
 summary: The Book of Jashar, Nathan the Prophet, Ahijah the Shilonite and Iddo the Seer.

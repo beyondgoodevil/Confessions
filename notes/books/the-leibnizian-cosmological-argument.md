@@ -1,6 +1,6 @@
 ---
-id: B-0023
-date: 2026-10-08
+id: B-0007
+date: 2026-03-08
 title: The Leibnizian Cosmological Argument
 tags: [philosophy, metaphysics, apologetics, theology]
 summary: Why is there something rather than nothing? Pruss's four problems for any cosmological argument, the three families (kalam, Thomistic, Leibnizian), the argument from the Principle of Sufficient Reason, the main objections, and Feser's version. Plus my notes from the Orthodox side.

@@ -1,6 +1,6 @@
 ---
-id: M-0287
-date: 2026-10-06
+id: M-0207
+date: 2026-07-23
 title: "Canon of the Bible: Its History"
 tags: [theology, canon, church-history]
 summary: How the Old and New Testament canons were recognised, up to the late 4th century.

@@ -1,6 +1,6 @@
 ---
-id: M-0055
-date: 2026-10-05
+id: M-0296
+date: 2026-09-22
 title: History of the Old Testament
 tags: [theology, canon, church-history]
 summary: The Septuagint and the Masoretic Text compared by date, use, contents and differences.

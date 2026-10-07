@@ -1,6 +1,6 @@
 ---
-id: M-0121
-date: 2026-10-05
+id: M-0148
+date: 2026-06-03
 title: Popes Were Used as a Political Tool Throughout History 1
 tags: [theology, papacy, church-history]
 summary: The papacy and secular rulers in the Carolingian era and the Investiture Controversy.

@@ -1,6 +1,6 @@
 ---
-id: M-0098
-date: 2026-10-05
+id: M-0209
+date: 2026-07-23
 title: Thomism and the Originist Problematic
 tags: [theology, thomism, trinity]
 summary: Five ways Thomism can echo Origen's subordination of the Son.

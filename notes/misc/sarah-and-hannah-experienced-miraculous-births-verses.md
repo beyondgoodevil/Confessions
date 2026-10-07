@@ -1,6 +1,6 @@
 ---
-id: M-0139
-date: 2026-10-05
+id: M-0287
+date: 2026-09-13
 title: "Sarah and Hannah Experienced Miraculous Births: Verses"
 tags: [theology, scripture, mary, typology]
 summary: Genesis 21:1-3 and 1 Samuel 1:19-20 on the births of Isaac and Samuel.

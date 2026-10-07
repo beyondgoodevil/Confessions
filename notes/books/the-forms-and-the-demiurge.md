@@ -1,6 +1,6 @@
 ---
-id: B-0008
-date: 2026-10-06
+id: B-0016
+date: 2026-05-24
 title: "The Forms and the Demiurge"
 tags: [philosophy, metaphysics, plato, theology]
 summary: Reading notes on Perl's account of the Timaeus. The craftsman is intellect, the model is inside intellect, and neither demiurge nor forms comes first. Plus my notes on the logoi.

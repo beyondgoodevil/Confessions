@@ -1,6 +1,6 @@
 ---
-id: M-0275
-date: 2026-10-06
+id: M-0132
+date: 2026-05-20
 title: Anthropomorphic Language in the Context of God and the Bible
 tags: [theology, scripture]
 summary: Why Scripture describes God in human terms, and how the Fathers read it.

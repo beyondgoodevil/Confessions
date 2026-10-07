@@ -1,6 +1,6 @@
 ---
-id: M-0257
-date: 2026-10-06
+id: M-0249
+date: 2026-08-25
 title: "1 Thessalonians 2:13: The Word of God Which You Heard From Us, You Welcomed It Not as the Word of Men, but as It Is in Truth, the Word of God"
 tags: [theology, scripture, tradition]
 summary: 1 Thessalonians 2:13, with the spoken word received as the word of God highlighted.

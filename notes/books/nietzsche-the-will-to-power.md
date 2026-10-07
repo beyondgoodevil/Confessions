@@ -1,6 +1,6 @@
 ---
-id: B-0007
-date: 2026-10-06
+id: B-0009
+date: 2026-03-11
 title: "Nietzsche: The Will to Power"
 tags: [philosophy, nietzsche, metaphysics]
 summary: Reading notes on three chapters about will to power. Golomb (psychology, power is not force), Poellner (the causation argument), Hatab (resistance and the agon).

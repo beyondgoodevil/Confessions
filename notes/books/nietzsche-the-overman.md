@@ -1,6 +1,6 @@
 ---
-id: B-0006
-date: 2026-10-06
+id: B-0014
+date: 2026-05-08
 title: "Nietzsche: The Overman"
 tags: [philosophy, nietzsche]
 summary: Reading notes on the overman. Havas reads it as commitment (owning your past, answering for your future). Johnson and Lampert follow what happens to the idea inside Zarathustra.

@@ -1,6 +1,6 @@
 ---
-id: M-0247
-date: 2026-10-06
+id: M-0071
+date: 2026-03-29
 title: Factors That Played a Role to Determine the Canon of the Bible
 tags: [theology, canon, church-history]
 summary: Eight factors that shaped which books were received as canonical.

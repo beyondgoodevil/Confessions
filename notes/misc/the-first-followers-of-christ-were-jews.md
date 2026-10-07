@@ -1,6 +1,6 @@
 ---
 id: M-0025
-date: 2026-10-05
+date: 2026-02-20
 title: The First Followers of Christ Were Jews
 tags: [theology, scripture, church-history]
 summary: Scripture showing that Jesus' ministry, disciples and the early Church were Jewish first.

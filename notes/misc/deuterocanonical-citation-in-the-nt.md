@@ -1,6 +1,6 @@
 ---
-id: M-0299
-date: 2026-10-06
+id: M-0232
+date: 2026-08-14
 title: Deuterocanonical Citation in the NT
 tags: [theology, scripture, canon]
 summary: New Testament passages that echo six deuterocanonical books.

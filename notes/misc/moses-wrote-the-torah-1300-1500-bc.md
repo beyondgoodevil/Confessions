@@ -1,6 +1,6 @@
 ---
-id: M-0193
-date: 2026-10-05
+id: M-0046
+date: 2026-03-16
 title: Moses Wrote the Torah 1300 - 1500 BC
 tags: [theology, scripture, canon]
 summary: The traditional dating and authorship of the Torah.

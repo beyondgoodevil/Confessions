@@ -1,6 +1,6 @@
 ---
-id: M-0141
-date: 2026-10-05
+id: M-0292
+date: 2026-09-19
 title: Skepticism
 tags: [philosophy, epistemology]
 summary: What skepticism is, its global and local forms, and a reductio against it.

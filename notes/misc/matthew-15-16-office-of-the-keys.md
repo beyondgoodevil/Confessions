@@ -1,6 +1,6 @@
 ---
-id: M-0189
-date: 2026-10-05
+id: M-0231
+date: 2026-08-13
 title: "Matthew 15, 16: Office of the Keys"
 tags: [theology, scripture, ecclesiology]
 summary: Matthew 16:19 and 18:18 on the authority to bind and loose.

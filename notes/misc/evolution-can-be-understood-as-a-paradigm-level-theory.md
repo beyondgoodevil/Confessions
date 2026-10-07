@@ -1,6 +1,6 @@
 ---
-id: M-0246
-date: 2026-10-06
+id: M-0196
+date: 2026-07-11
 title: Evolution Can Be Understood as a Paradigm-Level Theory
 tags: [philosophy, philosophy-of-science, apologetics]
 summary: Six ways evolutionary theory functions as a worldview rather than only a biological explanation.

@@ -1,6 +1,6 @@
 ---
-id: B-0022
-date: 2026-10-08
+id: B-0019
+date: 2026-08-02
 title: Revelation and Miracles
 tags: [philosophy, apologetics, epistemology, theology]
 summary: Sullivan and Menssen's four questions. Does belief in revelation need a case? Must God be proved first? Is a confirming miracle required? Does Hume defeat miracle reports? With definitions (universal vs special revelation, miracle vs wonder) and my notes on the Orthodox view.

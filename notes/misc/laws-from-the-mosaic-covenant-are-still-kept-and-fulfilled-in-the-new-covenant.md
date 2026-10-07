@@ -1,6 +1,6 @@
 ---
-id: M-0060
-date: 2026-10-05
+id: M-0002
+date: 2026-01-07
 title: Laws From the Mosaic Covenant Are Still Kept and Fulfilled in the New Covenant
 tags: [theology, covenant, scripture]
 summary: Which Mosaic laws are still kept and which are fulfilled in Christ.

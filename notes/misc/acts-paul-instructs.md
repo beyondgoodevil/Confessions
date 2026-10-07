@@ -1,6 +1,6 @@
 ---
-id: M-0271
-date: 2026-10-06
+id: M-0069
+date: 2026-03-28
 title: "Acts: Paul Instructs"
 tags: [theology, scripture, tradition]
 summary: Seven episodes in Acts where converts are taught, baptised and brought into the fullness of the gospel.

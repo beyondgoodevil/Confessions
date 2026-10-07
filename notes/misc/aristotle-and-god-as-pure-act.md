@@ -1,6 +1,6 @@
 ---
-id: M-0277
-date: 2026-10-06
+id: M-0144
+date: 2026-06-02
 title: Aristotle and God as Pure Act
 tags: [theology, thomism, aristotle]
 summary: Six reasons "pure act" cannot mean that God needs something external to actualize Him.

@@ -1,6 +1,6 @@
 ---
-id: M-0240
-date: 2026-10-06
+id: M-0156
+date: 2026-06-07
 title: EO Continuity With OT
 tags: [theology, ecclesiology, covenant, liturgy]
 summary: How the Orthodox Church sees its worship, priesthood and covenants as continuous with the Old Testament.

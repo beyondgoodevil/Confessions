@@ -1,6 +1,6 @@
 ---
-id: M-0305
-date: 2026-10-06
+id: M-0068
+date: 2026-03-28
 title: "Synergy: Grace and Free Will"
 tags: [theology, scripture, salvation, theosis]
 summary: Salvation as cooperation of grace and freedom. Verses, comparison with Pelagianism and monergism, the Fathers, the link to Christ's two wills, and the "semi-Pelagian" charge.

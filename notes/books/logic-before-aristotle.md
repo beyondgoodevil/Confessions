@@ -1,6 +1,6 @@
 ---
-id: B-0013
-date: 2026-10-07
+id: B-0001
+date: 2026-01-19
 title: Logic Before Aristotle
 tags: [philosophy, logic]
 summary: Was there logic before Aristotle? Moravcsik says no system, but a set of concepts had to be in place first (truth, falsehood, negation, consequence, predicate). What those were, what did not lead to logic, and the pre-Socratic mess Aristotle was reacting to.

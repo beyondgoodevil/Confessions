@@ -1,6 +1,6 @@
 ---
-id: M-0289
-date: 2026-10-06
+id: M-0195
+date: 2026-07-10
 title: "Christ as the New Adam: Verses"
 tags: [theology, scripture, salvation, typology]
 summary: Five Pauline passages contrasting Adam and Christ.

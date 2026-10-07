@@ -1,6 +1,6 @@
 ---
-id: M-0184
-date: 2026-10-05
+id: M-0223
+date: 2026-08-02
 title: Mary and the Promises Made to Women That Foreshadow the Miraculous Birth of Jesus
 tags: [theology, scripture, mary, typology]
 summary: Old Testament promises to Eve, Sarah, Rachel and Hannah, Isaiah's prophecy, and their fulfilment in Mary.

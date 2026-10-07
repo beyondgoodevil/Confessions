@@ -1,6 +1,6 @@
 ---
-id: B-0010
-date: 2026-10-06
+id: B-0006
+date: 2026-02-18
 title: "The Unmoved Mover"
 tags: [philosophy, metaphysics, aristotle, theology]
 summary: Reading notes on Perl's account of Aristotle's first principle. Act before potency, pure act as pure form, moving as final cause, thought thinking itself. Plus my notes on the Orthodox response.

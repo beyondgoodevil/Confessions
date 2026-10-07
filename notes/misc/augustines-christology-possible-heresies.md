@@ -1,6 +1,6 @@
 ---
-id: M-0278
-date: 2026-10-06
+id: M-0106
+date: 2026-04-29
 title: "Augustine's Christology: Possible Heresies"
 tags: [theology, christology, church-history]
 summary: Five emphases in Augustine's Christology and the heresy each could lead to if misread.

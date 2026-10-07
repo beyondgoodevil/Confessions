@@ -1,6 +1,6 @@
 ---
-id: B-0005
-date: 2026-10-06
+id: B-0002
+date: 2026-01-21
 title: "Nietzsche: Eternal Recurrence"
 tags: [philosophy, nietzsche, metaphysics]
 summary: Reading notes on eternal recurrence. Loeb says Nietzsche meant it literally as cosmology. Johnson says the cosmology is the dwarf's version and the real thing is personal. Hatab links it to will to power.

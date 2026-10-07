@@ -1,6 +1,6 @@
 ---
-id: M-0081
-date: 2026-10-05
+id: M-0186
+date: 2026-07-04
 title: The Fallacy of Circular Reasoning
 tags: [philosophy, fallacies]
 summary: Circular reasoning (begging the question) — its structure and three examples.

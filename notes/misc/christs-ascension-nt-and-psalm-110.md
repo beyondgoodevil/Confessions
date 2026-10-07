@@ -1,6 +1,6 @@
 ---
-id: M-0292
-date: 2026-10-06
+id: M-0234
+date: 2026-08-14
 title: "Christ's Ascension: NT and Psalm 110"
 tags: [theology, scripture, christology]
 summary: Psalm 110:1 and five New Testament passages that cite it.

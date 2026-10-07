@@ -1,6 +1,6 @@
 ---
-id: M-0073
-date: 2026-10-05
+id: M-0023
+date: 2026-02-18
 title: "Works Are Required: NT Quotes"
 tags: [theology, scripture, salvation]
 summary: Eleven New Testament passages on works, obedience and judgment according to deeds.

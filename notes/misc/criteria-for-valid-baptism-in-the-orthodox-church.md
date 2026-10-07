@@ -1,5 +1,5 @@
 ---
-id: M-0297
+id: M-0312
 date: 2026-10-06
 title: Criteria for Valid Baptism in the Orthodox Church
 tags: [theology, sacraments]

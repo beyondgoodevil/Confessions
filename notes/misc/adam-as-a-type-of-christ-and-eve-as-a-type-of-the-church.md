@@ -1,6 +1,6 @@
 ---
-id: M-0274
-date: 2026-10-06
+id: M-0140
+date: 2026-05-29
 title: Adam as a Type of Christ and Eve as a Type of the Church
 tags: [theology, scripture, typology]
 summary: Three ways Adam prefigures Christ and four ways Eve prefigures the Church.

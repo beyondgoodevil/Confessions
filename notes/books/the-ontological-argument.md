@@ -1,6 +1,6 @@
 ---
-id: B-0024
-date: 2026-10-08
+id: B-0008
+date: 2026-03-09
 title: The Ontological Argument
 tags: [philosophy, metaphysics, logic, apologetics, theology]
 summary: Proving God from the concept of God. Anselm, Descartes and Leibniz, the modal versions (Malcolm, Hartshorne, Plantinga), Gödel, and Maydole's own. What parodies show, Kant's objection, and why it all comes down to one premise. Plus my notes on how the East has treated it.

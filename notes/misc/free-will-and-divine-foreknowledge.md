@@ -1,6 +1,6 @@
 ---
-id: M-0304
-date: 2026-10-06
+id: M-0024
+date: 2026-02-20
 title: Free Will and Divine Foreknowledge
 tags: [philosophy, theology, metaphysics, apologetics]
 summary: The argument that foreknowledge rules out freedom, where it goes wrong (the modal slip), Boethius, Molina, and St. John of Damascus on foreknowing without predetermining.

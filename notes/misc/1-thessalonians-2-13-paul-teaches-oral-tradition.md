@@ -1,6 +1,6 @@
 ---
-id: M-0256
-date: 2026-10-06
+id: M-0130
+date: 2026-05-18
 title: "1 Thessalonians 2:13: Paul Teaches Oral Tradition"
 tags: [theology, scripture, tradition]
 summary: 1 Thessalonians 2:13 — the preached word was received as the word of God.

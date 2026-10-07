@@ -1,6 +1,6 @@
 ---
 id: M-0010
-date: 2026-10-05
+date: 2026-02-01
 title: Argument for the Validity of the EO Canon of Scriptures
 tags: [theology, canon]
 summary: Historical continuity, patristic witness, manuscripts, councils and liturgical use.

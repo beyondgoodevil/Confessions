@@ -1,6 +1,6 @@
 ---
-id: M-0217
-date: 2026-10-05
+id: M-0126
+date: 2026-05-14
 title: Hasty Generalization Fallacy
 tags: [philosophy, fallacies]
 summary: Drawing a universal conclusion from too small a sample.

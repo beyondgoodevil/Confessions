@@ -1,6 +1,6 @@
 ---
-id: M-0258
-date: 2026-10-06
+id: M-0313
+date: 2026-10-07
 title: "1 Timothy 1:3: Paul Puts Timothy in Charge in Ephesus"
 tags: [theology, scripture, ecclesiology]
 summary: 1 Timothy 1:3 and what it shows about apostolic delegation.

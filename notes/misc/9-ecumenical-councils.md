@@ -1,6 +1,6 @@
 ---
-id: M-0265
-date: 2026-10-06
+id: M-0053
+date: 2026-03-20
 title: 9 Ecumenical Councils
 tags: [theology, councils, church-history]
 summary: The nine councils the Orthodox Church treats as foundational, with the key decision of each.

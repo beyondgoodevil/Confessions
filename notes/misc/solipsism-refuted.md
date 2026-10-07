@@ -1,6 +1,6 @@
 ---
-id: M-0143
-date: 2026-10-05
+id: M-0299
+date: 2026-09-25
 title: Solipsism Refuted
 tags: [philosophy, epistemology, apologetics]
 summary: Six reasons solipsism undermines itself.

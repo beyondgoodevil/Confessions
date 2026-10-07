@@ -1,6 +1,6 @@
 ---
-id: M-0264
-date: 2026-10-06
+id: M-0131
+date: 2026-05-20
 title: "2 Timothy 2: Paul Teaches Apostolic Succession"
 tags: [theology, scripture, ecclesiology, tradition]
 summary: 2 Timothy 2:1-13, with verse 2 on handing the teaching on to faithful men highlighted.

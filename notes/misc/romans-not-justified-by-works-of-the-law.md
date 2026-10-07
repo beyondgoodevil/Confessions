@@ -1,6 +1,6 @@
 ---
-id: M-0135
-date: 2026-10-05
+id: M-0080
+date: 2026-04-09
 title: "Romans: Not Justified by Works of the Law"
 tags: [theology, scripture, salvation]
 summary: Five Pauline verses on justification apart from works "of the law".

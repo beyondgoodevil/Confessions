@@ -1,6 +1,6 @@
 ---
-id: M-0255
-date: 2026-10-06
+id: M-0009
+date: 2026-01-31
 title: "1 Peter 3:20-21: Baptism Is Like the Ark"
 tags: [theology, scripture, sacraments, typology]
 summary: 1 Peter 3:20-21, with "baptism" highlighted as the antitype of the ark.

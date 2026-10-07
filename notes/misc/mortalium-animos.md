@@ -1,6 +1,6 @@
 ---
-id: M-0192
-date: 2026-10-05
+id: M-0222
+date: 2026-08-02
 title: Mortalium Animos
 tags: [theology, ecumenism, catholicism]
 summary: Pius XI's 1928 encyclical condemning ecumenism and the Branch Theory.

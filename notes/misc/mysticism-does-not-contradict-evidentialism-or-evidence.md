@@ -1,6 +1,6 @@
 ---
-id: M-0065
-date: 2026-10-05
+id: M-0074
+date: 2026-04-01
 title: Mysticism Does Not Contradict Evidentialism or Evidence
 tags: [theology, epistemology, theosis]
 summary: Eastern Orthodox mysticism transcends reason and evidence without rejecting them.

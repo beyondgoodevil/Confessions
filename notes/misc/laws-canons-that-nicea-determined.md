@@ -1,6 +1,6 @@
 ---
-id: M-0181
-date: 2026-10-05
+id: M-0305
+date: 2026-09-28
 title: Laws/Canons That Nicea Determined
 tags: [theology, councils, church-history]
 summary: Ten key canons of the First Council of Nicaea (325 AD).

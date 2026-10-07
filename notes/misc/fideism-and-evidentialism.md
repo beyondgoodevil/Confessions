@@ -1,6 +1,6 @@
 ---
-id: M-0248
-date: 2026-10-06
+id: M-0067
+date: 2026-03-27
 title: Fideism and Evidentialism
 tags: [philosophy, theology, epistemology]
 summary: Fideism and evidentialism compared, with the Orthodox view that rejects both extremes.

@@ -1,6 +1,6 @@
 ---
-id: M-0266
-date: 2026-10-06
+id: M-0185
+date: 2026-07-03
 title: A Circular Argument
 tags: [philosophy, fallacies]
 summary: The structure of a circular argument, three examples, and when circularity is not fallacious.

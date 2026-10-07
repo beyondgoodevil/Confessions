@@ -1,6 +1,6 @@
 ---
-id: M-0223
-date: 2026-10-05
+id: M-0199
+date: 2026-07-18
 title: Iconoclast Emperors
 tags: [theology, icons-saints, church-history]
 summary: Four Byzantine emperors and the political motives behind their iconoclasm.

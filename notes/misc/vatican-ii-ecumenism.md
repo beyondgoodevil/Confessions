@@ -1,6 +1,6 @@
 ---
-id: M-0110
-date: 2026-10-05
+id: M-0248
+date: 2026-08-24
 title: Vatican II Ecumenism
 tags: [theology, ecumenism, catholicism]
 summary: Key points of Vatican II's ecumenical turn and its legacy, with the Orthodox objection.

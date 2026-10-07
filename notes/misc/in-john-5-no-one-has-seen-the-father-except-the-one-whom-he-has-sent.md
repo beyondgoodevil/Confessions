@@ -1,6 +1,6 @@
 ---
-id: M-0226
-date: 2026-10-05
+id: M-0151
+date: 2026-06-04
 title: In John 5, Jesus Explains That No One Has Seen the Father Except the One Whom He Has Sent
 tags: [theology, scripture, theophany, trinity]
 summary: John 5:37 (KJV) — no one has heard the Father's voice or seen His shape.

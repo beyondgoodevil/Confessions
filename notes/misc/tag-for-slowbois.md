@@ -1,6 +1,6 @@
 ---
-id: M-0154
-date: 2026-10-05
+id: M-0212
+date: 2026-07-26
 title: TAG for Slowbois
 tags: [philosophy, apologetics]
 summary: The Transcendental Argument in four plain steps, using a scientist's experiment.

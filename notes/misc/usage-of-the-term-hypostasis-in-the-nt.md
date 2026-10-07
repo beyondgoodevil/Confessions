@@ -1,6 +1,6 @@
 ---
-id: M-0108
-date: 2026-10-05
+id: M-0302
+date: 2026-09-27
 title: Usage of the Term Hypostasis in the NT
 tags: [theology, scripture, christology]
 summary: Four New Testament passages that use the Greek word hypostasis.

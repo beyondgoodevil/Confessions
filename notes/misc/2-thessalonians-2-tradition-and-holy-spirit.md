@@ -1,6 +1,6 @@
 ---
-id: M-0263
-date: 2026-10-06
+id: M-0089
+date: 2026-04-15
 title: "2 Thessalonians 2: Tradition and Holy Spirit"
 tags: [theology, scripture, tradition]
 summary: 2 Thessalonians 2:13-17, with "traditions which you were taught" highlighted.

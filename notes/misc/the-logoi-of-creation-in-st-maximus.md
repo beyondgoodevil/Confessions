@@ -1,6 +1,6 @@
 ---
-id: M-0309
-date: 2026-10-06
+id: M-0143
+date: 2026-05-31
 title: The Logoi of Creation in St. Maximus
 tags: [theology, theosis, patristics, metaphysics]
 summary: St. Maximus on the logoi. Every creature has its logos in the one Logos; logos vs tropos; being, well-being, eternal well-being; the reply to Origenism; natural contemplation.

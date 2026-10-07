@@ -1,6 +1,6 @@
 ---
-id: M-0032
-date: 2026-10-05
+id: M-0189
+date: 2026-07-05
 title: Will Is Proper to Nature
 tags: [theology, christology]
 summary: Each of Christ's two natures has its own will, united in the one divine Person of the Son.

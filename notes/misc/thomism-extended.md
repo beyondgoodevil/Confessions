@@ -1,6 +1,6 @@
 ---
-id: M-0099
-date: 2026-10-05
+id: M-0041
+date: 2026-03-09
 title: Thomism EXTENDED
 tags: [theology, thomism]
 summary: Thomism's core doctrines, major figures, contrasts with other systems, and the Orthodox critique.

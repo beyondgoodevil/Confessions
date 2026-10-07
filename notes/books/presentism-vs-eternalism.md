@@ -1,6 +1,6 @@
 ---
-id: B-0020
-date: 2026-10-07
+id: B-0011
+date: 2026-03-24
 title: Presentism vs Eternalism
 tags: [philosophy, metaphysics, time]
 summary: Is only the present real, or are past and future things just as real? Crisp's statement of presentism, why anyone holds it, and the four standard objections (talking about Lincoln, truths about the past, relativity, grounding).

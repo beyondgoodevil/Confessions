@@ -1,6 +1,6 @@
 ---
-id: M-0174
-date: 2026-10-05
+id: M-0238
+date: 2026-08-16
 title: "John 20:30: Not Everything Jesus Did Has Been Written Down"
 tags: [theology, scripture, tradition]
 summary: John 20:24-31, with "which are not written in this book" highlighted.

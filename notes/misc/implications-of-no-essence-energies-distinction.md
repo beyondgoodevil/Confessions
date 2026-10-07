@@ -1,6 +1,6 @@
 ---
-id: M-0057
-date: 2026-10-05
+id: M-0203
+date: 2026-07-21
 title: Implications of No Essence-Energies Distinction
 tags: [theology, theosis, thomism]
 summary: Why identifying God's essence with His energies would make His actions necessary rather than free.

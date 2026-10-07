@@ -1,6 +1,6 @@
 ---
-id: M-0021
-date: 2026-10-05
+id: M-0211
+date: 2026-07-25
 title: Resurrection Verses
 tags: [theology, scripture, salvation]
 summary: Seven New Testament passages on the resurrection of believers.

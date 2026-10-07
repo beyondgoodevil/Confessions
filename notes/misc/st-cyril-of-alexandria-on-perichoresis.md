@@ -1,6 +1,6 @@
 ---
-id: M-0144
-date: 2026-10-05
+id: M-0158
+date: 2026-06-11
 title: St. Cyril of Alexandria on Perichoresis
 tags: [theology, trinity, patristics]
 summary: Perichoresis — the mutual indwelling of the three Persons — as St. Cyril used it.

@@ -1,6 +1,6 @@
 ---
-id: M-0053
-date: 2026-10-05
+id: M-0020
+date: 2026-02-17
 title: Fideism (Secular)
 tags: [philosophy, epistemology]
 summary: Fideism outside a religious context — belief held without evidence or argument.

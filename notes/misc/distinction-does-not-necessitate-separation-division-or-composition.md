@@ -1,6 +1,6 @@
 ---
-id: M-0302
-date: 2026-10-06
+id: M-0005
+date: 2026-01-13
 title: Distinction Does Not Necessitate Separation, Division, or Composition
 tags: [theology, trinity, christology]
 summary: Five everyday examples of things that are distinct without being separate.

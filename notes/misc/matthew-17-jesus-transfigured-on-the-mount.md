@@ -1,6 +1,6 @@
 ---
-id: M-0191
-date: 2026-10-05
+id: M-0056
+date: 2026-03-22
 title: "Matthew 17: Jesus Transfigured on the Mount"
 tags: [theology, scripture, theosis]
 summary: Matthew 17:1-13, the Transfiguration, with "light" highlighted in verse 2.

@@ -1,6 +1,6 @@
 ---
-id: M-0068
-date: 2026-10-05
+id: M-0129
+date: 2026-05-16
 title: "Penal Substitution: Reformers That Believed in Penal Substitution"
 tags: [theology, reformation, salvation]
 summary: Ten Reformers and Reformed theologians who taught penal substitution.

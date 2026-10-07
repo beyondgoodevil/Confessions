@@ -1,6 +1,6 @@
 ---
-id: M-0201
-date: 2026-10-05
+id: M-0110
+date: 2026-05-02
 title: Old Testament Foreshadowings of Heavenly Worship
 tags: [theology, scripture, liturgy, typology]
 summary: Six Old Testament patterns of worship that anticipate the heavenly worship of Revelation.

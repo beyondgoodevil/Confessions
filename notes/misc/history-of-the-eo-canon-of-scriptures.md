@@ -1,6 +1,6 @@
 ---
-id: M-0220
-date: 2026-10-05
+id: M-0048
+date: 2026-03-17
 title: History of the EO Canon of Scriptures
 tags: [theology, canon, church-history]
 summary: Early collections, competing canons, the councils that fixed the canon, and modern differences.

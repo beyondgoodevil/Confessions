@@ -1,6 +1,6 @@
 ---
-id: M-0171
-date: 2026-10-05
+id: M-0137
+date: 2026-05-27
 title: "Jesus Walking on Water: Eternal Act, Essence-Energy Distinction"
 tags: [theology, theosis, christology]
 summary: Without an essence-energies distinction, a miracle such as walking on water would be an eternal act rather than a historical event.

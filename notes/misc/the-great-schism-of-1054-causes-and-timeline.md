@@ -1,6 +1,6 @@
 ---
-id: M-0308
-date: 2026-10-06
+id: M-0027
+date: 2026-03-01
 title: "The Great Schism of 1054: Causes and Timeline"
 tags: [theology, church-history, papacy]
 summary: Why 1054 is the wrong date to fixate on. Doctrinal, liturgical and political causes, a timeline from 330 to 1965, what actually happened that July, and why 1204 mattered more.

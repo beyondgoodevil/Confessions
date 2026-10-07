@@ -1,6 +1,6 @@
 ---
-id: M-0109
-date: 2026-10-05
+id: M-0162
+date: 2026-06-12
 title: Vatican 1 Papal Supremacy Goes Against the Canons of Nicea
 tags: [theology, papacy, councils]
 summary: Vatican I's declaration of papal supremacy contrasted with the earlier "first among equals" structure.

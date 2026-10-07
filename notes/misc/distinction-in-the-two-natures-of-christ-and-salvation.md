@@ -1,10 +1,9 @@
 ---
-id: M-0235
-date: 2026-10-06
+id: M-0062
+date: 2026-03-24
 title: Distinction in the Two Natures of Christ and Salvation
 tags: [theology, christology, salvation]
 summary: Five reasons a "Tertium Quid" Christ could not save.
-aliases: [M-0303]
 ---
 
 If the idea of a "Tertium Quid" (a third, confused nature) were accepted, it would undermine the very foundation of salvation in Christianity because it would disrupt the proper relationship between Christ's divinity and humanity, which is essential for His role as the Savior.

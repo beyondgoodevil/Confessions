@@ -1,6 +1,6 @@
 ---
-id: B-0016
-date: 2026-10-07
+id: B-0004
+date: 2026-01-27
 title: Propositional Logic Cheat Sheet
 tags: [philosophy, logic]
 summary: Connectives, truth tables, how to test validity, the valid forms worth memorising (modus ponens, modus tollens, disjunctive syllogism) and the two invalid look-alikes.

@@ -1,6 +1,6 @@
 ---
-id: B-0003
-date: 2026-10-06
+id: B-0013
+date: 2026-04-28
 title: "St. Athanasius, On the Incarnation: Main Argument"
 tags: [theology, christology, salvation, theosis]
 summary: Outline of the argument. Why the Word became flesh, the "divine dilemma", why the Cross, the proofs of the Resurrection, and "He was made man that we might be made God".

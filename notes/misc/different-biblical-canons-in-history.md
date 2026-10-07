@@ -1,6 +1,6 @@
 ---
-id: M-0301
-date: 2026-10-06
+id: M-0278
+date: 2026-09-10
 title: Different Biblical Canons in History
 tags: [theology, canon, church-history]
 summary: Seven early canon lists with their dates.

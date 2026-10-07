@@ -1,6 +1,6 @@
 ---
-id: M-0231
-date: 2026-10-05
+id: M-0220
+date: 2026-07-31
 title: "Jeremiah, Acts 2: The Beginning of the Church, Where God Dwells With His People"
 tags: [theology, scripture, covenant, ecclesiology]
 summary: Jeremiah 31:31-33 and Acts 2:1-4 — the promised new covenant fulfilled at Pentecost.

@@ -1,6 +1,6 @@
 ---
-id: M-0112
-date: 2026-10-05
+id: M-0230
+date: 2026-08-08
 title: What Is a Worldview or Paradigm
 tags: [philosophy, apologetics]
 summary: A worldview as the set of presuppositions through which a person interprets reality, and why no one is without one.

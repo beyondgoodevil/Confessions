@@ -1,6 +1,6 @@
 ---
-id: M-0007
-date: 2026-10-05
+id: M-0241
+date: 2026-08-19
 title: "2 Peter 1:3-4: Theosis"
 tags: [theology, scripture, theosis]
 summary: 2 Peter 1:3-4 on divine power and becoming partakers of the divine nature.

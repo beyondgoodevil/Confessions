@@ -1,6 +1,6 @@
 ---
-id: M-0210
-date: 2026-10-05
+id: M-0261
+date: 2026-08-30
 title: "Genesis 15:6: Abraham Believed the Lord, Not in the Lord"
 tags: [theology, scripture, covenant]
 summary: Abraham trusted what God specifically said to him, not merely that God exists.

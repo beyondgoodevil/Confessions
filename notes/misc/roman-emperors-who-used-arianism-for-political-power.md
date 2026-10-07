@@ -1,6 +1,6 @@
 ---
-id: M-0133
-date: 2026-10-05
+id: M-0254
+date: 2026-08-28
 title: Roman Emperors Who Used Arianism for Political Power
 tags: [theology, church-history, councils]
 summary: Roman emperors and Germanic kings who backed Arianism, and how it declined.

@@ -1,7 +1,7 @@
 ---
 id: M-0001
 title: How to Use This Notebook
-date: 2026-09-01
+date: 2026-01-05
 tags: [note-taking, meta]
 summary: A one-page reference for writing notes here — front matter, links, maths, callouts and footnotes.
 ---
@@ -13,8 +13,8 @@ Every note is a Markdown file in `notes/`. The folder decides the section; the f
 | You write | You get |
 |---|---|
 | `[[How to Take Smart Notes]]` | a link using the note's title |
-| `[[B-0002]]` | the same link by address (shows the title) |
-| `[[B-0002\|Ahrens]]` | a link with your own words: [[B-0002|Ahrens]] |
+| `[[B-0012]]` | the same link by address (shows the title) |
+| `[[B-0012\|Ahrens]]` | a link with your own words: [[B-0012|Ahrens]] |
 | `[[Some Note#A heading]]` | a link to a heading inside a note |
 | `[[Something Not Written Yet]]` | a dimmed link: [[Something Not Written Yet]] |
 

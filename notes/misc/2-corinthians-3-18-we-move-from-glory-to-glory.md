@@ -1,6 +1,6 @@
 ---
-id: M-0261
-date: 2026-10-06
+id: M-0026
+date: 2026-03-01
 title: "2 Corinthians 3:18: We Move From Glory to Glory"
 tags: [theology, scripture, theosis]
 summary: 2 Corinthians 3:18 — beholding the glory of the Lord, we are transformed from glory to glory.

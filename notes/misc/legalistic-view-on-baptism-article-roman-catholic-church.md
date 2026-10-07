@@ -1,6 +1,6 @@
 ---
-id: M-0061
-date: 2026-10-05
+id: M-0055
+date: 2026-03-22
 title: "Legalistic View on Baptism: Article, Roman Catholic Church"
 tags: [theology, sacraments, catholicism]
 summary: Summary of a 2022 NPR report on Catholic baptisms ruled invalid over a single word.

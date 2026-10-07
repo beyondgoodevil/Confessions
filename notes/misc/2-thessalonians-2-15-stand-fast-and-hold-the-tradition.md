@@ -1,6 +1,6 @@
 ---
-id: M-0262
-date: 2026-10-06
+id: M-0122
+date: 2026-05-08
 title: "2 Thessalonians 2:15: Stand Fast and Hold the Tradition Which You Were Taught by Word or Epistle"
 tags: [theology, scripture, tradition]
 summary: 2 Thessalonians 2:15 — hold the traditions taught by word or by letter.

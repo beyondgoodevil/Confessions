@@ -1,6 +1,6 @@
 ---
-id: M-0151
-date: 2026-10-05
+id: M-0119
+date: 2026-05-06
 title: Step-by-Step Breakdown of the TAG Argument
 tags: [philosophy, apologetics]
 summary: The four steps of the Transcendental Argument and what transcendental categories are.

@@ -1,6 +1,6 @@
 ---
-id: M-0087
-date: 2026-10-05
+id: M-0168
+date: 2026-06-19
 title: The Prayer of Mary Found in the Gospel of Luke
 tags: [theology, mary, scripture]
 summary: The Magnificat (Luke 1:46-55, KJV) with a short summary.

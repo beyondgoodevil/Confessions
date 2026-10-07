@@ -1,6 +1,6 @@
 ---
-id: M-0242
-date: 2026-10-06
+id: M-0161
+date: 2026-06-12
 title: EO vs RC Trinity
 tags: [theology, trinity, thomism]
 summary: The Cappadocian and Thomist models of the Trinity compared.

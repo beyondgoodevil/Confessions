@@ -1,6 +1,6 @@
 ---
-id: M-0092
-date: 2026-10-05
+id: M-0221
+date: 2026-08-01
 title: The Twelve Tribes of Israel
 tags: [theology, scripture, covenant]
 summary: The twelve tribes descended from Jacob's sons and grandsons, with a line on each.

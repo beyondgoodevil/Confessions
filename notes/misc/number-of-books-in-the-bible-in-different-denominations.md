@@ -1,6 +1,6 @@
 ---
-id: M-0013
-date: 2026-10-05
+id: M-0173
+date: 2026-06-25
 title: Number of Books in the Bible in Different Denominations
 tags: [theology, canon]
 summary: Old and New Testament book counts for Catholic, Orthodox, Protestant, Anglican, Lutheran and Reformed churches.

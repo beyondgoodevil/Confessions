@@ -1,6 +1,6 @@
 ---
-id: B-0004
-date: 2026-10-06
+id: B-0022
+date: 2026-09-08
 title: "Nietzsche and the Greeks"
 tags: [philosophy, nietzsche]
 summary: Reading notes on Nietzsche's use of the Greeks. Berry on philology, Homer, Heraclitus and Pyrrhonian scepticism; Porter on antiquity as a weapon against modern classicism; Hatab on the contest.

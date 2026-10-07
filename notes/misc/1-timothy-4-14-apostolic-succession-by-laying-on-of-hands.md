@@ -1,6 +1,6 @@
 ---
-id: M-0005
-date: 2026-10-05
+id: M-0233
+date: 2026-08-14
 title: "1 Timothy 4:14: Apostolic Succession by Paul, Laying on of Hands"
 tags: [theology, scripture, ecclesiology]
 summary: 1 Timothy 4:14 (NKJV).

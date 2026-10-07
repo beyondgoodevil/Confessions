@@ -1,6 +1,6 @@
 ---
-id: M-0034
-date: 2026-10-05
+id: M-0224
+date: 2026-08-03
 title: Would Aliens Have to Operate on Logic
 tags: [philosophy, apologetics, logic]
 summary: Why any being, alien or human, must operate within objective truth, identity and order.

@@ -1,6 +1,6 @@
 ---
-id: M-0142
-date: 2026-10-05
+id: M-0061
+date: 2026-03-24
 title: "Sola Fide Still Requires Works: Mental Work"
 tags: [theology, reformation, salvation]
 summary: Believing is itself an act of the will, so sola fide does not remove works but moves them inward.

@@ -1,6 +1,6 @@
 ---
-id: M-0051
-date: 2026-10-05
+id: M-0007
+date: 2026-01-25
 title: Epistemic Principle
 tags: [philosophy, epistemology]
 summary: What epistemic principles are, with four standard examples.

@@ -1,6 +1,6 @@
 ---
-id: M-0130
-date: 2026-10-05
+id: M-0011
+date: 2026-02-02
 title: "Revelation 12, Genesis 3:15: Mary Prophecy"
 tags: [theology, scripture, mary, prophecy]
 summary: Three parallels between the woman of Genesis 3:15 and the woman of Revelation 12.

@@ -1,6 +1,6 @@
 ---
-id: M-0279
-date: 2026-10-06
+id: M-0015
+date: 2026-02-08
 title: Augustinian View on Baptism
 tags: [theology, sacraments, church-history]
 summary: Augustine on why baptism's validity does not depend on the minister, and why it profits only within the Church.

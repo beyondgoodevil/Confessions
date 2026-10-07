@@ -1,6 +1,6 @@
 ---
-id: M-0050
-date: 2026-10-05
+id: M-0285
+date: 2026-09-12
 title: Economia
 tags: [theology, ecclesiology, sacraments]
 summary: The Orthodox principle of applying Church rules flexibly for the sake of salvation, contrasted with akrivia.

@@ -1,6 +1,6 @@
 ---
-id: M-0041
-date: 2026-10-05
+id: M-0057
+date: 2026-03-23
 title: Believers Inherit the Promises of God Only Through Their Union With Christ
 tags: [theology, covenant, scripture]
 summary: Five Pauline verses on being "in Christ" as the way believers inherit God's promises.

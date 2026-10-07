@@ -1,6 +1,6 @@
 ---
-id: M-0290
-date: 2026-10-06
+id: M-0060
+date: 2026-03-24
 title: Christ Fulfills the Promises of the Previous Covenants
 tags: [theology, covenant, scripture]
 summary: The promise of each of the six covenants and its fulfilment in Christ.

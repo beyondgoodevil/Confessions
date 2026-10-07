@@ -1,6 +1,6 @@
 ---
-id: M-0140
-date: 2026-10-05
+id: M-0307
+date: 2026-09-30
 title: Septuagint History and Contains Deuterocanonical Books
 tags: [theology, canon, church-history]
 summary: The Septuagint, Dead Sea Scrolls and Masoretic Text compared, and which contain the Deuterocanonical books.

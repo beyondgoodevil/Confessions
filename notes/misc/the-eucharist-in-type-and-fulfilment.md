@@ -1,6 +1,6 @@
 ---
-id: M-0306
-date: 2026-10-06
+id: M-0275
+date: 2026-09-07
 title: The Eucharist in Type and Fulfilment
 tags: [theology, scripture, sacraments, typology]
 summary: OT types of the Eucharist (Melchizedek, Passover, manna, covenant blood, shewbread, Isaiah's coal, Malachi's pure offering) and their fulfilment in John 6, the Last Supper and the early Church.

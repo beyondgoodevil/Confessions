@@ -1,6 +1,6 @@
 ---
-id: M-0091
-date: 2026-10-05
+id: M-0154
+date: 2026-06-05
 title: The Trinity
 tags: [theology, trinity]
 summary: One God in three Persons, with the Father as the eternal source of the Son and the Holy Spirit.

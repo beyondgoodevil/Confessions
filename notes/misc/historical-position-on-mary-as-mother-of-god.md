@@ -1,6 +1,6 @@
 ---
-id: M-0219
-date: 2026-10-05
+id: M-0273
+date: 2026-09-07
 title: Historical Position on Mary as Mother of God
 tags: [theology, mary, church-history]
 summary: The title Theotokos from Ephesus to the Reformation.

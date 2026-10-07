@@ -1,6 +1,6 @@
 ---
-id: M-0101
-date: 2026-10-05
+id: M-0112
+date: 2026-05-03
 title: Thomism
 tags: [theology, thomism]
 summary: Thomism in outline, and what "God is pure act" means.

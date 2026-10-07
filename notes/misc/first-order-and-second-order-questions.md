@@ -1,6 +1,6 @@
 ---
-id: M-0203
-date: 2026-10-05
+id: M-0164
+date: 2026-06-14
 title: First-Order and Second-Order Questions
 tags: [philosophy, epistemology]
 summary: Questions about a subject versus questions about how we know the answers.

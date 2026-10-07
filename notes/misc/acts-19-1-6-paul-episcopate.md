@@ -1,6 +1,6 @@
 ---
-id: M-0269
-date: 2026-10-06
+id: M-0288
+date: 2026-09-14
 title: "Acts 19:1–6: Paul Episcopate"
 tags: [theology, scripture, sacraments, ecclesiology]
 summary: Acts 19:1-6 (KJV), where Paul completes the initiation of John's disciples by baptism and the laying on of hands.

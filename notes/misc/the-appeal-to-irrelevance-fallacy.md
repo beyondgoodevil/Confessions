@@ -1,6 +1,6 @@
 ---
-id: M-0076
-date: 2026-10-05
+id: M-0252
+date: 2026-08-28
 title: The Appeal to Irrelevance Fallacy
 tags: [philosophy, fallacies]
 summary: The red herring — answering an argument with something unrelated to it.

@@ -1,6 +1,6 @@
 ---
-id: M-0126
-date: 2026-10-05
+id: M-0008
+date: 2026-01-31
 title: Protestant Heresy Falls Into Heresies Dealt With in the Ecumenical Councils
 tags: [theology, councils, reformation]
 summary: Five conciliar heresies and their parallels in Protestant traditions.

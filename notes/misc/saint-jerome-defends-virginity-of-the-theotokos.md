@@ -1,6 +1,6 @@
 ---
-id: M-0138
-date: 2026-10-05
+id: M-0103
+date: 2026-04-28
 title: Saint Jerome Defends Virginity of the Theotokos
 tags: [theology, mary, patristics]
 summary: Four points on Saint Jerome's defence of Mary as Theotokos.

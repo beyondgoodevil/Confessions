@@ -1,6 +1,6 @@
 ---
-id: M-0016
-date: 2026-10-05
+id: M-0201
+date: 2026-07-20
 title: Publishing Companies Stopped Printing Bibles With the Full OT Canon in the 19th Century
 tags: [theology, canon, church-history]
 summary: How the Deuterocanonical books were dropped from King James Bibles between the 1820s and 1880s.

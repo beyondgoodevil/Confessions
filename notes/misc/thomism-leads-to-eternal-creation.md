@@ -1,6 +1,6 @@
 ---
-id: M-0100
-date: 2026-10-05
+id: M-0298
+date: 2026-09-24
 title: Thomism Leads to Eternal Creation
 tags: [theology, thomism, theosis]
 summary: Why God as pure act implies an eternal, necessary creation, and the Orthodox alternative.

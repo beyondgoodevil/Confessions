@@ -1,6 +1,6 @@
 ---
-id: B-0017
-date: 2026-10-07
+id: B-0021
+date: 2026-09-06
 title: Valid vs Sound Arguments
 tags: [philosophy, logic]
 summary: The basic vocabulary. Argument, valid, sound, logical form, the three ways to attack an argument, deductive vs inductive.

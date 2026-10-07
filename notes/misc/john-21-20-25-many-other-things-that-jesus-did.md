@@ -1,6 +1,6 @@
 ---
-id: M-0175
-date: 2026-10-05
+id: M-0113
+date: 2026-05-03
 title: "John 21:20-25: And There Are Also Many Other Things That Jesus Did, Which If They Were Written One by One, I Suppose That Even the World Itself Could Not Contain the Books That Would Be Written"
 tags: [theology, scripture, tradition]
 summary: John 21:20-25, ending with the statement that not everything Jesus did was written down.

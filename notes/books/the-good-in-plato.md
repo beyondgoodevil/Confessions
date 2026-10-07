@@ -1,6 +1,6 @@
 ---
-id: B-0009
-date: 2026-10-06
+id: B-0020
+date: 2026-08-05
 title: "The Good in Plato"
 tags: [philosophy, metaphysics, plato, theology]
 summary: Reading notes on Perl's account of the Good in the Republic. Source of intelligibility and being, "beyond being" because it conditions every form. Plus my notes on the Orthodox side.

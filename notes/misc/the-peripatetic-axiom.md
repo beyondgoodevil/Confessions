@@ -1,6 +1,6 @@
 ---
-id: M-0086
-date: 2026-10-05
+id: M-0179
+date: 2026-06-29
 title: The Peripatetic Axiom
 tags: [philosophy, theology, epistemology, thomism]
 summary: The Aristotelian axiom and four reasons it is criticised from an Orthodox perspective.

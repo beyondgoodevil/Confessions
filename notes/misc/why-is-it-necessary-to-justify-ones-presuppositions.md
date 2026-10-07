@@ -1,6 +1,6 @@
 ---
-id: M-0114
-date: 2026-10-05
+id: M-0085
+date: 2026-04-12
 title: Why Is It Necessary to Justify One’s Presuppositions
 tags: [philosophy, apologetics, epistemology]
 summary: Why a worldview must justify its own presuppositions or collapse into arbitrariness.

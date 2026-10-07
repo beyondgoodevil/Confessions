@@ -1,6 +1,6 @@
 ---
-id: M-0296
-date: 2026-10-06
+id: M-0256
+date: 2026-08-28
 title: "Council of Nicea: Arianism"
 tags: [theology, councils, trinity]
 summary: Seven key aspects of the First Council of Nicaea (325 AD).

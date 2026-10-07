@@ -1,6 +1,6 @@
 ---
-id: M-0295
-date: 2026-10-06
+id: M-0095
+date: 2026-04-22
 title: "Council of Ephesus: Nestorianism"
 tags: [theology, councils, christology]
 summary: The controversy, proceedings, implications and aftermath of the Council of Ephesus (431 AD).

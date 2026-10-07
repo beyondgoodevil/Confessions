@@ -1,6 +1,6 @@
 ---
-id: M-0273
-date: 2026-10-06
+id: M-0153
+date: 2026-06-05
 title: Adam and Eve
 tags: [theology, scripture, the-fall]
 summary: Six verses from Genesis 2-3 (KJV) on the creation of Adam and Eve.

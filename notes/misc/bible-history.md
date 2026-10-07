@@ -1,6 +1,6 @@
 ---
-id: M-0283
-date: 2026-10-06
+id: M-0092
+date: 2026-04-18
 title: Bible History
 tags: [theology, canon, church-history]
 summary: An outline of early canons, competing lists, councils and the oldest complete Bible.

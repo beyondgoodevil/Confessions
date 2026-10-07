@@ -1,6 +1,6 @@
 ---
-id: M-0134
-date: 2026-10-05
+id: M-0049
+date: 2026-03-18
 title: "Romans 8:18-24: Creation Corruption"
 tags: [theology, scripture, the-fall]
 summary: Romans 8:18-25 on creation's bondage to corruption and its coming deliverance.

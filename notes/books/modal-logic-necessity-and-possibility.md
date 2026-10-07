@@ -1,6 +1,6 @@
 ---
-id: B-0014
-date: 2026-10-07
+id: B-0003
+date: 2026-01-22
 title: "Modal Logic: Necessity and Possibility"
 tags: [philosophy, logic, metaphysics]
 summary: Box and diamond, possible worlds, necessary / contingent / impossible, the box-inside vs box-outside ambiguity (and the arguments that trade on it), and the systems T, S4, B, S5.

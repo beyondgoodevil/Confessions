@@ -1,6 +1,6 @@
 ---
-id: M-0083
-date: 2026-10-05
+id: M-0152
+date: 2026-06-04
 title: The Holy Queen vs The Whore of Babylon
 tags: [theology, mary, scripture]
 summary: The woman of Revelation 12 contrasted with the woman of Revelation 17.

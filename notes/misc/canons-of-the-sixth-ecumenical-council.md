@@ -1,6 +1,6 @@
 ---
-id: M-0288
-date: 2026-10-06
+id: M-0295
+date: 2026-09-22
 title: Canons of the Sixth Ecumenical Council
 tags: [theology, councils, church-history]
 summary: Fourteen major canons of the Council in Trullo (691–692) and their themes.

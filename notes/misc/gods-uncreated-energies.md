@@ -1,6 +1,6 @@
 ---
-id: M-0216
-date: 2026-10-05
+id: M-0194
+date: 2026-07-08
 title: God's Uncreated Energies
 tags: [theology, theosis]
 summary: Ten of God's uncreated energies, each in a line.

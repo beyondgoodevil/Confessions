@@ -1,6 +1,6 @@
 ---
-id: M-0187
-date: 2026-10-05
+id: M-0269
+date: 2026-09-06
 title: Mary the Most Pure Queen of Heaven Next to Christ
 tags: [theology, mary, scripture]
 summary: Five aspects of Mary's place — purity, queenship, nearness to Christ, intercession and the Incarnation.

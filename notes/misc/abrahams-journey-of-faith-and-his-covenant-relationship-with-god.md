@@ -1,6 +1,6 @@
 ---
-id: M-0267
-date: 2026-10-06
+id: M-0006
+date: 2026-01-19
 title: Abraham's Journey of Faith and His Covenant Relationship With God
 tags: [theology, scripture, covenant]
 summary: Four altars Abraham built, at Shechem, Bethel, Hebron and Moriah.

@@ -1,6 +1,6 @@
 ---
-id: M-0300
-date: 2026-10-06
+id: M-0084
+date: 2026-04-11
 title: Differences Between Gregory’s Dunamis and Thomistic Pure Act
 tags: [theology, thomism, theosis]
 summary: Why Gregory of Nyssa's dunamis is not the Thomistic pure act.
