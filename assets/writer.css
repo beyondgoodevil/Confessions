@@ -119,3 +119,12 @@ body.writer{min-height:100%}
 .w-rel small{display:block;margin-left:1.5rem;font-size:.82rem}
 .w-row .w-field{flex:1 1 12rem}
 @media (max-width:760px){.w-tools{position:sticky;top:3.2rem;z-index:5}}
+/* guides: the "Add to a guide" field and dialog */
+.w-guide-picks{display:flex;flex-wrap:wrap;align-items:center;gap:.35rem;margin:.2rem 0 0}
+.w-pick{display:inline-flex;align-items:center;gap:.3rem;border:1px solid var(--rule);border-radius:999px;padding:.1rem .25rem .1rem .65rem;font-size:.85rem;background:var(--surface)}
+.w-pick small{color:var(--muted)}
+.w-pick button{border:0;background:none;color:var(--muted);cursor:pointer;font:inherit;padding:0 .3rem;border-radius:999px}
+.w-pick button:hover{color:var(--danger,#A8322A)}
+.w-btn.w-btn-small{padding:.2rem .7rem;font-size:.85rem}
+.w-guide-list li{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.3rem .8rem}
+.w-guide-list select{max-width:15rem;font:inherit;font-size:.85rem;padding:.15rem .3rem;border:1px solid var(--rule);border-radius:5px;background:var(--bg);color:var(--ink)}

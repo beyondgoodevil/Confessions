@@ -123,7 +123,7 @@ function toolbar() {
     <label class="w-img" title="Insert an image">Image<input type="file" accept="image/*" hidden data-img></label>
     <select data-sec aria-label="Section tools"><option value="">Sections…</option>
       <option value="number">Number the sections</option><option value="strip">Remove section numbers</option>
-      <option value="related">Build the Related list…</option></select>
+      <option value="related">Build the Related list…</option><option value="guidelist">Insert notes as a list…</option></select>
   </div>`;
 }
 // Shown under the editor: a live outline of the headings and a list of things to check before publishing.
@@ -215,6 +215,112 @@ function relatedDialog(ta, getMeta) {
       .forEach(x => { const li = document.createElement('li'); li.dataset.found = '1'; li.innerHTML = `<label><input type="checkbox" value="${esc(x.title)}"> <span class="w-mono">${esc(x.id)}</span> ${esc(x.title)} <small>search</small></label>`; ul.prepend(li); });
   });
 }
+/* ---- guides: reading orders made of "## Part" headings, each with a list of "N. [[Note]] — summary" ---- */
+const isGuide = n => !!n._meta && (n._meta.tags.includes('guide') || /^notes\/guides\//.test(n.path));
+const guideNotes = () => W.notes.filter(isGuide).sort((a, b) => a._meta.title.localeCompare(b._meta.title));
+const bodyOf = raw => String(raw || '').replace(/^﻿?---[\s\S]*?\n---[ \t]*(\n|$)/, '');
+const guideParts = raw => headings(bodyOf(raw)).filter(h => h.level === 2 && !UNNUMBERED.test(h.text.replace(NUM_PREFIX, ''))).map(h => h.text);
+const lists = (raw, title) => wikiLinks(String(raw || '')).some(t => t.toLowerCase() === String(title).toLowerCase());
+// Adds "N. [[title]] — summary" to the end of a part's list (or of the guide), numbering on from the
+// list it joins; a bulleted list gets a bullet. Returns null when the guide already lists the note.
+function addToGuide(raw, part, title, summary) {
+  if (!title || lists(raw, title)) return null;
+  const lines = String(raw).replace(/\s+$/, '').split('\n');
+  const fmEnd = /^﻿?---[ \t]*$/.test(lines[0]) ? lines.findIndex((l, i) => i > 0 && /^---[ \t]*$/.test(l)) : -1;
+  const h2 = []; let fence = false;
+  lines.forEach((l, i) => { if (i <= fmEnd) return; if (/^\s*(```|~~~)/.test(l)) fence = !fence; else if (!fence && /^##[ \t]+/.test(l)) h2.push({ i, text: l.replace(/^##[ \t]+/, '').replace(/[ \t#]*$/, '') }); });
+  const parts = h2.filter(h => !UNNUMBERED.test(h.text.replace(NUM_PREFIX, '')));
+  const at = parts.find(h => h.text === part) || parts[parts.length - 1];
+  const start = at ? at.i : fmEnd, next = h2.find(h => h.i > start), end = next ? next.i : lines.length;
+  let last = -1, num = 0, bullet = false;
+  for (let i = start + 1; i < end; i++) {
+    const m = lines[i].match(/^(\d+)[.)]\s/), b = /^[-*+]\s/.test(lines[i]);
+    if (m) { last = i; num = +m[1]; bullet = false; } else if (b) { last = i; bullet = true; }
+    else if (last >= 0 && i === last + 1 && /^\s+\S/.test(lines[i])) last = i;   // the item's own indented lines
+  }
+  const entry = `${bullet ? '-' : (num + 1) + '.'} [[${title}]]${summary ? ' — ' + summary : ''}`;
+  if (last >= 0) lines.splice(last + 1, 0, entry);
+  else { let j = end; while (j > start + 1 && !lines[j - 1].trim()) j--; lines.splice(j, 0, '', entry, ...(j < lines.length ? [''] : [])); }
+  return lines.join('\n') + '\n';
+}
+// Which guides suit a note, and which part of each: shared topic tags, weighted so rare tags count more
+function guideSuggestions(meta) {
+  const broad = new Set([...(C.list((W.cfg.browse || {}).fields)), 'guide']), mine = meta.tags.filter(t => !broad.has(t));
+  const idx = noteIndex(), freq = new Map(); for (const n of W.notes) for (const t of (n._meta ? n._meta.tags : [])) freq.set(t, (freq.get(t) || 0) + 1);
+  const weight = ts => ts.filter(t => mine.includes(t)).reduce((s, t) => s + 1 / Math.log(2 + (freq.get(t) || 1)), 0);
+  return guideNotes().filter(g => g.path !== meta.path).map(g => {
+    const raw = String(g.raw || ''), body = bodyOf(raw).split('\n'), hs = headings(bodyOf(raw)).filter(h => h.level === 2);
+    let best = '', bestScore = 0;
+    for (const p of guideParts(raw)) {
+      const h = hs.find(x => x.text === p), nx = hs.find(x => x.line > h.line), chunk = body.slice(h.line, nx ? nx.line : body.length).join('\n');
+      const s = wikiLinks(chunk).map(t => idx.get(t.toLowerCase())).filter(Boolean).reduce((a, x) => a + weight(x.tags), 0);
+      if (s > bestScore) { bestScore = s; best = p; }
+    }
+    return { g, parts: guideParts(raw), listed: lists(raw, meta.title), part: best, score: weight(g._meta.tags) * 3 + bestScore / 4 };
+  }).sort((a, b) => b.listed - a.listed || b.score - a.score || a.g._meta.title.localeCompare(b.g._meta.title));
+}
+const guideName = t => String(t).replace(/^guide:\s*/i, '');
+// The "Guides" field on the Write and Edit forms: picks are added to the guides when the note is published.
+function guidesField(picks) {
+  return `<div class="w-field w-guides"><span>Guides <small>reading orders this note should appear in; added when you publish</small></span>
+    <p class="w-guide-picks">${picks.map((p, i) => `<span class="w-pick">${esc(guideName(p.title))}${p.part ? ` <small>→ ${esc(p.part)}</small>` : ''} <button type="button" data-unpick="${i}" aria-label="Remove">×</button></span>`).join('')}
+    <button type="button" class="w-btn w-btn-small" data-guides>Add to a guide…</button></p></div>`;
+}
+function guidesDialog(picks, getMeta, onDone) {
+  const meta = getMeta(), sugg = guideSuggestions(meta), chosen = new Map(picks.map(p => [p.path, p.part]));
+  if (!sugg.length) { toast('There are no guides yet. Write one with the “Guide” template.'); return; }
+  const row = s => {
+    const on = chosen.has(s.g.path), part = on ? chosen.get(s.g.path) : s.part;
+    return `<li><label><input type="checkbox" value="${esc(s.g.path)}"${on || s.listed ? ' checked' : ''}${s.listed ? ' disabled' : ''}> ${esc(guideName(s.g._meta.title))}
+      <small>${s.listed ? 'already lists this note' : s.score > 0.3 ? 'suggested' : ''}</small></label>
+      ${s.listed || !s.parts.length ? '' : `<select data-part aria-label="Part of the guide">${s.parts.map(p => `<option${p === part ? ' selected' : ''}>${esc(p)}</option>`).join('')}</select>`}</li>`;
+  };
+  modal('', `<h2>Add to a guide</h2>
+    <p class="w-muted">Tick the guides this note belongs in and pick the part. When you publish, it is added to the end of that part as <code>N. [[${esc(meta.title || 'Title')}]] — summary</code>.${meta.title ? '' : ' Give the note a title first.'}</p>
+    <ul class="w-rel w-guide-list">${sugg.map(row).join('')}</ul>
+    <div class="w-actions"><button type="button" class="w-btn" value="cancel">Cancel</button><button type="button" class="w-btn w-primary" value="ok">Done</button></div>`,
+    d => onDone($$('li', d).map(li => ({ box: $('input', li), sel: $('select', li) })).filter(x => x.box.checked && !x.box.disabled)
+      .map(x => ({ path: x.box.value, title: W.notes.find(n => n.path === x.box.value)._meta.title, part: x.sel ? x.sel.value : '' }))));
+}
+// For the publish step: the guide files to commit alongside the note (fresh copies from GitHub).
+async function guideCommits(picks, title, summary) {
+  const out = [];
+  for (const p of picks) {
+    const latest = await readFile(p.path), next = addToGuide(latest, p.part, title, summary.replace(/\s+/g, ' '));
+    if (next) { out.push({ path: p.path, content: next }); const g = W.notes.find(n => n.path === p.path); if (g) g.raw = next; }
+  }
+  return out;
+}
+// Sections… → Insert notes as a list: picks notes and writes them as guide lines at the cursor.
+function guideListDialog(ta, getMeta) {
+  const meta = getMeta(), here = new Set(wikiLinks(ta.value).map(t => t.toLowerCase()));
+  const cands = relatedCandidates({ ...meta, body: '' }).filter(c => !here.has(c.x.title.toLowerCase()));
+  const sum = x => { const n = C.S.notes.find(m => m.path === x.path); return n ? n.summary : ''; };
+  const row = (x, why) => `<li><label><input type="checkbox" value="${esc(x.path)}"> <span class="w-mono">${esc(x.id)}</span> ${esc(x.title)} <small>${esc(why)}</small></label></li>`;
+  const dlg = modal('', `<h2>Insert notes as a list</h2>
+    <p class="w-muted">Ticked notes are inserted at the cursor as <code>N. [[Title]] — summary</code>, numbered on from the list you are in. Suggestions share this guide's tags; search for anything else.</p>
+    <input type="search" placeholder="Find a note by title or address" aria-label="Find a note">
+    <ul class="w-rel">${cands.map(c => row(c.x, c.why.join(' · '))).join('') || '<li class="w-empty">No suggestions yet. Add the guide\'s topic tag, or search above.</li>'}</ul>
+    <div class="w-actions"><button type="button" class="w-btn" value="cancel">Cancel</button><button type="button" class="w-btn w-primary" value="ok">Insert</button></div>`,
+    d => {
+      const picked = $$('input[type=checkbox]:checked', d).map(i => W.notes.find(n => n.path === i.value)).filter(n => n && n._meta);
+      if (!picked.length) return;
+      const pos = ta.selectionStart, before = ta.value.slice(0, pos), lineStart = before.lastIndexOf('\n') + 1;
+      const prev = before.slice(0, lineStart).replace(/\n+$/, '').split('\n').pop() || '', m = prev.match(/^(\d+)[.)]\s/);
+      let k = m ? +m[1] : 0;
+      const text = picked.map(n => `${++k}. [[${n._meta.title}]]${sum(n._meta) ? ' — ' + sum(n._meta) : ''}`).join('\n');
+      const lead = pos > lineStart && before.slice(lineStart).trim() ? '\n' : '';
+      ta.setRangeText(lead + text + '\n', pos, ta.selectionEnd, 'end'); ta.dispatchEvent(new Event('input'));
+    }, () => ta.focus());
+  const ul = $('.w-rel', dlg), q = $('input[type=search]', dlg);
+  q.addEventListener('input', () => {
+    const s = q.value.trim().toLowerCase(); $$('li[data-found]', ul).forEach(li => { if (!$('input', li).checked) li.remove(); });
+    if (s.length < 2) return;
+    const have = new Set($$('input', ul).map(i => i.value));
+    W.notes.map(n => n._meta).filter(x => x && x.path !== meta.path && !have.has(x.path) && !here.has(x.title.toLowerCase()) && (x.title.toLowerCase().includes(s) || x.id.toLowerCase() === s)).slice(0, 10)
+      .forEach(x => { const li = document.createElement('li'); li.dataset.found = '1'; li.innerHTML = row(x, 'search').replace(/^<li>|<\/li>$/g, ''); ul.prepend(li); });
+  });
+}
 function tableDialog(ta) {
   modal('w-small', `<h2>Insert a table</h2>
     <div class="w-grid"><label class="w-field"><span>Columns</span><input name="c" type="number" min="1" max="8" value="3"></label>
@@ -274,6 +380,7 @@ function checkNote(meta) {
     if (bad.length) out.push(`Title isn't in title case (“${bad[0]}”).`);
     if (W.notes.some(n => n._meta && n._meta.path !== meta.path && n._meta.title.toLowerCase() === meta.title.toLowerCase())) out.push('Another note already has this title, so links to it will be ambiguous.');
   }
+  if (/^notes\/guides\//.test(meta.path || '') && meta.title && !/^guide:\s/i.test(meta.title)) out.push('Guide titles start with “Guide: ”, like the others.');
   if (!meta.tags.length) out.push('No tags.');
   if (!meta.summary) out.push('No summary. It is what shows under the title in lists and guides.');
   const missing = [...new Set(wikiLinks(body).filter(t => !idx.has(t.toLowerCase())))];
@@ -342,6 +449,7 @@ function bindEditor(root, onChange, getMeta) {
   $('[data-sec]', root).addEventListener('change', e => {
     const t = e.target.value; e.target.value = ''; if (!t) return;
     if (t === 'related') return relatedDialog(ta, getMeta || (() => ({ title: '', tags: [], body: ta.value, path: '' })));
+    if (t === 'guidelist') return guideListDialog(ta, getMeta || (() => ({ title: '', tags: [], body: ta.value, path: '' })));
     const next = numberSections(ta.value, t === 'strip');
     if (next !== ta.value) { const p = ta.selectionStart; ta.value = next; ta.selectionStart = ta.selectionEnd = Math.min(p, next.length); ta.dispatchEvent(new Event('input')); }
     else toast(t === 'strip' ? 'No section numbers to remove.' : 'The sections are already numbered in order.');
@@ -417,6 +525,8 @@ function caretXY(ta) {
 /* ---------------- templates ---------------- */
 // Skeletons modelled on the notes already in the notebook. `kind` picks the section when it exists.
 const TEMPLATES = [
+  { name: 'Guide (reading order)', kind: 'guides', tags: 'guide', hint: 'A reading order for the notes on … (one sentence; shown on the Guides page).',
+    body: 'Where to start, and how the parts follow on from each other.\n\n## First Part\n\nWhat this part covers, in one line.\n\n1. [[]] — What the note shows, in one line.\n2. [[]] — What the note shows, in one line.\n\n## Second Part\n\nWhat this part covers, in one line.\n\n1. [[]] — What the note shows, in one line.\n2. [[]] — What the note shows, in one line.\n' },
   { name: 'Scripture theme', tags: 'theology, scripture', hint: 'Verses that connect one theme, grouped, with a line on each.',
     body: 'One or two sentences on the theme and how the passages hang together. Quotations from the KJV.\n\n## 1. First Group\n\n**Book 1:1**  \n"Verse text."\n\n- What this verse shows.\n\n**Book 2:2**  \n"Verse text."\n\n- What this verse shows.\n\n## 2. Second Group\n\n**Book 3:3**  \n"Verse text."\n\n- What this verse shows.\n\n## 3. How to Read These\n\n- What the passages establish together.\n- What they do not establish.\n\n## Related\n\n- [[]]\n' },
   { name: 'Book or reading notes', kind: 'book', tags: 'philosophy', hint: 'What the chapter argues, in order, with my questions.',
@@ -463,6 +573,7 @@ function writeForm() {
       <label class="w-field"><span>Tags <small>comma-separated</small></span><input name="tags" value="${esc(draft.tags || '')}" placeholder="philosophy-of-science, history"></label>
       ${tags.length ? `<p class="w-chips" aria-label="Existing tags">${tags.map(t => `<button type="button" data-tag="${esc(t)}">${esc(t)}</button>`).join('')}</p>` : ''}
       <label class="w-field"><span>Summary <small>one or two sentences; shown as the abstract</small></span><textarea name="summary" rows="2">${esc(draft.summary || '')}</textarea></label>
+      <div class="w-guides-slot"></div>
       <div class="w-field w-editor"><span>Note</span>${toolbar()}<textarea class="w-body" name="body" rows="18" placeholder="Write in Markdown. Type [[ to link another note.">${esc(draft.body || '')}</textarea>${sidePanels()}</div>
       <div class="w-actions"><button type="button" class="w-btn" data-clear>Clear</button><button type="button" class="w-btn w-primary" data-publish>Publish</button></div>
       <p class="w-status" role="status"></p>
@@ -471,6 +582,8 @@ function writeForm() {
     <section class="w-preview-wrap" aria-label="Preview"><p class="w-preview-label">Preview</p><div id="preview" class="w-preview"></div></section>
   </div>`;
   const form = $('#tab-write form');
+  let picks = Array.isArray(draft.guides) ? draft.guides.filter(p => W.notes.some(n => n.path === p.path)) : [];
+  const drawGuides = () => { $('.w-guides-slot', form).innerHTML = guidesField(picks); };
   const kindFields = () => {
     const k = W.kinds.find(k => k.key === form.kind.value); const f = FIELDS[k.kind] || [];
     $('.w-kind-fields', form).innerHTML = f.length ? `<div class="w-grid">${f.map(([name, label]) => `<label class="w-field"><span>${label}</span><input name="f_${name}" value="${esc((draft.f || {})[name] || '')}"${name === 'course' ? ' list="courses"' : ''}${name === 'year' || name === 'lecture' || name === 'episode' ? ' inputmode="numeric"' : ''}></label>`).join('')}</div>` : '';
@@ -478,7 +591,7 @@ function writeForm() {
   const collect = () => {
     const k = W.kinds.find(k => k.key === form.kind.value);
     const f = {}; $$('[name^="f_"]', form).forEach(i => { if (i.value.trim()) f[i.name.slice(2)] = i.value.trim(); });
-    return { kind: k.key, title: form.title.value.trim(), tags: form.tags.value, summary: form.summary.value.trim(), body: form.body.value, f, k };
+    return { kind: k.key, title: form.title.value.trim(), tags: form.tags.value, summary: form.summary.value.trim(), body: form.body.value, f, k, guides: picks };
   };
   const toRaw = d => {
     const lines = ['---', `title: ${yamlVal(d.title || 'Untitled')}`];
@@ -508,6 +621,8 @@ function writeForm() {
   form.addEventListener('click', e => {
     const t = e.target.closest('[data-tag]');
     if (t) { const cur = form.tags.value.split(',').map(s => s.trim()).filter(Boolean); if (!cur.includes(t.dataset.tag)) cur.push(t.dataset.tag); form.tags.value = cur.join(', '); refresh(); }
+    if (e.target.closest('[data-guides]')) guidesDialog(picks, getMeta, p => { picks = p; drawGuides(); refresh(); });
+    const un = e.target.closest('[data-unpick]'); if (un) { picks.splice(+un.dataset.unpick, 1); drawGuides(); refresh(); }
     if (e.target.closest('[data-clear]') && confirm('Clear this draft?')) { store.del('draft'); W.images.clear(); writeForm(); }
   });
   $('[data-publish]', form).addEventListener('click', async () => {
@@ -518,7 +633,8 @@ function writeForm() {
     const raw = toRaw(d), path = pathFor(d);
     busy(true, 'Publishing…');
     try {
-      await commitFiles([{ path, content: raw }, ...await imageCommits(raw)], `Add ${d.k.label.toLowerCase()} note: ${d.title}`);
+      const guides = await guideCommits(picks, d.title, d.summary);
+      await commitFiles([{ path, content: raw }, ...await imageCommits(raw), ...guides], `Add ${d.k.label.toLowerCase()} note: ${d.title}${guides.length ? ` (and list it in ${guides.length === 1 ? 'a guide' : guides.length + ' guides'})` : ''}`);
       store.del('draft'); W.images.clear(); W.imageFiles = new Map();
       W.notes.push({ path, raw }); annotate();
       done(`Published <strong>${esc(d.title)}</strong> to <code>${esc(path)}</code>. The site updates in about a minute.`);
@@ -526,7 +642,7 @@ function writeForm() {
     } catch (e) { status.textContent = e.message; }
     finally { busy(false); }
   });
-  kindFields(); bindEditor($('.w-editor', form), refresh, getMeta); refresh();
+  kindFields(); drawGuides(); bindEditor($('.w-editor', form), refresh, getMeta); refresh();
 }
 
 /* ---------------- front matter for the Edit tab ---------------- */
@@ -576,6 +692,7 @@ async function openEditor(path, rawMode = false) {
       <label class="w-field"><span>Tags <small>comma-separated</small></span><input name="tags" value="${esc(C0.tags)}"></label>
       <p class="w-chips" aria-label="Existing tags">${allTags.map(t => `<button type="button" data-tag="${esc(t)}">${esc(t)}</button>`).join('')}</p>
       <label class="w-field"><span>Summary <small>one or two sentences; shown in lists and guides</small></span><textarea name="summary" rows="2">${esc(C0.summary)}</textarea></label>
+      <div class="w-guides-slot"></div>
       <details class="w-more"><summary>Other fields <small>address, date, author, source…</small></summary><textarea name="others" rows="${Math.min(8, others.split('\n').length + 1)}" class="w-mono" spellcheck="false">${esc(others)}</textarea></details>` : ''}
       <div class="w-field w-editor"><span>${fmx ? 'Note' : 'Note, including its front matter'}</span>${toolbar()}<textarea class="w-body${fmx ? '' : ' w-raw'}" rows="${fmx ? 22 : 26}" spellcheck="true">${esc(fmx ? fmx.body : raw)}</textarea>${sidePanels()}</div>
       <div class="w-actions"><button type="button" class="w-btn w-danger" data-delete>Delete</button><button type="button" class="w-btn w-primary" data-publish>Publish changes</button></div>
@@ -584,6 +701,8 @@ async function openEditor(path, rawMode = false) {
     <section class="w-preview-wrap" aria-label="Preview"><p class="w-preview-label">Preview</p><div id="preview" class="w-preview"></div></section>
   </div>`;
   const form = $('#tab-edit form'), ta = $('.w-body', form);
+  let picks = [];
+  const drawGuides = () => { const slot = $('.w-guides-slot', form); if (slot) slot.innerHTML = guidesField(picks); };
   const tagList = s => [...new Set(s.split(',').map(t => slug(t)).filter(Boolean))];
   // Rebuild the file: untouched entries stay byte-for-byte as they were.
   const build = () => {
@@ -615,7 +734,10 @@ async function openEditor(path, rawMode = false) {
   form.addEventListener('click', e => {
     const t = e.target.closest('[data-tag]');
     if (t && form.tags) { const cur = form.tags.value.split(',').map(s => s.trim()).filter(Boolean); if (!cur.includes(t.dataset.tag)) cur.push(t.dataset.tag); form.tags.value = cur.join(', '); refresh(); }
+    if (e.target.closest('[data-guides]')) guidesDialog(picks, getMeta, p => { picks = p; drawGuides(); });
+    const un = e.target.closest('[data-unpick]'); if (un) { picks.splice(+un.dataset.unpick, 1); drawGuides(); }
   });
+  drawGuides();
   $('[data-mode]', form).onclick = () => {
     if (build() !== original && !confirm('Switching views discards the changes you have not published. Continue?')) return;
     openEditor(path, !!fmx);
@@ -631,9 +753,10 @@ async function openEditor(path, rawMode = false) {
     if (!confirmChecks(getMeta())) return;
     busy(true, 'Publishing…');
     try {
-      const files = [{ path: np, content }, ...await imageCommits(content)];
+      const meta = getMeta(), guides = await guideCommits(picks, meta.title, meta.summary || '');
+      const files = [{ path: np, content }, ...await imageCommits(content), ...guides];
       if (np !== path) files.push({ path, remove: true });
-      await commitFiles(files, np !== path ? `Move ${path} to ${np}` : `Edit ${np}`);
+      await commitFiles(files, (np !== path ? `Move ${path} to ${np}` : `Edit ${np}`) + (guides.length ? ` (and list it in ${guides.length === 1 ? 'a guide' : guides.length + ' guides'})` : ''));
       const n = W.notes.find(n => n.path === path); if (n) { n.path = np; n.raw = content; } annotate();
       done(`Published your changes to <code>${esc(np)}</code>. The site updates in about a minute.`); editTab();
     } catch (e) { status.textContent = e.message; } finally { busy(false); }
