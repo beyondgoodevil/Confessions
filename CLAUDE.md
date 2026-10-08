@@ -45,16 +45,16 @@ Write tags as `tags: [domain, scripture?, topic, topic]`, in that order, lower-c
 
 ## Writing notes (house style)
 
-When writing or adding to a note, follow the owner's own note-taking style (modelled on their Iliad book-club notes):
+Write notes in the owner's own style, the one their image-transcribed theology notes were written in (e.g. the original *2 Peter 1:3-4: Theosis*, *TAG*, *Action Is Not Proper to the Person*):
 
-- `##` headings named for the topic, unnumbered in new notes; at most a line or two before the first bullet. When adding to an older note that numbers its sections, number the new one to match.
-- Mostly nested bullets. One claim per bullet, terse, fragments welcome; sub-bullets carry the evidence, example or consequence.
-- `=` for "means / amounts to" ("Ajax = the Achaians' shield"), `→` for "so / leads to", `≠` for contrasts.
-- **Bold** the one line in a cluster that matters most, not whole paragraphs.
-- Cross-references spelled out: "mirrors …", "compare …", "Note: …", "Keep in mind: …", "Remember …", with exact references in parentheses (book.line, chapter, verse) and `[[links]]` to related notes.
-- Numbered lists for an argument's steps (and in guides); tables only when comparing several things on the same points.
-- No filler, no throat-clearing, no first-person reading diary unless the owner wrote it. Never invent quotations or page numbers; cite the chapter when unsure of the page.
+- Open with a short paragraph (one to three sentences) that states the claim or what the note covers, in plain prose with the **key terms bolded**; often ending "Here's why:" or "Here's how it works:".
+- Then numbered sections as `### 1. Title Case Heading`, each explained in full sentences. Inside a section, use bullets for examples or reasons, or a numbered list of `1. **Label**: explanation in full sentences.`
+- Quote the verse or the claim being discussed in full, in quotation marks, before explaining it; label explanations `- **Significance:** …` where that fits.
+- Bold key words and phrases inside the prose, not whole paragraphs.
+- Close with `### Conclusion`: one paragraph restating what the note has shown.
 - End with `## Related` (a bulleted list of `[[links]]`).
+- When adding to an older note whose sections are `## 1.` headings, match that note's headings.
+- Never invent quotations, page numbers or attributions; cite the chapter when unsure of the page.
 
 ## Rules
 

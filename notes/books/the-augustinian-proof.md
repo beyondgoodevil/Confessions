@@ -8,70 +8,72 @@ author: Edward Feser
 source: "Five Proofs of the Existence of God (Ignatius Press, 2017), ch. 3"
 ---
 
-## Augustine's Version
+Feser's **Augustinian proof** argues from the existence of **abstract objects**, such as numbers, propositions and universals, to the existence of an **eternal, necessary intellect** in which they exist. It takes its name from St. Augustine, who argued from unchanging truth to God. Here's how it works:
 
-- On Free Choice of the Will, book 2.
-	- 7 + 3 = 10 is true for every mind, never changes, and none of us made it true.
-	- Our minds change; the truth doesn't → it is **above** our minds.
-	- If something is higher than truth, that is God. If nothing is, truth itself is God.
-- Feser keeps the shape and swaps in modern talk of "abstract objects."
+### 1. Augustine's Argument
 
-## What Needs Explaining
+In *On Free Choice of the Will* (book 2), Augustine observes that a truth such as 7 + 3 = 10 is the same for every mind, never changes, and was not made true by any of us.
 
-- **Abstract objects**: universals (triangularity), propositions (that snow is white), numbers, possible worlds.
-- Marks:
-	- not in space, don't change
-	- **necessary**: 2 + 2 = 4 couldn't have failed
-	- **eternal**: true before anyone thought it
-	- infinitely many
-- Proposition ≠ sentence. "Snow is white" and "Schnee ist weiß" = two sentences, one proposition.
+- Our minds are changeable, but the truth is not, so the truth must be **above** our minds.
+- If there is something higher than truth, that is God; if nothing is higher, then truth itself is God.
 
-## The Argument
+Feser keeps the shape of this argument and restates it in terms of what modern philosophers call "abstract objects."
+
+### 2. What Needs to Be Explained
+
+**Abstract objects** include universals (such as triangularity), propositions (such as *that snow is white*), numbers and possible worlds. They have distinctive features:
+
+- They are not located in space and do not change.
+- They are **necessary**: 2 + 2 = 4 could not have been false.
+- They are **eternal**: they were true before anyone thought of them.
+- There are **infinitely many** of them.
+
+A proposition is not the same as a sentence. "Snow is white" and "Schnee ist weiß" are two sentences expressing one proposition.
+
+### 3. The Argument
 
 1. There are universals, propositions, numbers and possible worlds.
-2. They can't be reduced to physical things or to particular human thoughts.
-3. They can't exist in a Platonic third realm, independent of every mind.
-4. So they exist in an intellect.
-5. Not a human or any finite intellect: they're necessary, eternal and infinitely many.
-6. So there is an eternal, necessary, infinite intellect = God.
+2. They cannot be reduced to physical things or to particular human thoughts.
+3. They cannot exist in a Platonic third realm, independent of every mind.
+4. Therefore they exist in an intellect.
+5. That intellect cannot be human or finite, because these objects are necessary, eternal and infinitely many.
+6. Therefore there is an eternal, necessary, infinite intellect, which is God.
 
-- Step 2 = rejecting nominalism and conceptualism. Feser's case is written up in [[The Problem of Universals: Realism vs Nominalism]] sec. 8.
+- **Significance of step 2:** this means rejecting **nominalism** and **conceptualism**. Feser's case against them is set out in [[The Problem of Universals: Realism vs Nominalism]], section 8.
 
-## Why Not Plato's Heaven
+### 4. Why Not Plato's Heaven?
 
-- Propositions are **about** things. Aboutness (intentionality) = the mark of the mental. A thought is of something; a rock isn't of anything.
-- Universals behave like concepts: one thing, applicable to many.
-- So abstract objects look like **thoughts without a thinker**, and "without a thinker" is the part that makes no sense.
-- Also: free-floating objects with no location leave it a mystery how they relate to the world or to us. Same location problem as in the universals note, sec. 6.
-- Keep in mind: this is the Christian synthesis (Forms → divine ideas, universals note sec. 3) turned into a proof.
+1. **Aboutness**: propositions are **about** things, and aboutness (intentionality) is the mark of the mental. A thought is of something; a rock is not of anything.
+2. **Concept-Like**: universals behave like concepts, being one thing that applies to many.
+3. **Thoughts Without a Thinker**: abstract objects therefore look like thoughts that exist without anyone thinking them, and that is the part that makes no sense.
+4. **The Location Problem**: objects existing nowhere leave it a mystery how they relate to the world or to us. This is the same problem raised for universals in the universals note, section 6.
 
-## Why Not Human Minds
+This is the Christian synthesis, in which Plato's Forms become ideas in the mind of God (universals note, section 3), turned into a proof.
 
-- 2 + 2 = 4 was true before there were humans, and would stay true if every human died.
-- Infinitely many numbers and truths; finite minds have thought of finitely many.
-- Human thoughts are contingent and changeable. These truths are necessary.
-- So: not *our* concepts, but concepts in a mind that is necessary, eternal, and thinks all of them.
+### 5. Why Not Human Minds?
 
-## Connections
+- 2 + 2 = 4 was true before there were any humans, and would remain true if every human died.
+- There are infinitely many numbers and truths, but finite minds have only ever thought of finitely many.
+- Human thoughts are contingent and changeable, while these truths are necessary.
 
-- **TAG** = closest relative. Both say logic, maths and truth need a ground in a mind.
-	- TAG: the unbeliever already presupposes it whenever he argues.
-	- Augustinian proof: argues for it directly, from what abstract objects are.
-	- See [[TAG]] and [[Philosophy of Logic: What Grounds the Laws of Logic]].
-- **Euthyphro**: do these truths depend on God's will? No, on His intellect and nature. 2 + 2 = 4 isn't arbitrary because it was never decreed. Same shape as [[The Euthyphro Dilemma and the Orthodox Answer]].
-- Same view in modern analytic dress = "theistic conceptual realism" (Plantinga, Welty).
-- **Orthodox side**: the divine ideas = the **logoi** in the Logos ([[The Logoi of Creation in St. Maximus]]).
-	- Note: Maximus, following Dionysius, also calls the logoi divine *wills* for each creature. The proof gets you divine ideas; Maximus adds that they are God's purposes.
+So abstract objects are not *our* concepts, but concepts in a mind that is necessary, eternal, and thinks all of them.
 
-## Objections
+### 6. Connections
 
-- **"Abstract objects are useful fictions."**
-	- Maths is indispensable to physics. Fictions don't predict where a planet will be.
-- **"Why one intellect, not many?"**
-	- The truths hang together: one logic connects all of them.
-	- With [[The Neo-Platonic Proof]]: a necessary, uncaused being is simple, and there can only be one.
-- **"Then God depends on abstract objects in order to think them."**
-	- No: they *are* His thoughts. He doesn't look at them as something outside Himself.
+- **TAG**: the closest relative of this proof. Both say that logic, mathematics and truth need a ground in a mind. TAG argues that the unbeliever already presupposes this whenever he reasons; the Augustinian proof argues for it directly from what abstract objects are (see [[TAG]] and [[Philosophy of Logic: What Grounds the Laws of Logic]]).
+- **Euthyphro**: these truths do not depend on God's will but on His intellect and nature. 2 + 2 = 4 is not arbitrary, because it was never decreed. This is the same shape as the answer in [[The Euthyphro Dilemma and the Orthodox Answer]].
+- **Modern Versions**: the same view is defended today under the name "theistic conceptual realism" (Plantinga, Welty).
+- **The Orthodox View**: the divine ideas correspond to the **logoi** in the Logos (see [[The Logoi of Creation in St. Maximus]]). St. Maximus, following Dionysius, also calls the logoi divine *wills* for each creature. The proof reaches divine ideas; Maximus adds that they are God's purposes for His creatures.
+
+### 7. Objections
+
+- **"Abstract objects are useful fictions."** Mathematics is indispensable to physics, and fictions do not predict where a planet will be.
+- **"Why one intellect rather than many?"** The truths hang together, since one logic connects all of them. Combined with [[The Neo-Platonic Proof]], a necessary, uncaused being must be simple, and there can only be one.
+- **"Then God depends on abstract objects in order to think them."** No: they *are* His thoughts. He does not contemplate them as something outside Himself.
+
+### Conclusion
+
+The Augustinian proof begins from truths that every mind recognises but no mind created. Numbers, propositions and universals are real, yet they cannot be physical things, human thoughts or free-floating Forms. The only remaining home for them is an intellect that is eternal, necessary and infinite, which is God. The proof stands close to TAG, and for the Orthodox it fits naturally with St. Maximus' teaching that the logoi of all things exist in the Logos.
 
 ## Related
 

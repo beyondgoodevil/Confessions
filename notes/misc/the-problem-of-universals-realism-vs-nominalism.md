@@ -113,27 +113,16 @@ Open question: modern "trope theory" and resemblance nominalism claim to do the 
 
 ## 8. Feser Against Nominalism
 
-From *Five Proofs* ch. 3, where rejecting nominalism is step 2 of [[The Augustinian Proof]]. Answers the open question at the end of sec. 7.
+In *Five Proofs* (ch. 3), rejecting nominalism is the second step of [[The Augustinian Proof]]. Feser's case also answers the open question at the end of section 7, whether trope theory escapes the problem. Here are his main points:
 
-- **Self-refuting.** The nominalist says only words and concepts are general.
-	- But "the word *dog*" is already a universal: countless spoken and written tokens, one word.
-	- Saying what makes them all the same word needs the very thing he denies.
-- **Resemblance regress** (Russell's argument). "Red things just resemble each other."
-	- Then resemblance is something many pairs have in common = a universal.
-	- Say instead each resemblance only resembles the others → regress, and a universal at the end anyway.
-	- **Hits tropes too**: two red tropes are "the same colour" only by resembling. So trope theory doesn't escape (the open question in sec. 7).
-- **Predicate nominalism runs backwards.** "Red things are red because 'red' applies to them." No: "red" applies because they're red.
-- **Class nominalism fails.** Redness = the class of red things?
-	- Which class? You need redness to pick it out.
-	- Two properties, one class: every creature with a heart has kidneys, but having a heart ≠ having kidneys. The empty-set problem in the sec. 6 table is the extreme case.
-	- Classes are abstract objects themselves.
-- **Conceptualism doesn't help.**
-	- My concept *triangle* and yours = two mental events, but we think the *same* thing.
-	- Geometry is discovered, not invented: theorems hold of triangles no one has drawn or thought of.
-- **Science and maths need universals.**
-	- Laws are general ("every electron..."), mathematical truths are necessary.
-	- Nominalists paraphrase these away, and the paraphrases still use general terms.
-- Keep in mind: Feser's wider story is that losing real natures cost the West final causes and a natural-law ethics. Same chain as sec. 5.
+1. **Nominalism Refutes Itself**: The nominalist says that only words and concepts are general. But a word is already a universal: "dog" is spoken and written countless times, yet it is one word. Explaining what makes all those instances the same word requires exactly what the nominalist denies.
+2. **The Resemblance Regress**: The resemblance nominalist says red things simply resemble one another. But then resemblance is something many pairs have in common, which makes it a universal. If instead each resemblance only resembles the others, a regress begins, and a universal is admitted at the end anyway (Russell's argument). The same problem applies to **tropes**: two red tropes count as the same colour only because they resemble each other, so trope theory does not escape.
+3. **Predicate Nominalism Gets It Backwards**: It says red things are red because the word "red" applies to them. The truth is the reverse: the word applies because they are red.
+4. **Class Nominalism Fails**: If redness is just the class of red things, we still need redness to pick out which class is meant. Two different properties can also belong to exactly the same things: every creature with a heart has kidneys, yet having a heart is not having kidneys. And a class is itself an abstract object.
+5. **Conceptualism Doesn't Help**: My concept of a triangle and yours are two separate mental events, yet we think the same thing. Geometry is discovered rather than invented; its theorems hold of triangles no one has ever drawn or imagined.
+6. **Science and Mathematics Need Universals**: Laws of nature are general ("every electron..."), and mathematical truths are necessary. Nominalists try to paraphrase these away, but the paraphrases still rely on general terms.
+
+Feser also places nominalism within a larger story: once real natures were denied, the West lost final causes and a natural-law ethics. This is the same chain traced in section 5.
 
 ## Related
 
