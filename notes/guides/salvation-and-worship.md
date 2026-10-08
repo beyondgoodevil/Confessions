@@ -29,6 +29,7 @@ What was lost.
 5. [[Death and Corruptibility as Privations of Life and the Ability to Sin]] — The Fathers and Scripture on death, corruption and sin as privations rather than created things.
 6. [[Romans 8:18-24: Creation Corruption]] — Romans 8:18-25 on creation's bondage to corruption and its coming deliverance.
 7. [[Calvinism Views on Humans]] — Total Depravity in Calvinism, and why it excludes human infallibility.
+8. [[Image and Likeness]] — Genesis 1:26 says man was made "in Our image, according to Our likeness". Why many Fathers distinguish the two, what the image is, what the Fall did to it, how Christ restores it, and why the likeness is the path of theosis.
 
 ### Recapitulation
 
@@ -58,6 +59,7 @@ What Scripture says about works and judgment.
 4. [[Sola Fide Still Requires Works: Mental Work]] — Believing is itself an act of the will, so sola fide does not remove works but moves them inward.
 5. [[Believers Are Called to Fulfill Their Part of the Covenant: NT Verses]] — Seven New Testament passages on obedience, perseverance and works within the covenant.
 6. [[Verses: The Way We Live Our Lives Is Deeply Connected to Our Experience of the Afterlife]] — Seven New Testament passages on judgment according to works.
+7. [[Repentance as Metanoia: A Change of Mind, Not a Payment]] — The Greek word for repentance means a change of the nous, not a debt paid. What metanoia is in Scripture and the Fathers, how the Latin "do penance" shifted the emphasis, joyful mourning, and confession as healing.
 
 ### Resurrection
 
@@ -65,6 +67,7 @@ The last enemy destroyed.
 
 1. [[Resurrection Verses]] — Seven New Testament passages on the resurrection of believers.
 2. [[1 Corinthians 15:26: The Last Enemy That Will Be Destroyed Is Death]] — 1 Corinthians 15:26 (NKJV).
+3. [[Hell as the River of Fire]] — The Orthodox teaching that heaven and hell are not two places God sends people, but the same divine presence experienced in two ways, as light by those who love Him and as fire by those who hate Him. Scripture, St. Isaac and St. Basil, the contrast with the juridical model, and the cautions.
 
 ## Sacraments and Baptism
 
@@ -133,6 +136,7 @@ The liturgy and its heavenly pattern.
 1. [[Liturgy Origins]] — How the apostles built Christian liturgy from Temple and synagogue worship.
 2. [[Old Testament Foreshadowings of Heavenly Worship]] — Six Old Testament patterns of worship that anticipate the heavenly worship of Revelation.
 3. [[Revelation Chapters 5 Through 8 Depict a Heavenly Vision of Worship]] — Key verses of heavenly worship in Revelation 5 to 8 and four themes drawn from them.
+4. [[Beauty as a Way to God]] — Beauty as one of the ways to God alongside truth and goodness. Plato's ladder of beauty, Dionysius on God as the Beauty that calls all things, Augustine's "Beauty ever ancient, ever new", the envoys of Prince Vladimir, icons, Kant's turn to subjective taste, and the danger of beauty without God.
 
 ## Mary, the Theotokos
 

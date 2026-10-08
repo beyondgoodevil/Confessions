@@ -211,6 +211,7 @@ The Neoplatonic background.
 1. [[Neoplatonic Idea of Divine Simplicity]] — Five aspects of the Neoplatonic One and its absolute simplicity.
 2. [[Emanationism]] — Emanationism and how it distorts the doctrine of the Trinity.
 3. [[Emergence of Magic and Neoplatonism in the Renaissance]] — Renaissance magic and Neoplatonism read as expressions of perennialism.
+4. [[Heidegger and the God Beyond Being]] — Heidegger's charge that Western metaphysics forgot Being and turned God into the highest being ("ontotheology"), and why the Greek Fathers, who placed God beyond being and spoke of Him apophatically, were never guilty of it. Plato, Dionysius, Palamas, Marion and Yannaras.
 
 ### The Critique
 

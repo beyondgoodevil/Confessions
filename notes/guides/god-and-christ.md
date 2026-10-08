@@ -168,3 +168,4 @@ How the tradition is lived.
 
 1. [[The Jesus Prayer and Hesychasm]] — The prayer and where it comes from in Scripture, the hesychast line from the Desert Fathers to Palamas and the Philokalia, terms, practice and the usual warnings.
 2. [[Mysticism Does Not Contradict Evidentialism or Evidence]] — Eastern Orthodox mysticism transcends reason and evidence without rejecting them.
+3. [[How a Thought Becomes a Sin: The Stages of Temptation]] — The Fathers' map of how a passing thought grows into a sin and then a passion (provocation, coupling, consent, captivity, passion), where sin actually begins, how to stop it early, and how it compares with Augustine's suggestion, delight and consent.
