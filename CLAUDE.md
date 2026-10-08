@@ -43,6 +43,19 @@ Write tags as `tags: [domain, scripture?, topic, topic]`, in that order, lower-c
 - Philosophy topics: `epistemology` (knowledge, justification, belief, scepticism; not every argument that mentions knowing), `logic`, `fallacies`, `metaphysics`, `ethics`, `mind`, `time`, `philosophy-of-science`, `apologetics` (TAG, presuppositions, worldview arguments), and a thinker's name when the note is about that thinker (`plato`, `aristotle`, `nietzsche`, `leibniz`, `kant`).
 - Guides carry `guide` plus their topic's tag. There are five broad guides (God and Christ, Scripture, Salvation and Worship, The Church and Its History, Philosophy and Apologetics); add notes to them rather than starting a new guide for a narrow topic. A guide's title starts with "Guide: "; its body is `## Part` headings, each with an intro line and `### Sub-part` headings, each with a one-line description and a numbered list of `N. [[Note title]] — the note's summary`. When adding a note to a guide, add one such line at the end of the right sub-part and number on.
 
+## Writing notes (house style)
+
+When writing or adding to a note, follow the owner's own note-taking style (modelled on their Iliad book-club notes):
+
+- `##` headings named for the topic, unnumbered in new notes; at most a line or two before the first bullet. When adding to an older note that numbers its sections, number the new one to match.
+- Mostly nested bullets. One claim per bullet, terse, fragments welcome; sub-bullets carry the evidence, example or consequence.
+- `=` for "means / amounts to" ("Ajax = the Achaians' shield"), `→` for "so / leads to", `≠` for contrasts.
+- **Bold** the one line in a cluster that matters most, not whole paragraphs.
+- Cross-references spelled out: "mirrors …", "compare …", "Note: …", "Keep in mind: …", "Remember …", with exact references in parentheses (book.line, chapter, verse) and `[[links]]` to related notes.
+- Numbered lists for an argument's steps (and in guides); tables only when comparing several things on the same points.
+- No filler, no throat-clearing, no first-person reading diary unless the owner wrote it. Never invent quotations or page numbers; cite the chapter when unsure of the page.
+- End with `## Related` (a bulleted list of `[[links]]`).
+
 ## Rules
 
 - Never invent an `id`. Leave it out and run `node tools/stamp.mjs` (or let the workflow do it). Never change an existing `id`, and never reuse one.

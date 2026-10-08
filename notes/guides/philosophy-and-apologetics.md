@@ -2,8 +2,8 @@
 id: G-0012
 date: 2026-10-06
 title: "Guide: Philosophy and Apologetics"
-tags: [philosophy, theology, guide, apologetics, epistemology, fallacies, thomism]
-summary: The transcendental argument and worldview apologetics, knowledge and its limits, logical fallacies, and Thomism.
+tags: [philosophy, theology, guide, apologetics, metaphysics, epistemology, fallacies, thomism]
+summary: The transcendental argument and worldview apologetics, the classical proofs of God's existence, knowledge and its limits, logical fallacies, and Thomism.
 aliases:
   - "Guide: TAG and Presuppositional Apologetics"
   - "Guide: Epistemology"
@@ -68,6 +68,32 @@ Common objections and their answers.
 1. [[The Problem of Evil and Theodicy]] — Logical vs evidential problem of evil, the usual theodicies, where Orthodoxy puts the weight (privation, freedom, the Cross), and the presuppositional reply.
 2. [[The Euthyphro Dilemma and the Orthodox Answer]] — Plato's dilemma about God and goodness, why both horns are bad, the third option (God is the Good), the fuller Orthodox version with energies and logoi, and follow-up objections.
 3. [[Free Will and Divine Foreknowledge]] — The argument that foreknowledge rules out freedom, where it goes wrong (the modal slip), Boethius, Molina, and St. John of Damascus on foreknowing without predetermining.
+
+## Proofs of God's Existence
+
+The classical arguments, mostly from the *Blackwell Companion to Natural Theology* and Feser's *Five Proofs*. Start with whether natural theology works at all, then the proofs, then revelation.
+
+### Whether Natural Theology Works
+
+Objections to the whole project, and the replies.
+
+1. [[Natural Theology: Is It Legitimate]] — What natural theology is, five objections to the whole project (Taliaferro), his replies, cumulative cases, and the theological objections that come from inside Christianity. Where the Fathers and the Orthodox tradition stand, and how TAG relates to the classical proofs.
+
+### The Proofs
+
+From the changing world, from composite things, from abstract objects, from contingency, and from the idea of God.
+
+1. [[The Unmoved Mover]] — Reading notes on Perl's account of Aristotle's first principle. Act before potency, pure act as pure form, moving as final cause, thought thinking itself. Plus my notes on the Orthodox response.
+2. [[The Neo-Platonic Proof]] — Feser's argument from composition. Everything we meet has parts, something has to hold the parts together here and now, and the chain ends in something with no parts at all, the One. Why there can only be one, what follows about it, the objections, and where the Orthodox part ways.
+3. [[The Augustinian Proof]] — Feser's argument from abstract objects. Numbers, propositions, universals and possibilities are real; they can't be reduced to physical things or human thoughts, and they can't float free in a Platonic heaven, so they exist in an eternal, necessary intellect. Close cousin of TAG.
+4. [[The Leibnizian Cosmological Argument]] — Why is there something rather than nothing? Pruss's four problems for any cosmological argument, the three families (kalam, Thomistic, Leibnizian), the argument from the Principle of Sufficient Reason, the main objections, and Feser's version. Plus my notes from the Orthodox side.
+5. [[The Ontological Argument]] — Proving God from the concept of God. Anselm, Descartes and Leibniz, the modal versions (Malcolm, Hartshorne, Plantinga), Gödel, and Maydole's own. What parodies show, Kant's objection, and why it all comes down to one premise. Plus my notes on how the East has treated it.
+
+### Beyond the Proofs
+
+What reason can do once God's existence is granted.
+
+1. [[Revelation and Miracles]] — Sullivan and Menssen's four questions. Does belief in revelation need a case? Must God be proved first? Is a confirming miracle required? Does Hume defeat miracle reports? With definitions (universal vs special revelation, miracle vs wonder) and my notes on the Orthodox view.
 
 ## Epistemology
 

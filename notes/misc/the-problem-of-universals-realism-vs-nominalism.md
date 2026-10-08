@@ -3,7 +3,7 @@ id: M-0047
 date: 2026-03-17
 title: "The Problem of Universals: Realism vs Nominalism"
 tags: [philosophy, theology, metaphysics]
-summary: Are shared natures like "humanity" real? Plato, Aristotle, conceptualism, nominalism; the Christian synthesis; why it matters for Trinity and Christology; what nominalism led to.
+summary: Are shared natures like "humanity" real? Plato, Aristotle, conceptualism, nominalism; the Christian synthesis; why it matters for Trinity and Christology; what nominalism led to; Feser's case against nominalism.
 ---
 
 Socrates and Plato are both men. Is there something real, "human nature", that they share? Or only two individuals and a word? That's the problem of universals: do general things (*humanity*, *redness*, *justice*) exist in reality or only in minds and language.
@@ -111,6 +111,30 @@ Not yet read: the *Oxford Handbook of Metaphysics* chapters on this (Szabó on n
 
 Open question: modern "trope theory" and resemblance nominalism claim to do the work without universals. Haven't looked at whether the transcendental argument touches them.
 
+## 8. Feser Against Nominalism
+
+From *Five Proofs* ch. 3, where rejecting nominalism is step 2 of [[The Augustinian Proof]]. Answers the open question at the end of sec. 7.
+
+- **Self-refuting.** The nominalist says only words and concepts are general.
+	- But "the word *dog*" is already a universal: countless spoken and written tokens, one word.
+	- Saying what makes them all the same word needs the very thing he denies.
+- **Resemblance regress** (Russell's argument). "Red things just resemble each other."
+	- Then resemblance is something many pairs have in common = a universal.
+	- Say instead each resemblance only resembles the others → regress, and a universal at the end anyway.
+	- **Hits tropes too**: two red tropes are "the same colour" only by resembling. So trope theory doesn't escape (the open question in sec. 7).
+- **Predicate nominalism runs backwards.** "Red things are red because 'red' applies to them." No: "red" applies because they're red.
+- **Class nominalism fails.** Redness = the class of red things?
+	- Which class? You need redness to pick it out.
+	- Two properties, one class: every creature with a heart has kidneys, but having a heart ≠ having kidneys. The empty-set problem in the sec. 6 table is the extreme case.
+	- Classes are abstract objects themselves.
+- **Conceptualism doesn't help.**
+	- My concept *triangle* and yours = two mental events, but we think the *same* thing.
+	- Geometry is discovered, not invented: theorems hold of triangles no one has drawn or thought of.
+- **Science and maths need universals.**
+	- Laws are general ("every electron..."), mathematical truths are necessary.
+	- Nominalists paraphrase these away, and the paraphrases still use general terms.
+- Keep in mind: Feser's wider story is that losing real natures cost the West final causes and a natural-law ethics. Same chain as sec. 5.
+
 ## Related
 
 - [[The Logoi of Creation in St. Maximus]]
@@ -127,3 +151,5 @@ Open question: modern "trope theory" and resemblance nominalism claim to do the 
 - [[Philosophy of Logic: What Grounds the Laws of Logic]]
 - [[Mind and Body: Dualism, Materialism, Emergence]]
 - [[Natural Theology: Is It Legitimate]]
+- [[The Augustinian Proof]]
+- [[The Neo-Platonic Proof]]
