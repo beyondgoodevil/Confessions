@@ -4,7 +4,7 @@ date: 2026-10-14
 title: The Virtues and the Eight Passions
 tags: [theology, theosis, patristics]
 summary: Evagrius's eight logismoi and Cassian's chain, how they map onto the Western seven deadly sins, the virtues that answer each one, image and likeness, and why the body has to be trained along with the soul.
-source: "OrthodoxWiki, “Virtues” and “Vices”; Cassian, Conferences 5; Thomas Hopko, The Orthodox Faith: Spirituality"
+source: "Cassian, Conferences 5; Thomas Hopko, The Orthodox Faith: Spirituality"
 ---
 
 What purification (the first stage of [[Theosis: Becoming by Grace What God Is by Nature]]) is purifying *from*, and what grows in its place. The process of how a single thought turns into a sin is in [[How a Thought Becomes a Sin: The Stages of Temptation]]. This note is the map of the passions themselves.
@@ -85,9 +85,9 @@ The traditional pairing (Cassian, the Philokalia, St. John Climacus). Each passi
 
 **Humility** is the hinge of the whole list. Seeing yourself as God sees you. St. Isaac the Syrian calls it "the garment of the Godhead".
 
-## 6. Virtues in the OrthodoxWiki List
+## 6. Virtues
 
-The article lists (as "fruits of the Spirit", cf. Gal 5:22-23):
+Listed (as "fruits of the Spirit", cf. Gal 5:22-23):
 
 - **Faith**: weakened by sin, impurity and pride
 - **Hope**: confidence in God's outcome
@@ -108,7 +108,7 @@ The classical **cardinal** virtues (prudence, justice, courage, temperance) and 
 ## 7. Why the Body Too
 
 - A person is body and soul together, so both have to be trained.
-- Fasting and self-control are called the "primary source" of virtue in the article. Cassian's chain explains why: the first link is the stomach.
+- Fasting and self-control are called the "primary source" of virtue. Cassian's chain explains why: the first link is the stomach.
 - This is the opposite of Neoplatonic contempt for the body. The body isn't the prison. It's half of the one being trained. See [[Mind and Body: Dualism, Materialism, Emergence]] sec. 5.
 
 ## 8. To Read

@@ -4,7 +4,6 @@ date: 2026-10-14
 title: Religious Experience as Evidence
 tags: [philosophy, epistemology, apologetics, theology]
 summary: Can experiences of God justify belief in God? Kinds of religious experience, the perceptual model (Swinburne's principle of credulity, Alston's doxastic practices, Plantinga's properly basic belief), testimony, the objections (diversity, no public checks, naturalistic explanations, hiddenness) and replies. Plus where the Orthodox saints and hesychasm fit.
-source: "Stanford Encyclopedia of Philosophy, “Religious Experience”"
 ---
 
 The argument from religious experience: people experience God, and experience is normally good grounds for belief. The question is whether experiences of God count the way experiences of tables do.
@@ -16,7 +15,7 @@ The argument from religious experience: people experience God, and experience is
     - **religious feelings**: elation you later put down to God. It has to seem to be *of* something.
     - **mysticism**: a practice deliberately undertaken. Many experiences come unsought (Paul on the road, Moses at the bush).
 
-Four kinds (SEP):
+Four kinds:
 
 1. **Visions and voices**: internal but claimed to be real.
 2. **"Seeing as" realisation**: the yogi seeing identity with Brahman, the Buddhist seeing things as they are.
@@ -59,7 +58,7 @@ Three defences:
 **Testimony**
 
 - William James: authoritative for the person who has it, not for others.
-- But we rely on testimony for most of what we know. Why not here? SEP leaves it open.
+- But we rely on testimony for most of what we know. Why not here? Left open.
 
 ## 4. Objections
 
@@ -88,7 +87,7 @@ Three defences:
     - *prelest* (spiritual delusion) is a named danger
     - the fruits matter more than the experience: humility, love, repentance
     - See [[The Jesus Prayer and Hesychasm]] sec. 7.
-- **Purification as the condition.** Here's an answer to the diversity and hiddenness objections the SEP doesn't mention. "Blessed are the pure in heart, for they shall see God" (Matt 5:8). On the Orthodox view, the faculty of seeing God (the *nous*) is darkened in most people and has to be healed. Then it's not surprising that most don't see, or see confusedly. Like asking why only trained eyes can read an X-ray. See [[Nous]], [[Theosis: Becoming by Grace What God Is by Nature]].
+- **Purification as the condition.** Here's an answer to the diversity and hiddenness objections that usually isn't raised. "Blessed are the pure in heart, for they shall see God" (Matt 5:8). On the Orthodox view, the faculty of seeing God (the *nous*) is darkened in most people and has to be healed. Then it's not surprising that most don't see, or see confusedly. Like asking why only trained eyes can read an X-ray. See [[Nous]], [[Theosis: Becoming by Grace What God Is by Nature]].
 - **Not private.** "Mystical" for Dionysius meant *hidden*, not *subjective*. Experience is checked against the Church's common faith. See [[St. Dionysius the Areopagite]].
 - **Experience and argument.** [[Mysticism Does Not Contradict Evidentialism or Evidence]] already argues that mystical knowledge doesn't conflict with evidence. Alston's point is the philosophical form of it: experiential belief is innocent until shown guilty.
 - **Limits.** Experience can't by itself settle *which* God. It needs the tradition's teaching to interpret it. That cuts both ways: it's why the Orthodox claim rests on the experience *of the Church*, not of individuals.

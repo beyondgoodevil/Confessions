@@ -4,7 +4,6 @@ date: 2026-10-14
 title: St. Dionysius the Areopagite
 tags: [theology, patristics, neoplatonism, philosophy]
 summary: Who he was (the convert of Acts 17:34, or a writer c. 500), the corpus, the Divine Names, procession and return, the hierarchies, apophatic and cataphatic theology, the divine darkness, evil as privation, and his influence East and West, including the Orthodox debate over him.
-source: "OrthodoxWiki, “Dionysius the Areopagite”; Stanford Encyclopedia of Philosophy, “Pseudo-Dionysius the Areopagite”"
 ---
 
 The most quoted writer the site doesn't have a page for. Behind the apophatic theology, the hierarchy of angels, "beyond being", and a lot of Maximus and Palamas.
@@ -22,7 +21,7 @@ The most quoted writer the site doesn't have a page for. Behind the apophatic th
 - The writings (the "corpus") weren't written in the 1st century. Earliest clear citation: Severus of Antioch, 518–28. They use Proclus (d. 485) closely. So c. 500, probably Syria. Hence "Pseudo-Dionysius".
 - Doubts are old: Hypatius of Ephesus (532) questioned it; Valla and Erasmus in the Renaissance. Koch and Stiglmayr (1895) settled it.
 - Guesses at the real author include Peter the Iberian (Bp. Alexander Golitzin).
-- The SEP entry warns "forgery" is anachronistic. Writing in an ancient figure's name was an accepted form, and the author presents himself as handing on a tradition.
+- Calling it "forgery" is anachronistic. Writing in an ancient figure's name was an accepted form, and the author presents himself as handing on a tradition.
 
 Does the dating matter for Orthodox use? The Church received the writings by their content, through Maximus, John of Damascus and the councils. Their authority doesn't hang on the first-century date. (That's my view; some Orthodox still hold to the traditional authorship.)
 

@@ -4,10 +4,9 @@ date: 2026-10-14
 title: "Divine Simplicity: Western and Orthodox Views"
 tags: [theology, metaphysics, thomism, philosophy]
 summary: What absolute divine simplicity claims, why classical theists hold it (aseity, necessity, Euthyphro), the modern objections (Plantinga's "God is a property", distinct attributes, contingent knowledge, modal collapse) and the replies, and how the Orthodox version (simple but with real distinctions: essence, energies, hypostases) differs.
-source: "Stanford Encyclopedia of Philosophy, “Divine Simplicity”"
 ---
 
-The site has [[Neoplatonic Idea of Divine Simplicity]], several Thomism notes, and the essence–energies material, but no page that sets the doctrine out and weighs it. Sections 1–5 follow the SEP entry. Section 6 is the Orthodox side, mine.
+The site has [[Neoplatonic Idea of Divine Simplicity]], several Thomism notes, and the essence–energies material, but no page that sets the doctrine out and weighs it. Section 6 is the Orthodox side, mine.
 
 ## 1. The Claim
 
@@ -21,7 +20,7 @@ The site has [[Neoplatonic Idea of Divine Simplicity]], several Thomism notes, a
 2. God **is** His attributes. He doesn't *have* goodness; He *is* goodness. And so each attribute is identical with every other: God's justice = God's mercy = God's knowledge.
 3. God's essence **is** His existence. He doesn't receive being; He is "subsistent being itself" (*ipsum esse subsistens*).
 
-The SEP's phrase: God is "uniquely unique". Not just the greatest thing, but different from everything in how He exists and has properties.
+God is "uniquely unique". Not just the greatest thing, but different from everything in how He exists and has properties.
 
 **Sources**: Augustine (*City of God* XI.10: God is what He has), Anselm (*Monologion*, *Proslogion*), **Aquinas** (*ST* I q. 3), Maimonides. Also in Islamic and Neoplatonic thought: Plotinus's One is the purest form. See [[Neoplatonism: Plotinus, Porphyry, Proclus]].
 
@@ -51,7 +50,7 @@ The SEP's phrase: God is "uniquely unique". Not just the greatest thing, but dif
 
 - God freely chose to create this world. He knows that it exists. That knowledge could have been otherwise (He might not have created).
 - If God's knowledge and will = His essence, and His essence is necessary, then His knowledge and choices are necessary.
-- The SEP sets out an "aporetic pentad": libertarian freedom, simplicity, contingent divine knowledge, knowledge requiring intrinsic states, necessary existence. Not all five can be true.
+- An "aporetic pentad": libertarian freedom, simplicity, contingent divine knowledge, knowledge requiring intrinsic states, necessary existence. Not all five can be true.
 
 **Modal collapse**
 
@@ -60,7 +59,7 @@ The SEP's phrase: God is "uniquely unique". Not just the greatest thing, but dif
 3. So God's act of creating is necessary.
 4. So creation is necessary: nothing could have been otherwise.
 
-The SEP concludes no response to this is free of problems. See [[Thomism Leads to Eternal Creation]], [[The Leibnizian Cosmological Argument]] sec. 4.
+No response to this is free of problems. See [[Thomism Leads to Eternal Creation]], [[The Leibnizian Cosmological Argument]] sec. 4.
 
 **Trinity**
 
@@ -82,7 +81,6 @@ The SEP concludes no response to this is free of problems. See [[Thomism Leads t
 
 - The modern debate is mostly analytic philosophers arguing over Aquinas's version.
 - The two hardest problems are the same as the Orthodox objections in sec. 6: **free contingent acts** (modal collapse) and **real distinctions** (attributes, Persons).
-- The SEP entry (in the part I read) doesn't discuss the Eastern alternative at all.
 
 ## 6. The Orthodox View
 

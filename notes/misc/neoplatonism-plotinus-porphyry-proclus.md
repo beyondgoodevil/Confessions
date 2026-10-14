@@ -4,7 +4,6 @@ date: 2026-10-14
 title: "Neoplatonism: Plotinus, Porphyry, Proclus"
 tags: [philosophy, metaphysics, neoplatonism, theology]
 summary: The last great pagan philosophy and the background to the Cappadocians, Augustine, Dionysius and Maximus. The figures and works, the One, Intellect and Soul, procession and return, matter and evil, the ascent, theurgy, Proclus's henads and triads, and what the Fathers took and refused.
-source: "Stanford Encyclopedia of Philosophy, “Neoplatonism” (Christian Wildberg) and “Proclus”"
 ---
 
 The dominant philosophy from the mid-3rd to the mid-7th century. "Neoplatonism" is a modern label. They called themselves Platonists, and aimed at one synthesis of Plato, Aristotle, Pythagoras and Greek religion (but not Epicureans or Stoic materialism).
@@ -96,7 +95,7 @@ Dionysius's ordered ranks and triads clearly come from here. What he drops: the 
 
 ## 9. The Fathers and Neoplatonism
 
-*Mine, partly from the SEP's section on Christianity.*
+*Mine.*
 
 **Contact was close.** The Cappadocians studied in Athens. Augustine read "the books of the Platonists" (Plotinus and Porphyry) and said they brought him close to the Trinity. By 500 the Alexandrian lecture halls were mostly Christian.
 

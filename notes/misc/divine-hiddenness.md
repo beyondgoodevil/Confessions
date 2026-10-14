@@ -4,7 +4,6 @@ date: 2026-10-14
 title: Divine Hiddenness
 tags: [philosophy, apologetics, theology, epistemology]
 summary: If a perfectly loving God exists, why doesn't everyone believe? Schellenberg's argument from nonresistant nonbelief, the arguments from the demographics of belief and from prehistoric nonbelief, the main theistic responses, and the Orthodox answer through purification, freedom and the nous.
-source: "Stanford Encyclopedia of Philosophy, “Hiddenness of God”"
 ---
 
 "Verily thou art a God that hidest thyself" (Isa 45:15). Two senses:
@@ -37,7 +36,7 @@ Later versions (2015 on): premises stated as necessary truths; "culpable" replac
 - Belief is very unevenly spread: nearly universal in Saudi Arabia, rare in Thailand.
 - Individual-level explanations (this person is resisting) don't explain *national* patterns. Culture does.
 - A just God wouldn't treat whole peoples so differently. So naturalism explains the pattern better.
-- Replies: belief depends on testimony and community, so clustering is just as expected on theism (Baker-Hytch); God might allow social "defeaters"; Molinist and Calvinist versions (God placed people where they'd respond as they would anyway). The last two the SEP calls controversial and morally troubling.
+- Replies: belief depends on testimony and community, so clustering is just as expected on theism (Baker-Hytch); God might allow social "defeaters"; Molinist and Calvinist versions (God placed people where they'd respond as they would anyway). The last two are controversial and morally troubling.
 
 **Prehistoric nonbelief** (Marsh 2013)
 

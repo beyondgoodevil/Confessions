@@ -4,7 +4,6 @@ date: 2026-10-14
 title: Apophatic and Cataphatic Theology
 tags: [theology, epistemology, patristics]
 summary: Speaking of God by negation and by affirmation, and why the Orthodox tradition leans on the first without dropping the second. Scripture, the Fathers (Gregory of Nyssa, Dionysius, John of Damascus, Maximus, Palamas), what apophaticism is not, and how it compares with the West.
-source: "OrthodoxWiki, “Apophatic theology” and “Cataphatic theology”"
 ---
 
 Two ways of speaking about God:
@@ -23,7 +22,7 @@ The site uses "apophatic" in a dozen notes without ever explaining it. This is t
 - Human words are made for created things. "Good", "wise", "exists" all carry creaturely limits that don't fit God.
 - So the more accurate thing is often to say what God isn't.
 
-OrthodoxWiki's example: "God is everywhere" is, apophatically, too small. God is also beyond creation altogether, and we can't know "every place God is". Even "God exists" needs qualifying: His existence is "altogether different than any existence we can imagine". Dionysius says *hyperousios*, "beyond being". See [[St. Dionysius the Areopagite]], [[Heidegger and the God Beyond Being]].
+An example: "God is everywhere" is, apophatically, too small. God is also beyond creation altogether, and we can't know "every place God is". Even "God exists" needs qualifying: His existence is "altogether different than any existence we can imagine". Dionysius says *hyperousios*, "beyond being". See [[St. Dionysius the Areopagite]], [[Heidegger and the God Beyond Being]].
 
 ## 2. Scripture
 
@@ -51,7 +50,7 @@ Note John 1:18: the same verse that says no one has seen God says the Son has ma
 | **St. John of Damascus** (*Exact Exposition* I.4) | the only thing comprehensible about God is His infinity and incomprehensibility. What we say positively tells us "the things around His nature", not the nature |
 | **St. Gregory Palamas** | God is unknowable in essence and truly known in His uncreated energies. The darkness is the uncreated light |
 
-OrthodoxWiki presents Dionysius as passing on an existing tradition, not inventing it. The table bears that out: Philo, Clement and the Cappadocians are all earlier. (The Philo, Clement, Basil and Palamas rows are mine; the OrthodoxWiki page doesn't cover them.)
+Dionysius was passing on an existing tradition, not inventing it. The table bears that out: Philo, Clement and the Cappadocians are all earlier.
 
 ## 4. How the Two Work Together
 
@@ -80,7 +79,7 @@ The doctrine that holds the two together:
 
 ## 7. East and West
 
-OrthodoxWiki: apophatic statements are crucial in Orthodox theology; in Western theology the opposite tends to hold, with exceptions.
+Apophatic statements are crucial in Orthodox theology; in Western theology the opposite tends to hold, with exceptions.
 
 My notes on that:
 

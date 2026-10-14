@@ -4,10 +4,9 @@ date: 2026-10-14
 title: Personal Identity and the Resurrection
 tags: [philosophy, metaphysics, theology]
 summary: What makes you the same person over time? The psychological view (Locke, memory, fission), the animalist view (Olson), the simple view, temporal parts, Parfit's "identity is not what matters", and the too-many-thinkers problem. Then what each means for the resurrection of the body, and the patristic answer.
-source: "Stanford Encyclopedia of Philosophy, “Personal Identity” (Eric T. Olson)"
 ---
 
-"I believe in the resurrection of the body." For that to be good news, the one raised has to be *me*, not a copy. So: what makes someone the same person at two times? Olson's SEP entry is the basis. Sec. 7 is mine.
+"I believe in the resurrection of the body." For that to be good news, the one raised has to be *me*, not a copy. So: what makes someone the same person at two times? Sec. 7 is mine.
 
 ## 1. Several Questions, Not One
 
@@ -29,7 +28,7 @@ Persistence is about **numerical** identity (one and the same), not **qualitativ
 
 Problems:
 
-- **Transitivity** (Reid's brave officer, a version of which is in the entry): the old general remembers being a young officer; the young officer remembered being flogged as a boy; the general doesn't remember the flogging. So general = officer, officer = boy, general ≠ boy. Identity can't work like that.
+- **Transitivity** (Reid's brave officer): the old general remembers being a young officer; the young officer remembered being flogged as a boy; the general doesn't remember the flogging. So general = officer, officer = boy, general ≠ boy. Identity can't work like that.
 - **Circularity** (Butler): to tell a real memory from a false one, you have to know it was *your* experience. Which assumes identity.
 
 Repairs:

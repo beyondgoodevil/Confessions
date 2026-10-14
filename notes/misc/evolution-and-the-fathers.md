@@ -4,7 +4,7 @@ date: 2026-10-14
 title: Evolution and the Fathers
 tags: [theology, philosophy-of-science, the-fall, patristics, scripture]
 summary: How the Fathers read Genesis (literal, allegorical, both), what they said about the days, the age of the earth and "seminal reasons", the main problem for an Orthodox view of evolution (death before the Fall), and the range of modern Orthodox positions from creationist (Seraphim Rose) to theistic evolution.
-source: "OrthodoxWiki, “Evolution”; St. Basil, Hexaemeron; St. Augustine, On the Literal Meaning of Genesis; Fr. Seraphim Rose, Genesis, Creation and Early Man"
+source: "St. Basil, Hexaemeron; St. Augustine, On the Literal Meaning of Genesis; Fr. Seraphim Rose, Genesis, Creation and Early Man"
 aliases: [Orthodoxy and Evolution, Genesis and the Fathers, Death Before the Fall]
 ---
 

@@ -4,10 +4,9 @@ date: 2026-10-14
 title: The Divine Liturgy Explained
 tags: [theology, liturgy, sacraments]
 summary: The Divine Liturgy step by step. The five liturgies and when each is served, the preparation (Proskomedia), the Liturgy of the Catechumens (litanies, Little Entrance, readings), the Liturgy of the Faithful (Great Entrance, Creed, Anaphora, Epiclesis, Communion), with what each part means and where it comes from in Scripture.
-source: "OrthodoxWiki, “Divine Liturgy”"
 ---
 
-The main Sunday service of the Orthodox Church, and the Eucharist. Three parts: a preparation done by the priest, then the **Liturgy of the Catechumens** (the Word) and the **Liturgy of the Faithful** (the Eucharist). Outline from OrthodoxWiki; the meanings and Scripture references are partly mine, from the standard commentaries (St. Nicholas Cabasilas, St. Germanus).
+The main Sunday service of the Orthodox Church, and the Eucharist. Three parts: a preparation done by the priest, then the **Liturgy of the Catechumens** (the Word) and the **Liturgy of the Faithful** (the Eucharist). Meanings and Scripture references partly mine, from the standard commentaries (St. Nicholas Cabasilas, St. Germanus).
 
 ## 1. The Five Liturgies
 

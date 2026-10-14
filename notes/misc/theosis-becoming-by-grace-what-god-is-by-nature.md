@@ -4,7 +4,6 @@ date: 2026-10-14
 title: "Theosis: Becoming by Grace What God Is by Nature"
 tags: [theology, theosis, salvation, patristics]
 summary: The overview page for theosis. What it is and isn't, the scriptural basis, the three stages (purification, illumination, glorification), essence and energies, how it differs from Western sanctification and from Mormon exaltation, and the practices it runs through.
-source: "OrthodoxWiki, “Theosis”; plus the notes linked below"
 ---
 
 The site has verse notes and a list of Fathers on deification but no main page. This is it. **Theosis** (θέωσις), "deification", also *theopoiesis*: being freed from sin and united with God, beginning now and completed in the resurrection. For the Orthodox this isn't one doctrine among others. It *is* salvation.
@@ -40,7 +39,7 @@ The site has verse notes and a list of Fathers on deification but no main page. 
 
 ## 4. Three Stages
 
-This scheme isn't in the OrthodoxWiki article. It's the classic patristic one (Dionysius, Maximus, the Philokalia), and modern writers like Romanides and Met. Hierotheos Vlachos make it central.
+This is the classic patristic scheme (Dionysius, Maximus, the Philokalia), and modern writers like Romanides and Met. Hierotheos Vlachos make it central.
 
 | Stage | Greek | What happens | Mainly through |
 |---|---|---|---|

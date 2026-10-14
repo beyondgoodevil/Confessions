@@ -4,7 +4,7 @@ date: 2026-10-14
 title: Ancestral Sin vs Original Sin
 tags: [theology, the-fall, salvation, patristics, scripture]
 summary: What we inherit from Adam. The Augustinian doctrine (inherited guilt) and the Orthodox one (inherited death and corruption, not guilt), the Romans 5:12 "in whom all sinned" translation problem, what the Greek Fathers said, the consequences (infant baptism, the Immaculate Conception, the atonement), and the usual objections.
-source: "OrthodoxWiki, “Ancestral sin”; Romans 5; Fr. John Romanides, The Ancestral Sin"
+source: "Romans 5; Fr. John Romanides, The Ancestral Sin"
 aliases: [Ancestral Sin, Original Sin, Romans 5:12, Eph' ho]
 ---
 

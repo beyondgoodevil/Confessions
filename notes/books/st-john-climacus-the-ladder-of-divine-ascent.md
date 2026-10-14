@@ -5,7 +5,7 @@ title: "St. John Climacus: The Ladder of Divine Ascent"
 tags: [theology, patristics, theosis]
 summary: The Sinai abbot and his 30-step ladder from renunciation of the world to love. Life, structure, all 30 steps grouped, key teachings (repentance, mourning, remembrance of death, discernment, stillness, dispassion), and why it is read in Lent.
 author: St. John Climacus
-source: "OrthodoxWiki, “John Climacus”; The Ladder of Divine Ascent"
+source: "The Ladder of Divine Ascent"
 aliases: [The Ladder of Divine Ascent, The Ladder, St. John Climacus, John Climacus]
 ---
 
@@ -15,7 +15,7 @@ The most read book in Orthodoxy after the Bible and the service books. Read in m
 
 - **St. John Climacus** ("of the Ladder"), also John Scholasticus, John of Sinai. c. 579 – c. 649.
 - Became a monk at St. Catherine's monastery, **Mount Sinai**, at about 16.
-- Later lived for decades as a hermit nearby (from the traditional *Life*; OrthodoxWiki doesn't mention it).
+- Later lived for decades as a hermit nearby (from the traditional *Life*).
 - At the end of his life, abbot of Sinai. Wrote the *Ladder* at the request of John, abbot of nearby Raithu.
 - Also wrote ***To the Shepherd***: a short appendix on how an abbot should guide others.
 - Feast **March 30**; and the **4th Sunday of Great Lent**.
@@ -29,7 +29,7 @@ The most read book in Orthodoxy after the Bible and the service books. Read in m
 
 ## 3. The 30 Steps
 
-(The OrthodoxWiki page doesn't list them; titles from the standard English translations, wording varies.)
+(Titles from the standard English translations; wording varies.)
 
 **Breaking with the world (1–3)**
 

@@ -4,7 +4,7 @@ date: 2026-10-14
 title: Hume on Causation and Induction
 tags: [philosophy, epistemology, metaphysics, philosophy-of-science]
 summary: Hume's empiricism (impressions and ideas, relations of ideas vs matters of fact), his analysis of causation (no necessary connection is ever perceived; it is constant conjunction plus habit), the problem of induction and why it can't be answered without circularity, the main replies (Kant, Reid, Popper, Bayesians, Aristotelians), and what it means for natural theology.
-source: "Hume, Enquiry Concerning Human Understanding (1748) §§2-7; Treatise of Human Nature (1739) 1.3; SEP, “David Hume”"
+source: "Hume, Enquiry Concerning Human Understanding (1748) §§2-7; Treatise of Human Nature (1739) 1.3"
 aliases: [Hume, Problem of Induction, Constant Conjunction, Hume's Fork]
 ---
 

@@ -4,7 +4,6 @@ date: 2026-10-14
 title: "Virtue Ethics: Aristotle and the Fathers"
 tags: [philosophy, ethics, theology, aristotle]
 summary: Ethics built on character, not rules or outcomes. Aristotle's arete, eudaimonia, phronesis and the mean; the 20th-century revival (Anscombe, MacIntyre, Foot); how it differs from Kant and Mill; the standard objections; and how the Fathers took it over and changed it (theosis as the goal, grace, the passions).
-source: "Internet Encyclopedia of Philosophy, “Virtue Ethics”; Stanford Encyclopedia of Philosophy, “Virtue Ethics”"
 ---
 
 Three ways to do ethics:
