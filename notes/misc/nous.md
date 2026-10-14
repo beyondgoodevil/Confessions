@@ -4,10 +4,7 @@ date: 2026-07-02
 title: Nous
 tags: [theology, theosis, epistemology]
 summary: The nous as the eye of the soul in Orthodox Christianity.
-source: Wikipedia, "Nous" (section on Eastern Orthodox Christianity)
 ---
-
-The image is a screenshot of the Wikipedia article on **Nous**. This note summarises that passage rather than copying it.
 
 ## What the nous is
 
