@@ -23,3 +23,4 @@ Saint Maximus the Confessor emphasized the omnipresence of the Holy Spirit while
 - [[God's Uncreated Energies]]
 - [[Jesus Promises That the Holy Spirit Will Guide the Church]]
 - [[St. Maximus on the Two Wills in Christ]]
+- [[The Holy Spirit in Orthodox Theology]]

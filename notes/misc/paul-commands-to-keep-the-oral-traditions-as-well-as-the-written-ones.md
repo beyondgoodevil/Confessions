@@ -29,3 +29,4 @@ In this passage, Paul praises the Corinthians for **maintaining the traditions**
 - [[Jeremiah 17:9 + 7:24: Corruption of Faith Due to Human Opinion]]
 - [[John 21:20-25: And There Are Also Many Other Things That Jesus Did, Which If They Were Written One by One, I Suppose That Even the World Itself Could Not Contain the Books That Would Be Written]]
 - [[The Basis for the Eastern Orthodox (EO) Belief]]
+- [[Sola Scriptura: The Main Arguments and Replies]]

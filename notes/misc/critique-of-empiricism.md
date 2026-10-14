@@ -34,3 +34,5 @@ Sense data provide a limited and contingent form of knowledge, but they cannot a
 - [[Is Ought]]
 - [[The Underdetermination of Data Thesis in the Context of Evolution]]
 - [[The Problem of Universals: Realism vs Nominalism]]
+- [[Hume on Causation and Induction]]
+- [[The Argument from Reason]]

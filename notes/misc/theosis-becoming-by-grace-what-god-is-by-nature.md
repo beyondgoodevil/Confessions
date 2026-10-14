@@ -114,3 +114,5 @@ Without the distinction you're stuck with two bad options: theosis is a metaphor
 - [[Repentance as Metanoia: A Change of Mind, Not a Payment]]
 - [[St. John Climacus: The Ladder of Divine Ascent]]
 - [[Apophatic and Cataphatic Theology]]
+- [[Vladimir Lossky: The Mystical Theology of the Eastern Church]]
+- [[The Holy Spirit in Orthodox Theology]]

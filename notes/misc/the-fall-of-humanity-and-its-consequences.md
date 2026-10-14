@@ -64,3 +64,5 @@ summary: Eight passages on the Fall, sin, death and separation from God.
 - [[Jeremiah 17:9 + 7:24: Corruption of Faith Due to Human Opinion]]
 - [[Romans 8:18-24: Creation Corruption]]
 - [[The Problem of Evil and Theodicy]]
+- [[Ancestral Sin vs Original Sin]]
+- [[Evolution and the Fathers]]

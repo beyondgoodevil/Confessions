@@ -108,3 +108,4 @@ My notes on that:
 - [[Anthropomorphic Language in the Context of God and the Bible]]
 - [[St. Gregory of Nyssa's Writings Against Eunomius]]
 - [[Natural Theology: Is It Legitimate]]
+- [[Vladimir Lossky: The Mystical Theology of the Eastern Church]]

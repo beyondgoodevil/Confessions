@@ -24,3 +24,5 @@ In summary, the is-ought distinction emphasizes the difficulty, if not the impos
 - [[It Is Impossible to Have a Coherent Worldview Without Objective Truths]]
 - [[First-Order and Second-Order Questions]]
 - [[The Euthyphro Dilemma and the Orthodox Answer]]
+- [[The Moral Argument for God]]
+- [[Hume on Causation and Induction]]

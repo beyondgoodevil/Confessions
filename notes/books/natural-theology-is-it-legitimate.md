@@ -151,3 +151,5 @@ The existing note [[Why Is the Transcendental Argument Prior to the Teleological
 - [[Mysticism Does Not Contradict Evidentialism or Evidence]]
 - [[Mind and Body: Dualism, Materialism, Emergence]]
 - [[Nous]]
+- [[The Argument from Reason]]
+- [[The Moral Argument for God]]

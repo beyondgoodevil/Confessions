@@ -96,3 +96,4 @@ Symbolism: Bethlehem. The table is the manger; the star is placed over the Lamb.
 - [[Apophatic and Cataphatic Theology]]
 - [[Theosis: Becoming by Grace What God Is by Nature]]
 - [[Beauty as a Way to God]]
+- [[Fr. Alexander Schmemann: For the Life of the World]]

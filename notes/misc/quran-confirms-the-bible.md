@@ -88,3 +88,4 @@ summary: An argument from the Qur'an's own verses that it confirms the Bible and
 - [[Bible History]]
 - [[Canon of the Bible: Its History]]
 - [[Comparison of Worldviews]]
+- [[Islam's View of Jesus vs the Gospels]]

@@ -147,3 +147,4 @@ Sullivan and Menssen's phrase for the options is whether Hume's essay is an "abj
 - [[Why Only the Orthodox Paradigm Can Account for Knowledge]]
 - [[What Is a Worldview or Paradigm]]
 - [[Critique of Empiricism]]
+- [[Hume on Causation and Induction]]

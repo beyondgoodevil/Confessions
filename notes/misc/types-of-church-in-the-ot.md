@@ -35,3 +35,4 @@ summary: Nine Old Testament types of the Church, from Eve to the Tabernacle.
 - [[The Twelve Tribes of Israel]]
 - [[Galatians 6:15-16: The Church Is the Israel of God]]
 - [[Ephesians 2: The World Was Created for the Church]]
+- [[The Temple and Its Fulfilment]]

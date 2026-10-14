@@ -24,3 +24,4 @@ In sum, evolutionary theory operates as a paradigm because it doesn’t just exp
 - [[Comparison of Worldviews]]
 - [[Being Made in the Image of God]]
 - [[10 Scientific Scandals]]
+- [[Evolution and the Fathers]]

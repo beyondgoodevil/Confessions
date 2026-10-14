@@ -33,3 +33,4 @@ By the late 4th century, the canon of the Bible was largely established, with th
 - [[How the Gospel of Matthew Became Canon]]
 - [[Moses Wrote the Torah 1300 - 1500 BC]]
 - [[Quran Confirms the Bible]]
+- [[Sola Scriptura: The Main Arguments and Replies]]

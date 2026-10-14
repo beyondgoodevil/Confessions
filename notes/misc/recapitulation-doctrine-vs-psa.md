@@ -23,3 +23,5 @@ summary: Penal substitution and recapitulation compared on Trinitarian unity, mo
 - [[Penal Substitution Leads to Nestorianism]]
 - [[Reformer That Believed That the Father Damned the Son]]
 - [[Why Jesus' Death and Resurrection Had to Be So Violent]]
+- [[Ancestral Sin vs Original Sin]]
+- [[The Descent into Hades]]

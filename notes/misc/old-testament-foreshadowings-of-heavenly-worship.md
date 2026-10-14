@@ -69,3 +69,4 @@ In this way, the Eastern Orthodox Church sees itself as fulfilling and continuin
 - [[The Melchizedekian Priesthood]]
 - [[Icons in the OT]]
 - [[The Eucharist in Type and Fulfilment]]
+- [[The Temple and Its Fulfilment]]
