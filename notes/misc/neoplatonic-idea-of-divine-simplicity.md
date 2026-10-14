@@ -28,3 +28,4 @@ In summary, the Neoplatonic idea of divine simplicity centers on the concept of 
 - [[Emergence of Magic and Neoplatonism in the Renaissance]]
 - [[Essence-Energies Distinction]]
 - [[Thomism and the Originist Problematic]]
+- [[Divine Simplicity: Western and Orthodox Views]]

@@ -1,5 +1,5 @@
 ---
-id: M-0324
+id: B-0027
 date: 2026-10-14
 title: St. Dionysius the Areopagite
 tags: [theology, patristics, neoplatonism, philosophy]
@@ -147,3 +147,4 @@ The word "hierarchy" is his coinage. It means a sacred order through which light
 - [[The Problem of Evil and Theodicy]]
 - [[Neoplatonic Idea of Divine Simplicity]]
 - [[Divine Illumination]]
+- [[Apophatic and Cataphatic Theology]]

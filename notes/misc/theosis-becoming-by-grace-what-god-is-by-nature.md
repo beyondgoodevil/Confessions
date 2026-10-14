@@ -112,3 +112,5 @@ Without the distinction you're stuck with two bad options: theosis is a metaphor
 - [[Nous]]
 - [[The Logoi of Creation in St. Maximus]]
 - [[Repentance as Metanoia: A Change of Mind, Not a Payment]]
+- [[St. John Climacus: The Ladder of Divine Ascent]]
+- [[Apophatic and Cataphatic Theology]]

@@ -127,3 +127,4 @@ The classical **cardinal** virtues (prudence, justice, courage, temperance) and 
 - [[Virtue Ethics: Aristotle and the Fathers]]
 - [[Nous]]
 - [[Synergy: Grace and Free Will]]
+- [[St. John Climacus: The Ladder of Divine Ascent]]

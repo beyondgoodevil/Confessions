@@ -118,3 +118,4 @@ Thought: the Palamite controversy looks like an argument about monks' prayer tec
 - [[Nine Ecumenical Councils and Their Decisions]]
 - [[2 Peter 1:3-4: Theosis]]
 - [[9 Ecumenical Councils]]
+- [[St. John Climacus: The Ladder of Divine Ascent]]

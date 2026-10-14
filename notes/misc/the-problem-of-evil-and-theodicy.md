@@ -79,3 +79,4 @@ Possible comeback: the atheist can run it as an internal critique ("on *your* vi
 - [[St. Athanasius, On the Incarnation: Main Argument]]
 - [[Free Will and Divine Foreknowledge]]
 - [[Synergy: Grace and Free Will]]
+- [[Divine Hiddenness]]
