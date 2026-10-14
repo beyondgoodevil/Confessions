@@ -58,3 +58,4 @@ The river of fire is the uncreated glory of God, flowing from His throne at the 
 - [[Penal Substitution Leads to Nestorianism]]
 - [[Repentance as Metanoia: A Change of Mind, Not a Payment]]
 - [[Image and Likeness]]
+- [[St. Gregory of Nyssa: On the Soul and the Resurrection]]

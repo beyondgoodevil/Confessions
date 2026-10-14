@@ -33,3 +33,4 @@ summary: Ten biblical cases of sacred images and material things used by God.
 - [[Icons in the OT]]
 - [[Iconoclast Emperors]]
 - [[Saint Jerome Against Anti-Relics Heresies]]
+- [[Leonid Ouspensky: Theology of the Icon]]

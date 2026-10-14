@@ -55,3 +55,4 @@ summary: Seven New Testament passages on the resurrection of believers.
 - [[Verses: The Way We Live Our Lives Is Deeply Connected to Our Experience of the Afterlife]]
 - [[Romans 8:18-24: Creation Corruption]]
 - [[The Descent into Hades]]
+- [[The Case for the Resurrection of Jesus]]

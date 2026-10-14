@@ -105,3 +105,5 @@ Three defences:
 - [[Criterion Problem]]
 - [[Why Only the Orthodox Paradigm Can Account for Knowledge]]
 - [[Divine Hiddenness]]
+- [[Alvin Plantinga: Warranted Christian Belief]]
+- [[Richard Swinburne: Is There a God?]]

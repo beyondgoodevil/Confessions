@@ -119,3 +119,4 @@ So the patristic answer is roughly: **the simple view, with a soul that is the f
 - [[The Logoi of Creation in St. Maximus]]
 - [[Image and Likeness]]
 - [[Theosis: Becoming by Grace What God Is by Nature]]
+- [[St. Gregory of Nyssa: On the Soul and the Resurrection]]

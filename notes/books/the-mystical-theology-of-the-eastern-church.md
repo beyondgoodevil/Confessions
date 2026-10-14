@@ -133,3 +133,4 @@ Written in Paris (French 1944, English 1957). Probably the most influential 20th
 - [[Theosis: Becoming by Grace What God Is by Nature]]
 - [[The Holy Spirit in Orthodox Theology]]
 - [[Fr. Alexander Schmemann: For the Life of the World]]
+- [[John Zizioulas: Being as Communion]]

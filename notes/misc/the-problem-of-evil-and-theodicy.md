@@ -80,3 +80,5 @@ Possible comeback: the atheist can run it as an internal critique ("on *your* vi
 - [[Free Will and Divine Foreknowledge]]
 - [[Synergy: Grace and Free Will]]
 - [[Divine Hiddenness]]
+- [[Eleonore Stump: Wandering in Darkness]]
+- [[Is God a Moral Monster? Copan on the Old Testament]]

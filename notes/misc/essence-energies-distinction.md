@@ -76,3 +76,4 @@ This distinction is not optional; it is **dogmatic**, affirmed by the **Palamite
 - [[Jesus Walking on Water: Eternal Act, Essence-Energy Distinction]]
 - [[The Jesus Prayer and Hesychasm]]
 - [[Vladimir Lossky: The Mystical Theology of the Eastern Church]]
+- [[David Bradshaw: Aristotle East and West]]
