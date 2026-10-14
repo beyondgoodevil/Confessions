@@ -9,7 +9,7 @@ source: "Paul Copan, Is God a Moral Monster? Making Sense of the Old Testament G
 aliases: [Is God a Moral Monster, Copan, Canaanite Conquest, Old Testament Ethics]
 ---
 
-Written against Dawkins's line that the OT God is "arguably the most unpleasant character in all fiction: jealous and proud of it; a petty, unjust, unforgiving control-freak; a vindictive, bloodthirsty ethnic cleanser..." Copan takes the charges one by one. (My PDF of this book is a scan, so this is from my own reading and memory.)
+Written against Dawkins's line that the OT God is "arguably the most unpleasant character in all fiction: jealous and proud of it; a petty, unjust, unforgiving control-freak; a vindictive, bloodthirsty ethnic cleanser..." Copan takes the charges one by one.
 
 ## 1. The Big Picture
 
