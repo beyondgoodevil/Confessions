@@ -68,3 +68,5 @@ Man was created in the image of God, with reason, freedom and dominion, and was 
 - [[Synergy: Grace and Free Will]]
 - [[Repentance as Metanoia: A Change of Mind, Not a Payment]]
 - [[Beauty as a Way to God]]
+- [[Theosis: Becoming by Grace What God Is by Nature]]
+- [[The Virtues and the Eight Passions]]

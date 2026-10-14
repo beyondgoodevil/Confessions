@@ -35,3 +35,5 @@ The image is a screenshot of the Wikipedia article on **Nous**. This note summar
 - [[Essence-Energies Distinction]]
 - [[The Peripatetic Axiom]]
 - [[The Jesus Prayer and Hesychasm]]
+- [[Divine Illumination]]
+- [[Theosis: Becoming by Grace What God Is by Nature]]

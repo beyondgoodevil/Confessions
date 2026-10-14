@@ -139,3 +139,4 @@ So in both doctrines the dogmatic vocabulary (*ousia*, *hypostasis*, *physis*, "
 - [[Aristotle's Early Logic and the Thirteen Fallacies]]
 - [[The Classic Laws of Logic]]
 - [[Mind and Body: Dualism, Materialism, Emergence]]
+- [[Personal Identity and the Resurrection]]
