@@ -101,3 +101,5 @@ Anscombe's point is the same as [[Is Ought]] from the other side.
 - [[The Euthyphro Dilemma and the Orthodox Answer]]
 - [[The Unmoved Mover]]
 - [[Repentance as Metanoia: A Change of Mind, Not a Payment]]
+- [[Aristotle's Politics]]
+- [[Friendship and Love in Ancient and Medieval Thought]]

@@ -136,3 +136,4 @@ Note how 13–23 track the eight passions of Evagrius and Cassian. See [[The Vir
 - [[Theosis: Becoming by Grace What God Is by Nature]]
 - [[Virtue Ethics: Aristotle and the Fathers]]
 - [[Nous]]
+- [[Pierre Hadot: Philosophy as a Way of Life]]

@@ -139,3 +139,4 @@ That last claim is a realist one. Compare the five options in [[Philosophy of Lo
 - [[The Problem of Universals: Realism vs Nominalism]]
 - [[Nietzsche and the Greeks]]
 - [[The Good in Plato]]
+- [[The Presocratics: Being and Becoming]]

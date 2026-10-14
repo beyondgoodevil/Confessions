@@ -143,3 +143,5 @@ Dionysius's ordered ranks and triads clearly come from here. What he drops: the 
 - [[Thomism and the Originist Problematic]]
 - [[Emergence of Magic and Neoplatonism in the Renaissance]]
 - [[Heidegger and the God Beyond Being]]
+- [[Christian Platonism]]
+- [[Pythagoras and the Pythagoreans]]

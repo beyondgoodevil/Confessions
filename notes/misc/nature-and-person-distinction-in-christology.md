@@ -34,3 +34,4 @@ In summary, the **nature** performs the acts corresponding to it (divine acts ar
 - [[St. John of Damascus on Inhypostatisation of the Human Nature of Christ]]
 - [[Usage of the Term Hypostasis in the NT]]
 - [[The Problem of Universals: Realism vs Nominalism]]
+- [[Maximus the Confessor as a European Philosopher]]

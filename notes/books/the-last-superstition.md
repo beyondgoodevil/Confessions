@@ -96,3 +96,5 @@ Very fun attack on the New Atheists. Feser's claim: the "superstition" of the ti
 - [[The Argument from Reason]]
 - [[God as Pure Act: RC vs EO]]
 - [[David Bentley Hart: The Experience of God]]
+- [[Thomistic Metaphysics]]
+- [[Aristotle's Physics: Nature, Change and the Four Causes]]

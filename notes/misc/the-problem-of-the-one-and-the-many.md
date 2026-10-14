@@ -203,3 +203,5 @@ I don't think this argument is as finished as it's usually presented, so listing
 - [[Monad]]
 - [[Logic Before Aristotle]]
 - [[Natural Theology: Is It Legitimate]]
+- [[The Presocratics: Being and Becoming]]
+- [[Maximus the Confessor as a European Philosopher]]

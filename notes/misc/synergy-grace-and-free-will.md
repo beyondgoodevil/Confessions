@@ -107,3 +107,4 @@ Question to chase: how is this different from Arminianism? Looks similar on the 
 - [[The Logoi of Creation in St. Maximus]]
 - [[2 Peter 1:3-4: Theosis]]
 - [[The Problem of Evil and Theodicy]]
+- [[Maximus the Confessor as a European Philosopher]]

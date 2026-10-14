@@ -77,3 +77,5 @@ Compare Hatab's Nietzsche, who starts from exactly the opposite assumption (no m
 - [[Nietzsche and the Greeks]]
 - [[The Ontological Argument]]
 - [[The Problem of the One and the Many]]
+- [[Christian Platonism]]
+- [[Friendship and Love in Ancient and Medieval Thought]]
