@@ -5,7 +5,7 @@ title: "Augustine's Confessions: Memory, Time and the Restless Heart"
 tags: [philosophy, theology, patristics, epistemology]
 summary: Augustine's Confessions book by book. The restless heart, the pear theft, Manichaeism, the Platonists, the garden in Milan, Ostia with Monica; then the philosophical books: memory as the "vast palace" where God is found (X), time as the distension of the soul (XI), and creation and Genesis (XII–XIII). Plus the Orthodox view of Augustine.
 author: St. Augustine of Hippo
-source: "Augustine, Confessions; Augustine on Memory; The Cambridge Companion to Augustine's Confessions"
+source: Augustine, Confessions; Augustine on Memory; The Cambridge Companion to Augustine's Confessions; Augustine, Confessions, trans. F. J. Sheed
 aliases: ["Confessions: Memory, Time and the Restless Heart", Confessions, Augustine's Confessions, Restless Heart, Augustine on Time, Augustine on Memory]
 ---
 
@@ -62,6 +62,85 @@ Starts from "In the beginning God created": what was God doing before He made he
 - The theory of time is still discussed (Husserl and Heidegger build on it).
 - **Augustine and Orthodoxy**: he's a saint in the Orthodox Church (Blessed Augustine; *The Place of Blessed Augustine in the Orthodox Church*, Fr. Seraphim Rose). But the Orthodox reject the later Augustinian doctrines that came to dominate the West: inherited guilt, predestination, the psychological Trinity grounding the Filioque, created grace. See [[Ancestral Sin vs Original Sin]], [[Augustine's Christology: Possible Heresies]], [[Divine Illumination]].
 - The *Confessions* itself is the least controversial part of him: the Orthodox read it as spiritual literature.
+
+## Details from the Text, Book by Book
+
+**Book I**
+- "Since nothing that is could exist without You, You must in some way be in all that is: therefore also in me."
+- His nurses' milk: "it was not my mother or my nurses who stored their breasts for me: it was Yourself, using them".
+- "The innocence of children is in the **helplessness of their bodies** rather than any quality in their minds."
+- Grammar school: everyone can spell "Aeneas" by agreed convention. A man who "drops an h" and says "'uman being" is more despised than one who **hates** a human being: "thus breaking a law of God".
+- "I make no accusation against the words, which are choice and precious vessels, but against the **wine of error** in them, poured out by teachers already drunk with it."
+- Christ commended "the low stature of childhood": **humility**, not innocence.
+
+**Book II**
+- Adolescence: "I did not keep the measure of mind to mind, which is **the luminous line of friendship**; but mists steamed up to cloud my heart so I could not distinguish the white light of love from the fog of lust."
+- His father's sacrifice for his studies was praised, but from "vain ambition"; Monica thought study would help bring him to God.
+- **Fear** "is the recoil from a sudden threat to something one holds dear... but nothing new or sudden can happen to You... where is safety secure save in You?"
+
+**Book III**
+- Theatre: why do we enjoy watching suffering? "When a man suffers himself it is called **misery**; when he suffers in another's suffering it is called **pity**." He wanted sorrows that only "scratched the surface", which became inflamed like fingernail scratches.
+- The "**Overturners**" (*eversores*): students who bullied newcomers.
+- Cicero's *Hortensius*: to love "not this or that school but **Wisdom itself**". But it lacked "the name of Your Son, which my infant heart had drunk in with my mother's milk".
+- Scripture at first seemed crude next to Cicero. The Manichees "cried out 'Truth, truth'... but the thing was nowhere in them". Col 2:8: "beware lest any man cheat you by philosophy."
+- "Every part is defective that is not in harmony with the whole"; acts can seem blameworthy to men and approved by God, depending on the doer's mind.
+
+**Book IV**
+- A woman "not joined to me in lawful marriage". He consulted **astrologers** ("mathematicians") since they offered no sacrifices; they make the stars, not man, guilty of sin.
+- The friend's death: "I had spilt out my soul upon the sand, in loving a mortal man as if he were never to die."
+- "The Word Himself calls you to return; with Him is the place of peace that shall not be broken, where your love will not be forsaken unless it first forsake."
+- His first book, *On the Beautiful and the Fitting*: beauty as what is so of itself, the fitting as what suits another. He couldn't conceive the incorporeal: "because I did not see these things in my mind, I concluded I could not see my mind".
+
+**Book V**
+- The Manichee bishop **Faustus**: charming, but caught in errors about astronomy; Augustine learned "a thing is not true because eloquently said, nor false because badly said".
+- Carthage students rioted; Rome's students cheated teachers of fees by switching masters together; so Milan.
+- He wasn't yet Catholic, but no longer thought the Catholic view indefensible.
+
+**Book VI**
+- He refused to entrust "my sick soul to the philosophers, because they were without the saving name of Christ".
+- Monica on the sea voyage reassured the **sailors** in a storm.
+- Authority of Scripture: "since men had not the strength to discover truth by pure reason, we needed the authority of Holy Writ."
+- The **drunken beggar** in Milan: "he was the happier man": he got wine by wishing luck to all; Augustine by lying got only empty praise.
+- **Alypius**, addicted to gladiator shows.
+- Epicurus would have won "the palm in my judgment" if Augustine hadn't believed in the soul's life after death and judgement.
+
+**Book VII**
+- **Nebridius**'s argument against the Manichees: if the dark power could harm God, God is corruptible; if not, why fight? The Manichees "preferred to hold that Your substance suffered evil than that their own substance committed it".
+- The incorruptible is greater than the corruptible, so God must be incorruptible.
+- **Firminus** and the slave boy born at the same instant with opposite fates: so horoscopes, when right, are right by chance.
+- The **books of the Platonists**, "translated from Greek into Latin", given by "an incredibly conceited man". They said "In the beginning was the Word", but not "He came unto His own, and His own received Him not".
+- Evil as discord: some things seem evil because they don't harmonise with others, but harmonise with yet others and are good in themselves.
+- He then thought of Christ as an excellent man with "more perfect participation in wisdom", not "the very Person of Truth".
+
+**Book VIII**
+- Simplicianus tells the conversion of **Marius Victorinus**, the famous rhetorician with a statue in the Forum, who insisted on professing his faith publicly. "Victory over the enemy is greater when we win from him a man whom he holds more strongly."
+- **Two wills**: like a man who wants to get up but sinks back into a doze. "The first course delighted and convinced my mind, the second delighted my body and held it in bondage." "There are two wills in us because neither is entire."
+- **Ponticianus** tells of St. **Antony** and of two officials converted by reading his *Life*.
+- "Take and read": "a boy's voice or a girl's voice, I do not know, a sort of sing-song".
+
+**Book IX**
+- He resigned his teaching (citing lung trouble) and was baptised with **Alypius** and Adeodatus.
+- Monica as a girl: an old servant kept the girls from drinking water between meals: "now you drink water because you're not allowed wine; when you're mistress of the cellars, you'll despise water but the habit of drinking will remain." Yet Monica developed a secret habit of sipping wine, cured when a maid called her a "wine-bibber".
+- Ostia: "What am I still doing here?" Monica no longer cared to be buried in her own land. Wisdom "simply is, for it is eternal".
+- After her death he went to the **bath** "because I had heard it drives anxiety from the mind": it didn't.
+
+**Book X**
+- Why confess to men? "As if it were they who would cure all that is evil in me." "There is something of man that even the spirit of man in him does not know."
+- He **asks creation**: "I asked the winds... and the whole air answered: 'Anaximenes was wrong; I am not God.' I asked the whole frame of the universe and it answered: 'I am not He, but He made me.'"
+- **Memory**: I distinguish the scent of lilies from violets while smelling nothing; recall joy without being joyful; remember forgetting. Searching for a forgotten **name**, we reject wrong names until the right one comes, which we recognise.
+- Everyone wants the happy life; but "the flesh lusts against the spirit", so they settle for what they can.
+- **Three temptations** (1 John 2:16): **lust of the flesh** (food: "Who is not carried somewhat beyond the necessary?"), **lust of the eyes** (curiosity, "experiments with the body's aid cloaked under the name of learning": we say "see how it sounds" for all the senses), **pride of life** ("the desire to be feared and loved by men for no other reason than the joy I get from it").
+
+**Book XI**
+- "We exist because we were made; we did not exist before we existed to give ourselves existence."
+- God didn't create by words sounding in time, or there'd have been a creature before creation.
+- "What was God doing before?" "I would much rather say '**I don't know**', when I don't, than ridicule someone who asked a profound question."
+- Measuring a line of verse: "*Deus creator omnium*", eight syllables, short and long alternately. "It is not the syllables I measure, for they are now no more, but something which remains engraved in my **memory**." A long future is "a long expectation"; a long past "a long memory".
+
+**Books XII–XIII**
+- Formless matter is "first" not in time, "because the forms of things give rise to time".
+- When interpreters fight ("Moses meant what I think"): "**Why should he not have meant both, if both are true**... why should we not believe that Moses saw them all?"
+- "I call Thee into my soul, which Thou dost make ready to receive Thee by the desire Thou dost inspire in it."
 
 ## Related
 
