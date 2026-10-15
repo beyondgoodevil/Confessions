@@ -25,7 +25,7 @@ To understand how the three Persons are one God, we must distinguish between nat
     - Property: **procession** (*ekporeusis*): from the Father, by procession.
     - Ware: the Spirit is "God within us", the Son "God with us", the Father "God above or beyond us". The Spirit shows us the Son, the Son sends the Spirit. Distinguish the Spirit's **eternal procession** (from the Father alone) from His **temporal mission** (sent by the Son).
     - On the *filioque*: added to the Creed without the East's consent, and making the Son a source too "risks confusing the distinctive characteristics of the persons" (Ware).
-    - The objection Gregory faces in *Or.* 31.7–9 is that a Spirit from the Father would be a second Son. Beeley notes that Augustine shared that assumption (that begetting and procession don't differ enough), which is part of why he grounded the Spirit's distinctness differently.
+    - The objection Gregory faces in *Or.* 31.7–9 is that a Spirit from the Father would be a second Son. Beeley notes that Augustine, though firmly Nicene, shared that assumption: that the difference between begetting and procession doesn't by itself stop the Spirit being a second Son.
 
 This distinction of Persons does not divide the divine nature, because each Person fully possesses the one, undivided divine essence. Their unity is not an abstract unity of essence but a real communion of life and love, rooted in the Father as the unoriginate source. Thus, God is one because there is only one divine nature, yet He is three because there are three distinct hypostases who exist in an eternal communion of love and will.
 
