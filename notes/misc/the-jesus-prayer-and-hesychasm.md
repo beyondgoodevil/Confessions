@@ -1,10 +1,10 @@
 ---
 id: M-0013
 date: 2026-02-04
+source: "Igumen Chariton of Valamo, The Art of Prayer: An Orthodox Anthology, ed. Kallistos Ware; Kallistos Ware, The Jesus Prayer; St. Gregory Palamas, The Triads"
 title: The Jesus Prayer and Hesychasm
 tags: [theology, theosis, prayer]
 summary: The prayer and where it comes from in Scripture, the hesychast line from the Desert Fathers to Palamas and the Philokalia, terms, practice and the usual warnings.
-source: "Igumen Chariton of Valamo, The Art of Prayer: An Orthodox Anthology, ed. Kallistos Ware; Simon Barrington-Ward, The Jesus Prayer; St. Gregory Palamas, The Triads"
 ---
 
 **Hesychasm**: from *hesychia*, stillness. The Orthodox tradition of inner prayer and watchfulness, aiming at constant remembrance of God. The **Jesus Prayer** is at the centre of it.
@@ -108,7 +108,7 @@ From St. Theophan the Recluse and others:
 
 Thought: the Palamite controversy looks like an argument about monks' prayer technique, but it's really about whether God can be *participated in* at all. That's why three councils dealt with it.
 
-## From The Art of Prayer (St. Theophan the Recluse and others)
+## 9. From The Art of Prayer (St. Theophan the Recluse and others)
 
 Mostly 19th-century Russian teaching, especially **St. Theophan the Recluse** and **St. Ignatius Brianchaninov**, collected by Igumen Chariton.
 
@@ -119,7 +119,7 @@ Mostly 19th-century Russian teaching, especially **St. Theophan the Recluse** an
 - **Humility** above methods: "prayer is God's gift; ask for it and it will be given."
 - **Self-acting prayer** comes as a gift after long labour; it can't be produced by technique.
 
-## The Four Strands (Barrington-Ward)
+## 10. The Four Strands (Barrington-Ward)
 
 An Anglican bishop who learned the prayer from Orthodox teachers. He describes it as weaving four strands:
 1. **"Lord Jesus Christ"**: worship, adoration
@@ -129,7 +129,7 @@ An Anglican bishop who learned the prayer from Orthodox teachers. He describes i
 
 And it includes the **Trinity**: to the Son, as "Son of God" (the Father), in the Spirit ("no man can say that Jesus is the Lord, but by the Holy Ghost", 1 Cor 12:3).
 
-## The Triads in More Detail
+## 11. The Triads in More Detail
 
 Palamas's *Triads in Defence of the Holy Hesychasts* (c. 1338–41), three sets of three treatises against Barlaam:
 
@@ -155,6 +155,6 @@ Key points:
 - [[Nine Ecumenical Councils and Their Decisions]]
 - [[2 Peter 1:3-4: Theosis]]
 - [[9 Ecumenical Councils]]
-- [[The Ladder of Divine Ascent]]
+- [[St. John Climacus: The Ladder of Divine Ascent]]
 - [[The Name of God]]
-- [[Philosophy as a Way of Life]]
+- [[Pierre Hadot: Philosophy as a Way of Life]]
