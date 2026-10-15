@@ -4,7 +4,7 @@ date: 2026-05-01
 title: Is Ought
 tags: [philosophy, ethics]
 summary: Hume's is-ought distinction in four points; then Hume's actual text, G. E. Moore's naturalistic fallacy, the replies (MacIntyre and functional concepts, Searle's promising, Foot's natural goodness, Korsgaard on normativity), and the classical/theistic answer.
-source: "Alasdair MacIntyre, A Short History of Ethics ch. 13–14, 18; Christine M. Korsgaard, The Sources of Normativity (Cambridge, 1996); Mortimer J. Adler, Ten Philosophical Mistakes ch. 5; Hume, Treatise of Human Nature 3.1.1"
+source: "Alasdair MacIntyre, A Short History of Ethics ch. 8, 12, 18; Christine M. Korsgaard, The Sources of Normativity (Cambridge, 1996); Mortimer J. Adler, Ten Philosophical Mistakes ch. 5; Hume, Treatise of Human Nature 3.1.1"
 ---
 
 The is-ought distinction refers to the idea that one cannot logically derive what ought to be (prescriptive statements about what is morally right or wrong, desirable, or recommended) from what is (descriptive statements about the way things actually are). This concept was famously introduced by the philosopher David Hume in his *A Treatise of Human Nature* (1738), where he pointed out that many moral philosophers make a leap from describing the world (what is) to prescribing what should be done (what ought to be), without providing a proper logical justification for such a move.
