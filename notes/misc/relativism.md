@@ -20,20 +20,17 @@ Relativism is wrong because it undermines logic and truth itself. If all truths 
 
 Descriptive cultural relativism is just observation. The others are philosophical claims, and they don't follow from it.
 
-## Protagoras and Plato
+- **Truth relativism**, the classic statement (Protagoras): "**Man is the measure of all things**, of things that are, that they are, and of things that are not, that they are not." What seems so to each person is so for them.
+- **Moral relativism**, the common version: what Williams calls "**vulgar relativism**", "possibly the most absurd view to have been advanced even in moral philosophy". It has three parts:
+    1. "right" means "right for a given society"
+    2. "right for a given society" means what's functionally useful for it
+    3. **therefore** it's wrong for one society to condemn or interfere with another's values
 
-- Protagoras: "**Man is the measure of all things**, of things that are, that they are, and of things that are not, that they are not." What seems so to each person is so for them.
-- Plato's reply, *Theaetetus* 170–171 (the *peritropē*, "turning around"): most people think Protagoras is **wrong**. If what seems true to each is true for them, then Protagoras's theory is false for most people; and Protagoras must admit his opponents are right. So it refutes itself.
+## How It Refutes Itself
+
+- Plato's reply to Protagoras, *Theaetetus* 170–171 (the *peritropē*, "turning around"): most people think Protagoras is **wrong**. If what seems true to each is true for them, then Protagoras's theory is false for most people; and Protagoras must admit his opponents are right. So it refutes itself.
 - Also: if every judgement is equally true, no one is wiser than anyone else, and Protagoras has no business being paid as a teacher.
-
-## Williams on "Vulgar Relativism"
-
-Williams calls the common version "possibly the most absurd view to have been advanced even in moral philosophy". It has three parts:
-1. "right" means "right for a given society"
-2. "right for a given society" means what's functionally useful for it
-3. **therefore** it's wrong for one society to condemn or interfere with another's values
-
-The problem: (3) uses "wrong" in a **non-relative**, universal sense, which (1) says doesn't exist. Tolerance is offered as a universal moral rule by a theory that denies universal moral rules.
+- Vulgar relativism (Williams): (3) uses "wrong" in a **non-relative**, universal sense, which (1) says doesn't exist. Tolerance is offered as a universal moral rule by a theory that denies universal moral rules.
 
 ## Arguments For, and Replies
 
@@ -44,9 +41,7 @@ The problem: (3) uses "wrong" in a **non-relative**, universal sense, which (1) 
 | **Humility**: who are we to judge? | relativism doesn't make us humble; it makes reform impossible. Abolitionists, reformers and martyrs were "wrong" by their society's standards |
 | **Cultural conditioning**: our beliefs come from our culture | the **genetic fallacy**: where a belief comes from doesn't decide whether it's true. And the claim applies to relativism too |
 
-## Adler's Diagnosis
-
-*Ten Philosophical Mistakes*: modern relativism comes from confusing **knowledge** with **opinion** and from the empiricist idea that the mind knows only its own ideas, not things (Locke). If we only know our ideas, each person's world is their own. The cure is realism: the mind knows **things**. See [[Critique of Empiricism]].
+**The root mistake** (Adler, *Ten Philosophical Mistakes*): modern relativism comes from confusing **knowledge** with **opinion** and from the empiricist idea that the mind knows only its own ideas, not things (Locke). If we only know our ideas, each person's world is their own. The cure is realism: the mind knows **things**. See [[Critique of Empiricism]].
 
 ## What Is Right in It
 

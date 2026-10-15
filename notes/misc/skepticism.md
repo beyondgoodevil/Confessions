@@ -21,6 +21,8 @@ There are different types of skepticism, such as:
 1. **Self-Defeating Argument**: If skepticism is correct and we cannot know anything, then the skeptic’s statement itself—that "we cannot know anything"—would also be unknowable. This leads to a **self-defeating** position: if we cannot know anything, then we cannot even know that we can't know anything, which undermines the very foundation of the skeptical claim.
 2. **Impossibility of Knowledge**: Skepticism, especially in its extreme forms, leads to the conclusion that knowledge is impossible. If we cannot know anything with certainty, then all beliefs, including skepticism itself, are subject to doubt. This paradoxical conclusion suggests that adopting skepticism as a philosophy undermines the possibility of any coherent knowledge, making it a **logical contradiction**.
 
+Critics ancient and modern have pressed this charge. The Pyrrhonist dodge is the best answer to it: they claim not to **believe** skepticism, only to find themselves suspending judgement (see Ancient Skepticism below).
+
 ## Ancient Skepticism
 
 | | **Pyrrhonian** (Pyrrho, Sextus Empiricus) | **Academic** (Arcesilaus, Carneades: Plato's Academy) |
@@ -30,18 +32,14 @@ There are different types of skepticism, such as:
 | method | set equal arguments against each other (*isostheneia*) | criticise the Stoic criterion of truth |
 | reply to "you assert skepticism" | Pyrrhonists don't assert anything; they report how things seem | Academics do seem to assert one thing |
 
-The Pyrrhonist dodge is the best answer to the self-refutation charge: they claim not to **believe** skepticism, only to find themselves suspending judgement.
+## Skeptical Arguments
 
-## Agrippa's Trilemma
-
-Any belief needs a reason. That reason needs a reason. So either:
+**Agrippa's trilemma**: Any belief needs a reason. That reason needs a reason. So either:
 1. **infinite regress**: reasons go on forever
 2. **circularity**: eventually a reason depends on the belief itself
 3. **dogmatic stopping point**: an unjustified starting point
 
 All three seem unsatisfactory. This is the root of **foundationalism** (option 3, with self-evident foundations), **coherentism** (a kind of 2) and **infinitism** (1). See [[Criterion Problem]].
-
-## Modern Skeptical Arguments
 
 **Descartes's dreaming argument**: I can't tell for sure I'm not dreaming; so I can't know I'm sitting here. **Evil demon**: even maths could be a deception. See [[Descartes: The Cogito and Mind-Body Dualism]].
 
@@ -54,10 +52,11 @@ All three seem unsatisfactory. This is the root of **foundationalism** (option 3
 
 ## Answers
 
+Besides the self-refutation charge (the reductio above):
+
 | Answer | Who | Idea |
 |---|---|---|
-| **Self-refutation** | ancient and modern | "we can't know anything" is a knowledge claim. (The Pyrrhonist sidestep, above) |
-| **Moorean** | G. E. Moore | "here is one hand." I'm more certain I have hands than of any premise in the skeptic's argument. So reject premise 2 |
+| **Moorean** | G. E. Moore | "here is one hand." I'm more certain I have hands than of any premise in the skeptic's argument. So reject premise 2 of the brain-in-a-vat argument |
 | **Externalism** | reliabilists, Plantinga | knowledge doesn't require being able to **prove** you know; it requires that your belief actually be reliably formed. If I'm not a brain in a vat, I know I have hands, even if I can't prove it |
 | **Contextualism** | DeRose, Lewis | "know" has higher standards in the philosophy room than in ordinary life. Both "I know" and "I don't know" can be true in different contexts |
 | **Semantic externalism** | Putnam | a real brain in a vat couldn't even think "I am a brain in a vat", since its word "vat" refers to vat-images. So the hypothesis is self-refuting |

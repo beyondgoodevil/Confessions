@@ -14,16 +14,13 @@ This shows that **Rome** and **Alexandria** are granted significant authority in
 
 This canon set the precedent for how authority was distributed among the early bishops, highlighting the balance between respect for prominent sees and the shared responsibility among all bishops.
 
-## Context of the Canon
+## Context and Versions of the Canon
 
 - The immediate issue was **Melitius of Lycopolis**, who had been ordaining bishops in Egypt without Alexandria's approval (the Melitian schism). The canon confirms Alexandria's **regional** authority over Egypt, Libya and Pentapolis.
 - Then it adds: "**Likewise in Antioch and the other provinces**, let the churches retain their privileges." So three great sees (Rome, Alexandria, Antioch) are named, each with an area.
 - What Rome's area was, the canon doesn't say. **Rufinus's** Latin version (c. 400) limits it to the "suburbicarian" churches (central and southern Italy).
-- Canon 7 adds honour for **Jerusalem** ("Aelia"), while keeping it under Caesarea.
-
-## The Roman Version
-
 - At the Council of Chalcedon (451), the papal legate Paschasinus read a Latin version of Canon 6 beginning "**The Roman Church has always had the primacy**". The Greek text, read alongside, didn't contain it. Siecienski: an interpolation that Rome used in good faith but which the council didn't accept.
+- Canon 7 adds honour for **Jerusalem** ("Aelia"), while keeping it under Caesarea.
 
 ## Pentarchy
 

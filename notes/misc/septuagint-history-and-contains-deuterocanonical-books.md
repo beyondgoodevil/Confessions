@@ -10,7 +10,10 @@ source: Eugen J. Pentiuc, The Old Testament in Eastern Orthodox Tradition (Oxfor
 ## 1. Septuagint (LXX)
 
 - **Date:** 3rd-2nd centuries BCE.
+    - Historically: the Torah was translated in Alexandria in the 3rd c. BC for Greek-speaking Jews; the rest over the next two centuries, by different translators, of varying literalness.
 - **Origin:** Greek-speaking Jewish communities, primarily in Alexandria, Egypt.
+    - **Letter of Aristeas** (2nd c. BC): Ptolemy II Philadelphus (285–246 BC) asked for a translation of the Jewish Law for the Library of Alexandria; **72 elders** (six from each tribe) translated the **Torah** in 72 days on the island of Pharos. Hence "the Seventy" (LXX).
+    - Philo adds that they all independently produced **identical** translations: a sign of inspiration.
 - **Contents:** The Septuagint includes the Hebrew Scriptures and the Deuterocanonical books (which are not part of the Hebrew Bible canon today), such as:
     - Tobit
     - Judith
@@ -20,12 +23,19 @@ source: Eugen J. Pentiuc, The Old Testament in Eastern Orthodox Tradition (Oxfor
     - 1 and 2 Maccabees
     - Additions to Daniel (e.g., Susanna, Bel and the Dragon)
     - Additions to Esther.
+- **The Bible of the Apostles** (Pentiuc): most OT quotations in the NT follow the LXX. Some arguments depend on its wording:
+    - Isa 7:14 LXX: "**a virgin** (*parthenos*) shall conceive" (Hebrew *almah*, "young woman"). Matt 1:23 quotes the LXX.
+    - Heb 10:5 quotes Ps 40:6 LXX: "**a body** hast thou prepared me" (Hebrew: "mine ears hast thou opened").
+    - Acts 15:16-17 quotes Amos 9:11-12 LXX ("that the residue of men might seek after the Lord"), which differs from the Hebrew.
+- **The Bible of the Fathers** (Pentiuc): the Greek Fathers read and commented on the LXX; the Latin Old Latin version was translated from it.
+- **The Orthodox Church's Old Testament** today (Pentiuc): the LXX is the authoritative text in the Greek Church (Slavonic follows it too).
 
 ## 2. Dead Sea Scrolls
 
 - **Date:** 3rd century BCE – 1st century CE.
 - **Origin:** Discovered at Qumran, near the Dead Sea, likely written or collected by the Jewish Essene community.
 - **Contents:** While the Dead Sea Scrolls primarily contain Hebrew Scriptures, some manuscripts include texts that parallel the Deuterocanonical books, such as parts of Tobit and Sirach. However, these texts are not as complete in the Scrolls as they are in the Septuagint.
+- **Relation to the Septuagint** (Pentiuc): the Scrolls showed that some LXX readings go back to a Hebrew text different from the later Masoretic one (e.g. Jeremiah's shorter form in LXX matches a Qumran Hebrew manuscript). So the LXX isn't just a loose translation; sometimes it preserves an older Hebrew text.
 
 ## 3. Masoretic Text
 
@@ -38,22 +48,6 @@ source: Eugen J. Pentiuc, The Old Testament in Eastern Orthodox Tradition (Oxfor
 - **Septuagint:** Yes, it included the Deuterocanonical books and became the primary scripture for early Christians, who adopted these books into their canon.
 - **Dead Sea Scrolls:** Only fragments and references to some Deuterocanonical books were found, but the inclusion was not systematic.
 - **Masoretic Text:** No, it excluded the Deuterocanonical books, focusing solely on the books accepted in the Hebrew canon.
-
-## Origins of the Septuagint
-
-- **Letter of Aristeas** (2nd c. BC): Ptolemy II Philadelphus (285–246 BC) asked for a translation of the Jewish Law for the Library of Alexandria; **72 elders** (six from each tribe) translated the **Torah** in 72 days on the island of Pharos. Hence "the Seventy" (LXX).
-- Philo adds that they all independently produced **identical** translations: a sign of inspiration.
-- Historically: the Torah was translated in Alexandria in the 3rd c. BC for Greek-speaking Jews; the rest over the next two centuries, by different translators, of varying literalness.
-
-## Why It Matters (Pentiuc)
-
-- **The Bible of the Apostles**: most OT quotations in the NT follow the LXX. Some arguments depend on its wording:
-    - Isa 7:14 LXX: "**a virgin** (*parthenos*) shall conceive" (Hebrew *almah*, "young woman"). Matt 1:23 quotes the LXX.
-    - Heb 10:5 quotes Ps 40:6 LXX: "**a body** hast thou prepared me" (Hebrew: "mine ears hast thou opened").
-    - Acts 15:16-17 quotes Amos 9:11-12 LXX ("that the residue of men might seek after the Lord"), which differs from the Hebrew.
-- **The Bible of the Fathers**: the Greek Fathers read and commented on the LXX; the Latin Old Latin version was translated from it.
-- **The Orthodox Church's Old Testament** today: the LXX is the authoritative text in the Greek Church (Slavonic follows it too).
-- **The Dead Sea Scrolls** showed that some LXX readings go back to a Hebrew text different from the later Masoretic one (e.g. Jeremiah's shorter form in LXX matches a Qumran Hebrew manuscript). So the LXX isn't just a loose translation; sometimes it preserves an older Hebrew text.
 
 ## Jewish Rejection
 

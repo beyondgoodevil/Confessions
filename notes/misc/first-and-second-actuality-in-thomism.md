@@ -10,7 +10,10 @@ source: "Aristotle, De Anima II.1, II.5 (with Aristotle's De Anima: A Guide); Mi
 The distinction between first and second actuality in Thomism is as follows:
 
 - First Actuality refers to a being's *basic capacity or disposition*—its *form* or *potency made actual*. For example, a living human being is in *first actuality* by simply *having* the power to think or move.
+    - A substance's **form** is first actuality: it makes the thing exist as the kind it is (Gorman).
 - Second Actuality is the *exercise* of that capacity—when the human being actually *thinks* or *moves*.
+    - A substance's **operations** are second actuality: the thing doing what its form is for (Gorman).
+    - "**Agere sequitur esse**": action follows being. What a thing does flows from what it is.
 
 Application to God in Thomism:
 
@@ -18,15 +21,19 @@ Thomism holds that God has no potency, only pure act (*actus purus*). Therefore,
 
 Thus, unlike creatures who move from first to second actuality (e.g., from ability to action), God is always identical with His being, knowing, and willing—*He is His act of being itself* (*ipsum esse subsistens*).
 
-## Aristotle's Source: De Anima II.1 and II.5
+- Creatures always have some unrealised second actuality; that's part of being finite. God has none: in Him being and acting are one (Gorman).
 
-Aristotle distinguishes **three** levels, with the example of knowledge:
+## Three Levels: First Potentiality, First Actuality, Second Actuality
+
+Aristotle distinguishes **three** levels (*De Anima* II.1 and II.5), with the example of knowledge:
 
 | Level | Example | |
 |---|---|---|
 | **first potentiality** | a child who **can** learn grammar | can acquire the capacity |
 | **first actuality** = second potentiality | someone who **knows** grammar but is asleep, or not using it | has the capacity, actualised as a disposition (*hexis*) |
 | **second actuality** | someone **actually reading** or speaking grammatically now | exercises it |
+
+## The Soul as First Actuality
 
 **The soul** is defined with this: "the **first actuality** of a natural body having life potentially" (*De Anima* II.1, 412a27). The soul is like knowledge possessed, not like knowledge used: a sleeping person still has a soul.
 
@@ -37,13 +44,6 @@ Example: if the eye were an animal, **sight** would be its soul. The eye's first
 - Going from first potentiality to first actuality (**learning**) is a real change, an alteration.
 - Going from first to second actuality (**using knowledge you have**) is "not an alteration, or a different kind of alteration": it's progress **into itself**, the thing becoming more fully what it is.
 - This is why Aristotle can say the highest activities (contemplation) are *energeia*, complete at every moment, not *kinēsis*, which aims at an end outside itself. (Seeing: at any moment you **have seen**. Building: you haven't built until the end.) See [[Aristotle East and West]].
-
-## Thomist Use (Gorman)
-
-- A substance's **form** is first actuality: it makes the thing exist as the kind it is.
-- Its **operations** are second actuality: the thing doing what its form is for.
-- "**Agere sequitur esse**": action follows being. What a thing does flows from what it is.
-- Creatures always have some unrealised second actuality; that's part of being finite. God has none: in Him being and acting are one.
 
 ## The Orthodox Angle
 

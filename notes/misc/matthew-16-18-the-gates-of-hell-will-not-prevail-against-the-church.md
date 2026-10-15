@@ -17,9 +17,9 @@ The image is a screenshot of Matthew 16:18 in the New King James Version, with "
 - In Aramaic (which Jesus probably spoke) both would be **Kepha** ("Cephas", John 1:42), which supports reading the rock as Peter.
 - In Greek, *petros* (masculine, a stone) and *petra* (feminine, a rock mass): some Protestants stress the difference; most scholars think it's just grammatical (a man's name has to be masculine).
 
-## "This Rock" in the Fathers (Siecienski ch. 3)
+## "This Rock" in the Fathers
 
-The Fathers give **several** readings, often the same Father in different places:
+The Fathers give **several** readings, often the same Father in different places (Siecienski ch. 3):
 
 | Reading | Who |
 |---|---|

@@ -11,7 +11,7 @@ summary: Feser's polemic against the New Atheists. The real conflict is between 
 
 Very fun attack on the New Atheists. Feser's claim: the "superstition" of the title is **secularism**, the belief that modern science has disproved religion. Actually modern philosophy threw out Aristotle's metaphysics for non-scientific reasons, and almost all of the West's later problems (mind-body, induction, is-ought, personal identity) come from that move.
 
-## 1. Chapters
+## Chapters
 
 1. Bad Religion
 2. Greeks Bearing Gifts
@@ -22,7 +22,7 @@ Very fun attack on the New Atheists. Feser's claim: the "superstition" of the ti
 
 - Chapters 2–5 are "a crash course" in the history of Western philosophy, focused on what led to and away from the classical picture.
 
-## 2. Bad Religion
+## 1. The Real Conflict: Metaphysics, Not Science
 
 - Opens with **Antony Flew**, the famous atheist philosopher, becoming a philosophical theist (2004) after reading Aristotle seriously "for the first time"; the secular response was "uniformly derisive". (Flew gave Aristotle "first place" in his change, prompted by David Conway's *The Rediscovery of Wisdom*.)
 - The New Atheists (Dawkins, Dennett, Harris, Hitchens) argue against a God no serious theist has held, and know almost nothing of the arguments they dismiss.
@@ -33,7 +33,7 @@ Very fun attack on the New Atheists. Feser's claim: the "superstition" of the ti
 - Natural-law morality doesn't mean God arbitrarily commands "just 'cause He feels like it", with hell as the only motive. No serious defender holds that.
 - Locke (Protestant) and Vatican II (Catholic) both defended toleration and democracy on theological grounds; secularists like democracy less when school boards vote for teaching Intelligent Design.
 
-## 3. Greeks Bearing Gifts
+## 2. Classical Metaphysics: Plato and Aristotle
 
 **Plato**: forms are real, universal, unchanging; particulars participate in them. Against nominalism. See [[The Problem of Universals: Realism vs Nominalism]].
 
@@ -64,7 +64,7 @@ Very fun attack on the New Atheists. Feser's claim: the "superstition" of the ti
 - **Final causes** are everywhere in nature, not just in design: an acorn is directed toward being an oak, fire toward heat. Even basic efficient causation needs them: a cause "points to" its typical effect. Feser's key thesis: "**Final causality underlies all potentiality and thus all materiality.**"
 - A cause contains its effect **formally** (fire causing fire) or **eminently** (a power to produce it without being it).
 
-## 4. Getting Medieval
+## 3. God: Aquinas's Arguments and the Objections
 
 - Quoting *A Fish Called Wanda* ("Aristotle was not Belgian... the central teaching of Buddhism is not 'Every man for himself'") on the New Atheists' grasp of philosophy.
 - If you haven't understood and answered Aquinas (and Anselm, Scotus, Leibniz, Clarke), you haven't "made your case" against religion. Hitchens shows "a journalist who reads more than most of his colleagues by no means thereby understands more".
@@ -82,8 +82,14 @@ Very fun attack on the New Atheists. Feser's claim: the "superstition" of the ti
     4. degrees of perfection → maximum
     5. final causes (the "Fifth Way"): things directed to ends need an intellect directing them. Not Paley's design argument. Darwinism is a serious challenge to Paley and ID but "almost totally irrelevant" to Aquinas, and if anything "slightly helps" him, since it presupposes regular, end-directed causal powers.
 - Pure act must be one, simple, immutable, eternal, omnipotent, intelligent and good: limitless knowledge, goodness etc. follow, since every limitation is a **privation**.
+- Dawkins's "who designed the designer?" (his "central argument", with its own index entry) misunderstands the argument: pure act isn't a complex thing that needs a designer. The Five Ways aren't arguments from complexity:
+    - Aquinas's divine simplicity isn't that kind of simplicity: the First Cause is simple
+    - Aquinas isn't explaining the complexity of organs
+    - his argument isn't probabilistic but a demonstration
+- **Faith** in traditional theology isn't blind: reason establishes that God has revealed (e.g. by the Resurrection), and faith is believing what He reveals because He can't err. The book is about natural theology, not **revealed theology**; but faith, rightly understood, never contradicts reason.
+- **The argument from evil** "begs the question" if it assumes the theist's claims (an afterlife, a greater good) are false; "I can't imagine what could outweigh suffering" is a double standard.
 
-## 5. Scholastic Aptitude
+## 4. The Soul and Natural Law
 
 - **The soul**: the form of the body. Three kinds:
     - **nutritive** (plants): just the plant's form, giving the powers of nutrition, growth, reproduction
@@ -96,10 +102,9 @@ Very fun attack on the New Atheists. Feser's claim: the "superstition" of the ti
 - Applied to sex: its natural ends are procreation and union, which grounds traditional sexual ethics. (The most controversial chapter.)
     - Its final cause is procreation in the full sense, "procreation in large numbers": generating and **rearing** children, which needs stability and ties fathers into long-term commitment. So on natural law it belongs in marriage.
     - Accusing natural lawyers of being "obsessed with sex" is "projection". Secular "research" into ethics is often "liberal apologetics with conclusions determined in advance".
-- **Faith** in traditional theology isn't blind: reason establishes that God has revealed (e.g. by the Resurrection), and faith is believing what He reveals because He can't err. The book is about natural theology, not **revealed theology**; but faith, rightly understood, never contradicts reason.
-- **The argument from evil** "begs the question" if it assumes the theist's claims (an afterlife, a greater good) are false; "I can't imagine what could outweigh suffering" is a double standard.
+- **Morality without God**: secular ethics can't ground obligation without final causes; Nietzsche saw it.
 
-## 6. Descent of the Modernists
+## 5. How the Moderns Lost It
 
 - **Nominalism** (Ockham) led politically to "**atomistic individuals**" uniting only by contract. Feser sees **conservatism** (the family, not the individual or the state, as the basic unit) as the true "third way". See [[Conservatism: Burke, de Maistre, Scruton]].
     - Hitchens praises Ockham because nominalism undermines tracing causes back to a first cause: "fideism", which Hitchens oddly calls an advance for reason.
@@ -115,7 +120,7 @@ Very fun attack on the New Atheists. Feser's claim: the "superstition" of the ti
 - Modern philosophy is a series of failed attempts to fix problems it created. These "traditional problems of philosophy" go back only to the early moderns, "who, unlike the ancients and medievals, created problems rather than solved them".
 - Dennett called Darwinism a "**universal acid**". Feser: it's the mechanistic picture as a whole that is the acid, eating away religion, morality, and science itself. The 20th century saw the consequences "in full bloom": totalitarian ideologies and the "**Great Disruption**" in morals (Fukuyama).
 
-## 7. Aristotle's Revenge
+## 6. Mind, Meaning and the Failure of Materialism
 
 - Reductive materialism is incoherent: eliminativism denies the beliefs it's arguing for (see [[The Argument from Reason]]).
     - Eliminative materialism is "absurd and incoherent": by its lights, "I feel anxious" is always false. But if there are no mental states, there's no "belief" in eliminativism either.
@@ -128,13 +133,8 @@ Very fun attack on the New Atheists. Feser's claim: the "superstition" of the ti
     - **Dennett** speaks of "Mother Nature's" purposes: either a peculiar new religion (conscious nature) or a concession that Aristotle was right (unconscious real goal-directedness). Either way, naturalism is abandoned.
     - **DNA** as "blueprint" or "program" points to the realisation of a form typical of the species: a **form or essence**, smuggled back in.
 - **Nancy Cartwright**: science uncovers few universal "laws" outside artificial conditions; what it finds are **capacities** or **powers**, and talk of "interfering" conditions presupposes natural tendencies. The notion of a "law of nature" is a relic of Newton's theology. David Oderberg's *Real Essentialism* defends essence and existence today.
-- Dawkins's "who designed the designer?" (his "central argument", with its own index entry) misunderstands the argument: pure act isn't a complex thing that needs a designer. The Five Ways aren't arguments from complexity:
-    - Aquinas's divine simplicity isn't that kind of simplicity: the First Cause is simple
-    - Aquinas isn't explaining the complexity of organs
-    - his argument isn't probabilistic but a demonstration
-- **Morality without God**: secular ethics can't ground obligation without final causes; Nietzsche saw it.
 
-## 8. Notes
+## 7. Notes
 
 *Mine.*
 

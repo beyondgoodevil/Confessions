@@ -33,13 +33,13 @@ The **jurisdiction** claim is what Orthodox see as the real break: it makes ever
 | **Chalcedon 28** (451) | the fathers gave privileges to Old Rome "**because it was the imperial city**" and equal privileges to New Rome | same; Rome objected |
 | **Sardica** (343) canons 3–5 | a deposed bishop may appeal to Rome, which can order a rehearing | a real Roman role, but as court of **appeal**, not ordinary jurisdiction; and Sardica wasn't ecumenical |
 
-## The Historical Argument (Siecienski)
+## Rome's Primacy in History
 
-- **Rome's prestige** in the early Church was real: the church of Peter and Paul, the martyrs' church, the imperial capital, famous for orthodoxy (Irenaeus: "every church must agree with this church because of its more powerful pre-eminence", *Against Heresies* 3.3.2: much debated).
-- But in the East, Rome's role was **primacy within communion**: honoured, consulted, sometimes appealed to, never governing.
-- Popes like **Leo I** and **Gregory the Great** made strong claims. But Gregory himself rejected the title "ecumenical patriarch" for Constantinople: "whoever calls himself universal bishop is the forerunner of Antichrist" (*Letters* 5.18).
-- The **Gregorian reform** (11th c.) and *Dictatus Papae* (1075) turned primacy into monarchy; the **Fourth Crusade** (1204) made it a sore point in the East.
-- **Florence** (1439): the pope's primacy was defined with the clause "**as is contained in the acts of the ecumenical councils and the holy canons**". The East understood that as a limit; the West later dropped it.
+- **Rome's prestige** in the early Church was real: the church of Peter and Paul, the martyrs' church, the imperial capital, famous for orthodoxy (Irenaeus: "every church must agree with this church because of its more powerful pre-eminence", *Against Heresies* 3.3.2: much debated; Siecienski).
+- But in the East, Rome's role was **primacy within communion**: honoured, consulted, sometimes appealed to, never governing (Siecienski).
+- Popes like **Leo I** and **Gregory the Great** made strong claims. But Gregory himself rejected the title "ecumenical patriarch" for Constantinople: "whoever calls himself universal bishop is the forerunner of Antichrist" (*Letters* 5.18; Siecienski).
+- The **Gregorian reform** (11th c.) and *Dictatus Papae* (1075) turned primacy into monarchy; the **Fourth Crusade** (1204) made it a sore point in the East (Siecienski).
+- **Florence** (1439): the pope's primacy was defined with the clause "**as is contained in the acts of the ecumenical councils and the holy canons**". The East understood that as a limit; the West later dropped it (Siecienski).
 
 ## What the Orthodox Would Accept
 

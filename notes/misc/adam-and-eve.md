@@ -37,13 +37,13 @@ Two strands in the Fathers:
 
 They're not really opposed: both say Adam was **not yet** deified, but **called** to it. Irenaeus, *AH* IV.38: God could have given perfection from the start, but man couldn't have received it, "being as yet an infant".
 
-## St. John of Damascus (Exact Exposition II)
+- **Man** (Damascene, *Exact Exposition* II.12): a "**second cosmos**", a microcosm combining visible and invisible creation; "an animal being deified" (*zōon theoumenon*) by inclination toward God.
+- Created **free**, with the possibility of turning to evil; **not mortal and not immortal** by nature, but able to become either by his choice (Damascene, following Theophilus of Antioch).
 
-- **Paradise** (II.11): both a **physical** place in the East, higher than the earth, temperate and beautiful, and a **spiritual** one: "a twofold paradise", for man is twofold (soul and body). Adam lived in the body in the one, and in the soul in the other.
-- **Man** (II.12): a "**second cosmos**", a microcosm combining visible and invisible creation; "an animal being deified" (*zōon theoumenon*) by inclination toward God.
-- Created **free**, with the possibility of turning to evil; **not mortal and not immortal** by nature, but able to become either by his choice (following Theophilus of Antioch).
-- **The two trees**: the tree of life is the contemplation of God; the tree of knowledge was knowledge of the created world, good in itself but dangerous for the immature, who would take pleasure in it instead of God.
-- **The garments of skin** (Gen 3:21; II.30): **mortality** and the coarseness of the body, given after the Fall. Not a punishment only but a mercy: death puts a limit on evil, so it doesn't become immortal.
+## Paradise and the Two Trees
+
+- **Paradise** (Damascene, *Exact Exposition* II.11): both a **physical** place in the East, higher than the earth, temperate and beautiful, and a **spiritual** one: "a twofold paradise", for man is twofold (soul and body). Adam lived in the body in the one, and in the soul in the other.
+- **The two trees** (Damascene): the tree of life is the contemplation of God; the tree of knowledge was knowledge of the created world, good in itself but dangerous for the immature, who would take pleasure in it instead of God.
 
 ## Eve from the Rib
 
@@ -52,13 +52,14 @@ They're not really opposed: both say Adam was **not yet** deified, but **called*
 - **Typology**: Adam's sleep and Eve from his side = Christ's death on the cross and the **Church** from His pierced side, the blood and water (John 19:34) of the Eucharist and baptism. See [[Adam as a Type of Christ and Eve as a Type of the Church]].
 - Eve as type of **Mary**: the "new Eve" obeys where the first disobeyed (Justin, Irenaeus).
 
-## The Fall (in brief)
+## The Fall
 
 - Not the eating itself but the **disobedience** and the desire to be "as gods" (Gen 3:5) **without God**: deification by grasping instead of receiving.
 - Then the shift of blame: Adam blames Eve and God ("the woman whom **thou** gavest"), Eve the serpent. Repentance refused.
 - Consequences: death, corruption, the darkening of the nous, passions. See [[The Fall of Humanity and Its Consequences]], [[Ancestral Sin vs Original Sin]].
+    - **The garments of skin** (Gen 3:21; Damascene, *Exact Exposition* II.30): **mortality** and the coarseness of the body, given after the Fall. Not a punishment only but a mercy: death puts a limit on evil, so it doesn't become immortal.
 
-## Historical Adam? (Rose)
+## A Historical Adam?
 
 - Fr. Seraphim Rose: the Fathers read Adam and Eve as **historical** persons, the first humans, and the Orthodox teaching depends on it (Christ as **New** Adam, Luke's genealogy up to "Adam, which was the son of God", 3:38; Rom 5).
 - Modern Orthodox views range from Rose's literalism to symbolic readings that keep a real Fall in some form. See [[Evolution and the Fathers]].

@@ -20,13 +20,13 @@ The definition ends: such definitions of the Roman Pontiff are "**irreformable o
 - That phrase was aimed at **Gallicanism** (the 1682 Gallican Articles: papal judgements bind only with the Church's consent).
 - So infallibility isn't the pope speaking *for* a consensus he has checked; it's his own charism.
 
-## How It Came About (Siecienski)
+## How It Came About
 
-- Medieval roots: the pope can't be judged by anyone (*prima sedes a nemine iudicatur*); Peter's faith won't fail (Luke 22:32). But medieval canonists also said a pope who fell into heresy could be deposed.
-- Opposed in the **Conciliarist** era (Constance, 1415: councils are above popes).
-- 19th-century **ultramontanism** (de Maistre, *Du Pape*, 1819; Veuillot; Manning) pushed it as a defence against liberalism and revolution.
-- **Vatican I** (1869–70): a "minority" of about 60 bishops (many from Germany, France, Austria, the US; Döllinger outside the council) thought it **inopportune** or historically false. Most left Rome before the final vote rather than vote no. Final vote **533–2**. The two "no" voters submitted at once.
-- The council was suspended when Italian troops took Rome (1870). Döllinger and others refused it: the **Old Catholic** schism.
+- Medieval roots: the pope can't be judged by anyone (*prima sedes a nemine iudicatur*); Peter's faith won't fail (Luke 22:32). But medieval canonists also said a pope who fell into heresy could be deposed (Siecienski).
+- Opposed in the **Conciliarist** era (Constance, 1415: councils are above popes; Siecienski).
+- 19th-century **ultramontanism** (de Maistre, *Du Pape*, 1819; Veuillot; Manning) pushed it as a defence against liberalism and revolution (Siecienski).
+- **Vatican I** (1869–70): a "minority" of about 60 bishops (many from Germany, France, Austria, the US; Döllinger outside the council) thought it **inopportune** or historically false. Most left Rome before the final vote rather than vote no. Final vote **533–2**. The two "no" voters submitted at once (Siecienski).
+- The council was suspended when Italian troops took Rome (1870). Döllinger and others refused it: the **Old Catholic** schism (Siecienski).
 
 ## Examples Usually Given
 
