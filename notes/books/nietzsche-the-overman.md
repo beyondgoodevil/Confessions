@@ -90,3 +90,4 @@ Not sure the regret answer works for really bad pasts. Come back to this with [[
 - [[Nietzsche: Eternal Recurrence]]
 - [[Nietzsche and the Greeks]]
 - [[Relativism]]
+- [[Nietzsche's Character Types: Slave, Priest, Philosopher, Artist, Scientist, Noble]]

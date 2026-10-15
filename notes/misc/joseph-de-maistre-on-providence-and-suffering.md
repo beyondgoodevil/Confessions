@@ -126,3 +126,4 @@ And "there is no such thing as a just man", so no one may refuse his share of hu
 - [[1 Corinthians 15:26: The Last Enemy That Will Be Destroyed Is Death]]
 - [[Augustine's City of God]]
 - [[The Case for One Ruler: Aquinas, Dante, Maistre, Kuehnelt-Leddihn]]
+- [[Dionysus versus the Crucified: Girard's Reading of Nietzsche]]

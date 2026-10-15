@@ -117,3 +117,4 @@ Worth remembering when people quote the "blond beast" passages as if N. were sim
 - [[Nietzsche: Eternal Recurrence]]
 - [[The Good in Plato]]
 - [[Relativism]]
+- [[Apollo and Dionysus: The Birth of Tragedy]]
