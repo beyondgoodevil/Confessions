@@ -85,6 +85,79 @@ The short version of his big book *The Existence of God* (1979, 2004). Swinburne
 - He became Orthodox in 1995, but his philosophy is very Western-analytic.
 - The principle of credulity is his most useful tool and fits well with Plantinga. See [[Warranted Christian Belief]].
 
+## Chapter by Chapter
+
+**Introduction**
+- The method: like scientists choosing between theories, use the criteria that show one theory is "more likely, on the basis of the data, to be true".
+- Objection: the God of the religions is **incomprehensible**, so describing Him as "powerful" and "knowing" is wrong. Swinburne: some words are used in stretched or **analogical** senses, as physicists use "wave" and "particle" for electrons. But if God were totally incomprehensible, there'd be no reason to worship Him.
+- Objection: the Christian God is three persons. Swinburne argues for the God worshipped by Christians, Jews and Muslims, whom Christians call "God the Father"; Christianity adds that the Father eternally brings about the Son and the Spirit.
+
+**1. God**
+- God is a **person**: a being with powers, beliefs and purposes, who performs intentional actions.
+- **Omniscient**: all God's beliefs are true and He believes everything true.
+- **Omnipotent**: can do anything logically possible. Not "make a shape square and round": not weakness, the words don't describe anything.
+- **Eternal** = **everlasting**, not timeless (Swinburne's preference).
+- **Perfectly free**: nothing outside Him determines what He does. Free agents act for reasons, regarding the action as good.
+- **Morality**: if moral truths like "it is wrong to torture children for fun" hold independently of God's will, they're like "nothing can be round and square": necessary truths. God, being perfectly free and knowing, will always do the good.
+- Where reasons are equal, God performs a "**mental toss-up**", choosing in a way not determined by His nature.
+- Eternity is **essential**: anything that began or could cease wouldn't be God.
+
+**2. How We Explain Things**
+- The world consists of **substances** with powers and liabilities.
+- Two kinds of explanation: **inanimate** (dynamite exploded because ignited, by laws) and **personal** (it was ignited because a terrorist intended it).
+- A **complete** explanation traces purposes to the ultimate one (I go to the larder to get food, to eat regular meals...).
+- **Four criteria** for a good explanation: (1) leads us to expect the data; (2) **simplicity**; (3) fits background knowledge; (4) scope.
+- **Simplicity is decisive**: infinitely many curves fit the observed positions of Mars; we choose the simplest. "Ockham's razor".
+- What science discovers is the powers and liabilities of substances. Example: Newton's theory plus a hypothesised planet (Neptune) was the simplest account of Uranus's orbit.
+
+**3. The Simplicity of God**
+- An **ultimate** explanation: one whose factors have no further explanation.
+- God keeps each substance in existence and sustains its powers; the metal expands when heated because God sustains that power in it. God permits humans to form their purposes but doesn't make them choose.
+- The materialist's ultimate explanation is the powers of innumerable particles: very many brute facts.
+- Theism postulates **one** substance with **infinite** power, knowledge and freedom. Infinite is simpler than any finite amount. And they go together: infinite power suggests no outside influences (infinite freedom), and that suggests infinite knowledge.
+- Analogy: in physics, fundamental particles are what they are only if they keep their powers; so God is God only with His essential properties.
+
+**4. The World and its Order**
+- Newton's laws hold because they follow from General Relativity and Quantum Theory, which might follow from a Grand Unified Theory. But why that theory?
+- Regularities of medium-sized objects are easily detected even by the unscientific: they make it possible for us to learn and act.
+- Aquinas's Fifth Way quoted: "everything in nature is directed to its goal by someone with understanding".
+- God has a reason to bring about **these** laws: they lead to the evolution of animals and humans.
+- **Darwin** explains our existence given the "machine" of natural selection, but not why that machine exists and operates.
+- The starting point isn't that we **perceive** order but that order **is there**.
+- **Fine-tuning** and **multiverse** (inflation theory): a multiverse still needs explaining; God is simpler.
+
+**5. The Existence of Humans**
+- **Substance dualism**: the essential part of each of us is an **immaterial soul**.
+- Physical events are public (anyone can check my desk is square); mental events are private.
+- **Split-brain thought experiment**: transplant each hemisphere into a different body. Both would behave like me and claim to be me. But at most one is me, and no physical fact settles which. So my survival consists in the continuation of something else: my **soul**.
+- Animals with thought and feeling have souls too.
+- "It is highly irrational to say that something is not there just because you cannot explain how it came to be there."
+- Why does chocolate cause the taste we call chocolatey, not pineappley? No scientific explanation of the brain–mind correlations.
+- Darwinism can explain why the soul–body connections are useful (desire for food when hungry), not why they exist.
+- God may join a soul to a particular body by a "mental toss-up".
+
+**6. Why God Allows Evil**
+- A **theodicy** is needed, but "most people in deep distress need comfort, not argument".
+- **Free-will defence**: the core. Free choice between good and evil, including the power to harm others, is a great good.
+- If I suffer because of your bad choice, "that is not by any means pure loss for me": I'm **of use**, making your significant choice possible. Prisoners helped by being allowed to help the handicapped; the "poor little rich girl" pitied.
+- Without vulnerability to real suffering, our choices would be like a pilot in a simulator.
+- God is unlike a doctor who'd have no right to harm a patient for others' sake: God is the author of our life and has rights a parent has over a child.
+- **Natural evil**: gives us **knowledge** of how to cause or prevent harms (we learn from natural processes), and makes possible especially worthwhile choices (courage, compassion).
+- The thought experiment: would you choose to come into existence in a world where you suffer for others' benefit, given that otherwise they'd never exist? You may, though you're not obliged.
+- The reader will agree "to the extent to which he or she values responsibility, free choice, and being of use very much more than thrills of pleasure or absence of pain".
+
+**7. Miracles and Religious Experience**
+- So far the evidence makes God's existence significantly probable; evil doesn't count against it much.
+- **Miracles**: a violation of natural law (e.g. a levitation we've checked for strings and magnets). "We may be mistaken" is too easily said. If the total evidence is strong, the event was brought about by God.
+- Tests for a **revelation**: the plausibility of its central doctrines on other grounds; miracles confirming it; comparison with other religions' claims. (The army "call-up" analogy: a father who doesn't veto his son's call-up for a grave cause, as God the Father doesn't spare His Son.)
+- **Comparative vs epistemic "seems"**: "it looks elliptical" (looks the way elliptical things look) vs "it seems to me that it is elliptical" (I'm inclined to believe it).
+- **Principle of credulity**: what seems to be, probably is, unless there's special reason to doubt. Without it we'd be stuck: even corroboration relies on memory.
+- Defeaters: the subject is unreliable, the circumstances unreliable, the object probably not present, or the experience not caused by it.
+- Someone who claims God told them to commit rape must be mistaken: we know on other grounds rape is wrong.
+
+**Epilogue: So What?**
+- We have to act (vote, choose) without having considered everything. On the balance of probability, there is a God, and that should shape how we live.
+
 ## Related
 
 - [[The Leibnizian Cosmological Argument]]

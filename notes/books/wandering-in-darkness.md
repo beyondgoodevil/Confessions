@@ -69,6 +69,120 @@ A long book (over 600 pages) and one of the most important modern works on the p
 - Weak point: the "for the sufferer's own good" constraint seems too strong for infants and animals. She mostly limits the defense to adult persons.
 - The second-personal knowledge point fits the Orthodox stress that God is known as person, not concept. See [[Apophatic and Cataphatic Theology]], [[Religious Experience as Evidence]].
 
+## Chapter by Chapter
+
+**1. Suffering, Theodicy, and Defense**
+- Stump frames the problem in terms of **suffering**, not evil, because suffering is "the salient thing".
+- People voluntarily take on pain they could avoid (training, surgery), so pain isn't the same as suffering. Suffering is what **undermines** something: either a person's **flourishing**, or the **desires of the heart** (the Psalmist's phrase, Ps 37:4).
+- "Web of desire", like a web of belief: some desires are peripheral, some central. A person can be heartbroken because something he "put his heart into" is taken, even when his flourishing isn't threatened.
+- Two scales of value: objective value, and the value a thing has for a particular person **because she loves it**.
+- So a person can suffer without knowing it, and think she suffers when she doesn't.
+- The "**Martian in the hospital**": a Martian sees doctors cutting people open and thinks they're torturers. We'd have to argue through every disagreement to show him otherwise. Our relation to God's permission of suffering may be like that.
+- A **defense** doesn't claim its possible world is the actual one; a **theodicy** does. Aquinas largely ignores the desires of the heart; Stump will add them to his theodicy.
+
+**2. Philosophy and Narrative**
+- Analytic philosophy is organised around arguments: tight, orderly. Narrative sacrifices some of that orderliness for a different kind of knowledge.
+- On using biblical stories: she reads them as **coherent wholes** (like the medieval "harmonizers"), not as layers of sources the way historical-critical scholars do, for whom the text "becomes a pretext for reconstructing" earlier stages.
+- An atheist can accept her conclusions without giving up atheism: a defense only wards off an attack; it doesn't prove theism.
+
+**3. Narrative as a Means of Knowledge: Francis and Dominic**
+- St. **Francis**: the crucifix at San Damiano says "go and rebuild my church". His holiness is a kind of "spiritual luminescence" from love of a person.
+- St. **Dominic** and the Dominicans: argument, analysis. Analytic philosophy is "Dominican".
+- **Franciscan knowledge**: knowledge **not reducible to knowledge that**: what pain is like, what loneliness is like, recognising a face.
+- **Mary in the black-and-white room** (Jackson), adapted: if Mary had every third-person fact about her mother but had never met her, meeting her would give knowledge no description could.
+- Even desire isn't always "desire that": Odysseus could want "that he sleep with Kalypso" for strategic reasons, without wanting **her**. Against Kraut, who says all "good for S" claims reduce to "it is good for S that P".
+- Knowledge by acquaintance is just one species of Franciscan knowledge.
+
+**4. Narrative and the Knowledge of Persons**
+- **Autism** research: an autistic child can know **that** his mother is sad without knowing her sadness. Shows the difference between the two kinds of knowledge.
+- **Mirror neurons** (1990s, Italian researchers): fire when you act and when you see another act. A neural basis for knowing other minds directly.
+- Lopes on pictures: knowledge **about** a picture vs knowledge **in** it.
+- **Second-person experience**: you are aware of another person as a person, attending to you, directly. Different from first- and third-person.
+- A **second-person account** is the report of such an experience that conveys some of it: stories do this best.
+
+**5. The Nature of Love**
+- Against the "**responsiveness**" account (we love people for their valuable qualities: then we'd trade up for someone better) and Kolodny's "**relational**" account (we love because we value the relationship).
+- **Aquinas**: love = two interconnected desires: (1) for the **good of the beloved**, objectively understood (what really serves her flourishing); (2) for **union** with the beloved.
+- **Offices of love**: the kind of union fitting depends on the relationship (wife, mother, colleague, student, priest). Loves in different offices are **incommensurable**, so each beloved can be unrivalled in her own office.
+- Ultimately being united with someone requires being united with them **in union with God**.
+- **Forgiveness**: Paula can desire union with an unrepentant or untrustworthy Jerome without returning to the old companionship. Forgiveness and reconciliation aren't the same.
+
+**6. Union, Presence, and Omnipresence**
+- Being **present** to someone needs more than causal and cognitive contact (God has that with everything): it needs **second-person experience** and **shared attention**.
+- **Dyadic shared attention** (mutual gaze between infant and mother) comes before triadic joint attention (looking at something together).
+- Zeus can affect the Trojans without being **present** to them: he's absent from the fighting.
+- **Closeness** also requires **internal integration**: Catullus's "*odi et amo*" (I hate and I love). A double-minded person can't be close to anyone, even God.
+- So God is everywhere, but His **personal** presence to someone depends on that person's openness.
+
+**7. Willed Loneliness**
+- **Frankfurt**: an agent acting against his own second-order desires ("I wish I didn't want this") isn't free, even if responsible.
+- Freedom, closeness, union and love each have an "ordinary" and a "strenuous" mode.
+- A person can be integrated around an evil will (Frankfurt allows this; Aquinas doesn't, since evil fragments).
+- **Shame** vs guilt: guilt is about what I did; shame is the conviction that something about **me** warrants others' rejecting a desire for me. Marilyn Adams on the "devaluation" of persons.
+- **Joseph Merrick**, the "Elephant Man": shame closes a person off to avoid the risk of trust.
+- **Willed loneliness** is "a ubiquitous condition".
+
+**8. Other-Worldly Redemption**
+- The human proneness to wrongdoing (whatever its explanation: original sin or evolution) can't by itself be an argument against God.
+- Even the most shamed person can find a "deeper standard of beauty" by which he is lovely; a person can also reject it.
+- **Augustine**: God is "everywhere present", calling the one turned away, teaching the believer, consoling the hoping, helping the striving, hearing the praying.
+- **Justification** (Aquinas reworked): the person, unable to will the good, at least **stops resisting** grace: a second-order desire for God's help. "The impetus for the regeneration has to come from without", but **control** stays with the person. That answers what **Augustine** wrestled with: why doesn't God cause the justifying act in everyone?
+- **Sanctification**: progressive internal integration around the good.
+- Both are **relational**: they aim at a second-personal union of love with God. Any standard by which a person is shamed is "trumped" by the standard of being loved by God.
+
+**9. Job**
+- God's speeches from the whirlwind are **second-person**: God talks to the sea, the wild animals, as a parent to children ("Hitherto shalt thou come, but no further", Job 38:11), not by impersonal decree. They show God's **loving care** for each creature.
+- The question "but why did Job suffer?" asks to translate a second-person account into third-person; something is lost.
+- God rebukes the comforters: "ye have not spoken of me the thing that is right, as my servant Job hath" (42:7).
+- The **framing story**: God's question to Satan, "Whence comest thou?", brings out Satan's restlessness and estrangement. Satan is **cynical**: he sees others through his own divided character. God's attention to Satan is an offer of love to the alienated; a cynic "wards off the love of others".
+- So the framing story does explain Job's suffering, but not in the "primitive and morally offensive" way critics mock: it's part of God's dealing with Satan, and Job's suffering ends in a closeness to God he didn't have before.
+
+**10. Samson**
+- Compared with **Oedipus** ("more of suffering than of violence in my deeds"): self-destroying evil.
+- Samson's familiar prayers show a real relationship with God at first.
+- With Delilah: he lies to her, so her betrayals can't hurt him. He hasn't invested himself in her: willed loneliness.
+- His strength leaves "not because his strength is in his hair but because the Lord departs from him when Samson does not care that his hair is cut".
+- Blinded and made entertainment at the Philistines' feast, he prays for strength (even though his hair has grown) and dies destroying the temple. His suffering brings him back to God.
+- If he'd died earlier, "Samson would have been the poorer for it". The Greek tragic view is "right but incomplete".
+
+**11. Abraham**
+- **Kierkegaard's** reading: the "**knight of faith**" vs "**infinite resignation**" (the young man in love with an unattainable princess). Abraham gives up Isaac and yet expects to have him.
+- Stump traces **seven** divine visitations across 25 years. God doesn't answer Abraham's "how do I know?" with an indignant "because I promised": He builds trust gradually.
+- **Hagar and Ishmael**: God names Ishmael ("God heard"). The expulsion: "In all that Sarah says to you, listen to her voice", plus a promise about Ishmael that God keeps. Did Abraham trust God or protect his own domestic peace?
+- The binding of Isaac: Abraham's silence is his struggle to trust Isaac to God. If raising the knife were the admirable thing, **Jephthah** (who actually killed his daughter) would be greater.
+- **Euthyphro**: Job's comforters say whatever God wills is good because He wills it; Abraham takes the other side: God wills what is good, and Abraham trusts His goodness.
+- "The desires of thy heart" means what it says: not some general good the person doesn't want.
+
+**12. Mary of Bethany**
+- **John 11**: Jesus delays; Lazarus dies. His plan is motivated by love for them, so He doesn't share it.
+- **Martha** tells Mary "The Master is come, and calleth for thee", and says it "secretly" (11:28): Stump argues it **wasn't true**, a kind lie to bring her withdrawn sister out.
+- Mary's words are the same as Martha's ("if thou hadst been here, my brother had not died") and that's all she says: heartbreak and estrangement.
+- Jesus **weeps**, not for Lazarus (whom He's about to raise) but **with Mary**.
+- **Luke 7**: the sinful woman ("Sinner") anoints Jesus' feet at Simon's house; Simon takes it as proof Jesus isn't a prophet; Jesus defends her and sends her away: "Go in peace". Stump reads her as Mary of Bethany, and the later anointing (John 12) as a quiet, deliberate repetition of that first act.
+
+**13. Theodicy in Another World**
+- Even without skeptical theism, the stories show we often can't see a sufferer's morally sufficient reason because their **inner life is opaque** to us.
+- Aquinas's theodicy concerns suffering that's neither just punishment nor fully voluntary.
+- Suffering **involuntary *simpliciter*** vs involuntary only ***secundum quid***: a person of faith, who has generally assented to God's will, suffers involuntarily only in a qualified sense.
+- It's not permitted to cause **moral evil** as a means to good (unlike pain).
+- **Molinism** (middle knowledge) and the "best possible world" (ambiguous for Aquinas) discussed.
+- The **dark night of the soul** (John of the Cross): consolation blocked without any fault in the sufferer.
+
+**14. The Desires of the Heart**
+- An afterlife is "central to any attempt at theodicy".
+- The "**stern-minded attitude**": only flourishing (union with God) matters; if God gives that, the rest should be indifferent. Stump rejects it.
+- Trying to desire whatever happens as good because God wills it is like Mao's "**Whatever Faction**", a "Whatever Faction for God".
+- Flourishing itself requires setting your heart on particular things, not the same for everyone: "someone who is everyone's friend is no one's friend".
+- When the deepest heart's desire is **God**, other heart's desires can be held as **gifts** within that relationship: Abraham holds on to both God and Isaac and harmonises them; Lazarus is loved as gift. That explains Job getting "double" back.
+
+**15. The Defense of the Defense**
+- The defense targets premise (3) of the argument from evil: "there is no morally sufficient reason for God to allow suffering".
+- **Libertarian free will**, and grace isn't efficient causation on the will: so suffering can lead to growth but can't **guarantee** it.
+- For the protagonists in the stories, suffering really was "the best available means" to let God be close.
+- A heart's desire for a project (say, writing a book) can be taken into the deeper desire for God. For Aquinas any hunger for justice and goodness is "a nascent love of God".
+- **Hagar** rejected by Abraham, **God** rejected by Satan: another's rejection can't take away the goodness of union with God.
+- Against Susan Neiman ("any form of theodicy involves bad faith"): that would mean every life with serious suffering isn't a good for the person.
+
 ## Related
 
 - [[The Problem of Evil and Theodicy]]

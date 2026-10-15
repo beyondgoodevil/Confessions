@@ -98,6 +98,86 @@ So the universe began to exist; whatever begins to exist has a cause; so the uni
 - Craig's kalam proves a beginning; the Fathers stress more that creation is **free**, by **will**, not by necessity of nature. That's the real difference from Neoplatonic emanation.
 - Fits with [[Evolution and the Fathers]] sec. 5: creation from nothing is non-negotiable whatever one thinks of the mechanism.
 
+## Chapter by Chapter
+
+**1. The Old Testament Witness**
+- Even **Gerhard May** (who argues *ex nihilo* was a 2nd-century invention) admits it "corresponds factually with the OT proclamation". Copan: the OT **demands** it, even if "out of nothing" is implicit.
+- **Genesis 1:1, the four readings**: (1)–(3) various dependent-clause readings ("When God began to create...", as in the NEB 1970); (4) verse 1 a **main clause** describing the first act of creation. Copan defends (4):
+    - "in beginning" without the article doesn't require a construct ("in the beginning of"): many absolute time expressions lack it
+    - Gen 2:1 ("Thus the heavens and the earth were finished") already summarises 1:2-31, so 2:4a begins a new section
+    - Cassuto: the syntax of v. 2 ("**And the earth** was...") "proves" it begins a new subject; v. 1 is "an independent sentence... a formal introduction to the entire section"
+    - Wenham: "In the beginning God created **everything**": "heavens and earth" is a **merism** expressing **totality**, not order
+- Against Barbour's "creation of order from chaos".
+- **Bara'** ("create"): some scholars (and Jaki, who mocks exegetes for raising it "to a quasi-divine pedestal") use its etymology ("cut") to suggest shaping. But etymology isn't meaning: "nice" comes from Latin *nescius*, "ignorant". *Bara'* is unique: only God is its subject, no material is ever mentioned, and it's tied to God's powerful **word**. "To create" fits better than "to make" or "to fashion".
+- **"Double creation"**: first God creates the primordial substance from "total and absolute nothing", then forms it. James Barr thinks this makes God "sloppy"; Copan defends it. *Tohu* = an earth that can't (yet) be inhabited.
+- Prov 8:26: before "the first dust of the world", Wisdom was there. Ps 146:6: God "made heaven and earth, the sea, and all that is in them".
+- For Israel creation "did not need to be defended": "there was simply no alternative": it was the presupposition of their thought.
+
+**2. The New Testament Witness**
+- Christ shares God's identity as **Creator** (1 Cor 8:6); the Resurrection is "the eighth day of creation", infusing creation with hope.
+- John 1:3: *panta* without the article may mean "everything as a totality".
+- Rom 4:17 ("calleth those things which be not as though they were"): James Dunn calls it an undisputed "**theological axiom**": nothing preconditions God's activity: creation, resurrection, or a child to an elderly infertile couple (Abraham and Sarah).
+- Heb 11:3: *mē ek phainomenōn*, "not from things that appear": William Lane: this "would seem to exclude any influence from Platonic cosmology".
+- *Ktisis* ("creation") means "the sum total of everything created" (BDAG). Moltmann: *ex nihilo* is "unquestionably an apt paraphrase" of what Scripture means by creation.
+
+**3. The Extrabiblical Witness**
+- Not a novel 2nd-century idea but a "continuous line of thought" in Jewish and Christian writers. Most held a **two-stage** creation (substrate first, then ordering); **all** denied that matter coexisted with God eternally.
+- **2 Macc 7:28**: "out of nothing" (Jaki: "the first biblical appearance of the phrase").
+- **Wisdom 11:17** ("out of formless matter") looks like pre-existing matter, but is about the second stage.
+- **2 Enoch** (Jewish, Egypt): God created even "the void". **3 Maccabees**: God "first Father of all".
+- **Philo**: a two-stage creation (first the intelligible world of Forms, then the sensible); "God is one" against polytheism; "eternity means deity", so nothing else is eternal. Christians adopted these principles, with the Logos/Wisdom as eternal with God.
+- **Basil** (*Hexaemeron* 2.4): "If matter were uncreated, then it would from the very first be of a rank equal to that of God and would deserve the same veneration."
+- **Rashi**: Gen 1:1 doesn't give the order of creation.
+- **The Apologists**: God is "in need of nothing" (*adeētos*): no God–matter dualism, no intermediaries (against Middle Platonism). **Aristides**: imperishable Creator, corruptible creature; God first made the elements, then the cosmos.
+- **Justin and Athenagoras**: Torchia: their teaching "clearly challenges any claim that these writers accepted a material substrate eternally coexisting with God".
+- **Tatian**: May calls him "the first" to say matter was produced by God; Copan: continuity with his teacher Justin, not a break.
+- **Theophilus of Antioch**: "out of things that are not He creates... whatever He pleases"; God is "without beginning because He is unbegotten". On the first day God made from nothing; on the other days He moulded what He'd made.
+
+**4. Understanding the Notion of Creatio ex Nihilo**
+- Aquinas's second and third ways argue for a first cause even **assuming** an eternal world: creation as dependence.
+- **Creation vs conservation**: Philip Quinn treats conservation as continuous re-creation. Craig: there's an intuitive distinction, which Quinn obscures, and continual re-creation threatens identity over time.
+- **A-theory of time** (tensed facts are real): McTaggart showed an A-theorist must be a **presentist**. On the A-theory, the universe's beginning is a real coming-into-being. See [[Presentism vs Eternalism]].
+- For B-theorists and Platonists, they offer a third kind of dependence, "*creatio stans*" (static creation), alongside *creatio originans* and *creatio continuans*.
+
+**5. Creatio ex Nihilo and Abstract Objects**
+- **Platonists** (realists) hold that abstract objects (numbers, sets, propositions, properties) really exist, necessarily and uncreated. Then not "all things" were made by God (John 1:3).
+- Abstract objects, if they exist, seem **metaphysically necessary**: a challenge to aseity.
+- The set-theoretic hierarchy (0 = ∅, 1 = {∅}, 2 = {∅,{∅}}... up to ω, the first infinite ordinal): a huge realm.
+- **Absolute creationism**: God creates even abstract objects. **Leftow**: God is identical with His essence. Craig: that's question-begging.
+- **Anti-realist options**: **fictionalism** (Hartry Field, Balaguer): mathematical sentences are literally false or truth-valueless, useful fictions. The theist attributes the fit between maths and the world ("homomorphic structuring") to God's design.
+- **Quine's criterion** (ontological commitment read off the existential quantifier "∃") rejected: his ontology also treats past, present and future as equally real, incompatible with creation from nothing. Logicians distinguish objectual vs substitutional readings of "∃".
+- **Divine conceptualism** (Menzel and Morris): mathematical objects are "God's collectings and concomitant concepts". See [[The Problem of Universals: Realism vs Nominalism]].
+
+**6. Philosophical Arguments**
+- Christians had to answer Aristotle's **arguments** for an eternal world, not just cite texts.
+- An **actual infinite**: a collection with more definite, discrete members than any natural number. In set theory, a set equivalent to one of its proper subsets.
+- **Hilbert's Hotel**: full with infinitely many guests, it can take infinitely more without anyone leaving; check out all the odd-numbered guests and infinitely many remain; check out all but three and three remain. "Not according to the mathematicians, but just ask the housekeeping staff!" Subtracting identical quantities (ℵ0 − ℵ0) gives contradictory results: so an actual infinite can't exist in reality.
+- "Can't God be infinite?" Divine infinity means necessity, perfection, omnipotence etc., not an infinite **number** of things.
+- **Tristram Shandy** (Russell): he writes his autobiography so slowly it takes a year per day; with infinite past time he'd have finished... yet he'd also be infinitely far behind. "It would have happened already."
+- Conclusion: the universe did not always exist. (A B-theorist would reject this, but also wouldn't hold *creatio ex nihilo* anyway.)
+
+**7. Scientific Evidence**
+- Wheeler: was there ever a greater prediction than the expansion of the universe?
+- **Friedman–Lemaître** standard Big Bang model: a universe not eternal in the past. There's no "outside" to the expansion and no "before".
+- The real question: why the universe exists rather than nothing.
+- **Oscillating models**: no known physics for a bounce; entropy builds up each cycle. Zeldovich and Novikov: "an infinite future, but only a finite past". Joseph Silk: no more than about **100** previous oscillations, given current entropy.
+- Current composition: about 4% ordinary matter, 23% dark matter, **73% dark energy**: an accelerating universe that won't recollapse.
+- **Vacuum fluctuation models**: Isham calls the problem "fairly lethal": fluctuations would occur everywhere in an eternal vacuum. Avoiding it means the vacuum itself began to expand: back to an absolute origin.
+- **Hawking**: "almost everyone now believes that the universe, and time itself, had a beginning at the big bang". His no-boundary model removes a beginning only by using **imaginary time**, which hides the real difference.
+- **Borde–Guth–Vilenkin**: Vilenkin: "the cyclic universe is past-incomplete"; it extends to brane cosmology. An initial singularity isn't eliminated.
+- **Penrose / Weyl curvature**: the initial state was extraordinarily low-entropy (Bekenstein–Hawking entropy); without a singularity, the origin of the second law is unexplained.
+
+**8. Naturalistic Alternatives**
+- **Gott and Li-Xin**: "the laws of physics may allow the universe to be its own mother" (a time loop). Leaves it to physicists, but notes it's a strange explanation.
+- **Grünbaum**: the inference to a first cause assumes "the spontaneity of nothingness". Craig: it rests on an **A-theory** of time, not on that.
+- **Atkins**: "not something for nothing after all, but nothing for nothing": commits him to the absurdity that nothing exists, not even himself.
+- **Virtual particles** don't come from nothing; they come from the quantum vacuum.
+- **Post**: "by definition the universe contains everything there is", so it can't have a cause: begs the question.
+- God "sans the universe" is timeless: time begins with the first event.
+- **"No definition of causality fits God causing the Big Bang"**: then either some undiscovered definition is right or cause is indefinable; neither shows God can't cause. Lewis's counterfactual analysis gives only that c and e are "causally related", not the direction.
+- The cause of the Big Bang is **God himself**, not an event of God's willing; His will is necessarily successful.
+- It's more plausible to deny a premise of these objections than to affirm what Hume called "the absurd Proposition" that something might arise without a cause.
+
 ## Related
 
 - [[The Forms and the Demiurge]]
