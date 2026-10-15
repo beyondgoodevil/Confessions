@@ -140,3 +140,4 @@ The **Incarnation** and **resurrection** are where Platonism had to break. "The 
 - [[Augustine's City of God]]
 - [[Maximus the Confessor as a European Philosopher]]
 - [[Philosophy as a Way of Life]]
+- [[John's Gospel and Greek Philosophy]]

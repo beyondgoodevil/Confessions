@@ -136,3 +136,4 @@ An answer from the *European Philosopher* volume (Tollefsen and others):
 - [[The Forms and the Demiurge]]
 - [[Maximus the Confessor as a European Philosopher]]
 - [[Christian Platonism]]
+- [[John's Gospel and Greek Philosophy]]
