@@ -6,7 +6,7 @@ tags: [philosophy, metaphysics, aristotle, philosophy-of-science]
 summary: Aristotle's Physics book by book. How to study nature, the principles of change (form, matter, privation) against Parmenides, nature as an inner principle of motion, the four causes, chance, teleology in nature, motion as the actuality of the potential, the infinite, place, void and time, and the argument of book VIII for an unmoved mover.
 author: Aristotle
 source: "Aristotle, Physics; Aristotle's Physics: A Critical Guide, ed. Mariska Leunissen (Cambridge, 2015)"
-aliases: ["Physics: Nature, Change and the Four Causes", "Aristotle's Physics: Nature, Change and the Four Causes", Aristotle's Physics, Physics, Four Causes, Act and Potency, Hylomorphism]
+aliases: ["Physics: Nature, Change and the Four Causes", Aristotle's Physics, Physics, Four Causes, Act and Potency, Hylomorphism]
 ---
 
 "Physics" means the study of ***physis***, **nature**: things that move and change. Not physics in the modern sense but the philosophy of nature, what any change must involve. It's the foundation for the *Metaphysics* and for Aquinas's proofs, and Feser's whole argument depends on it. Eight books.
