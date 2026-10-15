@@ -18,14 +18,26 @@ This canon set the precedent for how authority was distributed among the early b
 
 - The immediate issue was **Melitius of Lycopolis**, who had been ordaining bishops in Egypt without Alexandria's approval (the Melitian schism). The canon confirms Alexandria's **regional** authority over Egypt, Libya and Pentapolis.
 - Then it adds: "**Likewise in Antioch and the other provinces**, let the churches retain their privileges." So three great sees (Rome, Alexandria, Antioch) are named, each with an area.
+    - **Apostolic Canon 34**: the bishops of each nation must know "who is the chief among them", do nothing great without him; "let him not do anything without the consent of all." (Siecienski)
 - What Rome's area was, the canon doesn't say. **Rufinus's** Latin version (c. 400) limits it to the "suburbicarian" churches (central and southern Italy).
 - At the Council of Chalcedon (451), the papal legate Paschasinus read a Latin version of Canon 6 beginning "**The Roman Church has always had the primacy**". The Greek text, read alongside, didn't contain it. Siecienski: an interpolation that Rome used in good faith but which the council didn't accept.
 - Canon 7 adds honour for **Jerusalem** ("Aelia"), while keeping it under Caesarea.
 
+## Rome in the Early Centuries
+
+- **Clement** of Rome "in third place from the apostles" (Irenaeus): but almost all modern scholars, Catholic and Orthodox, reject a single monarchical bishop in Rome in the 1st century (Siecienski).
+- **Irenaeus**, *AH* III.3: we lack the Greek; *potentiorem principalitatem* can mean "greater authority" or "most excellent origin", and he may be using Rome as an example (Siecienski).
+- Easter dispute: "Neither could Anicetus persuade Polycarp, nor Polycarp persuade Anicetus": they disagreed and stayed in communion (Siecienski).
+- The Eastern bishops (c. 341, Sozomen): Rome "was entitled to universal honour because it was the school of the apostles", yet they protested Pope Julius overturning their synod (Siecienski).
+- The African bishops wrote to Innocent with "*captatio benevolentiae*", flattering him to get what they wanted (Eno; Siecienski).
+
 ## Pentarchy
 
 - Later the canons of Constantinople (381), Chalcedon (451) and Justinian's laws produce the **pentarchy**: Rome, Constantinople, Alexandria, Antioch, Jerusalem, in that order of honour.
+    - Constantinople canon 3: some see an anti-Roman edge; McGlynn: in giving Constantinople "second place to Rome, they award him nothing" (Siecienski).
+    - Chalcedon canon 28 distinguished prerogatives "accorded" to Old Rome from those "apportioned" to New Rome (Siecienski).
 - The model: the Church is governed by the five patriarchs **in council**, with Rome first. Like five senses of one body (Theodore the Studite).
+- **Gregory the Great** opposed the title "ecumenical patriarch", affirming each bishop's rights against universal claims, even Rome's: "remove that word 'ordered' from my hearing, because I know who I am, and who you are" (to Eulogius). A witness to the first millennium's "ecclesiology of communion" (Siecienski).
 
 ## Objections and Replies
 
@@ -36,18 +48,6 @@ This canon set the precedent for how authority was distributed among the early b
 | **Ignatius** (to the Romans): Rome "presides in love" | presiding in **love** (*agape*, perhaps the whole community) is not jurisdiction |
 
 *Mine*: the argument from Canon 6 alone is modest: it shows Nicaea saw Rome as one major see among several, with regional authority. The stronger Orthodox case is the whole first-millennium pattern. See [[Vatican 1 Papal Supremacy Goes Against the Canons of Nicea]].
-
-## More from Siecienski (ch. 4)
-
-- **Clement** of Rome "in third place from the apostles" (Irenaeus): but almost all modern scholars, Catholic and Orthodox, reject a single monarchical bishop in Rome in the 1st century.
-- **Irenaeus**, *AH* III.3: we lack the Greek; *potentiorem principalitatem* can mean "greater authority" or "most excellent origin", and he may be using Rome as an example.
-- Easter dispute: "Neither could Anicetus persuade Polycarp, nor Polycarp persuade Anicetus": they disagreed and stayed in communion.
-- **Apostolic Canon 34**: the bishops of each nation must know "who is the chief among them", do nothing great without him; "let him not do anything without the consent of all."
-- The Eastern bishops (c. 341, Sozomen): Rome "was entitled to universal honour because it was the school of the apostles", yet they protested Pope Julius overturning their synod.
-- Constantinople canon 3: some see an anti-Roman edge; McGlynn: in giving Constantinople "second place to Rome, they award him nothing".
-- The African bishops wrote to Innocent with "*captatio benevolentiae*", flattering him to get what they wanted (Eno).
-- Chalcedon canon 28 distinguished prerogatives "accorded" to Old Rome from those "apportioned" to New Rome.
-- **Gregory the Great** opposed the title "ecumenical patriarch", affirming each bishop's rights against universal claims, even Rome's: "remove that word 'ordered' from my hearing, because I know who I am, and who you are" (to Eulogius). A witness to the first millennium's "ecclesiology of communion".
 
 ## Related
 

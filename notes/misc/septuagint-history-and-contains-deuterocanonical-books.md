@@ -11,8 +11,10 @@ source: Eugen J. Pentiuc, The Old Testament in Eastern Orthodox Tradition (Oxfor
 
 - **Date:** 3rd-2nd centuries BCE.
     - Historically: the Torah was translated in Alexandria in the 3rd c. BC for Greek-speaking Jews; the rest over the next two centuries, by different translators, of varying literalness.
+    - "**The** Septuagint" is a misnomer: it suggests one uniform work. It took over two centuries, many independent translators, and wasn't all done in Alexandria. Some books are literal (the Pentateuch), others free (Daniel, Job; Pentiuc).
 - **Origin:** Greek-speaking Jewish communities, primarily in Alexandria, Egypt.
     - **Letter of Aristeas** (2nd c. BC): Ptolemy II Philadelphus (285–246 BC) asked for a translation of the Jewish Law for the Library of Alexandria; **72 elders** (six from each tribe) translated the **Torah** in 72 days on the island of Pharos. Hence "the Seventy" (LXX).
+        - The **Letter of Aristeas** was really written in the late 2nd c. BC, as a defence of Judaism and of the Greek Law. Josephus retells it to show a high priest and a Greek king getting on well (Pentiuc).
     - Philo adds that they all independently produced **identical** translations: a sign of inspiration.
 - **Contents:** The Septuagint includes the Hebrew Scriptures and the Deuterocanonical books (which are not part of the Hebrew Bible canon today), such as:
     - Tobit
@@ -27,8 +29,11 @@ source: Eugen J. Pentiuc, The Old Testament in Eastern Orthodox Tradition (Oxfor
     - Isa 7:14 LXX: "**a virgin** (*parthenos*) shall conceive" (Hebrew *almah*, "young woman"). Matt 1:23 quotes the LXX.
     - Heb 10:5 quotes Ps 40:6 LXX: "**a body** hast thou prepared me" (Hebrew: "mine ears hast thou opened").
     - Acts 15:16-17 quotes Amos 9:11-12 LXX ("that the residue of men might seek after the Lord"), which differs from the Hebrew.
+    - The NT doesn't only use the LXX: Matthew and Paul often quote **proto-Theodotion**, an early revision bringing the Greek closer to the Hebrew. The closest LXX quotations are in John, Luke–Acts and the catholic epistles (Pentiuc).
 - **The Bible of the Fathers** (Pentiuc): the Greek Fathers read and commented on the LXX; the Latin Old Latin version was translated from it.
 - **The Orthodox Church's Old Testament** today (Pentiuc): the LXX is the authoritative text in the Greek Church (Slavonic follows it too).
+    - Pentiuc warns against saying the Septuagint is "the" official Orthodox Old Testament. It was originally a **Jewish** undertaking. Unlike the Vulgate in the West, no Eastern council ever sanctioned it as the authoritative text. Vernacular translations were mostly made from it until the 19th century simply because the Church had always used it.
+    - If a Pan-Orthodox Council made the LXX official, it would have to decide how much to trust legends added to a pseudepigraphon, and **which** manuscripts or recension to choose (Pentiuc).
 
 ## 2. Dead Sea Scrolls
 
@@ -40,6 +45,7 @@ source: Eugen J. Pentiuc, The Old Testament in Eastern Orthodox Tradition (Oxfor
 ## 3. Masoretic Text
 
 - **Date:** Final form compiled around the 7th-10th centuries CE (based on earlier texts).
+    - The MT itself: the Masoretes (7th–10th c., Ben Asher family) added vowels and notes; the **Aleppo Codex** (incomplete) and **Leningrad Codex** (1009, complete) are the main witnesses (Pentiuc).
 - **Origin:** Rabbinic Jewish tradition in Israel and Babylon.
 - **Contents:** This became the authoritative Hebrew text for Judaism and **does not** include the Deuterocanonical books, which were not recognized by the Rabbinic canon. These books are considered **apocryphal** in the Jewish tradition.
 
@@ -52,42 +58,30 @@ source: Eugen J. Pentiuc, The Old Testament in Eastern Orthodox Tradition (Oxfor
 ## Jewish Rejection
 
 - After Christians used the LXX against Jews (Isa 7:14 especially), Jews moved to new Greek versions: **Aquila** (c. 130 AD, very literal, *neanis* "young woman"), Symmachus, Theodotion.
+    - ***Kaige*-Theodotion** (1st c. BC; named from its habit of rendering "also" as *kaige*): literal, transliterates Hebrew words. Its version of **Daniel** replaced the LXX Daniel in almost every manuscript (Justin already used it; Pentiuc).
+    - **Aquila** (c. 125, a proselyte, pupil of the rabbis) followed Rabbi Akiba's method word by word; **Symmachus** (c. 200, said to be an Ebionite) is idiomatic (Pentiuc).
 - Justin Martyr (*Dialogue with Trypho* 71) accuses the Jews of altering texts; Trypho says the LXX is the inaccurate one.
+
+## Recensions, Manuscripts and Editions
+
+- **Origen's Hexapla** (c. 240, 28 years' work, c. 6,000 leaves): six columns: Hebrew, Greek transliteration, Aquila, Symmachus, LXX, Theodotion. In the LXX column he marked pluses with an **obelus** and filled minuses (marked with an **asterisk**) from Theodotion. Hengel: putting the Hebrew first reminded the Church that the LXX "is only a translation". Kept at Caesarea (Pentiuc).
+- **Lucian of Antioch** (c. 300): a stylistic recension used by the Antiochenes (Pentiuc).
+- The great codices: **Vaticanus** (4th c., little revision), **Sinaiticus** (4th c.), **Alexandrinus** (5th c., revised). Printed editions: Complutensian Polyglot (1514–17), Sixtine (1587), **Rahlfs** (1935), **Göttingen** (1931–, still in progress; Pentiuc).
 
 ## Orthodox View of Inspiration
 
 - Many Fathers (Irenaeus, Augustine) held the LXX to be **inspired** in its own right, not just a translation.
 - Augustine (*City of God* XVIII.43) argued both Hebrew and LXX were inspired, and where they differ, the Spirit said something through each.
+- **Jerome** called the cells-and-identical-translations story a legend (Aristeas and Josephus don't mention it) and blamed Ptolemy's Platonism for distortions. **Augustine** went the other way, even interpreting LXX errors: Ps 87(88):10, "shall **physicians** revive them?", where the Hebrew has "shades" (Pentiuc).
+- The *Rudder* defends LXX inspiration with all the legends, rejects Aquila, Symmachus and Theodotion as obscuring prophecies of Christ (ignoring that Daniel itself is Theodotion), and ranks the LXX and Peshitta highest (Pentiuc).
+- **Korais** (1808) proposed translating from Hebrew into modern Greek. After a Protestant Greek translation from Hebrew (1834), **Oikonomos** wrote in defence of LXX inspiration; the Church became the guardian of national tradition; the 1911 Greek constitution forbade translating the Bible into modern Greek (Pentiuc).
 
-## More from Pentiuc (ch. 2)
+## The Septuagint's Merits
 
-**Not an "official" text**
-- Pentiuc warns against saying the Septuagint is "the" official Orthodox Old Testament. It was originally a **Jewish** undertaking. Unlike the Vulgate in the West, no Eastern council ever sanctioned it as the authoritative text. Vernacular translations were mostly made from it until the 19th century simply because the Church had always used it.
-- "**The** Septuagint" is a misnomer: it suggests one uniform work. It took over two centuries, many independent translators, and wasn't all done in Alexandria. Some books are literal (the Pentateuch), others free (Daniel, Job).
-- The **Letter of Aristeas** was really written in the late 2nd c. BC, as a defence of Judaism and of the Greek Law. Josephus retells it to show a high priest and a Greek king getting on well.
-- **Jerome** called the cells-and-identical-translations story a legend (Aristeas and Josephus don't mention it) and blamed Ptolemy's Platonism for distortions. **Augustine** went the other way, even interpreting LXX errors: Ps 87(88):10, "shall **physicians** revive them?", where the Hebrew has "shades".
-
-**The New Testament's use**
-- The NT doesn't only use the LXX: Matthew and Paul often quote **proto-Theodotion**, an early revision bringing the Greek closer to the Hebrew. The closest LXX quotations are in John, Luke–Acts and the catholic epistles.
-
-**Revisions and Origen**
-- ***Kaige*-Theodotion** (1st c. BC; named from its habit of rendering "also" as *kaige*): literal, transliterates Hebrew words. Its version of **Daniel** replaced the LXX Daniel in almost every manuscript (Justin already used it).
-- **Aquila** (c. 125, a proselyte, pupil of the rabbis) followed Rabbi Akiba's method word by word; **Symmachus** (c. 200, said to be an Ebionite) is idiomatic.
-- **Origen's Hexapla** (c. 240, 28 years' work, c. 6,000 leaves): six columns: Hebrew, Greek transliteration, Aquila, Symmachus, LXX, Theodotion. In the LXX column he marked pluses with an **obelus** and filled minuses (marked with an **asterisk**) from Theodotion. Hengel: putting the Hebrew first reminded the Church that the LXX "is only a translation". Kept at Caesarea.
-- **Lucian of Antioch** (c. 300): a stylistic recension used by the Antiochenes.
-- The great codices: **Vaticanus** (4th c., little revision), **Sinaiticus** (4th c.), **Alexandrinus** (5th c., revised). Printed editions: Complutensian Polyglot (1514–17), Sixtine (1587), **Rahlfs** (1935), **Göttingen** (1931–, still in progress).
-
-**In modern Orthodoxy**
-- The *Rudder* defends LXX inspiration with all the legends, rejects Aquila, Symmachus and Theodotion as obscuring prophecies of Christ (ignoring that Daniel itself is Theodotion), and ranks the LXX and Peshitta highest.
-- **Korais** (1808) proposed translating from Hebrew into modern Greek. After a Protestant Greek translation from Hebrew (1834), **Oikonomos** wrote in defence of LXX inspiration; the Church became the guardian of national tradition; the 1911 Greek constitution forbade translating the Bible into modern Greek.
-- If a Pan-Orthodox Council made the LXX official, it would have to decide how much to trust legends added to a pseudepigraphon, and **which** manuscripts or recension to choose.
-
-**Three real merits**
-1. **A different *Vorlage***: after Qumran, the LXX is seen as often translating a different Hebrew text, not just paraphrasing the Masoretic one. LXX **Jeremiah** is about 2,700 words shorter than the MT, and Qumran has both a long (4QJer^a) and a short (4QJer^b,d) Hebrew Jeremiah.
-2. The oldest witness to the Hebrew text's interpretation (Müller: a "witness to the process of transmitting tradition").
-3. The Bible of the Church and the Fathers.
-- Childs: why should the Church be bound to the Masoretic text "when its development extended long after the inception of the church and was carried on within a rabbinic tradition?"
-- The MT itself: the Masoretes (7th–10th c., Ben Asher family) added vowels and notes; the **Aleppo Codex** (incomplete) and **Leningrad Codex** (1009, complete) are the main witnesses.
+1. **A different *Vorlage***: after Qumran, the LXX is seen as often translating a different Hebrew text, not just paraphrasing the Masoretic one. LXX **Jeremiah** is about 2,700 words shorter than the MT, and Qumran has both a long (4QJer^a) and a short (4QJer^b,d) Hebrew Jeremiah (Pentiuc).
+2. The oldest witness to the Hebrew text's interpretation (Müller: a "witness to the process of transmitting tradition"; Pentiuc).
+3. The Bible of the Church and the Fathers (Pentiuc).
+- Childs: why should the Church be bound to the Masoretic text "when its development extended long after the inception of the church and was carried on within a rabbinic tradition?" (Pentiuc)
 
 ## Related
 

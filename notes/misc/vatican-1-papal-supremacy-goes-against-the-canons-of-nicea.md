@@ -37,29 +37,26 @@ The **jurisdiction** claim is what Orthodox see as the real break: it makes ever
 
 - **Rome's prestige** in the early Church was real: the church of Peter and Paul, the martyrs' church, the imperial capital, famous for orthodoxy (Irenaeus: "every church must agree with this church because of its more powerful pre-eminence", *Against Heresies* 3.3.2: much debated; Siecienski).
 - But in the East, Rome's role was **primacy within communion**: honoured, consulted, sometimes appealed to, never governing (Siecienski).
+    - **7th c.**: Sophronius praised Rome as "luminary of all under the sun"; **Maximus**: "I love the Romans because we share the same faith, the Greeks because we share the same language." Larchet: for Maximus the pope can't be "vicar of Peter" or hold a "Petrine ministry" in the later sense; others see Maximus giving Rome strong support (Siecienski).
+    - **Photius** (9th c.): the Bulgarian question ("to which church must we be subject?"); the 869–70 council's canon 21 affirmed the pentarchy order. Dvornik: the anti-Roman tract *Against Those Who Say Rome is the First See* can't be Photius's (Siecienski).
+    - **1054**: the Byzantine synod anathematised Humbert's party but didn't mention or condemn papal primacy (Siecienski).
+    - Byzantine *translatio* argument: if primacy came from the capital, it passed to Constantinople. Patriarch Nicholas: "there was a time when the pope was first among us since he shared our sentiments; now how can we call him first?" (Siecienski)
+    - **Barlaam** (before turning against the hesychasts): the pope's primacy comes from synods and emperors, "because Rome was the imperial city", not from Peter (Siecienski).
+    - **Symeon of Thessalonica**: "it is not with the pope that we refuse communion": a pope who keeps Orthodox faith would be first; he lost primacy by heresy (Siecienski).
 - Popes like **Leo I** and **Gregory the Great** made strong claims. But Gregory himself rejected the title "ecumenical patriarch" for Constantinople: "whoever calls himself universal bishop is the forerunner of Antichrist" (*Letters* 5.18; Siecienski).
+    - Hadrian I to the emperor: Rome is "**head of all God's churches**". Alcuin: "the first see can be judged by no one", yet Charlemagne restored Leo III (800; Siecienski).
+    - 10th c.: so many popes deposed that "the first see is judged by no one" had "become pure fiction" (Schatz; Siecienski).
 - The **Gregorian reform** (11th c.) and *Dictatus Papae* (1075) turned primacy into monarchy; the **Fourth Crusade** (1204) made it a sore point in the East (Siecienski).
+    - **Gregorian reform**: *Dictatus Papae*: "that the Roman pontiff alone can rightly be called universal"; "that no synod shall be called general without his order". Papadakis: "reform" understates the **discontinuity** (Siecienski).
+    - **Fourth Crusade** (1204): Villehardouin justified the attack because "the Greeks had seceded from the Church of Rome". "Union" meant to Rome the East's return to obedience (Siecienski).
+    - **Lyons II** (1274): union promulgated quietly in the palace chapel, not Hagia Sophia; widely rejected (Siecienski).
 - **Florence** (1439): the pope's primacy was defined with the clause "**as is contained in the acts of the ecumenical councils and the holy canons**". The East understood that as a limit; the West later dropped it (Siecienski).
+    - **Conciliarism**: the universal Church is above the Roman Church; Byzantines had said this for centuries (Siecienski).
 
 ## What the Orthodox Would Accept
 
 - A **primacy of honour**, and even a real role as **first** in a conciliar Church: convening, presiding, appeals. Ravenna (2007) Orthodox–Catholic document: primacy exists at local, regional and universal levels, always with synodality.
 - Not universal immediate jurisdiction or personal infallibility.
-
-## More from Siecienski (ch. 5–7)
-
-- **7th c.**: Sophronius praised Rome as "luminary of all under the sun"; **Maximus**: "I love the Romans because we share the same faith, the Greeks because we share the same language." Larchet: for Maximus the pope can't be "vicar of Peter" or hold a "Petrine ministry" in the later sense; others see Maximus giving Rome strong support.
-- Hadrian I to the emperor: Rome is "**head of all God's churches**". Alcuin: "the first see can be judged by no one", yet Charlemagne restored Leo III (800).
-- **Photius** (9th c.): the Bulgarian question ("to which church must we be subject?"); the 869–70 council's canon 21 affirmed the pentarchy order. Dvornik: the anti-Roman tract *Against Those Who Say Rome is the First See* can't be Photius's.
-- 10th c.: so many popes deposed that "the first see is judged by no one" had "become pure fiction" (Schatz).
-- **1054**: the Byzantine synod anathematised Humbert's party but didn't mention or condemn papal primacy.
-- **Gregorian reform**: *Dictatus Papae*: "that the Roman pontiff alone can rightly be called universal"; "that no synod shall be called general without his order". Papadakis: "reform" understates the **discontinuity**.
-- Byzantine *translatio* argument: if primacy came from the capital, it passed to Constantinople. Patriarch Nicholas: "there was a time when the pope was first among us since he shared our sentiments; now how can we call him first?"
-- **Fourth Crusade** (1204): Villehardouin justified the attack because "the Greeks had seceded from the Church of Rome". "Union" meant to Rome the East's return to obedience.
-- **Lyons II** (1274): union promulgated quietly in the palace chapel, not Hagia Sophia; widely rejected.
-- **Barlaam** (before turning against the hesychasts): the pope's primacy comes from synods and emperors, "because Rome was the imperial city", not from Peter.
-- **Symeon of Thessalonica**: "it is not with the pope that we refuse communion": a pope who keeps Orthodox faith would be first; he lost primacy by heresy.
-- **Conciliarism**: the universal Church is above the Roman Church; Byzantines had said this for centuries.
 
 ## Related
 
