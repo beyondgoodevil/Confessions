@@ -4,7 +4,7 @@ date: 2026-09-21
 title: "1 Corinthians 15:26: The Last Enemy That Will Be Destroyed Is Death"
 tags: [theology, scripture, salvation]
 summary: "1 Corinthians 15:26 (NKJV) in its context in 1 Corinthians 15, and what it means that death is an enemy, not a natural part of life: the Fathers, the Paschal hymns, and Schmemann on death."
-source: "1 Corinthians 15:26 (New King James Version); Alexander Schmemann, For the Life of the World ch. 6; St. John Chrysostom, Paschal Homily; St. Athanasius, On the Incarnation 27–29"
+source: "1 Corinthians 15:26 (New King James Version); Alexander Schmemann, For the Life of the World ch. 6; St. John Chrysostom, Paschal Homily; St. Athanasius, On the Incarnation, trans. John Behr (SVS Press) ch. 21–30; Sergius Bulgakov, The Lamb of God ch. 5"
 ---
 
 **1 Corinthians 15:26** · New King James Version
@@ -45,6 +45,22 @@ source: "1 Corinthians 15:26 (New King James Version); Alexander Schmemann, For 
 
 - The opposite of Epicurus's "death is nothing to us": for Christians death is very much something, an enemy, but a beaten one. See [[Epicurus and Lucretius]].
 - The verse is why the Orthodox treat the body with such care (burial, not cremation; relics): the body is going to be raised.
+
+## Athanasius on Death Defeated (*On the Incarnation* 21–30)
+
+- Since the Saviour died for us, "we no longer die as those condemned", but are "dissolved only for the time which God has set for each", like **seeds** sown that will rise (ch. 21, quoting 1 Cor 15:53-55).
+- The proof that death is defeated is that Christians, even boys and young girls, "practice dying" and rush to martyrdom. Before Christ, everyone wept for the dying "as if they were perishing" (ch. 27–28).
+- Images:
+    - a defeated **tyrant** bound hand and foot, mocked by passers-by: "O death, where is thy victory?"
+    - **asbestos**: someone who doubts fire can be beaten should put it on and touch the fire
+    - a **snake** trampled, a **lion** played with by children: obviously dead or powerless (ch. 29)
+- **Third day**: long enough to prove He was really dead, soon enough that the witnesses were still alive "while the word was still echoing in their ears" (ch. 26).
+- A dead man can't act; but Christ is daily changing adulterers, murderers and the impious: "This is not the work of one dead, but of one alive" (ch. 30).
+
+## Bulgakov
+
+- There is "no death as a positive principle of being, for God did not create it": so the Lord's death is called a "dormition".
+- His death isn't an undoing of the Incarnation but "the deepest point of His in-humanization": Life tastes death to take its sting into itself, "trampling down death by death". Like God resting on the seventh day, the Son of Man rests "like a corn of wheat in the heart of the earth".
 
 ## Related
 
