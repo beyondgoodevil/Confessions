@@ -15,9 +15,9 @@ In **"Life of Moses"**, Gregory uses Moses' ascent of Mount Sinai as a metaphor 
 
 This teaching emphasizes that the process of becoming united with God is an ongoing, dynamic journey, where believers experience God's energies ever more deeply, but without fully comprehending His infinite essence.
 
-## The Life of Moses
+## Moses' Ascent
 
-Written late in life (c. 390) for a monk asking about the perfect life. Two parts: the **history** (Moses' life retold) and the **contemplation** (*theoria*), reading each episode as a stage of the soul's ascent.
+The *Life of Moses* was written late in life (c. 390) for a monk asking about the perfect life. Two parts: the **history** (Moses' life retold) and the **contemplation** (*theoria*), reading each episode as a stage of the soul's ascent.
 
 **Three theophanies, three stages**
 
@@ -30,7 +30,7 @@ Written late in life (c. 390) for a monk asking about the perfect life. Two part
 **The back of God** (Exod 33:18-23)
 - Moses asks to see God's glory; God shows only His **back parts**.
 - Gregory: this means **following** God. "To follow God wherever He might lead is to behold God." You see the back of someone you walk behind.
-- And: Moses, after all his ascents, still asks to see more. Desire for God is never satisfied, because God is infinite. "This truly is the vision of God: never to be satisfied in the desire to see Him."
+- And: Moses, after all his ascents, still asks to see more. Desire for God is never satisfied, because God is infinite (the line quoted above).
 
 ## Infinity and Epektasis
 
@@ -39,9 +39,9 @@ Written late in life (c. 390) for a monk asking about the perfect life. Two part
 - *Epektasis*, from Phil 3:13: "**reaching forth** (*epekteinomenos*) unto those things which are before". Not a restless lack but joy that always increases.
 - Contrasts with Origen's satiety (*koros*): souls got bored of God and fell. For Gregory, you can't get bored of the infinite. See [[The Logoi of Creation in St. Maximus]] sec. 5.
 
-## Essence and Energies in Gregory (Bradshaw)
+## Essence and Energies
 
-- In *Against Eunomius*: God's **essence** (*ousia*) is beyond names; we name God from His **energies** (*energeiai*) and powers (*dynameis*) seen in creation.
+- In *Against Eunomius*: God's **essence** (*ousia*) is beyond names; we name God from His **energies** (*energeiai*) and powers (*dynameis*) seen in creation (Bradshaw).
 - Eunomius said "unbegotten" names God's essence, so the begotten Son must be another essence. Gregory: no name grasps the essence; "unbegotten" is a property of the Father's person.
 - "**Dunamis**" (power) in Gregory: God's power is His activity going out; the creature knows the power, not the essence. See [[Differences Between Gregory’s Dunamis and Thomistic Pure Act]].
 

@@ -18,23 +18,21 @@ source: St. Gregory Palamas, The Triads; David Bradshaw, Aristotle East and West
 9. **Justice:** God's righteous actions, establishing order and equity in creation.
 10. **Mercy:** God's compassionate action towards creation, offering forgiveness and help.
 
-## What the Energies Are (Palamas, *Triads*)
+## What the Energies Are
+
+Palamas's account in the *Triads*, with the earlier Fathers behind each point (Bradshaw).
 
 - *Energeia* = activity, operation. God's energies are **God Himself in action**, going out toward creation and making Himself known and shared.
+    - **John of Damascus**: the energies are the "movement" of the divine nature.
 - **Uncreated**: they are God, not created effects. "The deifying gift of the Spirit is not the essence of God, but it is an energy of the essence, uncreated" (*Triads* III.1).
 - **Really distinct** from the essence, but **not separate**: the sun and its rays. The essence is unknowable and unparticipable; the energies are known and participated.
+    - **Basil**, *Letter 234*: "We know our God from His energies, but we do not claim to approach His essence. His energies come down to us, but His essence remains unapproachable."
+    - **Dionysius**: the divine names; God's "processions" (*proodoi*) in which creatures participate. See [[St. Dionysius the Areopagite]].
 - **Many**, but undivided: goodness, wisdom, life, power, light, grace; and one, since God is one.
+    - **Gregory of Nyssa**: the names of God (good, wise, just) name His energies, not His essence. See [[Saint Gregory of Nyssa: Essence Energies]].
 - **Common** to the three Persons: every energy is from the Father, through the Son, in the Spirit.
 - **Not a third thing** between God and creatures: "the whole God" is present in each energy.
 - Known by the saints as **light**: the light of Tabor, seen by the apostles and the hesychasts, is an uncreated energy. See [[The Transfiguration of Jesus on Mount Tabor]].
-
-## Patristic Background (Bradshaw)
-
-- **Basil**, *Letter 234*: "We know our God from His energies, but we do not claim to approach His essence. His energies come down to us, but His essence remains unapproachable."
-- **Gregory of Nyssa**: the names of God (good, wise, just) name His energies, not His essence. See [[Saint Gregory of Nyssa: Essence Energies]].
-- **Dionysius**: the divine names; God's "processions" (*proodoi*) in which creatures participate. See [[St. Dionysius the Areopagite]].
-- **Maximus**: two natural energies in Christ; deification as sharing God's energy. See [[The Logoi of Creation in St. Maximus]].
-- **John of Damascus**: the energies are the "movement" of the divine nature.
 
 ## Barlaam's Objection and Palamas's Answers
 
@@ -48,6 +46,7 @@ source: St. Gregory Palamas, The Triads; David Bradshaw, Aristotle East and West
 ## Why It Matters
 
 - **Theosis** is real participation in God, not in a created grace. 2 Pet 1:4: "partakers of the divine nature" (by energy, not essence).
+    - **Maximus**: two natural energies in Christ; deification as sharing God's energy (Bradshaw). See [[The Logoi of Creation in St. Maximus]].
 - **Creation is free**: creating is an energy of God's will, not a necessity of His essence. See [[How the Absolutely Simple Creator Escapes a Modal Collapse]].
 - **Apophatic and cataphatic** together: unknowable essence, knowable energies. See [[Apophatic and Cataphatic Theology]].
 

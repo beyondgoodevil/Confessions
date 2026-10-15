@@ -22,9 +22,13 @@ Shorter forms:
 Two halves:
 
 - "Lord Jesus Christ, Son of God" = confession of who He is. "No man can say that Jesus is the Lord, but by the Holy Ghost" (1 Cor 12:3).
+    - Barrington-Ward, an Anglican bishop who learned the prayer from Orthodox teachers, describes it as weaving four strands. The first two are here: **"Lord Jesus Christ"**: worship, adoration; **"Son of God"**: faith, confession of who He is.
 - "have mercy on me, a sinner" = repentance.
+    - The other two strands: **"have mercy on me"**: the cry for mercy (*eleos*, related to the oil of healing); **"a sinner"**: repentance, and solidarity with all sinners: intercession.
 
 So it's the Gospel in one line: who Christ is, what I am, what I need.
+
+And it includes the **Trinity** (Barrington-Ward): to the Son, as "Son of God" (the Father), in the Spirit (1 Cor 12:3, above).
 
 ## 2. Where It Comes From in Scripture
 
@@ -52,14 +56,20 @@ So it's the Gospel in one line: who Christ is, what I am, what I need.
 **Athos and the 14th c. controversy**
 
 - Athonite monks prayed it with bodily stillness and spoke of seeing the **uncreated light**, the light of Tabor.
+    - Palamas (*Triads*): the light of Tabor is the same light the saints see: uncreated, the glory of God, "the beauty of the age to come". See [[God's Uncreated Energies]].
 - **Barlaam of Calabria** attacked: God is known only indirectly, any light seen must be created. (He also mocked them as "navel-gazers".)
 - **St. Gregory Palamas**, *Triads*: God is unknowable in **essence**, truly known and shared in through His **uncreated energies**.
+    - The *Triads in Defence of the Holy Hesychasts* (c. 1338–41) are three sets of three treatises against Barlaam.
+    - **I**: against the claim that **secular learning** is needed for knowing God; the nous and the body in prayer (defence of the psychosomatic method).
+    - **II**: the same themes, more developed; prayer and the body; the light.
+    - **III**: the **uncreated light** and the **essence–energies** distinction; deification as real participation.
 - Councils of Constantinople **1341, 1347, 1351** sided with Palamas.
 
 **Philokalia, 1782**
 
 - St. Nikodemos of the Holy Mountain + St. Makarios of Corinth collect the main texts.
 - St. Paisius Velichkovsky takes it into Slavonic → Optina elders, St. Seraphim of Sarov.
+    - 19th-century Russian teaching on the prayer, especially **St. Theophan the Recluse** and **St. Ignatius Brianchaninov**, is collected by Igumen Chariton in *The Art of Prayer*.
 
 **Way of a Pilgrim, 19th c.**
 
@@ -85,13 +95,18 @@ From St. Theophan the Recluse and others:
 1. **Lips.** Said aloud or under the breath, with effort to pay attention.
 2. **Mind.** Said inwardly, attention stays in the words.
 3. **Heart.** Becomes continuous, "self-acting". This is a gift, not something a method produces.
+    - It comes as a gift after long labour (*The Art of Prayer*).
+    - **"Stand before God with the mind in the heart"**: Theophan's definition of prayer. Not the words but the standing.
+    - **Warmth of heart**: a sign of prayer becoming prayer of the heart. Not emotional excitement but a quiet, steady warmth. Don't confuse it with physical or imaginative heat.
 
 ## 6. Practice
 
 - A **rule**: set number or set time, counted on a prayer rope (*komboskini* / *chotki*).
 - Through the day: at work, walking, waiting.
 - Attention over quantity. "Enclose the mind in the words."
+    - **Attention** is everything (Theophan): "the principal thing is to stand with the mind in the heart before God, and to go on standing before Him unceasingly day and night."
 - Posture and breathing appear in some texts. Secondary, and the Fathers warn against using them without a guide.
+    - **Humility** above methods: "prayer is God's gift; ask for it and it will be given" (*The Art of Prayer*).
 
 ## 7. Warnings
 
@@ -99,50 +114,17 @@ From St. Theophan the Recluse and others:
 - **Inside the Church's life.** Goes with confession, Communion, fasting, the commandments. Doesn't replace them.
 - **Spiritual father** for the deeper practice, because of *prelest*.
 - **Don't look for experiences.** No seeking lights or sensations, and distrust them if they come.
+- **No images.** Don't imagine Christ or anything else while praying; that leads to delusion (*prelest*). Prayer is beyond imagination (*The Art of Prayer*).
 
 ## 8. Why It Matters for Theology
 
 - It depends on the essence–energies distinction. If Barlaam is right, the monks are at best seeing something created, and theosis is a metaphor.
 - Shows that knowing God in Orthodoxy is communion, not only correct propositions.
+    - Palamas (*Triads*): philosophy is useful but not necessary for knowledge of God; the prophets and apostles were fishermen.
 - The body is involved. It too is to be sanctified and raised.
+    - The **body** shares in prayer and in grace: the transfigured face of Moses, the relics of saints (Palamas, *Triads*).
 
 Thought: the Palamite controversy looks like an argument about monks' prayer technique, but it's really about whether God can be *participated in* at all. That's why three councils dealt with it.
-
-## 9. From The Art of Prayer (St. Theophan the Recluse and others)
-
-Mostly 19th-century Russian teaching, especially **St. Theophan the Recluse** and **St. Ignatius Brianchaninov**, collected by Igumen Chariton.
-
-- **"Stand before God with the mind in the heart"**: Theophan's definition of prayer. Not the words but the standing.
-- **Attention** is everything: "the principal thing is to stand with the mind in the heart before God, and to go on standing before Him unceasingly day and night."
-- **Warmth of heart**: a sign of prayer becoming prayer of the heart. Not emotional excitement but a quiet, steady warmth. Don't confuse it with physical or imaginative heat.
-- **No images**: don't imagine Christ or anything else while praying; that leads to delusion (*prelest*). Prayer is beyond imagination.
-- **Humility** above methods: "prayer is God's gift; ask for it and it will be given."
-- **Self-acting prayer** comes as a gift after long labour; it can't be produced by technique.
-
-## 10. The Four Strands (Barrington-Ward)
-
-An Anglican bishop who learned the prayer from Orthodox teachers. He describes it as weaving four strands:
-1. **"Lord Jesus Christ"**: worship, adoration
-2. **"Son of God"**: faith, confession of who He is
-3. **"have mercy on me"**: the cry for mercy (*eleos*, related to the oil of healing)
-4. **"a sinner"**: repentance, and solidarity with all sinners: intercession
-
-And it includes the **Trinity**: to the Son, as "Son of God" (the Father), in the Spirit ("no man can say that Jesus is the Lord, but by the Holy Ghost", 1 Cor 12:3).
-
-## 11. The Triads in More Detail
-
-Palamas's *Triads in Defence of the Holy Hesychasts* (c. 1338–41), three sets of three treatises against Barlaam:
-
-| Triad | Theme |
-|---|---|
-| **I** | against the claim that **secular learning** is needed for knowing God; the nous and the body in prayer (defence of the psychosomatic method) |
-| **II** | the same themes, more developed; prayer and the body; the light |
-| **III** | the **uncreated light** and the **essence–energies** distinction; deification as real participation |
-
-Key points:
-- Philosophy is useful but not necessary for knowledge of God; the prophets and apostles were fishermen.
-- The **body** shares in prayer and in grace (the transfigured face of Moses, the relics of saints).
-- The light of Tabor is the same light the saints see: uncreated, the glory of God, "the beauty of the age to come". See [[God's Uncreated Energies]].
 
 ## Related
 

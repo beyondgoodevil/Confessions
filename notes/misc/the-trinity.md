@@ -12,10 +12,21 @@ The Holy Trinity is the mystery of one God in three Persons: the Father, the Son
 To understand how the three Persons are one God, we must distinguish between nature (or essence) and person (or hypostasis). The divine nature refers to *what* God is—one, indivisible, and uncreated. Each of the three divine Persons fully and wholly possesses the one divine nature without division or composition. However, they are distinct in *who* they are, meaning their personal properties:
 
 - The Father is unbegotten and the sole source (ἀρχή) of the Son and the Holy Spirit.
+    - Property (*idiotes*): **unbegottenness** (*agennesia*). He is the cause (*aitia*), without cause.
+    - "Unbegotten" is not God's essence but the Father's property (Nazianzen, *Oration* 29, against the Eunomians).
 - The Son is eternally begotten of the Father.
+    - Property: **begottenness** (*gennesis*): from the Father, by generation. Begotten without time, without passion (*Or.* 29).
 - The Holy Spirit proceeds eternally from the Father.
+    - Property: **procession** (*ekporeusis*): from the Father, by procession.
 
 This distinction of Persons does not divide the divine nature, because each Person fully possesses the one, undivided divine essence. Their unity is not an abstract unity of essence but a real communion of life and love, rooted in the Father as the unoriginate source. Thus, God is one because there is only one divine nature, yet He is three because there are three distinct hypostases who exist in an eternal communion of love and will.
+
+Nazianzen: "No sooner do I conceive of the One than I am illumined by the splendour of the Three; no sooner do I distinguish them than I am carried back to the One" (*Oration* 40.41).
+
+- Everything else (goodness, power, will, energy) is **common** to all three. So there is one will and one operation of the Trinity: every act of God toward creation is "from the Father, through the Son, in the Holy Spirit" (Gregory of Nyssa, *To Ablabius*).
+- What's the difference between generation and procession? Nazianzen: "You tell me what the unbegottenness of the Father is, and I will explain the generation of the Son and the procession of the Spirit, and we shall both be struck mad for prying into the mystery of God" (*Oration* 31.8).
+    - God's **nature is unknowable**: Moses on Sinai saw only God's "back parts" (Exod 33:23) (*Or.* 28).
+    - **Who** may theologise: not everyone, not always. Purify yourself first (*Or.* 27).
 
 ## Terms
 
@@ -30,31 +41,6 @@ This distinction of Persons does not divide the divine nature, because each Pers
 | *monarchia* | | the Father as the one source |
 
 Before the Cappadocians, *ousia* and *hypostasis* were near-synonyms (Nicaea's anathemas use them interchangeably), which caused years of confusion between East and West. Basil fixed the vocabulary: **one ousia, three hypostases**.
-
-## The Personal Properties
-
-| Person | Property (*idiotes*) | Relation |
-|---|---|---|
-| Father | **unbegottenness** (*agennesia*) | the cause (*aitia*), without cause |
-| Son | **begottenness** (*gennesis*) | from the Father, by generation |
-| Spirit | **procession** (*ekporeusis*) | from the Father, by procession |
-
-- Everything else (goodness, power, will, energy) is **common** to all three. So there is one will and one operation of the Trinity: every act of God toward creation is "from the Father, through the Son, in the Holy Spirit" (Gregory of Nyssa, *To Ablabius*).
-- What's the difference between generation and procession? Nazianzen: "You tell me what the unbegottenness of the Father is, and I will explain the generation of the Son and the procession of the Spirit, and we shall both be struck mad for prying into the mystery of God" (*Oration* 31.8).
-
-## St. Gregory the Theologian's Five Theological Orations (380)
-
-Preached in Constantinople against the **Eunomians** (who said God's essence is "unbegottenness", so the begotten Son is a different essence) and the Pneumatomachians. Why he's called "the Theologian".
-
-| Oration | Theme |
-|---|---|
-| 27 | **who** may theologise: not everyone, not always. Purify yourself first |
-| 28 | God's **nature is unknowable**: Moses on Sinai saw only God's "back parts" (Exod 33:23) |
-| 29 | the **Son**: begotten without time, without passion. "Unbegotten" is not God's essence but the Father's property |
-| 30 | the **Bible verses** Arians used ("the Father is greater than I", John 14:28; "the Lord created me", Prov 8:22), answered by referring the lowly things to the Incarnation and the high things to the divinity |
-| 31 | the **Spirit** is God: revelation is gradual (OT the Father, NT the Son, now the Spirit dwells among us) |
-
-The key line: "No sooner do I conceive of the One than I am illumined by the splendour of the Three; no sooner do I distinguish them than I am carried back to the One" (*Oration* 40.41).
 
 ## Analogies (and Why They Fail)
 
@@ -74,7 +60,10 @@ Nazianzen's conclusion: "I have thought of every image I could, and found none t
 - **Modalism** (Sabellius): one person wearing three masks.
 - **Tritheism**: three gods.
 - **Subordinationism / Arianism**: the Son and Spirit are lesser. See [[Council of Nicea: Arianism]].
+    - The **Eunomians** said God's essence is "unbegottenness", so the begotten Son is a different essence. St. Gregory the Theologian's *Five Theological Orations* (380) were preached in Constantinople against them and the Pneumatomachians; they're why he's called "the Theologian".
+    - The **Bible verses** Arians used ("the Father is greater than I", John 14:28; "the Lord created me", Prov 8:22) are answered by referring the lowly things to the Incarnation and the high things to the divinity (*Or.* 30).
 - **Pneumatomachianism**: the Spirit is a creature.
+    - Against it: the **Spirit** is God; revelation is gradual (OT the Father, NT the Son, now the Spirit dwells among us) (*Or.* 31).
 
 ## Why It Matters
 
