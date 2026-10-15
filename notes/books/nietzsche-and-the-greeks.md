@@ -112,6 +112,8 @@ Worth remembering when people quote the "blond beast" passages as if N. were sim
 
 ## Related
 
+- [[The Bacchae Three Ways: Euripides, Nietzsche, Dodds and Girard]]
+- [[Homer on Life and Death]]
 - [[Nietzsche: The Will to Power]]
 - [[Nietzsche: The Overman]]
 - [[Nietzsche: Eternal Recurrence]]

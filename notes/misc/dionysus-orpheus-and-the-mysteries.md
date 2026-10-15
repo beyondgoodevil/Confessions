@@ -188,6 +188,8 @@ So, against Nietzsche, the "irrational" belonged to **Apollo** as much as to Dio
 
 ## Related
 
+- [[Homer on Life and Death]]
+- [[The Bacchae Three Ways: Euripides, Nietzsche, Dodds and Girard]]
 - [[Apollo and Dionysus: The Birth of Tragedy]]
 - [[Nietzsche and the Greeks]]
 - [[Girard's Scapegoat Mechanism: Sacrifice, Myth and the Gospels]]

@@ -171,6 +171,8 @@ This note is the theory. For how Girard reads Nietzsche against it, see [[Dionys
 
 ## Related
 
+- [[Hamlet: Revenge, the Ghost and Purgatory]]
+- [[Justice in the Oresteia: From Vendetta to the Court?]]
 - [[Dionysus versus the Crucified: Girard's Reading of Nietzsche]]
 - [[Mimetic Desire: Girard, Oughourlian and Lacan]]
 - [[Dionysus, Orpheus and the Mysteries: Dodds and the Irrational]]

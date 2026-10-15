@@ -117,6 +117,7 @@ Porter reads BT against its own surface, and is the most interesting of the thre
 
 ## Related
 
+- [[The Bacchae Three Ways: Euripides, Nietzsche, Dodds and Girard]]
 - [[Nietzsche and the Greeks]]
 - [[Nietzsche on Nihilism and Its Overcoming]]
 - [[Dionysus versus the Crucified: Girard's Reading of Nietzsche]]

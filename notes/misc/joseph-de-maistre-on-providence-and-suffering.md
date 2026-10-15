@@ -118,6 +118,7 @@ And "there is no such thing as a just man", so no one may refuse his share of hu
 
 ## Related
 
+- [[Hamlet: Revenge, the Ghost and Purgatory]]
 - [[The Problem of Evil and Theodicy]]
 - [[Conservatism: Burke, de Maistre, Scruton]]
 - [[Recapitulation Doctrine vs PSA]]

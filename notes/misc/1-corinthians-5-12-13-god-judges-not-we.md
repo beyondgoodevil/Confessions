@@ -24,6 +24,7 @@ summary: 1 Corinthians 5:12-13 (KJV) on judging those within the Church and leav
 
 ## Related
 
+- [[Hamlet: Revenge, the Ghost and Purgatory]]
 - [[Matthew 15, 16: Office of the Keys]]
 - [[Economia]]
 - [[Acts 15:6-22: Church Government]]

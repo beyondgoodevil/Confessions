@@ -114,6 +114,7 @@ These read the same facts (sacrifice is universal) in three ways.
 
 ## Related
 
+- [[The Bacchae Three Ways: Euripides, Nietzsche, Dodds and Girard]]
 - [[Nietzsche on Nihilism and Its Overcoming]]
 - [[Nietzsche's Character Types: Slave, Priest, Philosopher, Artist, Scientist, Noble]]
 - [[Apollo and Dionysus: The Birth of Tragedy]]
