@@ -122,3 +122,4 @@ These read the same facts (sacrifice is universal) in three ways.
 - [[Recapitulation Doctrine vs PSA]]
 - [[The Problem of Evil and Theodicy]]
 - [[Nietzsche and the Greeks]]
+- [[Girard's Scapegoat Mechanism: Sacrifice, Myth and the Gospels]]

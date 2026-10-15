@@ -30,3 +30,4 @@ In this lens, Renaissance magic and Neoplatonism were not merely esoteric pursui
 - [[Emanationism]]
 - [[Thomism Is Perennialism: All Ways Lead to God]]
 - [[Popes Were Used as a Political Tool Throughout History 2]]
+- [[Alchemy: Spiritual Art or Early Chemistry?]]

@@ -126,3 +126,4 @@ Porter reads BT against its own surface, and is the most interesting of the thre
 - [[Christian Platonism]]
 - [[Philosophy as a Way of Life]]
 - [[The Problem of Evil and Theodicy]]
+- [[Dionysus, Orpheus and the Mysteries: Dodds and the Irrational]]

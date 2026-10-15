@@ -128,3 +128,4 @@ The classical **cardinal** virtues (prudence, justice, courage, temperance) and 
 - [[Nous]]
 - [[Synergy: Grace and Free Will]]
 - [[The Ladder of Divine Ascent]]
+- [[Mimetic Desire: Girard, Oughourlian and Lacan]]
