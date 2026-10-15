@@ -86,6 +86,78 @@ Properties that go with being as such, everywhere, across the categories:
     - **Participation in *esse***: creatures participate in **created** being; the Orthodox speak of participation in God's **uncreated** energies. See [[Aristotle East and West]].
 - So the Orthodox reading of Aquinas tends to keep his philosophy of nature and drop or reinterpret his doctrine of God. (*Orthodox Readings of Aquinas*, in the same folder, argues they can be closer than that.)
 
+## Gorman's Book, Chapter by Chapter
+
+Chapters: Introduction; 1 Basic Beings and Their Features; 2 Change; 3 Parts; 4 Causes; 5 Universals and Particulars; 6 The Way Things Might Have Been; 7 Thoughts about Everything; 8 To the Edge of Metaphysics; 9 Metaphysics outside Normal Operating Conditions; 10 Not the Conclusion. Examples throughout use Gorman's two cats, **Rusty** and **Mickey**.
+
+**Introduction**
+- Aquinas was a **scholastic**: he worked in a university ("school") setting, not a monastery.
+- Metaphysics = "first philosophy", "wisdom", even "theology" (Aristotle). Its principles constrain other fields: a theologian colleague told Gorman, "You philosophers think you can do everyone else's thinking for them."
+- "Ontology" = the science of being; the "transcendental properties of being" are what all beings share; the "categories" are its basic divisions.
+
+**1. Basic Beings and Their Features**
+- Paradigm substances: a cat, a tree, you. Rusty's redness "leans on" him: he "stands under" it.
+- Essential vs accidental: Mickey can't change from feline to canine and remain himself.
+- **Necessary accidents**: features a thing can't lack but which aren't essential (the ability to laugh in humans). Against the **modal theory** of essence (essential = can't lack), Gorman defends a "**foundationality**" theory: a feature is essential if it's the foundation others depend on; F is accidental if the thing has F **because of** something else.
+- Each thing has only **one** essential feature (with a determinate/determinable distinction: "animal" names no separate property beyond "human"). Possible exception: Christ's two natures (§9.2).
+- **Analogy**: "healthy" said of a cat, its food, its urine sample: not univocal, not equivocal (like "bat"), but related to one primary use.
+
+**2. Change**
+- **Three-dimensionalism** (endurance: a thing is wholly present at each time) vs **four-dimensionalism** (perdurance: temporal parts). Thomists are three-dimensionalists.
+- Accidental change (Mickey stands up) vs substantial change (Mickey dies, leaving "**feline remains**", a pile of chemicals). Treating conception and death as rearrangements of atoms would make them **accidental** changes: wrong.
+- Identity and change; **privation**. Read Aquinas's *On the Principles of Nature*.
+
+**3. Parts**
+- **Whole-dependent parts** (legs, tails: a severed leg "isn't really a leg at all") vs **whole-independent parts** (grains of sand in a heap). The organism is **prior** to its parts.
+- A "dead cat" isn't a cat or even a cat's body but non-feline chemicals.
+- Does science say Mickey is made of whole-independent atoms? Maybe atoms in an organism exist only **virtually**.
+- Theories of features: **bundle theory** (a thing is just its features; universals or tropes: D. C. Williams's "trope" = "the occurrence of an essence"); **bare particulars** (a featureless substrate: "Bertrand Russell could have been a poached egg"). Both fail: two things with all the same parts would be one; a bare substrate gives no reason for having these features rather than others.
+- Aquinas's way: the **essence constitutes** the substance at its most fundamental level; features aren't mini-things but **ways substances are**. Essential features have no "bearer" (they make the bearer); accidental features do.
+- Rusty is the kind he is because of his **essence**, and is something rather than nothing because of his **existence-as-act**.
+
+**4. Causes**
+- "Because" answers needn't be about processes: a turtle's shell is hard to break "because it's made of keratin".
+- **Hume**: we only ever see **constant conjunction**; ideas are copies of impressions. Aquinas: causation needs an **agent** (active power) and a **patient** (passive power, from *pati*, to undergo).
+- "Movie" vs "snapshot" causation.
+- The four causes; natural processes "don't just happen", they aim at an end (*telos*). A cat is as it is because of its body, its substantial and accidental forms, its parents and other agents, and "so that it might live a certain kind of feline life".
+
+**5. Universals and Particulars**
+- The **One over Many** problem. Square-circleness can't have instances: non-instantiable universals.
+- **Platonic** ("extreme") realism: universals outside space and time. **Aristotelian** ("moderate", "immanent") realism: universals in things. **Nominalism**: no universals; the most extreme form: "Not one of them is like another" (the **Dr Seuss** view).
+- "Extreme isn't automatically bad; sometimes moderation is just timidity."
+- **Real conspecificity**: Rusty and Mickey are objectively alike in kind. Is that because of something numerically one (Felinity)? If a moderate realist says yes, his view really differs from moderate nominalism.
+- Gorman's tentative conclusion: **accidents are tropes, essences are not**. In his sense, Aquinas might even be called a "nominalist", though in other senses that would be absurd.
+- The linguistic argument ("Red exists, so Redness exists") fails: "red" isn't a name (except for Red Skelton).
+- **Individuation**: matter, or a *haecceity* ("thisness")?
+
+**6. The Way Things Might Have Been**
+- Five modal concepts: actual, possible, necessary, contingent, impossible.
+- **Lewis**: possible worlds are real concrete worlds; individuals are "world-bound"; "actual" means "the world I'm in"; **counterpart theory**. The **Humphrey objection**: "Humphrey could have won" would mean someone else won in another world, which Humphrey doesn't care about.
+- **Plantinga**: possible worlds are abstract states of affairs.
+- **Modality without possible worlds**: possibility grounded in **powers** of real things. "Essentially possible" vs "existentially possible".
+- **From possibility to God** (Ross, "God, Creator of Kinds and Possibilities"): possibilities beyond any creature's powers need a ground: God.
+
+**7. Thoughts about Everything**
+- **Categories**: highest genera. The tree: substance → animal (sensation) → vertebrate → mammal → cat (lowest species) → [Mickey, a member not a subclass].
+- **Being is not a genus**: no generic sense of "being", so multiple categories. "Accident" is not one category but a label for several (quantity, quality, relation, place...). Relations (Vader is Luke's father) belong to both relata as accidents.
+- *Ens* is a present participle used as a noun: "a thing that is be-ing".
+- **Transcendentals**: one, true ("everything is knowable"), good, and perhaps beautiful (Aquinas never lists beauty; some Thomists argue for it).
+- **Evil is privation**: a bird without wings is bad because birds are supposed to have wings. Hence **natural law** morality.
+
+**8. To the Edge of Metaphysics**
+- The **Five Ways**; the First Way: an unchanged changer, "and this everyone calls God". What's proved at first is "quite minimal".
+- God's existence can't be caused from outside, or He wouldn't be God.
+- Essences define things, and to be defined is to have a limit; so "God's essence is existence" means God has **unlimited** existence, not that He's "just barely there".
+- No parts, form/matter, act/potency, essence/accident in God. "**Categories are for creatures.**"
+- Creatures **participate** in what God has essentially and maximally; they're partial imitations of Him, because He creates them so (Pseudo-Dionysius).
+- **Pure** vs **impure** perfections: being a rock is a perfection mixed with imperfection (not being intelligent).
+
+**9. Metaphysics outside Normal Operating Conditions**
+- **Metaphorical** vs **literal** predication of God: "God is powerful" (literal, valid inferences) vs "God is a rock" (metaphorical: we can't infer He's igneous or sedimentary).
+- Literal predication is **analogical** ("analogy of one to another", like "healthy" food and a healthy dog).
+- Philosophy vs theology: whether **revelation** is used. Philosophy studies God from creation.
+- Two case studies: **Incarnation** (Christ has two natures; one substance = one basic being; persons are substances with reason) and **transubstantiation** (bread and wine becoming Christ's body and blood while keeping appearances). See [[Nature and Person Distinction in Christology]].
+
 ## Related
 
 - [[Aristotle's Physics: Nature, Change and the Four Causes]]

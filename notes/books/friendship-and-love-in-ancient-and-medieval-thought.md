@@ -93,6 +93,84 @@ Eros is **desire for the good to be one's own forever**: "giving birth in beauty
 - Friendship with God is the Orthodox goal too: Abraham "the friend of God" (Jas 2:23); Moses spoke with God "as a man speaketh unto his friend" (Exod 33:11).
 - The Orthodox Church has a rite of **adelphopoiesis** (brother-making) in old service books: a blessing of spiritual friendship. Its interpretation is disputed.
 
+## The Volume, Chapter by Chapter
+
+**1. Philia in Plato (Dixsaut)**
+- *Laws* VIII: we "call friend" what is like to like, and what is needy to what has become rich; when either flares up, "we call it love". Three kinds of friendship, each with its law of attraction.
+- *Lysis*: "like is necessarily always friend to like" ("the prose-writings of the wisest people"): Socrates refutes the unqualified version.
+- *Phaedrus*: true lovers are "of one mind"; they have no jealousy, but try "to draw the beloved into complete resemblance to themselves and to the god they honour".
+- **Politics**: slaves and masters can never be friends (*Laws* VI). Pure monarchy destroys all equality; pure democracy is "absurdly egalitarian". The right equality is **proportionate** equality "according to nature". In the *Republic*, the classes cohere because reason rules each, making them alike. *Homonoia* (concord) as civic friendship.
+
+**2. Aristotle on Friendship: the Four Causes (Gurtler)**
+- Definition: "to have goodwill and wish good things for one another, both being aware of it, because of one of the [three] ends" (*EN* VIII.2).
+- Friendship moves between first actuality (the settled disposition of friends) and second actuality (the activities of friendship). See [[First and Second Actuality in Thomism]].
+- **Bad people** can't be real friends: "at war with themselves", they're "not likeable at all".
+- Goodwill (*eunoia*) is in all three kinds; the character of the friends is the "material cause" qualifying each kind.
+
+**3. Souls Great and Small (Stern-Gillet)**
+- **Civic friendship** (*politikē philia*): friendship, "voluntary living together", is central at every stage of the city's formation (*Pol.* III.9). In the *Eudemian Ethics* civic friendship rests on utility, like "a cash-in-hand transaction", an "agreement" to help one another.
+- The **great-souled man** (*megalopsychos*) claims honour according to his worth; "what is according to worth is just".
+- ***Mikropsychia*** (smallness of soul) is "culpable timidity", "want of spirit": worse than vanity, because it fails the city.
+
+**4. Making Friends: the Stoic Conception of Love (Collette-Dučić)**
+- **Friendship** exists only among sages and is a good; **love** (*erōs*) occurs among sages and non-sages, so it's an "indifferent".
+- Stoic love = "**friend-making**" (*philopoiia*): "an attempt to form a friendship because of beauty".
+- Plato's *Symposium* has a **guide** or teacher leading the lover; the Stoics keep the idea.
+- Seneca contrasts this with "insane friendship" (*insana amicitia*), i.e. passionate love.
+- Friendship = "being of one mind (*homonoia*) about things concerning the way of living"; *homonoia* is "the science of common goods".
+- Against Aristotle (virtue possessed while asleep isn't used), the Stoics hold that you can't possess virtue without using it. Stoic friendship is **disinterested**: not seeking utility.
+
+**5. Erōs and Philia in Epicurean Philosophy (Konstan / Gordon)**
+- **Lucretius** IV distinguishes love from sex: love is *furor* and *rabies* (madness); he's "more lax than his master in permitting intercourse" but "far more vehement in denouncing the passion of love".
+- Erōs is bad because it **can't be satisfied**: unfulfilment is painful.
+- Only commitment to people for the relationship's own sake, not as a means, gives long-term tranquillity. See [[Epicurus and Lucretius]].
+
+**6. Cicero's *De Amicitia* alongside the *Symposium* (Weiss)**
+- Plato's dilemma: what's loved must be lovable either because **like us** or because **good for us**.
+- *Oikeioi*: family are "our own"; others can be "cut from the same cloth as ourselves".
+- Cicero: we love "once we have met someone whose habits and character accord with our own, because in him we seem to behold a sort of light of uprightness and virtue".
+- Friendship "lessens the burden of adversity by dividing and sharing it".
+- Scipio: even if we've chosen badly, we should **endure** a friend rather than plan a breach.
+- "If we flee care and worry, then virtue too is to be fled."
+- Cicero, *Tusculans* IV: what is commonly called love "is of such a trivial nature that nothing can be compared to it"; only love that is "an attempt to form a friendship" is approved.
+
+**7. Gregory Nazianzen and Basil the Great (Sarbu)**
+- The possibility of loving rests on having been **loved first**: "before the foundation of the world" (Eph 1:4); "God loved us first" (1 John 4:19).
+- Gregory found Athens without Basil "an empty happiness": "Gregory continued to live in Athens, but the lights had gone out in Arcadia."
+- Two "**betrayals**": first, when the friend refuses to fit one's categories; second, when one must face a truth about oneself.
+- After Basil made him bishop of tiny Sasima against his will (372), Gregory wrote: "**As for me, I have gained this from your friendship: learning not to trust friends.**"
+- Genuine friendship moves through betrayal and reconciliation: "call this friendship, if it helps, but a better word for it is **charity**."
+- Gregory explicitly called the Spirit **God**; Basil, for pastoral reasons, didn't use the word. Methodius of Olympus had already written a Christian *Symposium*.
+
+**8. Augustine on Friendship and Virtue (Nawar)**
+- Augustine often invokes the **neighbour** rather than the friend.
+- Adam sinned not because he was deceived but "because of the bond of fellowship" (*sociali necessitudine*) with Eve (*City of God* XIV.11), as Aaron yielded over the golden calf. Friendship can lead into sin.
+- The **friend's death** (*Conf.* IV): the friend, unconscious, was baptised; when he recovered, Augustine mocked the baptism, expecting him to join in; the friend rebuked him. Augustine hoped he'd recover "so I could do with him what I willed": he treated him almost as a tool. Then the friend died.
+- Augustine sought comfort in other **earthly friendships** instead of God: the first four books show his *exitus* from God before the *reditus*.
+- He called his friend "half of my soul", "my other self".
+- Later he speaks more of *amor* than *amicitia*, but keeps an amended Ciceronian definition (*Letter* 258: friendship is agreement on things human and divine **in Christ Jesus**).
+
+**9. Aelred of Rievaulx (Sommerfeldt)**
+- Eve taken from Adam's **side**, "so that nature might teach that all humans are equal, side by side, so to speak, and that there should be no superior or inferior in human affairs".
+- Friends are "those to whom we do not fear to entrust our heart".
+- The beginnings of spiritual friendship need "purity of intention, the instruction of reason, and the restraint of moderation".
+- The opening of *Spiritual Friendship*: "**See, here we are, you and I, and, I hope, a third, Christ, in our midst.**"
+
+**10. Aquinas: Charity as Friendship (Kerr)**
+- Starts from Peter Lombard's definition of charity: "a love in which God is loved for his own sake and one's neighbour for or in God."
+- Friendship adds: love must be **reciprocated** and **known**, and rooted "not only in feeling (*passio*) but in choice (*electio*)".
+- Aristotle: "friendship is not just a necessity, it is also beautiful." *Philia* needs the other to keep a separate existence.
+- The danger in Plato's ladder: the beloved becomes a placeholder for the Idea of Beauty; the neighbour becomes an "occasion" for charity. Aquinas's friendship model keeps the person.
+- By the early 14th century, German Dominicans had taken friendship with God into the mystical piety of **Tauler** and others.
+
+**11. Aristotle and Kant on Self-Disclosure (Biss)**
+- *Magna Moralia*: "it is pleasant to know oneself, and it is not possible to know this without having someone else for a friend": the friend as a mirror, "another Heracles, a dear other self".
+- Aristotle anticipates Kant: "there is no stable friendship without confidence, but confidence needs time" (*EE*).
+
+**12. Hölderlin's *Hyperion* (Dučić-Collette)**
+- Platonic roots: the three-moment motion of love (Diotima) with regeneration; the *Statesman* myth of the cosmos reversing, chaos when the divine is absent; the *Phaedo*'s "double becoming" of opposites.
+- Hölderlin may have impressed these ideas on his room-mates **Schelling and Hegel**.
+
 ## Related
 
 - [[The Good in Plato]]

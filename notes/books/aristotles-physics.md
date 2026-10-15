@@ -80,6 +80,87 @@ In nature, the formal, efficient and final often coincide: the form of the oak i
 - Modern science dropped formal and final causes, but biology still talks about functions. See [[Hume on Causation and Induction]] sec. 4.
 - Energeia and its later history: [[Aristotle East and West]].
 
+## The Critical Guide, Chapter by Chapter
+
+**Introduction (Leunissen)**
+- Chapters 2–7 rethink **nature, chance, teleology and art**; 8–13 rethink **kinēsis** (change, process, motion); 14 the argument of Book VIII.
+- The unmoved mover, pure form without matter, isn't technically part of the physical world: it belongs to "first philosophy".
+
+**1. How to study natural bodies (Lennox)**
+- *Methodos* = a disciplined line of inquiry.
+- Natural things are like the **snub** (concavity in a nose: form in a particular matter), not the **concave** (abstractable like maths). So the natural scientist must know form **and** matter.
+- "What is separable and what it is, it is the work of first philosophy to determine" (194b14-15).
+- The "what is it?" question rests on a **causal** inquiry: how ends relate to materials and their movements.
+
+**2. Aristotle on interpreting nature (Kelsey)**
+- The definition of nature ("a principle of motion and rest") is "a kind of instruction for how to interpret the phenomena": a thing's nature shows in what it **does**.
+- Form is nature "more than" matter because form is a principle by being an **end**.
+- The student of nature will know **all four causes**; formal and final causes are identified: form is a "moving principle" because it's an end.
+- To deny that nature is an end "does away with nature and the things due to it altogether."
+
+**3. Nature as a principle of change (Stavrianeas)**
+- The physician who is ill and cures himself: the principle is in him, but not **as** patient: art, not nature.
+- **Homonymy**: matter surviving a substance's death is "the same only in name" (a dead hand is a hand homonymously).
+- "**If nothing impedes**" means "if nothing **external** impedes".
+
+**4. Chance as an accidental cause (Allen)**
+- Modern "objective chance" = undetermined; Aristotle's chance isn't that. His opponents resemble the "impious" in Plato's *Laws* X.
+- **Luck**: an outcome that would have been a fitting end but wasn't aimed at (meeting your debtor in the market).
+- **Spontaneity**: "the stone that struck the man did not fall for the sake of striking him; it fell spontaneously, because it might have fallen by an agent for that purpose."
+- "In vain" is said when what is for another's sake fails to achieve it.
+
+**5. Man from man but not bed from bed (Henry)**
+- **Winter-rain argument** (II.8): regular winter rain isn't chance; it belongs to the sun's cycle. Summer rain comes from violent "recoil" of hot and cold.
+- "**Olive-headed vines**": if Empedocles' chance monsters were real, plants would show them too. They don't.
+- "**Man is born from man, but not bed from bed**" (Antiphon: plant a bed and a tree grows): so form is more nature than matter.
+
+**6. In defence of the craft analogy (Witt)**
+- The argument runs **from artefacts to nature**: "if artificial products are for the sake of an end, so clearly also are natural products."
+- The **argument from mistakes**: art makes mistakes, so does nature (monsters); mistakes presuppose ends.
+- "It is absurd to suppose that purpose is not present because we do not observe the agent deliberating."
+
+**7. The origins of natural teleology (Bolton)**
+- In Plato (*Phaedo*, *Timaeus*) things are explained by an intelligent agent's **choice of the best**. Aristotle naturalises final causality: no deliberator needed.
+- Many philosophers of biology (and Kantian readers) hold only "**as if**" teleology. Aristotle: deliberation isn't essential even to art.
+- **Empedocles' teeth**: fit for grinding only "by chance", but surviving because they help survival: an early selection argument, which Aristotle rejects.
+
+**8. Substantial generation in Physics I.5–7 (Henry)**
+- Two requirements on change: a **subject** it proceeds from, and something that **survives**.
+- In generation "the subject changes **as a whole**" (Gill); blood in animal generation can't satisfy survival.
+- The Presocratics reduced generation to alteration because they thought all change needs a persisting subject.
+
+**9. A dynamic ontology (Crubellier et al.)**
+- From the prime mover "nature and the heavens are suspended" (*Metaph.* Λ.7).
+- *GC* II.10: since individuals can't be eternal, God "**filled up the whole**" by making coming-to-be continuous: eternal generation is "the nearest thing to *ousia*", "connecting being together".
+- So form is substance partly because it's **eternal** through circular generation (man begets man).
+- Change between opposites is indeterminate and must stop at its end; only circular motion can be eternal.
+
+**10. Aristotle's processes (Charles)**
+- "Actualisation of the potential as such" looks circular; two interpretations of "actuality" here.
+- The "**imperfective paradox**": changes, while going on, exist but aren't complete: housebuilding is complete only when the house is built.
+- *Phys.* III.3: teaching and learning are one activity in the learner; "the teacher in teaching does not learn what he teaches".
+
+**11. Unity of change (Coope)**
+- Is the *Physics* one continuous treatise? Book VIII's "**Potentiality Doctrine**" (points in a continuum exist only potentially until marked) conflicts with V–VI's account of a single change.
+- A thrown apple going up and back: Book VIII says it rested at the top, so two motions.
+
+**12. Perfection and habituation, Physics VII.3 (Leunissen)**
+- Gaining virtue isn't an **alteration** but a **perfection**: a circle is "most a circle" when it reaches its proper virtue.
+- Nothing that behaves one way by nature can be habituated otherwise (a stone thrown up 10,000 times won't learn to rise: *EN* II.1).
+- Virtuous **activity** (second actuality) produces virtuous **disposition** (first actuality), so teachers and lawgivers must make people do good acts.
+- **Music** forms character and judgement about "appropriate characters and good actions" (*Pol.* VIII.5). See [[Aristotle's Politics]].
+
+**13. Self-motion as other-motion (Coope)**
+- Within a self-mover there must be an **unmoved part** that moves and a moved part.
+- A moving thing is, as such, **incomplete** (*atelēs*); the first cause of motion must be active "in a complete way".
+- "A moved thing must be moved by something distinct from it" (*Phys.* VII.1).
+
+**14. The argument of Physics VIII (Falcon)**
+- Democritus's principle for eternal motion: "things happened in the past as they happen now."
+- Aristotle commits to motion with no beginning, no end, and **no gaps**.
+- Result: (1) a first unmoved mover, (2) something eternally moved by it (the outer heaven).
+- **Projectiles**: moved by a series of movers in contact (the air). An infinite sequence of finite powers couldn't produce infinite motion: the first mover has **infinite power** and so **no magnitude**.
+
 ## Related
 
 - [[The Unmoved Mover]]

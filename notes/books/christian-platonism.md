@@ -86,6 +86,49 @@ The **Incarnation** and **resurrection** are where Platonism had to break. "The 
 - Florovsky's line is the right one for Orthodoxy: the Fathers used Platonic language but changed its content: creation, persons, Incarnation. The essence–energies distinction is a good example: it uses Neoplatonic structures (the One beyond being, its activity) to say something non-Neoplatonic (a personal God freely present). See [[Aristotle East and West]], [[Neoplatonism: Plotinus, Porphyry, Proclus]].
 - The danger points are the same ones the councils condemned: Origenism, and a "One" with no room for persons (see [[Neoplatonic Idea of Divine Simplicity]]).
 
+## From the Volume, Section by Section
+
+Hampton and Kenney's volume has three parts: (1) **Theme** (core concepts: the Good, the One, participation, theology, allegory...), (2) **History** (antiquity to the 20th century), (3) **Engagements** (natural science, environment, aesthetics, materialism). Their summary: the central message of Christian Platonism isn't an abstract, intellectualising tendency but "a focus on the **incarnational, participatory, and sacramental** character of being, which calls us back to its motive force in **love**".
+
+**Part I: Themes**
+- **The Good "above essence"** (*Republic* VI): above the existence that involves having an essence (complexity), not above existence altogether. But the more the first principle's simplicity is stressed, the harder it is to see how it explains anything.
+- **Middle Platonism**: **Alcinous**'s *Handbook* (*Didaskalikos*) ch. 10 merges the Demiurge, the Unmoved Mover and the Good. **Numenius** (*On the Good*) separates a first god (the Good, absolutely simple) from a second (the Demiurge, intellect, "double": contemplating and making). Xenocrates and **Polemon** had already "demythologised" the *Timaeus*: the Demiurge becomes a divine intellect acting eternally, using the contents of its own mind as the pattern (Polemon: "the cosmos is God").
+- **Plotinus**: the One's "internal" and "external" activity: Intellect is the One's external activity, Soul Intellect's. **Proclus**: participable **Henads** for each intelligible; "otherness" that isn't "difference".
+- Zimmerman: Plotinus gives a real philosophical account of **creation** (production of a thing in its whole substance, dependent for continued existence), even though eternal.
+- Plotinus's three hypostases can't be "counted" since the One is beyond substance and quantity: a problem the Cappadocians faced for the Trinity.
+- **Christian adoption**:
+    - **Athenagoras**: the Son is the Father's mind, who "came forth to be form and act (*idea kai energeia*) for all material things".
+    - **Origen** refuted the divine Ideas as separate (*On First Principles* II.2.6).
+    - The **Creator–creature** distinction "competed with, and perhaps rendered redundant", the Platonic intelligible–sensible distinction. Gregory of Nyssa calls each, in different places, "the highest division of all beings".
+    - **Cyril** of Alexandria's anti-Platonism is implicit anti-Arianism: Platonism resembles Arianism (subordinate hypostases).
+    - "Second God" was proscribed by Gregory's time, not because it implied inequality but because it sounded polytheistic. Gregory: second in order needn't mean lesser, as the second Adam isn't less than the first.
+    - **Maximus**: "He who is beyond all beings does not know beings in a manner derived from beings; He knows them as His own wills."
+- **Theology** (*theologia*): in Plato it meant mythology (what philosophy goes beyond); in Aristotle a science. Dionysius: affirmative theology follows the **procession** (noblest names first), negative theology the return. Boethius calls it *theologica*. Medieval: "no sacred Scripture is exempt from the rules of the liberal arts".
+- **Goodness**: Augustine: "because God is good, we exist; and insofar as we exist, we are good." Aquinas grants the Platonists "relative truth": things diversified by participation in being are caused by one First Being who has being most perfectly. The **transcendentals** (*communia*, *transcendentia*).
+- **Divine attributes**: Jewish and Christian apologists argued God is incorporeal (so present everywhere), immutable (so trustworthy), eternal, impassible (so His victory is assured).
+- **Allegory** (*allegoresis*): finding "another" meaning than the literal.
+
+**Part II: History**
+- *Christian Platonism* names "the **transcendentalist foundation** of orthodox Christian theology, essential to its exegesis, doctrines, and sacramental practices", "the underlying transcendentalism of Nicene Christianity".
+- **Augustine** (Kenney): the Platonic ascents of *Confessions* VII reach eternal being but can't sustain the soul there: Scripture and Christ are needed. God is "definitively made known as a beneficent Father, whose Son was incarnate". Gregory of Nyssa's *epektasis* (Phil 3:13) "in a metaphysical key".
+- **Early Franciscans** (Schumacher), the more "Augustinian" school: following Hugh of St Cher, the soul has a "**substantial unitability**" to the body: crucial for the resurrection and the value of the body. They used **Avicenna** to read Augustine and Aristotle.
+- **Byzantium** (Tollefsen): Andrew Louth's "**diffused Platonism**" (thinkers who criticised "the Greeks" while sharing their notions) vs "formal Platonism".
+    - **Dionysius**'s pseudonym links him to Athens = philosophy (Acts 17:34). Creatures participate in God's "rays" of goodness, not His transcendent divinity.
+    - **Maximus**: "basically in the Platonic tradition", except for recent creation, God's will to create for His creatures' sake, and the threefold Incarnation (in creation, Scripture, Christ). Meyendorff calls him "the real founder of Byzantine theology". The key to the *logoi* is **prayer**, not secular learning (a Platonic motif: purification before contemplation).
+    - "Outside wisdom" (Greek learning) vs inside wisdom (Scripture and the Fathers).
+- **Renaissance** (Gersh): **Ficino** writes "an image of Plato" close to "the truth of Christianity"; commentaries on Plato, Plotinus, Dionysius; a Christian Platonism alongside university Aristotelianism, to the 17th century. **Nicholas of Cusa**: God's separation from creation results from His **indistinction** (*indistincta distinctio*), "Not-Other".
+- **Radical Reformation** and Hermeticism: Paracelsus (microcosm/macrocosm), **Weigel** (God as "darkness"; Eckhart's God vs Godhead), **Böhme** (life as struggle of contrary impulses; the *Ungrund*, groundless abyss of freedom).
+- **Early modern** (Hedley): **Descartes**'s "if I err, I am alive" (from Augustine); **John Smith** (Cambridge Platonist): averting attention from the senses lets "the light of the Divine Word" fall on us; **Malebranche**: occasionalism and "vision in God": all knowledge is revealed; **Cudworth**: against "Epicurean" atheism, "Plastic Nature" mediating between matter and mind (like the World Soul); **Leibniz**: monads in preestablished harmony; **Berkeley**: immaterialism (Leibniz: "much that is correct and close to my own view").
+- **Romanticism**: Schelling (the Father as the abyss, "nothing", from which the creative will emerges), Hegel (art reconciles sensible and intelligible: Plotinus more than Plato), Coleridge (Newman: "a liberty of speculation no Christian can tolerate"), Wordsworth, Blake.
+- **20th century**: Platonism mostly as a "tendency" woven with other threads; Yeats, Ginsberg; "Pop Platonism" in fantasy and sci-fi. **Heidegger**'s "second beginning" as "freedom from metaphysics"; Caputo.
+
+**Part III: Engagements**
+- **Natural science** (Davison and Sherman): God causes creatures *in esse* (continuing to be), not just *in fieri* (coming to be). Aquinas: "the power of the higher cause is the power of the power of the lower cause"; "the dignity of causality is imparted even to creatures": secondary causes. Mathematical objects as "in the mind of God" solves both where they are and how they affect the world. **Eriugena**: all growing things are alive; the soul's relation to the body persists even through death.
+- **Environment** (Hampton): the "secularisation thesis" questioned; Lynn White's critique of Christianity's role in ecological crisis answered: meaning isn't human-dependent; all things participate in meaning through the **divine ideas**. **Traherne**: "Nature teacheth nothing but the Truth"; "My Senses were Informers to my Heart, / The Conduits of His Glory". Since created and uncreated forms differ, nature's meaning can't be simply mapped onto ours: against anthropocentrism.
+- **Aesthetics** (Viladesau): the Forms placed in the Logos; "likeness" means representation of the person (*hypostasis*), creating presence in both directions (cf. icons). Beauty involves *ekstasis*: self-forgetful absorption, both "ascent" and "horizontal" communion. **Nietzsche** called Christianity "Platonism for the people" and made life itself art over chaos. Against him: beauty as "**delight in form**" (Aquinas, Pasternak's Zhivago), coextensive with being; the "**sacramentality**" of all things.
+- **Materialism** (Taliaferro): against physicalism and eliminativism (Dennett); Christian materialists (Corcoran, Merricks: "how to live forever without saving your soul"); defence of mind–body dualism (Ryle's caricature answered).
+- **Pickstock** (closing): Christian Platonism and the sacramental.
+
 ## Related
 
 - [[Neoplatonism: Plotinus, Porphyry, Proclus]]

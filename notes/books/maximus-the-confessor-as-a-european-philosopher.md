@@ -79,6 +79,116 @@ St. Maximus (c. 580–662) is often called the greatest Byzantine theologian. Th
 - The **gnomic will** idea answers the "free will = ability to choose evil" assumption: the saints and Christ are **more** free, not less, for not wavering.
 - Read with Lossky ch. 7 and Bradshaw ch. 8.
 
+## Chapter by Chapter
+
+**1. The Three Antinomies (Skliris)**
+- Maximus offers tools to go beyond Hegelian dialectic: a "**free dialectic**" where the synthesis isn't necessary but freely given.
+- An "**Oriental voluntarism**" alternative to the Augustinian one that began Western voluntarism: will and energy belong to **nature**, which is good insofar as it is, and so must be saved entire (unlike Plotinus, for whom evil = non-being = matter).
+- *Logos*, *tropos* and *end* can't be defined alone: each "breaks into" the others. The *tropos* is "a hypostatic response in a dialogue" with God's *logos*.
+- Maximus's triads have a "**horseshoe**" form: the extremes meet, the centre mediates.
+- An "**asymmetrical**" synthesis: Christology has the first and last word (the end is present in the beginning: eschatology).
+- Theology "of God for His own sake" (negation, transcendence) is completed by Christology "of Christ for the sake of beings" (affirmation, presence).
+
+**2. A Metaphysics of Holomerism (Tollefsen)**
+- The **circle** image: God is the centre from which the principles of beings stretch out like radii.
+- Two movements: **expansion** (*diastolē*: from genus to species to individuals) and **contraction** (*systolē*: gathering back).
+- Universals don't have their *logos* of being "by themselves" apart from particulars.
+- Human beings share with angels and animals, so the human *logos* is delimited by the *logoi* of other creatures too.
+- All differences are present in the genus **potentially**; each species actualises one.
+
+**3. Being Moved: Between Anaxagoras and Kierkegaard (Manoussakis)**
+- ***Kinēsis*** is a nodal point where cosmology, anthropology and theology meet. All Presocratic philosophy is a philosophy of movement.
+- Anaxagoras's answer to "why is there something?": "because it is best": the world exists because moved toward perfection by *Nous*.
+- Plato made forms and participants static; Maximus makes participation **dynamic**.
+- **Kierkegaard**'s "moment" (*Augenblick*) and his idea of "repetition"; Heidegger: Kierkegaard first comprehended the moment. Both Maximus and Kierkegaard reject Origen's account of the fall from rest.
+- "What was God doing before creation?" (Augustine's question): Maximus answers with the *logoi*.
+- The triad **being, well-being, ever-well-being**.
+
+**4. The System of Relations (Markov)**
+- God is "immanently active in bringing things together"; the relations among creatures are determined by **divine energy** and belong to their **essences**, not just accidents.
+- "Relation" is the measure of union among beings and finally with God.
+- God isn't intelligible; the soul can reach a "**simple union**" beyond discursive thought only with "limitless movement".
+- Maximus doesn't arrange relations in a hierarchy of being as Dionysius does; even **marriage** becomes part of Christ's hypostatic life.
+
+**5–6. Motion: Aristotle and Maximus (Mantzanas, Mitralexis)**
+- Von Balthasar: Maximus took Gregory of Nyssa's axiom that finite being is characterised by **interval** (*diastēma*) and therefore by motion: "time and space are the expression of finitude itself".
+- "According to nature" means "according to the *logos* of nature": God's intention for the creature.
+- "**Nothing that is in motion has stopped before arriving at its object of desire**" (*Amb.* 7). The end of natural activity is "**repose** at the cause of created beings' motion".
+- The key difference from Aristotle: for Maximus motion is primarily a **returning motion**: creation moving back to its source.
+- Three kinds: motion **according to nature**, **returning** motion, motion **against nature** (sin).
+
+**7. "A Greater and More Hidden Word" (Constas)**
+- For Maximus, language is rooted in logic, and logic in ontology: an "**onto-logic**".
+- Against readings of Gregory of Nyssa's spirituality as a "mysticism of the gap" (Blowers: Gregory risked grounding rational beings' stability only on their own uncertain moral movement): Maximus grounds it in the *logoi*.
+- What seems "above" is really "**ahead**": reality coming to us from the future. Scripture's "shadow, image, and truth" (Heb 10:1).
+
+**8. Both Mere Man and Naked God (Wood)**
+- "Out of his infinite longing for human beings, he has become truly and according to nature the very thing for which he longed" (*Amb. Th.* 5).
+- How can the natures stay unmixed yet their activities be "innovated"? The **logos/tropos** distinction.
+- Tabor: the disciples hadn't "cast off carnal life" but "were raised", their senses supplanted "by the activity of the Spirit".
+- "When we say the Divine 'exists', we do not say it exists in a certain way." We negate both affirmation and negation, because Christ is **both** by nature. In Christ God is both the symbol and the symbolised.
+
+**9. Roots of Scientific Objectivity (Harrington)**
+- Rémi Brague's "**inclusion**": taking in foreign objects (texts, cultures) without absorbing them: distinctively European, and needed for scientific objectivity.
+- In the *Questions to Thalassius*, contemplating the *logoi* of nature is a means to union with God, but Maximus "clears a space for the independent use of intellect that will later become the space of modern science".
+
+**10. The Theo-Phenomenology of Negation (Depraz)**
+- **Negative theology** (God invisible, inexpressible, incomprehensible: negations of predicates) vs **apophaticism** (direct experience beyond concepts toward union).
+- Maximus gives "form" to Nyssa's distinction between mystical and symbolic theology, and "dialectises" Dionysius's duality of affirmative and negative.
+- **Yannaras** (*On the Absence and Unknowability of God*) and **Marion** (*God without Being*) radicalise this with Heidegger.
+
+**11. Logos and Tropos and the Ontology of the Person (Louth)**
+- *Logos* here means roughly "definition" (as in Plato).
+- Persons **exist** (*hyparxis*, *hyphistanai*: hence *hypostasis*); natures **are** (*ousia*, *einai*).
+- "**Every innovation takes place in relation to the mode of what is being innovated, not in relation to its principle of nature, because when a principle is innovated it results in the destruction of the nature.**"
+- So salvation and deification don't alter human nature but its **mode of existence**.
+
+**12. Maximus and Contemporary Anthropology (Kapriev)**
+- "**Individual**" (Latin *individuum*, Greek *atomon*, "indivisible") belongs to the **natural** order (division of genus and species), not the hypostatic. Leontius's *enhypostaton* keeps the distinction.
+- Hypostasis: what exists "by itself", an essence with unique properties.
+- Two conceptual chains: **essence/nature – necessity – law** (*logos* of nature) vs **hypostasis/person – relation – freedom – love – grace** (*tropos*). Kapriev asks whether these can really be opposed (a debate with **Zizioulas**: see [[Being as Communion]]).
+- *Gnōmē* and *hexis* are both "inner striving" (*orexis endiathetos*): expressions of human freedom.
+- Deification is achieved in history: salvation (recovery of nature) is the first level; deification gives a **supernatural mode** of existence.
+
+**13. The Face of the Soul, the Face of God (Podbielski)**
+- *Prosōpon* never lost its meaning "**face**".
+- Christ can't be called an "individual" because He doesn't fall under the division from genus to species.
+- "Face to face" (1 Cor 13:12); "beholding with unveiled face the glory of the Lord, we are transformed into the same image" (2 Cor 3:18): seeing God's glory changes who we are.
+
+**14. The Sexes (Kochaczyk-Bonińska)**
+- Two "sins": the first, blameworthy: the fall from good to evil by choice; the second, blameless: the change from incorruption to corruption, which follows.
+- Sexual reproduction transmits the changed (mortal) nature.
+- Christ "has done away with the division of nature into male and female, which human nature in no way needed for generation" (*Amb.* 41): in Christ a human is "simply a human person according to the divine purpose".
+
+**15. Analogical Ecstasis: Plotinus, Heidegger, Lacan (Loudovikos)**
+- Dionysius's **synergy**: "every hierarchical order is elevated toward divine synergy according to its own analogy." A reciprocity of **ecstatic love** between God and man.
+- Plotinus: individual existence is a loss of Being, "a trace of life and intellect".
+- Heidegger: man fulfils his essence as ecstasis answering Being's call. Lacan: "it is not really the Other that I love but his Desire for me."
+- Maximus: God creating means God **wants** the world, opening Himself in incomprehensible ecstatic love and giving creation its own identity.
+
+**16. Man as Co-creator (Tanev)**
+- God knows creatures "as His own acts of will".
+- Each being's *logos* is **threefold**: essence, power, energy.
+- The human vocation: all that is divine in man and the world "is active, and all that is human joins in this activity". Compared with Actor-Network Theory and innovation studies.
+
+**17. Free Activity as Assent or Co-actuality? (Harper)**
+- Maximus pairs the corrupting laws of nature with the "**spiritual laws of nature**" renewed in Christ.
+- Departing from Aristotle and Evagrius, he makes **love** the primary virtue and the very means of attaining a consubstantial mode of being.
+
+**18. Bonaventure's Exemplarism (Coyle)**
+- To be a creature is to have "a constitutive and determinative difference". Difference isn't from the Fall but the centre of an "**erotics of incarnation**": God wishes "always and in all things to accomplish the mystery of his embodiment" (*Amb.* 7).
+- "Man will remain wholly man in soul and body... but will become wholly God in soul and body owing to grace."
+- Bonaventure: the Good is "the first name of God"; in the Incarnation "the Exemplar becomes the Image".
+
+**19. The Oneness of God as Unity of Persons (Cvetković)**
+- Maximus quotes Gregory Nazianzen almost verbatim but avoids identifying hypostases with **properties**.
+- The analogy between Christ's hypostasis/natures and the Trinity is "the key for understanding the structure of reality".
+
+**20. Maximus and al-Farabi on Imagination (Steiris)**
+- For Maximus, the mind perceives sensibles through **representation** (*phantasia*); mental images aren't certain knowledge.
+- Imagination is tied to the fragmented **gnomic will**, a post-Fall condition.
+- Al-Farabi rationalised **prophecy** through a perfected imagination; the difference is the role of imagination and prophecy.
+
 ## Related
 
 - [[Theosis: Becoming by Grace What God Is by Nature]]

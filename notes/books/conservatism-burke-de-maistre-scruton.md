@@ -4,7 +4,7 @@ date: 2026-10-14
 title: "Conservatism: Burke, de Maistre, Scruton"
 tags: [philosophy, political-philosophy, ethics, tradition]
 summary: The conservative tradition through three figures. Burke's Reflections on the French Revolution (prejudice, prescription, the social contract between generations, the "little platoons"), de Maistre's Catholic counter-revolution (providence, the executioner, against written constitutions), and Scruton's modern restatement (oikophilia, the sacred, home, the free market and its limits). Compared with Aristotle, Augustine and the Orthodox.
-source: "Edmund Burke, Reflections on the Revolution in France (1790); Joseph de Maistre, Considerations on France (1797), St Petersburg Dialogues; Roger Scruton, Conservatism: An Invitation to the Great Tradition (2017), How to Be a Conservative (2014)"
+source: "Edmund Burke, Reflections on the Revolution in France (1790); Joseph de Maistre, Considerations on France (1797), St Petersburg Dialogues; Roger Scruton, Conservatism: An Invitation to the Great Tradition (2017), How to Be a Conservative (2014); Edmund Burke, Reflections on the Revolution in France, ed. Frank M. Turner (Yale, 2003), with essays by Conor Cruise O'Brien, Darrin McMahon, Jack Rakove, Alan Wolfe"
 aliases: [Conservatism, Burke, Edmund Burke, Joseph de Maistre, Roger Scruton]
 ---
 
@@ -84,6 +84,84 @@ A Savoyard Catholic, exiled by the Revolution, ambassador in St Petersburg. Much
 - Burke's "prejudice" and "prescription" are close to how the Orthodox understand **Tradition**: the accumulated life of the community, trusted over individual reasoning. But for the Church, Tradition is guaranteed by the Holy Spirit, not just by having lasted. See [[Sola Scriptura: The Main Arguments and Replies]], [[The Holy Spirit in Orthodox Theology]].
 - Augustine's caution is a corrective to all of them: no earthly city is the Kingdom; the conservative can idolise the nation as much as the revolutionary idolises the future. See [[Augustine's City of God]].
 - De Maistre is the one most opposed to the Orthodox in ecclesiology (papal infallibility), yet he spent fifteen years in Orthodox Russia.
+
+## Scruton's *Conservatism*, Chapter by Chapter
+
+**Preface**
+- When Scruton was young, conservatism was defined by the worldwide confrontation between **freedom and totalitarianism**.
+- "The language of politics is spoken in the **first-person plural**, and the duty of the politician is to maintain that first-person plural in being." A pre-political loyalty makes neighbours who voted differently treat each other as fellow citizens: the government is "ours", not "mine" or "yours".
+- Isaiah Berlin's negative/positive liberty misses the idea of a **free community**: real, socially formed constraints, tacitly accepted as part of citizenship.
+- Our identity is defined "not by our religion, our tribe or our race but by our **country**, the sovereign territory in which we have built the free form of life we share".
+
+**1. Pre-History**
+- Starts from features of the human condition that limit political thinking: family loyalty creates rivalry between families and tribes (Montagues and Capulets).
+- **James Harrington**: "an empire of laws, not of men"; written constitution, bicameral government.
+- **Locke**: natural rights exist even in a state of nature; legitimate government rests on **contract**.
+- Jefferson's "checks and balances".
+- **Hume**: consent responds to a belief in legitimacy rather than founding it.
+
+**2. The Birth of Philosophical Conservatism**
+- **Adam Smith**: the "**impartial spectator**" we consult in imagination to judge ourselves; prices from free exchange as information for trade.
+- The **American** Constitution was conservative in intent: to secure what the colonists had once enjoyed before the Crown taxed without authority.
+- **Burke**: civil society, not the state, is the true source of order and authority. "**Little platoons**" are where traditions form. When law rests only on contract, obedience is just the other side of free choice; the French Revolution moved quickly "to the moral vacuum that arises when a society is based entirely on claims against it rather than duties towards it".
+
+**3. Conservatism in Germany and France**
+- **Kant**: morality from "autonomy of the will". **Hegel** saw this as "abstract right": rights and duties defined by reason alone, without history.
+- Hegel: true freedom includes recognising **obligations not freely chosen** ("obligations of piety"). **Civil society** is the sphere of free association and institutions that arise by "the cunning of reason" (an invisible hand). The distinction between **state** and civil society is essential.
+- **Ultramontanism** (de Maistre's papal authority) remained a force in French conservatism into the 20th-century Catholic revival.
+- **Tocqueville** warned of "**democratic despotism**": majority sentiment overriding minorities.
+
+**4. Cultural Conservatism**
+- **Coleridge**: against Bentham's "felicific calculus"; drew on German idealism. The state is "the representative acting-power of the nation", for both freedom and order.
+- **Ruskin, Arnold**: the machine age degraded work and leisure into means, and so art.
+- **T. S. Eliot**: *The Criterion*; the battle is fought in the realm of high culture.
+- Romantic nationalism in Germany; Thoreau's heroic independence at Walden, which repudiates Jefferson's rural settlements.
+
+**5. The Impact of Socialism**
+- Conservatism began as a "**yes, but...**" to classical liberalism's "yes" to popular sovereignty.
+- **Hayek**: interfering with the market destroys the information needed for rational economic decisions.
+- **Oakeshott**: against "**rationalism**" in politics (seeing it in means–end terms with a clearly formulated goal) and against "ideology".
+- American conservatives against the New Deal and against "**moral equivalence**" between American democracy and Soviet communism.
+
+**6. Conservatism Now**
+- Conservatives at a huge disadvantage in the intellectual world; "culture wars" became central.
+- **Maitland**'s constitutional history undermines Marxist economic determinism.
+- **Ayn Rand**'s "objectivism"; neo-liberalism (Chicago school, public choice theory).
+- Immigration and **Islam**: Huntington's "American Creed" from Anglo-Protestant culture; **Pierre Manent**: we can't expect Muslim citizens to embrace the French revolutionary doctrine of human rights; offer instead a shared object of loyalty (the nation).
+
+## The Yale Edition of Burke's *Reflections*
+
+**Turner's introduction**
+- Burke was answering **Richard Price**'s sermon to the Revolution Society at the Old Jewry (Nov 1789), which celebrated 1688 as establishing the right "to choose our own governors, cashier them for misconduct, and frame a government for ourselves". Unitarians had become the leading radical Dissenters, linking political radicalism with religious heterodoxy.
+- Burke opposed "**visionary politicians**" who reasoned from first principles rather than history and circumstances.
+- He didn't want "to confine power, authority, and distinction to blood and names and titles": "virtue and wisdom" qualify for government, "but virtue is never tried but by some difficulty and some struggle".
+- He argued the **Enlightenment** caused the Revolution; later historians refined this.
+
+**From the text**
+- On the king: the law "calls this high magistrate not our servant... but 'our sovereign Lord the king'".
+- On deliberation: "call in the aid of the farmer and the physician, rather than the professor of metaphysics".
+- The French monarchy, "though by no means a free and therefore by no means a good constitution", was "a despotism rather in appearance than in reality", tempered by religion, laws, manners.
+- On toleration: the English "tolerate, not because they despise opinions, but because they respect justice".
+- The French remade France on three "geometrical, arithmetical and financial" bases (territory, population, contribution), "like their ornamental gardeners, forming everything into an exact level".
+- Paris "smitten with the cold, dry, petrific mace of a false and unfeeling philosophy".
+
+**O'Brien: Burke, prophet against the tyranny of theory**
+- Burke, an Irishman with a Catholic mother, defended 1688 while supporting Catholic relief; he lost his Bristol seat (1780) partly for it.
+- Almost 90% of the *Reflections* is argument and analysis, not just passion.
+- Burke predicted that radicals would destroy the moderates and that a military dictator would arise.
+- The line from Rousseau's "guide" of the General Will to **Robespierre**, and on to Marx and 20th-century totalitarianism.
+
+**McMahon: Burke and the "literary cabal"**
+- Burke never used "the Enlightenment"; he spoke ironically of "this enlightened age".
+- The philosophes "were possessed with a spirit of proselytism in the most fanatical degree, and from thence... with the spirit of persecution". The Bavarian **Illuminati** conspiracy.
+- "There is a good deal of light in Burke's critique of the Enlightenment."
+
+**Rakove: why American constitutionalism worked**
+- Americans treat a constitution as fundamental law adopted at one moment, the opposite of Burke's evolving constitution. Madison would have rejected Burke's defence of unequal representation; the founders still built in protections for minorities (the Senate, the electoral college).
+
+**Wolfe: Burke and social science**
+- Human beings have a "**second nature**" (culture); they aren't like the unvarying objects of natural science. Burke anticipates the critique of rational choice theory and of E. O. Wilson's "consilience".
+- Weber: beware the "**ethic of ultimate ends**", efforts to create the Kingdom of God on earth now.
 
 ## Related
 

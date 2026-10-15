@@ -85,6 +85,52 @@ A short later poem (perhaps 4th c. BC – 1st c. AD) summing up Pythagorean ethi
 - What they kept: the world as ordered by measure and harmony, the evening self-examination (it appears in the desert monks almost word for word), and the idea of philosophy as a common life of purification.
 - The idea that mathematics reveals the structure of reality is the root of modern physics (Galileo: the book of nature is written in mathematics).
 
+## From the Sourcebook in Detail
+
+**Foreword (Godwin)**
+- Western civilisation took "several wrong turnings" by being unfaithful to Pythagoras: applied mathematics gave the "conquest of Nature" while forgetting the precept to "honour first the Immortal Gods".
+- Pythagoras taught in his fifties; the goal was discovering "the Divine within oneself". **Ficino** made him a link in the chain of "ancient theologians": Hermes, Orpheus, Aglaophamus, Pythagoras, Philolaus, Plato. See [[Christian Platonism]].
+
+**Introduction (Fideler)**
+- **The One** isn't a number but the principle of number. Theon of Smyrna: "Unity is the principle of all things... all things emanate from it and it emanates from nothing."
+- **The scale**: built by dividing the octave (6:12) by the arithmetic and harmonic means (8 and 9); the whole tone is 8:9, and the leftover semitone 243:256 is the *leimma* ("left over").
+- **Alcmaeon of Croton** first defined health as "the harmonious mixture of the qualities", a big influence on Hippocratic medicine.
+- 1 = point, 2 = line, 3 = surface, 4 = tetrahedron (the first solid).
+- Philosophy as **care of the soul**: the first stage of ascent is ethical **purification** (*praxis*). Rather than escaping the world, the goal was to exist in the cosmos in "emotional repose and intellectual acuteness". Because each part is linked to the whole by *harmonia*, every action has repercussions.
+- **Philolaus** (b. c. 474 BC) was the first Pythagorean to write the teachings down.
+- **Moderatus** (Neopythagorean): three unities: the One above being (the Good), an active Logos (the intelligible), and Soul: a source for Neoplatonism.
+- Overtones: the clarinet's timbre comes from emphasising the odd overtones.
+
+**Part I: the Lives (Iamblichus, Porphyry, Diogenes Laertius)**
+- Pythagoras sailed to Sidon (his "native country" in one tradition) on the way to Egypt.
+- **Initiation tests**: he examined prospective disciples judiciously before admitting them, and graded teaching by level.
+- **The blacksmith's discovery**: hearing hammers ring in concord, he found the ratios by hanging weights on strings, then made a "string-stretcher" (*chordotonon*).
+- **Morning memory exercise**: no Pythagorean got up before recalling the previous day in order: what he first said, heard, or ordered; the first person he met, the second... (an exercise of memory, alongside the evening self-examination).
+- "Luxury is the first evil that glides into houses and cities, the second insolence, the third destruction."
+- The **end of the community**: the Cylonians set fire to Milo's house where the Pythagoreans had met.
+- **Zalmoxis**, his Thracian slave, named from the bearskin (*zalmon*) he was born in.
+- The **Nine Muses** = the sounds of the seven planets, the fixed stars and the counter-earth; **Mnemosyne** (Memory) their harmony.
+- Followers: *Pythagorikoi* (personal disciples) vs *Pythagoristai* (imitators).
+- **Man is a microcosm**: not because made of the four elements like other animals but because he "contains all the powers of the cosmos".
+- He was the first to call the universe **kosmos** and the earth **round** (Theophrastus credits Parmenides).
+
+**Part II: the Pythagorean Library**
+- **Philolaus** opposed **suicide**: "not to lay down the burden but to help others carry theirs." His "five bodies" are probably the **Platonic solids** of the *Timaeus*.
+- **Archytas**: three means in music: **arithmetic**, **geometric**, and **harmonic** ("subcontrary"); distinguished physical and psychic time.
+- Pseudo-Pythagorean treatises on ethics and politics:
+    - virtue = "a mutual adaptation of the irrational part of the soul to the rational"
+    - the city has three classes (counsellors, auxiliaries, craftsmen); prefer first the beautiful, then the just, then the useful
+    - the **king** should tune the city "like a lyre", first establishing order in himself; he imitates the supreme God, who is called "father of gods and men" because he's mild to all under him (Sthenidas)
+    - marriage exists "for the communion of life"
+    - the world is called *kosmos* because of its order, arranged toward "the most excellent thing, God"
+- **Timaeus Locrus** (*On the Nature of the World*): probably a 1st-century Middle Platonist reading of the *Timaeus*.
+- **Aristotle**'s report: the Pythagoreans "first developed the sciences" and thought the principles of mathematics were the principles of all things.
+
+**Appendices**
+- **Theon of Smyrna**: there are **ten** tetraktys: numbers (1,2,3,4), multiplication (1,2,4,8 / 1,3,9,27), magnitudes (point, line, surface, solid), elements (fire, air, water, earth), figures, growth (seed...), societies (man, house, village, city), faculties (thought = 1, science = 2, opinion = 3, sensation = 4), seasons, ages of man.
+- **Iamblichus's titles** for the numbers: the One is called **Apollo** (*a-pollōn*, "not of many").
+- **Heath** on Pythagorean maths: Euclid I.35–48 and Book II are Pythagorean; they proved the **irrationality of √2**, which wrecked their numerical theory of proportion for incommensurable magnitudes.
+
 ## Related
 
 - [[The Presocratics: Being and Becoming]]

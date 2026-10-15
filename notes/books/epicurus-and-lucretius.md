@@ -83,6 +83,116 @@ The "four-part cure" (Philodemus's summary):
 - The ascetic side (simple living, limiting desire, friendship, self-examination) is close to monastic practice. The desert Fathers and Epicurus both treat "empty desires" as the source of anxiety; but for the Fathers the cure is love of God, not tranquillity. See [[The Virtues and the Eight Passions]].
 - Modern materialism (Gassendi, Hobbes) and the Enlightenment revived Lucretius. See [[Descartes: The Cogito and Mind-Body Dualism]].
 
+## The Oxford Handbook, Chapter by Chapter
+
+**Introduction**
+- Epicureanism keeps getting new evidence: the **Herculaneum papyri** and the inscription of **Diogenes of Oenoanda**, "the most massive inscription surviving from Greco-Roman antiquity" (barely a third uncovered), set up so Epicurus's "saving message" would reach "people from the entire earth".
+
+**1. Epicurus and the Epicurean School (Dorandi)**
+- The Garden, founded in Athens 307/6 or 305/4 BC, survived as an institution until the 1st c. BC.
+- The four first-generation leaders, "**the guides**" or "**the men**": Epicurus, Metrodorus, Hermarchus, Polyaenus. Their writings became authoritative.
+- Later the school spread to Italy (Philodemus, Lucretius), Asia Minor, Alexandria. **Philodemus** attacked "dissident" Epicureans who claimed the school tradition had distorted Epicurus: a fight over **orthodoxy**.
+
+**2. Epistemology (Asmis)**
+- The senses can't refute each other because each judges its **proper** objects (colour for sight, sound for hearing).
+- A shadow seems to follow the body, but only because light is blocked in different places: the senses report truly; the error is in the judgement.
+- **Images** (*eidōla*) are the **means** of perception, not its objects.
+- Scientific method (*Letter to Herodotus*): first be clear "what underlies words" (preconceptions); then reason from the evident to the non-evident by **attestation** and **non-contestation**. E.g. if there were no void there'd be no motion; there is motion; so there's void.
+- The good is pleasure because pleasure is **perceived** as good: the ethics rests on the epistemology.
+
+**3. Atomism (Konstan)**
+- Atoms can be displaced only in a non-resisting medium: that's void by definition.
+- **Minima**: atoms have smallest parts; motion goes over minimal units of space, which atoms "have moved" across rather than "are moving" through (avoiding Zeno). The light-switch puzzle (on, off half a second later, on a quarter second later...) illustrates the problem with infinite division.
+- **Weight**: Epicurus's addition to Democritus: Cicero: Democritus gave atoms motion from "the blow of collision"; "from you, Epicurus, the blow of heaviness and weight".
+- **The swerve** ("the particular object of scorn"): a departure from straight motion at random times by a minimum amount.
+- Epicureans explained a few striking phenomena (lightning, magnets) and left others to students: Lucretius tells Memmius to work out explanations himself.
+
+**4. Cosmology and Meteorology**
+- Worlds grow from "seeds" that must be "watered" and mature on a suitable foundation (agricultural metaphors).
+- Against Aristotle and the Stoics, "down" isn't toward the centre of the cosmos: there's no centre in an infinite universe.
+- **Multiple explanations**: the face in the moon "may be due to variation in its parts, or to an interposition, or in as many other ways" as agree with the phenomena. Lightning may come first and the thunder be "rolled up" and delayed.
+- Earth's interlocking atoms squeezed out water's smaller round atoms: the seas.
+
+**5. Theology (Spinelli and Verde)**
+- Was Epicurus "the coryphaeus of atheism"? No: the gods exist, are known by **clear** (*enargēs*) perception, and are incorruptible by constant atomic **replenishment** (*antanaplērōsis*).
+- *Key Doctrine* I: "What is blessed and indestructible has no troubles itself and causes none to another."
+- The gods aren't mute: a mute life wouldn't be blessed. Some Epicureans gave them speech (Greek!).
+- Against **astral theology**: the heavenly bodies aren't gods. No providence.
+- There were **Epicurean priests**: Epicureans took part in worship, as contemplation of the gods' blessedness, not to win favour.
+- The gods are the **model** of the wise man's life: Epicurus as *deus mortalis*; *homoiōsis theōi* (becoming like god) in an Epicurean sense.
+
+**6. Death (Warren / Rosenbaum)**
+- "One speaks idly who says he fears death not because it will be painful when present but because it is painful in prospect" (*Letter to Menoeceus*).
+- The support is a thesis about **value**: something can be good or bad for someone only if they can experience it ("all good and bad depend on sentience"). Call it "concrete" value.
+- Modern critics (Nagel's **deprivation** account; Nussbaum, Furley) use an "abstract" notion of value: death deprives us of goods we'd have had. The chapter argues this doesn't refute Epicurus, since it begs a different theory of value.
+- If death isn't bad for the one who dies, is the death penalty a **penalty**?
+- **Symmetry argument** and Bernard Williams's "**Makropulos Case**" (immortality would be tedious) in the literature.
+
+**7. Hedonism (Tsouna)**
+- Cicero's *De Finibus*: Torquatus defends Epicurus, Cicero attacks.
+- The "**hedonistic calculus**": weigh pleasures and pains. The "urbane" Epicureans (Philodemus, Zeno of Sidon) understood that choices are dictated by the calculus and only indirectly by the virtues.
+- The **Cradle Argument**: infants seek pleasure and avoid pain before they're corrupted, so pleasure is the natural good.
+- Epicurean philosophy makes one able to "feel joy as the gods do for as long as" one lives.
+- It's rational to prefer more **wealth**, if it's managed by Epicurean principles.
+- Cicero: Epicurus wants it both ways: every pleasure is choiceworthy (popular) and the absence of pain is the limit (respectable). And the "**silence of history**": no great person ever explained his deeds as seeking his own pleasure.
+
+**8. Psychology (Asmis)**
+- The soul is a "**fine body**" spread through the whole organism, "most like breath with some heat": a body as much as the body.
+- Perception is a form of **judgement**, not mere sensation. A sick person tastes honey as bitter because the sense channels are disturbed.
+- Belief = "another motion within us, attached but with a distinction (*dialēpsis*)".
+- Pleasure and pain are the "**rule**" (*kanōn*) for all choice and avoidance.
+- Epicurus called "the pleasure of the stomach the beginning and root of all good": the desire for food is the basic natural desire.
+- The **emergence** debate: Sedley's "radically emergentist" reading (the mind develops new causal powers beyond the atoms) vs reductionist readings.
+
+**9. Voluntary Action and Responsibility (Englert)**
+- *On Nature* XXV: the mind's "**developments**" (*apogegennēmena*) become "different from the atoms", in a way not just like distance: so we're responsible.
+- We can't control which images stream in, but which we **attend** to depends on us and our beliefs.
+- **Lucretius 2.251–93**: the swerve gives "a certain beginning of motion" which breaks "the decrees of fate"; the will (*voluntas*) provides the beginning of action. Most scholars think the swerve is the physical basis of free volition.
+
+**10. Friendship (Mitsis)**
+- The Garden's goal was communal **fellowship**: a "hobbit-like appreciation of good food, ample drink, and a warm fire", plus "refresher courses" in doctrine.
+- Vatican Saying 23: "**Every friendship is choiceworthy for itself, though it has taken its beginning from benefit.**"
+- Torquatus: the sage "loves his friend as much as himself" and will sometimes **die** for him; yet his own pleasure is the goal. Cicero says a "more humane" Epicurean view arose in response to Academic criticism.
+- The tension: if friends are valued only as means to pleasure, it isn't real friendship (the modern "schizophrenia of ethical theories" critique, Stocker). See [[Friendship and Love in Ancient and Medieval Thought]].
+
+**11. Politics and Society (Roskam)**
+- "**Live unnoticed**" (*lathe biōsas*): politics generally ruins blessedness. Lucretius: famous politicians were driven by an unjustified fear of death.
+- Justice is a **contract** not to harm or be harmed. Don't break it, not because injustice is bad in itself but because you can never be sure of escaping detection (*KD* 34–35): living in fear.
+- Friends are "**saved through one another**" (Philodemus, *On Frank Criticism*).
+- Epicurus called the Cynics "enemies of Greece" and Plato's followers "flatterers of Dionysius".
+- Exceptions: some Epicureans were politically active; security can come "from quiet" rather than from power.
+
+**16. Lucretius (Gale)**
+- He claims originality: the first to explore "trackless places of the Muses" and to put Epicurus into Latin.
+- He adds *divinitus* ("by divine agency") to "nothing comes from nothing": ironically.
+- Why poetry? The **honeyed cup**: a doctor smears honey on the rim of a cup of bitter wormwood for a child; poetry is the honey, philosophy the medicine (a "multiple-correspondence simile").
+- The poem is structured by cycles of growth and decay, and ends with the **plague of Athens**.
+
+**18. Cicero**
+- Cicero: "I would rather be wrong with Plato than right with these men."
+- His critique: transactional friendships can't be distinguished from lasting ones; the Garden isn't a refuge where self-interest turns into care.
+
+**19. Seneca**
+- Seneca closes many *Letters* with a quotation "from today's reading", often Epicurus: "to pay my debt I must get a loan from Epicurus." He quotes Key Doctrines I, IV, V.
+- But: "it is harmful to praise pleasure as you do." The Stoic sage makes friends **to exercise virtue**, not for use.
+
+**20. Plutarch**
+- *Against Colotes*, *That Epicurus Makes a Pleasant Life Impossible* (*Non posse*), *On "Live Unnoticed"*: Epicurus's doctrines are "a confusion of self-contradictions"; a secure life is impossible not by others' teachings but by Epicurus's.
+- His reading of "live unnoticed" is "self-serving".
+
+**23. Early Christianity**
+- Acts 17 (Paul at Athens with Epicureans and Stoics). Augustine (*Sermon* 150): Paul is **opposed** to both; Christians should know which side to reject, though "some Christians are in fact Epicureans".
+- **Jerome** calls Jovinian, an opponent of asceticism, an "Epicurean".
+- In the Rabbis, *Apiqoros* became the word for a heretic or unbeliever (Ch. 22). Epicurus as the prototype "materialist closed to the divine".
+
+**24–31. Reception (brief)**
+- **Poggio Bracciolini** rediscovered Lucretius (1417); first printed c. 1473; Florence banned teaching it in 1517. Lorenzo **Valla** "Christianised" the claim that pleasure is the highest good.
+- **Gassendi** "baptised" Epicureanism (atomism with God as first cause and an immortal soul); dialogue with **Hobbes** on the social contract and the "state of nature" (both Epicurean ideas).
+- **Jefferson**: "I too am an Epicurean"; Jesus as a materialist reformer.
+- **Utilitarianism**: Mill and Bentham saw themselves as Epicurus's heirs.
+- **Marx**'s doctoral thesis on Democritus vs Epicurus (the swerve as freedom); Nietzsche's "eternal Epicurus".
+- **Serres** and postmodern readings of the *clinamen*.
+
 ## Related
 
 - [[The Presocratics: Being and Becoming]]

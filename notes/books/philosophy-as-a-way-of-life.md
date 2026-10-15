@@ -85,6 +85,62 @@ The most important chapter for this site.
 - But the Orthodox would stress the break too: the Fathers used the exercises, but the source is **grace** and the sacraments; the goal is **theosis**, not tranquillity. See [[Theosis: Becoming by Grace What God Is by Nature]].
 - A practical upshot for my own study: don't just collect arguments; the notes are meant to change how I live.
 
+## Chapter by Chapter
+
+**Translator's note and Davidson's Introduction**
+- Hadot's method (from his teachers Paul Henry and Pierre Courcelle): first a scrupulous, textually critical reading, then an exact translation; only then interpretation. His conclusions depend on his translations.
+- Hadot's work on Christianity: Ambrose borrowing from Plotinus ("a Plotinian ascesis put in the service of an Origenian mysticism of Jesus"); Ambrose identifies the Good with Christ.
+- "**Contamination**": paganism and Christianity each adopting ideas and practices of the adversary.
+- Porphyry's distinction of **being as infinitive** (pure, indeterminate activity: the first One) and **being as participle** (the first determined substance participating in it): a source of Boethius's *esse* / *id quod est*. See [[Aristotle East and West]] ch. 5.
+- On **Augustine**: the images in *Confessions* II describing his inner state are theological; the **pear theft** is an account of original sin.
+- Xenophon: when Hippias demanded Socrates' definition of justice, Socrates said: "**Instead of speaking of it, I make it understood by my acts.**"
+- Plotinus (*Enn.* VI.7.36) distinguishes rational theology that **teaches about** the Good from spiritual exercises that **lead to** it.
+- Hadot's two senses of "theoretical": opposed to "practical" (discourse vs lived philosophy), and *théorétique* (contemplative), which is itself a way of life.
+- Epictetus was the first Stoic to distinguish the **three activities of the soul** (desire, action, assent), which Marcus took over.
+
+**Part I: Method**
+- **Courcelle**'s *Recherches sur les Confessions* (1950) "almost caused a scandal" by its reading of Augustine's conversion (the garden scene as partly literary).
+- Two inseparable projects: explain Latin thought by its Greek background, and recover lost Greek thought in Latin writers.
+- From the 3rd c. BC to the 3rd c. AD, six traditions stayed remarkably stable: Platonism, Aristotelianism, Stoicism, Epicureanism, Scepticism, Cynicism. Their core **dogmas and rules of life** stayed unchanged.
+- Exercises in the schools: discussing "**theses**" (Is death an evil? Should the wise man marry?) dialectically or rhetorically.
+- Ancient works are often "**zetetic**" ("seeking"): written to answer a question for a particular audience, so they needn't be consistent on all points. That explains apparent inconsistencies in Plato and Aristotle.
+- **Philosophy as exegesis**: from the 1st c. BC (Andronicus edits Aristotle) to the Renaissance (Zabarella), the search for truth was a search for the meaning of authoritative texts. "**Creative mistakes**": misreadings that produced new ideas (Porphyry's "being" distinction to solve a problem in Plato).
+- Husserl presents himself as heir to "Know thyself" from Socrates through Augustine to Descartes; Heidegger's authenticity as "lucid anticipation of death" recalls the exercise of death (though Heidegger distinguishes it from *meditatio mortis*).
+
+**Part II: Spiritual Exercises**
+- They raise the individual to "the life of the objective Spirit": seeing from the perspective of the **Whole** ("Become eternal by transcending yourself").
+- Philosophy as **therapy of the passions** (Friedmann: "Try to get rid of your own passions"). Epictetus: "**The philosopher's school is a clinic.**"
+- The Stoic keeps the fundamental rule **at hand** (*procheiron*): what depends on us and what doesn't. Keep life's events "before our eyes" in its light.
+- *Meletē* = **meditation**: "an effort to assimilate an idea and make it come alive in the soul". Epicurus: "Meditate on these things night and day... and you shall live like a god among men."
+- The Platonic **dialogue** is a spiritual exercise: examination of conscience, "Know thyself".
+- **Plotinus** "was present at the same time to himself and to others" (Porphyry).
+- Learning to die: Phaedo; Seneca, Marcus.
+- **Askēsis** in the ancient sense is "exercise", not modern "asceticism" (abstinence from food, sleep, sex).
+- **Christian philosophy**: the monks kept the principles "at hand", but from the Gospel and the "sayings of the ancients" (the first monks). **Evagrius**'s scheme: *praktikē* (ethics) → *physikē* ("the Kingdom of Heaven": contemplation of the natures and *logoi* of things) → *theologikē* ("the Kingdom of God": knowledge of the Trinity). Two other key virtues: **penitence** and **obedience**.
+
+**Part III: Figures**
+- **Socrates**: Plato effaces himself behind Socrates and avoids "I". Socrates is ***atopos*** ("out of place": strange, unclassifiable).
+- People fell in love not with Socrates' beauty (he had none) but with his **love**, which in the *Symposium* is desire for the beauty we lack. Eros is the son of **Penia** (Poverty) and **Poros** ("way out", resource).
+- Goethe: "If only I could be Alcibiades for one day and one night, and then die!"
+- Socrates' last words ("Crito, we owe a cock to Asclepius") read by Nietzsche as "O Crito, life is a disease."
+- **Marcus Aurelius**: the "opium" theory (he took theriac, which contained poppy juice, so his *Meditations*' cosmic visions were drug-induced): Hadot rejects it. The visions are exercises of the imagination, like Seneca's "place before your mind's eye the abyss of time".
+- "**Physical definitions**": describe things as they are, stripping conventional value: purple robes are sheep's wool dipped in shellfish blood; sexual union is "a little epilepsy" (Hippocrates and Democritus).
+- Arrian grouped Epictetus's *Manual* by the three disciplines; Marcus's substance comes from **Epictetus**.
+- We should "love" to see events happen, because universal nature "loves" to produce them.
+- **Joy** vs pleasure: the Stoics distinguished *hēdonē* (pleasure) from *eupatheia* (joy). Seneca: joy is in "the conscience turned towards the good".
+
+**Part IV: Themes**
+- **Only the present is our happiness**: Epicurean: "the life of a foolish man is fearful and unpleasant; it is swept away into the future". Stoic: two ways of defining the present: as a limit (which doesn't exist, since time is divisible) or relative to **consciousness**: "delimit the present".
+- Goethe's *Faust*: the instant as "the living symbol of the unexplorable".
+- **The view from above**: the soul rising to observe the cosmos; the Montgolfier balloon (1783) as modern image; Baudelaire's "Elevation". Marcus: "the rational soul travels through the whole universe and the void around it".
+- **The sage and the world**: Lucretius and Seneca see the world "as though for the first time". **Paul Klee**: the artist feels himself "a piece of nature".
+- **Philosophy as a way of life**: Dom Jean Leclercq: in the monastic Middle Ages *philosophia* meant "not a theory or a way of knowing, but a lived wisdom". The medieval universities separated theology (faith) from philosophy (reason).
+
+**Postscript: interview**
+- Hadot became "detached" from Catholicism (he'd been a priest) but it formed him.
+- "The idea of the 'purely spiritual' is untenable."
+- For Plotinus, teaching can allude to mystical experience but can't lead to it; everything "technical" can be taught.
+
 ## Related
 
 - [[The Ladder of Divine Ascent]]
