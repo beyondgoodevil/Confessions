@@ -33,7 +33,7 @@ Not just Plato's dialogues but a family of convictions, roughly:
 
 | Platonist idea | Christian correction |
 |---|---|
-| the world is **eternal** (or matter is) | creation **out of nothing**, with a beginning. See [[Copan and Craig: Creation out of Nothing]] |
+| the world is **eternal** (or matter is) | creation **out of nothing**, with a beginning. See [[Creation out of Nothing]] |
 | the **Forms** exist on their own | the Forms are **God's ideas** (Philo, Augustine), or the **logoi** in the Word (Maximus) |
 | the One **emanates** by necessity | God creates **freely**, by will |
 | the highest principle is **impersonal** | God is three **Persons**; the Trinity isn't a hierarchy of One, Mind, Soul. Nicaea against subordinationism |
@@ -43,7 +43,7 @@ Not just Plato's dialogues but a family of convictions, roughly:
 | union by **one's own** ascent | by **grace**, through Christ and the Church |
 | only philosophers ascend | the Gospel is for all, the simple included |
 
-The **Incarnation** and **resurrection** are where Platonism had to break. "The Word was made flesh" was Augustine's point: the Platonists told him of the Word but not of His becoming flesh (*Confessions* VII.9). See [[Augustine's Confessions: Memory, Time and the Restless Heart]].
+The **Incarnation** and **resurrection** are where Platonism had to break. "The Word was made flesh" was Augustine's point: the Platonists told him of the Word but not of His becoming flesh (*Confessions* VII.9). See [[Confessions: Memory, Time and the Restless Heart]].
 
 ## 4. History in Brief
 
@@ -51,7 +51,7 @@ The **Incarnation** and **resurrection** are where Platonism had to break. "The 
 - **Philo** of Alexandria: Jewish Platonism, the Logos, the Forms as God's thoughts.
 - **Justin Martyr**, **Clement**, **Origen**: Alexandrian Christian Platonism. Origen goes furthest (pre-existence, apokatastasis).
 - **The Cappadocians**: Gregory of Nyssa especially: infinite God, endless ascent (*epektasis*), apophaticism.
-- **Augustine**: "the books of the Platonists" lead him to see God as immaterial; Platonism is the way into Christianity for him. See [[Augustine's City of God]] (books VIII–X on the Platonists).
+- **Augustine**: "the books of the Platonists" lead him to see God as immaterial; Platonism is the way into Christianity for him. See [[The City of God]] (books VIII–X on the Platonists).
 - **Dionysius**: Proclus's Neoplatonism Christianised: hierarchies, procession and return, the divine names. See [[St. Dionysius the Areopagite]].
 - **Maximus**: the logoi; corrects Origenism. See [[Maximus the Confessor as a European Philosopher]].
 - **Boethius**: *Consolation of Philosophy*.
@@ -83,7 +83,7 @@ The **Incarnation** and **resurrection** are where Platonism had to break. "The 
 
 *Mine.*
 
-- Florovsky's line is the right one for Orthodoxy: the Fathers used Platonic language but changed its content: creation, persons, Incarnation. The essence–energies distinction is a good example: it uses Neoplatonic structures (the One beyond being, its activity) to say something non-Neoplatonic (a personal God freely present). See [[David Bradshaw: Aristotle East and West]], [[Neoplatonism: Plotinus, Porphyry, Proclus]].
+- Florovsky's line is the right one for Orthodoxy: the Fathers used Platonic language but changed its content: creation, persons, Incarnation. The essence–energies distinction is a good example: it uses Neoplatonic structures (the One beyond being, its activity) to say something non-Neoplatonic (a personal God freely present). See [[Aristotle East and West]], [[Neoplatonism: Plotinus, Porphyry, Proclus]].
 - The danger points are the same ones the councils condemned: Origenism, and a "One" with no room for persons (see [[Neoplatonic Idea of Divine Simplicity]]).
 
 ## Related
@@ -94,6 +94,6 @@ The **Incarnation** and **resurrection** are where Platonism had to break. "The 
 - [[Neoplatonic Idea of Divine Simplicity]]
 - [[St. Dionysius the Areopagite]]
 - [[Emergence of Magic and Neoplatonism in the Renaissance]]
-- [[Augustine's City of God]]
+- [[The City of God]]
 - [[Maximus the Confessor as a European Philosopher]]
-- [[Pierre Hadot: Philosophy as a Way of Life]]
+- [[Philosophy as a Way of Life]]

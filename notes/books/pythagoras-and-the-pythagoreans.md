@@ -25,7 +25,7 @@ From Iamblichus's *Life* (the first part of the *Sourcebook*):
 - **Rules** (*akousmata*), some strange: abstain from beans; don't stir the fire with a knife; don't step over a crossbar; put on the right shoe first. Later read symbolically.
 - **Vegetarianism**, at least for some: tied to kinship of all living things.
 - Women admitted: **Theano**, said to be Pythagoras's wife, wrote letters on household virtue.
-- *Mine*: the closest thing in Greek philosophy to a monastery. Hadot's point that ancient philosophy was a way of life fits it best of all. See [[Pierre Hadot: Philosophy as a Way of Life]].
+- *Mine*: the closest thing in Greek philosophy to a monastery. Hadot's point that ancient philosophy was a way of life fits it best of all. See [[Philosophy as a Way of Life]].
 
 ## 3. Number Is the Principle
 
@@ -81,7 +81,7 @@ A short later poem (perhaps 4th c. BC – 1st c. AD) summing up Pythagorean ethi
 
 *Mine.*
 
-- What the Fathers rejected: **transmigration** (Gregory of Nyssa's Macrina mocks it; see [[St. Gregory of Nyssa: On the Soul and the Resurrection]]), the body as prison, and salvation as escape.
+- What the Fathers rejected: **transmigration** (Gregory of Nyssa's Macrina mocks it; see [[On the Soul and the Resurrection]]), the body as prison, and salvation as escape.
 - What they kept: the world as ordered by measure and harmony, the evening self-examination (it appears in the desert monks almost word for word), and the idea of philosophy as a common life of purification.
 - The idea that mathematics reveals the structure of reality is the root of modern physics (Galileo: the book of nature is written in mathematics).
 
@@ -91,5 +91,5 @@ A short later poem (perhaps 4th c. BC – 1st c. AD) summing up Pythagorean ethi
 - [[The Forms and the Demiurge]]
 - [[The Good in Plato]]
 - [[Neoplatonism: Plotinus, Porphyry, Proclus]]
-- [[Pierre Hadot: Philosophy as a Way of Life]]
-- [[St. Gregory of Nyssa: On the Soul and the Resurrection]]
+- [[Philosophy as a Way of Life]]
+- [[On the Soul and the Resurrection]]

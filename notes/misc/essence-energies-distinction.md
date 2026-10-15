@@ -75,5 +75,5 @@ This distinction is not optional; it is **dogmatic**, affirmed by the **Palamite
 - [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]]
 - [[Jesus Walking on Water: Eternal Act, Essence-Energy Distinction]]
 - [[The Jesus Prayer and Hesychasm]]
-- [[Vladimir Lossky: The Mystical Theology of the Eastern Church]]
-- [[David Bradshaw: Aristotle East and West]]
+- [[The Mystical Theology of the Eastern Church]]
+- [[Aristotle East and West]]

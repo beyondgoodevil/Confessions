@@ -1,12 +1,12 @@
 ---
 id: B-0033
 date: 2026-10-14
-title: "David Bradshaw: Aristotle East and West"
+title: Aristotle East and West
 tags: [philosophy, theology, metaphysics, aristotle, neoplatonism, patristics]
 summary: How the Greek term energeia (activity, actuality) developed from Aristotle through Plotinus to the Greek Fathers and Palamas, while the Latin West took a different path through Augustine and Boethius to Aquinas's God as pure being. Bradshaw's thesis that this split over energeia underlies the theological division between East and West.
 author: David Bradshaw
 source: "David Bradshaw, Aristotle East and West: Metaphysics and the Division of Christendom (Cambridge, 2004)"
-aliases: [Aristotle East and West, Bradshaw, Energeia]
+aliases: ["David Bradshaw: Aristotle East and West", Bradshaw, Energeia]
 ---
 
 The best book on the philosophical background to the essence–energies distinction. Bradshaw's thesis: East and West took different paths from a single word, Aristotle's ***energeia***, and the divergence is a deep root of the schism, deeper than the Filioque or the papacy.
@@ -97,4 +97,4 @@ Both are answering the same question: how creatures can know and share in God. B
 - [[The Unmoved Mover]]
 - [[Neoplatonism: Plotinus, Porphyry, Proclus]]
 - [[St. Dionysius the Areopagite]]
-- [[Vladimir Lossky: The Mystical Theology of the Eastern Church]]
+- [[The Mystical Theology of the Eastern Church]]

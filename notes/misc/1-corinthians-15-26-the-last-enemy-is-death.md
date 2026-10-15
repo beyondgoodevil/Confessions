@@ -51,6 +51,6 @@ source: "1 Corinthians 15:26 (New King James Version); Alexander Schmemann, For 
 - [[Resurrection Verses]]
 - [[The Descent into Hades]]
 - [[Ancestral Sin vs Original Sin]]
-- [[Fr. Alexander Schmemann: For the Life of the World]]
+- [[For the Life of the World]]
 - [[Epicurus and Lucretius]]
 - [[Paul Quotes the Septuagint Part 3]]

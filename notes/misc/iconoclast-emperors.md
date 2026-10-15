@@ -50,4 +50,4 @@ summary: Four Byzantine emperors and the political motives behind their iconocla
 - [[Roman Emperors Who Used Arianism for Political Power]]
 - [[Nine Ecumenical Councils and Their Decisions]]
 - [[Protestant Heresy Falls Into Heresies Dealt With in the Ecumenical Councils]]
-- [[Leonid Ouspensky: Theology of the Icon]]
+- [[Theology of the Icon]]

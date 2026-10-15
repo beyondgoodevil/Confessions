@@ -56,7 +56,7 @@ The poem *On Nature*: a goddess shows the youth two ways.
 
 Aristotle's answer: the distance is only **potentially** infinitely divisible, not actually divided. Modern answer: convergent infinite series.
 
-**Why it matters.** Parmenides sets the problem for the whole tradition: how can there be change and many things, if being is one? Plato answers with the Forms (being) and the sensible world (becoming); Aristotle with **act and potency**: change is from potential being, not from nothing. See [[Aristotle's Physics: Nature, Change and the Four Causes]], [[Edward Feser: The Last Superstition]].
+**Why it matters.** Parmenides sets the problem for the whole tradition: how can there be change and many things, if being is one? Plato answers with the Forms (being) and the sensible world (becoming); Aristotle with **act and potency**: change is from potential being, not from nothing. See [[Physics: Nature, Change and the Four Causes]], [[The Last Superstition]].
 
 ## 5. The Pluralists: Replies to Parmenides
 
@@ -87,7 +87,7 @@ The atomists are the ancestors of materialism. See [[Epicurus and Lucretius]].
 *Mine.*
 
 - The two big themes, being (Parmenides) and becoming (Heraclitus), run through everything after. In Christian terms: God as "I AM" (*ho ōn*, Exod 3:14) is being, creation is becoming, and the Logos joins them. See [[The Name of God]].
-- Parmenides' "nothing comes from nothing" is the principle Christianity has to answer with **creation ex nihilo**: not from nothing as material, but by God's will. See [[Copan and Craig: Creation out of Nothing]].
+- Parmenides' "nothing comes from nothing" is the principle Christianity has to answer with **creation ex nihilo**: not from nothing as material, but by God's will. See [[Creation out of Nothing]].
 - Anaxagoras's Nous and Xenophanes' one god show the Greeks reaching toward a single divine mind before Plato.
 
 ## Related
@@ -95,7 +95,7 @@ The atomists are the ancestors of materialism. See [[Epicurus and Lucretius]].
 - [[The Problem of the One and the Many]]
 - [[Logic Before Aristotle]]
 - [[Pythagoras and the Pythagoreans]]
-- [[Aristotle's Physics: Nature, Change and the Four Causes]]
+- [[Physics: Nature, Change and the Four Causes]]
 - [[Epicurus and Lucretius]]
 - [[The Forms and the Demiurge]]
-- [[Copan and Craig: Creation out of Nothing]]
+- [[Creation out of Nothing]]

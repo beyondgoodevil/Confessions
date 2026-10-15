@@ -53,5 +53,5 @@ Written late in life (c. 390) for a monk asking about the perfect life. Two part
 - [[Differences Between Gregory’s Dunamis and Thomistic Pure Act]]
 - [[God's Uncreated Energies]]
 - [[The Jesus Prayer and Hesychasm]]
-- [[St. Gregory of Nyssa: On the Soul and the Resurrection]]
-- [[David Bradshaw: Aristotle East and West]]
+- [[On the Soul and the Resurrection]]
+- [[Aristotle East and West]]

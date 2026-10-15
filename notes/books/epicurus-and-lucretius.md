@@ -88,6 +88,6 @@ The "four-part cure" (Philodemus's summary):
 - [[The Presocratics: Being and Becoming]]
 - [[The Problem of Evil and Theodicy]]
 - [[Friendship and Love in Ancient and Medieval Thought]]
-- [[Pierre Hadot: Philosophy as a Way of Life]]
+- [[Philosophy as a Way of Life]]
 - [[Mind and Body: Dualism, Materialism, Emergence]]
 - [[The Virtues and the Eight Passions]]

@@ -129,5 +129,5 @@ The key move: a **real distinction is not a composition**. The sun and its rays 
 - [[The Problem of the One and the Many]]
 - [[Apophatic and Cataphatic Theology]]
 - [[EO vs RC Trinity]]
-- [[Modal Collapse and Divine Simplicity: Tomaszewski's Reply]]
-- [[David Bradshaw: Aristotle East and West]]
+- [[How the Absolutely Simple Creator Escapes a Modal Collapse]]
+- [[Aristotle East and West]]

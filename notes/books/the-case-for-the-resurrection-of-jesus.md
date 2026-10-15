@@ -65,7 +65,7 @@ The resurrection explains **all** the facts; each rival explains at most a few, 
 
 ## 6. What Does God Have to Do with It?
 
-- The atheist can say: even if we can't explain it, a miracle is the least likely explanation. Reply: if there's any reason to think God exists (cosmology, design, morality), a resurrection in this context, of this man, isn't improbable. See [[Hume on Causation and Induction]] sec. 5, [[Richard Swinburne: Is There a God?]].
+- The atheist can say: even if we can't explain it, a miracle is the least likely explanation. Reply: if there's any reason to think God exists (cosmology, design, morality), a resurrection in this context, of this man, isn't improbable. See [[Hume on Causation and Induction]] sec. 5, [[Is There a God?]].
 
 ## Notes
 
@@ -82,5 +82,5 @@ The resurrection explains **all** the facts; each rival explains at most a few, 
 - [[The Descent into Hades]]
 - [[Islam's View of Jesus vs the Gospels]]
 - [[Hume on Causation and Induction]]
-- [[Richard Swinburne: Is There a God?]]
+- [[Is There a God?]]
 - [[Revelation and Miracles]]

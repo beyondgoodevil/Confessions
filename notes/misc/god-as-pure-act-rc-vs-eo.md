@@ -44,5 +44,5 @@ In summary, both traditions affirm God as "pure act," but they differ in focus: 
 - [[Thomism]]
 - [[Differences Between Gregory’s Dunamis and Thomistic Pure Act]]
 - [[First and Second Actuality in Thomism]]
-- [[David Bradshaw: Aristotle East and West]]
-- [[Modal Collapse and Divine Simplicity: Tomaszewski's Reply]]
+- [[Aristotle East and West]]
+- [[How the Absolutely Simple Creator Escapes a Modal Collapse]]

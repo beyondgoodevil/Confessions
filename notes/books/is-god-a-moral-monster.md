@@ -1,12 +1,12 @@
 ---
 id: B-0037
 date: 2026-10-14
-title: "Is God a Moral Monster? Copan on the Old Testament"
+title: "Is God a Moral Monster?"
 tags: [theology, apologetics, scripture, ethics]
 summary: Paul Copan's answers to the New Atheist charge that the Old Testament God is a moral monster. Divine jealousy, Abraham and Isaac, the Mosaic Law as an improvement on its world and not the ideal, kosher and purity laws, harsh punishments, slavery as debt-servitude, women, and the Canaanite conquest (hyperbole, "drive out", military targets). With the Fathers' allegorical reading added.
 author: Paul Copan
 source: "Paul Copan, Is God a Moral Monster? Making Sense of the Old Testament God (Baker, 2011)"
-aliases: [Is God a Moral Monster, Copan, Canaanite Conquest, Old Testament Ethics]
+aliases: ["Is God a Moral Monster? Copan on the Old Testament", Is God a Moral Monster, Copan, Canaanite Conquest, Old Testament Ethics]
 ---
 
 Written against Dawkins's line that the OT God is "arguably the most unpleasant character in all fiction: jealous and proud of it; a petty, unjust, unforgiving control-freak; a vindictive, bloodthirsty ethnic cleanser..." Copan takes the charges one by one.
@@ -88,4 +88,4 @@ The hardest one: "thou shalt **utterly destroy** them" (Deut 7:2; 20:16-17).
 - [[The Moral Argument for God]]
 - [[The Euthyphro Dilemma and the Orthodox Answer]]
 - [[Anthropomorphic Language in the Context of God and the Bible]]
-- [[Eleonore Stump: Wandering in Darkness]]
+- [[Wandering in Darkness]]

@@ -3,8 +3,8 @@ id: B-0042
 date: 2026-10-14
 author: Edward Feser
 source: "Edward Feser, The Last Superstition: A Refutation of the New Atheism (St. Augustine's Press, 2008)"
-aliases: [The Last Superstition, Feser]
-title: "Edward Feser: The Last Superstition"
+aliases: ["Edward Feser: The Last Superstition", Feser]
+title: The Last Superstition
 tags: [philosophy, apologetics, metaphysics, aristotle, thomism]
 summary: Feser's polemic against the New Atheists. The real conflict is between the Aristotelian-Thomistic worldview and modern mechanism. Plato and Aristotle (forms, act and potency, the four causes), Aquinas's arguments, natural law and the soul, how the moderns threw out final causes and created their own problems, and why the New Atheists' arguments miss.
 ---
@@ -82,7 +82,7 @@ Very fun attack on the New Atheists. Feser's claim: the "superstition" of the ti
 *Mine.*
 
 - The most useful idea: the debate is really about **metaphysics** (final causes), and the moderns never refuted Aristotle; they changed the subject.
-- Hart says the same about the "God" of the debates (see [[David Bentley Hart: The Experience of God]]).
+- Hart says the same about the "God" of the debates (see [[The Experience of God]]).
 - Orthodox reservations: Feser's God is the absolutely simple God of Thomism, which runs into the problems in [[Divine Simplicity: Western and Orthodox Views]]; and [[God as Pure Act: RC vs EO]].
 - Feser's later *Five Proofs* is the cleaner, less polemical version.
 
@@ -95,6 +95,6 @@ Very fun attack on the New Atheists. Feser's claim: the "superstition" of the ti
 - [[Hume on Causation and Induction]]
 - [[The Argument from Reason]]
 - [[God as Pure Act: RC vs EO]]
-- [[David Bentley Hart: The Experience of God]]
+- [[The Experience of God]]
 - [[Thomistic Metaphysics]]
-- [[Aristotle's Physics: Nature, Change and the Four Causes]]
+- [[Physics: Nature, Change and the Four Causes]]

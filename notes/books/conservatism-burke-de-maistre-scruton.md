@@ -80,15 +80,15 @@ A Savoyard Catholic, exiled by the Revolution, ambassador in St Petersburg. Much
 
 *Mine.*
 
-- Conservatism's **anthropology** is the classical one: man is a political and religious animal, formed by community and tradition, not a free-floating chooser. See [[Aristotle's Politics]].
+- Conservatism's **anthropology** is the classical one: man is a political and religious animal, formed by community and tradition, not a free-floating chooser. See [[The Politics]].
 - Burke's "prejudice" and "prescription" are close to how the Orthodox understand **Tradition**: the accumulated life of the community, trusted over individual reasoning. But for the Church, Tradition is guaranteed by the Holy Spirit, not just by having lasted. See [[Sola Scriptura: The Main Arguments and Replies]], [[The Holy Spirit in Orthodox Theology]].
-- Augustine's caution is a corrective to all of them: no earthly city is the Kingdom; the conservative can idolise the nation as much as the revolutionary idolises the future. See [[Augustine's City of God]].
+- Augustine's caution is a corrective to all of them: no earthly city is the Kingdom; the conservative can idolise the nation as much as the revolutionary idolises the future. See [[The City of God]].
 - De Maistre is the one most opposed to the Orthodox in ecclesiology (papal infallibility), yet he spent fifteen years in Orthodox Russia.
 
 ## Related
 
-- [[Aristotle's Politics]]
-- [[Augustine's City of God]]
+- [[The Politics]]
+- [[The City of God]]
 - [[Sola Scriptura: The Main Arguments and Replies]]
 - [[Vatican I's View of Papal Infallibility]]
 - [[Beauty as a Way to God]]

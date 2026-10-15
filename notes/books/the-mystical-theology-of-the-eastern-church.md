@@ -1,12 +1,12 @@
 ---
 id: B-0032
 date: 2026-10-14
-title: "Vladimir Lossky: The Mystical Theology of the Eastern Church"
+title: The Mystical Theology of the Eastern Church
 tags: [theology, patristics, theosis, trinity]
 summary: Lossky's 1944 classic, chapter by chapter. Theology and mysticism inseparable; apophaticism; the Trinity and the monarchy of the Father; the uncreated energies; creation, image and likeness; the two economies of the Son and the Spirit; the Church; the way of union; the divine light; and the Filioque as the root of the East–West difference.
 author: Vladimir Lossky
 source: "Vladimir Lossky, The Mystical Theology of the Eastern Church (SVS Press)"
-aliases: [The Mystical Theology of the Eastern Church, Lossky, Vladimir Lossky, Mystical Theology]
+aliases: ["Vladimir Lossky: The Mystical Theology of the Eastern Church", Lossky, Vladimir Lossky, Mystical Theology]
 ---
 
 Written in Paris (French 1944, English 1957). Probably the most influential 20th-century statement of Orthodox theology in the West. Its main claim: doctrine and spiritual life aren't two things, and the dogmatic differences between East and West (Filioque, grace, the Church) produce different kinds of spirituality.
@@ -115,7 +115,7 @@ Written in Paris (French 1944, English 1957). Probably the most influential 20th
 
 *Mine.*
 
-- Systematic where Schmemann is liturgical. Read them together: [[Fr. Alexander Schmemann: For the Life of the World]].
+- Systematic where Schmemann is liturgical. Read them together: [[For the Life of the World]].
 - The "two economies" and "person vs nature" are the most distinctive Lossky ideas. Some Orthodox critics (e.g. Zizioulas, and later writers on the patristic sources) think he separates the Son and Spirit's work too sharply, or reads the Filioque into everything.
 - His treatment of the Fathers is from the "neo-patristic" movement (with Florovsky): back to the Fathers, away from the Western-style textbooks.
 
@@ -132,5 +132,5 @@ Written in Paris (French 1944, English 1957). Probably the most influential 20th
 - [[Synergy: Grace and Free Will]]
 - [[Theosis: Becoming by Grace What God Is by Nature]]
 - [[The Holy Spirit in Orthodox Theology]]
-- [[Fr. Alexander Schmemann: For the Life of the World]]
-- [[John Zizioulas: Being as Communion]]
+- [[For the Life of the World]]
+- [[Being as Communion]]

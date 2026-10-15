@@ -1,12 +1,12 @@
 ---
 id: B-0056
 date: 2026-10-14
-title: "Pierre Hadot: Philosophy as a Way of Life"
+title: Philosophy as a Way of Life
 tags: [philosophy, history-of-philosophy, ethics, patristics]
 summary: Hadot's thesis that ancient philosophy was not mainly a theory but a way of life practised through spiritual exercises. Exercises of attention, meditation, self-examination, the view from above, learning to die; Socrates and Marcus Aurelius as models; how Christianity took over the exercises as "the true philosophy" in monasticism; and how philosophy became a university discourse.
 author: Pierre Hadot
 source: "Pierre Hadot, Philosophy as a Way of Life: Spiritual Exercises from Socrates to Foucault, ed. Arnold Davidson (Blackwell, 1995)"
-aliases: [Philosophy as a Way of Life, Hadot, Spiritual Exercises]
+aliases: ["Pierre Hadot: Philosophy as a Way of Life", Hadot, Spiritual Exercises]
 ---
 
 Hadot (1922–2010, Collège de France, specialist on Plotinus and Marcus Aurelius). Collected essays with one main idea: for the ancients, philosophy was not a set of doctrines but a **choice of a way of life**, practised by **spiritual exercises** that transform the person. The doctrines exist to serve the life.
@@ -65,7 +65,7 @@ The most important chapter for this site.
 - They took over the exercises directly:
     - **attention** → *prosochē*, **watchfulness** (*nepsis*): the title of the Philokalia is "the love of the beautiful" and its key word is *nepsis*. See [[The Jesus Prayer and Hesychasm]]
     - **self-examination** → the monastic examination of thoughts; Dorotheus of Gaza
-    - **remembrance of death** → *mnēmē thanatou*, a step on Climacus's ladder. See [[St. John Climacus: The Ladder of Divine Ascent]]
+    - **remembrance of death** → *mnēmē thanatou*, a step on Climacus's ladder. See [[The Ladder of Divine Ascent]]
     - **apatheia** (Stoic) → **dispassion**, freedom from the passions (Evagrius)
     - **spiritual direction** and confession of thoughts
 - Hadot's claim: Christian spirituality is to a large extent **ancient philosophy continued**, with Christ as the Logos.
@@ -81,13 +81,13 @@ The most important chapter for this site.
 
 *Mine.*
 
-- Fits the Orthodox self-understanding very well: theology isn't an academic subject but the fruit of a life of prayer and purification. Evagrius: "if you are a theologian you will pray truly, and if you pray truly you are a theologian." See [[Vladimir Lossky: The Mystical Theology of the Eastern Church]] ch. 1.
+- Fits the Orthodox self-understanding very well: theology isn't an academic subject but the fruit of a life of prayer and purification. Evagrius: "if you are a theologian you will pray truly, and if you pray truly you are a theologian." See [[The Mystical Theology of the Eastern Church]] ch. 1.
 - But the Orthodox would stress the break too: the Fathers used the exercises, but the source is **grace** and the sacraments; the goal is **theosis**, not tranquillity. See [[Theosis: Becoming by Grace What God Is by Nature]].
 - A practical upshot for my own study: don't just collect arguments; the notes are meant to change how I live.
 
 ## Related
 
-- [[St. John Climacus: The Ladder of Divine Ascent]]
+- [[The Ladder of Divine Ascent]]
 - [[The Jesus Prayer and Hesychasm]]
 - [[The Virtues and the Eight Passions]]
 - [[Pythagoras and the Pythagoreans]]

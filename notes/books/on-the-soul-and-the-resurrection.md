@@ -1,12 +1,12 @@
 ---
 id: B-0039
 date: 2026-10-14
-title: "St. Gregory of Nyssa: On the Soul and the Resurrection"
+title: On the Soul and the Resurrection
 tags: [theology, patristics, philosophy, the-fall, salvation]
 summary: Gregory's dialogue with his dying sister Macrina, a Christian Phaedo. Whether the soul survives, what it is, the passions, the soul after death, purification as painful, against reincarnation, and the resurrection of the body; with the apokatastasis question.
 author: St. Gregory of Nyssa
 source: "St. Gregory of Nyssa, On the Soul and the Resurrection, trans. Catharine P. Roth (SVS Press, 1993)"
-aliases: [On the Soul and the Resurrection, De anima et resurrectione, Macrina]
+aliases: ["St. Gregory of Nyssa: On the Soul and the Resurrection", De anima et resurrectione, Macrina]
 ---
 
 Written c. 380, soon after the death of Gregory's brother **St. Basil**. Gregory visits their sister **St. Macrina**, abbess of a community in Pontus, who is dying. Grieving, he asks her about death, and she, from her deathbed, teaches him. Modelled on Plato's *Phaedo* (Socrates on his last day), but with a woman as the teacher and the resurrection as the goal. Gregory calls her "the Teacher".

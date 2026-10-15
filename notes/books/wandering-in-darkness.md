@@ -1,12 +1,12 @@
 ---
 id: B-0044
 date: 2026-10-14
-title: "Eleonore Stump: Wandering in Darkness"
+title: Wandering in Darkness
 tags: [philosophy, apologetics, theology, ethics]
 summary: Stump's Thomistic defense on the problem of suffering, built through narrative. Why stories give a kind of knowledge (second-personal) that arguments can't, Aquinas on love, union and presence, willed loneliness, the stories of Job, Samson, Abraham and Mary of Bethany, and the defense that suffering is allowed only for a greater good to the sufferer: closeness to God and the "desires of the heart".
 author: Eleonore Stump
 source: "Eleonore Stump, Wandering in Darkness: Narrative and the Problem of Suffering (Oxford, 2010)"
-aliases: [Wandering in Darkness, Stump, Eleonore Stump]
+aliases: ["Eleonore Stump: Wandering in Darkness", Stump, Eleonore Stump]
 ---
 
 A long book (over 600 pages) and one of the most important modern works on the problem of evil. Stump doesn't give a **theodicy** (God's actual reasons) but a **defense**: a possible world, consistent with Christian theology, in which God allows suffering for good reasons. Her distinctive move is to argue through **stories**, not only arguments.
@@ -76,4 +76,4 @@ A long book (over 600 pages) and one of the most important modern works on the p
 - [[Religious Experience as Evidence]]
 - [[Theosis: Becoming by Grace What God Is by Nature]]
 - [[The Virtues and the Eight Passions]]
-- [[Is God a Moral Monster? Copan on the Old Testament]]
+- [[Is God a Moral Monster?]]

@@ -111,4 +111,4 @@ Every phrase is Scripture or the Creed: Comforter (John 14:16), Spirit of Truth 
 - [[Christ Set Up His Church at Pentecost, and the Church Is Referred to as His]]
 - [[The Divine Liturgy Explained]]
 - [[Theosis: Becoming by Grace What God Is by Nature]]
-- [[Vladimir Lossky: The Mystical Theology of the Eastern Church]]
+- [[The Mystical Theology of the Eastern Church]]

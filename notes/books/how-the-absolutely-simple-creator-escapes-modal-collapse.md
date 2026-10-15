@@ -1,12 +1,12 @@
 ---
 id: B-0036
 date: 2026-10-14
-title: "Modal Collapse and Divine Simplicity: Tomaszewski's Reply"
+title: How the Absolutely Simple Creator Escapes a Modal Collapse
 tags: [philosophy, metaphysics, thomism, logic, theology]
 summary: Christopher Tomaszewski's paper defending divine simplicity against modal collapse. Why the "simple argument" is invalid (substituting a contingently co-referring term under a modal operator, Quine's planets example), the stronger "modal indiscernibility" argument, why it hits almost every theist and not just Thomists, and his solution (no causal determinism from God's act; creative causation is hyperintensional because it runs through God's ideas). Plus the Orthodox angle.
 author: Christopher Tomaszewski
 source: "Christopher Tomaszewski, “How the Absolutely Simple Creator Escapes a Modal Collapse”"
-aliases: [Modal Collapse, Tomaszewski]
+aliases: ["Modal Collapse and Divine Simplicity: Tomaszewski's Reply", Modal Collapse, Tomaszewski]
 ---
 
 A follow-up to [[Divine Simplicity: Western and Orthodox Views]] sec. 3, where modal collapse came up as the hardest objection. Tomaszewski is a Thomist defending **absolute divine simplicity** (DDS).

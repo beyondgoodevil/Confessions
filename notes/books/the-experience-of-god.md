@@ -1,12 +1,12 @@
 ---
 id: B-0041
 date: 2026-10-14
-title: "David Bentley Hart: The Experience of God"
+title: The Experience of God
 tags: [philosophy, apologetics, metaphysics, theology]
 summary: Hart's argument that both new atheists and many believers are talking about the wrong "God". God is not a being among beings but the source of being, consciousness and bliss (Sanskrit sat, chit, ananda). Contingency, the irreducibility of mind, and the desire for the transcendentals each point to God, and to the same God in all the great traditions.
 author: David Bentley Hart
 source: "David Bentley Hart, The Experience of God: Being, Consciousness, Bliss (Yale, 2013)"
-aliases: [The Experience of God, Being Consciousness Bliss, Hart]
+aliases: ["David Bentley Hart: The Experience of God", Being Consciousness Bliss, Hart]
 ---
 
 Not a set of proofs, more a clearing of the ground. Hart's complaint: in current debates "God" usually means a very big, very clever being inside the universe or just outside it, a "demiurge". Atheists reject that God, and they're right to. But it isn't the God of classical theism in any tradition, Christian, Jewish, Muslim, Hindu or Sikh.
@@ -86,5 +86,5 @@ The longest chapter. Mind is the hardest thing for materialism. Each of these re
 - [[Mind and Body: Dualism, Materialism, Emergence]]
 - [[Beauty as a Way to God]]
 - [[Heidegger and the God Beyond Being]]
-- [[Edward Feser: The Last Superstition]]
+- [[The Last Superstition]]
 - [[Apophatic and Cataphatic Theology]]

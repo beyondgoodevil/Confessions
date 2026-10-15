@@ -23,7 +23,7 @@ summary: Seven Fathers, from Irenaeus to Photios, on deification through the Inc
 
 ## Related
 
-- [[St. Athanasius, On the Incarnation: Main Argument]]
+- [[On the Incarnation: Main Argument]]
 - [[2 Peter 1:3-4: Theosis]]
 - [[Doctrine of Recapitulation]]
 - [[God's Uncreated Energies]]

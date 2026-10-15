@@ -99,4 +99,4 @@ Whatever view of the mechanism:
 - [[Adam and Eve]]
 - [[Image and Likeness]]
 - [[The Structure of Scientific Revolutions]]
-- [[Copan and Craig: Creation out of Nothing]]
+- [[Creation out of Nothing]]

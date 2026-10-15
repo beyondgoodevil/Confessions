@@ -54,7 +54,7 @@ Kreeft's version (*Socratic Logic*): the laws are not just rules of thought but 
 ## Logic and Orthodox Theology (Schumann, ed.)
 
 - The Fathers used Aristotelian logic constantly: Leontius of Byzantium, Maximus, John of Damascus (*Dialectica*, the first part of *The Fount of Knowledge*: Aristotle's categories and Porphyry's *Isagoge* as the tools for theology).
-- But theology has **antinomies**: statements that seem to conflict (one and three; God and man; unknowable and known). Florensky called them antinomies; Lossky too. See [[Vladimir Lossky: The Mystical Theology of the Eastern Church]].
+- But theology has **antinomies**: statements that seem to conflict (one and three; God and man; unknowable and known). Florensky called them antinomies; Lossky too. See [[The Mystical Theology of the Eastern Church]].
 - These are **not** contradictions in the strict sense: they're not "A and not-A in the same respect". God is one in **essence** and three in **hypostases**; Christ is one **person** in two **natures**. The distinctions of respect keep non-contradiction intact. See [[Jesus Being Fully Divine and Fully Human Is Not a Contradiction]].
 - Apophatic theology isn't anti-logical: it denies that our concepts **capture** God, not that what we say about God can be contradictory. See [[Apophatic and Cataphatic Theology]].
 - Some essays in the volume look at Byzantine logical handbooks, and at Russian thinkers (Florensky, Losev) who tried to build a different "logic" for theology. *Mine*: those attempts are the risky end; the mainstream Fathers kept classical logic and limited its reach rather than replacing it.

@@ -106,4 +106,4 @@ Arianism survived among the **Goths** and other Germanic peoples (converted by t
 - [[Pre-Nicene Fathers Teach the Trinity 3]]
 - [[The Trinity]]
 - [[Christian Platonism]]
-- [[Copan and Craig: Creation out of Nothing]]
+- [[Creation out of Nothing]]

@@ -1,12 +1,12 @@
 ---
 id: B-0038
 date: 2026-10-14
-title: "Richard Swinburne: Is There a God?"
+title: "Is There a God?"
 tags: [philosophy, apologetics, epistemology, theology]
 summary: Swinburne's short popular version of The Existence of God. What "God" means, scientific vs personal explanation, simplicity as the mark of truth, God as the simplest explanation of the universe, its order and fine-tuning, human consciousness, evil, and miracles and religious experience (the principles of credulity and testimony). A cumulative, probabilistic case.
 author: Richard Swinburne
 source: "Richard Swinburne, Is There a God? (Oxford, 1996; rev. 2010)"
-aliases: [Is There a God, Swinburne, The Existence of God, Cumulative Case]
+aliases: ["Richard Swinburne: Is There a God?", Is There a God, Swinburne, The Existence of God, Cumulative Case]
 ---
 
 The short version of his big book *The Existence of God* (1979, 2004). Swinburne (Oxford, an Orthodox convert from Anglicanism) argues like a scientist: theism is a **hypothesis** that explains the evidence better than its rivals, and each piece of evidence raises its probability. No one argument proves God; together they make it more probable than not.
@@ -81,9 +81,9 @@ The short version of his big book *The Existence of God* (1979, 2004). Swinburne
 
 *Mine.*
 
-- Swinburne's God is **not simple** in the classical sense: he denies divine timelessness and absolute simplicity. His "simplicity" is the simplicity of a hypothesis. Classical theists (Feser, Hart) find this a God among beings, a demiurge. See [[Divine Simplicity: Western and Orthodox Views]], [[David Bentley Hart: The Experience of God]].
+- Swinburne's God is **not simple** in the classical sense: he denies divine timelessness and absolute simplicity. His "simplicity" is the simplicity of a hypothesis. Classical theists (Feser, Hart) find this a God among beings, a demiurge. See [[Divine Simplicity: Western and Orthodox Views]], [[The Experience of God]].
 - He became Orthodox in 1995, but his philosophy is very Western-analytic.
-- The principle of credulity is his most useful tool and fits well with Plantinga. See [[Alvin Plantinga: Warranted Christian Belief]].
+- The principle of credulity is his most useful tool and fits well with Plantinga. See [[Warranted Christian Belief]].
 
 ## Related
 
@@ -93,5 +93,5 @@ The short version of his big book *The Existence of God* (1979, 2004). Swinburne
 - [[The Problem of Evil and Theodicy]]
 - [[Hume on Causation and Induction]]
 - [[The Argument from Reason]]
-- [[Alvin Plantinga: Warranted Christian Belief]]
+- [[Warranted Christian Belief]]
 - [[The Case for the Resurrection of Jesus]]

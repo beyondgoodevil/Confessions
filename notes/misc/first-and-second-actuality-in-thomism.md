@@ -36,7 +36,7 @@ Example: if the eye were an animal, **sight** would be its soul. The eye's first
 
 - Going from first potentiality to first actuality (**learning**) is a real change, an alteration.
 - Going from first to second actuality (**using knowledge you have**) is "not an alteration, or a different kind of alteration": it's progress **into itself**, the thing becoming more fully what it is.
-- This is why Aristotle can say the highest activities (contemplation) are *energeia*, complete at every moment, not *kinēsis*, which aims at an end outside itself. (Seeing: at any moment you **have seen**. Building: you haven't built until the end.) See [[David Bradshaw: Aristotle East and West]].
+- This is why Aristotle can say the highest activities (contemplation) are *energeia*, complete at every moment, not *kinēsis*, which aims at an end outside itself. (Seeing: at any moment you **have seen**. Building: you haven't built until the end.) See [[Aristotle East and West]].
 
 ## Thomist Use (Gorman)
 
@@ -60,4 +60,4 @@ Example: if the eye were an animal, **sight** would be its soul. The eye's first
 - [[God as Pure Act: RC vs EO]]
 - [[Differences Between Gregory’s Dunamis and Thomistic Pure Act]]
 - [[Thomistic Metaphysics]]
-- [[Aristotle's Physics: Nature, Change and the Four Causes]]
+- [[Physics: Nature, Change and the Four Causes]]

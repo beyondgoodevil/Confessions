@@ -43,5 +43,5 @@ Thus, being made in the image of God means we have rationality, freedom, love, c
 - [[Nous]]
 - [[2 Peter 1:3-4: Theosis]]
 - [[The Fall of Humanity and Its Consequences]]
-- [[St. Athanasius, On the Incarnation: Main Argument]]
+- [[On the Incarnation: Main Argument]]
 - [[Evolution Can Be Understood as a Paradigm-Level Theory]]

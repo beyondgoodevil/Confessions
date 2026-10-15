@@ -15,13 +15,13 @@ The site has many notes that assume Thomist terms (pure act, divine simplicity, 
 - A **substance**: something that exists **in itself**, not in another: this dog, this oak, this man.
 - **Accidents**: exist **in** a substance: its size, colour, location, relations. Nine kinds (Aristotle's categories): quantity, quality, relation, place, time, position, state, action, passion.
 - **Essential** features: what a thing must have to be what it is (rationality for a human). **Accidental**: it can lose them and remain itself (being tanned).
-- **Essence** is partly **normative**: a dog *should* have four legs; a three-legged dog is defective, not a new kind. This is where natural law comes from. See [[Edward Feser: The Last Superstition]].
+- **Essence** is partly **normative**: a dog *should* have four legs; a three-legged dog is defective, not a new kind. This is where natural law comes from. See [[The Last Superstition]].
 
 ## 2. Change
 
 - **Accidental change**: the same substance gains or loses an accident (the leaf goes from green to red).
 - **Substantial change**: a substance comes to be or perishes (a dog dies and becomes a corpse: no longer a dog).
-- The principles of change: **subject**, **form**, **privation**, and **actualisation** of a potency. See [[Aristotle's Physics: Nature, Change and the Four Causes]].
+- The principles of change: **subject**, **form**, **privation**, and **actualisation** of a potency. See [[Physics: Nature, Change and the Four Causes]].
 - **Endurance**: a substance is **wholly present** at each moment (it doesn't have temporal parts). Against "four-dimensionalism".
 
 ## 3. Form and Matter (Hylomorphism)
@@ -83,16 +83,16 @@ Properties that go with being as such, everywhere, across the categories:
 - The disagreements start with **God**:
     - **God as *ipsum esse***: the Fathers (Dionysius) put God **beyond being** (*hyperousios*). Being is God's energy, not His essence. See [[Apophatic and Cataphatic Theology]].
     - **Pure act / absolute simplicity**: no real distinction in God, so no real distinction between essence and energies. See [[Divine Simplicity: Western and Orthodox Views]], [[God as Pure Act: RC vs EO]].
-    - **Participation in *esse***: creatures participate in **created** being; the Orthodox speak of participation in God's **uncreated** energies. See [[David Bradshaw: Aristotle East and West]].
+    - **Participation in *esse***: creatures participate in **created** being; the Orthodox speak of participation in God's **uncreated** energies. See [[Aristotle East and West]].
 - So the Orthodox reading of Aquinas tends to keep his philosophy of nature and drop or reinterpret his doctrine of God. (*Orthodox Readings of Aquinas*, in the same folder, argues they can be closer than that.)
 
 ## Related
 
-- [[Aristotle's Physics: Nature, Change and the Four Causes]]
+- [[Physics: Nature, Change and the Four Causes]]
 - [[The Unmoved Mover]]
 - [[Aristotle and God as Pure Act]]
-- [[Edward Feser: The Last Superstition]]
+- [[The Last Superstition]]
 - [[Divine Simplicity: Western and Orthodox Views]]
-- [[Modal Collapse and Divine Simplicity: Tomaszewski's Reply]]
+- [[How the Absolutely Simple Creator Escapes a Modal Collapse]]
 - [[The Problem of Universals: Realism vs Nominalism]]
 - [[God as Pure Act: RC vs EO]]

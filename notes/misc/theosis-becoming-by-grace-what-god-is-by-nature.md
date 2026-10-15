@@ -14,7 +14,7 @@ The site has verse notes and a list of Fathers on deification but no main page. 
 
 - Lowercase "god", if you like. Not God by nature. Man can't become God *ontologically*, or another god.
 - The usual formula: we become **by grace** what God is **by nature**.
-- See [[St. Athanasius, On the Incarnation: Main Argument]], [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]].
+- See [[On the Incarnation: Main Argument]], [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]].
 
 ## 2. Scripture
 
@@ -111,7 +111,7 @@ Without the distinction you're stuck with two bad options: theosis is a metaphor
 - [[Nous]]
 - [[The Logoi of Creation in St. Maximus]]
 - [[Repentance as Metanoia: A Change of Mind, Not a Payment]]
-- [[St. John Climacus: The Ladder of Divine Ascent]]
+- [[The Ladder of Divine Ascent]]
 - [[Apophatic and Cataphatic Theology]]
-- [[Vladimir Lossky: The Mystical Theology of the Eastern Church]]
+- [[The Mystical Theology of the Eastern Church]]
 - [[The Holy Spirit in Orthodox Theology]]

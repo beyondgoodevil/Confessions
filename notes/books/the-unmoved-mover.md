@@ -152,5 +152,5 @@ That's his answer in advance to "fine, a first cause, but why call it God?" (Pru
 - [[The Problem of the One and the Many]]
 - [[Natural Theology: Is It Legitimate]]
 - [[Differences Between Gregory’s Dunamis and Thomistic Pure Act]]
-- [[Aristotle's Physics: Nature, Change and the Four Causes]]
+- [[Physics: Nature, Change and the Four Causes]]
 - [[Thomistic Metaphysics]]

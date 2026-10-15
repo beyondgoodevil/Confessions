@@ -1,12 +1,12 @@
 ---
 id: B-0035
 date: 2026-10-14
-title: "Copan and Craig: Creation out of Nothing"
+title: Creation out of Nothing
 tags: [theology, philosophy, scripture, metaphysics, apologetics]
 summary: The case for creatio ex nihilo. The Old Testament witness (Gen 1:1, bara, the Psalms and Isaiah), the New Testament (John 1:3, Rom 4:17, Heb 11:3, Col 1:16), the extra-biblical witness (2 Maccabees, Hermas, Theophilus, Irenaeus vs Platonism), what the doctrine means, abstract objects, the philosophical arguments against an infinite past, the scientific evidence (Big Bang, thermodynamics), and naturalistic alternatives.
 author: Paul Copan; William Lane Craig
 source: "Paul Copan and William Lane Craig, Creation out of Nothing: A Biblical, Philosophical, and Scientific Exploration (Baker, 2004)"
-aliases: [Creation out of Nothing, Creatio ex Nihilo, Ex Nihilo]
+aliases: ["Copan and Craig: Creation out of Nothing", Creatio ex Nihilo, Ex Nihilo]
 ---
 
 Against two challenges: biblical scholars who say *ex nihilo* isn't in the Bible (Genesis describes ordering pre-existing chaos), and process theologians and Mormons who say matter is eternal. Copan does the Bible and history, Craig the philosophy and science.
@@ -94,7 +94,7 @@ So the universe began to exist; whatever begins to exist has a cause; so the uni
 
 *Mine.*
 
-- The patristic side is the strongest part for the Orthodox: creation from nothing is what separates Christian from Greek thought. See [[Vladimir Lossky: The Mystical Theology of the Eastern Church]] ch. 5 (the "bridge of diamond").
+- The patristic side is the strongest part for the Orthodox: creation from nothing is what separates Christian from Greek thought. See [[The Mystical Theology of the Eastern Church]] ch. 5 (the "bridge of diamond").
 - Craig's kalam proves a beginning; the Fathers stress more that creation is **free**, by **will**, not by necessity of nature. That's the real difference from Neoplatonic emanation.
 - Fits with [[Evolution and the Fathers]] sec. 5: creation from nothing is non-negotiable whatever one thinks of the mechanism.
 

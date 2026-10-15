@@ -75,8 +75,8 @@ Three stages (the standard scheme, Romanides and Hierotheos following the Philok
 
 *Mine.*
 
-- This is why Orthodox epistemology isn't simply rationalist or fideist: there's a faculty for knowing God, distinct from reason, damaged by sin, healed by grace. Plantinga's *sensus divinitatis* is close. See [[Alvin Plantinga: Warranted Christian Belief]].
-- Hadot shows the philosophical background: attention (*prosochē*) was a Stoic exercise before it was a monastic one. See [[Pierre Hadot: Philosophy as a Way of Life]].
+- This is why Orthodox epistemology isn't simply rationalist or fideist: there's a faculty for knowing God, distinct from reason, damaged by sin, healed by grace. Plantinga's *sensus divinitatis* is close. See [[Warranted Christian Belief]].
+- Hadot shows the philosophical background: attention (*prosochē*) was a Stoic exercise before it was a monastic one. See [[Philosophy as a Way of Life]].
 
 ## Related
 
@@ -88,5 +88,5 @@ Three stages (the standard scheme, Romanides and Hierotheos following the Philok
 - [[Divine Illumination]]
 - [[Theosis: Becoming by Grace What God Is by Nature]]
 - [[The Virtues and the Eight Passions]]
-- [[St. John Climacus: The Ladder of Divine Ascent]]
-- [[Pierre Hadot: Philosophy as a Way of Life]]
+- [[The Ladder of Divine Ascent]]
+- [[Philosophy as a Way of Life]]

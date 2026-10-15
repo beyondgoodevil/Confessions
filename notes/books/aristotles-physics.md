@@ -1,12 +1,12 @@
 ---
 id: B-0046
 date: 2026-10-14
-title: "Aristotle's Physics: Nature, Change and the Four Causes"
+title: "Physics: Nature, Change and the Four Causes"
 tags: [philosophy, metaphysics, aristotle, philosophy-of-science]
 summary: Aristotle's Physics book by book. How to study nature, the principles of change (form, matter, privation) against Parmenides, nature as an inner principle of motion, the four causes, chance, teleology in nature, motion as the actuality of the potential, the infinite, place, void and time, and the argument of book VIII for an unmoved mover.
 author: Aristotle
 source: "Aristotle, Physics; Aristotle's Physics: A Critical Guide, ed. Mariska Leunissen (Cambridge, 2015)"
-aliases: [Aristotle's Physics, Physics, Four Causes, Act and Potency, Hylomorphism]
+aliases: ["Aristotle's Physics: Nature, Change and the Four Causes", Aristotle's Physics, Physics, Four Causes, Act and Potency, Hylomorphism]
 ---
 
 "Physics" means the study of ***physis***, **nature**: things that move and change. Not physics in the modern sense but the philosophy of nature, what any change must involve. It's the foundation for the *Metaphysics* and for Aquinas's proofs, and Feser's whole argument depends on it. Eight books.
@@ -55,7 +55,7 @@ In nature, the formal, efficient and final often coincide: the form of the oak i
 
 - **Place**: the inner boundary of the surrounding body.
 - **Void**: doesn't exist. In a void there'd be no reason to move one way rather than another, and things would move infinitely fast.
-- **Time**: "**the number of motion with respect to before and after**". No motion, no time. Time needs a soul to count it? Left as a puzzle. Augustine's discussion of time responds to this (see [[Augustine's Confessions: Memory, Time and the Restless Heart]]).
+- **Time**: "**the number of motion with respect to before and after**". No motion, no time. Time needs a soul to count it? Left as a puzzle. Augustine's discussion of time responds to this (see [[Confessions: Memory, Time and the Restless Heart]]).
 
 ## Books V–VI: Kinds of Change and Continuity
 
@@ -74,18 +74,18 @@ In nature, the formal, efficient and final often coincide: the form of the oak i
 
 *Mine.*
 
-- Act and potency is Aristotle's answer to Parmenides and is behind almost everything in scholastic philosophy. Getting this right is what makes Aquinas's First Way make sense: it's about **here-and-now** causation, not a first moment in time. See [[Edward Feser: The Last Superstition]].
-- The **eternity of motion** is where Christians had to disagree: St. John Philoponus (6th c.) argued against it using Aristotle's own point that an actual infinite can't be traversed. That's the origin of the kalam argument. See [[Copan and Craig: Creation out of Nothing]].
+- Act and potency is Aristotle's answer to Parmenides and is behind almost everything in scholastic philosophy. Getting this right is what makes Aquinas's First Way make sense: it's about **here-and-now** causation, not a first moment in time. See [[The Last Superstition]].
+- The **eternity of motion** is where Christians had to disagree: St. John Philoponus (6th c.) argued against it using Aristotle's own point that an actual infinite can't be traversed. That's the origin of the kalam argument. See [[Creation out of Nothing]].
 - **Teleology without a designer** is an important distinction: Aristotle's final causes don't need a conscious designer *in* nature; Aquinas's Fifth Way argues they ultimately need an intellect *behind* nature.
 - Modern science dropped formal and final causes, but biology still talks about functions. See [[Hume on Causation and Induction]] sec. 4.
-- Energeia and its later history: [[David Bradshaw: Aristotle East and West]].
+- Energeia and its later history: [[Aristotle East and West]].
 
 ## Related
 
 - [[The Unmoved Mover]]
 - [[Aristotle and God as Pure Act]]
 - [[The Presocratics: Being and Becoming]]
-- [[Edward Feser: The Last Superstition]]
-- [[David Bradshaw: Aristotle East and West]]
+- [[The Last Superstition]]
+- [[Aristotle East and West]]
 - [[Thomistic Metaphysics]]
 - [[Hume on Causation and Induction]]

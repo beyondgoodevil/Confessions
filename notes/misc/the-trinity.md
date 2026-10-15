@@ -81,7 +81,7 @@ Nazianzen's conclusion: "I have thought of every image I could, and found none t
 *Mine.*
 
 - **God is love** (1 John 4:8) only makes sense if God is Trinity: love needs a beloved, eternally. A unipersonal God would need creation in order to love.
-- **Personhood**: being a person is grounded in God's own life. Lossky: the Trinity is "our social programme"; Zizioulas builds a whole ontology on it. See [[John Zizioulas: Being as Communion]].
+- **Personhood**: being a person is grounded in God's own life. Lossky: the Trinity is "our social programme"; Zizioulas builds a whole ontology on it. See [[Being as Communion]].
 - **Prayer and worship** are Trinitarian: to the Father, through the Son, in the Spirit (Eph 2:18).
 - **Theosis** is participation in the life of the Trinity, not absorption into an essence.
 - Lossky's line (from Florensky): "Between the Trinity and hell there lies no other choice."
@@ -98,6 +98,6 @@ Nazianzen's conclusion: "I have thought of every image I could, and found none t
 - [[Pre-Nicene Fathers Teach the Trinity 3]]
 - [[St. Cyril of Alexandria on Perichoresis]]
 - [[St. Gregory of Nyssa's Writings Against Eunomius]]
-- [[Vladimir Lossky: The Mystical Theology of the Eastern Church]]
-- [[John Zizioulas: Being as Communion]]
+- [[The Mystical Theology of the Eastern Church]]
+- [[Being as Communion]]
 - [[The Holy Spirit in Orthodox Theology]]

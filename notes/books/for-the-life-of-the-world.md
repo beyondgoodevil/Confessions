@@ -1,12 +1,12 @@
 ---
 id: B-0029
 date: 2026-10-14
-title: "Fr. Alexander Schmemann: For the Life of the World"
+title: For the Life of the World
 tags: [theology, liturgy, sacraments]
 summary: Schmemann's short book on the sacraments and the world. Man as the hungry, priestly, eucharistic being; the Fall as the world made opaque; the Liturgy as a journey into the Kingdom; time, Baptism, marriage, death and mission all read through the Eucharist; and the two appendices on secularism and on symbol vs "valid sign".
 author: Fr. Alexander Schmemann
 source: "Alexander Schmemann, For the Life of the World: Sacraments and Orthodoxy (SVS Press)"
-aliases: [For the Life of the World, Schmemann, Alexander Schmemann]
+aliases: ["Fr. Alexander Schmemann: For the Life of the World", Schmemann, Alexander Schmemann]
 ---
 
 Originally written (1963) as a study guide for an American Christian student conference. Short, polemical, more an essay than a textbook. The title comes from John 6:51: "the bread that I will give is my flesh, which I will give for the life of the world."
@@ -104,7 +104,7 @@ The longest and most important chapter. The Liturgy is a **journey** or processi
 - Pairs closely with [[The Divine Liturgy Explained]]. Schmemann gives the meaning; that note gives the order.
 - The "man as priest of creation" idea is the same as Maximus's man as mediator. See [[Image and Likeness]].
 - The opaque world is a useful way to state the Fall without a juridical frame. See [[The Fall of Humanity and Its Consequences]].
-- Criticisms: some say he over-plays the "Western captivity" and is too hard on popular piety. He's also not systematic; Lossky does the systematic side (see [[Vladimir Lossky: The Mystical Theology of the Eastern Church]]).
+- Criticisms: some say he over-plays the "Western captivity" and is too hard on popular piety. He's also not systematic; Lossky does the systematic side (see [[The Mystical Theology of the Eastern Church]]).
 
 ## Related
 
@@ -114,4 +114,4 @@ The longest and most important chapter. The Liturgy is a **journey** or processi
 - [[The Fall of Humanity and Its Consequences]]
 - [[Image and Likeness]]
 - [[Theosis: Becoming by Grace What God Is by Nature]]
-- [[Vladimir Lossky: The Mystical Theology of the Eastern Church]]
+- [[The Mystical Theology of the Eastern Church]]

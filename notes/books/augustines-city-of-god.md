@@ -1,12 +1,12 @@
 ---
 id: B-0048
 date: 2026-10-14
-title: "Augustine's City of God"
+title: The City of God
 tags: [philosophy, theology, patristics, political-philosophy, church-history]
 summary: Augustine's City of God in its five parts. The sack of Rome and the pagan charge, "where were the gods?", Varro, the Platonists and demons, creation, the angels, the Fall and the passions, the history of the two cities, and the final destinations (peace, the resurrection, the vision of God). The two loves that make the two cities, and the later uses and misuses.
 author: St. Augustine of Hippo
 source: "Augustine, The City of God; Gerard O'Daly, Augustine's City of God: A Reader's Guide (Oxford, 1999)"
-aliases: [City of God, De Civitate Dei, Two Cities]
+aliases: ["Augustine's City of God", City of God, De Civitate Dei, Two Cities]
 ---
 
 Written 413–426, provoked by the **sack of Rome** by Alaric's Goths in **410**. Pagans said Rome fell because it had abandoned its gods for Christ. Augustine's answer grew into a 22-book theology of history. "The great and arduous work", he called it.
@@ -64,15 +64,15 @@ Written 413–426, provoked by the **sack of Rome** by Alaric's Goths in **410**
 
 *Mine.*
 
-- The best answer in the tradition to "why do bad things happen to Christian societies?": earthly success was never promised. Fits Schmemann's point that the Church is the sacrament of the Kingdom, not one more earthly city. See [[Fr. Alexander Schmemann: For the Life of the World]].
+- The best answer in the tradition to "why do bad things happen to Christian societies?": earthly success was never promised. Fits Schmemann's point that the Church is the sacrament of the Kingdom, not one more earthly city. See [[For the Life of the World]].
 - The East had a different political theology, the **symphonia** of Church and Empire (Justinian, Novel 6). It's more optimistic about a Christian empire than Augustine.
 - XIV on the passions and XXII on the resurrection are very close to the Greek Fathers; XXI on hell and his view of grace and predestination less so.
-- Compare Aristotle's *Politics*: the city's end is the good life; Augustine: the earthly city's end is peace; the true good life is in the heavenly city. See [[Aristotle's Politics]].
+- Compare Aristotle's *Politics*: the city's end is the good life; Augustine: the earthly city's end is peace; the true good life is in the heavenly city. See [[The Politics]].
 
 ## Related
 
-- [[Augustine's Confessions: Memory, Time and the Restless Heart]]
-- [[Aristotle's Politics]]
+- [[Confessions: Memory, Time and the Restless Heart]]
+- [[The Politics]]
 - [[Christian Platonism]]
 - [[Ancestral Sin vs Original Sin]]
 - [[The Problem of Evil and Theodicy]]

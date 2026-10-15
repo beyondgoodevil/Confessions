@@ -1,12 +1,12 @@
 ---
 id: B-0028
 date: 2026-10-14
-title: "St. John Climacus: The Ladder of Divine Ascent"
+title: The Ladder of Divine Ascent
 tags: [theology, patristics, theosis]
 summary: The Sinai abbot and his 30-step ladder from renunciation of the world to love. Life, structure, all 30 steps grouped, key teachings (repentance, mourning, remembrance of death, discernment, stillness, dispassion), and why it is read in Lent.
 author: St. John Climacus
 source: "The Ladder of Divine Ascent"
-aliases: [The Ladder of Divine Ascent, The Ladder, St. John Climacus, John Climacus]
+aliases: ["St. John Climacus: The Ladder of Divine Ascent", The Ladder, St. John Climacus, John Climacus]
 ---
 
 The most read book in Orthodoxy after the Bible and the service books. Read in monasteries every Lent, and its author has a Sunday of Lent named after him.
@@ -136,4 +136,4 @@ Note how 13–23 track the eight passions of Evagrius and Cassian. See [[The Vir
 - [[Theosis: Becoming by Grace What God Is by Nature]]
 - [[Virtue Ethics: Aristotle and the Fathers]]
 - [[Nous]]
-- [[Pierre Hadot: Philosophy as a Way of Life]]
+- [[Philosophy as a Way of Life]]

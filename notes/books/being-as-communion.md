@@ -1,12 +1,12 @@
 ---
 id: B-0034
 date: 2026-10-14
-title: "John Zizioulas: Being as Communion"
+title: Being as Communion
 tags: [theology, trinity, ecclesiology, sacraments, patristics]
 summary: Zizioulas's argument that for the Fathers being itself is communion. The person over nature, the Father as the personal cause of the Trinity, the "hypostasis of biological existence" vs "ecclesial existence", truth as communion, Christology conditioned by the Spirit, the Eucharist making the Church, the bishop and the local Church, and the main criticisms.
 author: Metropolitan John Zizioulas
 source: "John D. Zizioulas, Being as Communion: Studies in Personhood and the Church (SVS Press, 1985)"
-aliases: [Being as Communion, Zizioulas, John Zizioulas]
+aliases: ["John Zizioulas: Being as Communion", Zizioulas, John Zizioulas]
 ---
 
 A collection of essays, not a single argument, but one idea runs through all of them: **there is no true being without communion**. Nothing exists as an isolated individual, not even God. And the place where this is realised is the **Eucharist**, which makes the Church.
@@ -80,7 +80,7 @@ The point: truth is **"I am the truth"** (John 14:6), a person, met in communion
 - **Reading the Cappadocians** (Turcescu, Larchet, Behr): they didn't have a modern concept of "person", and they usually *don't* say the Father's person is the cause of the divine essence. Zizioulas is accused of reading personalist philosophy (Heidegger, Buber, Levinas) back into the Fathers.
 - **Person over nature** goes too far: the Fathers make the essence and persons equally primary. Danger of making the essence secondary.
 - **Eucharistic ecclesiology** (from Afanasiev) can make the Church look like a sum of local Churches, weakening primacy or universal structure. Zizioulas himself tried to balance this with a "primacy" at each level.
-- **Lossky vs Zizioulas**: Lossky separates Christ (nature) and Spirit (persons); Zizioulas unites them. See [[Vladimir Lossky: The Mystical Theology of the Eastern Church]].
+- **Lossky vs Zizioulas**: Lossky separates Christ (nature) and Spirit (persons); Zizioulas unites them. See [[The Mystical Theology of the Eastern Church]].
 
 ## Notes
 
@@ -95,8 +95,8 @@ The point: truth is **"I am the truth"** (John 14:6), a person, met in communion
 - [[Monarchical Trinitarianism]]
 - [[EO vs RC Trinity]]
 - [[The Problem of the One and the Many]]
-- [[Vladimir Lossky: The Mystical Theology of the Eastern Church]]
-- [[Fr. Alexander Schmemann: For the Life of the World]]
+- [[The Mystical Theology of the Eastern Church]]
+- [[For the Life of the World]]
 - [[The Holy Spirit in Orthodox Theology]]
 - [[The Divine Liturgy Explained]]
 - [[Nature and Person Distinction in Christology]]

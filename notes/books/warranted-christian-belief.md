@@ -1,12 +1,12 @@
 ---
 id: B-0045
 date: 2026-10-14
-title: "Alvin Plantinga: Warranted Christian Belief"
+title: Warranted Christian Belief
 tags: [philosophy, epistemology, apologetics]
 summary: Plantinga's argument that Christian belief can be rational and warranted without arguments. The de jure vs de facto question, Kant and Hick on whether we can even refer to God, the failure of classical foundationalism, warrant as proper function, the Freud-and-Marx objection, the Aquinas/Calvin model (the sensus divinitatis damaged by sin), the extended model (Scripture and the Holy Spirit), and the alleged defeaters.
 author: Alvin Plantinga
 source: "Alvin Plantinga, Warranted Christian Belief (Oxford, 2000)"
-aliases: [Warranted Christian Belief, Reformed Epistemology, Sensus Divinitatis, Plantinga]
+aliases: ["Alvin Plantinga: Warranted Christian Belief", Reformed Epistemology, Sensus Divinitatis, Plantinga]
 ---
 
 The third volume of Plantinga's warrant trilogy. He doesn't argue that Christianity is **true**. He argues that the main objection, that it's irrational or unjustified even if true (the **de jure** objection), fails. If Christianity is true, it's probably warranted.
@@ -91,4 +91,4 @@ For full **Christian** belief (Trinity, Incarnation, Atonement), not just theism
 - [[The Argument from Reason]]
 - [[Natural Theology: Is It Legitimate]]
 - [[Divine Hiddenness]]
-- [[Richard Swinburne: Is There a God?]]
+- [[Is There a God?]]

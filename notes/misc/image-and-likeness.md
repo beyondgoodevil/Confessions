@@ -41,7 +41,7 @@ Christ Himself "is the image of the invisible God" (Colossians 1:15). Man is mad
 
 ### 5. How Christ Restores the Image
 
-- St. Athanasius' illustration (*On the Incarnation*, 14): when a portrait painted on wood has been ruined, the subject of the portrait must come again so that the image can be renewed on the same wood. So the Word, the original Image, came Himself to renew the image in man (see [[St. Athanasius, On the Incarnation: Main Argument]]).
+- St. Athanasius' illustration (*On the Incarnation*, 14): when a portrait painted on wood has been ruined, the subject of the portrait must come again so that the image can be renewed on the same wood. So the Word, the original Image, came Himself to renew the image in man (see [[On the Incarnation: Main Argument]]).
 - In baptism the image is cleansed; in the life of the Church, through the sacraments and the struggle for virtue, the likeness is acquired.
 - "But we all, with unveiled face, beholding as in a mirror the glory of the Lord, are being transformed into the same image from glory to glory, just as by the Spirit of the Lord." (2 Corinthians 3:18)
 - "We know that when He is revealed, we shall be like Him, for we shall see Him as He is." (1 John 3:2)
@@ -64,7 +64,7 @@ Man was created in the image of God, with reason, freedom and dominion, and was 
 - [[Nous]]
 - [[Adam and Eve Sin]]
 - [[Death and Corruptibility as Privations of Life and the Ability to Sin]]
-- [[St. Athanasius, On the Incarnation: Main Argument]]
+- [[On the Incarnation: Main Argument]]
 - [[Synergy: Grace and Free Will]]
 - [[Repentance as Metanoia: A Change of Mind, Not a Payment]]
 - [[Beauty as a Way to God]]

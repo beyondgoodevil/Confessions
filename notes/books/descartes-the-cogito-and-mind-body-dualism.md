@@ -9,7 +9,7 @@ source: "Descartes, Meditations on First Philosophy (1641); Descartes's Dualism;
 aliases: [Descartes, Cogito, Meditations, Cartesian Dualism, Evil Demon]
 ---
 
-Descartes (1596–1650) is called the father of modern philosophy because he started again from the **thinking self**: find something certain, then rebuild knowledge on it. The *Meditations* are six "days" of meditation (on the model of spiritual exercises; see [[Pierre Hadot: Philosophy as a Way of Life]]).
+Descartes (1596–1650) is called the father of modern philosophy because he started again from the **thinking self**: find something certain, then rebuild knowledge on it. The *Meditations* are six "days" of meditation (on the model of spiritual exercises; see [[Philosophy as a Way of Life]]).
 
 ## Meditation I: Doubt
 
@@ -78,8 +78,8 @@ The upshot: once nature was taken to be **mere extension**, the mind had nowhere
 
 *Mine.*
 
-- Descartes's dualism is **not** the patristic or Aristotelian view. For Aristotle and the Fathers the soul is the **form of the body**, and a human is **one** thing, soul and body together. Descartes makes two substances and then can't connect them. Feser's account of how the moderns created this problem is in [[Edward Feser: The Last Superstition]] sec. 5.
-- The method (start from the self, doubt everything) became the default of modern philosophy: the self as a private inner theatre. Orthodox critics (and Heidegger) see it as the root of modern individualism. Compare [[John Zizioulas: Being as Communion]]: the person exists in communion, not as a self-enclosed thinker.
+- Descartes's dualism is **not** the patristic or Aristotelian view. For Aristotle and the Fathers the soul is the **form of the body**, and a human is **one** thing, soul and body together. Descartes makes two substances and then can't connect them. Feser's account of how the moderns created this problem is in [[The Last Superstition]] sec. 5.
+- The method (start from the self, doubt everything) became the default of modern philosophy: the self as a private inner theatre. Orthodox critics (and Heidegger) see it as the root of modern individualism. Compare [[Being as Communion]]: the person exists in communion, not as a self-enclosed thinker.
 - But the cogito is still a good reply to total scepticism, and the argument that the mind isn't extended is close to Augustine's ("if I am deceived, I am": *City of God* XI.26).
 
 ## Related
@@ -88,6 +88,6 @@ The upshot: once nature was taken to be **mere extension**, the mind had nowhere
 - [[The Ontological Argument]]
 - [[Critique of Empiricism]]
 - [[Personal Identity and the Resurrection]]
-- [[Edward Feser: The Last Superstition]]
+- [[The Last Superstition]]
 - [[Thomistic Metaphysics]]
 - [[The Argument from Reason]]

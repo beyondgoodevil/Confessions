@@ -66,4 +66,4 @@ Follow-up: this is where Perl is heading with Plotinus, where Intellect and the 
 - [[Essence-Energies Distinction]]
 - [[Neoplatonic Idea of Divine Simplicity]]
 - [[Thomism Leads to Eternal Creation]]
-- [[Copan and Craig: Creation out of Nothing]]
+- [[Creation out of Nothing]]

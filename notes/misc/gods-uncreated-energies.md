@@ -48,7 +48,7 @@ source: St. Gregory Palamas, The Triads; David Bradshaw, Aristotle East and West
 ## Why It Matters
 
 - **Theosis** is real participation in God, not in a created grace. 2 Pet 1:4: "partakers of the divine nature" (by energy, not essence).
-- **Creation is free**: creating is an energy of God's will, not a necessity of His essence. See [[Modal Collapse and Divine Simplicity: Tomaszewski's Reply]].
+- **Creation is free**: creating is an energy of God's will, not a necessity of His essence. See [[How the Absolutely Simple Creator Escapes a Modal Collapse]].
 - **Apophatic and cataphatic** together: unknowable essence, knowable energies. See [[Apophatic and Cataphatic Theology]].
 
 ## Related
@@ -62,6 +62,6 @@ source: St. Gregory Palamas, The Triads; David Bradshaw, Aristotle East and West
 - [[Bible: John 17, Jesus Has the Father's Glory]]
 - [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]]
 - [[Matthew 17: Jesus Transfigured on the Mount]]
-- [[David Bradshaw: Aristotle East and West]]
+- [[Aristotle East and West]]
 - [[Divine Simplicity: Western and Orthodox Views]]
 - [[The Jesus Prayer and Hesychasm]]

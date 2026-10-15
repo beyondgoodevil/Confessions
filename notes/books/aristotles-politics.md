@@ -1,7 +1,7 @@
 ---
 id: B-0047
 date: 2026-10-14
-title: "Aristotle's Politics"
+title: The Politics
 tags: [philosophy, ethics, aristotle, political-philosophy]
 summary: Aristotle's Politics book by book. The polis exists by nature and man is a political animal, the household and natural slavery, wealth-getting and money, the critique of Plato's Republic and private property, citizenship and the six constitutions, justice as proportional, polity and the middle class, revolution, and the best regime with its education and leisure.
 author: Aristotle
@@ -78,13 +78,13 @@ The *Politics* is the second half of a single inquiry with the *Nicomachean Ethi
 - The *Politics* is the opposite of modern liberalism's starting point: the individual isn't prior to the community; the community exists for **virtue**, not just to protect rights. MacIntyre and the conservatives draw on this. See [[Conservatism: Burke, de Maistre, Scruton]].
 - **Aquinas** took over most of it (*De Regno*, the *Summa*'s treatise on law), Christianised: the city's end is virtue, but the human final end is God, which the Church serves.
 - **Natural slavery** shows the limit of Aristotle's natural reasoning; Gregory of Nyssa's sermon against slavery (*Homily 4 on Ecclesiastes*) is the Christian answer: man is in God's image; who can buy that?
-- The "political animal" fits the Orthodox anthropology of communion. See [[John Zizioulas: Being as Communion]].
+- The "political animal" fits the Orthodox anthropology of communion. See [[Being as Communion]].
 
 ## Related
 
 - [[Virtue Ethics: Aristotle and the Fathers]]
 - [[Friendship and Love in Ancient and Medieval Thought]]
-- [[Augustine's City of God]]
+- [[The City of God]]
 - [[Conservatism: Burke, de Maistre, Scruton]]
-- [[Aristotle's Physics: Nature, Change and the Four Causes]]
-- [[John Zizioulas: Being as Communion]]
+- [[Physics: Nature, Change and the Four Causes]]
+- [[Being as Communion]]

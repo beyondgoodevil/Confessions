@@ -58,7 +58,7 @@ Hume asks only that "a reason should be given" for how *ought* is deduced from *
 
 *Mine.*
 
-- If things have **natures** with ends (final causes), then facts about what something is already contain what it should be. The gap only exists if nature is purposeless matter. See [[Edward Feser: The Last Superstition]], [[Thomistic Metaphysics]].
+- If things have **natures** with ends (final causes), then facts about what something is already contain what it should be. The gap only exists if nature is purposeless matter. See [[The Last Superstition]], [[Thomistic Metaphysics]].
 - For theism, the ultimate "is" is God, who **is** the Good. So the deepest fact is also the deepest norm. See [[The Euthyphro Dilemma and the Orthodox Answer]].
 - Orthodoxy: man's nature has a **logos** and a goal (theosis). "Ought" is "become what you are": the image called to likeness. See [[The Logoi of Creation in St. Maximus]].
 
@@ -71,5 +71,5 @@ Hume asks only that "a reason should be given" for how *ought* is deduced from *
 - [[The Euthyphro Dilemma and the Orthodox Answer]]
 - [[The Moral Argument for God]]
 - [[Hume on Causation and Induction]]
-- [[Edward Feser: The Last Superstition]]
+- [[The Last Superstition]]
 - [[Thomistic Metaphysics]]

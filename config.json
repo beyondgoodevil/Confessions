@@ -23,6 +23,20 @@
       "arrange": "title"
     },
     {
+      "id": "misc",
+      "name": "Miscellany",
+      "prefix": "M",
+      "folder": "misc",
+      "label": "Notes",
+      "nounSingular": "miscellaneous note",
+      "aliases": [
+        "note",
+        "other"
+      ],
+      "description": "Random thoughts I am too lazy to organize.",
+      "arrange": "topic"
+    },
+    {
       "id": "media",
       "name": "Podcasts & Videos",
       "prefix": "P",
@@ -63,20 +77,6 @@
         "lecture"
       ],
       "description": "Notes from lectures I attend/watch."
-    },
-    {
-      "id": "misc",
-      "name": "Miscellany",
-      "prefix": "M",
-      "folder": "misc",
-      "label": "Notes",
-      "nounSingular": "miscellaneous note",
-      "aliases": [
-        "note",
-        "other"
-      ],
-      "description": "Random thoughts I am too lazy to organize.",
-      "arrange": "topic"
     },
     {
       "id": "guides",

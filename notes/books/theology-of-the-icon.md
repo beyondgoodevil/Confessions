@@ -1,12 +1,12 @@
 ---
 id: B-0043
 date: 2026-10-14
-title: "Leonid Ouspensky: Theology of the Icon"
+title: Theology of the Icon
 tags: [theology, icons-saints, church-history, christology, liturgy]
 summary: Ouspensky's history and theology of the icon. The church building as symbol, the origins of Christian images, the first icons of Christ and the Virgin, catacomb and Constantinian art, the Quinisext Council's canon 82, iconoclasm and the iconophile reply, and what an icon means and how to read it (inverse perspective, light, faces, colour).
 author: Leonid Ouspensky
 source: "Leonid Ouspensky, Theology of the Icon, vol. 1 (SVS Press, 1978)"
-aliases: [Theology of the Icon, Ouspensky, Leonid Ouspensky, How to Read an Icon]
+aliases: ["Leonid Ouspensky: Theology of the Icon", Ouspensky, Leonid Ouspensky, How to Read an Icon]
 ---
 
 Ouspensky was an iconographer as well as a theologian (Paris, mid-20th c., with Lossky). The site's existing icon notes defend icons from Scripture; this is about what icons **are** and how to **read** them.

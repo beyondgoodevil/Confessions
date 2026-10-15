@@ -104,4 +104,4 @@ One image: for Aquinas the light is a deep well inside us; for the Franciscans i
 - [[Critique of Empiricism]]
 - [[Religious Experience as Evidence]]
 - [[St. Dionysius the Areopagite]]
-- [[Augustine's Confessions: Memory, Time and the Restless Heart]]
+- [[Confessions: Memory, Time and the Restless Heart]]

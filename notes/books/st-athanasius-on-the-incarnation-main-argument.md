@@ -1,11 +1,11 @@
 ---
 id: B-0013
 date: 2026-04-28
-title: "St. Athanasius, On the Incarnation: Main Argument"
+title: "On the Incarnation: Main Argument"
 tags: [theology, christology, salvation, theosis]
 summary: Outline of the argument. Why the Word became flesh, the "divine dilemma", why the Cross, the proofs of the Resurrection, and "He was made man that we might be made God".
 author: St. Athanasius of Alexandria
-aliases: [On the Incarnation]
+aliases: ["St. Athanasius, On the Incarnation: Main Argument", On the Incarnation]
 ---
 
 *On the Incarnation of the Word*, St. Athanasius of Alexandria (c. 296–373). Second half of a pair with *Against the Heathen*. Short, and written when he was young (probably before Arius was an issue, since Arius isn't mentioned). One question runs through it: **why did the Word become man?**
