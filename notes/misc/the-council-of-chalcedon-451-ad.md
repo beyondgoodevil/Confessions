@@ -20,6 +20,8 @@ This council was convened to address controversies surrounding the teachings of 
 
 - After Ephesus (431), the **Formula of Reunion** (433) reconciled Cyril with John of Antioch: "a union of two natures", Mary as Theotokos. Cyril accepted "two natures" language as long as the union was real.
 - **Eutyches**, an elderly archimandrite in Constantinople, went the other way: "**two natures before the union, one after**". Christ's humanity is absorbed in the divinity "like a drop of honey in the sea"; His body not consubstantial with ours. Condemned by Flavian of Constantinople (448).
+    - **Eusebius of Dorylaeum**, who as a layman first cried out against Nestorius ("whose zeal made even fire seem cool"), denounced **Eutyches**. (Davis)
+    - Flavian's creed was strongly Cyrilline: "perfect God and perfect man... consubstantial with the Father as to Godhead, consubstantial with us as to manhood". (Davis)
 - **Pope Leo's Tome** (449) to Flavian: each nature does what is proper to it in communion with the other: "the Word performing what belongs to the Word, the flesh what belongs to the flesh".
 - **The "Robber Council"** (*Latrocinium*), Ephesus 449: Dioscorus of Alexandria, backed by Emperor Theodosius II, restored Eutyches, refused to read Leo's Tome, deposed Flavian (who died from the treatment). Leo called it a *latrocinium*.
 - Theodosius died in 450; the new emperor **Marcian** and empress **Pulcheria** called a new council.
@@ -30,6 +32,7 @@ This council was convened to address controversies surrounding the teachings of 
 - Dioscorus deposed (formally for procedure and contumacy, not heresy).
 - Leo's Tome read: "**Peter has spoken through Leo!**" But it was accepted after checking it against **Cyril's** letters. Both had to agree.
 - The emperor wanted a definition, not just approval of documents.
+- The **Trisagion** ("Holy God, Holy Mighty, Holy Immortal") is first mentioned historically as the bishops chanted it at Chalcedon. (Davis)
 
 ## The Definition
 
@@ -46,21 +49,31 @@ The core (paraphrased): one and the same Christ, Son, Lord, Only-begotten, **ack
 - Christ is **consubstantial with the Father** in divinity, and **consubstantial with us** in humanity, "like us in all things except sin" (Heb 4:15).
 - Mary is **Theotokos** "as to the humanity".
 - "In two natures", not "out of two natures" (Dioscorus's preferred phrase). That one word split the Church.
+- The Definition forbade producing "another faith". (Davis)
+- Pelikan (Davis): it didn't clearly say that **deification** began in the union of Christ's humanity with His divinity.
 
 ## Canon 28
 
 - Gave **Constantinople** "equal privileges" with Old Rome, because it was the new imperial city, second in honour after Rome.
+- Canons 9, 17 and 28 made Constantinople a court of appeal for the whole East. (Davis)
 - Leo rejected it (his legates had walked out). Rome didn't accept it until much later. The basis for primacy was **political** ("because it was the imperial city") rather than Petrine: a fault line for the papacy debate. See [[Nicene Creed Canon 6: First Among Equals Explanation]].
+    - **Leo**: primacy comes from **Peter**, sent "to the citadel of the Roman Empire". (Davis)
 
 ## The Schism That Followed (Meyendorff)
 
 - Egypt, much of Syria and Armenia rejected Chalcedon: the **non-Chalcedonian** or **Oriental Orthodox** churches (Copts, Syriac Orthodox, Armenians, Ethiopians). Called "Monophysites"; they prefer **Miaphysite** ("one nature of the Word incarnate", Cyril's formula).
 - Their objection: "two natures" sounded Nestorian; Leo's Tome seemed to make the natures act like two subjects.
 - **Severus of Antioch** (6th c.) was their great theologian. Meyendorff and modern dialogue: much of the dispute was **terminological**: both confess one Christ, fully God and fully man.
+- Davis on the aftermath: the "Acephali"; Philoxenus's Cyrilline monophysitism.
 - Imperial attempts at reconciliation:
     - Zeno's **Henotikon** (482): skip Chalcedon. Caused the Acacian schism with Rome.
+        - The **Acacian schism** lasted 484–519 (Davis).
     - Justinian: **neo-Chalcedonianism**, reading Chalcedon through Cyril; the **Fifth Council** (553) condemned the "Three Chapters". See [[The Fifth Ecumenical Council]].
+        - Justinian read Chalcedon "according to the mind of Cyril" (Davis).
+        - **Leontius** (Davis): Christ has no separate human hypostasis; the Word's hypostasis is common to both natures, so "Christ unites not just an individual but all of mankind to the divinity".
+        - Constantinople II (553) (Davis): the natures are distinguished "by way of speech and thought, not as two distinct things"; "one of the Holy Trinity" suffered in the flesh.
     - **Monoenergism** and **monothelitism** (7th c.), refuted by St. Maximus; **Sixth Council** (681). See [[Maximus the Confessor as a European Philosopher]].
+        - **Monothelitism** (Davis): Sergius and **Pope Honorius** ("one operator, two operating natures"); Constantinople III (681): "two natural wills and two operations, concurring most fitly for the salvation of the human race."
 
 ## Notes
 
@@ -68,17 +81,6 @@ The core (paraphrased): one and the same Christ, Son, Lord, Only-begotten, **ack
 
 - Chalcedon is a **fence**, not an explanation: four negatives around a mystery. The positive account (how the natures relate in the one hypostasis) is worked out after it: enhypostasia (Leontius), the communication of idioms, Maximus's logos/tropos.
 - The Orthodox read Chalcedon **through Cyril** (Meyendorff's main thesis): the one hypostasis is the eternal Word, who becomes the subject of a human life. Not a "person" made up out of two natures.
-
-## More from Davis
-
-- **Eusebius of Dorylaeum**, who as a layman first cried out against Nestorius ("whose zeal made even fire seem cool"), denounced **Eutyches**.
-- Flavian's creed was strongly Cyrilline: "perfect God and perfect man... consubstantial with the Father as to Godhead, consubstantial with us as to manhood".
-- The **Trisagion** ("Holy God, Holy Mighty, Holy Immortal") is first mentioned historically as the bishops chanted it at Chalcedon.
-- The Definition forbade producing "another faith". Pelikan: it didn't clearly say that **deification** began in the union of Christ's humanity with His divinity.
-- Canons 9, 17 and 28 made Constantinople a court of appeal for the whole East. **Leo** rejected canon 28: primacy comes from **Peter**, sent "to the citadel of the Roman Empire".
-- Aftermath: the "Acephali"; Zeno's **Henotikon** and the **Acacian schism** (484–519); Philoxenus's Cyrilline monophysitism; **Justinian** reading Chalcedon "according to the mind of Cyril".
-- **Leontius**: Christ has no separate human hypostasis; the Word's hypostasis is common to both natures, so "Christ unites not just an individual but all of mankind to the divinity". Constantinople II (553): the natures are distinguished "by way of speech and thought, not as two distinct things"; "one of the Holy Trinity" suffered in the flesh.
-- **Monothelitism**: Sergius and **Pope Honorius** ("one operator, two operating natures"); Constantinople III (681): "two natural wills and two operations, concurring most fitly for the salvation of the human race."
 
 ## Related
 

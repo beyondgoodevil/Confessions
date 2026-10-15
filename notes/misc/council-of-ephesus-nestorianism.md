@@ -49,6 +49,9 @@ The Council of Ephesus, convened in 431 AD, was the third Ecumenical Council. It
 | danger: two subjects | danger: humanity swallowed (Apollinarius denied Christ a human mind) |
 | Diodore of Tarsus, **Theodore of Mopsuestia**, Nestorius | Athanasius, **Cyril** |
 
+- **Diodore**: Christ's unity is by **grace**; "the unity of worship does not imply the blasphemous worship of a man, since the man is worshipped because of his union with the Word." (Davis)
+- **Theodore** sounds almost Chalcedonian: "neither confusion of the natures nor untenable division of the person"; "a distinction of natures but unity of person". But he insisted each nature has its own *prosopon*: "a real object without perceptible presentation is a contradiction in terms". (Davis)
+
 **The spark (428)**
 - Nestorius, a famous Antiochene preacher, became archbishop of Constantinople. His chaplain Anastasius preached that no one should call Mary *Theotokos*: "Mary was a human being, and God cannot be born of a human." Nestorius backed him and suggested *Christotokos*.
 - People in the capital were scandalised: *Theotokos* was already in prayer and use (Origen, Alexander, Athanasius).
@@ -60,6 +63,8 @@ The Council of Ephesus, convened in 431 AD, was the third Ecumenical Council. It
     - the **communication of idioms**: what's said of the humanity can be said of the Word: "the Word suffered in the flesh", "God was born", "God died"
     - Anathema 12: whoever doesn't confess that the Word of God **suffered in the flesh and was crucified in the flesh** and tasted death... let him be anathema
 - Nestorius: a "union of **prosopa**", a conjunction (*synapheia*) of the Word and the man. He wouldn't say "God suffered" or "God was two months old".
+    - Cyril (Davis): "the Jesus of history was God Himself living, suffering, dying and rising according to the flesh", but not in His impassible nature.
+    - Prestige (Davis): Nestorius's unorthodoxy "was not a positive fact but a negative impotence": he couldn't bring the two natures he distinguished "within the framework of a single, clearly conceived personality".
 - **Pope Celestine** (synod of Rome, 430) sided with Cyril and gave Cyril authority to act.
 
 **On the Unity of Christ** (Cyril's later dialogue, c. 438): Christ is not a man "carrying God" (*theophoros*) but God made man. If the one who died isn't the Word, then a mere man died for us, and his death can't save. The Eucharist is the flesh of the Word, life-giving; a mere man's flesh couldn't give life.
@@ -67,9 +72,13 @@ The Council of Ephesus, convened in 431 AD, was the third Ecumenical Council. It
 ## The Council's Chaos
 
 - Opened **22 June 431** by Cyril before John of Antioch and the Syrian bishops had arrived (they were delayed). Nestorius refused to attend. Condemned and deposed in a single day; the crowds escorted the bishops with torches.
+    - Memnon brought bishops hostile to Nestorius (who had tried to extend Constantinople's jurisdiction). Nestorius was summoned three times. (Davis)
+    - The dogmatic act: Cyril's **Second Letter** declared conformable to Nicaea, Nestorius's reply not. (Davis)
 - John arrived four days later, held a rival council, and deposed **Cyril**. Then the papal legates arrived and confirmed Cyril's council.
 - Emperor Theodosius II at first arrested both Cyril and Nestorius; eventually Nestorius was sent back to his monastery, then exiled to Egypt, where he died (c. 451). His later *Bazaar of Heracleides* shows he thought Chalcedon vindicated him.
+    - The imperial commissioner confirmed the deposition of **both** Nestorius and Cyril (and Memnon). Full recognition of Cyril's council came only at Chalcedon (451). (Davis)
 - **Formula of Reunion** (433): reconciled Cyril and John. See [[The Council of Chalcedon (451 AD)]].
+    - Some Gospel expressions are "common, relating to one Person", others distinguished "relating to two natures". (Davis)
 
 ## Notes
 
@@ -78,16 +87,6 @@ The Council of Ephesus, convened in 431 AD, was the third Ecumenical Council. It
 - *Theotokos* is a **Christological** title first: it protects who Christ is. Calling Mary Mother of God says her Son is God.
 - The "communication of idioms" is the key tool: one subject, so you can say "God was crucified" (1 Cor 2:8: "they would not have crucified the Lord of glory"; Acts 20:28: "the church of God, which he hath purchased with **his own blood**").
 - The "Church of the East" (called Nestorian) honours Nestorius and Theodore but its modern theology is arguably closer to orthodoxy than the label suggests (a 1994 common declaration with Rome).
-
-## More from Davis
-
-- **Diodore**: Christ's unity is by **grace**; "the unity of worship does not imply the blasphemous worship of a man, since the man is worshipped because of his union with the Word."
-- **Theodore** sounds almost Chalcedonian: "neither confusion of the natures nor untenable division of the person"; "a distinction of natures but unity of person". But he insisted each nature has its own *prosopon*: "a real object without perceptible presentation is a contradiction in terms".
-- Prestige: Nestorius's unorthodoxy "was not a positive fact but a negative impotence": he couldn't bring the two natures he distinguished "within the framework of a single, clearly conceived personality".
-- Cyril: "the Jesus of history was God Himself living, suffering, dying and rising according to the flesh", but not in His impassible nature.
-- At Ephesus Memnon brought bishops hostile to Nestorius (who had tried to extend Constantinople's jurisdiction). Nestorius was summoned three times. The dogmatic act: Cyril's **Second Letter** declared conformable to Nicaea, Nestorius's reply not.
-- The imperial commissioner confirmed the deposition of **both** Nestorius and Cyril (and Memnon). Full recognition of Cyril's council came only at Chalcedon (451).
-- The Formula of Reunion: some Gospel expressions are "common, relating to one Person", others distinguished "relating to two natures".
 
 ## Related
 

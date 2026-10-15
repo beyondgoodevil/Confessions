@@ -43,6 +43,10 @@ From his letters (to Eusebius of Nicomedia, to Alexander) and the *Thalia*, as D
 
 **Background**: the school of Lucian of Antioch (Arius and Eusebius of Nicomedia were "fellow Lucianists"). Also a Middle Platonist picture: a remote high God and a secondary mediating Logos. See [[The Forms and the Demiurge]].
 
+- Before Nicaea the problem was (Prestige) "how, within the monotheism the Church inherited from the Jews, to maintain the unity of God while insisting on the deity of one distinct from the Father". The *Shepherd of Hermas* already distinguished within God, vaguely. (Davis)
+- **Monarchians** stressed God's unity: **Adoptionists** (Theodotus the shoemaker of Byzantium, at Rome, late 2nd c.) vs **modalists**. **Tertullian**: "God" names the substance; the Son is of one substance, a second person. (Davis)
+- **Origen** called the Son a "creature" (Prov 8:22) because he lacked a clear distinction between **begotten** and **created**: the Arians claimed him. (Davis)
+
 ## Why Arius Had to Be Wrong (Athanasius)
 
 St. Athanasius, deacon at Nicaea, then bishop of Alexandria (exiled five times), gives the arguments in *On the Incarnation* and *Against the Arians*:
@@ -57,11 +61,16 @@ St. Athanasius, deacon at Nicaea, then bishop of Alexandria (exiled five times),
 ## The Council (Davis)
 
 - **Called by Constantine** in 325, after Ossius of Cordova failed to reconcile Alexander and Arius. Held at the imperial palace in Nicaea. Constantine opened it; tradition says 318 bishops (the number of Abraham's servants, Gen 14:14); probably 250–300, almost all Eastern; Rome sent two priests.
+    - Constantine thought he could call a council because, in Hellenistic royal ideology, he was entitled to intervene in religion (Dvornik).
+    - Eusebius describes his entrance: "downcast eyes, the blush on his face"; the bishops passing armed guards into the palace felt it "a picture of Christ's kingdom, a dream rather than a reality".
 - Three parties: a small **Arian** group around Eusebius of Nicomedia; the **Alexandrians** (Alexander, Athanasius, with Marcellus of Ancyra); and a large **middle** group with Eusebius of Caesarea, who wanted biblical language only.
 - The Arians' own statement was shouted down. Eusebius of Caesarea offered his church's creed; it was used as a base, with additions to shut out Arian readings.
 - Every biblical phrase ("from God", "image", "power of God") the Arians could accept in their own sense. So the council used a **non-biblical** word: ***homoousios***, "of one essence". Ironically suggested by Constantine (via Ossius); it had earlier been used by Gnostics and condemned at Antioch (268) against Paul of Samosata, which made many uneasy.
+    - *Homoousios* worried many because of its **materialist** overtones (parts of the same "stuff").
 - **The creed of 325** ends at "And in the Holy Spirit", followed by **anathemas** against "there was when he was not", "made from nothing", "of another hypostasis or ousia", "changeable". The full Creed we say now is from Constantinople (381).
+    - "**True God from true God**" was added because Arians called the Son God "by grace", "in name only".
 - Only two bishops refused to sign (Secundus and Theonas); exiled with Arius.
+    - Secundus to Eusebius of Nicomedia as he left: "You signed only to avoid exile; I prophesy you will be in exile within the year": and Eusebius, Theognis and Maris were.
 
 ## The Aftermath (325–381)
 
@@ -74,6 +83,8 @@ The council didn't end the crisis. It started it.
 | 336 | Arius dies suddenly in Constantinople the day before his reinstatement |
 | 337 | Constantine baptised on his deathbed by Eusebius of Nicomedia, an Arian sympathiser |
 | 340s–350s | Constantius II favours anti-Nicenes; councils of Sirmium, Rimini, Seleucia produce **homoian** creeds ("like the Father") |
+| 341 | Second Creed of Antioch: three hypostases "in agreement one" (Davis) |
+| 357 | Second Council of Sirmium, which Hilary called "**The Blasphemy**"; the aged Ossius forced to sign (Davis) |
 | 359 | Jerome: "the whole world groaned and was astonished to find itself Arian" |
 | 362 | Athanasius's council of Alexandria: reconciles the **homoiousians** ("of like essence") with Nicaea |
 | 370s | the **Cappadocians** clarify one ousia, three hypostases, and the Spirit's divinity |
@@ -85,6 +96,10 @@ Parties in the middle period:
 - **Homoiousians** (Basil of Ancyra): **like in essence**. Close to Nicaea; became Nicene.
 - **Nicenes**: **same essence**.
 
+The Spirit and Constantinople (Davis):
+- The Spirit: Athanasius called the Egyptian deniers *Tropici* (figurative exegetes), argued the Spirit is more than a creature, but by the custom of the time didn't call Him "God". Basil: "glorify the Spirit with the Father and Son because He is not alien to the divine nature".
+- Constantinople (381) canon 3: "primacy of honour after Rome because Constantinople is the **new Rome**." Rome's answer: a hierarchy of Petrine sees (Rome; Alexandria through Mark; Antioch where Peter lived).
+
 Arianism survived among the **Goths** and other Germanic peoples (converted by the Arian Ulfilas) until the 6th–7th centuries.
 
 ## Notes
@@ -93,19 +108,6 @@ Arianism survived among the **Goths** and other Germanic peoples (converted by t
 
 - The fight over one iota (*homoousios* vs *homoiousios*) was not pedantry: it's the difference between Christ being God and Christ being a creature, i.e. between being saved and not.
 - The council's method matters for [[Sola Scriptura: The Main Arguments and Replies]]: both sides quoted Scripture; the Church settled it with a non-scriptural word that expressed the apostolic faith.
-
-## More from Davis
-
-- Before Nicaea the problem was (Prestige) "how, within the monotheism the Church inherited from the Jews, to maintain the unity of God while insisting on the deity of one distinct from the Father". The *Shepherd of Hermas* already distinguished within God, vaguely.
-- **Monarchians** stressed God's unity: **Adoptionists** (Theodotus the shoemaker of Byzantium, at Rome, late 2nd c.) vs **modalists**. **Tertullian**: "God" names the substance; the Son is of one substance, a second person.
-- **Origen** called the Son a "creature" (Prov 8:22) because he lacked a clear distinction between **begotten** and **created**: the Arians claimed him.
-- Constantine thought he could call a council because, in Hellenistic royal ideology, he was entitled to intervene in religion (Dvornik). Eusebius describes his entrance: "downcast eyes, the blush on his face"; the bishops passing armed guards into the palace felt it "a picture of Christ's kingdom, a dream rather than a reality".
-- "**True God from true God**" was added because Arians called the Son God "by grace", "in name only".
-- *Homoousios* worried many because of its **materialist** overtones (parts of the same "stuff").
-- Secundus to Eusebius of Nicomedia as he left: "You signed only to avoid exile; I prophesy you will be in exile within the year": and Eusebius, Theognis and Maris were.
-- After Nicaea: the Second Creed of Antioch (341: three hypostases "in agreement one"); the Second Council of Sirmium (357), which Hilary called "**The Blasphemy**", forced the aged Ossius to sign.
-- The Spirit: Athanasius called the Egyptian deniers *Tropici* (figurative exegetes), argued the Spirit is more than a creature, but by the custom of the time didn't call Him "God". Basil: "glorify the Spirit with the Father and Son because He is not alien to the divine nature".
-- Constantinople (381) canon 3: "primacy of honour after Rome because Constantinople is the **new Rome**." Rome's answer: a hierarchy of Petrine sees (Rome; Alexandria through Mark; Antioch where Peter lived).
 
 ## Related
 
