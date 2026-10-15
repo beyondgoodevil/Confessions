@@ -4,6 +4,7 @@ date: 2026-05-31
 title: The Logoi of Creation in St. Maximus
 tags: [theology, theosis, patristics, metaphysics]
 summary: St. Maximus on the logoi. Every creature has its logos in the one Logos; logos vs tropos; being, well-being, eternal well-being; the reply to Origenism; natural contemplation.
+source: "St. Maximus the Confessor, On Difficulties in the Church Fathers: The Ambigua, trans. Nicholas Constas (Dumbarton Oaks, 2014), Amb. 7, 10, 41; Maximus the Confessor as a European Philosopher (2017)"
 ---
 
 **St. Maximus the Confessor** (c. 580–662). Every created thing has a **logos** (pl. **logoi**): God's intention for it, what it is and what it's for. All the logoi are held in the one **Logos**, Christ. Main text is *Ambiguum 7* (which is hard going).
@@ -73,6 +74,30 @@ First and third are gifts. The middle one needs our cooperation. That's where sy
 
 Not clear to me yet: are the logoi simply *identical* with the energies, or related to them? People seem to say both.
 
+## From the Ambigua
+
+**Ambiguum 7** (on Gregory Nazianzen's phrase that we are "a portion of God")
+- Written against the Origenists who read it as souls having pre-existed as parts of God.
+- Maximus: we are "a portion of God" because each of us has a **logos in God**, pre-existing as God's will, not as a pre-existent soul.
+- "If a man moves rightly according to his logos, he comes to be in God, in whom the logos of his being pre-exists as its beginning and cause."
+- Rest at the end isn't the end of movement but its fulfilment: the "**ever-moving rest**".
+
+**Ambiguum 10** (the longest, on Gregory's sermon about passing through to the "cloud")
+- Natural contemplation of the logoi in all things: in the **Transfiguration**, Christ's garments (white as light) are the **words of Scripture** and the **visible creation**, both made transparent to the Logos.
+- Five modes of contemplation of creation: substance, motion, difference, mixture, position.
+- The saints (Abraham, Moses, Elijah, Melchizedek) as types of the stages of ascent.
+
+**Ambiguum 41** (the five divisions)
+- Man was made to unite the five divisions of being: uncreated/created, intelligible/sensible, heaven/earth, paradise/inhabited world, male/female.
+- Adam failed; **Christ** unites them all, starting from the last (born of a virgin) and ending with uniting creation to God (the Ascension). See [[Maximus the Confessor as a European Philosopher]] sec. 6.
+
+## Answering the Open Question: Logoi and Energies
+
+From the *European Philosopher* volume (Tollefsen and others):
+- The logoi are God's **wills** (*thelēmata*) and **intentions** for creatures; they are **uncreated** and belong to God's activity toward creation.
+- So they are on the **energies** side of the essence–energies distinction. They aren't simply identical with "the energies" in general, but they're the energies considered as God's creative and providential **intentions**: the energies **as directed to each thing**.
+- Tollefsen's phrase: the logoi are "God's thoughts and wills about creation", and creatures participate in God by being made according to them and moving toward them.
+
 ## Related
 
 - [[Essence-Energies Distinction]]
@@ -85,3 +110,5 @@ Not clear to me yet: are the logoi simply *identical* with the energies, or rela
 - [[Being Made in the Image of God]]
 - [[Nous]]
 - [[The Forms and the Demiurge]]
+- [[Maximus the Confessor as a European Philosopher]]
+- [[Christian Platonism]]

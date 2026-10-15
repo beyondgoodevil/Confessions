@@ -4,6 +4,7 @@ date: 2026-04-28
 title: "Nicene Creed Canon 6: First Among Equals Explanation"
 tags: [theology, councils, papacy]
 summary: Canon 6 of Nicaea and what its "likewise" implies about Rome and the other sees.
+source: Nicaea I, Canon 6; A. Edward Siecienski, The Papacy and the Orthodox (Oxford, 2017) ch. 4
 ---
 
 The phrase "**likewise**" in **Canon 6** reads:  
@@ -13,6 +14,32 @@ This shows that **Rome** and **Alexandria** are granted significant authority in
 
 This canon set the precedent for how authority was distributed among the early bishops, highlighting the balance between respect for prominent sees and the shared responsibility among all bishops.
 
+## Context of the Canon
+
+- The immediate issue was **Melitius of Lycopolis**, who had been ordaining bishops in Egypt without Alexandria's approval (the Melitian schism). The canon confirms Alexandria's **regional** authority over Egypt, Libya and Pentapolis.
+- Then it adds: "**Likewise in Antioch and the other provinces**, let the churches retain their privileges." So three great sees (Rome, Alexandria, Antioch) are named, each with an area.
+- What Rome's area was, the canon doesn't say. **Rufinus's** Latin version (c. 400) limits it to the "suburbicarian" churches (central and southern Italy).
+- Canon 7 adds honour for **Jerusalem** ("Aelia"), while keeping it under Caesarea.
+
+## The Roman Version
+
+- At the Council of Chalcedon (451), the papal legate Paschasinus read a Latin version of Canon 6 beginning "**The Roman Church has always had the primacy**". The Greek text, read alongside, didn't contain it. Siecienski: an interpolation that Rome used in good faith but which the council didn't accept.
+
+## Pentarchy
+
+- Later the canons of Constantinople (381), Chalcedon (451) and Justinian's laws produce the **pentarchy**: Rome, Constantinople, Alexandria, Antioch, Jerusalem, in that order of honour.
+- The model: the Church is governed by the five patriarchs **in council**, with Rome first. Like five senses of one body (Theodore the Studite).
+
+## Objections and Replies
+
+| Catholic reading | Orthodox reply |
+|---|---|
+| "since the like is customary for Rome" means Alexandria's authority is modelled on Rome's, which is greater | the canon treats Rome's position as one **custom** among others, a parallel, not a source |
+| the canon is about **regional** matters and doesn't address universal primacy at all | true, which is why it can't be used for universal jurisdiction either; and the Church's structure in it is regional |
+| **Ignatius** (to the Romans): Rome "presides in love" | presiding in **love** (*agape*, perhaps the whole community) is not jurisdiction |
+
+*Mine*: the argument from Canon 6 alone is modest: it shows Nicaea saw Rome as one major see among several, with regional authority. The stronger Orthodox case is the whole first-millennium pattern. See [[Vatican 1 Papal Supremacy Goes Against the Canons of Nicea]].
+
 ## Related
 
 - [[Laws/Canons That Nicea Determined]]
@@ -21,3 +48,5 @@ This canon set the precedent for how authority was distributed among the early b
 - [[Acts 15:6-22: Church Government]]
 - [[Laws/Canons That Constantinople Determined]]
 - [[The Great Schism of 1054: Causes and Timeline]]
+- [[The Council of Chalcedon (451 AD)]]
+- [[Council of Nicea: Arianism]]

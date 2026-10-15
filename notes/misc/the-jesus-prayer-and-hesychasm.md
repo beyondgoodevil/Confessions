@@ -4,6 +4,7 @@ date: 2026-02-04
 title: The Jesus Prayer and Hesychasm
 tags: [theology, theosis, prayer]
 summary: The prayer and where it comes from in Scripture, the hesychast line from the Desert Fathers to Palamas and the Philokalia, terms, practice and the usual warnings.
+source: "Igumen Chariton of Valamo, The Art of Prayer: An Orthodox Anthology, ed. Kallistos Ware; Simon Barrington-Ward, The Jesus Prayer; St. Gregory Palamas, The Triads"
 ---
 
 **Hesychasm**: from *hesychia*, stillness. The Orthodox tradition of inner prayer and watchfulness, aiming at constant remembrance of God. The **Jesus Prayer** is at the centre of it.
@@ -107,6 +108,42 @@ From St. Theophan the Recluse and others:
 
 Thought: the Palamite controversy looks like an argument about monks' prayer technique, but it's really about whether God can be *participated in* at all. That's why three councils dealt with it.
 
+## From The Art of Prayer (St. Theophan the Recluse and others)
+
+Mostly 19th-century Russian teaching, especially **St. Theophan the Recluse** and **St. Ignatius Brianchaninov**, collected by Igumen Chariton.
+
+- **"Stand before God with the mind in the heart"**: Theophan's definition of prayer. Not the words but the standing.
+- **Attention** is everything: "the principal thing is to stand with the mind in the heart before God, and to go on standing before Him unceasingly day and night."
+- **Warmth of heart**: a sign of prayer becoming prayer of the heart. Not emotional excitement but a quiet, steady warmth. Don't confuse it with physical or imaginative heat.
+- **No images**: don't imagine Christ or anything else while praying; that leads to delusion (*prelest*). Prayer is beyond imagination.
+- **Humility** above methods: "prayer is God's gift; ask for it and it will be given."
+- **Self-acting prayer** comes as a gift after long labour; it can't be produced by technique.
+
+## The Four Strands (Barrington-Ward)
+
+An Anglican bishop who learned the prayer from Orthodox teachers. He describes it as weaving four strands:
+1. **"Lord Jesus Christ"**: worship, adoration
+2. **"Son of God"**: faith, confession of who He is
+3. **"have mercy on me"**: the cry for mercy (*eleos*, related to the oil of healing)
+4. **"a sinner"**: repentance, and solidarity with all sinners: intercession
+
+And it includes the **Trinity**: to the Son, as "Son of God" (the Father), in the Spirit ("no man can say that Jesus is the Lord, but by the Holy Ghost", 1 Cor 12:3).
+
+## The Triads in More Detail
+
+Palamas's *Triads in Defence of the Holy Hesychasts* (c. 1338–41), three sets of three treatises against Barlaam:
+
+| Triad | Theme |
+|---|---|
+| **I** | against the claim that **secular learning** is needed for knowing God; the nous and the body in prayer (defence of the psychosomatic method) |
+| **II** | the same themes, more developed; prayer and the body; the light |
+| **III** | the **uncreated light** and the **essence–energies** distinction; deification as real participation |
+
+Key points:
+- Philosophy is useful but not necessary for knowledge of God; the prophets and apostles were fishermen.
+- The **body** shares in prayer and in grace (the transfigured face of Moses, the relics of saints).
+- The light of Tabor is the same light the saints see: uncreated, the glory of God, "the beauty of the age to come". See [[God's Uncreated Energies]].
+
 ## Related
 
 - [[Essence-Energies Distinction]]
@@ -120,3 +157,4 @@ Thought: the Palamite controversy looks like an argument about monks' prayer tec
 - [[9 Ecumenical Councils]]
 - [[St. John Climacus: The Ladder of Divine Ascent]]
 - [[The Name of God]]
+- [[Pierre Hadot: Philosophy as a Way of Life]]
