@@ -56,6 +56,46 @@ source: "Eugen J. Pentiuc, The Old Testament in Eastern Orthodox Tradition (Oxfo
 ## Conclusion
 
 By the late 4th century, the canon of the Bible was largely established, with the Old Testament and New Testament recognized by key councils and influential church leaders. This process culminated in a broadly accepted canon before the East-West Schism of 1054. However, the acceptance of certain texts could vary among different Christian communities during this period.
+## More from Pentiuc (ch. 3)
+
+**The word "canon"**
+- Greek *kanōn*: a measuring reed, then a "norm" or "rule". The Alexandrian grammarians first used it for a **list**. For Clement it's "the harmony of the Law and the Prophets with the covenant" of Christ; for Origen, the "rule of the heavenly church" the reader holds to.
+- Early Christians speak of "canonical" or "canonized" **books** rather than "the canon" as one closed collection. Christian lists (Melito, Origen) actually appear **before** Jewish ones (3rd c. AD onward).
+
+**The Jewish side**
+- Sirach's prologue (c. 132 BC) already has a rough three-part division: "the Law, the Prophets, and the other books of the fathers".
+- **Josephus**, *Against Apion* (c. 90 AD): **22** books, matching the 22 letters of the Hebrew alphabet: 5 of Moses, 13 prophets, 4 of "hymns to God and precepts for life". The rest, written after Artaxerxes, are "not worthy of the same trust" because the exact succession of prophets had failed. His third section of "precepts for life" paved the way for the Christian idea of edifying but non-canonical books.
+- **4 Ezra** 14: Ezra writes 94 books; 24 are to be made public, 70 kept for "the wise".
+- **Jamnia**: Judaism has no councils or canons. The "decision" (m. Yad. 3.5) was only that Song of Songs and Ecclesiastes "defile the hands", i.e. are sacred, and Ruth and Esther were still argued over later.
+- Matt 23:35, "from the blood of Abel unto the blood of Zacharias", runs from Genesis to 2 Chronicles: the first and last books of the later Jewish order.
+
+**Christian witnesses in more detail**
+- **Justin** is the first to suggest the Church is self-sufficient in deciding her own Scriptures.
+- **Origen** gives Hebrew and Greek names for each book, and first uses the term "outside" (*exō*) for the Septuagint additions (naming Maccabees).
+- **Athanasius**, *Festal Letter* 39 (367): three groups: **canonized**; **non-canonized but readable** (*anaginōskomena*, for catechumens); and **apocrypha**, not to be read at all. The readable ones weren't put "in the ark" by the Israelites: a hint they came from the Diaspora.
+- **Laodicea** (c. 363) canon 59: "no private psalms nor any noncanonical books may be read in church". Canon 60 (of doubtful genuineness): 22 books, "150 Psalms" (so no Ps 151), Baruch and the Epistle of Jeremiah included; Maccabees, Wisdom and Revelation omitted.
+- **Rome** (382, the "Gelasian decree") and **Hippo/Carthage** (393/397) include Tobit, Judith, Maccabees and "five books of Solomon" (adding Wisdom and Sirach). Carthage: "we have learned from the Fathers that we should read these in church."
+- **Augustine**'s criterion: follow "the judgment of the greater number of catholic churches"; he's the first to list disputed and undisputed books with **no distinction**.
+- **Jerome** called them "apocryphal" but put them in the Vulgate: to be read "for the edification of the people, not to give authority to doctrines".
+- **Amphilochius** of Iconium: the criterion is authenticity; spurious books aren't "infallible" even if they sound pious. **Gregory Nazianzen** follows him.
+- **John of Damascus**: 22 books arranged as "four pentateuchs" plus two; Wisdom and Sirach are "virtuous and noble" but not among the 22 because the Hebrews "did not place them in the ark".
+- **Trullo** (692) and Nicaea II (787) approved all these lists **generally**, though they disagree: so no single list was imposed.
+
+**After the first millennium**
+- **Trent** (1546) fixed 46 OT books; the term "deuterocanonical" was coined by Sixtus of Siena in 1566. Trent also tied canonicity to one text (the Vulgate), a first.
+- **Cyril Lucaris** followed the Reformers and called them apocrypha. The **Confession of Dositheus** (Jerusalem 1672) answered that Lucaris "foolishly, ignorantly, or rather maliciously" called them apocrypha, and called them canonical, imitating Trent.
+- **Mogila** (1643) quotes them freely (e.g. Tobit 12:9 on alms). **Metrophanes Kritopoulos** (1625) counted only 22. **Philaret's Catechism** (1823) left them out of the canonical list ("they do not exist in Hebrew") though read by catechumens; the Moscow Bible of 1956 put them back.
+- Pentiuc: these confessions were written under Catholic–Protestant pressure when Orthodox theological education "was at an all-time low", and often just repeat one side against the other. None speaks for Orthodoxy as a whole.
+- **Meyendorff**: Byzantium used the Septuagint and Wisdom liturgically yet kept a "Hebrew" criterion for canonicity: an unresolved polarity.
+- **Vassiliadis**: the undivided Church never imposed a canon. By Ulrich's definition (canon = a closed list ratified by authority), only Rome strictly has a canon; Orthodoxy has a "growing collection": 39 books plus about ten *anaginōskomena*.
+
+## Florovsky on the Bible and the Church
+
+- The Bible is a record first of God's **acts** (*magnalia Dei*), not just teaching: "the Truth is not an idea, but a person".
+- "The Bible is closed just because the Word of God has been incarnate", yet it stays prophetic, pointing to the end.
+- An unbeliever has no access to the message "simply because he does not receive it" (Tertullian's argument in *Prescription against Heretics*).
+- Augustine: "I should not have believed the Gospel if the authority of the Catholic Church had not moved me."
+- Tradition isn't a second source next to Scripture; it's Scripture "rightly understood" in the Church. "Real interpretation of Scripture is Church preaching, is tradition."
 
 ## Related
 

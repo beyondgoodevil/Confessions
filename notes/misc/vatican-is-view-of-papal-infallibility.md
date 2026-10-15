@@ -53,6 +53,17 @@ There's no official list, which itself is an objection: if no one knows exactly 
 - **Luke 22:32** ("I have prayed for thee, that thy faith fail not") was a prayer for Peter personally before his denial, and the Fathers apply Peter's confession to all bishops.
 - No first-millennium council or Father taught it. Honorius's condemnation is decisive against it historically.
 
+## More from Siecienski (ch. 8–9)
+
+- At **Florence** the Latins insisted every question "be defined in accordance with the dogmas of the Holy Roman Church". Patriarch Joseph's alleged will acknowledging the pope as "vicar of Christ" is disputed.
+- **Peter Mogila**'s *Confession* (17th c.) has been called "the most Latin document ever adopted by an official council of the Orthodox Church".
+- Orthodox apologists: **Honorius**'s anathema at Constantinople III disproves papal infallibility in the early Church: "not one father opened his mouth to oppose such audacity."
+- **Vatican I**: Pius IX wanted spiritual authority against modern errors. The ultramontanes (Manning, Senestrey) "moved heaven and earth"; a French and German minority thought it "inopportune". Sixteen bishops who signed against the definition were forced to withdraw signatures (Strossmayer's account). The Melkite story that Pius kicked the Melkite patriarch Gregory in the head saying "*Testa dura*!"
+- Bishop **Gasser**'s official explanation: infallibility is "personal" in that it belongs to the Roman Pontiff, "but not to the pope as a private person"; "separate, or rather distinct", resting on a special promise, without separating the pope "from his ordained union with the Church". Klaus Schatz: many crucial objections came "from the arsenal of history". **Küng**: the Church is "indefectible" rather than "infallible".
+- **20th century**: Orthodox reaction reduced "primacy of honour" to "**honorary primacy**". **Bulgakov**, *The Vatican Dogma*. Paul VI and Athenagoras (1964): the "dialogue of love"; mutual lifting of the 1054 anathemas (1965); "**sister churches**". Paul VI knelt and kissed Metropolitan Meliton's foot.
+- **Zizioulas**: Rome's present view of universal primacy "appears totally unacceptable to the Orthodox, and it should be, unless fundamentally qualified"; but a primacy within synodality is possible. The Moscow Patriarchate wanted a statement that Rome's jurisdiction didn't extend to the East in the first millennium.
+- The Melkite proposal: "I believe everything Eastern Orthodoxy teaches" and "I am in communion with the Bishop of Rome as first among bishops, within the limits recognised by the Eastern Fathers of the first millennium."
+
 ## Related
 
 - [[Vatican 1 Papal Supremacy Goes Against the Canons of Nicea]]

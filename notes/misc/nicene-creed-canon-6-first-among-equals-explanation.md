@@ -37,6 +37,18 @@ This canon set the precedent for how authority was distributed among the early b
 
 *Mine*: the argument from Canon 6 alone is modest: it shows Nicaea saw Rome as one major see among several, with regional authority. The stronger Orthodox case is the whole first-millennium pattern. See [[Vatican 1 Papal Supremacy Goes Against the Canons of Nicea]].
 
+## More from Siecienski (ch. 4)
+
+- **Clement** of Rome "in third place from the apostles" (Irenaeus): but almost all modern scholars, Catholic and Orthodox, reject a single monarchical bishop in Rome in the 1st century.
+- **Irenaeus**, *AH* III.3: we lack the Greek; *potentiorem principalitatem* can mean "greater authority" or "most excellent origin", and he may be using Rome as an example.
+- Easter dispute: "Neither could Anicetus persuade Polycarp, nor Polycarp persuade Anicetus": they disagreed and stayed in communion.
+- **Apostolic Canon 34**: the bishops of each nation must know "who is the chief among them", do nothing great without him; "let him not do anything without the consent of all."
+- The Eastern bishops (c. 341, Sozomen): Rome "was entitled to universal honour because it was the school of the apostles", yet they protested Pope Julius overturning their synod.
+- Constantinople canon 3: some see an anti-Roman edge; McGlynn: in giving Constantinople "second place to Rome, they award him nothing".
+- The African bishops wrote to Innocent with "*captatio benevolentiae*", flattering him to get what they wanted (Eno).
+- Chalcedon canon 28 distinguished prerogatives "accorded" to Old Rome from those "apportioned" to New Rome.
+- **Gregory the Great** opposed the title "ecumenical patriarch", affirming each bishop's rights against universal claims, even Rome's: "remove that word 'ordered' from my hearing, because I know who I am, and who you are" (to Eulogius). A witness to the first millennium's "ecclesiology of communion".
+
 ## Related
 
 - [[Laws/Canons That Nicea Determined]]
