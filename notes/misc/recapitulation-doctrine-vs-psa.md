@@ -9,7 +9,6 @@ source: St. Irenaeus, Against Heresies III–V (sel. Hans Urs von Balthasar, The
 
 **Penal Substitution Atonement (PSA):** PSA holds that Christ's death was a legal transaction where He took on humanity’s punishment to satisfy God’s justice and wrath. This view risks portraying the Father as wrathful, the Son as the appeaser, and the Spirit as uninvolved—splitting the Trinity into separate roles, which contradicts the eternal unity and love shared by the three Persons. God’s justice is presented as a force above His own will, requiring satisfaction, which diminishes His freedom and love.
 
-- Bulgakov (*The Lamb of God*) criticises **Anselm's** satisfaction theory (*Cur Deus Homo*, 1098): God's honour offended, infinite satisfaction required. Bulgakov: this makes God's justice a necessity above His love.
 - Bulgakov doesn't simply reject satisfaction language (*The Lamb of God* ch. 5, "The Work of Christ"). He says Christ really bore sin and "God's wrath directed at sin"; in Gethsemane "God's justice received satisfaction". But he recasts it:
     - The relation is **ontological, not juridical**. Socinus asked how one person's suffering can pardon another's sin; Bulgakov: that question is "marred by individualism and juridicism". Christ isn't "another individual": the New Adam contains every human being in His nature, and by love makes our sin His own.
     - The one who pays is **God Himself as Creator**: "You are My work... since I am responsible for you, I take upon Myself the responsibility for your guilt."
