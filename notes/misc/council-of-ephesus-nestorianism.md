@@ -4,7 +4,7 @@ date: 2026-04-22
 title: "Council of Ephesus: Nestorianism"
 tags: [theology, councils, christology]
 summary: The controversy, proceedings, implications and aftermath of the Council of Ephesus (431 AD).
-source: Leo Donald Davis, The First Seven Ecumenical Councils (325–787) ch. 4; St. Cyril of Alexandria, On the Unity of Christ; John Meyendorff, Christ in Eastern Christian Thought ch. 1
+source: Leo Donald Davis, The First Seven Ecumenical Councils (325–787) ch. 4; St. Cyril of Alexandria, On the Unity of Christ; John Meyendorff, Christ in Eastern Christian Thought ch. 1; Leo Donald Davis, The First Seven Ecumenical Councils ch. 4
 ---
 
 The Council of Ephesus, convened in 431 AD, was the third Ecumenical Council. It was called by Emperor Theodosius II in response to the Nestorian controversy. This controversy revolved around the teachings of Nestorius, the Patriarch of Constantinople. The issue was the relationship between Christ's divine and human natures and the title of Mary as Theotokos (God-bearer).
@@ -78,6 +78,16 @@ The Council of Ephesus, convened in 431 AD, was the third Ecumenical Council. It
 - *Theotokos* is a **Christological** title first: it protects who Christ is. Calling Mary Mother of God says her Son is God.
 - The "communication of idioms" is the key tool: one subject, so you can say "God was crucified" (1 Cor 2:8: "they would not have crucified the Lord of glory"; Acts 20:28: "the church of God, which he hath purchased with **his own blood**").
 - The "Church of the East" (called Nestorian) honours Nestorius and Theodore but its modern theology is arguably closer to orthodoxy than the label suggests (a 1994 common declaration with Rome).
+
+## More from Davis
+
+- **Diodore**: Christ's unity is by **grace**; "the unity of worship does not imply the blasphemous worship of a man, since the man is worshipped because of his union with the Word."
+- **Theodore** sounds almost Chalcedonian: "neither confusion of the natures nor untenable division of the person"; "a distinction of natures but unity of person". But he insisted each nature has its own *prosopon*: "a real object without perceptible presentation is a contradiction in terms".
+- Prestige: Nestorius's unorthodoxy "was not a positive fact but a negative impotence": he couldn't bring the two natures he distinguished "within the framework of a single, clearly conceived personality".
+- Cyril: "the Jesus of history was God Himself living, suffering, dying and rising according to the flesh", but not in His impassible nature.
+- At Ephesus Memnon brought bishops hostile to Nestorius (who had tried to extend Constantinople's jurisdiction). Nestorius was summoned three times. The dogmatic act: Cyril's **Second Letter** declared conformable to Nicaea, Nestorius's reply not.
+- The imperial commissioner confirmed the deposition of **both** Nestorius and Cyril (and Memnon). Full recognition of Cyril's council came only at Chalcedon (451).
+- The Formula of Reunion: some Gospel expressions are "common, relating to one Person", others distinguished "relating to two natures".
 
 ## Related
 

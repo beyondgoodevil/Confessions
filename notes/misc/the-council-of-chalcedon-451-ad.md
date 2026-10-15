@@ -69,6 +69,17 @@ The core (paraphrased): one and the same Christ, Son, Lord, Only-begotten, **ack
 - Chalcedon is a **fence**, not an explanation: four negatives around a mystery. The positive account (how the natures relate in the one hypostasis) is worked out after it: enhypostasia (Leontius), the communication of idioms, Maximus's logos/tropos.
 - The Orthodox read Chalcedon **through Cyril** (Meyendorff's main thesis): the one hypostasis is the eternal Word, who becomes the subject of a human life. Not a "person" made up out of two natures.
 
+## More from Davis
+
+- **Eusebius of Dorylaeum**, who as a layman first cried out against Nestorius ("whose zeal made even fire seem cool"), denounced **Eutyches**.
+- Flavian's creed was strongly Cyrilline: "perfect God and perfect man... consubstantial with the Father as to Godhead, consubstantial with us as to manhood".
+- The **Trisagion** ("Holy God, Holy Mighty, Holy Immortal") is first mentioned historically as the bishops chanted it at Chalcedon.
+- The Definition forbade producing "another faith". Pelikan: it didn't clearly say that **deification** began in the union of Christ's humanity with His divinity.
+- Canons 9, 17 and 28 made Constantinople a court of appeal for the whole East. **Leo** rejected canon 28: primacy comes from **Peter**, sent "to the citadel of the Roman Empire".
+- Aftermath: the "Acephali"; Zeno's **Henotikon** and the **Acacian schism** (484–519); Philoxenus's Cyrilline monophysitism; **Justinian** reading Chalcedon "according to the mind of Cyril".
+- **Leontius**: Christ has no separate human hypostasis; the Word's hypostasis is common to both natures, so "Christ unites not just an individual but all of mankind to the divinity". Constantinople II (553): the natures are distinguished "by way of speech and thought, not as two distinct things"; "one of the Holy Trinity" suffered in the flesh.
+- **Monothelitism**: Sergius and **Pope Honorius** ("one operator, two operating natures"); Constantinople III (681): "two natural wills and two operations, concurring most fitly for the salvation of the human race."
+
 ## Related
 
 - [[The Hypostatic Union]]

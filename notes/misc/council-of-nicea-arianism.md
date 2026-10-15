@@ -94,6 +94,19 @@ Arianism survived among the **Goths** and other Germanic peoples (converted by t
 - The fight over one iota (*homoousios* vs *homoiousios*) was not pedantry: it's the difference between Christ being God and Christ being a creature, i.e. between being saved and not.
 - The council's method matters for [[Sola Scriptura: The Main Arguments and Replies]]: both sides quoted Scripture; the Church settled it with a non-scriptural word that expressed the apostolic faith.
 
+## More from Davis
+
+- Before Nicaea the problem was (Prestige) "how, within the monotheism the Church inherited from the Jews, to maintain the unity of God while insisting on the deity of one distinct from the Father". The *Shepherd of Hermas* already distinguished within God, vaguely.
+- **Monarchians** stressed God's unity: **Adoptionists** (Theodotus the shoemaker of Byzantium, at Rome, late 2nd c.) vs **modalists**. **Tertullian**: "God" names the substance; the Son is of one substance, a second person.
+- **Origen** called the Son a "creature" (Prov 8:22) because he lacked a clear distinction between **begotten** and **created**: the Arians claimed him.
+- Constantine thought he could call a council because, in Hellenistic royal ideology, he was entitled to intervene in religion (Dvornik). Eusebius describes his entrance: "downcast eyes, the blush on his face"; the bishops passing armed guards into the palace felt it "a picture of Christ's kingdom, a dream rather than a reality".
+- "**True God from true God**" was added because Arians called the Son God "by grace", "in name only".
+- *Homoousios* worried many because of its **materialist** overtones (parts of the same "stuff").
+- Secundus to Eusebius of Nicomedia as he left: "You signed only to avoid exile; I prophesy you will be in exile within the year": and Eusebius, Theognis and Maris were.
+- After Nicaea: the Second Creed of Antioch (341: three hypostases "in agreement one"); the Second Council of Sirmium (357), which Hilary called "**The Blasphemy**", forced the aged Ossius to sign.
+- The Spirit: Athanasius called the Egyptian deniers *Tropici* (figurative exegetes), argued the Spirit is more than a creature, but by the custom of the time didn't call Him "God". Basil: "glorify the Spirit with the Father and Son because He is not alien to the divine nature".
+- Constantinople (381) canon 3: "primacy of honour after Rome because Constantinople is the **new Rome**." Rome's answer: a hierarchy of Petrine sees (Rome; Alexandria through Mark; Antioch where Peter lived).
+
 ## Related
 
 - [[Laws/Canons That Nicea Determined]]
