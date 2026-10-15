@@ -1,12 +1,12 @@
 ---
 id: B-0049
 date: 2026-10-14
-title: "Confessions: Memory, Time and the Restless Heart"
+title: "Augustine's Confessions: Memory, Time and the Restless Heart"
 tags: [philosophy, theology, patristics, epistemology]
 summary: Augustine's Confessions book by book. The restless heart, the pear theft, Manichaeism, the Platonists, the garden in Milan, Ostia with Monica; then the philosophical books: memory as the "vast palace" where God is found (X), time as the distension of the soul (XI), and creation and Genesis (XII–XIII). Plus the Orthodox view of Augustine.
 author: St. Augustine of Hippo
 source: "Augustine, Confessions; Augustine on Memory; The Cambridge Companion to Augustine's Confessions"
-aliases: ["Augustine's Confessions: Memory, Time and the Restless Heart", Confessions, Augustine's Confessions, Restless Heart, Augustine on Time, Augustine on Memory]
+aliases: ["Confessions: Memory, Time and the Restless Heart", "Augustine's Confessions: Memory, Time and the Restless Heart", Confessions, Augustine's Confessions, Restless Heart, Augustine on Time, Augustine on Memory]
 ---
 
 Written c. 397–400, when Augustine had become bishop of Hippo. The first autobiography in the Western sense, but it's really one long **prayer**, addressed to God throughout. *Confessio* means three things: confession of **sin**, confession of **praise**, confession of **faith**. Thirteen books: I–IX his life up to his mother's death, X his present state (memory), XI–XIII on Genesis 1 (time, creation).
@@ -47,7 +47,7 @@ Starts from "In the beginning God created": what was God doing before He made he
     - the present of things future: **expectation**
 - Time is a ***distentio animi***: a **stretching of the mind**. When reciting a psalm, expectation shrinks, memory grows, attention passes the words from one to the other.
 - Our life is scattered, "distended" through time; we're called to be gathered into the One, to **extension** toward what is ahead (Phil 3:13), not distension.
-- Contrast Aristotle (time is the number of motion). See [[Physics: Nature, Change and the Four Causes]], [[Presentism vs Eternalism]].
+- Contrast Aristotle (time is the number of motion). See [[Aristotle's Physics: Nature, Change and the Four Causes]], [[Presentism vs Eternalism]].
 
 ## Books XII–XIII: Creation
 
@@ -65,7 +65,7 @@ Starts from "In the beginning God created": what was God doing before He made he
 
 ## Related
 
-- [[The City of God]]
+- [[Augustine's City of God]]
 - [[Christian Platonism]]
 - [[Divine Illumination]]
 - [[The Augustinian Proof]]

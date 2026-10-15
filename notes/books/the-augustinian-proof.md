@@ -84,4 +84,4 @@ The Augustinian proof begins from truths that every mind recognises but no mind 
 - [[Transcendental Categories Are Required for Science and Knowledge]]
 - [[The Euthyphro Dilemma and the Orthodox Answer]]
 - [[The Logoi of Creation in St. Maximus]]
-- [[Confessions: Memory, Time and the Restless Heart]]
+- [[Augustine's Confessions: Memory, Time and the Restless Heart]]

@@ -56,7 +56,7 @@ The poem *On Nature*: a goddess shows the youth two ways.
 
 Aristotle's answer: the distance is only **potentially** infinitely divisible, not actually divided. Modern answer: convergent infinite series.
 
-**Why it matters.** Parmenides sets the problem for the whole tradition: how can there be change and many things, if being is one? Plato answers with the Forms (being) and the sensible world (becoming); Aristotle with **act and potency**: change is from potential being, not from nothing. See [[Physics: Nature, Change and the Four Causes]], [[The Last Superstition]].
+**Why it matters.** Parmenides sets the problem for the whole tradition: how can there be change and many things, if being is one? Plato answers with the Forms (being) and the sensible world (becoming); Aristotle with **act and potency**: change is from potential being, not from nothing. See [[Aristotle's Physics: Nature, Change and the Four Causes]], [[The Last Superstition]].
 
 ## 5. The Pluralists: Replies to Parmenides
 
@@ -95,7 +95,7 @@ The atomists are the ancestors of materialism. See [[Epicurus and Lucretius]].
 - [[The Problem of the One and the Many]]
 - [[Logic Before Aristotle]]
 - [[Pythagoras and the Pythagoreans]]
-- [[Physics: Nature, Change and the Four Causes]]
+- [[Aristotle's Physics: Nature, Change and the Four Causes]]
 - [[Epicurus and Lucretius]]
 - [[The Forms and the Demiurge]]
 - [[Creation out of Nothing]]

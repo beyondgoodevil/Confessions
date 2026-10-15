@@ -117,4 +117,4 @@ Compare [[Free Will and Divine Foreknowledge]] sec. 4, where Conee answers the f
 - [[The Unmoved Mover]]
 - [[Thomism Leads to Eternal Creation]]
 - [[Mind and Body: Dualism, Materialism, Emergence]]
-- [[Confessions: Memory, Time and the Restless Heart]]
+- [[Augustine's Confessions: Memory, Time and the Restless Heart]]

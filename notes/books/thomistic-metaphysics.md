@@ -21,7 +21,7 @@ The site has many notes that assume Thomist terms (pure act, divine simplicity, 
 
 - **Accidental change**: the same substance gains or loses an accident (the leaf goes from green to red).
 - **Substantial change**: a substance comes to be or perishes (a dog dies and becomes a corpse: no longer a dog).
-- The principles of change: **subject**, **form**, **privation**, and **actualisation** of a potency. See [[Physics: Nature, Change and the Four Causes]].
+- The principles of change: **subject**, **form**, **privation**, and **actualisation** of a potency. See [[Aristotle's Physics: Nature, Change and the Four Causes]].
 - **Endurance**: a substance is **wholly present** at each moment (it doesn't have temporal parts). Against "four-dimensionalism".
 
 ## 3. Form and Matter (Hylomorphism)
@@ -88,7 +88,7 @@ Properties that go with being as such, everywhere, across the categories:
 
 ## Related
 
-- [[Physics: Nature, Change and the Four Causes]]
+- [[Aristotle's Physics: Nature, Change and the Four Causes]]
 - [[The Unmoved Mover]]
 - [[Aristotle and God as Pure Act]]
 - [[The Last Superstition]]

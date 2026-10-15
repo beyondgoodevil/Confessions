@@ -52,7 +52,7 @@ Eros is **desire for the good to be one's own forever**: "giving birth in beauty
 - Friendship needs **equality**, or proportion when unequal (parent and child, ruler and ruled). Between man and gods, the gap is too great for friendship.
 - **Why does the happy man need friends** if he's self-sufficient? Because we contemplate our own good activity best in another; and living together is the human good.
 - Self-love: the good man loves his own **best part** (reason) and so is the best friend to others.
-- Friendship holds cities together; lawgivers care about it more than justice. See [[The Politics]].
+- Friendship holds cities together; lawgivers care about it more than justice. See [[Aristotle's Politics]].
 
 ## 4. Hellenistic
 
@@ -69,7 +69,7 @@ Eros is **desire for the good to be one's own forever**: "giving birth in beauty
 **Augustine**
 - *Confessions* IV: the death of a friend in his youth: "I wondered that other mortals lived, since he whom I loved as if he would never die was dead." He'd loved a mortal as if he were immortal.
 - The lesson: "blessed is he who loves Thee, and his friend in Thee". Only friendships rooted in God are secure.
-- **Friendship and virtue**: true friendship is possible only where there's charity "poured out by the Holy Spirit" (Rom 5:5). Pagan friendship can't be complete virtue-friendship without God. See [[Confessions: Memory, Time and the Restless Heart]].
+- **Friendship and virtue**: true friendship is possible only where there's charity "poured out by the Holy Spirit" (Rom 5:5). Pagan friendship can't be complete virtue-friendship without God. See [[Augustine's Confessions: Memory, Time and the Restless Heart]].
 
 ## 6. Aelred of Rievaulx, *Spiritual Friendship* (12th c.)
 
@@ -98,7 +98,7 @@ Eros is **desire for the good to be one's own forever**: "giving birth in beauty
 - [[The Good in Plato]]
 - [[Beauty as a Way to God]]
 - [[Virtue Ethics: Aristotle and the Fathers]]
-- [[The Politics]]
+- [[Aristotle's Politics]]
 - [[Epicurus and Lucretius]]
 - [[St. Dionysius the Areopagite]]
-- [[Confessions: Memory, Time and the Restless Heart]]
+- [[Augustine's Confessions: Memory, Time and the Restless Heart]]

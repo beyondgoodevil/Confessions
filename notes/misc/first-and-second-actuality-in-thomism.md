@@ -60,4 +60,4 @@ Example: if the eye were an animal, **sight** would be its soul. The eye's first
 - [[God as Pure Act: RC vs EO]]
 - [[Differences Between Gregory’s Dunamis and Thomistic Pure Act]]
 - [[Thomistic Metaphysics]]
-- [[Physics: Nature, Change and the Four Causes]]
+- [[Aristotle's Physics: Nature, Change and the Four Causes]]

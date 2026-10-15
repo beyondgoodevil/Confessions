@@ -43,7 +43,7 @@ Not just Plato's dialogues but a family of convictions, roughly:
 | union by **one's own** ascent | by **grace**, through Christ and the Church |
 | only philosophers ascend | the Gospel is for all, the simple included |
 
-The **Incarnation** and **resurrection** are where Platonism had to break. "The Word was made flesh" was Augustine's point: the Platonists told him of the Word but not of His becoming flesh (*Confessions* VII.9). See [[Confessions: Memory, Time and the Restless Heart]].
+The **Incarnation** and **resurrection** are where Platonism had to break. "The Word was made flesh" was Augustine's point: the Platonists told him of the Word but not of His becoming flesh (*Confessions* VII.9). See [[Augustine's Confessions: Memory, Time and the Restless Heart]].
 
 ## 4. History in Brief
 
@@ -51,7 +51,7 @@ The **Incarnation** and **resurrection** are where Platonism had to break. "The 
 - **Philo** of Alexandria: Jewish Platonism, the Logos, the Forms as God's thoughts.
 - **Justin Martyr**, **Clement**, **Origen**: Alexandrian Christian Platonism. Origen goes furthest (pre-existence, apokatastasis).
 - **The Cappadocians**: Gregory of Nyssa especially: infinite God, endless ascent (*epektasis*), apophaticism.
-- **Augustine**: "the books of the Platonists" lead him to see God as immaterial; Platonism is the way into Christianity for him. See [[The City of God]] (books VIII–X on the Platonists).
+- **Augustine**: "the books of the Platonists" lead him to see God as immaterial; Platonism is the way into Christianity for him. See [[Augustine's City of God]] (books VIII–X on the Platonists).
 - **Dionysius**: Proclus's Neoplatonism Christianised: hierarchies, procession and return, the divine names. See [[St. Dionysius the Areopagite]].
 - **Maximus**: the logoi; corrects Origenism. See [[Maximus the Confessor as a European Philosopher]].
 - **Boethius**: *Consolation of Philosophy*.
@@ -94,6 +94,6 @@ The **Incarnation** and **resurrection** are where Platonism had to break. "The 
 - [[Neoplatonic Idea of Divine Simplicity]]
 - [[St. Dionysius the Areopagite]]
 - [[Emergence of Magic and Neoplatonism in the Renaissance]]
-- [[The City of God]]
+- [[Augustine's City of God]]
 - [[Maximus the Confessor as a European Philosopher]]
 - [[Philosophy as a Way of Life]]

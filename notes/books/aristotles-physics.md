@@ -1,12 +1,12 @@
 ---
 id: B-0046
 date: 2026-10-14
-title: "Physics: Nature, Change and the Four Causes"
+title: "Aristotle's Physics: Nature, Change and the Four Causes"
 tags: [philosophy, metaphysics, aristotle, philosophy-of-science]
 summary: Aristotle's Physics book by book. How to study nature, the principles of change (form, matter, privation) against Parmenides, nature as an inner principle of motion, the four causes, chance, teleology in nature, motion as the actuality of the potential, the infinite, place, void and time, and the argument of book VIII for an unmoved mover.
 author: Aristotle
 source: "Aristotle, Physics; Aristotle's Physics: A Critical Guide, ed. Mariska Leunissen (Cambridge, 2015)"
-aliases: ["Aristotle's Physics: Nature, Change and the Four Causes", Aristotle's Physics, Physics, Four Causes, Act and Potency, Hylomorphism]
+aliases: ["Physics: Nature, Change and the Four Causes", "Aristotle's Physics: Nature, Change and the Four Causes", Aristotle's Physics, Physics, Four Causes, Act and Potency, Hylomorphism]
 ---
 
 "Physics" means the study of ***physis***, **nature**: things that move and change. Not physics in the modern sense but the philosophy of nature, what any change must involve. It's the foundation for the *Metaphysics* and for Aquinas's proofs, and Feser's whole argument depends on it. Eight books.
@@ -55,7 +55,7 @@ In nature, the formal, efficient and final often coincide: the form of the oak i
 
 - **Place**: the inner boundary of the surrounding body.
 - **Void**: doesn't exist. In a void there'd be no reason to move one way rather than another, and things would move infinitely fast.
-- **Time**: "**the number of motion with respect to before and after**". No motion, no time. Time needs a soul to count it? Left as a puzzle. Augustine's discussion of time responds to this (see [[Confessions: Memory, Time and the Restless Heart]]).
+- **Time**: "**the number of motion with respect to before and after**". No motion, no time. Time needs a soul to count it? Left as a puzzle. Augustine's discussion of time responds to this (see [[Augustine's Confessions: Memory, Time and the Restless Heart]]).
 
 ## Books V–VI: Kinds of Change and Continuity
 

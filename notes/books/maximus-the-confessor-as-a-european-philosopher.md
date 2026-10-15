@@ -29,7 +29,7 @@ St. Maximus (c. 580–662) is often called the greatest Byzantine theologian. Th
 
 - Against **Origenism**, which taught: original rest (*stasis*) of minds in God → movement (*kinēsis*) as a fall → becoming (*genesis*) into bodies. Motion is a fall from unity.
 - Maximus reverses the triad: **genesis → kinesis → stasis**. Creatures are made, then **move** by nature toward God, then come to **rest** in Him. Motion isn't sin; it's the natural desire of a creature for its end.
-- Aristotle's influence: motion as actualising potency (Mantzanas's chapter). See [[Physics: Nature, Change and the Four Causes]].
+- Aristotle's influence: motion as actualising potency (Mantzanas's chapter). See [[Aristotle's Physics: Nature, Change and the Four Causes]].
 - The end is **"ever-moving rest"** (*stasis aeikinētos*): rest that isn't stillness but endless movement in God. Like Gregory of Nyssa's *epektasis*.
 - Skliris's "three antinomies": **eschatological teleology** (the end comes from the future, God's goal, not from the past); **free dialectic** (the dialectic of being is fulfilled freely, not by necessity, unlike Hegel); **metaphysics of the resurrection** (the final state is bodily and personal).
 - Manoussakis puts Maximus between **Anaxagoras** (Mind moving things) and **Kierkegaard** (movement of the self toward God).

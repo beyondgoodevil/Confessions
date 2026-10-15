@@ -83,4 +83,4 @@ Possible comeback: the atheist can run it as an internal critique ("on *your* vi
 - [[Wandering in Darkness]]
 - [[Is God a Moral Monster?]]
 - [[Epicurus and Lucretius]]
-- [[The City of God]]
+- [[Augustine's City of God]]

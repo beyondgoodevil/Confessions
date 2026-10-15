@@ -97,4 +97,4 @@ Very fun attack on the New Atheists. Feser's claim: the "superstition" of the ti
 - [[God as Pure Act: RC vs EO]]
 - [[The Experience of God]]
 - [[Thomistic Metaphysics]]
-- [[Physics: Nature, Change and the Four Causes]]
+- [[Aristotle's Physics: Nature, Change and the Four Causes]]

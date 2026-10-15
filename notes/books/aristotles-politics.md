@@ -1,12 +1,12 @@
 ---
 id: B-0047
 date: 2026-10-14
-title: The Politics
+title: "Aristotle's Politics"
 tags: [philosophy, ethics, aristotle, political-philosophy]
 summary: Aristotle's Politics book by book. The polis exists by nature and man is a political animal, the household and natural slavery, wealth-getting and money, the critique of Plato's Republic and private property, citizenship and the six constitutions, justice as proportional, polity and the middle class, revolution, and the best regime with its education and leisure.
 author: Aristotle
 source: "Aristotle, Politics; A Companion to Aristotle's Politics, eds. David Keyt and Fred Miller (Blackwell, 1991)"
-aliases: [Politics, Aristotle's Politics, Political Animal, Six Constitutions]
+aliases: [The Politics, Politics, Political Animal, Six Constitutions]
 ---
 
 The *Politics* is the second half of a single inquiry with the *Nicomachean Ethics*: the Ethics asks what the good life is; the Politics asks what kind of community makes it possible. "The end of the city is the good life." Eight books, probably lecture notes, not fully unified. See [[Virtue Ethics: Aristotle and the Fathers]].
@@ -84,7 +84,7 @@ The *Politics* is the second half of a single inquiry with the *Nicomachean Ethi
 
 - [[Virtue Ethics: Aristotle and the Fathers]]
 - [[Friendship and Love in Ancient and Medieval Thought]]
-- [[The City of God]]
+- [[Augustine's City of God]]
 - [[Conservatism: Burke, de Maistre, Scruton]]
-- [[Physics: Nature, Change and the Four Causes]]
+- [[Aristotle's Physics: Nature, Change and the Four Causes]]
 - [[Being as Communion]]
