@@ -84,6 +84,7 @@ Voluntarism is a real position though, not a straw man. Ockham and some Reformed
 
 ## Related
 
+- [[Thucydides on Human Nature and Power]]
 - [[Is Ought]]
 - [[The Problem of Evil and Theodicy]]
 - [[God's Uncreated Energies]]

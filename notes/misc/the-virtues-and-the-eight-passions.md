@@ -119,6 +119,7 @@ The classical **cardinal** virtues (prudence, justice, courage, temperance) and 
 
 ## Related
 
+- [[Thucydides on Human Nature and Power]]
 - [[How a Thought Becomes a Sin: The Stages of Temptation]]
 - [[Theosis: Becoming by Grace What God Is by Nature]]
 - [[Image and Likeness]]

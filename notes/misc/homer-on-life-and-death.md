@@ -127,6 +127,7 @@ How later Greeks and Christians answered him:
 
 ## Related
 
+- [[Thucydides on Human Nature and Power]]
 - [[Dionysus, Orpheus and the Mysteries: Dodds and the Irrational]]
 - [[How Philosophers Saved Homer: Allegory from the Stoics to the Byzantines]]
 - [[Justice in the Oresteia: From Vendetta to the Court?]]
