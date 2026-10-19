@@ -200,6 +200,7 @@ The question that haunts the subject is the Other's ***Che vuoi?*** "What do you
 
 ## Related
 
+- [[The Underground Man and the Death of God: Dostoevsky, Shestov, Girard]]
 - [[Girard's Scapegoat Mechanism: Sacrifice, Myth and the Gospels]]
 - [[Dionysus versus the Crucified: Girard's Reading of Nietzsche]]
 - [[Nietzsche's Character Types: Slave, Priest, Philosopher, Artist, Scientist, Noble]]

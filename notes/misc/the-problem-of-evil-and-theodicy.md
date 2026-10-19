@@ -70,6 +70,7 @@ Possible comeback: the atheist can run it as an internal critique ("on *your* vi
 
 ## Related
 
+- [[The Underground Man and the Death of God: Dostoevsky, Shestov, Girard]]
 - [[Death and Corruptibility as Privations of Life and the Ability to Sin]]
 - [[The Fall of Humanity and Its Consequences]]
 - [[Why Jesus' Death and Resurrection Had to Be So Violent]]

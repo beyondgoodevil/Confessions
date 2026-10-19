@@ -151,6 +151,7 @@ N. accepts (2), so he has to attack (1). That's the **revaluation of values**.
 
 ## Related
 
+- [[The Underground Man and the Death of God: Dostoevsky, Shestov, Girard]]
 - [[Nietzsche's Character Types: Slave, Priest, Philosopher, Artist, Scientist, Noble]]
 - [[Dionysus versus the Crucified: Girard's Reading of Nietzsche]]
 - [[Apollo and Dionysus: The Birth of Tragedy]]
