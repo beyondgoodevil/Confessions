@@ -141,6 +141,7 @@ Seaford, *Dionysos* ch. 9:
 
 ## Related
 
+- [[Nussbaum's Fragility of Goodness: Luck, Tragedy and the Vulnerable Good]]
 - [[Apollo and Dionysus: The Birth of Tragedy]]
 - [[Dionysus, Orpheus and the Mysteries: Dodds and the Irrational]]
 - [[Dionysus versus the Crucified: Girard's Reading of Nietzsche]]

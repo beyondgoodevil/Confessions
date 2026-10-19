@@ -46,7 +46,7 @@ Socrates says he learned "erotics" from a priestess, Diotima of Mantineia.
 - Lower beautiful things are used "as steps".
 - Only here does a man bring forth not "phantom images of virtue" but **true virtue**, and become "dear to god" and, if any man can, **immortal**.
 
-**Alcibiades** then bursts in drunk and praises Socrates, who is ugly outside like a Silenus statue with gods inside, and who refused his seduction. Many readers (Bloom, Nussbaum) take this as Plato's own counterweight: here is love for *one* irreplaceable person, which the ladder has no room for.
+**Alcibiades** then bursts in drunk and praises Socrates, who is ugly outside like a Silenus statue with gods inside, and who refused his seduction. Many readers (Bloom, Nussbaum) take this as Plato's own counterweight: here is love for *one* irreplaceable person, which the ladder has no room for. See [[Nussbaum's Fragility of Goodness: Luck, Tragedy and the Vulnerable Good]].
 
 ## 2. Nygren: Two Motifs
 
@@ -185,6 +185,7 @@ Lewis set out (ch. I) to praise **Gift-love**, which is like God, and belittle *
 
 ## Related
 
+- [[Nussbaum's Fragility of Goodness: Luck, Tragedy and the Vulnerable Good]]
 - [[Nothingness East and West: Nishitani, Tanabe, Abe and the Christian Nihil]]
 - [[Friendship and Love in Ancient and Medieval Thought]]
 - [[The Good in Plato]]

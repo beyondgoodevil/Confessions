@@ -80,6 +80,7 @@ Economia is the Church’s way of balancing **truth with mercy** and **rigor wit
 
 ## Related
 
+- [[Nussbaum's Fragility of Goodness: Luck, Tragedy and the Vulnerable Good]]
 - [[Criteria for Valid Baptism in the Orthodox Church]]
 - [[Orthodox Teaching About the Sacraments Being Valid Only Within the Canonical Boundaries of the Church]]
 - [[EO View on Donatism]]

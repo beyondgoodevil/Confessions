@@ -66,6 +66,7 @@ Compare Hatab's Nietzsche, who starts from exactly the opposite assumption (no m
 
 ## Related
 
+- [[Nussbaum's Fragility of Goodness: Luck, Tragedy and the Vulnerable Good]]
 - [[Eros and Agape: Plato, Nygren, Dionysius and the Fathers]]
 - [[The Forms and the Demiurge]]
 - [[The Unmoved Mover]]

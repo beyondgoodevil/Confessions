@@ -93,6 +93,7 @@ Anscombe's point is the same as [[Is Ought]] from the other side.
 
 ## Related
 
+- [[Nussbaum's Fragility of Goodness: Luck, Tragedy and the Vulnerable Good]]
 - [[The Virtues and the Eight Passions]]
 - [[Theosis: Becoming by Grace What God Is by Nature]]
 - [[Image and Likeness]]

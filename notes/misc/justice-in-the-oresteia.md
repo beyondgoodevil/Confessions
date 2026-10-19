@@ -178,6 +178,7 @@ See [[Girard's Scapegoat Mechanism: Sacrifice, Myth and the Gospels]].
 
 ## Related
 
+- [[Nussbaum's Fragility of Goodness: Luck, Tragedy and the Vulnerable Good]]
 - [[Girard's Scapegoat Mechanism: Sacrifice, Myth and the Gospels]]
 - [[Dionysus, Orpheus and the Mysteries: Dodds and the Irrational]]
 - [[Apollo and Dionysus: The Birth of Tragedy]]
