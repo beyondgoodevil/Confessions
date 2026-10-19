@@ -139,6 +139,7 @@ Names in brackets below (Bradley, Keyt, Irwin…) are the authors of essays in t
 
 ## Related
 
+- [[The Modern Break: Machiavelli and Hobbes]]
 - [[Thucydides on Human Nature and Power]]
 - [[Virtue Ethics: Aristotle and the Fathers]]
 - [[Friendship and Love in Ancient and Medieval Thought]]

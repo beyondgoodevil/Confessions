@@ -168,6 +168,7 @@ The "four-part cure" (Philodemus's summary):
 
 ## Related
 
+- [[The Modern Break: Machiavelli and Hobbes]]
 - [[The Presocratics: Being and Becoming]]
 - [[The Problem of Evil and Theodicy]]
 - [[Friendship and Love in Ancient and Medieval Thought]]

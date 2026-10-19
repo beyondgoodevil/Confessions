@@ -143,6 +143,7 @@ A Savoyard Catholic, exiled by the Revolution, ambassador in St Petersburg. Much
 
 ## Related
 
+- [[The Modern Break: Machiavelli and Hobbes]]
 - [[Aristotle's Politics]]
 - [[Augustine's City of God]]
 - [[Sola Scriptura: The Main Arguments and Replies]]
