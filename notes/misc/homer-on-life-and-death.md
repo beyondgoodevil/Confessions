@@ -127,6 +127,7 @@ How later Greeks and Christians answered him:
 
 ## Related
 
+- [[Auerbach's Mimesis: Odysseus' Scar, Peter's Denial and Figural Realism]]
 - [[Thucydides on Human Nature and Power]]
 - [[Dionysus, Orpheus and the Mysteries: Dodds and the Irrational]]
 - [[How Philosophers Saved Homer: Allegory from the Stoics to the Byzantines]]

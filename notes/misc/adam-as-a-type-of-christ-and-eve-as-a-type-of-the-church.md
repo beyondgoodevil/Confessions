@@ -25,6 +25,7 @@ summary: Three ways Adam prefigures Christ and four ways Eve prefigures the Chur
 
 ## Related
 
+- [[Auerbach's Mimesis: Odysseus' Scar, Peter's Denial and Figural Realism]]
 - [[Christ as the New Adam: Verses]]
 - [[Types of Church in the OT]]
 - [[Types of Christ in the OT]]
