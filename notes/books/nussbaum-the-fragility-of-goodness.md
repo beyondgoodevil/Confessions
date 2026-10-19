@@ -1,11 +1,11 @@
 ---
 id: M-0366
 date: 2026-10-19
+source: "Martha C. Nussbaum, The Fragility of Goodness: Luck and Ethics in Greek Tragedy and Philosophy, revised ed. (Cambridge, 2001), chs. 1–7, 10–13 and Interludes 1–2; Scripture KJV"
+aliases: [Fragility of Goodness, Nussbaum, Moral Luck, Tuche, Tragic Conflict]
 title: "Nussbaum's Fragility of Goodness: Luck, Tragedy and the Vulnerable Good"
 tags: [philosophy, ethics, tragedy, plato, aristotle, literature]
 summary: "Martha Nussbaum's The Fragility of Goodness (1986): how far can a good human life be made safe from luck (tuche)? Pindar's vine; Aeschylus' Agamemnon at Aulis and Eteocles (tragic conflict, and why the Chorus blames their passions); the Antigone (Creon and Antigone as rival simplifiers); Plato's 'art of measurement' in the Protagoras, the Republic's standpoint of perfection, the Symposium's ladder against Alcibiades' love for one person, the Phaedrus' recantation; Aristotle's return to the 'appearances', the vulnerability of eudaimonia (Priam), friendship and the city, pity and fear as knowledge; and the Hecuba, where a noble woman is turned into a dog by betrayal. With a comparison table and an Orthodox assessment."
-source: "Martha C. Nussbaum, The Fragility of Goodness: Luck and Ethics in Greek Tragedy and Philosophy, revised ed. (Cambridge, 2001), chs. 1–7, 10–13 and Interludes 1–2; Scripture KJV"
-aliases: [Fragility of Goodness, Nussbaum, Moral Luck, Tuche, Tragic Conflict]
 ---
 
 > "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing." (John 15:5)
