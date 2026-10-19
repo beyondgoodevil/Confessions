@@ -133,6 +133,7 @@ The upshot: once nature was taken to be **mere extension**, the mind had nowhere
 
 ## Related
 
+- [[Malebranche: Occasionalism and Seeing All Things in God]]
 - [[Mind and Body: Dualism, Materialism, Emergence]]
 - [[The Ontological Argument]]
 - [[Critique of Empiricism]]

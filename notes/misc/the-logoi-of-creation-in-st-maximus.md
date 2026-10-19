@@ -124,6 +124,7 @@ An answer from the *European Philosopher* volume (Tollefsen and others):
 
 ## Related
 
+- [[Malebranche: Occasionalism and Seeing All Things in God]]
 - [[Essence-Energies Distinction]]
 - [[God's Uncreated Energies]]
 - [[St. Maximus on the Two Wills in Christ]]

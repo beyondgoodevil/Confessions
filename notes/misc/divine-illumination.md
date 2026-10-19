@@ -62,7 +62,7 @@ Roughly sorted:
 
 One image: for Aquinas the light is a deep well inside us; for the Franciscans it falls like rain, drop by drop.
 
-**After Scotus** it was rarely taken seriously. But Descartes's innate "seeds of truth" are close to Aquinas, and Malebranche ("we see all things in God") revived it outright.
+**After Scotus** it was rarely taken seriously. But Descartes's innate "seeds of truth" are close to Aquinas, and Malebranche ("we see all things in God") revived it outright; see [[Malebranche: Occasionalism and Seeing All Things in God]].
 
 ## 5. Why It Declined, and Whether That Was Progress
 
@@ -95,6 +95,7 @@ One image: for Aquinas the light is a deep well inside us; for the Franciscans i
 
 ## Related
 
+- [[Malebranche: Occasionalism and Seeing All Things in God]]
 - [[The Augustinian Proof]]
 - [[Philosophy of Logic: What Grounds the Laws of Logic]]
 - [[The Good in Plato]]

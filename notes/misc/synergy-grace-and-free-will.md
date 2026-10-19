@@ -97,6 +97,7 @@ Question to chase: how is this different from Arminianism? Looks similar on the 
 
 ## Related
 
+- [[Malebranche: Occasionalism and Seeing All Things in God]]
 - [[St. Maximus on the Two Wills in Christ]]
 - [[The Question of Christ's Two Wills]]
 - [[Works Are Required: NT Quotes]]

@@ -17,6 +17,7 @@ In summary, "will is proper to nature" means that Christ’s divine nature has a
 
 ## Related
 
+- [[Malebranche: Occasionalism and Seeing All Things in God]]
 - [[The Question of Christ's Two Wills]]
 - [[St. Maximus on the Two Wills in Christ]]
 - [[The Debate Between Maximus the Confessor and Pyrrhus]]

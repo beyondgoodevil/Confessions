@@ -36,6 +36,7 @@ The famous last line of the *Enquiry*: take any book of divinity or school metap
 - Watch one billiard ball hit another. You see: motion, contact, then motion of the second ball. You don't see any **power** or **necessary connection** passing between them.
 - Adam, with perfect reason but no experience, couldn't have known from water's look that it would drown him, or from fire that it would burn.
 - Nor do we perceive power in our own will: we don't know *how* the will moves the arm.
+- Almost all of this is borrowed from Malebranche, who used the same arguments to conclude that God alone is a cause. Hume's one new move was to apply the test to God as well. See [[Malebranche: Occasionalism and Seeing All Things in God]].
 
 **So where does the idea come from?**
 - After seeing A followed by B many times (**constant conjunction**), the mind forms a **habit**: on seeing A, it expects B.
@@ -94,6 +95,7 @@ Hume's own answer is **sceptical but practical**: we do it from **custom or habi
 
 ## Related
 
+- [[Malebranche: Occasionalism and Seeing All Things in God]]
 - [[Critique of Empiricism]]
 - [[Is Ought]]
 - [[TAG]]
