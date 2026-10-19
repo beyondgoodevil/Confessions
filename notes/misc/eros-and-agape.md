@@ -185,6 +185,7 @@ Lewis set out (ch. I) to praise **Gift-love**, which is like God, and belittle *
 
 ## Related
 
+- [[Nothingness East and West: Nishitani, Tanabe, Abe and the Christian Nihil]]
 - [[Friendship and Love in Ancient and Medieval Thought]]
 - [[The Good in Plato]]
 - [[Beauty as a Way to God]]

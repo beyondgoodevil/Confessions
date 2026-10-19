@@ -121,6 +121,7 @@ Written in Paris (French 1944, English 1957). Probably the most influential 20th
 
 ## Related
 
+- [[Nothingness East and West: Nishitani, Tanabe, Abe and the Christian Nihil]]
 - [[Apophatic and Cataphatic Theology]]
 - [[St. Dionysius the Areopagite]]
 - [[Essence-Energies Distinction]]

@@ -156,6 +156,7 @@ So the universe began to exist; whatever begins to exist has a cause; so the uni
 
 ## Related
 
+- [[Nothingness East and West: Nishitani, Tanabe, Abe and the Christian Nihil]]
 - [[The Forms and the Demiurge]]
 - [[The Leibnizian Cosmological Argument]]
 - [[Neoplatonism: Plotinus, Porphyry, Proclus]]

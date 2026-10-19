@@ -58,6 +58,7 @@ Metanoia is a change of the nous: a turning of mind, heart and life back to God.
 
 ## Related
 
+- [[Nothingness East and West: Nishitani, Tanabe, Abe and the Christian Nihil]]
 - [[Nous]]
 - [[The Jesus Prayer and Hesychasm]]
 - [[Synergy: Grace and Free Will]]

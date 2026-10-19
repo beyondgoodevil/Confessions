@@ -97,6 +97,7 @@ My notes on that:
 
 ## Related
 
+- [[Nothingness East and West: Nishitani, Tanabe, Abe and the Christian Nihil]]
 - [[St. Dionysius the Areopagite]]
 - [[Essence-Energies Distinction]]
 - [[God's Uncreated Energies]]
