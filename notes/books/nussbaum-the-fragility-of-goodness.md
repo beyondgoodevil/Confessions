@@ -1,5 +1,5 @@
 ---
-id: M-0366
+id: M-0060
 date: 2026-10-19
 source: "Martha C. Nussbaum, The Fragility of Goodness: Luck and Ethics in Greek Tragedy and Philosophy, revised ed. (Cambridge, 2001), chs. 1–7, 10–13 and Interludes 1–2; Scripture KJV"
 aliases: [Fragility of Goodness, Nussbaum, Moral Luck, Tuche, Tragic Conflict]
