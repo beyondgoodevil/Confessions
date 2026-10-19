@@ -135,6 +135,7 @@ The word "hierarchy" is his coinage. It means a sacred order through which light
 
 ## Related
 
+- [[Eros and Agape: Plato, Nygren, Dionysius and the Fathers]]
 - [[Neoplatonism: Plotinus, Porphyry, Proclus]]
 - [[Theosis: Becoming by Grace What God Is by Nature]]
 - [[The Good in Plato]]

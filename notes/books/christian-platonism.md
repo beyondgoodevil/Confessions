@@ -131,6 +131,7 @@ The **Incarnation** and **resurrection** are where Platonism had to break. "The 
 
 ## Related
 
+- [[Eros and Agape: Plato, Nygren, Dionysius and the Fathers]]
 - [[Neoplatonism: Plotinus, Porphyry, Proclus]]
 - [[The Good in Plato]]
 - [[The Forms and the Demiurge]]

@@ -200,6 +200,7 @@ The question that haunts the subject is the Other's ***Che vuoi?*** "What do you
 
 ## Related
 
+- [[Eros and Agape: Plato, Nygren, Dionysius and the Fathers]]
 - [[The Underground Man and the Death of God: Dostoevsky, Shestov, Girard]]
 - [[Girard's Scapegoat Mechanism: Sacrifice, Myth and the Gospels]]
 - [[Dionysus versus the Crucified: Girard's Reading of Nietzsche]]

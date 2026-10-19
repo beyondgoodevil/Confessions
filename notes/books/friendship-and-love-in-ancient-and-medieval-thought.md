@@ -142,12 +142,13 @@ Eros is **desire for the good to be one's own forever**: "giving birth in beauty
 
 *Mine.*
 
-- **Eros and agape**: Anders Nygren (*Agape and Eros*, 1930s) said they're opposites: eros is self-seeking desire, agape is God's self-giving; Christianity should drop eros. Dionysius and the Orthodox disagree: Dionysius calls God's own love **eros**, ecstatic love going out of itself to creatures, and draws them back. Eros purified is not opposed to agape. See [[St. Dionysius the Areopagite]].
+- **Eros and agape**: Anders Nygren (*Agape and Eros*, 1930s) said they're opposites: eros is self-seeking desire, agape is God's self-giving; Christianity should drop eros. Dionysius and the Orthodox disagree: Dionysius calls God's own love **eros**, ecstatic love going out of itself to creatures, and draws them back. Eros purified is not opposed to agape. See [[St. Dionysius the Areopagite]] and, for the whole debate, [[Eros and Agape: Plato, Nygren, Dionysius and the Fathers]].
 - Friendship with God is the Orthodox goal too: Abraham "the friend of God" (Jas 2:23); Moses spoke with God "as a man speaketh unto his friend" (Exod 33:11).
 - The Orthodox Church has a rite of **adelphopoiesis** (brother-making) in old service books: a blessing of spiritual friendship. Its interpretation is disputed.
 
 ## Related
 
+- [[Eros and Agape: Plato, Nygren, Dionysius and the Fathers]]
 - [[The Good in Plato]]
 - [[Beauty as a Way to God]]
 - [[Virtue Ethics: Aristotle and the Fathers]]
