@@ -91,6 +91,7 @@ So the human king was always meant to stand in for God's own kingship. The Messi
 
 ## Related
 
+- [[Orthodox Political Theology: Symphonia, Autocracy or Democracy?]]
 - [[King David Prophesied the Incarnation of the Messiah]]
 - [[Christ's Ascension: NT and Psalm 110]]
 - [[The Melchizedekian Priesthood]]

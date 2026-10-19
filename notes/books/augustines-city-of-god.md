@@ -139,6 +139,7 @@ Written 413–426, provoked by the **sack of Rome** by Alaric's Goths in **410**
 
 ## Related
 
+- [[Orthodox Political Theology: Symphonia, Autocracy or Democracy?]]
 - [[Augustine's Confessions: Memory, Time and the Restless Heart]]
 - [[Aristotle's Politics]]
 - [[Christian Platonism]]
