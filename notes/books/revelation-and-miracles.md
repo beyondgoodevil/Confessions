@@ -89,7 +89,7 @@ Their points for "no":
 
 ## 5. Hume
 
-*(Their fourth question. This section is from what I know of the argument, not from the chapter.)*
+*(Their fourth question. This section is from what I know of the argument, not from the chapter.)* For the full argument read from the texts, with Houston's and Earman's critiques, see [[Hume Against Miracles, and the Replies]].
 
 **Hume, *Enquiry* X, part 1.**
 
@@ -136,6 +136,7 @@ Sullivan and Menssen's phrase for the options is whether Hume's essay is an "abj
 
 ## Related
 
+- [[Hume Against Miracles, and the Replies]]
 - [[Natural Theology: Is It Legitimate]]
 - [[The Leibnizian Cosmological Argument]]
 - [[Modal Logic: Necessity and Possibility]]

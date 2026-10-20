@@ -58,6 +58,7 @@ Thus, Orthodoxy sees faith as a living relationship with God rather than a mere 
 
 ## Related
 
+- [[Hume Against Miracles, and the Replies]]
 - [[Fideism]]
 - [[Fideism (Secular)]]
 - [[Mysticism Does Not Contradict Evidentialism or Evidence]]

@@ -95,6 +95,7 @@ Hume's own answer is **sceptical but practical**: we do it from **custom or habi
 
 ## Related
 
+- [[Hume Against Miracles, and the Replies]]
 - [[Malebranche: Occasionalism and Seeing All Things in God]]
 - [[Critique of Empiricism]]
 - [[Is Ought]]

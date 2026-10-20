@@ -143,6 +143,7 @@ The resurrection explains **all** the facts; each rival explains at most a few, 
 
 ## Related
 
+- [[Hume Against Miracles, and the Replies]]
 - [[Resurrection Verses]]
 - [[1 Corinthians 15:26: The Last Enemy That Will Be Destroyed Is Death]]
 - [[The Descent into Hades]]
