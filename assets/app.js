@@ -9,18 +9,34 @@ const LIB = {
   yaml: 'https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js',
   purify: 'https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js',
   hljs: 'https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.9.0/highlight.min.js',
-  mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js',
+  mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@4.1.3/tex-chtml.js',
   chess: 'assets/chess-viewer.js?v=8'
 };
 const libReady = n => n === 'marked' ? !!window.marked : n === 'yaml' ? !!window.jsyaml : n === 'purify' ? !!window.DOMPurify
   : n === 'hljs' ? !!window.hljs : n === 'mathjax' ? !!(window.MathJax && window.MathJax.typesetPromise) : n === 'chess' ? !!window.ChessViewer : false;
+// Shorthand available in every note's maths (physics-package style); plain LaTeX still works.
+const TEX_MACROS = {
+  R: '\\mathbb{R}', N: '\\mathbb{N}', Z: '\\mathbb{Z}', Q: '\\mathbb{Q}', C: '\\mathbb{C}',
+  dd: '\\mathop{}\\!\\mathrm{d}',                                  // \int f(x) \dd x
+  dv: ['\\frac{\\mathrm{d}^{#1}#2}{\\mathrm{d}#3^{#1}}', 3, ''],     // \dv{x}{t}, \dv[2]{x}{t}
+  pdv: ['\\frac{\\partial^{#1}#2}{\\partial #3^{#1}}', 3, ''],      // \pdv{f}{x}, \pdv[2]{f}{x}
+  abs: ['\\left\\lvert #1 \\right\\rvert', 1], norm: ['\\left\\lVert #1 \\right\\rVert', 1],
+  set: ['\\left\\{ #1 \\right\\}', 1], floor: ['\\left\\lfloor #1 \\right\\rfloor', 1], ceil: ['\\left\\lceil #1 \\right\\rceil', 1],
+  vb: ['\\mathbf{#1}', 1], vu: ['\\hat{\\mathbf{#1}}', 1],         // vectors and unit vectors
+  unit: ['\\,\\mathrm{#1}', 1],                                    // 9.8\unit{m/s^2}
+  qty: ['#1\\,\\mathrm{#2}', 2],                                    // \qty{9.8}{m/s^2}
+  evalat: ['\\left. #1 \\right\\rvert_{#2}', 2]                     // \evalat{x^2}{x=3}
+};
 const libWait = {};
 function loadLib(name) {
   if (libReady(name)) return Promise.resolve(true);
   if (libWait[name]) return libWait[name];
   if (name === 'mathjax' && !window.MathJax) {
-    window.MathJax = { tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']] },
-      svg: { fontCache: 'global' }, options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] },
+    window.MathJax = { tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']], tags: 'ams', macros: TEX_MACROS },
+      output: { font: 'mathjax-stix2', displayOverflow: 'scroll' },
+      // speech/braille enrichment is slow on formula-heavy pages; assistive MathML still serves screen readers
+      options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'], enableEnrichment: false, enableSpeech: false, enableBraille: false, enableExplorer: false, enableAssistiveMml: true,
+        menuOptions: { settings: { enrich: false, speech: false, braille: false, assistiveMml: true } } },
       startup: { typeset: false } };
   }
   libWait[name] = new Promise(resolve => {
@@ -240,8 +256,10 @@ function sourceLine(n) {
 
 /* ---------------- markdown ---------------- */
 const FORMAL = { definition: 'Definition', theorem: 'Theorem', lemma: 'Lemma', proposition: 'Proposition', corollary: 'Corollary',
-  proof: 'Proof', example: 'Example', remark: 'Remark', exercise: 'Exercise', conjecture: 'Conjecture' };
-const UNNUMBERED = new Set(['proof']);
+  proof: 'Proof', example: 'Example', remark: 'Remark', exercise: 'Exercise', conjecture: 'Conjecture',
+  solution: 'Solution', answer: 'Answer' };
+const UNNUMBERED = new Set(['proof', 'solution', 'answer']);
+const PROOFLIKE = new Set(['proof', 'solution', 'answer']);
 const CALLOUT = { note: 'Note', info: 'Note', tip: 'Tip', important: 'Important', warning: 'Warning', caution: 'Caution',
   danger: 'Danger', quote: 'Quote', cite: 'Quote', summary: 'Summary', abstract: 'Summary', question: 'Question', todo: 'To do', idea: 'Idea' };
 function inlineMd(md) { return window.marked ? sanitize(window.marked.parseInline(md)) : esc(md); }
@@ -318,25 +336,36 @@ function postProcess(root, ctx) {
   for (const bq of $$('blockquote', root)) {
     const p = bq.firstElementChild; if (!p || p.tagName !== 'P') continue;
     const m = p.innerHTML.match(/^\s*\[!([\w-]+)\]([+-]?)[ \t]*(.*?)(?:\n|<br\s*\/?>|$)/i); if (!m) continue;
-    const type = m[1].toLowerCase(), title = m[3].trim();
+    const type = m[1].toLowerCase(), fold = m[2], title = m[3].trim();
     p.innerHTML = p.innerHTML.slice(m[0].length).replace(/^\s+/, '');
     if (!p.textContent.trim() && !p.querySelector('img,.math-i,.math-d')) p.remove();
     const box = document.createElement('div'), body = document.createElement('div');
     body.className = 'callout-body'; while (bq.firstChild) body.appendChild(bq.firstChild);
+    let head = null;
     if (FORMAL[type]) {
       box.className = `callout callout-${type} is-formal${UNNUMBERED.has(type) ? '' : ' is-numbered'}`;
-      const head = type === 'proof'
-        ? `<span class="thm-head">${title ? esc(title.replace(/<[^>]+>/g, '')) : 'Proof'}.</span> `
-        : `<span class="thm-head"><span class="thm-label">${FORMAL[type]}</span><span class="thm-num"></span>${title ? ` <span class="thm-name">(${title})</span>` : ''}.</span> `;
+      const own = title.replace(/\s*[.:]\s*$/, ''); // the head adds its own full stop
+      const html = PROOFLIKE.has(type)
+        ? `<span class="thm-head">${own ? esc(own.replace(/<[^>]+>/g, '')) : FORMAL[type]}.</span> `
+        : `<span class="thm-head"><span class="thm-label">${FORMAL[type]}</span><span class="thm-num"></span>${own ? ` <span class="thm-name">(${own})</span>` : ''}.</span> `;
       let first = body.firstElementChild;
       if (!first || first.tagName !== 'P') { first = document.createElement('p'); body.prepend(first); }
-      first.insertAdjacentHTML('afterbegin', head);
+      first.insertAdjacentHTML('afterbegin', html); head = first.querySelector('.thm-head');
       if (type === 'proof') { let last = body.lastElementChild; if (!last || last.tagName !== 'P') { last = document.createElement('p'); body.append(last); } last.insertAdjacentHTML('beforeend', '<span class="qed" aria-hidden="true">∎</span>'); }
       box.append(body);
     } else {
       box.className = `callout callout-${type}`;
       box.innerHTML = `<div class="callout-title">${title || CALLOUT[type] || humanize(type)}</div>`;
+      head = box.firstElementChild;
       box.append(body);
+    }
+    if (fold) { // > [!proof]- starts folded, > [!proof]+ starts open
+      const det = document.createElement('details'), sum = document.createElement('summary');
+      det.className = box.className + ' is-fold'; det.open = fold === '+';
+      sum.append(head); det.append(sum, body); bq.replaceWith(det);
+      const f0 = body.firstElementChild; // the head moved into the summary may leave an empty paragraph
+      if (f0 && f0.tagName === 'P' && !f0.textContent.trim() && !f0.querySelector('img,.math-i,.math-d,.qed')) f0.remove();
+      continue;
     }
     bq.replaceWith(box);
   }
@@ -368,6 +397,9 @@ function renderNoteBody(n) {
   return S.cache.get(n.id);
 }
 async function enhance(el) {
+  await Promise.all([enhanceMath(el), enhanceBlocks(el)]);
+}
+async function enhanceBlocks(el) {
   // ```chess blocks become interactive boards (assets/chess-viewer.js)
   if (el.querySelector('pre > code.language-chess') && await loadLib('chess')) { try { window.ChessViewer.mount(el); } catch (e) { console.warn(e); } }
   if (el.querySelector('pre > code[class*="language-"]') && await loadLib('hljs')) {
@@ -376,7 +408,29 @@ async function enhance(el) {
       if (l && window.hljs.getLanguage(l) && !code.dataset.hl) { code.innerHTML = window.hljs.highlight(code.textContent, { language: l, ignoreIllegals: true }).value; code.dataset.hl = '1'; }
     }
   }
-  if (el.querySelector('.math-i,.math-d') && await loadLib('mathjax')) { try { await window.MathJax.typesetPromise([el]); } catch (e) { console.warn(e); } }
+}
+async function enhanceMath(el) {
+  if (!el.querySelector('.math-i,.math-d')) return;
+  el.classList.add('math-pending'); // hides raw \( … \) until MathJax has typeset it
+  const failsafe = setTimeout(() => el.classList.remove('math-pending'), 6000);
+  try {
+    if (await loadLib('mathjax')) {
+      if (window.MathJax.texReset) window.MathJax.texReset(); // equation numbers and \label names start afresh for each note
+      await window.MathJax.typesetPromise([el]);
+      markWideMath(el);
+    }
+  } catch (e) { console.warn(e); }
+  clearTimeout(failsafe); el.classList.remove('math-pending');
+}
+// Display maths wider than the column scrolls sideways; fade the edge that has more to see.
+function markWideMath(el) {
+  for (const box of $$('.math-d', el)) {
+    const sc = [box, ...$$('mjx-container', box)].find(x => x.scrollWidth > x.clientWidth + 2);
+    if (!sc) continue;
+    const upd = () => { const end = sc.scrollLeft + sc.clientWidth >= sc.scrollWidth - 2, start = sc.scrollLeft <= 2;
+      sc.classList.toggle('fade-r', !end); sc.classList.toggle('fade-l', !start); };
+    sc.classList.add('is-wide'); upd(); sc.addEventListener('scroll', upd, { passive: true });
+  }
 }
 
 /* ---------------- templates ---------------- */
@@ -776,6 +830,35 @@ function showPopover(a) {
 }
 function hidePopover() { clearTimeout(popTimer); const p = $('#popover'); if (p) p.hidden = true; }
 
+/* ---------------- maths helpers ---------------- */
+const EQREF = 'a[data-mjx-href^="#mjx-eqn"], a[href^="#mjx-eqn"]';
+function eqTarget(a) {
+  const id = decodeURIComponent((a.getAttribute('data-mjx-href') || a.getAttribute('href')).slice(1)), t = document.getElementById(id);
+  return t && (t.closest('.math-d') || t.closest('mjx-container') || t);
+}
+let eqTip = null;
+function showEqTip(a) {
+  const t = eqTarget(a); if (!t) return;
+  if (!eqTip) { eqTip = document.createElement('div'); eqTip.className = 'eq-tip prose'; document.body.append(eqTip); }
+  eqTip.innerHTML = ''; eqTip.append(t.cloneNode(true)); eqTip.hidden = false;
+  const b = a.getBoundingClientRect(), w = eqTip.offsetWidth, h = eqTip.offsetHeight;
+  let top = b.top - h - 8; if (top < 8) top = b.bottom + 8;
+  eqTip.style.top = top + 'px'; eqTip.style.left = Math.min(Math.max(8, b.left - w / 2), innerWidth - w - 8) + 'px';
+}
+function hideEqTip() { if (eqTip) eqTip.hidden = true; }
+// Double-click any formula to copy its LaTeX.
+function copyMath(container) {
+  const MJ = window.MathJax; if (!MJ || !MJ.startup || !MJ.startup.document) return false;
+  const item = MJ.startup.document.getMathItemsWithin(container)[0]; if (!item) return false;
+  const tex = item.display ? `$$${item.math.trim()}$$` : `$${item.math.trim()}$`;
+  if (navigator.clipboard) navigator.clipboard.writeText(tex).then(() => toast('LaTeX copied'), () => {});
+  return true;
+}
+function toast(msg) {
+  let t = $('#toast'); if (!t) { t = document.createElement('div'); t.id = 'toast'; t.setAttribute('role', 'status'); document.body.append(t); }
+  t.textContent = msg; t.classList.add('is-on'); clearTimeout(toast.timer); toast.timer = setTimeout(() => t.classList.remove('is-on'), 1400);
+}
+
 /* ---------------- events ---------------- */
 function bindEvents() {
   document.addEventListener('click', e => {
@@ -814,8 +897,22 @@ function bindEvents() {
     document.addEventListener('pointerout', e => {
       if (e.target.closest('#main a.wikilink[data-id], #main .bl-title[data-id], #popover')) { clearTimeout(popTimer); popHide = setTimeout(hidePopover, 250); }
     });
+    // hovering an equation reference shows the equation
+    document.addEventListener('pointerover', e => { const a = e.target.closest(EQREF); if (a) showEqTip(a); });
+    document.addEventListener('pointerout', e => { if (e.target.closest(EQREF)) hideEqTip(); });
   }
-  addEventListener('scroll', () => { hidePopover(); rememberScroll(); }, { passive: true });
+  // \eqref links: scroll within the note (capture phase, before MathJax changes the address and the router reacts)
+  document.addEventListener('click', e => {
+    const a = e.target.closest(EQREF); if (!a) return;
+    e.preventDefault(); e.stopPropagation(); hideEqTip();
+    const t = eqTarget(a);
+    if (t) { t.scrollIntoView({ block: 'center', behavior: 'smooth' }); t.classList.add('is-flash'); setTimeout(() => t.classList.remove('is-flash'), 1400); }
+  }, true);
+  document.addEventListener('dblclick', e => {
+    const m = e.target.closest('mjx-container');
+    if (m && copyMath(m)) { const sel = getSelection(); if (sel) sel.removeAllRanges(); }
+  });
+  addEventListener('scroll', () => { hidePopover(); hideEqTip(); rememberScroll(); }, { passive: true });
 }
 
 /* ---------------- boot ---------------- */

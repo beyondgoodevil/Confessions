@@ -31,7 +31,9 @@ YAML front matter, then Markdown. Fields by section (all optional except that a 
 
 `type:` (`book`, `podcast`, `video`, `lecture`, `misc`) overrides the folder when deciding the section.
 
-Links: `[[Note title]]`, `[[B-0003]]`, `[[Title|shown text]]`, `[[Title#Heading]]`. Maths with `$…$` / `$$…$$`. Callouts: `> [!definition] Title`, `[!theorem]`, `[!proof]`, `[!note]`, etc.
+Links: `[[Note title]]`, `[[B-0003]]`, `[[Title|shown text]]`, `[[Title#Heading]]`. Maths with `$…$` / `$$…$$`. Callouts: `> [!definition] Title`, `[!theorem]`, `[!proof]`, `[!note]`, etc.; `[!solution]` and `[!answer]` work like `[!proof]` (unnumbered). Put `-` after the type (`> [!proof]- Title`) to fold the callout shut, `+` to make it foldable but open.
+
+Maths macros (MathJax 4, STIX Two font): `\R \N \Z \Q \C`, `\dd x` (upright d), `\dv{f}{x}` / `\dv[2]{f}{x}`, `\pdv{f}{x}`, `\abs{x}`, `\norm{v}`, `\set{…}`, `\floor{x}`, `\ceil{x}`, `\vb{F}` (bold vector), `\vu{r}` (unit vector), `\qty{9.8}{m/s^2}`, `9.8\unit{m/s^2}`, `\evalat{F(x)}{0}^1`. Number an equation with `\tag{1}` or `\begin{equation}…\end{equation}`, add `\label{eq:name}`, and refer to it with `$\eqref{eq:name}$` (hover previews it, click scrolls to it). Double-clicking a formula copies its LaTeX. Wide equations scroll sideways on phones, so don't break them by hand.
 
 ## Tags
 

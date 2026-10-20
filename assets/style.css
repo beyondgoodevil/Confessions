@@ -148,6 +148,18 @@ button,input,textarea,select{font:inherit;color:inherit}
 .prose span.math-d{margin:.6em 0}
 mjx-container{color:inherit}
 mjx-container[display="true"]{margin:0!important;overflow-x:auto;overflow-y:hidden}
+/* maths: no raw TeX while MathJax loads; fade the edge of equations wider than the column */
+.math-pending .math-i,.math-pending .math-d{visibility:hidden}
+mjx-container[display="true"]{padding:.3em 0}
+mjx-container a{color:var(--accent)}
+.is-wide.fade-r{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 2.4em),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 2.4em),transparent)}
+.is-wide.fade-l{-webkit-mask-image:linear-gradient(to left,#000 calc(100% - 2.4em),transparent);mask-image:linear-gradient(to left,#000 calc(100% - 2.4em),transparent)}
+.is-wide.fade-l.fade-r{-webkit-mask-image:linear-gradient(to right,transparent,#000 2.4em,#000 calc(100% - 2.4em),transparent);mask-image:linear-gradient(to right,transparent,#000 2.4em,#000 calc(100% - 2.4em),transparent)}
+.math-d.is-flash,mjx-container.is-flash{border-radius:6px}
+.eq-tip{position:fixed;z-index:60;max-width:min(92vw,40rem);padding:.35em 1em;background:var(--paper);color:var(--ink);border:1px solid var(--rule);border-radius:8px;box-shadow:var(--shadow);pointer-events:none;overflow:hidden}
+.eq-tip .math-d,.eq-tip mjx-container{margin:0!important}
+#toast{position:fixed;left:50%;bottom:1.5rem;z-index:80;transform:translate(-50%,.8rem);padding:.45em 1em;border-radius:99px;background:var(--ink);color:var(--bg);font-family:var(--font-ui);font-size:.9rem;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s}
+#toast.is-on{opacity:1;transform:translate(-50%,0)}
 .prose a.wikilink{text-decoration-style:solid}
 .prose a.wikilink.is-broken,.prose a.is-broken{color:var(--link-broken);text-decoration-style:dotted;text-decoration-color:var(--link-broken);cursor:help}
 .prose a.external::after{content:"\2197";font-size:.68em;margin-left:.12em;vertical-align:.35em;line-height:0;text-decoration:none;display:inline-block}
@@ -181,6 +193,15 @@ mjx-container[display="true"]{margin:0!important;overflow-x:auto;overflow-y:hidd
 .callout-theorem .callout-body .thm-head,.callout-lemma .callout-body .thm-head{font-style:normal}
 .callout-proof .thm-head{font-style:italic;font-weight:400}
 .qed{float:right;margin-left:1em}
+.callout-solution .thm-head,.callout-answer .thm-head{font-style:italic;font-weight:400}
+/* foldable callouts: > [!proof]- (starts folded) or > [!proof]+ (starts open) */
+details.callout>summary{cursor:pointer;list-style:none;display:block;-webkit-user-select:none;user-select:none}
+details.callout>summary::-webkit-details-marker{display:none}
+details.callout>summary>.callout-title{display:inline}
+details.callout>summary::after{content:"show";margin-left:.6em;font-family:var(--font-ui);font-size:.78em;font-style:normal;font-weight:400;letter-spacing:.02em;color:var(--accent);border:1px solid color-mix(in srgb,var(--accent) 35%,transparent);border-radius:99px;padding:.05em .55em;vertical-align:.1em}
+details.callout[open]>summary::after{content:"hide"}
+details.callout[open]>summary{margin-bottom:.35em}
+details.callout>summary:hover::after{background:var(--accent-soft)}
 
 /* transclusion */
 .transclusion{display:block;border:1px solid var(--rule);border-radius:6px;padding:.9em 1.1em;background:var(--paper)}
