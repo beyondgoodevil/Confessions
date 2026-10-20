@@ -107,6 +107,7 @@ aliases: [Moby-Dick, Moby Dick, Ahab, Ishmael, The Whiteness of the Whale, Melvi
 
 ## Related
 
+- [[Nietzsche: Amor Fati and Becoming What You Are]]
 - [[The Problem of Evil and Theodicy]]
 - [[Wandering in Darkness]]
 - [[Joseph de Maistre on Providence and Suffering]]

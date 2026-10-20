@@ -87,7 +87,7 @@ Lampert (Camden House) is closer to Loeb on seriousness: ER is the new "centre o
 - Z II "On Redemption": the problem is revenge against time and its "it was". The answer, "thus I willed it", is tied to WtP.
 - Hatab's explanation: WtP always involves resistance, so my meaning is bound up with what I oppose. To affirm my life I have to affirm the return of the opposition as well.
 - Important: **affirm ≠ approve**. Zarathustra rejects "omni-satisfaction". He wills the return of the small man as something to keep fighting.
-- ER rules out three escapes: a different past, an end in nothingness, and even endless novelty. *Amor fati*: wanting nothing different.
+- ER rules out three escapes: a different past, an end in nothingness, and even endless novelty. *Amor fati*: wanting nothing different (see [[Nietzsche: Amor Fati and Becoming What You Are|amor fati]]).
 
 See [[Nietzsche: The Will to Power]] sec. 7.
 
@@ -101,6 +101,7 @@ See [[Nietzsche: The Will to Power]] sec. 7.
 
 ## Related
 
+- [[Nietzsche: Amor Fati and Becoming What You Are]]
 - [[Nietzsche: The Overman]]
 - [[Nietzsche: The Will to Power]]
 - [[Nietzsche and the Greeks]]

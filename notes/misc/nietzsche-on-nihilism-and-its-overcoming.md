@@ -151,6 +151,7 @@ N. accepts (2), so he has to attack (1). That's the **revaluation of values**.
 
 ## Related
 
+- [[Nietzsche: Amor Fati and Becoming What You Are]]
 - [[Moby-Dick and the Problem of Evil: Ahab, Ishmael and Job]]
 - [[Nothingness East and West: Nishitani, Tanabe, Abe and the Christian Nihil]]
 - [[The Underground Man and the Death of God: Dostoevsky, Shestov, Girard]]

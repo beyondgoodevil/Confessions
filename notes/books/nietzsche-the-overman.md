@@ -86,6 +86,7 @@ Not sure the regret answer works for really bad pasts. Come back to this with [[
 
 ## Related
 
+- [[Nietzsche: Amor Fati and Becoming What You Are]]
 - [[Nietzsche: The Will to Power]]
 - [[Nietzsche: Eternal Recurrence]]
 - [[Nietzsche and the Greeks]]

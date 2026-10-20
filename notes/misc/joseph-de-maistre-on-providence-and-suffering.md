@@ -118,6 +118,7 @@ And "there is no such thing as a just man", so no one may refuse his share of hu
 
 ## Related
 
+- [[Nietzsche: Amor Fati and Becoming What You Are]]
 - [[Hamlet: Revenge, the Ghost and Purgatory]]
 - [[The Problem of Evil and Theodicy]]
 - [[Conservatism: Burke, de Maistre, Scruton]]

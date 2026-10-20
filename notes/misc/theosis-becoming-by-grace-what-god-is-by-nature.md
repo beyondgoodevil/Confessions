@@ -98,6 +98,7 @@ Without the distinction you're stuck with two bad options: theosis is a metaphor
 
 ## Related
 
+- [[Nietzsche: Amor Fati and Becoming What You Are]]
 - [[2 Peter 1:3-4: Theosis]]
 - [[Church Fathers That Taught the Doctrine of the Deification of Human Nature Through the Incarnation]]
 - [[Image and Likeness]]
