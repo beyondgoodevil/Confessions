@@ -163,6 +163,7 @@ A long book (over 600 pages) and one of the most important modern works on the p
 
 ## Related
 
+- [[Moby-Dick and the Problem of Evil: Ahab, Ishmael and Job]]
 - [[The Problem of Evil and Theodicy]]
 - [[Divine Hiddenness]]
 - [[Religious Experience as Evidence]]

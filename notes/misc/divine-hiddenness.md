@@ -96,6 +96,7 @@ Later versions (2015 on): premises stated as necessary truths; "culpable" replac
 
 ## Related
 
+- [[Moby-Dick and the Problem of Evil: Ahab, Ishmael and Job]]
 - [[The Problem of Evil and Theodicy]]
 - [[Religious Experience as Evidence]]
 - [[Nous]]
