@@ -76,7 +76,8 @@
       "aliases": [
         "lecture"
       ],
-      "description": "Notes from lectures I attend/watch."
+      "description": "Notes from lectures I attend/watch.",
+      "arrange": "course"
     },
     {
       "id": "guides",
@@ -184,6 +185,7 @@
       "history-of-science": "History of science",
       "linear-algebra": "Linear algebra",
       "mit-18-06": "MIT 18.06",
+      "calculus-1": "Calculus I",
       "note-taking": "Note-taking",
       "reading-lists": "Reading lists"
     }
