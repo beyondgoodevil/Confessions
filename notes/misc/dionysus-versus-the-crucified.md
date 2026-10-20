@@ -114,6 +114,7 @@ These read the same facts (sacrifice is universal) in three ways.
 
 ## Related
 
+- [[Thus Spoke Zarathustra as Drama: Plot, Tragedy and Parody]]
 - [[The Underground Man and the Death of God: Dostoevsky, Shestov, Girard]]
 - [[The Bacchae Three Ways: Euripides, Nietzsche, Dodds and Girard]]
 - [[Nietzsche on Nihilism and Its Overcoming]]
