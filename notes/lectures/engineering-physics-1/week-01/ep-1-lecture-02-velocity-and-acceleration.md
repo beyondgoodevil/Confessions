@@ -49,6 +49,19 @@ $$\mathbf v = \dot x\,\hat{\mathbf i} + \dot y\,\hat{\mathbf j} + \dot z\,\hat{\
    - $\mathbf v = r\omega(-\sin\omega t\,\hat{\mathbf i} + \cos\omega t\,\hat{\mathbf j})$. Then $\mathbf v\cdot\mathbf r = 0$, so $\mathbf v$ is tangent, and $|\mathbf v| = r\omega$.
    - $\mathbf a = -r\omega^2(\cos\omega t\,\hat{\mathbf i} + \sin\omega t\,\hat{\mathbf j}) = -\omega^2\mathbf r$: **centripetal acceleration**, pointing at the center, magnitude $r\omega^2 = v^2/r$.
    - **Key point**: constant speed does **not** mean zero acceleration. The velocity's **direction** is changing.
+
+   ```plot
+   x: -1.8, 1.8
+   y: -1.4, 1.4
+   equal: true
+   slider: t = 0.6, 0..2pi | $t$ (with $r = \omega = 1$) | loop
+   curve: (cos(u), sin(u)), u = 0..2pi | grey
+   vector: (cos(t), sin(t)), (-sin(t), cos(t)) | $\mathbf v$ | blue
+   vector: (cos(t), sin(t)), (-cos(t), -sin(t)) | $\mathbf a$ | red
+   point: (cos(t), sin(t))
+   caption: Uniform circular motion. $\mathbf v$ is always tangent and $\mathbf a = -\omega^2\mathbf r$ always points at the centre. Press ▶ to set it going.
+   ```
+
 3. **Relative velocity** (Problem 1.15): if frame B's origin is at $\mathbf R(t)$ in frame A, then $\mathbf r_B = \mathbf r_A - \mathbf R$, so $\mathbf v_B = \mathbf v_A - d\mathbf R/dt$. E.g. rain falling straight down at 8 m/s looks, from a car doing 20 m/s, like it's coming at $\arctan(20/8) \approx 68°$ from vertical.
 4. **Jerk** (Problem 1.18): $\dot{\mathbf a}$, the rate of change of acceleration. Engineers care because high jerk is what makes elevator and train rides uncomfortable.
 

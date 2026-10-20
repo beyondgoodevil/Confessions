@@ -40,6 +40,20 @@ It's the main tool for getting information **about $f$ from $f'$**. Its proof is
 
 - **Geometric**: some tangent line is **parallel to the secant** from $(a, f(a))$ to $(b, f(b))$.
 - **Physical** (Spivak's example): drive 60 miles in an hour and at some instant you were going **exactly** 60 mph.
+
+```plot
+x: -0.5, 2.5
+y: -1, 9
+slider: b = 2, 0.3..2.2 | $b$
+f(x) = x^3 - x | $f(x) = x^3 - x$
+y = (b^2 - 1)x | secant from $0$ to $b$
+y = f(b/sqrt(3)) + (b^2 - 1)(x - b/sqrt(3)) | parallel tangent | dashed
+point: (0, 0)
+point: (b, f(b))
+point: (b/sqrt(3), f(b/sqrt(3))) | $x = b/\sqrt3$
+caption: My own example: $f(x) = x^3 - x$ on $[0, b]$. The secant has slope $b^2 - 1$, and $f'(x) = 3x^2 - 1$ equals it at $x = b/\sqrt3$, which is always inside $(0, b)$.
+```
+
 - The MVT says nothing about **where** $x$ is. It's an existence theorem, but the inequalities it gives are completely concrete.
 
 ### 3. The Cauchy Mean Value Theorem

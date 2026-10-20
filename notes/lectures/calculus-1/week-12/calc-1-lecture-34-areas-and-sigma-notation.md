@@ -59,6 +59,16 @@ $$U_n = \sum_{i=1}^n\left(\frac{ib}{n}\right)^2\frac bn = \frac{b^3}{n^3}\sum_{i
 $$L_n = \frac{b^3}{n^3}\sum_{i=0}^{n-1}i^2 = \frac{b^3}{6}\left(1 - \frac1n\right)\left(2 - \frac1n\right).$$
 Both $\to \frac{b^3}{3}$, and $U_n - L_n = \frac{b^3}{n} \to 0$. **Area $= \frac{b^3}{3}$.** That's Archimedes' result (the parabolic segment is $\frac13$ of the enclosing rectangle), done with a sum formula.
 
+```plot
+x: -0.2, 2.2
+y: -0.4, 4.4
+slider: n = 6, 1..60, 1 | $n$
+f(x) = x^2 | $y = x^2$
+riemann: f(x), 0..2, n, right | upper sum $U_n$ | orange
+riemann: f(x), 0..2, n, left | lower sum $L_n$ | green
+caption: $b = 2$, so the area is $\frac83 \approx 2.667$. $U_n$ and $L_n$ close in on it from both sides, and $U_n - L_n = \frac8n$.
+```
+
 Pattern: area under $x^p$ on $[0, b]$ is $\frac{b^{p+1}}{p+1}$, and $\frac{d}{db}\frac{b^{p+1}}{p+1} = b^p$. **The derivative of the area function is the original function.** That's the FTC, coming in Lecture 37.
 
 ### 6. Problems to Try

@@ -20,6 +20,20 @@ The tangent line at $(x_0, f(x_0))$ is $y = f(x_0) + f'(x_0)(x - x_0)$. It meets
 $$x_1 = x_0 - \frac{f(x_0)}{f'(x_0)}$$
 (Problem 22-14(a)). This is **linear approximation** (Lecture 24) used to solve an equation instead of to estimate a value. Now restart from $x_1$, and so on. That gives a sequence $\{x_n\}$, which we hope converges to a root $c$.
 
+```plot
+x: 0.5, 4.5
+y: -3, 16
+slider: s = 4, 0.7..4.4 | $x_0$
+f(x) = x^2 - 2 | $f(x) = x^2 - 2$
+N(t) = t - f(t)/f'(t)
+y = f(s) + f'(s)(x - s) | tangent at $x_0$ | dashed
+y = f(N(s)) + f'(N(s))(x - N(s)) | tangent at $x_1$ | dotted
+point: (s, f(s))
+point: (N(s), 0) | $x_1$
+point: (N(N(s)), 0) | $x_2$
+caption: Newton's method for $\sqrt2$ (Example 1 below). Each tangent hits the axis at the next guess. Even from a bad start like $x_0 = 4$, $x_2$ is already close to $1.414$.
+```
+
 ### 2. When It Works
 
 > [!theorem] Problem 22-14(b)

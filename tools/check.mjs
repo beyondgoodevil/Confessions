@@ -1,7 +1,7 @@
 // Lists [[links]] that don't point at any note, and notes nothing links to.
 // Also reports problems that quietly degrade a note: front matter that isn't valid YAML,
 // duplicate addresses, titles shared by two notes (so [[Title]] is ambiguous), notes with
-// identical text, embedded images that aren't in the repository, and ```chess blocks with illegal moves.
+// identical text, embedded images that aren't in the repository, ```chess blocks with illegal moves, and ```plot blocks that don't parse.
 //   node tools/check.mjs            report
 //   node tools/check.mjs --github   also write the report to the GitHub Actions run summary
 import fs from 'node:fs';
@@ -68,12 +68,17 @@ const media = new Set(walk(path.join(ROOT, 'notes')).filter(f => MEDIA_EXT.test(
 for (const n of notes) for (const m of n.body.matchAll(/!\[\[([^\]|#]+\.(?:png|jpe?g|gif|svg|webp|avif|bmp|pdf))/gi)) {
   if (!media.has(m[1].trim().split('/').pop().toLowerCase())) problems.push([n.path, `embeds ${m[1].trim()}, which isn't anywhere in notes/`]);
 }
-// ```chess blocks must parse and every move must be legal (same engine the site uses)
+// ```chess blocks must parse and every move must be legal; ```plot blocks must parse (same code the site uses)
 {
   const { createRequire } = await import('node:module');
   const CV = createRequire(import.meta.url)(path.join(ROOT, 'assets', 'chess-viewer.js'));
   for (const n of notes) for (const m of n.body.matchAll(/```chess[^\n]*\n([\s\S]*?)```/g)) {
     try { CV.parseBlock(m[1]); } catch (e) { problems.push([n.path, `chess diagram: ${e.message}`]); }
+  }
+  // ```plot blocks must parse, with every name and function known
+  const PV = createRequire(import.meta.url)(path.join(ROOT, 'assets', 'plot-viewer.js'));
+  for (const n of notes) for (const m of n.body.matchAll(/```plot[^\n]*\n([\s\S]*?)```/g)) {
+    try { PV.parseBlock(m[1]); } catch (e) { problems.push([n.path, `plot: ${e.message}`]); }
   }
 }
 if (problems.length) {

@@ -36,6 +36,15 @@ Proof: $-M|g(x)| \le g(x)h(x) \le M|g(x)|$, and both bounds $\to 0$. Squeeze.
 - $x^2 \cos(1/x^3) \to 0$.
 - $\dfrac{\sin x}{x} \to 0$ as $x \to \infty$: $|\sin x| \le 1$ and $1/x \to 0$.
 
+```plot
+x: -0.5, 0.5
+y: -0.4, 0.4
+f(x) = x sin(1/x) | $x\sin(1/x)$
+y = abs(x) | $\pm|x|$ | grey dashed
+y = -abs(x) | grey dashed
+caption: $x\sin(1/x)$ wiggles infinitely often near $0$ but is trapped between $-|x|$ and $|x|$. Zoom in on the origin: it never escapes.
+```
+
 > [!note] Common mistake
 > You can't use the product law on $x \sin(1/x)$, because $\lim \sin(1/x)$ doesn't exist. The squeeze theorem only needs a **bound** on the bad factor, not a limit.
 

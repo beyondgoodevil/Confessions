@@ -53,6 +53,17 @@ $\lim_{x \to a} f(x) = l$ is **false** means:
 
 **The trick to remember:** first restrict $|x - a| < 1$ to **tame the bad factor**, then shrink $\delta$ further to handle $\varepsilon$, and take the **min** of the two requirements.
 
+```plot
+x: -0.3, 2.3
+y: -0.4, 3.4
+slider: ε = 1, 0.1..2 | $\varepsilon$
+f(x) = x^2 | $f(x) = x^2$
+hband: 1 - ε, 1 + ε | $|f(x) - 1| < \varepsilon$
+vband: 1 - min(1, ε/3), 1 + min(1, ε/3) | $0 < |x - 1| < \delta$
+point: (1, 1)
+caption: Example (c) with $a = 1$, so $\delta = \min(1, \varepsilon/3)$. However small you make $\varepsilon$, the piece of the graph over the $\delta$-strip stays inside the $\varepsilon$-strip.
+```
+
 **(d) $\lim_{x \to a} x^3 = a^3$**: same trick with $x^3 - a^3 = (x - a)(x^2 + ax + a^2)$. If $|x - a| < 1$ then $|x^2 + ax + a^2| < (1 + |a|)^2 + |a|(1 + |a|) + |a|^2 =: M$, so $\delta = \min(1, \varepsilon / M)$ works.
 
 **(e) $\lim_{x \to 0} x \sin(1/x) = 0$**: $|x \sin(1/x)| \le |x|$, so $\delta = \varepsilon$. For $|x|\sin(1/x)$ the same; for $x^2 \sin(1/x)$, $\delta = \min(1, \varepsilon)$.

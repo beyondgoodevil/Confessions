@@ -43,6 +43,26 @@ a **parabola**. With $v_{0x} = v_0\cos\theta$, $v_{0z} = v_0\sin\theta$:
 
 **The big idea:** the horizontal and vertical motions are **independent**. Gravity only touches $z$.
 
+```plot
+x: -2, 43
+y: -2, 22
+equal: true
+xlabel: x (m)
+ylabel: z (m)
+slider: v = 15, 5..20, 0.5 | $v_0$ (m/s)
+slider: θ = 45, 5..85, 1 | $\theta$ (degrees)
+slider: p = 0.3, 0..1 | fraction of the flight
+r(d) = d pi/180
+F(k) = 2k v sin(r(θ))/9.8
+X(t) = v cos(r(θ)) t
+Z(t) = v sin(r(θ)) t - 4.9t^2
+curve: (X(t), Z(t)), t = 0..F(1) | path
+vector: (X(F(p)), Z(F(p))), (0.6 v cos(r(θ)), 0.6(v sin(r(θ)) - 9.8 F(p))) | $\mathbf v$ | blue
+point: (X(F(p)), Z(F(p)))
+point: (X(F(1)), 0) | range
+caption: Launch from the origin with $g = 9.8$ m/s². The horizontal part of $\mathbf v$ never changes; only the vertical part does. For a fixed $v_0$ the range is biggest at $45°$. (The arrow is $\mathbf v$ times 0.6 s.)
+```
+
 ### 4. Worked Examples
 
 1. **Ping-pong ball on the moon** (Example 1.9): $\mathbf v_0 = (0, 5, -3)$ m/s and $\mathbf a = (0, 0, -2)$ m/s². After 5 s: $v_x = 0$, $v_y = 5$, $v_z = -3 + (-2)(5) = -13$, so $\mathbf v = (0, 5, -13)$ m/s.

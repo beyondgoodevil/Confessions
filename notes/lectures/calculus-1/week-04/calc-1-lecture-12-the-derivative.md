@@ -46,6 +46,18 @@ $$\frac{\sqrt{a+h} - \sqrt a}{h} = \frac{(a + h) - a}{h(\sqrt{a+h} + \sqrt a)} =
 
 Pattern so far: $(x^n)' = nx^{n-1}$ for $n = 1, 2, 3, -1, \tfrac12$. Problem 9-4 asks you to conjecture and prove it for all $n \in \mathbb{N}$ (we do it with induction in Lecture 14).
 
+Item 4 as a picture. The tangent at $(a, a^3)$ cuts the curve again at $(-2a, -8a^3)$, wherever $a$ is (except $a = 0$, where the two points merge):
+
+```plot
+x: -3, 3
+y: -6, 6
+slider: a = 0.8, -1.4..1.4 | $a$
+f(x) = x^3 | $f(x) = x^3$
+y = 3a^2 x - 2a^3 | tangent at $x = a$ | dashed
+point: (a, f(a)) | $(a, a^3)$
+point: (-2a, f(-2a)) | $(-2a, -8a^3)$
+```
+
 ### 4. Leibniz Notation
 
 $f'(x)$ is also written $\dfrac{df(x)}{dx}$, or $\dfrac{df}{dx}$, or (with "the function $y = x^2$") $\dfrac{dy}{dx}$. So the results above read

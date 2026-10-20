@@ -64,6 +64,16 @@ If $g \le f$ on $[a, b]$, the area between them is $\int_a^b (f - g)$, even if t
 $$\text{area} = \int_{\frac{1-\sqrt5}{2}}^0(x^3 - x - x^2)\,dx + \int_0^{\frac{1+\sqrt5}{2}}(x^2 - x^3 + x)\,dx \approx 0.0758 + 1.0075 = \frac{13}{12}.$$
 (The hard part is figuring out the region, which Spivak notes is often where the ingenuity goes.)
 
+```plot
+x: -1.2, 2.2
+y: -1.5, 3.5
+f(x) = x^3 - x | $x^3 - x$
+g(x) = x^2 | $x^2$
+area: f(x), g(x), (1 - sqrt(5))/2..0 | left piece | green
+area: g(x), f(x), 0..(1 + sqrt(5))/2 | right piece | orange
+caption: Spivak's example. The legend integrates each piece numerically: they add up to $\frac{13}{12} \approx 1.083$.
+```
+
 ### 5. Differentiating Integrals: FTC + Chain Rule
 
 $F(x) = \int_a^x h$ is just another function, so it composes like any other (Spivak works these at the end of §14):

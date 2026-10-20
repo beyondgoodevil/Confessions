@@ -23,6 +23,18 @@ and let $h$ shrink. The tangent should be the "limiting position" of the secants
 $$\frac{(a+h)^2 - a^2}{h} = \frac{2ah + h^2}{h} = 2a + h \qquad (h \ne 0).$$
 As $h$ gets small this gets close to $2a$, so the tangent at $(a, a^2)$ should have slope $2a$.
 
+```plot
+x: -1.5, 3
+y: -1.5, 8
+slider: h = 1.5, -1.5..2 | $h$
+f(x) = x^2 | $f(x) = x^2$
+y = (2 + h)(x - 1) + 1 | secant, slope $2 + h$
+y = 2(x - 1) + 1 | tangent, slope $2$ | dashed
+point: (1, 1) | $(1, 1)$
+point: (1 + h, f(1 + h)) | $(1 + h, f(1 + h))$
+caption: The example with $a = 1$. Drag $h$ towards $0$ (from either side) and the secant swings onto the tangent. At $h = 0$ itself there's no secant, just the formula.
+```
+
 Notice the cancellation of $h$ is legal **only because $h \ne 0$**. The quotient isn't even defined at $h = 0$. That's exactly why we need limits rather than just "plugging in".
 
 ### 2. The Velocity Problem
