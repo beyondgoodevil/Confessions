@@ -101,6 +101,7 @@
       "philosophy",
       "mathematics",
       "physics",
+      "chess",
       "note-taking",
       "programming",
       "research",
@@ -177,6 +178,14 @@
           "kant",
           "daoism"
         ]
+      },
+      {
+        "name": "Chess",
+        "tags": [
+          "tactics",
+          "endgames",
+          "checkmate-patterns"
+        ]
       }
     ],
     "labels": {
@@ -191,7 +200,8 @@
       "engineering-physics-1": "Engineering Physics I",
       "daoism": "Daoism",
       "note-taking": "Note-taking",
-      "reading-lists": "Reading lists"
+      "reading-lists": "Reading lists",
+      "checkmate-patterns": "Checkmate patterns"
     }
   }
 }
