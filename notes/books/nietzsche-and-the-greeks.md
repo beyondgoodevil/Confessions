@@ -71,7 +71,7 @@ Worth remembering when people quote the "blond beast" passages as if N. were sim
 
 (Hatab)
 
-- "Homer's Contest": the *agon* runs through everything Greek. Athletics, tragedy, rhetoric, politics, philosophy.
+- "Homer's Contest": the *agon* runs through everything Greek. Athletics, tragedy, rhetoric, politics, philosophy. Its political side, with "The Greek State", is in [[Nietzsche's Aristocratic Radicalism: The Greek State, Slavery and the Pyramid of Culture|aristocratic radicalism]].
 - It cultivates the destructive drives instead of denying them. You compete, you don't annihilate.
 - Ostracism: remove whoever is too dominant so the contest can go on. Against "domination by one".
 - Greeks gave the passions festivals and fixed days, "a moderate discharge", not "total annihilation".
@@ -112,6 +112,7 @@ Worth remembering when people quote the "blond beast" passages as if N. were sim
 
 ## Related
 
+- [[Nietzsche's Aristocratic Radicalism: The Greek State, Slavery and the Pyramid of Culture]]
 - [[The Bacchae Three Ways: Euripides, Nietzsche, Dodds and Girard]]
 - [[Homer on Life and Death]]
 - [[Nietzsche: The Will to Power]]

@@ -139,6 +139,7 @@ Names in brackets below (Bradley, Keyt, Irwin…) are the authors of essays in t
 
 ## Related
 
+- [[Nietzsche's Aristocratic Radicalism: The Greek State, Slavery and the Pyramid of Culture]]
 - [[The Modern Break: Machiavelli and Hobbes]]
 - [[Thucydides on Human Nature and Power]]
 - [[Virtue Ethics: Aristotle and the Fathers]]

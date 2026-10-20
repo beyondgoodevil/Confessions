@@ -196,6 +196,7 @@ Vladimir Moss writes from the Russian "True Orthodox" tradition, which broke wit
 
 ## Related
 
+- [[Nietzsche's Aristocratic Radicalism: The Greek State, Slavery and the Pyramid of Culture]]
 - [[The Case for One Ruler: Aquinas, Dante, Maistre, Kuehnelt-Leddihn]]
 - [[Kingship of Christ]]
 - [[Augustine's City of God]]

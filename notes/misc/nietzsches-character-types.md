@@ -132,6 +132,7 @@ The first of three figures (with artist and scientist) who seem neither slavish 
 
 ## Related
 
+- [[Nietzsche's Aristocratic Radicalism: The Greek State, Slavery and the Pyramid of Culture]]
 - [[Nietzsche on Nihilism and Its Overcoming]]
 - [[Dionysus versus the Crucified: Girard's Reading of Nietzsche]]
 - [[Nietzsche: The Will to Power]]
