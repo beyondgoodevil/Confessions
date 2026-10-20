@@ -108,6 +108,7 @@ The longest and most important chapter. The Liturgy is a **journey** or processi
 
 ## Related
 
+- [[Joyce's Ulysses Against Homer: Bloom, Stephen and the Parody of the Mass]]
 - [[The Divine Liturgy Explained]]
 - [[The Eucharist in Type and Fulfilment]]
 - [[Liturgy Origins]]

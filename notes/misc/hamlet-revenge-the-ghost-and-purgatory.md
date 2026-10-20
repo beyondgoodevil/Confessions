@@ -152,6 +152,7 @@ Prosser read the homilies, treatises and sermons:
 
 ## Related
 
+- [[Joyce's Ulysses Against Homer: Bloom, Stephen and the Parody of the Mass]]
 - [[Justice in the Oresteia: From Vendetta to the Court?]]
 - [[Girard's Scapegoat Mechanism: Sacrifice, Myth and the Gospels]]
 - [[Homer on Life and Death]]

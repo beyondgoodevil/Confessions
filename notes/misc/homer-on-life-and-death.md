@@ -127,6 +127,7 @@ How later Greeks and Christians answered him:
 
 ## Related
 
+- [[Joyce's Ulysses Against Homer: Bloom, Stephen and the Parody of the Mass]]
 - [[Auerbach's Mimesis: Odysseus' Scar, Peter's Denial and Figural Realism]]
 - [[Thucydides on Human Nature and Power]]
 - [[Dionysus, Orpheus and the Mysteries: Dodds and the Irrational]]

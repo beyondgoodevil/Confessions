@@ -145,6 +145,7 @@ Her opponent throughout is not just Plato but **Kant**. For Kant, one value, the
 
 ## Related
 
+- [[Joyce's Ulysses Against Homer: Bloom, Stephen and the Parody of the Mass]]
 - [[Justice in the Oresteia: From Vendetta to the Court?]]
 - [[The Bacchae Three Ways: Euripides, Nietzsche, Dodds and Girard]]
 - [[Homer on Life and Death]]
