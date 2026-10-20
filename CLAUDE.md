@@ -80,3 +80,4 @@ Write notes in the owner's own style, the one their image-transcribed theology n
 - `node tools/new.mjs book "Title"` (also `podcast`, `video`, `lecture`, `misc`) creates a note with the right fields.
 - `node tools/stamp.mjs --check` shows which notes still need an address.
 - `node tools/build.mjs` also writes `_site/<ID>/index.html` (a shareable address with a link preview that forwards to `#/<ID>`) and `_site/feed.xml`; set `SITE_URL` for absolute addresses (the workflow does).
+- `node tools/chess-diagram.mjs <spec.json>` draws chess diagrams as SVG (board, pieces, arrows, highlighted squares) from a list of `{out, fen, arrows, highlight, marks, flip}`; see the comment at the top of the file. Put them in `notes/misc/chess-diagrams/` and embed with `![[name.svg|360]]` followed by an italic caption.
