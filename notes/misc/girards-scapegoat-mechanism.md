@@ -171,6 +171,7 @@ This note is the theory. For how Girard reads Nietzsche against it, see [[Dionys
 
 ## Related
 
+- [[Enlightenment as Myth: Horkheimer, Adorno and Baudrillard]]
 - [[Hamlet: Revenge, the Ghost and Purgatory]]
 - [[Justice in the Oresteia: From Vendetta to the Court?]]
 - [[Dionysus versus the Crucified: Girard's Reading of Nietzsche]]

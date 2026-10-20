@@ -88,7 +88,7 @@ The longest and most important chapter. The Liturgy is a **journey** or processi
 
 **Worship in a Secular Age**
 
-- Secularism is not first atheism. It's the **negation of worship**: the denial of man as *homo adorans*.
+- Secularism is not first atheism. It's the **negation of worship**: the denial of man as *homo adorans*. Baudrillard's "formal liturgy of the object" describes the replacement liturgy; see [[Enlightenment as Myth: Horkheimer, Adorno and Baudrillard]].
 - *Lex orandi, lex credendi*: the Church's prayer is the source of its theology, not a decoration of it.
 
 **Sacrament and Symbol**
@@ -108,6 +108,7 @@ The longest and most important chapter. The Liturgy is a **journey** or processi
 
 ## Related
 
+- [[Enlightenment as Myth: Horkheimer, Adorno and Baudrillard]]
 - [[Joyce's Ulysses Against Homer: Bloom, Stephen and the Parody of the Mass]]
 - [[The Divine Liturgy Explained]]
 - [[The Eucharist in Type and Fulfilment]]

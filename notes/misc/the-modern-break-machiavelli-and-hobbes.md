@@ -145,6 +145,7 @@ Thomas Hobbes (1588–1679) translated Thucydides in 1629 to warn England agains
 
 ## Related
 
+- [[Enlightenment as Myth: Horkheimer, Adorno and Baudrillard]]
 - [[Thucydides on Human Nature and Power]]
 - [[Orthodox Political Theology: Symphonia, Autocracy or Democracy?]]
 - [[The Case for One Ruler: Aquinas, Dante, Maistre, Kuehnelt-Leddihn]]
