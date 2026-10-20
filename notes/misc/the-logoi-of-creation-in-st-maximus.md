@@ -124,6 +124,7 @@ An answer from the *European Philosopher* volume (Tollefsen and others):
 
 ## Related
 
+- [[Nietzsche's Bestiary: Camel, Lion, Ape, Ass and Blond Beast]]
 - [[Malebranche: Occasionalism and Seeing All Things in God]]
 - [[Essence-Energies Distinction]]
 - [[God's Uncreated Energies]]

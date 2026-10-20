@@ -54,7 +54,7 @@ N. = Nietzsche, Z = *Zarathustra* (citations by part and chapter title, Kaufmann
 **Part IV** (the afterthought)
 - Written later and first printed privately for a few friends (1885). Years have passed; Zarathustra's hair is white. He goes "fishing for men" with honey ("The Honey Sacrifice").
 - The soothsayer brings news of a **cry of distress**: the "higher man" calls for help. Zarathustra goes searching and finds a whole cast: two kings, the conscientious man of the spirit (the leech), the magician (the old enchanter), the last pope ("retired from service"), the **ugliest man** (the murderer of God, who couldn't bear being seen), the voluntary beggar who preaches to cows, and Zarathustra's own **shadow**. He sends them all to his cave.
-- The **Last Supper** parody ("The Supper"), then "On the Higher Man", a long sermon telling them to laugh. Then the **Ass Festival**: Zarathustra comes back to find them worshipping a donkey, with a litany ("Amen! And praise and honor and wisdom and thanks and glory and strength be to our god", the doxology of Rev 7:12) answered each time by the ass's "Yea-Yuh". He scolds them, then lets it pass as a festival of convalescents.
+- The **Last Supper** parody ("The Supper"), then "On the Higher Man", a long sermon telling them to laugh. Then the **Ass Festival**: Zarathustra comes back to find them worshipping a donkey, with a litany ("Amen! And praise and honor and wisdom and thanks and glory and strength be to our god", the doxology of Rev 7:12) answered each time by the ass's "Yea-Yuh". He scolds them, then lets it pass as a festival of convalescents. (Its medieval model, the Feast of the Ass, is in [[Nietzsche's Bestiary: Camel, Lion, Ape, Ass and Blond Beast|the bestiary note]].)
 - "The Drunken Song" at midnight: "Was *that* life? Well then! Once more!" The ugliest man is converted to life.
 - **"The Sign."** Morning. A **laughing lion** comes with a flock of doves. The higher men flee. Zarathustra realises what the soothsayer's trap was: **pity** for the higher men, his "final sin". "My suffering and my pity for suffering, what does it matter? Am I concerned with happiness? I am concerned with my **work**." Last words: "this is my morning, my day is breaking: rise now, rise, thou great noon!" He leaves the cave "glowing and strong as a morning sun".
 
@@ -155,6 +155,7 @@ Matthew Meyer, *Routledge Guidebook* (2025).
 
 ## Related
 
+- [[Nietzsche's Bestiary: Camel, Lion, Ape, Ass and Blond Beast]]
 - [[Nietzsche: Eternal Recurrence]]
 - [[Nietzsche: The Overman]]
 - [[Nietzsche: The Will to Power]]

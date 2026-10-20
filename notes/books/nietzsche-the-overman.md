@@ -27,7 +27,7 @@ N. = Nietzsche, Z = *Thus Spoke Zarathustra*, BGE = *Beyond Good and Evil*, GM =
 - Prologue: Zarathustra comes down the mountain and tells the marketplace that man is something to be overcome, the overman is "the meaning of the earth". He uses evolution imagery because the crowd knows it: ape → man → overman, man as a rope or bridge.
 - The opposite figure is the **last man** ("last human" in Lampert): wants comfort, equality, no suffering, blinks. The crowd shouts that they'd rather have *him*.
 - The tightrope walker falls and dies. Zarathustra gives up on crowds and decides to look for companions.
-- **Three transformations** (Z I): camel (carries duty, "you ought") → lion (says "I want", wins freedom but can't create) → child (new beginning, "sacred yes-saying", can create values).
+- **Three transformations** (Z I): camel (carries duty, "you ought") → lion (says "I want", wins freedom but can't create) → child (new beginning, "sacred yes-saying", can create values). The animals themselves are in [[Nietzsche's Bestiary: Camel, Lion, Ape, Ass and Blond Beast|Nietzsche's bestiary]].
 - Johnson's point: after the Prologue the overman **fades**. It was a lure to attract disciples. The real business of the book becomes Zarathustra facing eternal recurrence himself (Parts II and III), i.e. affirming *his own* life, not preaching a future type.
 - By Part IV the "higher men" turn his ideas into a new religion (the ass festival). They wanted a replacement god. So the teaching can't just be handed over as doctrine.
 - Johnson generally: Z's importance is not a set of doctrines (WtP, overman, recurrence) but the way it acts out moods and a journey. The whole plot, and how Lampert, Rosen, Meier and Meyer read it, is in [[Thus Spoke Zarathustra as Drama: Plot, Tragedy and Parody|Zarathustra as drama]].
@@ -86,6 +86,7 @@ Not sure the regret answer works for really bad pasts. Come back to this with [[
 
 ## Related
 
+- [[Nietzsche's Bestiary: Camel, Lion, Ape, Ass and Blond Beast]]
 - [[Thus Spoke Zarathustra as Drama: Plot, Tragedy and Parody]]
 - [[Nietzsche: Amor Fati and Becoming What You Are]]
 - [[Nietzsche: The Will to Power]]
