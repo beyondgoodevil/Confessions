@@ -34,9 +34,11 @@ For fifty years **chess was the test** for machine intelligence. It was a game o
 - **How it played.** Deep Blue searched by brute force plus selective extensions. Selinger quotes the figure of **sixty billion positions** in the three minutes allowed per move, against perhaps **three positions a second** for a grandmaster. Its evaluation function had been tuned with grandmasters' help.
 - **Kasparov's reaction.** He reported "signs of a mind in the machine" and suspected humans behind the scenes feeding it ideas. Miah calls this "an accidental Turing test admission".
 
-![[deep-blue-kasparov-1997-g6.svg|360]]
-
-*Game 6, 1997: 1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5 Ngf6 6.Bd3 e6 7.N1f3 h6? 8.Nxe6! The knight sacrifice hits the queen and g7, and the black king is stuck in the centre. Kasparov resigned after 19 moves.*
+```chess
+caption: Deep Blue vs Kasparov, game 6, New York 1997: the final game of the rematch, and Kasparov's shortest loss.
+start: 15
+1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5 Ngf6 6.Bd3 e6 7.N1f3 h6? {Either a mix-up of move order (the usual line is 7...Bd6 and 8...h6) or, as Feng-hsiung Hsu suggested, a deliberate 'anti-computer' try.} 8.Nxe6! {The knight sacrifice was known opening theory, and Deep Blue had it in its opening book. It hits the queen and g7, and Black's king is stuck in the centre. [%cal Re6d8,Re6g7]} Qe7 9.O-O fxe6 10.Bg6+ Kd8 11.Bf4 b5 12.a4 Bb7 13.Re1 Nd5 14.Bg3 Kc8 15.axb5 cxb5 16.Qd3 Bc6 17.Bf5 exf5 18.Rxe7 Bxe7 19.c4 {Kasparov resigned after 19 moves.}
+```
 
 - **The irony.** 8.Nxe6 is well-known opening theory, and Deep Blue had it **in its opening book**. Kasparov's 7...h6 was either a mix-up of move order (the usual line is 7...Bd6 and 8...h6, which he had played himself) or, as Deep Blue's architect Feng-hsiung Hsu suggested, a deliberate "anti-computer" try. Either way, the decisive moment of "man vs machine" was a human-prepared line beating a human mistake.
 

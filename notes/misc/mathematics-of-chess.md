@@ -66,9 +66,11 @@ Where Zermelo's induction *can* be carried out is in the **endgame**. Start from
 
 **Puzzle** (Max Bezzel, 1848): place eight queens on the board so that **no two attack each other**, i.e. no two share a rank, file or diagonal.
 
-![[eight-queens.svg|360]]
-
-*One solution: a1, b5, c8, d6, e3, f7, g2, h4. Every rank, file and diagonal has at most one queen.*
+```chess
+fen: 2Q5/5Q2/3Q4/1Q6/7Q/4Q3/6Q1/Q7 w - - 0 1
+caption: One of the 92 solutions: a1, b5, c8, d6, e3, f7, g2, h4. Every rank, file and diagonal has at most one queen.
+{Each queen's lines are clear of the others, e.g. the long diagonal from a1. [%cal Ga1h8,Ba1a8,Ya1h1]}
+```
 
 - **How many?** Franz Nauck (1850) gave the full count: **92 solutions**. Counting rotations and reflections as the same, there are **12 fundamental solutions**. Eleven of them have 8 variants each and one (symmetric under a 180° turn) has only 4: $11 \times 8 + 4 = 92$. Gauss took an interest in the problem, but the claim that he solved it first appears to be wrong.
 - **Check it with arithmetic.** Number the files and ranks 1–8. Queens on $(c, r)$ don't share a diagonal exactly when all the differences $c - r$ are distinct and all the sums $c + r$ are distinct. For the solution above, the ranks are 1, 5, 8, 6, 3, 7, 2, 4 (a permutation), the differences are 0, −3, −5, −2, 2, −1, 5, 4 and the sums are 2, 7, 11, 10, 8, 13, 9, 12. All distinct.
@@ -78,9 +80,14 @@ Where Zermelo's induction *can* be carried out is in the **endgame**. Start from
 
 **Puzzle:** move a knight so that it visits **every square exactly once**. It's **closed** (re-entrant) if the last square is a knight's move from the first.
 
-![[knight-moves.svg|360]]
-
-*The knight on d4 has 8 moves; the knight in the corner on a1 has only 2. That difference is the key to Warnsdorff's rule.*
+```chess
+fen: 8/8/8/8/8/8/8/N7 w - - 0 1
+solo: true
+trail: true
+start: 0
+caption: A complete knight's tour found by Warnsdorff's rule, starting from a1: always move to the square with the fewest onward moves. Press play to watch the knight visit all 64 squares.
+{From the corner the knight has only 2 moves; from a central square it has 8. Warnsdorff's rule visits the awkward squares first. [%cal Ga1b3,Ga1c2]} 1.Nb3 2.Nc1 3.Na2 4.Nb4 5.Na6 6.Nb8 7.Nd7 8.Nf8 9.Nh7 10.Ng5 11.Nh3 12.Ng1 13.Ne2 14.Ng3 15.Nh1 16.Nf2 17.Nd1 18.Nb2 19.Na4 20.Nb6 21.Na8 22.Nc7 23.Ne8 24.Ng7 25.Nh5 26.Nf6 27.Ng8 28.Nh6 29.Ng4 30.Nh2 31.Nf1 32.Nd2 33.Nb1 34.Nc3 35.Ne4 36.Nc5 37.Ne6 38.Nd8 39.Nb7 40.Na5 41.Nc6 42.Na7 43.Nc8 44.Ne7 45.Nd5 46.Nf4 47.Nd3 48.Ne1 49.Ng2 50.Nh4 51.Nf3 52.Nd4 53.Nf5 54.Ne3 55.Nc2 56.Na3 57.Nb5 58.Nd6 59.Nc4 60.Ne5 61.Nf7 62.Nh8 63.Ng6
+```
 
 - **History.** Studied by Euler (a memoir of 1759, published 1766) among many others, and much older in Indian and Arabic sources.
 - **Warnsdorff's rule** (H. C. von Warnsdorf, 1823): always move to the square from which the knight will have the **fewest onward moves**. Visit the hard-to-reach squares (corners and edges) first, before they get cut off. It's a simple greedy heuristic that almost always finds a tour on an 8×8 board.
@@ -91,9 +98,11 @@ Where Zermelo's induction *can* be carried out is in the **endgame**. Start from
 
 **Puzzle:** cut off two opposite corners (a1 and h8). Can the remaining 62 squares be covered exactly by 31 dominoes, each covering two adjacent squares?
 
-![[mutilated-chessboard.svg|360]]
-
-*Squares a1 and h8 removed. Both are dark squares.*
+```chess
+fen: 8/8/8/8/8/8/8/8 w - - 0 1
+caption: The mutilated chessboard: remove a1 and h8 (both dark squares). Every domino covers one light and one dark square, but 30 dark and 32 light remain, so 31 dominoes can't cover the board.
+{[%csl Ra1,Rh8]}
+```
 
 - **No.** Every domino covers **one light and one dark** square, so 31 dominoes cover 31 of each. But a1 and h8 are the **same colour** (both dark), so the mutilated board has **32 light and 30 dark** squares. Impossible.
 - **Why it's famous:** trying cases is hopeless, but one well-chosen **invariant** (colour counting) settles it in a line. It's the same colour fact that rules out closed knight's tours on odd boards. Good mathematics often means finding the right thing to count.

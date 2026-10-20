@@ -127,6 +127,7 @@ function makeMove(st, m) {
     half: isPawn || m.capture ? 0 : st.half + 1, full: st.full + (us === 'b' ? 1 : 0) };
 }
 function legalMoves(st) {
+  if (kingSq(st.board, st.turn) < 0) return pseudoMoves(st); // puzzle boards without kings
   return pseudoMoves(st).filter(m => {
     const n = makeMove(st, m), k = kingSq(n.board, st.turn);
     return k >= 0 && !attacked(n.board, k, n.turn);
@@ -159,7 +160,7 @@ function findMove(st, token) {
   }
   return null;
 }
-const statusOf = st => { const l = legalMoves(st).length, c = inCheck(st); return l ? (c ? 'check' : '') : (c ? 'mate' : 'stalemate'); };
+const statusOf = st => { if (kingSq(st.board, st.turn) < 0) return ''; const l = legalMoves(st).length, c = inCheck(st); return l ? (c ? 'check' : '') : (c ? 'mate' : 'stalemate'); };
 
 /* ======================= block parsing ======================= */
 function parseComment(raw) {
@@ -180,11 +181,13 @@ function parseComment(raw) {
 function parseBlock(src) {
   const opts = {}; const lines = String(src).replace(/\r/g, '').split('\n'); let i = 0;
   for (; i < lines.length; i++) {
-    const m = lines[i].match(/^\s*(fen|flip|start|caption|title|orientation)\s*:\s*(.*)$/i);
+    const m = lines[i].match(/^\s*(fen|flip|start|caption|title|orientation|solo|trail)\s*:\s*(.*)$/i);
     if (m) opts[m[1].toLowerCase()] = m[2].trim(); else if (lines[i].trim()) break;
   }
   const text = lines.slice(i).join('\n');
   const st0 = parseFEN(opts.fen || START);
+  const yes = v => /^(true|yes|1|on)$/i.test(v || '');
+  const solo = yes(opts.solo);
   const plies = [{ st: st0, san: null, move: null, comment: '', arrows: [], marks: [], glyph: '' }];
   const tokens = text.match(/\{[^}]*\}|\(|\)|\$\d+|[^\s{}()]+/g) || [];
   let depth = 0;
@@ -204,12 +207,14 @@ function parseBlock(src) {
       throw new Error(`illegal or unreadable move "${tok}" (${prev.turn === 'w' ? 'White' : 'Black'} to play, after ${plies.length - 1} half-moves)`);
     }
     const glyph = (tok.match(/[!?]+$/) || [''])[0];
-    plies.push({ st: makeMove(prev, found.m), san: found.san, move: found.m, comment: '', arrows: [], marks: [], glyph });
+    const next = makeMove(prev, found.m);
+    if (solo) { next.turn = prev.turn; next.full = prev.full + 1; next.ep = -1; } // one side keeps moving (puzzle boards)
+    plies.push({ st: next, san: found.san, move: found.m, comment: '', arrows: [], marks: [], glyph });
   }
   let start = plies.length - 1;
   if (opts.start !== undefined && opts.start !== '' && opts.start !== 'end') start = Math.max(0, Math.min(plies.length - 1, parseInt(opts.start, 10) || 0));
   const flip = /^(true|yes|black|1)$/i.test(opts.flip || opts.orientation || '');
-  return { plies, start, flip, caption: opts.caption || opts.title || '' };
+  return { plies, start, flip, caption: opts.caption || opts.title || '', trail: yes(opts.trail) };
 }
 
 /* ======================= graphics ======================= */
@@ -305,6 +310,9 @@ const CSS = `
 .cv-moves .m:hover{background:var(--surface,#f4f5f7)}
 .cv-moves .m.cur{background:var(--accent,#1d4ba0);color:var(--paper,#fff)}
 .cv-moves .m.has-note::after{content:"";display:inline-block;width:.32em;height:.32em;border-radius:50%;background:currentColor;opacity:.5;margin-left:.22em;vertical-align:.25em}
+.cv-trail{display:flex;align-items:center;justify-content:center;font-size:clamp(9px,2.6vw,14px);font-weight:700;font-variant-numeric:tabular-nums;color:#2b1d10;text-shadow:0 1px 0 rgba(255,255,255,.5)}
+.cv-trail.d{color:#fbefd9;text-shadow:0 1px 1px rgba(0,0,0,.5)}
+.cv-trail.now{background:radial-gradient(circle,rgba(255,222,89,.75),rgba(255,222,89,.25))}
 .cv-err{margin:.6em 0 0;padding:.6em .8em;border-radius:8px;background:#fde8e8;color:#8a1c1c;font-size:.88em}
 .cv-src{display:none}
 @media (max-width:480px){.cv-ply,.cv-sep{display:none}.cv-btn{width:2.3em;height:2.2em}}
@@ -455,6 +463,10 @@ function Viewer(pre, data, srcText) {
     fxL.innerHTML = '';
     if (p.move) { sqFx(p.move.from, 'cv-last'); sqFx(p.move.to, 'cv-last'); }
     for (const m of p.marks) sqFx(m.sq, 'cv-mk-' + m.col);
+    if (data.trail && data.plies.length > 1) for (let i = 0; i <= ply; i++) {
+      const sq = i ? data.plies[i].move.to : data.plies[1].move.from, n = el('div', 'cv-sqfx cv-trail' + (((sq & 7) + (sq >> 3)) % 2 === 0 ? ' d' : '') + (i === ply ? ' now' : ''), String(i + 1));
+      place(n, sq); fxL.append(n);
+    }
     const status = statusOf(p.st);
     if (status === 'check' || status === 'mate') sqFx(kingSq(p.st.board, p.st.turn), status === 'mate' ? 'cv-mate' : 'cv-check');
     arrows.innerHTML = '';
