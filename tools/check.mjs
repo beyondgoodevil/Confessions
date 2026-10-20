@@ -1,7 +1,7 @@
 // Lists [[links]] that don't point at any note, and notes nothing links to.
 // Also reports problems that quietly degrade a note: front matter that isn't valid YAML,
 // duplicate addresses, titles shared by two notes (so [[Title]] is ambiguous), notes with
-// identical text, and embedded images that aren't in the repository.
+// identical text, embedded images that aren't in the repository, and ```chess blocks with illegal moves.
 //   node tools/check.mjs            report
 //   node tools/check.mjs --github   also write the report to the GitHub Actions run summary
 import fs from 'node:fs';
@@ -67,6 +67,14 @@ for (const g of group(notes, n => { const b = n.body.replace(/\n#{2,3}\s+(Relate
 const media = new Set(walk(path.join(ROOT, 'notes')).filter(f => MEDIA_EXT.test(f)).map(f => rel(f).split('/').pop().toLowerCase()));
 for (const n of notes) for (const m of n.body.matchAll(/!\[\[([^\]|#]+\.(?:png|jpe?g|gif|svg|webp|avif|bmp|pdf))/gi)) {
   if (!media.has(m[1].trim().split('/').pop().toLowerCase())) problems.push([n.path, `embeds ${m[1].trim()}, which isn't anywhere in notes/`]);
+}
+// ```chess blocks must parse and every move must be legal (same engine the site uses)
+{
+  const { createRequire } = await import('node:module');
+  const CV = createRequire(import.meta.url)(path.join(ROOT, 'assets', 'chess-viewer.js'));
+  for (const n of notes) for (const m of n.body.matchAll(/```chess[^\n]*\n([\s\S]*?)```/g)) {
+    try { CV.parseBlock(m[1]); } catch (e) { problems.push([n.path, `chess diagram: ${e.message}`]); }
+  }
 }
 if (problems.length) {
   console.log(`\n${problems.length} problem${problems.length === 1 ? '' : 's'} to fix:`);

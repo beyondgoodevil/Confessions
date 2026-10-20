@@ -44,15 +44,18 @@ A **pin** is when a piece can't move (or shouldn't) because it would expose a mo
 
 1. **Relative pin.** The pinned piece *can* legally move but loses something behind it. After 1.e4 e5 2.Nf3 d6 3.Nc3 Bg4, the knight on f3 is pinned to the queen on d1. If White plays 4.d4? exd4 5.Nxd4??, then 5...Bxd1 wins the queen. Better is 4.h3, "putting the question" to the bishop: 4...Bxf3 5.Qxf3 trades and ends the pin.
 
-![[tactics-relative-pin.svg|360]]
-
-*After 1.e4 e5 2.Nf3 d6 3.Nc3 Bg4: the f3-knight is pinned to the queen on d1. It can legally move, but the queen falls if it does.*
+```chess
+caption: A relative pin. After 3...Bg4 the f3-knight can legally move, but the queen behind it would fall, as 5.Nxd4?? shows.
+start: 6
+1.e4 e5 2.Nf3 d6 3.Nc3 Bg4 {The bishop pins the f3-knight to the queen on d1. Better now is 4.h3, putting the question to the bishop. [%cal Rg4d1] [%csl Yf3]} 4.d4 exd4 5.Nxd4?? {The pinned knight moves... [%cal Rg4d1]} Bxd1 {...and the queen is gone.}
+```
 2. **Absolute pin.** The pin is against the **king**, so the pinned piece *can't legally* move at all. This is the strongest kind. The pinned piece is a sitting duck: attack it again (often with a pawn) and it falls.
 3. **Pinning the queen.** After 1.e4 d5 2.exd5 Qxd5 3.Nc3 (hitting the queen), the worst retreat is 3...Qc6??, because 4.Bb5 pins the queen to the king along b5–c6–d7–e8. The queen (9) goes for a bishop (3), "a gain of 6 points!"
 
-![[tactics-queen-pin.svg|360]]
-
-*After 3...Qc6?? 4.Bb5: an absolute pin. The queen can't leave the b5–e8 diagonal without exposing her king.*
+```chess
+caption: An absolute pin: after 4.Bb5 the queen can't leave the b5–e8 diagonal without exposing her king.
+1.e4 d5 2.exd5 Qxd5 3.Nc3 {The knight hits the queen, so she has to move.} Qc6?? 4.Bb5 {The queen is pinned to the king: 9 points for 3. [%cal Rb5e8] [%csl Rc6]}
+```
 4. **Greed punished.** In an endgame where Black has a rook against White's bishop and pawn (and should just activate his king and rook), he grabs a pawn with ...Rxd5??. Then Bb3 pins the rook to his king, and White wins it. Seirawan's moral: when someone offers you a free pawn, "study the board carefully to figure out what trick he has in mind."
 
 ## 3. The Fork
@@ -61,9 +64,12 @@ A **fork** (or **double attack**) is one piece attacking two or more enemy piece
 - Any piece can fork. The queen is the best, since she attacks in eight directions. A pawn fork on two pieces is the cheapest.
 - But the **knight** is so good at it that Seirawan nicknames it "Mr. Fork". It jumps, so it can't be blocked, and its odd L-shaped move lets it attack pieces that aren't on a common line. The classic is a **royal fork**: a knight checking the king while hitting the queen or a rook. The king must move, and the queen is lost for a knight.
 
-![[tactics-royal-fork.svg|360]]
-
-*A knight fork: Nc7+ checks the king on e8 and attacks the rook on a8. The king must move, and the rook falls.*
+```chess
+fen: r3k2r/1p3ppp/8/1N6/8/8/5PPP/6K1 w - - 0 1
+caption: A knight fork: Nc7+ checks the king and attacks the rook at the same time.
+start: 1
+1.Nc7+ {Check, and the rook on a8 is attacked too. [%cal Rc7e8,Rc7a8]} Kd7 2.Nxa8 {The king had to move, so the rook falls.}
+```
 - Beginners who suffer this, he says, often start fearing knights and swapping them off at any price.
 
 ## 4. Discovered Attacks and Other Tactics
@@ -94,9 +100,10 @@ In the opening, the f7-pawn (f2 for White) is protected **only by the king**, wh
 **Scholar's mate**
 - 1.e4 e5 2.Bc4 Nc6 3.Qh5 Nf6?? 4.Qxf7#. The queen and bishop combine on f7.
 
-![[scholars-mate.svg|360]]
-
-*Scholar's mate: 4.Qxf7#. The queen takes on f7, protected by the c4-bishop, and the king has no escape.*
+```chess
+caption: Scholar's mate. Queen and bishop combine against f7, which only the king defends.
+1.e4 e5 2.Bc4 Nc6 3.Qh5 {Threatening Qxf7#. The right defence is 3...g6. [%cal Rh5f7,Rc4f7] [%csl Yf7]} Nf6?? 4.Qxf7#
+```
 - **Defence:** 3...g6 (not ...Nf6). If White keeps going with 4.Qf3, threatening f7 again, 4...Nf6 blocks.
 - **Seirawan won't recommend it.** Against an opponent who sees it (most will), the queen has come out too early and will lose time running from Black's developing pieces (his second principle, time).
 
@@ -104,9 +111,10 @@ In the opening, the f7-pawn (f2 for White) is protected **only by the king**, wh
 - 1.e4 e5 2.Nf3 d6 3.Bc4 Bg4 (pinning the f3-knight) 4.Nc3 g6? 5.Nxe5!! "White seems to have gone berserk!" The pin is fake: if 5...Bxd1?, then 6.Bxf7+ Ke7 7.Nd5#.
 - The mating net: the d5-knight checks; d7 is covered by the e5-knight, e6 and e8 by the f7-bishop, f6 by the d5-knight, and d8 and f8 are blocked by Black's own queen and bishop.
 
-![[legalls-mate.svg|360]]
-
-*Legall's mate: 7.Nd5#. The d5-knight checks; the e5-knight covers d7, the f7-bishop covers e6 and e8, and Black's own queen and bishop block d8 and f8.*
+```chess
+caption: Legall's mate. The 'pin' on f3 is only relative, so White breaks it and mates.
+1.e4 e5 2.Nf3 d6 3.Bc4 Bg4 {The bishop pins the f3-knight to the queen. [%cal Rg4d1]} 4.Nc3 g6? 5.Nxe5!! {White seems to have gone berserk! 5...dxe5 6.Qxg4 only loses a pawn. [%cal Gc4f7,Ge5f7]} Bxd1? {Black eats the queen...} 6.Bxf7+ Ke7 7.Nd5# {...and gets heartburn. The e5-knight covers d7, the bishop covers e6 and e8. [%cal Gd5e7,Ge5d7,Gf7e6]}
+```
 
 - Black's best after 5.Nxe5 is to "limit his losses" with 5...dxe5 6.Qxg4, just a pawn down. "Black ate too much and got heartburn."
 - **Lesson:** a pin on a knight against the queen is only a relative pin. If the knight's move creates a bigger threat, the pin doesn't hold.
@@ -117,17 +125,21 @@ In the opening, the f7-pawn (f2 for White) is protected **only by the king**, wh
 - 1.e4 e5 2.Nf3 Nc6 3.Bc4 d6 4.Nc3 Bg4 5.O-O. (Legall's 5.Nxe5 wouldn't work here because 5...Nxe5 both stops the mate and defends the g4-bishop.)
 - 5...Nge7?? (5...Nf6 was better, defending g4). Then 6.Bxf7+! Kxf7 7.Ng5+. The knight checks and **uncovers** the queen's attack on the undefended g4-bishop down the d1–g4 diagonal: "a perfect example of a discovered attack". 7...Ke8 8.Qxg4, and White is a pawn up.
 
-![[excommunicated-bishop.svg|360]]
-
-*The Excommunicated Bishop after 7.Ng5+: the knight checks the king on f7 and uncovers the d1-queen's attack on the undefended g4-bishop.*
+```chess
+caption: The Excommunicated Bishop: a discovered attack on an undefended piece.
+start: 13
+1.e4 e5 2.Nf3 Nc6 3.Bc4 d6 4.Nc3 Bg4 5.O-O {Legall's 5.Nxe5 wouldn't work here: 5...Nxe5 stops the mate and guards g4.} Nge7?? {5...Nf6 was needed, defending the bishop.} 6.Bxf7+ Kxf7 7.Ng5+ {The knight checks and uncovers the queen's attack on the undefended g4-bishop. [%cal Rg5f7,Gd1g4] [%csl Rg4]} Ke8 8.Qxg4 {White is a pawn up.}
+```
 
 **The Queen That Never Came Home**
 - 1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 e6 5.Bd3 Qxd4?? Black thinks White has overlooked a pawn.
 - 6.Bb5+! The bishop gives check and uncovers the d1-queen's attack on d4. Black is in check, so he can't save his queen. And 6...Nc6 doesn't help: after 7.Qxd4 the knight is pinned to the king and can't recapture.
 
-![[queen-never-came-home.svg|360]]
-
-*The Queen That Never Came Home: 6.Bb5+ checks the king and uncovers the d1-queen's attack on d4.*
+```chess
+caption: The Queen That Never Came Home: snatching a pawn with the queen meets a discovered attack.
+start: 11
+1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 e6 5.Bd3 Qxd4?? {Black thinks White has overlooked a pawn.} 6.Bb5+ {Check, and the d1-queen now attacks d4. [%cal Rb5e8,Gd1d4] [%csl Rd4]} Nc6 7.Qxd4 {The c6-knight is pinned, so it can't recapture.}
+```
 - **Lesson:** be very careful about snatching pawns with the queen in the opening. She can get "caught dipping her hand into the cookie jar".
 
 ## 8. Trap Type 3: The Battering Ram
@@ -137,24 +149,27 @@ These open up the king's cover.
 **Fool's mate** (the fastest mate possible)
 - Seirawan's version: 1.f4 (the Bird Opening) e5 2.g4?? Qh4#. "For no reason whatsoever White has opened up his own King to attack on the e1–h4 diagonal." The better-known version is 1.f3 e5 2.g4?? Qh4#.
 
-![[fools-mate.svg|360]]
-
-*Fool's mate (Seirawan's version): 2...Qh4#. The e1–h4 diagonal is wide open and the king can't escape.*
+```chess
+caption: Fool's mate (Seirawan's version, from the Bird Opening).
+1.f4 e5 2.g4?? {For no reason whatsoever White opens up his own king.} Qh4# {[%cal Rh4e1]}
+```
 
 **The From's Gambit trap**
 - 1.f4 e5 2.fxe5 d6 3.exd6 Bxd6. Black has given a pawn for development (a **gambit**). Now 4.Nf3 would develop and stop ...Qh4+. Instead 4.Nc3?? Qh4+ 5.g3 (forced) Qxg3+!! 6.hxg3 Bxg3#. The bishop mates on the g3–e1 diagonal. Every escape square is either covered (f2) or blocked by White's own pieces.
 
-![[froms-gambit-trap.svg|360]]
-
-*The From's Gambit trap: 6...Bxg3#. The bishop mates down the g3–e1 diagonal.*
+```chess
+caption: The From's Gambit trap. Black gives a pawn for development, and 4.Nc3?? walks into mate.
+1.f4 e5 2.fxe5 d6 3.exd6 Bxd6 4.Nc3?? {4.Nf3 was needed, developing and stopping ...Qh4+. [%cal Rd8h4]} Qh4+ 5.g3 Qxg3+!! 6.hxg3 Bxg3# {[%cal Rg3e1]}
+```
 - **Lesson:** "the King is not safe in his starting position", so castle early.
 
 **The cheap check: the Caro-Kann smothered mate**
 - 1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Qe2 Ngf6?? 6.Nd6#. The knight can't be taken because the e7-pawn is **pinned** by the queen down the e-file, and the king is hemmed in by its own pieces: a **smothered mate**.
 
-![[caro-kann-smothered-mate.svg|360]]
-
-*The Caro-Kann trap: 6.Nd6#. The e7-pawn is pinned by the queen on e2, so it can't take the knight, and the king is boxed in by its own pieces.*
+```chess
+caption: The Caro-Kann trap: a smothered mate on d6. Seirawan calls 5.Qe2 a 'cheap check': if Black sees it, the queen is just badly placed.
+1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Qe2 {Hoping for 5...Ngf6??. After 5...Ndf6 White's queen blocks the f1-bishop and has left d4. [%cal Ge4d6]} Ngf6?? 6.Nd6# {The e7-pawn is pinned by the queen, and the king is boxed in by its own pieces. [%cal Gd6e8,Ge2e7]}
+```
 - **Why "cheap"?** If Black sees it and plays 5...Ndf6, White's 5.Qe2 is just a bad move. It took a defender away from d4 and blocked the f1-bishop. Seirawan's moral: **"Never make a move with the thought, 'I hope he doesn't see it.'"**
 
 ## 9. The Traps at a Glance

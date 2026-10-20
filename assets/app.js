@@ -9,10 +9,11 @@ const LIB = {
   yaml: 'https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js',
   purify: 'https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js',
   hljs: 'https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.9.0/highlight.min.js',
-  mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js'
+  mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js',
+  chess: 'assets/chess-viewer.js?v=6'
 };
 const libReady = n => n === 'marked' ? !!window.marked : n === 'yaml' ? !!window.jsyaml : n === 'purify' ? !!window.DOMPurify
-  : n === 'hljs' ? !!window.hljs : n === 'mathjax' ? !!(window.MathJax && window.MathJax.typesetPromise) : false;
+  : n === 'hljs' ? !!window.hljs : n === 'mathjax' ? !!(window.MathJax && window.MathJax.typesetPromise) : n === 'chess' ? !!window.ChessViewer : false;
 const libWait = {};
 function loadLib(name) {
   if (libReady(name)) return Promise.resolve(true);
@@ -367,6 +368,8 @@ function renderNoteBody(n) {
   return S.cache.get(n.id);
 }
 async function enhance(el) {
+  // ```chess blocks become interactive boards (assets/chess-viewer.js)
+  if (el.querySelector('pre > code.language-chess') && await loadLib('chess')) { try { window.ChessViewer.mount(el); } catch (e) { console.warn(e); } }
   if (el.querySelector('pre > code[class*="language-"]') && await loadLib('hljs')) {
     for (const code of $$('pre > code[class*="language-"]', el)) {
       const l = (code.className.match(/language-([\w+#-]+)/) || [])[1];
