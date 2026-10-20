@@ -153,6 +153,7 @@ Still bothers me a bit: if God's knowledge *depends* on what I do, does that put
 
 ## Related
 
+- [[The Mathematics of Chess: Zermelo, Shannon, Eight Queens and the Knight's Tour]]
 - [[Synergy: Grace and Free Will]]
 - [[The Problem of Evil and Theodicy]]
 - [[Calvinism Views on Humans]]

@@ -130,6 +130,7 @@ Each is a separate argument. If materialism can't make room for one of them, it 
 
 ## Related
 
+- [[Can a Computer Understand Chess? Turing, Searle, Dreyfus and Deep Blue]]
 - [[TAG]]
 - [[Mind and Body: Dualism, Materialism, Emergence]]
 - [[Philosophy of Logic: What Grounds the Laws of Logic]]

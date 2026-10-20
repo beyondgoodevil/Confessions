@@ -164,6 +164,7 @@ Put Robinson and Kim side by side: Robinson says reduction of thought makes mean
 
 ## Related
 
+- [[Can a Computer Understand Chess? Turing, Searle, Dreyfus and Deep Blue]]
 - [[Identity and Leibniz's Law]]
 - [[Presentism vs Eternalism]]
 - [[The Problem of Universals: Realism vs Nominalism]]

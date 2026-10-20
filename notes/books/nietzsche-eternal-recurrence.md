@@ -101,6 +101,7 @@ See [[Nietzsche: The Will to Power]] sec. 7.
 
 ## Related
 
+- [[The Mathematics of Chess: Zermelo, Shannon, Eight Queens and the Knight's Tour]]
 - [[Thus Spoke Zarathustra as Drama: Plot, Tragedy and Parody]]
 - [[Nietzsche: Amor Fati and Becoming What You Are]]
 - [[Nietzsche: The Overman]]
