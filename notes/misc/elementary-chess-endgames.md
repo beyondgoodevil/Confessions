@@ -34,28 +34,25 @@ Two facts first:
 
 **The method:** use the queen to trap the enemy king in a **box**, then make the box smaller with quiet queen moves, never with pointless checks. Once the king is pinned to the edge, bring your own king over and mate. It isn't the fastest method, but it's the easiest.
 
-![[kq-box.svg|360]]
-
-*After 1.Qb5: the queen cuts off the fifth rank and the b-file, so the black king is in a box (shaded) on files c–h, ranks 6–8.*
+```chess
+fen: 8/8/3k4/8/8/8/8/KQ6 w - - 0 1
+caption: King and queen against king by the box method: shrink the box with quiet queen moves, then bring the king.
+start: 1
+1.Qb5 {The queen cuts off the fifth rank and the b-file: the king is boxed in on files c–h, ranks 6–8. [%csl Yc6,Yc7,Yc8,Yd6,Yd7,Yd8,Ye6,Ye7,Ye8,Yf6,Yf7,Yf8,Yg6,Yg7,Yg8,Yh6,Yh7,Yh8]} Ke6 2.Qc5 {Not 2.Qc6+?, which lets the king out with 2...Ke5. No useless checks.} Kf6 3.Qd5 Kg6 4.Qe5 Kf7 5.Qd6 Kg7 6.Qe6 Kh7 7.Qg4 {The king is stuck on h6, h7 and h8. Now the white king walks over. [%cal Ba1f6] [%csl Yh6,Yh7,Yh8]} Kh6 8.Kb2 Kh7 9.Kc3 Kh8 {Careful: 10.Qg6?? here would be stalemate. [%cal Rg4g6]} 10.Kd4 Kh7 11.Ke5 Kh8 12.Kf6 Kh7 13.Qg7# {The queen, protected by the king, covers every flight square.}
+```
 
 Seirawan's line (my reconstruction of his starting position, with the white king on a1):
 - 1.Qb5 Ke6 2.Qc5 Kf6 3.Qd5 Kg6 4.Qe5 Kf7 5.Qd6 Kg7 6.Qe6 Kh7 7.Qg4.
 - Each queen move takes away a rank or a file. He points out that White "does not lose track of his goals by uselessly checking". For example, 2.Qc6+? would let the king out with 2...Ke5.
 - If 4...Kh6, then 5.Qg3 traps it on the h-file at once.
 
-![[kq-edge.svg|360]]
-
-*After 7.Qg4: the black king can only shuffle between h6, h7 and h8. Now the white king walks over (blue arrow).*
-
 - 7...Kh6 8.Kb2 Kh7 9.Kc3 Kh8 10.Kd4 Kh7 11.Ke5 Kh8 12.Kf6 Kh7 13.Qg7#.
 
-![[kq-stalemate.svg|360]]
-
-*The trap to avoid: with the black king on h8, 10.Qg6?? is stalemate. Black isn't in check but has no legal move, so it's a draw.*
-
-![[kq-mate.svg|360]]
-
-*13.Qg7#: the queen, protected by the king on f6, covers every square around the black king.*
+```chess
+fen: 7k/8/8/8/6Q1/2K5/8/8 w - - 0 10
+caption: The trap to avoid. Black isn't in check but has no legal move, so it's a draw.
+{With the king on h8, 10.Qg6?? throws the win away.} 10.Qg6?? {Stalemate: g8, g7 and h7 are all covered. [%csl Rg8,Rg7,Rh7]}
+```
 
 - **Stalemate is the danger.** When the box gets very small, always check that the defending king still has a move.
 
@@ -66,24 +63,25 @@ The rook is weaker, so the king has to do more of the work. Seirawan's principle
 - **Black** should keep his king in the **middle** of the board, where mate is impossible.
 - **The key position is the "face-off"** (what other books call **opposition**): the two kings directly opposite each other with one square between. Then a rook check along the edge is mate, or at least forces the king back a row. "A Rook check is always strong when the Kings face off, because the checked King is thereby forced to relinquish ground."
 
-![[kr-cage.svg|360]]
-
-*The cage: with the rook on e5 and the white king on d4, the black king is confined to the shaded squares (files f–h, ranks 6–8). White shrinks the cage with king moves, using the rook only to cut off ranks or files.*
+```chess
+fen: 8/8/8/3k4/8/8/8/KR6 w - - 0 1
+caption: King and rook against king (Seirawan's line, from my reconstruction of his starting position). Kings first; the rook only cuts off ranks and files.
+start: 13
+1.Kb2 Kd4 {1...Kc4 would be met by 2.Rd1!, trapping the king on the a- to c-files.} 2.Kc2 Ke4 3.Kc3 Ke5 4.Kc4 Ke4 5.Re1+ {A rook check is strong when the kings face off: the king has to give ground.} Kf5 6.Kd4 Kf6 7.Re5 {The cage: the black king is confined to files f–h, ranks 6–8. [%csl Yf6,Yf7,Yf8,Yg6,Yg7,Yg8,Yh6,Yh7,Yh8]} Kg6 8.Ke4 Kf6 9.Kf4 {Not the hasty 9.Rf5+?, which lets the king run with ...Ke6.} Kf7 10.Kf5 Kg7 11.Re7+ {The king has reached the edge. Mate now needs the face-off.} Kf8 12.Kf6 {The kings face off. Black must step aside, since e8 is covered by the rook. [%csl Yf6,Yf8]} Kg8 13.Kg6 Kf8 14.Re6 {A waiting move: the rook 'steps back a bit'.} Kg8 15.Re8# {The king covers f7, g7 and h7; the rook covers the eighth rank.}
+```
 
 His main line, from the cage: 7...Kg6 8.Ke4 Kf6 9.Kf4 Kf7 10.Kf5 Kg7 11.Re7+ Kf8 12.Kf6.
 - 9.Rf5+? would be "hasty", letting the king run with ...Ke6.
 - After 11.Re7+ the king has reached the edge. Mate now needs the face-off.
 
-![[kr-face-off.svg|360]]
-
-*After 12.Kf6, Black to move: the kings face off on the f-file. The black king must step aside to g8, since e8 is covered by the rook.*
+```chess
+fen: 8/4R3/7k/5K2/8/8/8/8 w - - 0 12
+caption: The waiting move (Seirawan's side line after 11...Kh6): lose a move with the rook and the king must walk into the face-off.
+12.Rd7 {Any square along the 7th rank will do. The king's only move is h5. [%csl Rg6,Rg5,Rh7,Rg7]} Kh5 13.Rh7#
+```
 
 - 12...Kg8 13.Kg6 Kf8 14.Re6 (a waiting move: the rook "steps back a bit") Kg8 (forced) 15.Re8#.
 - **The waiting move.** When the defending king won't step into the face-off, the attacker *loses a move* with the rook along its rank or file, forcing the king to walk into it. In another of Seirawan's lines, after 11...Kh6, White plays 12.Rd7 and the king must go 12...Kh5 into the face-off, when 13.Rh7 is mate.
-
-![[kr-mate.svg|360]]
-
-*15.Re8#: the white king on g6 covers f7, g7 and h7, and the rook covers the whole eighth rank.*
 
 - **Again, beware stalemate.** In a side line Seirawan warns against 16.Rg2?? when 16.Rh3# was available.
 
@@ -93,9 +91,17 @@ Not in Seirawan's beginner chapter, but it's the next thing everyone learns. The
 
 **Opposition.** Two kings stand on the same file (or rank) with one square between them. The side that **doesn't** have to move "has the opposition". Kings can never stand next to each other, so the player who must move has to give way.
 
-![[opposition.svg|360]]
+```chess
+fen: 8/4k3/8/4K3/4P3/8/8/8 w - - 0 1
+caption: White to move: a draw. White has to give up the opposition.
+{The kings are in opposition and White must move. [%csl Ye5,Ye7]} 1.Kd5 Kd7 {Black keeps the opposition.} 2.e5 Ke7 3.e6 Ke8! 4.Kd6 Kd8 5.e7+ Ke8 6.Ke6 {Stalemate: the defending king held the square in front of the pawn.}
+```
 
-*White: king e5, pawn e4. Black: king e7. Who's to move decides the game.*
+```chess
+fen: 8/4k3/8/4K3/4P3/8/8/8 b - - 0 1
+caption: The same position with Black to move: White wins. Black must step aside and the white king gets in front.
+{Now Black has to give way. [%csl Ye5,Ye7]} 1...Kd7 2.Kf6 Ke8 3.e5 Kf8 4.e6 Ke8 5.e7 Kd7 6.Kf7 {The king controls the queening square.} Kd6 7.e8=Q
+```
 
 1. **White to move: draw.** White has to give up the opposition. 1.Kd5 Kd7 2.e5 Ke7 3.e6 Ke8! 4.Kd6 Kd8 5.e7+ Ke8 6.Ke6 is stalemate, since Black has no legal move.
 2. **Black to move: White wins.** Black must step aside and White's king gets in front. 1...Kd7 2.Kf6 Ke8 3.e5 Kf8 4.e6 Ke8 5.e7 Kd7 6.Kf7, and the pawn queens.
@@ -110,9 +116,17 @@ Not in Seirawan's beginner chapter, but it's the next thing everyone learns. The
 
 How do you tell at a glance whether a king can catch a passed pawn with no help from the other king? Draw a **square** from the pawn to its queening square, as wide as it is long. If the defending king can step into the square on its move, it catches the pawn. If not, the pawn queens.
 
-![[rule-of-the-square.svg|360]]
+```chess
+fen: 8/8/8/7k/2P5/8/8/K7 b - - 0 1
+caption: Black to move steps into the square and catches the pawn.
+{The pawn's square is c4–c8–g8–g4. [%csl Yc4,Yc5,Yc6,Yc7,Yc8,Yd4,Yd5,Yd6,Yd7,Yd8,Ye4,Ye5,Ye6,Ye7,Ye8,Yf4,Yf5,Yf6,Yf7,Yf8,Yg4,Yg5,Yg6,Yg7,Yg8]} 1...Kg5 {Inside the square.} 2.c5 Kf6 3.c6 Ke7 4.c7 Kd7 5.c8=Q+ Kxc8
+```
 
-*The pawn on c4 has four squares to go, so its square is c4–c8–g8–g4 (shaded).*
+```chess
+fen: 8/8/8/7k/2P5/8/8/K7 w - - 0 1
+caption: White to move: 1.c5 shrinks the square to c5–f8, and the king on h5 is one move too late.
+1.c5 {The new square is c5–c8–f8–f5. [%csl Yc5,Yc6,Yc7,Yc8,Yd5,Yd6,Yd7,Yd8,Ye5,Ye6,Ye7,Ye8,Yf5,Yf6,Yf7,Yf8]} Kg6 2.c6 Kf7 3.c7 Ke7 4.c8=Q
+```
 
 1. **Black to move:** 1...Kg5 steps into the square. 2.c5 Kf6 3.c6 Ke7 4.c7 Kd7 5.c8=Q+ Kxc8, and Black is in time.
 2. **White to move:** 1.c5 shrinks the square to c5–f8, and h5 is outside it. 1...Kg6 2.c6 Kf7 3.c7 Ke7 4.c8=Q, one move too late.
@@ -125,17 +139,21 @@ A pawn reaching the last rank usually becomes a queen, but not always. Promoting
 
 **1. To avoid stalemate (promote to a rook).**
 
-![[underpromotion-rook.svg|360]]
-
-*A position of the type Seirawan shows (my reconstruction), White to move. 1.dxc8=Q?? stalemates the black king on a7: a8, b8, b7 and a6 are covered by the queen, and b6 by the white king. 1.dxc8=R! leaves Black 1...Kb7, and White has the king and rook vs king ending from section 3.*
+```chess
+fen: 2r5/k2P4/8/1K6/8/8/8/8 w - - 0 1
+caption: Underpromotion to avoid stalemate (a position of the type Seirawan shows; my reconstruction). Here the pawn is better than the rook, and the rook better than the queen.
+{1.dxc8=Q?? would stalemate the king on a7: a8, b8, b7 and a6 covered by the queen, b6 by the king. [%cal Gd7c8]} 1.dxc8=R! {Now Black has a move...} Kb7 {...and White has the king and rook ending from section 3.}
+```
 
 - His point: here "the pawn is better than the Rook", and the rook is better than the queen.
 
 **2. To give a forking check (promote to a knight).**
 
-![[underpromotion-knight.svg|360]]
-
-*My own illustration of his second example. Black is a queen ahead, but 1.c8=N+! is check and forks the king on a7 and the queen on e7. After the king moves, 2.Nxe7 leaves White a knight up instead of just level.*
+```chess
+fen: 8/k1P1q3/8/8/8/8/6K1/8 w - - 0 1
+caption: Underpromotion to a knight for a forking check (my own illustration of Seirawan's second example).
+{Black is a queen ahead, and promoting to a queen would only level the material.} 1.c8=N+! {Check, and the queen on e7 is attacked too. [%cal Rc8a7,Rc8e7]} Kb7 2.Nxe7 {White is a knight up.}
+```
 
 - In Seirawan's version, White then promotes another pawn to a queen "and the win is easy".
 - **Moral:** "Generalities are useful in chess. However, the specifics of a position determine whether a particular principle applies."
