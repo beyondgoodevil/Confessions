@@ -1,5 +1,5 @@
 ---
-id: L-0029
+id: L-0028
 title: "Calc I, Lecture 25: Maxima, Minima and Critical Points"
 course: Calculus I
 lecture: 25
@@ -75,7 +75,6 @@ At an interior extremum where $f$ is differentiable, $f' = 0$; the proof is just
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 11: Extreme Values and Least Upper Bounds]]
 - [[Calc I, Lecture 26: Rolle's Theorem and the Mean Value Theorem]]
 - [[Calc I, Lecture 31: Optimization]]

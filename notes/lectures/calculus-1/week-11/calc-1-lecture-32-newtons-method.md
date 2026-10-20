@@ -1,5 +1,5 @@
 ---
-id: L-0036
+id: L-0035
 title: "Calc I, Lecture 32: Newton's Method"
 course: Calculus I
 lecture: 32
@@ -87,7 +87,6 @@ Newton's method replaces $f$ by its tangent line and solves, over and over. When
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 24: Linear Approximation and Differentials]]
 - [[Calc I, Lecture 10: The Intermediate Value Theorem]]
 - [[Calc I, Lecture 33: Antiderivatives]]

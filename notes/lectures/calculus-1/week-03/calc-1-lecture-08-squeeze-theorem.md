@@ -1,5 +1,5 @@
 ---
-id: L-0012
+id: L-0011
 title: "Calc I, Lecture 08: The Squeeze Theorem and sin x over x"
 course: Calculus I
 lecture: 8
@@ -81,7 +81,6 @@ The squeeze theorem handles limits where one factor has no limit but is bounded,
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 07: One-Sided Limits and Limits at Infinity]]
 - [[Calc I, Lecture 09: Continuity]]
 - [[Calc I, Lecture 17: Derivatives of the Trigonometric Functions]]

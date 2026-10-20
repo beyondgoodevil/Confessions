@@ -1,5 +1,5 @@
 ---
-id: L-0027
+id: L-0026
 title: "Calc I, Lecture 23: Related Rates"
 course: Calculus I
 lecture: 23
@@ -70,7 +70,6 @@ Related rates means differentiating an identity in $t$. Name the quantities as f
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 16: The Chain Rule]]
 - [[Calc I, Lecture 18: Implicit Differentiation]]
 - [[Calc I, Lecture 24: Linear Approximation and Differentials]]

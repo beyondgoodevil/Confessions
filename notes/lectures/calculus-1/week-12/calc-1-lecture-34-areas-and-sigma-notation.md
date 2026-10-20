@@ -1,5 +1,5 @@
 ---
-id: L-0038
+id: L-0037
 title: "Calc I, Lecture 34: Areas and Sigma Notation"
 course: Calculus I
 lecture: 34
@@ -72,7 +72,6 @@ Area is pinned between inner and outer rectangle sums. Sigma notation plus close
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 33: Antiderivatives]]
 - [[Calc I, Lecture 35: The Definite Integral]]
 - [[Calc I, Lecture 01: Real Numbers, Inequalities and Absolute Value]]

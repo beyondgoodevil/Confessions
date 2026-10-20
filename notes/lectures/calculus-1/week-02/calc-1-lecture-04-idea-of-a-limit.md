@@ -1,5 +1,5 @@
 ---
-id: L-0008
+id: L-0007
 title: "Calc I, Lecture 04: Tangents, Velocity and the Idea of a Limit"
 course: Calculus I
 lecture: 4
@@ -67,7 +67,6 @@ Tangent slopes and instantaneous velocities are both "what $\frac{f(a+h) - f(a)}
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 03: Graphs and the Basic Functions]]
 - [[Calc I, Lecture 05: The Epsilon-Delta Definition of a Limit]]
 - [[Calc I, Lecture 12: The Derivative]]

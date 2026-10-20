@@ -1,5 +1,5 @@
 ---
-id: L-0021
+id: L-0020
 title: "Calc I, Lecture 17: Derivatives of the Trigonometric Functions"
 course: Calculus I
 lecture: 17
@@ -76,7 +76,6 @@ In radians, $\sin' = \cos$ and $\cos' = -\sin$. Classically this follows from th
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 08: The Squeeze Theorem and sin x over x]]
 - [[Calc I, Lecture 16: The Chain Rule]]
 - [[Calc I, Lecture 18: Implicit Differentiation]]

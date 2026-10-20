@@ -1,5 +1,5 @@
 ---
-id: L-0014
+id: L-0013
 title: "Calc I, Lecture 10: The Intermediate Value Theorem"
 course: Calculus I
 lecture: 10
@@ -70,7 +70,6 @@ The IVT turns "continuous on an interval" into "takes every value in between". T
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 09: Continuity]]
 - [[Calc I, Lecture 11: Extreme Values and Least Upper Bounds]]
 - [[Calc I, Lecture 32: Newton's Method]]

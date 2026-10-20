@@ -1,5 +1,5 @@
 ---
-id: L-0031
+id: L-0030
 title: "Calc I, Lecture 27: Monotonicity and the First Derivative Test"
 course: Calculus I
 lecture: 27
@@ -83,7 +83,6 @@ The MVT shows that the sign of $f'$ controls whether $f$ goes up or down. A zero
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 26: Rolle's Theorem and the Mean Value Theorem]]
 - [[Calc I, Lecture 28: Concavity and the Second Derivative]]
 - [[Calc I, Lecture 33: Antiderivatives]]

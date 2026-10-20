@@ -1,5 +1,5 @@
 ---
-id: L-0013
+id: L-0012
 title: "Calc I, Lecture 09: Continuity"
 course: Calculus I
 lecture: 9
@@ -93,7 +93,6 @@ Continuity is "the limit equals the value". Because the limit laws and compositi
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 08: The Squeeze Theorem and sin x over x]]
 - [[Calc I, Lecture 10: The Intermediate Value Theorem]]
 - [[Calc I, Lecture 13: Differentiability and Higher Derivatives]]

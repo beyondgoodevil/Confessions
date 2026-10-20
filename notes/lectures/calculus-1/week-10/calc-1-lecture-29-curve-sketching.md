@@ -1,5 +1,5 @@
 ---
-id: L-0033
+id: L-0032
 title: "Calc I, Lecture 29: Curve Sketching"
 course: Calculus I
 lecture: 29
@@ -72,7 +72,6 @@ A good sketch comes from the checklist: symmetry, critical points and the sign o
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 28: Concavity and the Second Derivative]]
 - [[Calc I, Lecture 30: L'Hopital's Rule]]
 - [[Calc I, Lecture 07: One-Sided Limits and Limits at Infinity]]

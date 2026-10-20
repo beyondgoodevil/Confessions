@@ -1,5 +1,5 @@
 ---
-id: L-0017
+id: L-0016
 title: "Calc I, Lecture 13: Differentiability and Higher Derivatives"
 course: Calculus I
 lecture: 13
@@ -74,7 +74,6 @@ Continuity is necessary for differentiability but nowhere near sufficient. Corne
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 12: The Derivative]]
 - [[Calc I, Lecture 14: Sum, Constant Multiple and Power Rules]]
 - [[Calc I, Lecture 09: Continuity]]

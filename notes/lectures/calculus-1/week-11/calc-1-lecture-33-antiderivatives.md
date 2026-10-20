@@ -1,5 +1,5 @@
 ---
-id: L-0037
+id: L-0036
 title: "Calc I, Lecture 33: Antiderivatives"
 course: Calculus I
 lecture: 33
@@ -80,7 +80,6 @@ A primitive undoes differentiation. On an interval it's unique up to an additive
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 27: Monotonicity and the First Derivative Test]]
 - [[Calc I, Lecture 34: Areas and Sigma Notation]]
 - [[Calc I, Lecture 37: The Fundamental Theorem of Calculus]]

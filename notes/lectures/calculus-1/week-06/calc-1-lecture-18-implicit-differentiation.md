@@ -1,5 +1,5 @@
 ---
-id: L-0022
+id: L-0021
 title: "Calc I, Lecture 18: Implicit Differentiation"
 course: Calculus I
 lecture: 18
@@ -60,7 +60,6 @@ Implicit differentiation is just the chain rule applied to an equation in which 
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 17: Derivatives of the Trigonometric Functions]]
 - [[Calc I, Lecture 19: Inverse Functions and Their Derivatives]]
 - [[Calc I, Lecture 23: Related Rates]]

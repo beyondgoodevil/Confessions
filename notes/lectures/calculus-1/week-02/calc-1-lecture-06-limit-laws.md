@@ -1,5 +1,5 @@
 ---
-id: L-0010
+id: L-0009
 title: "Calc I, Lecture 06: The Limit Laws"
 course: Calculus I
 lecture: 6
@@ -75,7 +75,6 @@ One lemma about approximate arithmetic plus the "$\varepsilon/2$ and take the mi
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 05: The Epsilon-Delta Definition of a Limit]]
 - [[Calc I, Lecture 07: One-Sided Limits and Limits at Infinity]]
 - [[Calc I, Lecture 09: Continuity]]

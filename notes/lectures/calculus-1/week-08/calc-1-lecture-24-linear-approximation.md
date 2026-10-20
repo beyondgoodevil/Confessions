@@ -1,5 +1,5 @@
 ---
-id: L-0028
+id: L-0027
 title: "Calc I, Lecture 24: Linear Approximation and Differentials"
 course: Calculus I
 lecture: 24
@@ -71,7 +71,6 @@ The tangent line is the unique best linear approximation, because differentiabil
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 23: Related Rates]]
 - [[Calc I, Lecture 25: Maxima, Minima and Critical Points]]
 - [[Calc I, Lecture 32: Newton's Method]]

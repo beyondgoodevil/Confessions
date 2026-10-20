@@ -1,5 +1,5 @@
 ---
-id: L-0024
+id: L-0023
 title: "Calc I, Lecture 20: Inverse Trigonometric Functions"
 course: Calculus I
 lecture: 20
@@ -71,7 +71,6 @@ Restrict, invert, and apply $1/f'(f^{-1})$. Simplifying $\cos(\arcsin x)$ and $\
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 19: Inverse Functions and Their Derivatives]]
 - [[Calc I, Lecture 21: The Exponential and Logarithm Functions]]
 - [[Calc I, Lecture 17: Derivatives of the Trigonometric Functions]]

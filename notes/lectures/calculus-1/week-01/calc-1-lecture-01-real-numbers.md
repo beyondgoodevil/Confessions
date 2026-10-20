@@ -1,5 +1,5 @@
 ---
-id: L-0005
+id: L-0004
 title: "Calc I, Lecture 01: Real Numbers, Inequalities and Absolute Value"
 course: Calculus I
 lecture: 1
@@ -117,7 +117,6 @@ Twelve properties give all of school algebra and every rule for inequalities, in
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 02: Functions]]
 - [[Calc I, Lecture 05: The Epsilon-Delta Definition of a Limit]]
 - [[Calc I, Lecture 11: Extreme Values and Least Upper Bounds]]

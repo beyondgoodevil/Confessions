@@ -1,5 +1,5 @@
 ---
-id: L-0035
+id: L-0034
 title: "Calc I, Lecture 31: Optimization"
 course: Calculus I
 lecture: 31
@@ -66,7 +66,6 @@ An optimization problem is a closed-interval or first-derivative-test problem af
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 25: Maxima, Minima and Critical Points]]
 - [[Calc I, Lecture 28: Concavity and the Second Derivative]]
 - [[Calc I, Lecture 32: Newton's Method]]

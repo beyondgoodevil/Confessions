@@ -1,5 +1,5 @@
 ---
-id: L-0015
+id: L-0014
 title: "Calc I, Lecture 11: Extreme Values and Least Upper Bounds"
 course: Calculus I
 lecture: 11
@@ -92,7 +92,6 @@ Boundedness and the Extreme Value Theorem complete the three hard theorems. All 
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 10: The Intermediate Value Theorem]]
 - [[Calc I, Lecture 12: The Derivative]]
 - [[Calc I, Lecture 25: Maxima, Minima and Critical Points]]

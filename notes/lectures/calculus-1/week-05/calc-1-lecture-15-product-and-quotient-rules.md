@@ -1,5 +1,5 @@
 ---
-id: L-0019
+id: L-0018
 title: "Calc I, Lecture 15: The Product and Quotient Rules"
 course: Calculus I
 lecture: 15
@@ -85,7 +85,6 @@ The product rule comes from adding and subtracting $f(a+h)g(a)$, and the recipro
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 14: Sum, Constant Multiple and Power Rules]]
 - [[Calc I, Lecture 16: The Chain Rule]]
 - [[Calc I, Lecture 17: Derivatives of the Trigonometric Functions]]

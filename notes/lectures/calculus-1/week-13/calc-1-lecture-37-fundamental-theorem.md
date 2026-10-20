@@ -1,5 +1,5 @@
 ---
-id: L-0041
+id: L-0040
 title: "Calc I, Lecture 37: The Fundamental Theorem of Calculus"
 course: Calculus I
 lecture: 37
@@ -85,7 +85,6 @@ Integrating then differentiating gives back $f$ (first FTC, a squeeze between in
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 36: Properties of the Integral and Riemann Sums]]
 - [[Calc I, Lecture 33: Antiderivatives]]
 - [[Calc I, Lecture 38: Integration by Substitution]]

@@ -1,5 +1,5 @@
 ---
-id: L-0042
+id: L-0041
 title: "Calc I, Lecture 38: Integration by Substitution"
 course: Calculus I
 lecture: 38
@@ -72,7 +72,6 @@ Substitution is the chain rule run backwards, with a one-line proof from the FTC
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 37: The Fundamental Theorem of Calculus]]
 - [[Calc I, Lecture 16: The Chain Rule]]
 - [[Calc I, Lecture 39: The Logarithm as an Integral]]

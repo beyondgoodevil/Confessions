@@ -1,5 +1,5 @@
 ---
-id: L-0011
+id: L-0010
 title: "Calc I, Lecture 07: One-Sided Limits and Limits at Infinity"
 course: Calculus I
 lecture: 7
@@ -80,7 +80,6 @@ One-sided limits, limits at infinity and infinite limits are all the same ε–�
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 06: The Limit Laws]]
 - [[Calc I, Lecture 08: The Squeeze Theorem and sin x over x]]
 - [[Calc I, Lecture 29: Curve Sketching]]

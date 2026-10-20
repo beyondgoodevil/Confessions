@@ -1,5 +1,5 @@
 ---
-id: L-0023
+id: L-0022
 title: "Calc I, Lecture 19: Inverse Functions and Their Derivatives"
 course: Calculus I
 lecture: 19
@@ -81,7 +81,6 @@ An inverse exists iff $f$ is one-one. On an interval, continuity forces monotoni
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 18: Implicit Differentiation]]
 - [[Calc I, Lecture 20: Inverse Trigonometric Functions]]
 - [[Calc I, Lecture 21: The Exponential and Logarithm Functions]]

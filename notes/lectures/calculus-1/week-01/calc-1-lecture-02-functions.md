@@ -1,5 +1,5 @@
 ---
-id: L-0006
+id: L-0005
 title: "Calc I, Lecture 02: Functions"
 course: Calculus I
 lecture: 2
@@ -79,7 +79,6 @@ A function is just a set of pairs with no repeated first element: no formula is 
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 01: Real Numbers, Inequalities and Absolute Value]]
 - [[Calc I, Lecture 03: Graphs and the Basic Functions]]
 - [[Calc I, Lecture 16: The Chain Rule]]

@@ -1,5 +1,5 @@
 ---
-id: L-0025
+id: L-0024
 title: "Calc I, Lecture 21: The Exponential and Logarithm Functions"
 course: Calculus I
 lecture: 21
@@ -94,7 +94,6 @@ $\log$ is defined as the area under $1/t$, $\exp$ as its inverse, and $e^x$ as $
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 20: Inverse Trigonometric Functions]]
 - [[Calc I, Lecture 22: General Exponentials and Logarithmic Differentiation]]
 - [[Calc I, Lecture 39: The Logarithm as an Integral]]

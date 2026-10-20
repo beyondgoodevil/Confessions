@@ -1,5 +1,5 @@
 ---
-id: L-0026
+id: L-0025
 title: "Calc I, Lecture 22: General Exponentials and Logarithmic Differentiation"
 course: Calculus I
 lecture: 22
@@ -81,7 +81,6 @@ Every power reduces to base $e$: $a^x = e^{x\log a}$ and $x^a = e^{a\log x}$. Th
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 21: The Exponential and Logarithm Functions]]
 - [[Calc I, Lecture 23: Related Rates]]
 - [[Calc I, Lecture 30: L'Hopital's Rule]]

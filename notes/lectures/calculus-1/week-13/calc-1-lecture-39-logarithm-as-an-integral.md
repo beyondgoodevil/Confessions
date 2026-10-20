@@ -1,5 +1,5 @@
 ---
-id: L-0043
+id: L-0042
 title: "Calc I, Lecture 39: The Logarithm as an Integral"
 course: Calculus I
 lecture: 39
@@ -78,7 +78,6 @@ $\log$, defined as the area under $1/t$, is now fully justified: it exists becau
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 21: The Exponential and Logarithm Functions]]
 - [[Calc I, Lecture 37: The Fundamental Theorem of Calculus]]
 - [[Calc I, Lecture 38: Integration by Substitution]]

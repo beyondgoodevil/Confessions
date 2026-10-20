@@ -1,5 +1,5 @@
 ---
-id: L-0018
+id: L-0017
 title: "Calc I, Lecture 14: Sum, Constant Multiple and Power Rules"
 course: Calculus I
 lecture: 14
@@ -84,7 +84,6 @@ The sum and constant-multiple rules make differentiation linear, and the power r
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 13: Differentiability and Higher Derivatives]]
 - [[Calc I, Lecture 15: The Product and Quotient Rules]]
 - [[Calc I, Lecture 33: Antiderivatives]]

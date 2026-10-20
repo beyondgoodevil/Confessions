@@ -1,5 +1,5 @@
 ---
-id: L-0030
+id: L-0029
 title: "Calc I, Lecture 26: Rolle's Theorem and the Mean Value Theorem"
 course: Calculus I
 lecture: 26
@@ -73,7 +73,6 @@ Rolle comes from the EVT plus Fermat. The MVT is Rolle applied to $f$ minus its 
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 25: Maxima, Minima and Critical Points]]
 - [[Calc I, Lecture 27: Monotonicity and the First Derivative Test]]
 - [[Calc I, Lecture 30: L'Hopital's Rule]]

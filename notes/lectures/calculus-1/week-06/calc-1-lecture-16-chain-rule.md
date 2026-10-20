@@ -1,5 +1,5 @@
 ---
-id: L-0020
+id: L-0019
 title: "Calc I, Lecture 16: The Chain Rule"
 course: Calculus I
 lecture: 16
@@ -81,7 +81,6 @@ The chain rule is $f'$ at the inside times the derivative of the inside. The nai
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 15: The Product and Quotient Rules]]
 - [[Calc I, Lecture 17: Derivatives of the Trigonometric Functions]]
 - [[Calc I, Lecture 23: Related Rates]]

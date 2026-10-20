@@ -1,5 +1,5 @@
 ---
-id: L-0007
+id: L-0006
 title: "Calc I, Lecture 03: Graphs and the Basic Functions"
 course: Calculus I
 lecture: 3
@@ -72,7 +72,6 @@ A graph is the set of points $(x, f(x))$, and lines, powers, circles and conics 
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 02: Functions]]
 - [[Calc I, Lecture 04: Tangents, Velocity and the Idea of a Limit]]
 - [[Calc I, Lecture 13: Differentiability and Higher Derivatives]]

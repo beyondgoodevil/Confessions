@@ -1,5 +1,5 @@
 ---
-id: L-0039
+id: L-0038
 title: "Calc I, Lecture 35: The Definite Integral"
 course: Calculus I
 lecture: 35
@@ -84,7 +84,6 @@ Lower and upper sums use inf and sup on each piece. Refinement pushes them toget
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 34: Areas and Sigma Notation]]
 - [[Calc I, Lecture 36: Properties of the Integral and Riemann Sums]]
 - [[Calc I, Lecture 11: Extreme Values and Least Upper Bounds]]

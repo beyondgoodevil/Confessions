@@ -1,5 +1,5 @@
 ---
-id: L-0040
+id: L-0039
 title: "Calc I, Lecture 36: Properties of the Integral and Riemann Sums"
 course: Calculus I
 lecture: 36
@@ -95,7 +95,6 @@ Continuous functions are integrable because they're uniformly continuous on clos
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 35: The Definite Integral]]
 - [[Calc I, Lecture 37: The Fundamental Theorem of Calculus]]
 - [[Calc I, Lecture 10: The Intermediate Value Theorem]]

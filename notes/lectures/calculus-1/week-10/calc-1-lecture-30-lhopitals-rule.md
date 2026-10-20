@@ -1,5 +1,5 @@
 ---
-id: L-0034
+id: L-0033
 title: "Calc I, Lecture 30: L'Hopital's Rule"
 course: Calculus I
 lecture: 30
@@ -66,7 +66,6 @@ L'Hôpital's rule is the Cauchy MVT applied on $[a, x]$: the ratio $f/g$ equals 
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 26: Rolle's Theorem and the Mean Value Theorem]]
 - [[Calc I, Lecture 08: The Squeeze Theorem and sin x over x]]
 - [[Calc I, Lecture 22: General Exponentials and Logarithmic Differentiation]]

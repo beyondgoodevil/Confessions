@@ -1,5 +1,5 @@
 ---
-id: L-0016
+id: L-0015
 title: "Calc I, Lecture 12: The Derivative"
 course: Calculus I
 lecture: 12
@@ -72,7 +72,6 @@ The derivative is the limit of secant slopes. It **defines** the tangent line an
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 04: Tangents, Velocity and the Idea of a Limit]]
 - [[Calc I, Lecture 13: Differentiability and Higher Derivatives]]
 - [[Calc I, Lecture 24: Linear Approximation and Differentials]]

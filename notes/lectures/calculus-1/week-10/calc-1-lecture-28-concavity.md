@@ -1,5 +1,5 @@
 ---
-id: L-0032
+id: L-0031
 title: "Calc I, Lecture 28: Concavity and the Second Derivative"
 course: Calculus I
 lecture: 28
@@ -86,7 +86,6 @@ Convex means chords above the graph, which for differentiable functions is the s
 
 ## Related
 
-- [[Calc I: Course Outline]]
 - [[Calc I, Lecture 27: Monotonicity and the First Derivative Test]]
 - [[Calc I, Lecture 29: Curve Sketching]]
 - [[Calc I, Lecture 24: Linear Approximation and Differentials]]
