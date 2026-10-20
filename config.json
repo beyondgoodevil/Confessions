@@ -174,7 +174,8 @@
           "aristotle",
           "nietzsche",
           "leibniz",
-          "kant"
+          "kant",
+          "daoism"
         ]
       }
     ],
@@ -188,6 +189,7 @@
       "mit-18-06": "MIT 18.06",
       "calculus-1": "Calculus I",
       "engineering-physics-1": "Engineering Physics I",
+      "daoism": "Daoism",
       "note-taking": "Note-taking",
       "reading-lists": "Reading lists"
     }

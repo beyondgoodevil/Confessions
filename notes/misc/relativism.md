@@ -73,6 +73,7 @@ Adler's definitions (*Ten Philosophical Mistakes* ch. 5) help keep the words str
 
 ## Related
 
+- [[Zhuangzi: Perspectives, the Butterfly Dream and the Useless Tree]]
 - [[It Is Impossible to Have a Coherent Worldview Without Objective Truths]]
 - [[Skepticism]]
 - [[Would Aliens Have to Operate on Logic]]

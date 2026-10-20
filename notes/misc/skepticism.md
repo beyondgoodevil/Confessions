@@ -114,6 +114,7 @@ Besides the self-refutation charge (the reductio above):
 
 ## Related
 
+- [[Zhuangzi: Perspectives, the Butterfly Dream and the Useless Tree]]
 - [[Relativism]]
 - [[Solipsism Refuted]]
 - [[Criterion Problem]]

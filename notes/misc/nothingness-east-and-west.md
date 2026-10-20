@@ -66,7 +66,7 @@ Abe (1915–2006) put the contrast most sharply, in "Non-Being and Mu: The Metap
 - **Greeks**: non-being is privation, like darkness where light is lacking (*mē on*). Plato rejects absolute non-being (*ouk on*) as unthinkable. Being is form and good; non-being is matter and the source of evil.
 - **Christians**: *creatio ex nihilo* makes the *nihil* absolute (*ouk on*) and personal: creatures face "the abyss of nihility", and nothingness becomes the root of sin as rebellion. This is "more existential", but still being has priority.
 - So in the West, overcoming the opposition of being/non-being, life/death, good/evil means moving *toward* Being, Eternal Life, the Supreme Good.
-- **East.** Laozi: "Being is the product of Non-being". Zhuangzi: a time "before that, when even nothing did not exist". Buddhism denies a permanent self (*anātman*) and teaches dependent origination (*pratītya-samutpāda*). Nāgārjuna's **emptiness** rejects both the "eternalist" and the "nihilistic" view. It is a "negation of the negation", so "absolute negation is absolute affirmation", and "true Emptiness is wondrous Being".
+- **East.** Laozi: "Being is the product of Non-being". [[Zhuangzi: Perspectives, the Butterfly Dream and the Useless Tree|Zhuangzi]]: a time "before that, when even nothing did not exist". Buddhism denies a permanent self (*anātman*) and teaches dependent origination (*pratītya-samutpāda*). Nāgārjuna's **emptiness** rejects both the "eternalist" and the "nihilistic" view. It is a "negation of the negation", so "absolute negation is absolute affirmation", and "true Emptiness is wondrous Being".
 - **U and mu.** In Japanese, being (*u*) and non-being (*mu*) are of "completely equal force". Neither has priority. The ultimate is not a Being slanted toward *u* but a formless Emptiness beyond both, which must itself be emptied, or it becomes a third "thing".
 - **Ethics.** The same goes for life and death and for good and evil. Buddhism doesn't deny that good *should* conquer evil, but holds that good "is not strong enough to overcome evil", because they are equal and opposed. So salvation is not the victory of good but liberation from the antinomy itself: "to be master of, rather than enslaved by, good and evil". He calls the Western view "idealistic", and the Buddhist one "radically realistic with regard to human nature".
 - **Western exceptions.** He grants that the West has its negative strand: Dionysius' *Mystical Theology* (God beyond affirmation and negation), Eckhart's *Nichts*, Boehme's *Ungrund*, Nietzsche and Heidegger.
@@ -144,6 +144,7 @@ The Kyoto writers mostly know Christianity through Augustine, Eckhart, Luther, K
 
 ## Related
 
+- [[Zhuangzi: Perspectives, the Butterfly Dream and the Useless Tree]]
 - [[Apophatic and Cataphatic Theology]]
 - [[Heidegger and the God Beyond Being]]
 - [[Creation out of Nothing]]
