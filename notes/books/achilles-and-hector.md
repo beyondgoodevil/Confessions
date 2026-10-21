@@ -195,6 +195,7 @@ Seth Benardete (1930–2001) was a student of Leo Strauss at Chicago and is best
 
 ## Related
 
+- [[Porphyry's Homeric Questions: Explaining Homer From Homer]]
 - [[The Shield of Achilles: A World on a War Shield]]
 - [[Homer on Life and Death]]
 - [[How Philosophers Saved Homer: Allegory from the Stoics to the Byzantines]]

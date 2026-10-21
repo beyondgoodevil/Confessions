@@ -132,6 +132,7 @@ Dionysius's ordered ranks and triads clearly come from here. What he drops: the 
 
 ## Related
 
+- [[Porphyry's Homeric Questions: Explaining Homer From Homer]]
 - [[How Philosophers Saved Homer: Allegory from the Stoics to the Byzantines]]
 - [[St. Dionysius the Areopagite]]
 - [[Emanationism]]

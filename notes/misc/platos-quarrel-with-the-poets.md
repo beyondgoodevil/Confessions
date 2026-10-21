@@ -67,6 +67,7 @@ Plato doesn't banish art; he bans imitative poetry (Homer and the tragedians) wh
 
 ## Related
 
+- [[Porphyry's Homeric Questions: Explaining Homer From Homer]]
 - [[Achilles and Hector: The Homeric Hero]]
 - [[The Shield of Achilles: A World on a War Shield]]
 - [[Heidegger's Origin of the Work of Art and the Quarrel Over Van Gogh's Shoes]]

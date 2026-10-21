@@ -135,6 +135,7 @@ The Fathers used the same tools, and some of the same images:
 
 ## Related
 
+- [[Porphyry's Homeric Questions: Explaining Homer From Homer]]
 - [[Achilles and Hector: The Homeric Hero]]
 - [[The Shield of Achilles: A World on a War Shield]]
 - [[Panofsky's Three Levels of Meaning: Iconography and Iconology]]

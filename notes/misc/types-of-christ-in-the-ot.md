@@ -31,6 +31,7 @@ summary: Ten Old Testament types of Christ, from Adam to the manna from heaven.
 
 ## Related
 
+- [[Porphyry's Homeric Questions: Explaining Homer From Homer]]
 - [[Auerbach's Mimesis: Odysseus' Scar, Peter's Denial and Figural Realism]]
 - [[Types of Mary in the OT]]
 - [[Types of Church in the OT]]
