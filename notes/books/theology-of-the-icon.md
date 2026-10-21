@@ -200,6 +200,7 @@ The icon shows the world **transfigured**, not the world as it looks to ordinary
 
 ## Related
 
+- [[The Beauty of the Lord: Theology as Aesthetics]]
 - [[Enlightenment as Myth: Horkheimer, Adorno and Baudrillard]]
 - [[Icons Are Biblical]]
 - [[Icons: Biblical Justification]]

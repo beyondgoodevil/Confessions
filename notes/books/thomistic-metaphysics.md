@@ -135,6 +135,7 @@ Properties that go with being as such, everywhere, across the categories:
 
 ## Related
 
+- [[The Beauty of the Lord: Theology as Aesthetics]]
 - [[Aristotle's Physics: Nature, Change and the Four Causes]]
 - [[The Unmoved Mover]]
 - [[Aristotle and God as Pure Act]]
