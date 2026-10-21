@@ -141,6 +141,7 @@ Erich Auerbach (1892–1957) was a German Jewish philologist, removed from his M
 
 ## Related
 
+- [[Plato's Quarrel With the Poets: Republic X Read Three Ways]]
 - [[Joyce's Ulysses Against Homer: Bloom, Stephen and the Parody of the Mass]]
 - [[Homer on Life and Death]]
 - [[How Philosophers Saved Homer: Allegory from the Stoics to the Byzantines]]

@@ -135,6 +135,7 @@ The Fathers used the same tools, and some of the same images:
 
 ## Related
 
+- [[Plato's Quarrel With the Poets: Republic X Read Three Ways]]
 - [[Enlightenment as Myth: Horkheimer, Adorno and Baudrillard]]
 - [[Auerbach's Mimesis: Odysseus' Scar, Peter's Denial and Figural Realism]]
 - [[Homer on Life and Death]]

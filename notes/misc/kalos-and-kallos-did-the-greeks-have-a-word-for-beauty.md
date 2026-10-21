@@ -61,6 +61,7 @@ In the *Symposium*, *Phaedrus* and *Republic*, Plato puts beauty among the trans
 
 ## Related
 
+- [[Plato's Quarrel With the Poets: Republic X Read Three Ways]]
 - [[The Good in Plato]]
 - [[Beauty as a Way to God]]
 - [[Eros and Agape: Plato, Nygren, Dionysius and the Fathers]]
