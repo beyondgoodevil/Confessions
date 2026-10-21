@@ -61,6 +61,7 @@ In the *Symposium*, *Phaedrus* and *Republic*, Plato puts beauty among the trans
 
 ## Related
 
+- [[The Shield of Achilles: A World on a War Shield]]
 - [[The Beauty of the Lord: Theology as Aesthetics]]
 - [[Begetting in Beauty: Diotima's Pregnant Souls and Plotinus' On Beauty]]
 - [[Plato's Quarrel With the Poets: Republic X Read Three Ways]]

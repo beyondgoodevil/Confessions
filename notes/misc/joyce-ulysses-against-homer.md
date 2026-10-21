@@ -115,6 +115,7 @@ aliases: [Ulysses, Joyce, Leopold Bloom, Stephen Dedalus, Molly Bloom, Bloomsday
 
 ## Related
 
+- [[The Shield of Achilles: A World on a War Shield]]
 - [[Homer on Life and Death]]
 - [[Auerbach's Mimesis: Odysseus' Scar, Peter's Denial and Figural Realism]]
 - [[How Philosophers Saved Homer: Allegory from the Stoics to the Byzantines]]
