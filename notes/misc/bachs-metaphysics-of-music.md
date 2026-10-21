@@ -127,6 +127,7 @@ Bach's piety was real (the Formula of Concord, the Calov Bible notes, the B mino
 
 ## Related
 
+- [[Beethoven's Fifth: A Symphony From Four Notes]]
 - [[Pythagoras and the Pythagoreans]]
 - [[The Leibnizian Cosmological Argument]]
 - [[Natural Theology: Is It Legitimate]]
