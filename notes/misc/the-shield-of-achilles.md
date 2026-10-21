@@ -136,6 +136,7 @@ The shield of Achilles is Homer's picture of the world, with sky, law, marriage,
 
 ## Related
 
+- [[Achilles and Hector: The Homeric Hero]]
 - [[How Philosophers Saved Homer: Allegory from the Stoics to the Byzantines]]
 - [[Homer on Life and Death]]
 - [[Auerbach's Mimesis: Odysseus' Scar, Peter's Denial and Figural Realism]]
