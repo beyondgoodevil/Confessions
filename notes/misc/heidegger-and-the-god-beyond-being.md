@@ -52,6 +52,7 @@ Heidegger charged Western metaphysics with forgetting Being and reducing God to 
 
 ## Related
 
+- [[Heidegger's Origin of the Work of Art and the Quarrel Over Van Gogh's Shoes]]
 - [[Nothingness East and West: Nishitani, Tanabe, Abe and the Christian Nihil]]
 - [[The Good in Plato]]
 - [[Essence-Energies Distinction]]

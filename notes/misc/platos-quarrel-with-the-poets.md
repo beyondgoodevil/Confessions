@@ -67,6 +67,7 @@ Plato doesn't banish art; he bans imitative poetry (Homer and the tragedians) wh
 
 ## Related
 
+- [[Heidegger's Origin of the Work of Art and the Quarrel Over Van Gogh's Shoes]]
 - [[Kalos and Kallos: Did the Greeks Have a Word for Beauty?]]
 - [[The Good in Plato]]
 - [[How Philosophers Saved Homer: Allegory from the Stoics to the Byzantines]]
