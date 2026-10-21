@@ -125,6 +125,7 @@ Pseudo-Pythagorean treatises on ethics and politics (in the *Sourcebook*'s libra
 
 ## Related
 
+- [[Bach's Metaphysics of Music: Luther, Leibniz and Spinoza]]
 - [[The Presocratics: Being and Becoming]]
 - [[The Forms and the Demiurge]]
 - [[The Good in Plato]]

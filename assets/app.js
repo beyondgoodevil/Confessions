@@ -11,10 +11,13 @@ const LIB = {
   hljs: 'https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.9.0/highlight.min.js',
   mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@4.1.3/tex-chtml.js',
   chess: 'assets/chess-viewer.js?v=8',
-  plot: 'assets/plot-viewer.js?v=2'
+  plot: 'assets/plot-viewer.js?v=2',
+  abcjs: 'assets/vendor/abcjs-basic-min.js?v=6.4.4',
+  music: 'assets/music-viewer.js?v=3'
 };
 const libReady = n => n === 'marked' ? !!window.marked : n === 'yaml' ? !!window.jsyaml : n === 'purify' ? !!window.DOMPurify
-  : n === 'hljs' ? !!window.hljs : n === 'mathjax' ? !!(window.MathJax && window.MathJax.typesetPromise) : n === 'chess' ? !!window.ChessViewer : n === 'plot' ? !!window.PlotViewer : false;
+  : n === 'hljs' ? !!window.hljs : n === 'mathjax' ? !!(window.MathJax && window.MathJax.typesetPromise) : n === 'chess' ? !!window.ChessViewer : n === 'plot' ? !!window.PlotViewer
+  : n === 'abcjs' ? !!window.ABCJS : n === 'music' ? !!window.MusicViewer : false;
 // Shorthand available in every note's maths (physics-package style); plain LaTeX still works.
 const TEX_MACROS = {
   R: '\\mathbb{R}', N: '\\mathbb{N}', Z: '\\mathbb{Z}', Q: '\\mathbb{Q}', C: '\\mathbb{C}',
@@ -400,6 +403,8 @@ function renderNoteBody(n) {
 async function enhance(el) {
   // ```plot blocks first: their $labels$ are typeset along with the rest of the note's maths (assets/plot-viewer.js)
   if (el.querySelector('pre > code.language-plot') && await loadLib('plot')) { try { window.PlotViewer.mount(el); } catch (e) { console.warn(e); } }
+  // ```abc blocks become scores that play (assets/music-viewer.js, with abcjs); their captions can hold maths too
+  if (el.querySelector('pre > code.language-abc') && await loadLib('abcjs') && await loadLib('music')) { try { window.MusicViewer.mount(el); } catch (e) { console.warn(e); } }
   await Promise.all([enhanceMath(el), enhanceBlocks(el)]);
 }
 async function enhanceBlocks(el) {

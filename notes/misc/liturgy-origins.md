@@ -69,6 +69,7 @@ The apostles created the Christian liturgical service by merging elements of Jew
 
 ## Related
 
+- [[Bach's Metaphysics of Music: Luther, Leibniz and Spinoza]]
 - [[EO Continuity With OT]]
 - [[Old Testament Foreshadowings of Heavenly Worship]]
 - [[Revelation Chapters 5 Through 8 Depict a Heavenly Vision of Worship]]

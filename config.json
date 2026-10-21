@@ -102,6 +102,7 @@
       "mathematics",
       "physics",
       "chess",
+      "music",
       "note-taking",
       "programming",
       "research",
@@ -186,6 +187,15 @@
           "endgames",
           "checkmate-patterns"
         ]
+      },
+      {
+        "name": "Music",
+        "tags": [
+          "composers",
+          "musical-form",
+          "opera",
+          "jazz"
+        ]
       }
     ],
     "labels": {
@@ -201,7 +211,8 @@
       "daoism": "Daoism",
       "note-taking": "Note-taking",
       "reading-lists": "Reading lists",
-      "checkmate-patterns": "Checkmate patterns"
+      "checkmate-patterns": "Checkmate patterns",
+      "musical-form": "Musical form"
     }
   }
 }

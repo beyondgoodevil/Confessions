@@ -120,6 +120,7 @@ Routes from "necessary first cause" to "God":
 
 ## Related
 
+- [[Bach's Metaphysics of Music: Luther, Leibniz and Spinoza]]
 - [[The Unmoved Mover]]
 - [[The Ontological Argument]]
 - [[Natural Theology: Is It Legitimate]]

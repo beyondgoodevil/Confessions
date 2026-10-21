@@ -1,7 +1,8 @@
 // Lists [[links]] that don't point at any note, and notes nothing links to.
 // Also reports problems that quietly degrade a note: front matter that isn't valid YAML,
 // duplicate addresses, titles shared by two notes (so [[Title]] is ambiguous), notes with
-// identical text, embedded images that aren't in the repository, ```chess blocks with illegal moves, and ```plot blocks that don't parse.
+// identical text, embedded images that aren't in the repository, ```chess blocks with illegal moves, ```plot blocks that don't parse, and ```abc music
+// that doesn't parse or has bars of the wrong length.
 //   node tools/check.mjs            report
 //   node tools/check.mjs --github   also write the report to the GitHub Actions run summary
 import fs from 'node:fs';
@@ -79,6 +80,12 @@ for (const n of notes) for (const m of n.body.matchAll(/!\[\[([^\]|#]+\.(?:png|j
   const PV = createRequire(import.meta.url)(path.join(ROOT, 'assets', 'plot-viewer.js'));
   for (const n of notes) for (const m of n.body.matchAll(/```plot[^\n]*\n([\s\S]*?)```/g)) {
     try { PV.parseBlock(m[1]); } catch (e) { problems.push([n.path, `plot: ${e.message}`]); }
+  }
+  // ```abc blocks must parse, and every bar must fit the metre (abcjs, as on the site)
+  const ABCJS = createRequire(import.meta.url)(path.join(ROOT, 'assets', 'vendor', 'abcjs-basic-min.js'));
+  const MV = createRequire(import.meta.url)(path.join(ROOT, 'assets', 'music-viewer.js'));
+  for (const n of notes) for (const m of n.body.matchAll(/```abc[^\n]*\n([\s\S]*?)```/g)) {
+    try { for (const p of MV.check(m[1], ABCJS)) problems.push([n.path, `music: ${p}`]); } catch (e) { problems.push([n.path, `music: ${e.message}`]); }
   }
 }
 if (problems.length) {
