@@ -225,6 +225,7 @@ Odysseus has had seven years to shape the story; it's "his understanding of his 
 
 ## Related
 
+- [[Xenia: The Homeric Hospitality Scene]]
 - [[Achilles and Hector: The Homeric Hero]]
 - [[Homer on Life and Death]]
 - [[The Shield of Achilles: A World on a War Shield]]

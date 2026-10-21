@@ -127,6 +127,7 @@ How later Greeks and Christians answered him:
 
 ## Related
 
+- [[Xenia: The Homeric Hospitality Scene]]
 - [[The Bow and the Lyre: A Platonic Reading of the Odyssey]]
 - [[Achilles and Hector: The Homeric Hero]]
 - [[The Shield of Achilles: A World on a War Shield]]
