@@ -225,6 +225,7 @@ Odysseus has had seven years to shape the story; it's "his understanding of his 
 
 ## Related
 
+- [[Aletheia: Heidegger on Truth as Unconcealment]]
 - [[Xenia: The Homeric Hospitality Scene]]
 - [[Achilles and Hector: The Homeric Hero]]
 - [[Homer on Life and Death]]

@@ -178,6 +178,7 @@ Nice line of thought: if power became pure actuality with no resistance (the old
 
 ## Related
 
+- [[Aletheia: Heidegger on Truth as Unconcealment]]
 - [[Nietzsche: The Overman]]
 - [[Nietzsche: Eternal Recurrence]]
 - [[Nietzsche and the Greeks]]
