@@ -60,6 +60,7 @@ Man was created in the image of God, with reason, freedom and dominion, and was 
 
 ## Related
 
+- [[Begetting in Beauty: Diotima's Pregnant Souls and Plotinus' On Beauty]]
 - [[2 Peter 1:3-4: Theosis]]
 - [[Nous]]
 - [[Adam and Eve Sin]]

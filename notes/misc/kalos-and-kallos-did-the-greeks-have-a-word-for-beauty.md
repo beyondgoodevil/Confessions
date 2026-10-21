@@ -61,6 +61,7 @@ In the *Symposium*, *Phaedrus* and *Republic*, Plato puts beauty among the trans
 
 ## Related
 
+- [[Begetting in Beauty: Diotima's Pregnant Souls and Plotinus' On Beauty]]
 - [[Plato's Quarrel With the Poets: Republic X Read Three Ways]]
 - [[The Good in Plato]]
 - [[Beauty as a Way to God]]
