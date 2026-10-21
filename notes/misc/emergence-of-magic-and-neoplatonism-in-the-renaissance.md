@@ -26,6 +26,7 @@ In this lens, Renaissance magic and Neoplatonism were not merely esoteric pursui
 
 ## Related
 
+- [[Panofsky's Three Levels of Meaning: Iconography and Iconology]]
 - [[Neoplatonic Idea of Divine Simplicity]]
 - [[Emanationism]]
 - [[Thomism Is Perennialism: All Ways Lead to God]]

@@ -88,6 +88,7 @@ Heidegger wants to free art from aesthetics. A work is not a beautiful object or
 
 ## Related
 
+- [[Panofsky's Three Levels of Meaning: Iconography and Iconology]]
 - [[Heidegger and the God Beyond Being]]
 - [[Plato's Quarrel With the Poets: Republic X Read Three Ways]]
 - [[Kalos and Kallos: Did the Greeks Have a Word for Beauty?]]

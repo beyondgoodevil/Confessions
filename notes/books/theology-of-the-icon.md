@@ -200,6 +200,7 @@ The icon shows the world **transfigured**, not the world as it looks to ordinary
 
 ## Related
 
+- [[Panofsky's Three Levels of Meaning: Iconography and Iconology]]
 - [[Heidegger's Origin of the Work of Art and the Quarrel Over Van Gogh's Shoes]]
 - [[The Beauty of the Lord: Theology as Aesthetics]]
 - [[Enlightenment as Myth: Horkheimer, Adorno and Baudrillard]]

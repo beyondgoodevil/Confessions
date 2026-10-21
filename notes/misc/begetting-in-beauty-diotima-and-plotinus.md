@@ -82,6 +82,7 @@ Diotima's surprise is that love is not of the beautiful but of **giving birth in
 
 ## Related
 
+- [[Panofsky's Three Levels of Meaning: Iconography and Iconology]]
 - [[Eros and Agape: Plato, Nygren, Dionysius and the Fathers]]
 - [[Kalos and Kallos: Did the Greeks Have a Word for Beauty?]]
 - [[Plato's Quarrel With the Poets: Republic X Read Three Ways]]
