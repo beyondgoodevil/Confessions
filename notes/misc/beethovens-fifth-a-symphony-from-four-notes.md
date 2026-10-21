@@ -133,6 +133,7 @@ The Fifth turns a four-note rhythm into a whole symphony. In the first movement 
 
 ## Related
 
+- [[How Jazz Is Built: The Twelve-Bar Blues and AABA Form]]
 - [[Wagner's Ring: Myth, Music Drama and the Leitmotif]]
 - [[Bach's Metaphysics of Music: Luther, Leibniz and Spinoza]]
 - [[Enlightenment as Myth: Horkheimer, Adorno and Baudrillard]]
