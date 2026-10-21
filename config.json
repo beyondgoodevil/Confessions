@@ -103,6 +103,7 @@
       "physics",
       "chess",
       "music",
+      "art",
       "note-taking",
       "programming",
       "research",
@@ -177,6 +178,7 @@
           "nietzsche",
           "leibniz",
           "kant",
+          "aesthetics",
           "daoism"
         ]
       },
@@ -196,6 +198,12 @@
           "opera",
           "jazz"
         ]
+      },
+      {
+        "name": "Art",
+        "tags": [
+          "art-history"
+        ]
       }
     ],
     "labels": {
@@ -212,7 +220,8 @@
       "note-taking": "Note-taking",
       "reading-lists": "Reading lists",
       "checkmate-patterns": "Checkmate patterns",
-      "musical-form": "Musical form"
+      "musical-form": "Musical form",
+      "art-history": "Art history"
     }
   }
 }

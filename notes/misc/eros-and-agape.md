@@ -185,6 +185,7 @@ Lewis set out (ch. I) to praise **Gift-love**, which is like God, and belittle *
 
 ## Related
 
+- [[Kalos and Kallos: Did the Greeks Have a Word for Beauty?]]
 - [[Nussbaum's Fragility of Goodness: Luck, Tragedy and the Vulnerable Good]]
 - [[Nothingness East and West: Nishitani, Tanabe, Abe and the Christian Nihil]]
 - [[Friendship and Love in Ancient and Medieval Thought]]

@@ -49,6 +49,7 @@ Beauty is a real reflection of the glory of God and one of the ways the soul is 
 
 ## Related
 
+- [[Kalos and Kallos: Did the Greeks Have a Word for Beauty?]]
 - [[Eros and Agape: Plato, Nygren, Dionysius and the Fathers]]
 - [[The Good in Plato]]
 - [[Icons Are Biblical]]
