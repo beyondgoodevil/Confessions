@@ -66,6 +66,7 @@ Compare Hatab's Nietzsche, who starts from exactly the opposite assumption (no m
 
 ## Related
 
+- [[Aletheia: Heidegger on Truth as Unconcealment]]
 - [[Plato's Quarrel With the Poets: Republic X Read Three Ways]]
 - [[Kalos and Kallos: Did the Greeks Have a Word for Beauty?]]
 - [[Nussbaum's Fragility of Goodness: Luck, Tragedy and the Vulnerable Good]]

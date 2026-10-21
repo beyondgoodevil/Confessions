@@ -20,3 +20,14 @@ To share an entry, link to its address: `https://beyondgoodevil.github.io/Confes
 Tools (need Node.js): `node tools/serve.mjs` preview (the page reloads itself when you save a note) · `node tools/new.mjs book "Title"` new note · `node tools/import.mjs <folder>` bulk import · `node tools/check.mjs` find unwritten links, front-matter mistakes, duplicate notes and missing images (each deploy also runs it and lists what it finds on the run's summary page) · `node tools/stamp.mjs` add addresses.
 
 The full guide is the Claude doc “Commonplace: setup and user guide”.
+
+## Doing it yourself (no Claude needed)
+
+Open a terminal in this folder (needs Node.js and Git). The whole routine:
+
+1. **New note:** `npm run new -- misc "My Title"` (or `book`, `podcast`, `video`, `lecture`, `guide`). Write it in Obsidian, the Writer page, or any editor.
+2. **Link it from older notes:** `npm run link -- "My Title" "Existing Note" "Another Note"` adds `- [[My Title]]` under each one's `## Related` heading.
+3. **Preview:** `npm run preview`, then open the address it prints.
+4. **Publish:** `npm run publish -- "What I changed"`. This gets the latest version, gives new notes their addresses, builds, checks for broken links, commits and pushes. Use `npm run publish -- --dry` to do everything except upload.
+
+If publish stops, read the message just above "Stopped". Usually it's a merge conflict (`git status` shows the file) or a front-matter typo (`npm run check` names the note).
