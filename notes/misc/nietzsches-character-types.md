@@ -132,6 +132,7 @@ The first of three figures (with artist and scientist) who seem neither slavish 
 
 ## Related
 
+- [[Wagner's Ring: Myth, Music Drama and the Leitmotif]]
 - [[Nietzsche's Bestiary: Camel, Lion, Ape, Ass and Blond Beast]]
 - [[Nietzsche's Aristocratic Radicalism: The Greek State, Slavery and the Pyramid of Culture]]
 - [[Nietzsche on Nihilism and Its Overcoming]]

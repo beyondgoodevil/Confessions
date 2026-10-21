@@ -110,6 +110,7 @@ Two German Jewish Marxists, exiled in California while Europe burned, asked how 
 
 ## Related
 
+- [[Wagner's Ring: Myth, Music Drama and the Leitmotif]]
 - [[Beethoven's Fifth: A Symphony From Four Notes]]
 - [[For the Life of the World]]
 - [[The Modern Break: Machiavelli and Hobbes]]
