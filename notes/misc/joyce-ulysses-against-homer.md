@@ -115,6 +115,7 @@ aliases: [Ulysses, Joyce, Leopold Bloom, Stephen Dedalus, Molly Bloom, Bloomsday
 
 ## Related
 
+- [[The Bow and the Lyre: A Platonic Reading of the Odyssey]]
 - [[The Shield of Achilles: A World on a War Shield]]
 - [[Homer on Life and Death]]
 - [[Auerbach's Mimesis: Odysseus' Scar, Peter's Denial and Figural Realism]]

@@ -70,6 +70,7 @@ Possible comeback: the atheist can run it as an internal critique ("on *your* vi
 
 ## Related
 
+- [[The Bow and the Lyre: A Platonic Reading of the Odyssey]]
 - [[Moby-Dick and the Problem of Evil: Ahab, Ishmael and Job]]
 - [[The Underground Man and the Death of God: Dostoevsky, Shestov, Girard]]
 - [[Death and Corruptibility as Privations of Life and the Ability to Sin]]

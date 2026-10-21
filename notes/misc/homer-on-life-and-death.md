@@ -127,6 +127,7 @@ How later Greeks and Christians answered him:
 
 ## Related
 
+- [[The Bow and the Lyre: A Platonic Reading of the Odyssey]]
 - [[Achilles and Hector: The Homeric Hero]]
 - [[The Shield of Achilles: A World on a War Shield]]
 - [[Joyce's Ulysses Against Homer: Bloom, Stephen and the Parody of the Mass]]
