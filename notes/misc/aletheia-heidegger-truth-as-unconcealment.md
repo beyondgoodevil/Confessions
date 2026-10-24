@@ -1,7 +1,7 @@
 ---
 id: M-0392
 date: 2026-10-21
-source: "Primary (Heidegger): Being and Time, trans. John Macquarrie and Edward Robinson (Blackwell, 1962), §44 (H. 212–230)."
+source: "Primary (Heidegger): Being and Time, trans. John Macquarrie and Edward Robinson (Blackwell, 1962), §44 (H. 212–230)"
 aliases: [Aletheia, Alētheia, Unconcealment, Unconcealedness, Unhiddenness, Truth as Unconcealment, Lethe, Lēthē, Heidegger on Truth, Disclosure, The Clearing, Lichtung, Field of Lethe, Pseudos, Veritas and Aletheia]
 title: "Aletheia: Heidegger on Truth as Unconcealment"
 tags: [philosophy, heidegger, greeks, truth, language]
