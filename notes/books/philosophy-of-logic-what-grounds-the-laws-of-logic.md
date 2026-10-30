@@ -202,6 +202,7 @@ Looks very close, so trying to be exact:
 
 ## Related
 
+- [[Hamblin's Fallacies: The Standard Treatment and Formal Dialectic]]
 - [[Stoic Logic: Chrysippus, the Five Indemonstrables and the Debate Over 'If']]
 - [[Deviant Logics]]
 - [[Valid vs Sound Arguments]]

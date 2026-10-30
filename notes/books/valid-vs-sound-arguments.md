@@ -111,6 +111,7 @@ This is useful for the apologetics notes. Most of the listed fallacies are reall
 
 ## Related
 
+- [[Hamblin's Fallacies: The Standard Treatment and Formal Dialectic]]
 - [[Propositional Logic Cheat Sheet]]
 - [[Modal Logic: Necessity and Possibility]]
 - [[Philosophy of Logic: What Grounds the Laws of Logic]]

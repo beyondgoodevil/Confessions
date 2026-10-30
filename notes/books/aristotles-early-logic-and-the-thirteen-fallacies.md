@@ -163,6 +163,7 @@ Only about half are invalid in the modern sense. The others are valid arguments 
 
 ## Related
 
+- [[Hamblin's Fallacies: The Standard Treatment and Formal Dialectic]]
 - [[Stoic Logic: Chrysippus, the Five Indemonstrables and the Debate Over 'If']]
 - [[Logic Before Aristotle]]
 - [[Valid vs Sound Arguments]]

@@ -114,6 +114,7 @@ Besides the self-refutation charge (the reductio above):
 
 ## Related
 
+- [[Hamblin's Fallacies: The Standard Treatment and Formal Dialectic]]
 - [[Nietzsche and the Greeks]]
 - [[Zhuangzi: Perspectives, the Butterfly Dream and the Useless Tree]]
 - [[Relativism]]

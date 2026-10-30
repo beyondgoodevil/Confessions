@@ -221,3 +221,7 @@ Consequences the Orthodox draw from absolute simplicity.
 2. [[God Being Pure Act Makes Incarnation Impossible]] — Five ways a rigid notion of pure act undermines the Incarnation.
 3. [[Thomism and the Originist Problematic]] — Five ways Thomism can echo Origen's subordination of the Son.
 4. [[Thomism Is Perennialism: All Ways Lead to God]] — How absolute divine simplicity can push Thomism toward a perennialist conclusion.
+
+## Related
+
+- [[Hamblin's Fallacies: The Standard Treatment and Formal Dialectic]]

@@ -44,6 +44,7 @@ Not necessarily. Some **transcendental** or **foundational** arguments (e.g., ar
 
 ## Related
 
+- [[Hamblin's Fallacies: The Standard Treatment and Formal Dialectic]]
 - [[The Fallacy of Circular Reasoning]]
 - [[Why Is It Necessary to Justify One’s Presuppositions]]
 - [[Criterion Problem]]

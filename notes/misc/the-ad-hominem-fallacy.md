@@ -27,6 +27,7 @@ The **ad hominem** fallacy is logically flawed because **a person's character, b
 
 ## Related
 
+- [[Hamblin's Fallacies: The Standard Treatment and Formal Dialectic]]
 - [[Tu Quoque Fallacy]]
 - [[The Appeal to Irrelevance Fallacy]]
 - [[Double Standard Fallacy]]

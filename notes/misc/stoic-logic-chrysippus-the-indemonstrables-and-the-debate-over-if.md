@@ -184,6 +184,7 @@ Stoic logic was the first serious logic of whole propositions. Diodorus and Phil
 
 ## Related
 
+- [[Hamblin's Fallacies: The Standard Treatment and Formal Dialectic]]
 - [[Logic Before Aristotle]]
 - [[Aristotle's Early Logic and the Thirteen Fallacies]]
 - [[Modal Logic: Necessity and Possibility]]
