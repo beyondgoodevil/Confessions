@@ -3,7 +3,7 @@ id: B-0044
 date: 2026-10-14
 title: Wandering in Darkness
 tags: [philosophy, apologetics, theology, ethics]
-summary: Stump's Thomistic defense on the problem of suffering, built through narrative. Why stories give a kind of knowledge (second-personal) that arguments can't, Aquinas on love, union and presence, willed loneliness, the stories of Job, Samson, Abraham and Mary of Bethany, and the defense that suffering is allowed only for a greater good to the sufferer: closeness to God and the "desires of the heart".
+summary: "Stump's Thomistic defense on the problem of suffering, built through narrative. Why stories give a kind of knowledge (second-personal) that arguments can't, Aquinas on love, union and presence, willed loneliness, the stories of Job, Samson, Abraham and Mary of Bethany, and the defense that suffering is allowed only for a greater good to the sufferer: closeness to God and the \"desires of the heart\"."
 author: Eleonore Stump
 source: "Eleonore Stump, Wandering in Darkness: Narrative and the Problem of Suffering (Oxford, 2010)"
 aliases: ["Eleonore Stump: Wandering in Darkness", Stump, Eleonore Stump]

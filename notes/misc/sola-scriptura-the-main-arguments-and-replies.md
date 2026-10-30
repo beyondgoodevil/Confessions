@@ -3,7 +3,7 @@ id: M-0337
 date: 2026-10-14
 title: "Sola Scriptura: The Main Arguments and Replies"
 tags: [theology, scripture, tradition, reformation, apologetics]
-summary: What sola scriptura claims (and what it doesn't: "solo" vs "sola"), the Protestant proof texts (2 Tim 3:16-17, Mark 7, Acts 17:11, Isa 8:20, Rev 22:18) and the replies to each, the Orthodox arguments against (the canon, oral tradition, the Church as pillar of truth, interpretation, history), the best Protestant replies, and the Orthodox alternative.
+summary: "What sola scriptura claims (and what it doesn't: \"solo\" vs \"sola\"), the Protestant proof texts (2 Tim 3:16-17, Mark 7, Acts 17:11, Isa 8:20, Rev 22:18) and the replies to each, the Orthodox arguments against (the canon, oral tradition, the Church as pillar of truth, interpretation, history), the best Protestant replies, and the Orthodox alternative."
 source: "Scripture (KJV); Westminster Confession 1.6; St. Vincent of Lérins, Commonitorium"
 aliases: [Sola Scriptura, Scripture Alone, Solo Scriptura]
 ---

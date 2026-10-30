@@ -3,7 +3,7 @@ id: M-0330
 date: 2026-10-14
 title: "Divine Simplicity: Western and Orthodox Views"
 tags: [theology, metaphysics, thomism, philosophy]
-summary: What absolute divine simplicity claims, why classical theists hold it (aseity, necessity, Euthyphro), the modern objections (Plantinga's "God is a property", distinct attributes, contingent knowledge, modal collapse) and the replies, and how the Orthodox version (simple but with real distinctions: essence, energies, hypostases) differs.
+summary: "What absolute divine simplicity claims, why classical theists hold it (aseity, necessity, Euthyphro), the modern objections (Plantinga's \"God is a property\", distinct attributes, contingent knowledge, modal collapse) and the replies, and how the Orthodox version (simple but with real distinctions: essence, energies, hypostases) differs."
 ---
 
 The site has [[Neoplatonic Idea of Divine Simplicity]], several Thomism notes, and the essence–energies material, but no page that sets the doctrine out and weighs it. Section 6 is the Orthodox side, mine.

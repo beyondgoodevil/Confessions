@@ -3,7 +3,7 @@ id: B-0049
 date: 2026-10-14
 title: "Augustine's Confessions: Memory, Time and the Restless Heart"
 tags: [philosophy, theology, patristics, epistemology]
-summary: Augustine's Confessions book by book. The restless heart, the pear theft, Manichaeism, the Platonists, the garden in Milan, Ostia with Monica; then the philosophical books: memory as the "vast palace" where God is found (X), time as the distension of the soul (XI), and creation and Genesis (XII–XIII). Plus the Orthodox view of Augustine.
+summary: "Augustine's Confessions book by book. The restless heart, the pear theft, Manichaeism, the Platonists, the garden in Milan, Ostia with Monica; then the philosophical books: memory as the \"vast palace\" where God is found (X), time as the distension of the soul (XI), and creation and Genesis (XII–XIII). Plus the Orthodox view of Augustine."
 author: St. Augustine of Hippo
 source: Augustine, Confessions; Augustine on Memory; The Cambridge Companion to Augustine's Confessions; Augustine, Confessions, trans. F. J. Sheed
 aliases: ["Confessions: Memory, Time and the Restless Heart", Confessions, Augustine's Confessions, Restless Heart, Augustine on Time, Augustine on Memory]
