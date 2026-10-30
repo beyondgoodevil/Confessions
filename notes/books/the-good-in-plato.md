@@ -66,6 +66,7 @@ Compare Hatab's Nietzsche, who starts from exactly the opposite assumption (no m
 
 ## Related
 
+- [[Republic Book I: Cephalus, Polemarchus and Thrasymachus on Justice]]
 - [[Aletheia: Heidegger on Truth as Unconcealment]]
 - [[Plato's Quarrel With the Poets: Republic X Read Three Ways]]
 - [[Kalos and Kallos: Did the Greeks Have a Word for Beauty?]]

@@ -67,6 +67,7 @@ Plato doesn't banish art; he bans imitative poetry (Homer and the tragedians) wh
 
 ## Related
 
+- [[Republic Book I: Cephalus, Polemarchus and Thrasymachus on Justice]]
 - [[Aletheia: Heidegger on Truth as Unconcealment]]
 - [[The Bow and the Lyre: A Platonic Reading of the Odyssey]]
 - [[Porphyry's Homeric Questions: Explaining Homer From Homer]]

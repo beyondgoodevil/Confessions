@@ -145,6 +145,7 @@ Thomas Hobbes (1588–1679) translated Thucydides in 1629 to warn England agains
 
 ## Related
 
+- [[Republic Book I: Cephalus, Polemarchus and Thrasymachus on Justice]]
 - [[Nietzsche's Aristocratic Radicalism: The Greek State, Slavery and the Pyramid of Culture]]
 - [[Enlightenment as Myth: Horkheimer, Adorno and Baudrillard]]
 - [[Thucydides on Human Nature and Power]]
