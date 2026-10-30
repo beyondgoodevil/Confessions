@@ -129,6 +129,7 @@ Q can be anything at all. That's why one contradiction in a system is fatal in c
 
 ## Related
 
+- [[Stoic Logic: Chrysippus, the Five Indemonstrables and the Debate Over 'If']]
 - [[Valid vs Sound Arguments]]
 - [[Modal Logic: Necessity and Possibility]]
 - [[Deviant Logics]]

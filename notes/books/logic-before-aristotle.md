@@ -131,6 +131,7 @@ That last claim is a realist one. Compare the five options in [[Philosophy of Lo
 
 ## Related
 
+- [[Stoic Logic: Chrysippus, the Five Indemonstrables and the Debate Over 'If']]
 - [[Aristotle's Early Logic and the Thirteen Fallacies]]
 - [[Philosophy of Logic: What Grounds the Laws of Logic]]
 - [[Deviant Logics]]

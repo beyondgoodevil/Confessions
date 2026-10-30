@@ -125,6 +125,7 @@ Still to read: Priest, *An Introduction to Non-Classical Logic* (Gensler recomme
 
 ## Related
 
+- [[Stoic Logic: Chrysippus, the Five Indemonstrables and the Debate Over 'If']]
 - [[Philosophy of Logic: What Grounds the Laws of Logic]]
 - [[Propositional Logic Cheat Sheet]]
 - [[Modal Logic: Necessity and Possibility]]

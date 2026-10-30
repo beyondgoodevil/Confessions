@@ -163,6 +163,7 @@ Only about half are invalid in the modern sense. The others are valid arguments 
 
 ## Related
 
+- [[Stoic Logic: Chrysippus, the Five Indemonstrables and the Debate Over 'If']]
 - [[Logic Before Aristotle]]
 - [[Valid vs Sound Arguments]]
 - [[Propositional Logic Cheat Sheet]]
