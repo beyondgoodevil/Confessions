@@ -1,4 +1,6 @@
 ---
+series: Reading Plato
+part: 2
 id: M-0399
 date: 2026-10-30
 title: "The Republic's Ideal City: The Noble Lie, Philosopher-Kings and the Guardians' Communism"

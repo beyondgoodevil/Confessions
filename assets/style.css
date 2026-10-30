@@ -548,3 +548,32 @@ code{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
 .page-tags .tag-shelf{margin-top:2.2rem}
 .page-tags .shelf-head{margin:0 0 .8rem;padding:0;border:0;text-align:center;font-size:.98em;font-weight:600;font-variant-caps:small-caps;letter-spacing:.04em;color:var(--ink-2)}
 @media (max-width:560px){.topic-row{grid-template-columns:minmax(0,1fr)}.topic-links{gap:.15rem .9rem}}
+/* contents box: the section being read; on wide screens the box sits in the left margin and stays put */
+.toc a.is-current{color:var(--ink);font-weight:700}
+@media (min-width:1280px){
+  :root[data-design="forester"] .note-page .toc{position:fixed;top:5.2rem;left:max(1rem,calc(50vw - (var(--measure) + 4rem) / 2 - 16.5rem));width:14.5rem;max-height:calc(100vh - 7rem);overflow-y:auto;margin:0;font-size:.84em;scrollbar-width:thin;padding-right:.4rem}
+  :root[data-design="forester"] .note-page .toc li{margin:.38rem 0}
+}
+/* series */
+.series-name{font-style:italic}
+.series-foot{margin:0 0 2.2rem;padding:1rem 0 0;border-top:1px solid var(--rule)}
+.series-foot-title{margin:0;font-weight:700}
+.series-foot .series{margin-top:.4rem}
+/* recently updated on the index */
+.fr-updated .fr-list li{grid-template-columns:5rem minmax(0,1fr) auto}
+/* graph */
+.page-graph{max-width:min(96vw,72rem);margin:0 auto;padding:clamp(1.5rem,4vw,2.5rem) clamp(.75rem,3vw,1.5rem) 3rem}
+.graph-tools{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;align-items:center;justify-content:center;margin:0 0 1rem;font-size:.92em}
+.graph-tools select{max-width:16rem;padding:.15rem .3rem;border:1px solid var(--rule);border-radius:5px;background:var(--paper)}
+.g-legend{display:flex;flex-wrap:wrap;gap:.3rem .9rem;color:var(--muted)}
+.g-key{display:inline-flex;align-items:center;gap:.3rem}
+.graph-box{border:1px solid var(--rule);border-radius:8px;background:var(--paper);overflow:hidden}
+svg.graph{display:block;width:100%;height:min(78vh,52rem);cursor:grab;touch-action:none}
+svg.graph:active{cursor:grabbing}
+.g-edges line{stroke:var(--muted);stroke-opacity:.35;stroke-width:.8}
+.g-edges line.dim{stroke-opacity:.06}
+.g-nodes circle{stroke:var(--paper);stroke-width:1}
+.g-nodes circle.lone{stroke:var(--ink);stroke-width:1.2;stroke-dasharray:2 1.5}
+.g-nodes circle.dim{opacity:.13}
+.g-nodes a:hover circle{stroke:var(--ink);stroke-width:2}
+.g-sec-0{fill:#1D4BA0}.g-sec-1{fill:#B7791F}.g-sec-2{fill:#2F855A}.g-sec-3{fill:#A8322A}.g-sec-4{fill:#6B46C1}.g-sec-5{fill:#5A606B}

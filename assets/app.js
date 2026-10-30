@@ -181,7 +181,7 @@ function resolveFile(name, dir) {
 const resolveTarget = t => { if (!t) return null; const up = String(t).trim().toUpperCase(); if (S.byId.has(up)) return up; return S.resolve.get(slug(t)) || S.resolve.get(slug(String(t).split('/').pop().replace(/\.(md|markdown)$/i, ''))) || null; };
 
 function index(cfg, entries) {
-  S.cache = new Map();
+  S.cache = new Map(); S.graph = null;
   S.config = cfg; S.sections = prepareSections(cfg);
   const notes = entries.map(parseNote);
   assignIds(notes);
@@ -475,10 +475,15 @@ function viewIndex() {
   }).join('');
   const welcome = c.welcome || c.intro;
   const intro = welcome ? `<div class="prose fr-welcome">${renderMarkdown(welcome).innerHTML}</div>` : '';
+  // notes edited after the day they were written, latest edit first
+  const edited = S.notes.filter(n => n.updated && n.created && fmtDate(n.updated) !== fmtDate(n.created) && time(n.updated) > time(n.created))
+    .sort((a, b) => time(b.updated) - time(a.updated) || newest(a, b)).slice(0, c.indexUpdatedCount || 6);
+  const updatedSec = edited.length ? `<section class="fr-sec fr-updated"><h2 class="fr-sec-title">Recently updated</h2><p class="fr-sec-desc">Older notes that have been revised.</p>
+    <ol class="fr-list">${edited.map(n => entryLi(n).replace('</li>', `<time datetime="${n.updated.toISOString().slice(0, 10)}">${fmtDate(n.updated)}</time></li>`)).join('')}</ol></section>` : '';
   return `<div class="home home-forester">
     <header class="fr-head"><h1 class="home-title">${esc(c.title || 'Notes')}</h1>${c.subtitle ? `<p class="home-sub">${esc(c.subtitle)}</p>` : ''}
     ${c.author ? `<p class="fr-author">${esc(c.author)}</p>` : ''}</header>
-    ${intro}<nav class="sec-toc" aria-label="Sections">${toc}</nav>${secs}</div>`;
+    ${intro}<nav class="sec-toc" aria-label="Sections">${toc}</nav>${secs}${updatedSec}</div>`;
 }
 
 /* ---------------- browsing: topics, people and the section filter ---------------- */
@@ -614,6 +619,30 @@ function contextSnippet(line, targetId) {
   return out + strip(s.slice(last));
 }
 
+// the notes in n's series, in order: `series: Name` (with an optional `part: 2`) or, for lectures, the same `course`
+function seriesRun(n) {
+  const name = str(n.fm.series);
+  if (name) return S.notes.filter(m => slug(str(m.fm.series)) === slug(name))
+    .sort((a, b) => (parseFloat(a.fm.part) || Infinity) - (parseFloat(b.fm.part) || Infinity) || time(a.created) - time(b.created) || idNum(a) - idNum(b));
+  if (!n.fm.course) return [];
+  return S.notes.filter(m => m.section === n.section && str(m.fm.course) === str(n.fm.course))
+    .sort((a, b) => (parseFloat(a.fm.lecture) || 0) - (parseFloat(b.fm.lecture) || 0) || time(a.created) - time(b.created));
+}
+function viewSeries(key) {
+  const first = S.notes.find(m => slug(str(m.fm.series)) === key);
+  if (!first) return viewMissing(`There’s no series called “${esc(key)}”.`);
+  const run = seriesRun(first), name = str(first.fm.series);
+  return `<div class="page page-section"><header class="fr-head"><p class="note-kicker"><a class="note-taxon" href="#/series">Series</a></p><h1>${esc(name)}</h1><p class="home-sub">${plural(run.length, 'part', 'parts')}</p></header>
+    <ol class="fr-list fr-list-full">${run.map(m => entryLi(m, true)).join('')}</ol></div>`;
+}
+function viewSeriesList() {
+  const by = new Map();
+  for (const m of S.notes) { const name = str(m.fm.series); if (name) { const k = slug(name); if (!by.has(k)) by.set(k, { name, ns: [] }); by.get(k).ns.push(m); } }
+  const rows = [...by.entries()].sort((a, b) => a[1].name.localeCompare(b[1].name));
+  return `<div class="page page-section"><header class="fr-head"><h1>Series</h1><p class="home-sub">Notes meant to be read in order. Add <code>series: Name</code> (and optionally <code>part: 1</code>) to a note’s front matter.</p></header>
+    ${rows.length ? `<ol class="fr-list fr-list-full">${rows.map(([k, s]) => `<li><span class="fr-addr">${s.ns.length}</span><div><a href="#/series/${encodeURIComponent(k)}">${esc(s.name)}</a></div></li>`).join('')}</ol>` : '<p class="fr-empty">No series yet.</p>'}</div>`;
+}
+
 function viewNote(n) {
   const r = renderNoteBody(n);
   const f = n.fm, sec = n.section;
@@ -621,13 +650,15 @@ function viewNote(n) {
   const cite = citeHTML(n);
   const url = str(f.url ?? f.link);
   const tags = n.tags.map(t => `<a class="tag" href="#/tags/${encodeURIComponent(t.toLowerCase())}">${esc(t)}</a>`).join(' ');
-  // lecture series navigation
-  let series = '';
-  if (f.course) {
-    const run = S.notes.filter(m => m.section === sec && str(m.fm.course) === str(f.course))
-      .sort((a, b) => (parseFloat(a.fm.lecture) || 0) - (parseFloat(b.fm.lecture) || 0) || time(a.created) - time(b.created));
-    const i = run.indexOf(n);
-    if (run.length > 1) series = `<p class="series">${i > 0 ? `Previous: <a href="#/${run[i - 1].id}">${run[i - 1].id} ${esc(run[i - 1].title)}</a>` : ''}${i < run.length - 1 ? `Next: <a href="#/${run[i + 1].id}">${run[i + 1].id} ${esc(run[i + 1].title)}</a>` : ''}</p>`;
+  // series navigation: `series:` runs across sections (ordered by `part`, then date); a lecture course runs by lecture number
+  let series = '', seriesFoot = '';
+  const run = seriesRun(n);
+  if (run.length > 1) {
+    const i = run.indexOf(n), name = str(f.series);
+    const prevNext = `${i > 0 ? `Previous: <a href="#/${run[i - 1].id}">${run[i - 1].id} ${esc(run[i - 1].title)}</a>` : ''}${i < run.length - 1 ? `Next: <a href="#/${run[i + 1].id}">${run[i + 1].id} ${esc(run[i + 1].title)}</a>` : ''}`;
+    const head = name ? `<a class="series-name" href="#/series/${encodeURIComponent(slug(name))}">${esc(name)}</a> · part ${i + 1} of ${run.length}<br>` : '';
+    series = `<p class="series">${head}${prevNext}</p>`;
+    if (name) seriesFoot = `<nav class="series-foot" aria-label="Series"><p class="series-foot-title">Series: <a href="#/series/${encodeURIComponent(slug(name))}">${esc(name)}</a></p><p class="series">${prevNext}</p></nav>`;
   }
   // notes whose headings carry their own numbers ("1. …", "A. …") are not numbered again by the stylesheet
   const ownNum = r.toc.some(t => /^(\d+|[A-Z]|[IVX]+)[.)]\s/.test(t.text));
@@ -657,8 +688,81 @@ function viewNote(n) {
     </header>
     ${toc}
     <div class="prose note-body">${r.html}</div>
-    <footer class="note-foot">${backHTML}${outHTML}${relHTML}</footer>
+    <footer class="note-foot">${seriesFoot}${backHTML}${outHTML}${relHTML}</footer>
   </div></article></div>`;
+}
+
+/* ---------------- graph: every note as a dot, every link as a line ---------------- */
+function graphLayout() {
+  if (S.graph) return S.graph;
+  const ns = S.notes, at = new Map(ns.map((n, i) => [n.id, i])), edges = [];
+  for (const n of ns) for (const id of n.links) { const j = at.get(id); if (j != null && j !== at.get(n.id)) edges.push([at.get(n.id), j]); }
+  const deg = ns.map(() => 0); for (const [a, b] of edges) { deg[a]++; deg[b]++; }
+  // start each section on its own arc so the picture comes out the same on every visit
+  let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  const secIx = new Map(S.sections.map((s, i) => [s, i])), k = S.sections.length || 1;
+  const x = ns.map(n => Math.cos(2 * Math.PI * (secIx.get(n.section) + rnd() * .8) / k) * 300 + rnd() * 60);
+  const y = ns.map(n => Math.sin(2 * Math.PI * (secIx.get(n.section) + rnd() * .8) / k) * 300 + rnd() * 60);
+  const N = ns.length, vx = new Float64Array(N), vy = new Float64Array(N);
+  for (let it = 0, heat = 1; it < 220; it++, heat *= .985) {
+    for (let i = 0; i < N; i++) for (let j = i + 1; j < N; j++) {
+      let dx = x[i] - x[j], dy = y[i] - y[j], d2 = dx * dx + dy * dy + .01;
+      if (d2 > 90000) continue;
+      const f = 900 / d2; vx[i] += dx * f; vy[i] += dy * f; vx[j] -= dx * f; vy[j] -= dy * f;
+    }
+    for (const [a, b] of edges) { const dx = x[b] - x[a], dy = y[b] - y[a], f = .02; vx[a] += dx * f; vy[a] += dy * f; vx[b] -= dx * f; vy[b] -= dy * f; }
+    for (let i = 0; i < N; i++) {
+      vx[i] -= x[i] * .006; vy[i] -= y[i] * .006;   // gravity keeps unlinked notes from drifting off
+      const v = Math.hypot(vx[i], vy[i]), cap = 12 * heat;
+      if (v > cap) { vx[i] *= cap / v; vy[i] *= cap / v; }
+      x[i] += vx[i]; y[i] += vy[i]; vx[i] *= .5; vy[i] *= .5;
+    }
+  }
+  return (S.graph = { ns, x, y, edges, deg });
+}
+function viewGraph(opts) {
+  const g = graphLayout(), tag = String(opts.tag || '').toLowerCase(), only = opts.only || '';
+  const has = i => tag ? g.ns[i].tags.some(t => t.toLowerCase() === tag) : true;
+  const lone = i => g.deg[i] === 0;
+  const lit = g.ns.map((n, i) => has(i) && (only !== 'orphans' || lone(i)));
+  const pad = 40, xs = [...g.x], ys = [...g.y];
+  const minX = Math.min(...xs) - pad, minY = Math.min(...ys) - pad, w = Math.max(...xs) - minX + pad, h = Math.max(...ys) - minY + pad;
+  const secIx = new Map(S.sections.map((s, i) => [s, i]));
+  const lines = g.edges.map(([a, b]) => `<line x1="${g.x[a].toFixed(1)}" y1="${g.y[a].toFixed(1)}" x2="${g.x[b].toFixed(1)}" y2="${g.y[b].toFixed(1)}"${lit[a] && lit[b] ? '' : ' class="dim"'}/>`).join('');
+  const dots = g.ns.map((n, i) => `<a href="#/${n.id}" data-gid="${n.id}"><circle cx="${g.x[i].toFixed(1)}" cy="${g.y[i].toFixed(1)}" r="${(3 + Math.sqrt(g.deg[i]) * 1.6).toFixed(1)}" class="g-sec-${secIx.get(n.section)}${lit[i] ? '' : ' dim'}${lone(i) ? ' lone' : ''}"><title>${esc(n.id + ' ' + n.title)}</title></circle></a>`).join('');
+  const tags = [...S.tags.values()].filter(t => t.notes.length > 1).sort((a, b) => a.name.localeCompare(b.name));
+  const nLone = g.deg.filter(d => !d).length;
+  const legend = S.sections.map((s, i) => `<span class="g-key"><svg width="10" height="10" aria-hidden="true"><circle cx="5" cy="5" r="4.5" class="g-sec-${i}"/></svg>${esc(s.shortName || s.name)}</span>`).join('');
+  return `<div class="page page-graph"><header class="fr-head"><h1>Graph</h1><p class="home-sub">${plural(g.ns.length, 'note', 'notes')} and ${plural(g.edges.length, 'link', 'links')}. Bigger dots have more links; scroll to zoom, drag to move, click a dot to open it.</p></header>
+    <form class="graph-tools" onsubmit="return false"><label>Tag <select data-graph="tag"><option value="">all notes</option>${tags.map(t => `<option value="${esc(t.name.toLowerCase())}"${t.name.toLowerCase() === tag ? ' selected' : ''}>${esc(t.name)} (${t.notes.length})</option>`).join('')}</select></label>
+    <label><input type="checkbox" data-graph="orphans"${only === 'orphans' ? ' checked' : ''}> only notes with no links (${nLone})</label><span class="g-legend">${legend}</span></form>
+    <div class="graph-box"><svg class="graph" viewBox="${minX.toFixed(0)} ${minY.toFixed(0)} ${w.toFixed(0)} ${h.toFixed(0)}" data-vb="${minX.toFixed(0)} ${minY.toFixed(0)} ${w.toFixed(0)} ${h.toFixed(0)}" role="img" aria-label="Graph of notes and links"><g class="g-edges">${lines}</g><g class="g-nodes">${dots}</g></svg></div></div>`;
+}
+function initGraph(main) {
+  const svg = $('svg.graph', main); if (!svg) return;
+  const go = () => {
+    const tag = $('[data-graph="tag"]', main).value, orphans = $('[data-graph="orphans"]', main).checked;
+    const p = new URLSearchParams(); if (tag) p.set('tag', tag); if (orphans) p.set('only', 'orphans');
+    location.hash = '#/graph' + (p.toString() ? '?' + p : '');
+  };
+  $$('[data-graph]', main).forEach(el => el.addEventListener('change', go));
+  let vb = svg.dataset.vb.split(' ').map(Number), drag = null, moved = false;
+  const set = () => svg.setAttribute('viewBox', vb.map(v => v.toFixed(1)).join(' '));
+  svg.addEventListener('wheel', e => {
+    e.preventDefault();
+    const r = svg.getBoundingClientRect(), f = e.deltaY > 0 ? 1.15 : 1 / 1.15;
+    const px = vb[0] + (e.clientX - r.left) / r.width * vb[2], py = vb[1] + (e.clientY - r.top) / r.height * vb[3];
+    vb = [px - (px - vb[0]) * f, py - (py - vb[1]) * f, vb[2] * f, vb[3] * f]; set();
+  }, { passive: false });
+  svg.addEventListener('pointerdown', e => { drag = { x: e.clientX, y: e.clientY, vb: [...vb] }; moved = false; });
+  addEventListener('pointerup', () => { drag = null; });
+  svg.addEventListener('pointermove', e => {
+    if (!drag) return;
+    const r = svg.getBoundingClientRect(), dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+    if (Math.abs(dx) + Math.abs(dy) > 4) moved = true;
+    vb = [drag.vb[0] - dx / r.width * vb[2], drag.vb[1] - dy / r.height * vb[3], vb[2], vb[3]]; set();
+  });
+  svg.addEventListener('click', e => { if (moved) { e.preventDefault(); moved = false; } }, true);
 }
 
 function viewTags() {
@@ -691,6 +795,8 @@ function parseHash() {
   if (!parts.length) return { name: 'index' };
   if (parts[0] === 's') return { name: 'section', sec: parts[1], sub: parts[2], sort: q.get('sort'), topic: q.get('topic'), q: q.get('q') };
   if (parts[0] === 'tags') return parts[1] ? { name: 'tag', tag: parts[1] } : { name: 'tags' };
+  if (parts[0] === 'graph') return { name: 'graph', tag: q.get('tag'), only: q.get('only') };
+  if (parts[0] === 'series') return parts[1] ? { name: 'series', key: parts[1] } : { name: 'serieslist' };
   return { name: 'note', id: parts[0].toUpperCase(), anchor: parts[1] };
 }
 let lastRoute = '';
@@ -705,6 +811,9 @@ function route() {
     if (sec) { title = `${r.topic && S.tags.has(r.topic.toLowerCase()) ? tagLabel(r.topic.toLowerCase()) + ' — ' : ''}${sec.name} — ${title}`; navKey = sec.id; }
   } else if (r.name === 'tags') { html = viewTags(); title = `Tags — ${title}`; }
   else if (r.name === 'tag') { html = viewTag(r.tag.toLowerCase()); title = `${r.tag} — ${title}`; }
+  else if (r.name === 'graph') { html = viewGraph(r); title = `Graph — ${title}`; navKey = 'graph'; }
+  else if (r.name === 'series') { html = viewSeries(slug(r.key)); title = `Series — ${title}`; }
+  else if (r.name === 'serieslist') { html = viewSeriesList(); title = `Series — ${title}`; }
   else {
     const n = S.byId.get(r.id) || S.byId.get(resolveTarget(r.id) || '');
     if (n && n.id !== r.id) { location.replace('#/' + n.id); return; }
@@ -713,6 +822,7 @@ function route() {
   }
   main.innerHTML = html;
   if (r.name === 'section') initBrowse(main, r.q);   // before restoring the scroll position, since filtering changes the page's length
+  if (r.name === 'graph') initGraph(main);
   document.title = title;
   $$('.nav a[data-nav]').forEach(a => a.dataset.nav === navKey ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
   const links = $('.nav-links'), cur = $('.nav a[aria-current="page"]');
@@ -723,7 +833,8 @@ function route() {
   if (saved != null) window.scrollTo(0, saved);   // Back, Forward or reload: return to where the reader was
   else { if (key !== lastRoute) window.scrollTo(0, 0); if (r.anchor) scrollToAnchor(r.anchor); }
   lastRoute = key;
-  enhance(main);
+  enhance(main).then(markTocCurrent);
+  markTocCurrent();
 }
 // Each history entry gets a key in history.state; its last scroll position is kept for the session.
 const SCROLL_STORE = 'cp-scroll';
@@ -739,6 +850,22 @@ function rememberScroll() {
     try { sessionStorage.setItem(SCROLL_STORE, JSON.stringify(scrollMemory)); } catch (e) {}
   }, 300);
 }
+// The contents box highlights the section being read (on wide screens it sits beside the note and stays put).
+let tocFrame = 0;
+function markTocCurrent() {
+  cancelAnimationFrame(tocFrame);
+  tocFrame = requestAnimationFrame(() => {
+    const toc = $('#main nav.toc'); if (!toc) return;
+    const links = $$('a[data-scroll]', toc); if (!links.length) return;
+    let cur = null;
+    for (const a of links) { const h = $(`[data-anchor="${CSS.escape(a.dataset.scroll)}"]`, $('#main')); if (h && h.getBoundingClientRect().top < 140) cur = a; }
+    for (const a of links) a.classList.toggle('is-current', a === cur);
+    if (cur && getComputedStyle(toc).position === 'fixed') {
+      const t = cur.offsetTop, b = t + cur.offsetHeight;
+      if (t < toc.scrollTop + 30) toc.scrollTop = Math.max(0, t - 30); else if (b > toc.scrollTop + toc.clientHeight - 30) toc.scrollTop = b - toc.clientHeight + 30;
+    }
+  });
+}
 function scrollToAnchor(a) { const h = $(`[data-anchor="${CSS.escape(a)}"]`, $('#main')); if (h) h.scrollIntoView({ block: 'start' }); }
 
 /* ---------------- shell ---------------- */
@@ -747,7 +874,7 @@ function buildShell() {
   document.body.innerHTML = `<a class="skip" href="#main">Skip to content</a>
   <header class="topbar"><a class="brand" href="#/"><span class="brand-title">${esc(c.title || 'Notes')}</span></a>
     <nav class="nav" aria-label="Main"><span class="nav-links"><a href="#/" data-nav="index">Index</a>${S.sections.map(s => `<a href="#/s/${s.id}" data-nav="${s.id}">${esc(s.shortName || s.name)}</a>`).join('')}
-    <a href="#/tags" data-nav="tags">Tags</a></span><button type="button" data-action="search">Search<kbd>/</kbd></button>
+    <a href="#/tags" data-nav="tags">Tags</a><a href="#/graph" data-nav="graph">Graph</a></span><button type="button" data-action="random" title="Open a random note">Random</button><button type="button" data-action="search">Search<kbd>/</kbd></button>
     <button type="button" class="theme-btn" data-action="theme" aria-label="Switch colour theme" title="Switch colour theme"></button></nav></header>
   <main id="main" tabindex="-1"></main>
   <div class="popover" id="popover" hidden></div>`;
@@ -876,6 +1003,10 @@ function bindEvents() {
     const act = e.target.closest('[data-action]');
     if (act) {
       if (act.dataset.action === 'search') openSearch();
+      if (act.dataset.action === 'random') {
+        const here = parseHash().id, pool = S.notes.filter(n => n.id !== here && !(n.section && n.section.index === false));
+        if (pool.length) location.hash = '#/' + pool[Math.floor(Math.random() * pool.length)].id;
+      }
       if (act.dataset.action === 'theme') { const t = THEMES[(THEMES.indexOf(currentTheme()) + 1) % 3]; try { localStorage.setItem('theme', t); } catch (x) {} applyTheme(t); updateThemeButton(); }
       return;
     }
@@ -923,7 +1054,8 @@ function bindEvents() {
     const m = e.target.closest('mjx-container');
     if (m && copyMath(m)) { const sel = getSelection(); if (sel) sel.removeAllRanges(); }
   });
-  addEventListener('scroll', () => { hidePopover(); hideEqTip(); rememberScroll(); }, { passive: true });
+  addEventListener('scroll', () => { hidePopover(); hideEqTip(); rememberScroll(); markTocCurrent(); }, { passive: true });
+  addEventListener('resize', markTocCurrent, { passive: true });
 }
 
 /* ---------------- boot ---------------- */

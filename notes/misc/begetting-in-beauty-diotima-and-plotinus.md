@@ -1,4 +1,6 @@
 ---
+series: Reading Plato
+part: 5
 id: M-0386
 date: 2026-10-21
 title: "Begetting in Beauty: Diotima's Pregnant Souls and Plotinus' On Beauty"

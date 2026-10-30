@@ -6,6 +6,8 @@
     "new": "node tools/new.mjs",
     "link": "node tools/link.mjs",
     "check": "node tools/check.mjs",
-    "publish": "node tools/publish.mjs"
+    "publish": "node tools/publish.mjs",
+    "suggest": "node tools/suggest.mjs",
+    "publish-note": "node tools/publish-note.mjs"
   }
 }

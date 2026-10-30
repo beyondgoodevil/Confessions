@@ -1,4 +1,6 @@
 ---
+series: Reading Plato
+part: 3
 id: M-0385
 date: 2026-10-21
 title: "Plato's Quarrel With the Poets: Republic X Read Three Ways"
