@@ -266,6 +266,7 @@ Christa Acampora's afterword looks at the **parts** of animals.
 
 ## Related
 
+- [[Nietzsche: The Will to Power]]
 - [[Thus Spoke Zarathustra as Drama: Plot, Tragedy and Parody]]
 - [[Nietzsche: The Overman]]
 - [[Nietzsche: Eternal Recurrence]]

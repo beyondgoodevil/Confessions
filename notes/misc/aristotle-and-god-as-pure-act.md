@@ -27,6 +27,7 @@ To claim that God as pure act requires external actualization misunderstands bot
 
 ## Related
 
+- [[Nietzsche: The Will to Power]]
 - [[God as Pure Act: RC vs EO]]
 - [[Thomism]]
 - [[First and Second Actuality in Thomism]]
