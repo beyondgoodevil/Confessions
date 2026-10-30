@@ -198,6 +198,7 @@ Stambaugh compares N. with **Spinoza**, whom N. in 1881 hailed as his "precursor
 
 ## Related
 
+- [[Nietzsche and the Greeks]]
 - [[Thus Spoke Zarathustra as Drama: Plot, Tragedy and Parody]]
 - [[Nietzsche's Aristocratic Radicalism: The Greek State, Slavery and the Pyramid of Culture]]
 - [[Nietzsche: Eternal Recurrence]]

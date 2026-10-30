@@ -195,6 +195,7 @@ Seth Benardete (1930–2001) was a student of Leo Strauss at Chicago and is best
 
 ## Related
 
+- [[Nietzsche and the Greeks]]
 - [[Xenia: The Homeric Hospitality Scene]]
 - [[The Bow and the Lyre: A Platonic Reading of the Odyssey]]
 - [[Porphyry's Homeric Questions: Explaining Homer From Homer]]
