@@ -8,7 +8,7 @@ source: "Richard Wagner's The Ring of the Nibelung, graphic novel adapted by Roy
 aliases: [The Ring of the Nibelung, Der Ring des Nibelungen, The Ring Cycle, Leitmotif, Leitmotiv, Music Drama, Gesamtkunstwerk, Götterdämmerung, Das Rheingold, Die Walküre, Siegfried]
 ---
 
-Wagner's ***Ring of the Nibelung*** is four music dramas, about **sixteen hours** over four nights, telling one story: a gold ring forged by renouncing love brings ruin on everyone who wants it, gods included. It matters for two reasons: its **method**, the leitmotif and the continuous "music drama" that replaced opera's arias, and its **meaning**, which critics from Kerman to Adorno still argue about. Here's how it works:
+Wagner's ***Ring of the Nibelung*** is four music dramas, about **sixteen hours** over four nights, telling one story: a gold ring forged by renouncing love brings ruin on everyone who wants it, gods included. It matters for two reasons: its **method**, the leitmotif and the continuous "music drama" that replaced opera's arias, and its **meaning**, which critics from Kerman to Adorno still argue about.
 
 ### 1. Making the Ring
 

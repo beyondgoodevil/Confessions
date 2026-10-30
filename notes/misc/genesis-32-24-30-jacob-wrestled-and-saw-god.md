@@ -7,7 +7,7 @@ summary: Genesis 32:24-30, where Jacob wrestles a Man and says he has seen God f
 source: Genesis 32:24-30 (New King James Version)
 ---
 
-The image is a screenshot of Genesis 32:24-30 in the New King James Version, with "God" highlighted in verses 28 and 30. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
+The source image is Genesis 32:24-30 in the NKJV, with "God" highlighted in verses 28 and 30. Copyright keeps the translation off the page; an outline of each verse stands in for it.
 
 - **32:24** – Jacob is left alone, and a Man wrestles with him until the breaking of day.
 - **32:25** – Seeing He does not prevail, the Man touches the socket of Jacob's hip and puts it out of joint.

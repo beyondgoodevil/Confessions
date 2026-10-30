@@ -7,7 +7,7 @@ summary: John 17:1-5, where Christ asks to be glorified with the glory He had wi
 source: John 17:1-5 (New King James Version)
 ---
 
-The image is a screenshot of John 17:1-5 in the New King James Version, under the heading **Jesus Prays for Himself**. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
+This note started from a screenshot of John 17:1-5 in the New King James Version, under the heading **Jesus Prays for Himself**. The verses are outlined in turn instead of copied out.
 
 ## Jesus Prays for Himself
 

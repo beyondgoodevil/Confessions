@@ -6,7 +6,7 @@ tags: [theology, theosis, the-fall, patristics]
 summary: Genesis 1:26 says man was made "in Our image, according to Our likeness". Why many Fathers distinguish the two, what the image is, what the Fall did to it, how Christ restores it, and why the likeness is the path of theosis.
 ---
 
-Genesis says God made man **"in Our image, according to Our likeness."** Many Fathers read these as two related gifts: the **image** is what every human being is given at creation, and the **likeness** is what each person is called to grow into. This distinction is the foundation of the Orthodox teaching on **theosis**. Here's how it works:
+Genesis says God made man **"in Our image, according to Our likeness."** Many Fathers read these as two related gifts: the **image** is what every human being is given at creation, and the **likeness** is what each person is called to grow into. This distinction is the foundation of the Orthodox teaching on **theosis**.
 
 ### 1. The Text
 

@@ -8,7 +8,7 @@ source: "Primary: Homer, The Iliad, trans. Richmond Lattimore (Chicago), 18.369â
 aliases: [Shield of Achilles, Shield of Akhilleus, Hephaestus' Shield, Hephaistos, Iliad 18, Ekphrasis, Homeric Ekphrasis, Aspis]
 ---
 
-In *Iliad* 18 Achilles has lost his armour. Patroclus wore it into battle, Hector killed him and stripped it, and now Hector is wearing it. Thetis goes up to Olympus and asks Hephaistos for new armour, and Homer spends about 130 lines on **the shield alone**. It isn't decorated with Gorgons or monsters. It shows **the whole world**: sky, two cities, farms, vineyards, herds, a dance, and Ocean around the edge. Most of it is **at peace**. So the question every reader eventually asks: **why does the deadliest warrior in the poem carry a picture of ordinary peaceful life into his last battle?** Here's how it works:
+In *Iliad* 18 Achilles has lost his armour. Patroclus wore it into battle, Hector killed him and stripped it, and now Hector is wearing it. Thetis goes up to Olympus and asks Hephaistos for new armour, and Homer spends about 130 lines on **the shield alone**. It isn't decorated with Gorgons or monsters. It shows **the whole world**: sky, two cities, farms, vineyards, herds, a dance, and Ocean around the edge. Most of it is **at peace**. So the question every reader eventually asks: **why does the deadliest warrior in the poem carry a picture of ordinary peaceful life into his last battle?**
 
 ### 1. The Making
 

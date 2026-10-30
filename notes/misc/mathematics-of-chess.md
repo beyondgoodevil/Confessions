@@ -14,7 +14,7 @@ aliases: [Mathematics of Chess, Zermelo's Theorem, Shannon Number, Eight Queens 
 
 > "O the depth of the riches both of the wisdom and knowledge of God! how unsearchable are his judgments, and his ways past finding out!" (Romans 11:33)
 
-Chess is a **finite** game: 64 squares, 32 pieces, rules that make every game end. So in principle it's a mathematical object that could be **solved**. **Zermelo** proved in 1913 that it has a definite value, and **Shannon** showed in 1950 why we'll never compute it by brute force. Meanwhile the board itself has been a playground for combinatorics for centuries: the **eight queens**, the **knight's tour**, the **mutilated chessboard**. Here's how it works:
+Chess is a **finite** game: 64 squares, 32 pieces, rules that make every game end. So in principle it's a mathematical object that could be **solved**. **Zermelo** proved in 1913 that it has a definite value, and **Shannon** showed in 1950 why we'll never compute it by brute force. Meanwhile the board itself has been a playground for combinatorics for centuries: the **eight queens**, the **knight's tour**, the **mutilated chessboard**.
 
 ## 1. The Wheat and the Chessboard
 

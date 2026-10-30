@@ -8,7 +8,7 @@ source: "Primary: the Analects, Mencius, Xunzi, Mozi, Laozi, Zhuangzi, Sunzi, Bo
 aliases: [Hundred Schools of Thought, Warring States Period, Spring and Autumn Period, Chinese Axial Age]
 ---
 
-The five centuries after 771 BCE were the most violent in early Chinese history and also the most creative. The **Zhou kings** lost their power, the **aristocratic order** of the Springs and Autumns broke down, and the **Warring States** turned into centralized war machines until Qin swallowed the rest in 221 BCE. In the middle of this crisis the **Hundred Schools** of thought argued about how to restore order, and their answers shaped China for two thousand years. Here's how it works:
+The five centuries after 771 BCE were the most violent in early Chinese history and also the most creative. The **Zhou kings** lost their power, the **aristocratic order** of the Springs and Autumns broke down, and the **Warring States** turned into centralized war machines until Qin swallowed the rest in 221 BCE. In the middle of this crisis the **Hundred Schools** of thought argued about how to restore order, and their answers shaped China for two thousand years.
 
 ### 1. Kings Without Power
 

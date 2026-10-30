@@ -8,7 +8,7 @@ source: "Primary: Erwin Panofsky, Studies in Iconology: Humanistic Themes in the
 aliases: [Iconography and Iconology, Studies in Iconology, Erwin Panofsky, Panofsky, Iconology, Pre-iconographical Description, Father Time, Blind Cupid, Twin Venuses, Melencolia I]
 ---
 
-What does a painting **mean**? Erwin Panofsky's answer, set out in the introduction to *Studies in Iconology* (1939), is that meaning comes in **three layers**, and each layer needs a different kind of knowledge and a different historical check. The method became the standard toolkit of art history: identify what's shown, then what story or allegory it is, then what it reveals about the mind of its age. Here's how it works:
+What does a painting **mean**? Erwin Panofsky's answer, set out in the introduction to *Studies in Iconology* (1939), is that meaning comes in **three layers**, and each layer needs a different kind of knowledge and a different historical check. The method became the standard toolkit of art history: identify what's shown, then what story or allegory it is, then what it reveals about the mind of its age.
 
 ### 1. The Man Lifting His Hat
 

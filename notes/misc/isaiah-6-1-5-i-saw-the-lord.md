@@ -7,7 +7,7 @@ summary: Isaiah 6:1-5, Isaiah's vision of the Lord enthroned, with "I saw the Lo
 source: Isaiah 6:1-5 (New King James Version)
 ---
 
-The image is a screenshot of Isaiah 6:1-5 in the New King James Version, under the heading **Isaiah Called to Be a Prophet**, with "I saw the Lord" highlighted in verse 1. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
+Pictured: Isaiah 6:1-5, New King James Version, under the heading **Isaiah Called to Be a Prophet**, with "I saw the Lord" highlighted in verse 1. Since that translation is under copyright, the passage is summarised verse by verse below.
 
 ## Isaiah Called to Be a Prophet
 

@@ -7,7 +7,7 @@ summary: 2 Thessalonians 2:13-17, with "traditions which you were taught" highli
 source: 2 Thessalonians 2:13-17 (New King James Version)
 ---
 
-The image is a screenshot of 2 Thessalonians 2:13-17 in the New King James Version, under the heading **Stand Fast**, with part of verse 15 highlighted. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
+This note started from a screenshot of 2 Thessalonians 2:13-17 in the New King James Version, under the heading **Stand Fast**, with part of verse 15 highlighted. The verses are outlined in turn instead of copied out.
 
 ## Stand Fast
 

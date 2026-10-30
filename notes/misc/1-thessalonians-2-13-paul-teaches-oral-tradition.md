@@ -7,7 +7,7 @@ summary: 1 Thessalonians 2:13 — the preached word was received as the word of 
 source: 1 Thessalonians 2:13 (New King James Version)
 ---
 
-The image is a screenshot of 1 Thessalonians 2:13 in the New King James Version, under the heading **Their Conversion**. The NKJV text is copyrighted, so the verse is given in outline.
+This note started from a screenshot of 1 Thessalonians 2:13 in the New King James Version, under the heading **Their Conversion**. The verse is outlined instead of copied out.
 
 ## Their Conversion
 

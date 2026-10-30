@@ -8,7 +8,7 @@ author: Edward Feser
 source: "Five Proofs of the Existence of God (Ignatius Press, 2017), ch. 2"
 ---
 
-Feser's **Neo-Platonic proof** argues from the fact that everything we experience is **composite**, made up of parts, to the existence of a cause that has **no parts at all**. It takes its name from Plotinus, for whom a thing is a being only insofar as it is **one**. Here's how it works:
+Feser's **Neo-Platonic proof** argues from the fact that everything we experience is **composite**, made up of parts, to the existence of a cause that has **no parts at all**. It takes its name from Plotinus, for whom a thing is a being only insofar as it is **one**.
 
 ### 1. Everything We Experience Is Composite
 

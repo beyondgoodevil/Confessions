@@ -6,7 +6,7 @@ tags: [theology, salvation, theosis]
 summary: The Orthodox teaching that heaven and hell are not two places God sends people, but the same divine presence experienced in two ways, as light by those who love Him and as fire by those who hate Him. Scripture, St. Isaac and St. Basil, the contrast with the juridical model, and the cautions.
 ---
 
-A common Orthodox way of describing the Last Judgment is that **heaven and hell are not two different places**, but the **same presence of God**, His uncreated glory, experienced in two different ways. For those who love God, His presence is **light and joy**; for those who have turned away from Him, the same presence is **fire and torment**. Here's why:
+A common Orthodox way of describing the Last Judgment is that **heaven and hell are not two different places**, but the **same presence of God**, His uncreated glory, experienced in two different ways. For those who love God, His presence is **light and joy**; for those who have turned away from Him, the same presence is **fire and torment**.
 
 ### 1. God Is a Consuming Fire
 

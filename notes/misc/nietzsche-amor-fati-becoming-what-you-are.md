@@ -14,7 +14,7 @@ aliases: [Amor Fati, Love of Fate, Become Who You Are, Become What You Are, How 
 
 > "But as for you, ye thought evil against me; but God meant it unto good." (Genesis 50:20)
 
-Nietzsche left two short formulas about fate. **Amor fati**, love of fate, is about how you think and feel about what has to be. **"Become who you are"** is about what you do with it. Robin Small's way of pairing them helped me: amor fati is the attitude and becoming who you are is the practice. Both are paradoxes on purpose. How do you *love* what you can't change? How do you *become* what you already *are*? And how can a fatalist give a command at all? Here's how it works:
+Nietzsche left two short formulas about fate. **Amor fati**, love of fate, is about how you think and feel about what has to be. **"Become who you are"** is about what you do with it. Robin Small's way of pairing them helped me: amor fati is the attitude and becoming who you are is the practice. Both are paradoxes on purpose. How do you *love* what you can't change? How do you *become* what you already *are*? And how can a fatalist give a command at all?
 
 N. = Nietzsche, GS = *Gay Science*, Z = *Zarathustra*, BGE = *Beyond Good and Evil*, TI = *Twilight of the Idols*, EH = *Ecce Homo*, NCW = *Nietzsche contra Wagner*, KSA/KSB = the standard German editions of the notebooks/letters.
 

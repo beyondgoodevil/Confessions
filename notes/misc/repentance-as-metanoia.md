@@ -6,7 +6,7 @@ tags: [theology, salvation]
 summary: The Greek word for repentance means a change of the nous, not a debt paid. What metanoia is in Scripture and the Fathers, how the Latin "do penance" shifted the emphasis, joyful mourning, and confession as healing.
 ---
 
-The New Testament word for repentance is **metanoia** (μετάνοια), from *meta* ("change", "after") and *nous* ("mind", the inner eye of the soul). Repentance is therefore not first a feeling of regret or a penalty paid, but a **turning of the whole person** back toward God. Here's what that means:
+The New Testament word for repentance is **metanoia** (μετάνοια), from *meta* ("change", "after") and *nous* ("mind", the inner eye of the soul). Repentance is therefore not first a feeling of regret or a penalty paid, but a **turning of the whole person** back toward God.
 
 ### 1. The Word Itself
 

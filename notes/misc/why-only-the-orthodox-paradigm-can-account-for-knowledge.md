@@ -6,7 +6,7 @@ tags: [theology, philosophy, epistemology, apologetics]
 summary: The ontological, epistemological and theological foundations of knowledge in the Eastern Orthodox paradigm, and why competing worldviews fail to provide them.
 ---
 
-The **Eastern Orthodox (EO) Christian paradigm** is the only one that can fully account for the **possibility of knowledge** because it provides the necessary **ontological, epistemological, and theological** foundations for human cognition. Here's why:
+The **Eastern Orthodox (EO) Christian paradigm** is the only one that can fully account for the **possibility of knowledge** because it provides the necessary **ontological, epistemological, and theological** foundations for human cognition.
 
 ## 1. The Ontological Basis: The Triune God as the Source of Knowledge
 

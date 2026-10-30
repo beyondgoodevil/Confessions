@@ -8,7 +8,7 @@ source: "Primary: Plato, The Republic, trans. Allan Bloom, 2nd ed. (Basic Books,
 aliases: [Plato's Quarrel With the Poets, The Ancient Quarrel Between Philosophy and Poetry, Republic X, Why Plato Banished the Artists, Plato and the Mass Media, Mimesis in the Republic, Third From the King]
 ---
 
-Plato's *Republic* is famous for sending the poets out of the ideal city. But what Plato **actually** bans is narrower than "art," and his reasons are stranger and more serious than they first look. Three modern readers take them seriously in different ways: **Iris Murdoch** (the objection is **religious**), **Alexander Nehamas** (it's an attack on **popular entertainment**, and we still make it about television), and **Myles Burnyeat** (it's about **who controls the culture**). Here's how it works:
+Plato's *Republic* is famous for sending the poets out of the ideal city. But what Plato **actually** bans is narrower than "art," and his reasons are stranger and more serious than they first look. Three modern readers take them seriously in different ways: **Iris Murdoch** (the objection is **religious**), **Alexander Nehamas** (it's an attack on **popular entertainment**, and we still make it about television), and **Myles Burnyeat** (it's about **who controls the culture**).
 
 ### 1. What Plato Actually Says
 

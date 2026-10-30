@@ -7,7 +7,7 @@ summary: John 21:20-25, ending with the statement that not everything Jesus did 
 source: John 21:20-25 (New King James Version)
 ---
 
-The image is a screenshot of John 21:20-25 in the New King James Version, under the heading **The Beloved Disciple and His Book**, with verse 25 highlighted. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
+The screenshot shows John 21:20-25 (NKJV), under the heading **The Beloved Disciple and His Book**, with verse 25 highlighted. Its text can't be reproduced, so each verse is put in my own words.
 
 ## The Beloved Disciple and His Book
 

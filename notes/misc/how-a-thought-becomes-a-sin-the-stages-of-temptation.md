@@ -6,7 +6,7 @@ tags: [theology, prayer, patristics]
 summary: The Fathers' map of how a passing thought grows into a sin and then a passion (provocation, coupling, consent, captivity, passion), where sin actually begins, how to stop it early, and how it compares with Augustine's suggestion, delight and consent.
 ---
 
-The Fathers of the desert and the **Philokalia** describe sin not as a sudden act but as a **process** that begins with a passing thought (*logismos*) and, if it is not resisted, ends in a settled **passion**. Knowing the stages lets a person stop the process **early**, while resisting is still easy. Here's how it works:
+The Fathers of the desert and the **Philokalia** describe sin not as a sudden act but as a **process** that begins with a passing thought (*logismos*) and, if it is not resisted, ends in a settled **passion**. Knowing the stages lets a person stop the process **early**, while resisting is still easy.
 
 ### 1. The Scriptural Basis
 

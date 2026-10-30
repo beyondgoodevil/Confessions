@@ -8,7 +8,7 @@ author: Edward Feser
 source: "Five Proofs of the Existence of God (Ignatius Press, 2017), ch. 3"
 ---
 
-Feser's **Augustinian proof** argues from the existence of **abstract objects**, such as numbers, propositions and universals, to the existence of an **eternal, necessary intellect** in which they exist. It takes its name from St. Augustine, who argued from unchanging truth to God. Here's how it works:
+Feser's **Augustinian proof** argues from the existence of **abstract objects**, such as numbers, propositions and universals, to the existence of an **eternal, necessary intellect** in which they exist. It takes its name from St. Augustine, who argued from unchanging truth to God.
 
 ### 1. Augustine's Argument
 

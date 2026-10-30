@@ -7,7 +7,7 @@ summary: Acts 18:24-28, where Apollos, knowing only John's baptism, is taught th
 source: Acts 18:24-28 (New King James Version)
 ---
 
-The image is a screenshot of Acts 18:24-28 in the New King James Version, under the heading **Ministry of Apollos**. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
+Pictured: Acts 18:24-28, New King James Version, under the heading **Ministry of Apollos**. Since that translation is under copyright, the passage is summarised verse by verse below.
 
 ## Ministry of Apollos
 

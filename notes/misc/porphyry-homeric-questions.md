@@ -8,7 +8,7 @@ source: "Porphyry's Homeric Questions on the Iliad: Text, Translation, Commentar
 aliases: [Homeric Questions, Quaestiones Homericae, Homer from Homer, Homeron ex Homerou saphenizein, Zetemata, Problems and Solutions, Zoilus, Scourge of Homer, Porphyry of Tyre]
 ---
 
-Ancient readers didn't just admire Homer, they **interrogated** him. Why does Zeus send Agamemnon a lying dream? How can fate be "unalterable" in the *Iliad* but broken by Aegisthus in the *Odyssey*? Why does Homer bother saying "white milk"? Problems like these were called *zētēmata* or *problēmata*, and the answers *luseis*, "solutions". The fullest surviving collection is by **Porphyry of Tyre**, the philosopher later famous as Plotinus' editor and the Church's sharpest pagan critic. His guiding rule was to **explain Homer from Homer**. Here's how it works:
+Ancient readers didn't just admire Homer, they **interrogated** him. Why does Zeus send Agamemnon a lying dream? How can fate be "unalterable" in the *Iliad* but broken by Aegisthus in the *Odyssey*? Why does Homer bother saying "white milk"? Problems like these were called *zētēmata* or *problēmata*, and the answers *luseis*, "solutions". The fullest surviving collection is by **Porphyry of Tyre**, the philosopher later famous as Plotinus' editor and the Church's sharpest pagan critic. His guiding rule was to **explain Homer from Homer**.
 
 ### 1. Who Porphyry Was
 

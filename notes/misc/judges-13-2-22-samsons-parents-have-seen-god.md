@@ -7,7 +7,7 @@ summary: Judges 13:2-22, where the Angel of the Lord appears to Manoah and his w
 source: Judges 13:2-22 (New King James Version)
 ---
 
-The image is a screenshot of Judges 13:2-22 in the New King James Version, with each occurrence of "God" highlighted. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
+The source image is Judges 13:2-22 in the NKJV, with each occurrence of "God" highlighted. Copyright keeps the translation off the page; an outline of each verse stands in for it.
 
 - **13:2** – Manoah, a Danite from Zorah, has a wife who is barren.
 - **13:3-5** – The Angel of the Lord appears to her: she will bear a son. She must avoid wine and anything unclean; no razor is to touch his head, for he will be a Nazirite to ==God== from the womb and will begin to deliver Israel from the Philistines.

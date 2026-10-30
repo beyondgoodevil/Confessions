@@ -14,7 +14,7 @@ aliases: [Chess and Artificial Intelligence, Deep Blue, Chinese Room and Chess, 
 
 > "Thou hast made him a little lower than the angels... thou madest him to have dominion over the works of thy hands." (Psalm 8:5–6)
 
-For fifty years **chess was the test** for machine intelligence. It was a game of perfect information, demanding enough that only "great minds" played it well, and closed enough that a machine could in principle play it perfectly. Then in 1997 IBM's **Deep Blue** beat world champion **Garry Kasparov**, and the question changed. A machine can obviously *play* chess better than any human. Does it **understand** chess? And if it does, what does that tell us about understanding? The essays in *Philosophy Looks at Chess* give four different answers. Here's how it works:
+For fifty years **chess was the test** for machine intelligence. It was a game of perfect information, demanding enough that only "great minds" played it well, and closed enough that a machine could in principle play it perfectly. Then in 1997 IBM's **Deep Blue** beat world champion **Garry Kasparov**, and the question changed. A machine can obviously *play* chess better than any human. Does it **understand** chess? And if it does, what does that tell us about understanding? The essays in *Philosophy Looks at Chess* give four different answers.
 
 ## 1. The Background: Turing and Searle
 

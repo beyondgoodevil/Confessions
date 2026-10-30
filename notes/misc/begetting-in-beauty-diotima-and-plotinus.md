@@ -8,7 +8,7 @@ source: "Primary: Plato, Symposium, trans. Seth Benardete (Chicago, 2001), 206bâ
 aliases: [Begetting in Beauty, Tokos en Kalo, Giving Birth in Beauty, Ennead I.6, On Beauty (Plotinus), Pregnant in Soul, Becoming Sun-like, Working on Your Statue]
 ---
 
-Plato's Diotima says something stranger than "we love beauty": love is **"of engendering and bringing to birth in the beautiful."** Beauty is not the goal but the **midwife**. Plotinus, six centuries later, turns this into a programme: beauty is the visible trace of **form**, and to see true Beauty you must **become beautiful yourself**. Together they give the classic account of why beauty matters morally. (Diotima's ladder and the debate over eros and agape are in [[Eros and Agape: Plato, Nygren, Dionysius and the Fathers]]; this note is about the begetting and about Plotinus.) Here's how it works:
+Plato's Diotima says something stranger than "we love beauty": love is **"of engendering and bringing to birth in the beautiful."** Beauty is not the goal but the **midwife**. Plotinus, six centuries later, turns this into a programme: beauty is the visible trace of **form**, and to see true Beauty you must **become beautiful yourself**. Together they give the classic account of why beauty matters morally. (Diotima's ladder and the debate over eros and agape are in [[Eros and Agape: Plato, Nygren, Dionysius and the Fathers]]; this note is about the begetting and about Plotinus.)
 
 ### 1. Love Is Not of the Beautiful
 

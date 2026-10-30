@@ -8,7 +8,7 @@ source: "Steve Reece, The Stranger's Welcome: Oral Theory and the Aesthetics of 
 aliases: [Xenia, Guest-Friendship, Homeric Hospitality, Hospitality Scene, Zeus Xenios, Theoxeny, The Stranger's Welcome, Steve Reece, Guest-Gifts]
 ---
 
-In Homer, how you treat a stranger at your door shows what kind of person, and what kind of society, you are. The relationship is called *xenia*, "guest-friendship". The *Odyssey* is basically a string of visits: Athena at Ithaca, Telemachus at Pylos and Sparta, Odysseus among the Phaeacians, in the Cyclops' cave, at Eumaeus' hut, and finally as a beggar in his own house. Steve Reece's *The Stranger's Welcome* argues that these scenes follow a fixed traditional script. The poet's art lies in how he follows it, stretches it, cuts it or turns it upside down, and an audience that knew the script would catch every variation. Here's how it works:
+In Homer, how you treat a stranger at your door shows what kind of person, and what kind of society, you are. The relationship is called *xenia*, "guest-friendship". The *Odyssey* is basically a string of visits: Athena at Ithaca, Telemachus at Pylos and Sparta, Odysseus among the Phaeacians, in the Cyclops' cave, at Eumaeus' hut, and finally as a beggar in his own house. Steve Reece's *The Stranger's Welcome* argues that these scenes follow a fixed traditional script. The poet's art lies in how he follows it, stretches it, cuts it or turns it upside down, and an audience that knew the script would catch every variation.
 
 ### 1. The Word and the God
 

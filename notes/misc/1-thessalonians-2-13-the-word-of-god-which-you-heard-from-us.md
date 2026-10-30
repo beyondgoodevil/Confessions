@@ -7,7 +7,7 @@ summary: 1 Thessalonians 2:13, with the spoken word received as the word of God 
 source: 1 Thessalonians 2:13 (New King James Version)
 ---
 
-The image is a screenshot of 1 Thessalonians 2:13 in the New King James Version, under the heading **Their Conversion**, with most of the verse highlighted. The NKJV text is copyrighted, so the verse is given in outline.
+The source image is 1 Thessalonians 2:13 in the NKJV, under the heading **Their Conversion**, with most of the verse highlighted. Copyright keeps the translation off the page; an outline stands in for it.
 
 ## Their Conversion
 

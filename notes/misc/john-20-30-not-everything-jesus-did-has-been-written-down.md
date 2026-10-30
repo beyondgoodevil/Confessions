@@ -7,7 +7,7 @@ summary: John 20:24-31, with "which are not written in this book" highlighted.
 source: John 20:24-31 (New King James Version)
 ---
 
-The image is a screenshot of John 20:24-31 in the New King James Version, with part of verse 30 highlighted. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
+The image shows John 20:24-31 in the New King James Version, with part of verse 30 highlighted. The NKJV wording is copyrighted, so what follows is a verse-by-verse outline.
 
 ## Seeing and Believing
 

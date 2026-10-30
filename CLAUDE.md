@@ -53,7 +53,7 @@ Write tags as `tags: [domain, scripture?, topic, topic]`, in that order, lower-c
 
 Write notes in the owner's own style, the one their image-transcribed theology notes were written in (e.g. the original *2 Peter 1:3-4: Theosis*, *TAG*, *Action Is Not Proper to the Person*):
 
-- Open with a short paragraph (one to three sentences) that states the claim or what the note covers, in plain prose with the **key terms bolded**; often ending "Here's why:" or "Here's how it works:".
+- Open with a short paragraph (one to three sentences) that states the claim or what the note covers, in plain prose with the **key terms bolded**. Don't end it with a stock lead-in such as "Here's why:" or "Here's how it works:", and vary the wording of repeated framing lines (screenshot and copyright notes, abbreviation keys) from note to note.
 - Then numbered sections as `### 1. Title Case Heading`, each explained in full sentences. Inside a section, use bullets for examples or reasons, or a numbered list of `1. **Label**: explanation in full sentences.`
 - Quote the verse or the claim being discussed in full, in quotation marks, before explaining it; label explanations `- **Significance:** …` where that fits.
 - Bold key words and phrases inside the prose, not whole paragraphs.

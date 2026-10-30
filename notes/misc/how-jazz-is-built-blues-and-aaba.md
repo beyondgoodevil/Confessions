@@ -8,7 +8,7 @@ source: "Scott DeVeaux and Gary Giddins, Jazz (Norton, 2009), ch. 2 'Jazz Form a
 aliases: [Twelve-Bar Blues, 12-Bar Blues, AABA, Thirty-Two-Bar Form, 32-Bar Song Form, Rhythm Changes, Chorus (jazz), Turnaround, Trading Fours, Jazz Form]
 ---
 
-Jazz sounds free, but almost every performance runs on a **repeating cycle of bars and chords** called the **chorus**, and two cycles account for most of it: the **twelve-bar blues** and the **thirty-two-bar AABA song**. Giddins and DeVeaux say you only need to "hear four beats in a measure, count to thirty-two," and tell an A melody from a B. Here's how it works:
+Jazz sounds free, but almost every performance runs on a **repeating cycle of bars and chords** called the **chorus**, and two cycles account for most of it: the **twelve-bar blues** and the **thirty-two-bar AABA song**. Giddins and DeVeaux say you only need to "hear four beats in a measure, count to thirty-two," and tell an A melody from a B.
 
 ### 1. The Chorus: A Cycle
 

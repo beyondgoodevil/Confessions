@@ -7,7 +7,7 @@ summary: The Jerusalem Council in Acts 15:6-22 as a model of conciliar Church go
 source: Acts 15:6-22 (New King James Version)
 ---
 
-The image is a screenshot of Acts 15:6-22 in the New King James Version, under the headings **The Jerusalem Council** and **The Jerusalem Decree**. The NKJV text is copyrighted, so this note outlines the passage verse by verse instead of copying it.
+This note began with a screenshot of Acts 15:6-22 in the NKJV, under the headings **The Jerusalem Council** and **The Jerusalem Decree**. Because that translation is copyrighted, the passage is retold verse by verse instead of copying it.
 
 ## The Jerusalem Council
 

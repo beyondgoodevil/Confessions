@@ -6,7 +6,7 @@ tags: [philosophy, theology, metaphysics, neoplatonism]
 summary: Heidegger's charge that Western metaphysics forgot Being and turned God into the highest being ("ontotheology"), and why the Greek Fathers, who placed God beyond being and spoke of Him apophatically, were never guilty of it. Plato, Dionysius, Palamas, Marion and Yannaras.
 ---
 
-Martin Heidegger accused Western philosophy of **forgetting Being** and of turning God into the **highest being**, a supreme object among other objects. He called this **"ontotheology"**. Orthodox thinkers have argued that this charge does not touch the Greek Fathers, because they never treated God as a being among beings at all, but as **beyond being**. Here's why:
+Martin Heidegger accused Western philosophy of **forgetting Being** and of turning God into the **highest being**, a supreme object among other objects. He called this **"ontotheology"**. Orthodox thinkers have argued that this charge does not touch the Greek Fathers, because they never treated God as a being among beings at all, but as **beyond being**.
 
 ### 1. Heidegger's Question
 

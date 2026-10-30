@@ -14,7 +14,7 @@ aliases: [Bobby Fischer Teaches Chess, Back-Rank Mate, Checkmate Patterns, Progr
 
 > "Watch ye, stand fast in the faith, quit you like men, be strong." (1 Corinthians 16:13)
 
-*Bobby Fischer Teaches Chess* (1972, written with two experts in programmed instruction, Stuart Margulies and Donn Mosenfelder) teaches one thing: **how to see mating combinations**. Fischer's reason: "Since checkmating is the object of the game, I think it is the most basic thing to learn. The checkmate is the 'knockout' of Chess." The book drills a small number of **patterns** (the back-rank mate and its defences, displacing defenders, sacrifices against the pawn cover) until you recognise them "sometimes in just a few seconds". Here's how it works:
+*Bobby Fischer Teaches Chess* (1972, written with two experts in programmed instruction, Stuart Margulies and Donn Mosenfelder) teaches one thing: **how to see mating combinations**. Fischer's reason: "Since checkmating is the object of the game, I think it is the most basic thing to learn. The checkmate is the 'knockout' of Chess." The book drills a small number of **patterns** (the back-rank mate and its defences, displacing defenders, sacrifices against the pawn cover) until you recognise them "sometimes in just a few seconds".
 
 The boards for Fischer's own games use the real game scores (from chessgames.com), with the positions he discusses in the book. The other boards are clean positions I built to show each pattern. Every board is interactive: step through the moves, or switch on the 3D view.
 

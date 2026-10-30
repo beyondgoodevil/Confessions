@@ -7,7 +7,7 @@ summary: Exodus 3:1-22, the burning bush and the revelation of the divine name.
 source: Exodus 3:1-22 (New King James Version)
 ---
 
-The image is a screenshot of Exodus 3:1-22 in the New King James Version, under the heading **Moses at the Burning Bush**, with each "I am" highlighted. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
+The screenshot shows Exodus 3:1-22 (NKJV), under the heading **Moses at the Burning Bush**, with each "I am" highlighted. Its text can't be reproduced, so each verse is put in my own words.
 
 ## Moses at the Burning Bush
 

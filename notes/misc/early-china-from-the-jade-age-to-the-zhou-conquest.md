@@ -8,7 +8,7 @@ source: "Primary: Shang oracle-bone inscriptions, Western Zhou bronze inscriptio
 aliases: [Neolithic and Bronze Age China, Shang and Western Zhou, Ancient China]
 ---
 
-The traditional story says China began with sage kings and then passed through three dynasties, the **Xia**, **Shang** and **Zhou**, one after the other. Archaeology gives a messier and more interesting picture: many regional cultures, a **Jade Age** before the Bronze Age, real cities by 3000 BCE, a Shang state that we know from its own **oracle bones**, and a Zhou conquest that was justified by a new idea, the **Mandate of Heaven**. Here's how it works:
+The traditional story says China began with sage kings and then passed through three dynasties, the **Xia**, **Shang** and **Zhou**, one after the other. Archaeology gives a messier and more interesting picture: many regional cultures, a **Jade Age** before the Bronze Age, real cities by 3000 BCE, a Shang state that we know from its own **oracle bones**, and a Zhou conquest that was justified by a new idea, the **Mandate of Heaven**.
 
 ### 1. Myth Versus Archaeology
 

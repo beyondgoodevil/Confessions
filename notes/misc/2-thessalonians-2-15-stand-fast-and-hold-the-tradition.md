@@ -7,7 +7,7 @@ summary: 2 Thessalonians 2:15 — hold the traditions taught by word or by lette
 source: 2 Thessalonians 2:15 (New King James Version)
 ---
 
-The image is a screenshot of 2 Thessalonians 2:15 in the New King James Version. The NKJV text is copyrighted, so the verse is given in outline.
+The screenshot shows 2 Thessalonians 2:15 (NKJV). Its text can't be reproduced, so the verse is put in my own words.
 
 - **2:15** – The brethren are told to stand fast and hold the traditions they were taught, whether by word or by the apostles' epistle.
 

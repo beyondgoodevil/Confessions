@@ -7,7 +7,7 @@ summary: 2 Timothy 2:1-13, with verse 2 on handing the teaching on to faithful m
 source: 2 Timothy 2:1-13 (New King James Version)
 ---
 
-The image is a screenshot of 2 Timothy 2:1-13 in the New King James Version, under the heading **Be Strong in Grace**, with verse 2 highlighted. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
+The source image is 2 Timothy 2:1-13 in the NKJV, under the heading **Be Strong in Grace**, with verse 2 highlighted. Copyright keeps the translation off the page; an outline of each verse stands in for it.
 
 ## Be Strong in Grace
 

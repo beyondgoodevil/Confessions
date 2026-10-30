@@ -14,7 +14,7 @@ aliases: [Chess Tactics, Pin, Fork, Discovered Attack, Skewer, Scholar's Mate, L
 
 > "For which of you, intending to build a tower, sitteth not down first, and counteth the cost?" (Luke 14:28)
 
-Seirawan's **first principle** is **force**: who has more fighting material, overall or in one part of the board. You get it two ways: by massing your pieces where the enemy's aren't, or by winning his pieces outright. The second is what **tactics** are for: short forcing sequences (pins, forks, discoveries) that win material because the opponent can't answer two threats at once. **Traps** are tactics that wait for the opponent to blunder into them. Here's how it works:
+Seirawan's **first principle** is **force**: who has more fighting material, overall or in one part of the board. You get it two ways: by massing your pieces where the enemy's aren't, or by winning his pieces outright. The second is what **tactics** are for: short forcing sequences (pins, forks, discoveries) that win material because the opponent can't answer two threats at once. **Traps** are tactics that wait for the opponent to blunder into them.
 
 ## 1. Counting Force: The Point Values
 

@@ -14,7 +14,7 @@ aliases: [Chess Endgames, King and Queen vs King, King and Rook vs King, Opposit
 
 > "Let us not be weary in well doing: for in due season we shall reap, if we faint not." (Galatians 6:9)
 
-Seirawan's point is simple: "It's no use playing a good opening and gaining a material advantage in the middlegame if you don't know how to win from there!" The **endgame** has its own rules. The **king becomes a fighting piece**, a few basic mates must be known by heart, and with only kings and pawns left, everything turns on **opposition** and counting squares. Here's how it works:
+Seirawan's point is simple: "It's no use playing a good opening and gaining a material advantage in the middlegame if you don't know how to win from there!" The **endgame** has its own rules. The **king becomes a fighting piece**, a few basic mates must be known by heart, and with only kings and pawns left, everything turns on **opposition** and counting squares.
 
 All diagrams have White at the bottom. Yellow squares show the last move or the area being discussed; a red square marks a king in check or trapped.
 

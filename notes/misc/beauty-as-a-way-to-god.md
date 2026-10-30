@@ -6,7 +6,7 @@ tags: [philosophy, theology, metaphysics, icons-saints, liturgy]
 summary: Beauty as one of the ways to God alongside truth and goodness. Plato's ladder of beauty, Dionysius on God as the Beauty that calls all things, Augustine's "Beauty ever ancient, ever new", the envoys of Prince Vladimir, icons, Kant's turn to subjective taste, and the danger of beauty without God.
 ---
 
-Alongside **truth** and **goodness**, the classical and Christian traditions treat **beauty** as one of the ways the soul is drawn to God. Beauty is not just a matter of taste; it is a real reflection of God's glory in creation, and it **calls** the soul beyond itself. Dostoevsky put it in a single line in *The Idiot*: **"beauty will save the world."** Here's why:
+Alongside **truth** and **goodness**, the classical and Christian traditions treat **beauty** as one of the ways the soul is drawn to God. Beauty is not just a matter of taste; it is a real reflection of God's glory in creation, and it **calls** the soul beyond itself. Dostoevsky put it in a single line in *The Idiot*: **"beauty will save the world."**
 
 ### 1. The Transcendentals
 

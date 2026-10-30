@@ -7,7 +7,7 @@ summary: Acts 20:7-9, where Paul preaches until midnight and none of the sermon 
 source: Acts 20:7-9 (New King James Version)
 ---
 
-The image is a screenshot of Acts 20:7-9 in the New King James Version, under the heading **Ministering at Troas**. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
+The image shows Acts 20:7-9 in the New King James Version, under the heading **Ministering at Troas**. The NKJV wording is copyrighted, so what follows is a verse-by-verse outline.
 
 ## Ministering at Troas
 

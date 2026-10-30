@@ -7,7 +7,7 @@ summary: 1 Timothy 6:16 — God alone has immortality and dwells in unapproachab
 source: 1 Timothy 6:16 (New King James Version)
 ---
 
-The image is a screenshot of 1 Timothy 6:16 in the New King James Version. The NKJV text is copyrighted, so the verse is given in outline.
+Pictured: 1 Timothy 6:16, New King James Version. Since that translation is under copyright, the verse is paraphrased rather than quoted.
 
 - **6:16** – God alone has immortality and dwells in unapproachable light; no man has seen Him or can see Him; to Him be honor and everlasting power.
 

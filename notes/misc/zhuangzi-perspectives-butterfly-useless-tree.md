@@ -14,7 +14,7 @@ aliases: [Zhuangzi, Chuang Tzu, Chuang-tzu, Zhuang Zhou, Butterfly Dream, Cook D
 
 > "Where is the wise? where is the scribe? where is the disputer of this world? hath not God made foolish the wisdom of this world?" (1 Corinthians 1:20)
 
-The *Zhuangzi* is the strangest and funniest book of ancient philosophy. It is a heap of fables, jokes, dialogues and arguments: talking trees, a cook who never blunts his knife, a man who sings when his wife dies, a butterfly who may be dreaming she is a man. Underneath the jokes is a serious attack on the confidence of every school that claims to know **the right way** (*dao*), and a picture of life as **free, skilful responsiveness** rather than rule-following. Here's how it works:
+The *Zhuangzi* is the strangest and funniest book of ancient philosophy. It is a heap of fables, jokes, dialogues and arguments: talking trees, a cook who never blunts his knife, a man who sings when his wife dies, a butterfly who may be dreaming she is a man. Underneath the jokes is a serious attack on the confidence of every school that claims to know **the right way** (*dao*), and a picture of life as **free, skilful responsiveness** rather than rule-following.
 
 ## 1. The Book and the Man
 

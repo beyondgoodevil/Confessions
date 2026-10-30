@@ -7,7 +7,7 @@ summary: Romans 8:18-25 on creation's bondage to corruption and its coming deliv
 source: Romans 8:18-25 (New King James Version)
 ---
 
-The image is a screenshot of Romans 8:18-25 in the New King James Version, under the heading **From Suffering to Glory**, with verse 21 highlighted. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
+This note started from a screenshot of Romans 8:18-25 in the New King James Version, under the heading **From Suffering to Glory**, with verse 21 highlighted. The verses are outlined in turn instead of copied out.
 
 ## From Suffering to Glory
 

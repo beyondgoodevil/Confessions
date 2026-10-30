@@ -14,7 +14,7 @@ aliases: [Thus Spoke Zarathustra, Zarathustra as Drama, Zarathustra's Plot, Inci
 
 > "Ye shall be sorrowful, but your sorrow shall be turned into joy." (John 16:20)
 
-*Thus Spoke Zarathustra* (four parts, 1883–85) is usually mined for slogans: the overman, the last man, "God is dead", eternal recurrence. But it's the only book N. wrote with a **plot**: characters, places, events, a hero who changes. Lampert's warning is the right starting point. Pull the speeches out of the story and you turn a drama into a treatise, and you lose the main event, which is **what happens to Zarathustra**. The interpreters disagree about what that is: an education (Lampert), a failure (Rosen), a tragedy that is also a parody of the Gospels (Meier), a Greek tragic trilogy with a satyr play attached (Meyer). Here's how it works:
+*Thus Spoke Zarathustra* (four parts, 1883–85) is usually mined for slogans: the overman, the last man, "God is dead", eternal recurrence. But it's the only book N. wrote with a **plot**: characters, places, events, a hero who changes. Lampert's warning is the right starting point. Pull the speeches out of the story and you turn a drama into a treatise, and you lose the main event, which is **what happens to Zarathustra**. The interpreters disagree about what that is: an education (Lampert), a failure (Rosen), a tragedy that is also a parody of the Gospels (Meier), a Greek tragic trilogy with a satyr play attached (Meyer).
 
 N. = Nietzsche, Z = *Zarathustra* (citations by part and chapter title, Kaufmann's translation unless noted), GS = *Gay Science*, EH = *Ecce Homo*.
 

@@ -7,7 +7,7 @@ summary: Joshua 5:13-15, where Joshua worships the Commander of the army of the 
 source: Joshua 5:13-15 (New King James Version)
 ---
 
-The image is a screenshot of Joshua 5:13-15 in the New King James Version, under the heading **The Commander of the Army of the ==Lord==**, with "Lord" highlighted throughout. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
+This note started from a screenshot of Joshua 5:13-15 in the New King James Version, under the heading **The Commander of the Army of the ==Lord==**, with "Lord" highlighted throughout. The verses are outlined in turn instead of copied out.
 
 ## The Commander of the Army of the Lord
 

@@ -8,7 +8,7 @@ source: "Robin A. Leaver, 'Music and Lutheranism', and John Butt, 'Bach's metaph
 aliases: [Bach's Metaphysics of Music, Bach and Leibniz, Bach and Spinoza, Musico-centric, A Mind Unconscious That It Is Calculating, Soli Deo Gloria, B-A-C-H]
 ---
 
-Bach didn't just write music *for* the church; he seems to have thought that **music itself**, when it is composed and performed as perfectly as possible, **reflects and even makes present the order of God**. John Butt calls this Bach's **"musico-centric"** view, and the best way to understand it is to put it next to Luther's theology of music and the rationalist philosophers of Bach's own age, **Leibniz, Wolff and Spinoza**. Here's how it works:
+Bach didn't just write music *for* the church; he seems to have thought that **music itself**, when it is composed and performed as perfectly as possible, **reflects and even makes present the order of God**. John Butt calls this Bach's **"musico-centric"** view, and the best way to understand it is to put it next to Luther's theology of music and the rationalist philosophers of Bach's own age, **Leibniz, Wolff and Spinoza**.
 
 ### 1. Luther: Music Next to Theology
 

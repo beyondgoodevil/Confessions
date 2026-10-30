@@ -7,7 +7,7 @@ summary: Matthew 17:1-13, the Transfiguration, with "light" highlighted in verse
 source: Matthew 17:1-13 (New King James Version)
 ---
 
-The image is a screenshot of Matthew 17:1-13 in the New King James Version, under the heading **Jesus Transfigured on the Mount**, with the word "light" highlighted in verse 2. The NKJV text is copyrighted, so this note outlines the passage verse by verse.
+The screenshot shows Matthew 17:1-13 (NKJV), under the heading **Jesus Transfigured on the Mount**, with the word "light" highlighted in verse 2. Its text can't be reproduced, so each verse is put in my own words.
 
 ## Jesus Transfigured on the Mount
 

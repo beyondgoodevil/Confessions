@@ -7,7 +7,7 @@ summary: "Matthew 16:18, with 'My church' highlighted, followed by the main read
 source: "Matthew 16:18 (New King James Version); A. Edward Siecienski, The Papacy and the Orthodox (Oxford, 2017) ch. 2–3"
 ---
 
-The image is a screenshot of Matthew 16:18 in the New King James Version, with "My church" highlighted. The NKJV text is copyrighted, so the verse is given in outline.
+The image shows Matthew 16:18 in the New King James Version, with "My church" highlighted. The NKJV wording is copyrighted, so it appears here in outline.
 
 - **16:18** (highlighted) – Jesus tells Peter that he is Peter, that on this rock He will build ==My church==, and that the gates of Hades will not prevail against it.
 

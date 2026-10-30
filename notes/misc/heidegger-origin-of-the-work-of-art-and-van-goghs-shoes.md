@@ -8,7 +8,7 @@ source: "Primary: Martin Heidegger, 'The Origin of the Work of Art', in Poetry, 
 aliases: [The Origin of the Work of Art, Van Gogh's Shoes, A Pair of Peasant Shoes, Heidegger on Art, Schapiro and Heidegger, The Truth in Painting, World and Earth]
 ---
 
-In "The Origin of the Work of Art," Heidegger argues that a great work of art is not a pretty object or a copy of something but a place where **truth happens**: it opens up a **world**. His most famous example, a pair of shoes in a painting by Van Gogh, started one of the great quarrels in art theory. **Meyer Schapiro** showed the shoes were Van Gogh's own, not a peasant woman's, and **Jacques Derrida** asked why both men needed to give the shoes back to an owner at all. Here's how it works:
+In "The Origin of the Work of Art," Heidegger argues that a great work of art is not a pretty object or a copy of something but a place where **truth happens**: it opens up a **world**. His most famous example, a pair of shoes in a painting by Van Gogh, started one of the great quarrels in art theory. **Meyer Schapiro** showed the shoes were Van Gogh's own, not a peasant woman's, and **Jacques Derrida** asked why both men needed to give the shoes back to an owner at all.
 
 ### 1. The Circle
 
