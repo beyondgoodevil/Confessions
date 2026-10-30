@@ -59,6 +59,7 @@ Follow-up: this is where Perl is heading with Plotinus, where Intellect and the 
 
 ## Related
 
+- [[Plato's Phaedo: Philosophy as Practice for Dying]]
 - [[The Good in Plato]]
 - [[The Unmoved Mover]]
 - [[The Logoi of Creation in St. Maximus]]

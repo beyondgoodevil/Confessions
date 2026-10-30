@@ -125,6 +125,7 @@ Pseudo-Pythagorean treatises on ethics and politics (in the *Sourcebook*'s libra
 
 ## Related
 
+- [[Plato's Phaedo: Philosophy as Practice for Dying]]
 - [[Bach's Metaphysics of Music: Luther, Leibniz and Spinoza]]
 - [[The Presocratics: Being and Becoming]]
 - [[The Forms and the Demiurge]]

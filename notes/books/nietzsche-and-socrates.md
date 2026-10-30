@@ -203,6 +203,7 @@ N.'s Socrates changes shape three times. He begins as the newborn daemon who kil
 
 ## Related
 
+- [[Plato's Phaedo: Philosophy as Practice for Dying]]
 - [[Apollo and Dionysus: The Birth of Tragedy]]
 - [[Nietzsche and the Greeks]]
 - [[Nietzsche: Eternal Recurrence]]

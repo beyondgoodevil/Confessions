@@ -126,6 +126,7 @@ Written c. 380, soon after the death of Gregory's brother **St. Basil**. Gregory
 
 ## Related
 
+- [[Plato's Phaedo: Philosophy as Practice for Dying]]
 - [[Personal Identity and the Resurrection]]
 - [[Hell as the River of Fire]]
 - [[Image and Likeness]]
