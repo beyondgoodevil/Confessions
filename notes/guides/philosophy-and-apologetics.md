@@ -224,4 +224,5 @@ Consequences the Orthodox draw from absolute simplicity.
 
 ## Related
 
+- [[A Map of the Fallacies: Kreeft's Seven Families]]
 - [[Hamblin's Fallacies: The Standard Treatment and Formal Dialectic]]

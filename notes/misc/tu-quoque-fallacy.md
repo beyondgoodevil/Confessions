@@ -37,6 +37,7 @@ Tu quoque (Latin for "you too") is a logical fallacy in which someone dismisses 
 
 ## Related
 
+- [[A Map of the Fallacies: Kreeft's Seven Families]]
 - [[The Ad Hominem Fallacy]]
 - [[Double Standard Fallacy]]
 - [[The Appeal to Irrelevance Fallacy]]

@@ -32,6 +32,7 @@ A double standard occurs when a principle, rule, or moral judgment is applied in
 
 ## Related
 
+- [[A Map of the Fallacies: Kreeft's Seven Families]]
 - [[Double Standard Fallacy]]
 - [[Tu Quoque Fallacy]]
 - [[Moving the Goalpost]]

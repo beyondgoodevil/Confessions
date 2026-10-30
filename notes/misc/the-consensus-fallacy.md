@@ -29,6 +29,7 @@ In epistemological debates, this fallacy is often used to silence dissenting vie
 
 ## Related
 
+- [[A Map of the Fallacies: Kreeft's Seven Families]]
 - [[The Ad Hominem Fallacy]]
 - [[Hasty Generalization Fallacy]]
 - [[Appeal to Generality]]

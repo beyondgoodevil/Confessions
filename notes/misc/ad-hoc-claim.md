@@ -25,6 +25,7 @@ An **ad hoc claim** is an **argument or explanation that is created solely to de
 
 ## Related
 
+- [[A Map of the Fallacies: Kreeft's Seven Families]]
 - [[Moving the Goalpost]]
 - [[Double Standard Fallacy]]
 - [[The Fallacy of Circular Reasoning]]

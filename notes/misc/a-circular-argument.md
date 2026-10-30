@@ -44,6 +44,7 @@ Not necessarily. Some **transcendental** or **foundational** arguments (e.g., ar
 
 ## Related
 
+- [[A Map of the Fallacies: Kreeft's Seven Families]]
 - [[Hamblin's Fallacies: The Standard Treatment and Formal Dialectic]]
 - [[The Fallacy of Circular Reasoning]]
 - [[Why Is It Necessary to Justify One’s Presuppositions]]

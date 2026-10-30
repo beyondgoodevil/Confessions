@@ -29,6 +29,7 @@ The **Hasty Generalization** fallacy is problematic because it assumes that limi
 
 ## Related
 
+- [[A Map of the Fallacies: Kreeft's Seven Families]]
 - [[Appeal to Generality]]
 - [[The Consensus Fallacy]]
 - [[The Ad Hominem Fallacy]]

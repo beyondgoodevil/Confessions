@@ -111,6 +111,7 @@ This is useful for the apologetics notes. Most of the listed fallacies are reall
 
 ## Related
 
+- [[A Map of the Fallacies: Kreeft's Seven Families]]
 - [[Hamblin's Fallacies: The Standard Treatment and Formal Dialectic]]
 - [[Propositional Logic Cheat Sheet]]
 - [[Modal Logic: Necessity and Possibility]]

@@ -40,6 +40,7 @@ The appeal to irrelevance is a fallacy because it **does not address the issue**
 
 ## Related
 
+- [[A Map of the Fallacies: Kreeft's Seven Families]]
 - [[Tu Quoque Fallacy]]
 - [[The Ad Hominem Fallacy]]
 - [[Moving the Goalpost]]

@@ -28,6 +28,7 @@ It comes from sports, especially football (soccer or American), where moving the
 
 ## Related
 
+- [[A Map of the Fallacies: Kreeft's Seven Families]]
 - [[Ad Hoc Claim]]
 - [[Double Standard Fallacy]]
 - [[Tu Quoque Fallacy]]

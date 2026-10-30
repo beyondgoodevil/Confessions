@@ -34,6 +34,7 @@ To counter this fallacy, demand **specific definitions, examples, and precise ev
 
 ## Related
 
+- [[A Map of the Fallacies: Kreeft's Seven Families]]
 - [[Hasty Generalization Fallacy]]
 - [[The Consensus Fallacy]]
 - [[Ad Hoc Claim]]

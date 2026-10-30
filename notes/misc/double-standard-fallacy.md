@@ -21,6 +21,7 @@ It’s a logical inconsistency in reasoning and can undermine fairness and ratio
 
 ## Related
 
+- [[A Map of the Fallacies: Kreeft's Seven Families]]
 - [[Double Standard Fallacy 2]]
 - [[Tu Quoque Fallacy]]
 - [[Moving the Goalpost]]

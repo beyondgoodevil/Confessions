@@ -31,6 +31,7 @@ However, the word “faith” can carry different nuances. In James, it refers t
 
 ## Related
 
+- [[A Map of the Fallacies: Kreeft's Seven Families]]
 - [[The Trinity]]
 - [[Works Are Required: NT Quotes]]
 - [[Romans: Not Justified by Works of the Law]]
