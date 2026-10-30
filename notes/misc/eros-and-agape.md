@@ -185,6 +185,7 @@ Lewis set out (ch. I) to praise **Gift-love**, which is like God, and belittle *
 
 ## Related
 
+- [[Plato's Phaedrus: Divine Madness, the Winged Soul, Rhetoric and Writing]]
 - [[Achilles and Hector: The Homeric Hero]]
 - [[Begetting in Beauty: Diotima's Pregnant Souls and Plotinus' On Beauty]]
 - [[Kalos and Kallos: Did the Greeks Have a Word for Beauty?]]

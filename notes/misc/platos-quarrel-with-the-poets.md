@@ -67,6 +67,7 @@ Plato doesn't banish art; he bans imitative poetry (Homer and the tragedians) wh
 
 ## Related
 
+- [[Plato's Phaedrus: Divine Madness, the Winged Soul, Rhetoric and Writing]]
 - [[The Republic's Ideal City: The Noble Lie, Philosopher-Kings and the Guardians' Communism]]
 - [[Republic Book I: Cephalus, Polemarchus and Thrasymachus on Justice]]
 - [[Aletheia: Heidegger on Truth as Unconcealment]]
