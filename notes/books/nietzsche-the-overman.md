@@ -2,95 +2,214 @@
 id: B-0014
 date: 2026-05-08
 title: "Nietzsche: The Overman"
-tags: [philosophy, nietzsche]
-summary: Reading notes on the overman. Havas reads it as commitment (owning your past, answering for your future). Johnson and Lampert follow what happens to the idea inside Zarathustra.
-author: Randall Havas; Dirk R. Johnson; Laurence Lampert
-source: "Oxford Handbook of Nietzsche (2013), ch. 20; New Cambridge Companion to Nietzsche (2019), ch. 7; A Companion to Friedrich Nietzsche (Camden House, 2012), ch. 7"
-aliases: [The Overman, Übermensch]
+tags: [philosophy, nietzsche, zarathustra]
+summary: "The Übermensch from the first word to the last. Where the word comes from and how to translate it, the speech in the market and the last man, the four figures of the Prologue, the overman taught to disciples in Part I (the body, the friend, the 'one goal', the 'chosen people'), the teaching in trouble in Part II (God a supposition, 'never yet has there been an overman', the poets' lie), why the word nearly disappears in Parts III–IV, the quarrel over how it fits with eternal recurrence (Lampert, Stern, Seung, Meyer, Loeb), why it is not Darwinian (Johnson) and what transhumanists make of it (Sorgner), its afterlife in Genealogy, Twilight, Antichrist and Ecce Homo, its politics (Drochon, Meier, Strauss) and Havas's reading of it as commitment."
+author: "Friedrich Nietzsche; Laurence Lampert; Heinrich Meier; Leo Strauss; Matthew Meyer; Dirk R. Johnson; Hugo Drochon; Randall Havas"
+source: "Primary: Nietzsche, Thus Spoke Zarathustra, trans. Graham Parkes (Oxford World's Classics, 2005), whole text with Parkes's introduction and notes; The Gay Science, trans. Walter Kaufmann (Vintage, 1974), §143 and Kaufmann's introduction; Twilight of the Idols and The Antichrist in The Portable Nietzsche, trans. Walter Kaufmann (Viking, 1954). Secondary: Laurence Lampert, Nietzsche's Teaching: An Interpretation of Thus Spoke Zarathustra (Yale University Press, 1986), Introduction, Prologue, Part I, Part II and Conclusions; Heinrich Meier, What Is Nietzsche's Zarathustra? A Philosophical Confrontation, trans. Justin Gottschalk (University of Chicago Press, 2021), chs. I–II; Leo Strauss on Nietzsche's Thus Spoke Zarathustra, ed. Richard L. Velkley (University of Chicago Press, 2017), session on the Prologue; Matthew Meyer, The Routledge Guidebook to Nietzsche's Thus Spoke Zarathustra (Routledge, 2025), §§2.6–2.7; Dirk R. Johnson, Nietzsche's Anti-Darwinism (Cambridge University Press, 2010), ch. 2; Hugo Drochon, Nietzsche's Great Politics (Princeton University Press, 2016), ch. 4; Stefan Lorenz Sorgner, 'Nietzsche, the Overhuman, and Transhumanism', Journal of Evolution and Technology 20.1 (2009), pp. 29–42; Randall Havas in The Oxford Handbook of Nietzsche (Oxford, 2013), ch. 20; Dirk R. Johnson in The New Cambridge Companion to Nietzsche (Cambridge, 2019), ch. 7; Laurence Lampert in A Companion to Friedrich Nietzsche (Camden House, 2012), ch. 7"
+aliases: [The Overman, Übermensch, Overhuman, Superman, The Last Man, Last Human, Nietzsche's Superman, Overman and Last Man, Overman and Eternal Recurrence]
 ---
 
-Notes on the *Übermensch*. Mostly Havas, with Johnson and Lampert (who translates it "Overhuman") for what happens to the idea inside *Zarathustra*.
+The overman is the most famous thing N. ever said, and he said it almost only once. The word comes in the first speech Zarathustra gives to other people, in a market square while the crowd waits for a tightrope act. It is repeated over and over there, carried into the speeches to the disciples in Part I, questioned and partly taken back in Part II, and then it nearly disappears. By the end of *Zarathustra* the hero is no longer "the herald of the overman" but "the teacher of eternal recurrence". Most of the arguments about the idea come from this shape. Was the overman a real goal, a lure for an audience that only understood evolution, a poet's lie that Zarathustra later owns up to, or a name for what Zarathustra himself becomes? I've read it as a story about a teaching that changes as its teacher learns who he is speaking to. Here's how it works:
 
-N. = Nietzsche, Z = *Thus Spoke Zarathustra*, BGE = *Beyond Good and Evil*, GM = *Genealogy of Morals*.
+N. = Nietzsche, Z = *Thus Spoke Zarathustra* (cited by part and chapter, Pr = Prologue), GS = *The Gay Science*, BGE = *Beyond Good and Evil*, GM = *Genealogy of Morals*, TI = *Twilight of the Idols*, AC = *The Antichrist*, EH = *Ecce Homo*, SE = *Schopenhauer as Educator*. Z quotes are Parkes's translation, which renders *Übermensch* as "Overhuman". Lampert writes "superman", Kaufmann and Drochon "overman". I use "overman" unless I'm quoting.
 
-## 1. What It Isn't
+### 1. The Word
 
-- Not a biological type or master race.
-- Not a lone genius who invents himself from nothing.
-- Barely appears outside the Prologue of Z. For something so famous that is striking.
-- Havas: it names a **way of life**, what it would be to really be an agent.
+- *Übermensch* is not N.'s coinage. Kaufmann's note to GS 143 says the word turns up in German literature "a few times" before him, and that GS 143 is its first appearance in his own books. Kaufmann also thinks Emerson's "Over-Soul" (which N. read in German) "surely influenced" the choice.
+- That first appearance is in the plural, and it is not flattering. GS 143, "The greatest advantage of polytheism", lists "gods, heroes, and overmen of all kinds, as well as nearmen and undermen, dwarfs, fairies, centaurs, satyrs, demons, and devils". Polytheism let individuals have an ideal of their own while pretending "It wasn't I! ... But a god through me." So the overman starts out as one of mankind's mythical inventions, a "preliminary exercise" for the self-rule of the individual. Lampert and Meyer both come back to this when they read Z II 17 (§7 below).
+- **Translating it.** "Superman" was popularised by Shaw and then ruined by the comic strip. Kaufmann brought back "overman" to keep the *über-* (over, across) that ties the word to *überwinden* (overcome) and to the rope-and-crossing images. Parkes and Sorgner say "Overhuman" because *Mensch* means human being, not male. Drochon keeps "man" because he thinks N. meant it. Strauss, in his seminar on Z, preferred the literal "superman": "superman reminds us also of superhuman". N. takes the old adjective "superhuman", which used to belong to God, and "makes the superhuman back into a noble man. The superman is a superhuman man."
+- So the word announces the programme. Something that used to be above man and outside him (the gods, the superhuman) is to become a human possibility.
 
-## 2. In the Text of Zarathustra
+### 2. The Speech in the Market (Pr 3–4)
 
-(from Johnson and Lampert)
+Zarathustra has been in the mountains for ten years. He comes down at forty, meets an old saint in the forest, learns the saint hasn't heard that God is dead, and walks into the nearest town. The crowd is waiting for a rope-dancer. His first words to them are: "I teach to you the Overhuman. The human is something that shall be overcome. What have you done to overcome it?"
 
-- Prologue: Zarathustra comes down the mountain and tells the marketplace that man is something to be overcome, the overman is "the meaning of the earth". He uses evolution imagery because the crowd knows it: ape → man → overman, man as a rope or bridge.
-- The opposite figure is the **last man** ("last human" in Lampert): wants comfort, equality, no suffering, blinks. The crowd shouts that they'd rather have *him*.
-- The tightrope walker falls and dies. Zarathustra gives up on crowds and decides to look for companions.
-- **Three transformations** (Z I): camel (carries duty, "you ought") → lion (says "I want", wins freedom but can't create) → child (new beginning, "sacred yes-saying", can create values). The animals themselves are in [[Nietzsche's Bestiary: Camel, Lion, Ape, Ass and Blond Beast|Nietzsche's bestiary]].
-- Johnson's point: after the Prologue the overman **fades**. It was a lure to attract disciples. The real business of the book becomes Zarathustra facing eternal recurrence himself (Parts II and III), i.e. affirming *his own* life, not preaching a future type.
-- By Part IV the "higher men" turn his ideas into a new religion (the ass festival). They wanted a replacement god. So the teaching can't just be handed over as doctrine.
-- Johnson generally: Z's importance is not a set of doctrines (WtP, overman, recurrence) but the way it acts out moods and a journey. The whole plot, and how Lampert, Rosen, Meier and Meyer read it, is in [[Thus Spoke Zarathustra as Drama: Plot, Tragedy and Parody|Zarathustra as drama]].
+- **The evolution frame.** "All beings so far have created something beyond themselves." The ape is "a laughing-stock or a painful cause for shame" to the human, and the human will be the same to the overman. "You have made your way from worm to human, and much in you is still worm."
+- **The meaning of the earth.** "The Overhuman is the sense of the earth. May your will say: Let the Overhuman be the sense of the earth!" Meier notices the doubling: the statement is followed at once by a demand that the hearer's *will* say it. The meaning is not found but given. It is pushed into the future, a "radically futurist giving of meaning". Strauss: "The superman is not the meaning of the earth in itself, by nature." It becomes the meaning once it is chosen.
+- "Stay true to the earth and do not believe those who talk of over-earthly hopes!" The overman is put where heaven used to be, as the thing that gives this life its point.
+- **Three images.** Lampert counts three pictures of the overman in this one speech: the goal of a now *willed* evolution, a sea that can take in the "polluted stream" of humanity without being dirtied, and the lightning and madness that should strike the contented: "Where is the madness with which you must be inoculated? / Behold, I teach to you the Overhuman: it is this lightning, it is this madness!" Meier hears Dionysian and Platonic *mania* in that.
+- **The target is contentment.** Meier counts four "I teach to you the Overhuman"s answered by four mentions of "wretched contentment". The first enemy is not sin but comfort. "Not your sin—your contentedness cries out to heaven" is Meier's translation of the line.
+- **The rope (Pr 4).** "The human is a rope, fastened between beast and Overhuman—a rope over an abyss." "What is great in the human is that it is a bridge and not a goal: what can be loved in the human is that it is a going-over and a going-under." Strauss points out that this second speech has nothing to do with evolution. It describes man's essence, not his origin. Man is "the transcending being, the transcending animal". "One could say the superman is the end of man, the natural end of man."
+- **The litany of "I love".** Eighteen verses all begin "I love". He loves those who go under, the great despisers who are "arrows of yearning for the other shore", those who "sacrifice themselves to the earth, that the earth may one day belong to the Overhuman", and the one who "wants to understand so that one day the Overhuman may live". Meier notes that even the knower, the philosopher, is made to serve the goal here. At the centre of the speech stands "the will to going-under". This is a teaching for the camel, the weight-bearing spirit that wants to be loaded with the heaviest task.
+- **Why he loves them at all.** The saint asked why Zarathustra wants to go back to men. Zarathustra first says he loves men, then corrects himself: he brings them a gift. Meier: he loves men "as recipients of his gift, as what they could become through him". The love, the gift and the demand ("What have you done to overcome it?") are one gesture.
 
-This fits Havas better than the popular picture. If the overman were a programme, it's odd that N. drops the word.
+The crowd laughs, thinks he is announcing the rope-dancer, and shouts that they've heard enough.
 
-## 3. The Problem: "It Was"
+### 3. The Last Man (Pr 5)
 
-- Z II "On Redemption": the will has "ill will" against time and its "it was". The past can't be changed and the will hates being powerless before it.
-- That resentment of time = root of revenge, and of wanting another world where nothing passes.
-- Overcoming man = getting into a different relation to time. "Thus I willed it."
+Zarathustra decides to try their pride instead and tell them about "what is most despicable: and that is the last human."
 
-## 4. Havas: Agency = Commitment
+- "The time has now come for the human to set a goal for itself. The time has now come for the human to plant the seed of its highest hope." The soil is still rich enough, but one day it will be too poor for "any tall tree".
+- "One must still have chaos within, in order to give birth to a dancing star." The danger is the time "when the human will give birth to no more stars".
+- The last man asks "What is love? What is creation? What is yearning? What is a star?" and blinks. He keeps warm, avoids quarrels ("else it is bad for the stomach"), takes "a little poison now and then", wants no one to rule and no one to obey. "No herdsman and one herd!" "‘We have invented happiness’—say the last humans and they blink."
+- Parkes's note: N. plays on *blinzelt* (blinks) against *Blitz* (lightning), the overman's image. The last man's blink is the opposite of a flash of insight. Meier pairs "We have invented happiness" with the opening of AC, where the philosopher says "We have *discovered* happiness". Invented happiness rests on an illusion.
+- **The crowd wants it.** "Give us this last human, O Zarathustra ... Turn us into these last humans! Then you can have the Overhuman!" The attempt to shame them only makes them want it. Meier: the speech "awakens not their revulsion, but their desire."
+- **What the last man is.**
+  - *Lampert:* the last man and the overman are "two quite different atheisms", the two extremes open to "the as yet undetermined animal" (BGE 62) once God is dead. The last man is the modern project come true, Locke's relief from "uneasiness" and Hobbes's fear of violent death turned into a whole way of life. Later in Z the last men get a new name: "the good and the just".
+  - *Strauss:* the overman and the last man are "attempts to sketch the minimum and maximum of human malleability". Modern social science assumes man is endlessly shapeable. N. asks how low and how high the shaping can go.
+  - *Johnson:* the last man is "a caricature of Darwin's 'man'". Darwin's fitness is survival and fertility. Zarathustra's line, in Johnson's translation, "His kind is ineradicable, like the flea beetle; the last human being lives longest" makes long life and fertility the marks of the lowest type.
+  - *Drochon:* the last men want "the end of history". He links this to Fukuyama, whose book is titled *The End of History and the Last Man* and whose often-ignored second half worries about exactly this.
+- **Never again.** Meier counts ten mentions of the last man, nine of them in this one section. The "teaching of the last man" is never repeated after the Prologue. The crowd's reaction taught Zarathustra that it can't work as prophecy.
 
-Central claim. To be an agent is to be committed, and commitment faces two ways in time.
+### 4. Four Figures and a Failure (Pr 6–10)
 
-**Backwards: indebted to the past**
+The rope-dancer starts across. A jester comes out behind him, shouts at him to hurry, leaps over him, and the rope-dancer falls to his death at Zarathustra's feet. Zarathustra carries the corpse out of town and spends the night with it.
 
-- Nobody is cause of himself. N. mocks the *causa sui* (BGE 21).
-- What we can do comes from long training and obedience (BGE 188). Freedom grows out of discipline.
-- Acting = taking up what you were given and making it yours.
+- **Meier's reading.** Zarathustra meets four people that day, and they come in pairs.
+  - The saint in the forest keeps the Christian God but drops Christian morality. He has turned faith into private praise.
+  - The old hermit who gives Zarathustra bread and wine on the way out keeps the morality without the God. He feeds everyone, living or dead, without asking.
+  - The rope-dancer is the "conservative humanist". He tries to keep man balanced on the rope, halfway, with no going-over. He fears the devil and keeps hell without heaven.
+  - The jester is the "revolutionary utopian or millenarian" who wants to leap over man "cost what it may". He keeps heaven and wants it on earth now. Meier adds that the jester is also an ironic picture of a too-eager follower of the overman teaching itself.
+- **Johnson's reading.** The tightrope act is an *agon*, a formal contest with danger in which a man has "already overcome the 'man' in man". The jester doesn't enter the contest. He just knocks out a rival. In Darwinian terms he is the fittest because he survived. For N. that only shows he is the lower type. Zarathustra honours the dead man: "You have made danger your calling: there is nothing in that to despise ... therefore will I bury you with my own hands."
+- **The new truth (Pr 9).** "Companions I need and living ones". "Zarathustra shall not become shepherd and sheepdog to a herd!" He will seek out "the creators, the harvesters, the celebrants", and to them he will show "the rainbow ... and all the stairways to the Overhuman". Meier sums up the lesson as "When I spoke to All, I spoke to None." The overman was addressed to everyone, which is why it reached nobody.
+- **Johnson's lesson.** The evolutionary language was tailored to the market: "now I speak to them as to goatherds." For the overman to be a goal for everyone it had to sound like popular Darwinism. After the market and the rope-dancer, Zarathustra stops offering it as a common goal for the species. From now on it is meant to inspire individuals.
+- On the night of the descent he says it once more to himself: "I want to teach humans the meaning of their Being: that is the Overhuman, the lightning from the dark cloud of the human. / But still am I distant from them".
 
-**Forwards: responsible for the future**
+### 5. Part I: The Overman Taught to Disciples
 
-- The **sovereign individual** (GM II 1–2) has "the right to make promises". He can bind his later self and answer for it.
-- A promise is the model commitment. It holds you to something across time.
+The "Speeches of Zarathustra" are given in a town called "The Motley Cow", to young men who have gathered round him. The overman comes up all the way through, but Meier counts only four mentions before I 15 and eight after it, so "the frequency quadruples after the One goal is introduced". The places where it appears:
 
-Overman = someone who accepts both sides. Doesn't disown the past, doesn't dodge the future.
+- **The three transformations (I 1).** The spirit becomes a camel (it kneels to be loaded), then a lion (it kills the dragon "Thou shalt" and wins its freedom), then a child ("innocence and forgetting, a new beginning, a game, a self-propelling wheel, a first movement, a sacred Yes-saying"). Meier reads this as the path of the *philosopher*, not of mankind in general. It's about the companions of Zarathustra's own kind. The animals are in [[Nietzsche's Bestiary: Camel, Lion, Ape, Ass and Blond Beast|Nietzsche's bestiary]].
+- **The body (I 4).** "Body am I through and through, and nothing besides; and soul is merely a word for something about the body." The "self" is the body, and what it wants most is "to create beyond itself". To the despisers of the body: "You are for me no bridges to the Overhuman!" Johnson builds on this. The overman is not a higher mind but "a 'higher' body", drives ordered into a whole.
+- **The pale criminal (I 6).** The judges are told "Your killing, you judges, shall be compassion and not revenge", and: "May your sorrow be love for the Overhuman: thus may you justify your own living on!"
+- **The state (I 11).** "There where the state ceases— ... Do you not see it, the rainbow and the bridges of the Overhuman?" The overman begins where the "coldest of all cold monsters" ends.
+- **The friend and the farthest (I 14, I 16).** You shall be to your friend "an arrow and a yearning for the Overhuman". "Not the neighbour do I teach to you, but the friend. May the friend be to you a festival of the earth and a premonition of the Overhuman." "In your friend shall you love the Overhuman as your own cause." Love of the neighbour is replaced by "love of the farthest". Meier: the friend's "unbroken eye" is the opposite of the last man's blink.
+- **Marriage (I 18, I 20).** "Let your hope be: ‘May I give birth to the Overhuman!’" "To propagate yourselves not only onward, but upward." Meier: these show that the overman has to be begotten and born. It is not only a state of soul.
+- **The one goal (I 15).** This is the political centre of Part I. "A thousand goals have there been so far, for there have been a thousand peoples. Only the shackles for the thousand necks are still lacking: there is lacking the one goal. Humanity still has no goal." The overman isn't named in this speech, but it is the goal in the speeches either side.
+  - *Lampert:* the "most important feature of the future superman" shows here. He will be "the founder of a new and global people", making a table of values for all mankind.
+  - *Meier:* this is the old problem of Plato's philosopher-kings. Once what is best for man becomes the aim of politics, uniting mankind under one goal becomes thinkable. The speech also says peoples make their gods, not the reverse, and calls the creators of goals "lovers". Its examples are poets (Homer, the *Nibelungenlied*) and prophets (Zoroaster, Moses).
+- **The gift-giving virtue (I 22).** In his farewell to the disciples:
+  - "You lonely ones of today, who withdraw to the side, you shall one day be a people: out of you, who have chosen yourselves, shall a chosen people grow:—and out of them the Overhuman."
+  - Lampert: here the overman plays the part of the Messiah.
+  - The Great Midday is "when the human stands in the middle of its path between beast and Overhuman", and its "ultimate will" is "Dead are all Gods: now we want the Overhuman to live".
+  - Meier: Zarathustra promises only the *hope* for the overman, never his presence, even at the Great Midday.
+  - Meier also notes the line "Still we fight step by step with the giant Accident". It shows how close this pathos of a coming reversal is to the Young Hegelians and Marx's eleventh thesis on Feuerbach, the demand that philosophy change the world.
+- **Lose me.** The same speech ends by sending the disciples away: "One repays a teacher poorly if one always remains only a student", "lose me and find yourselves; and only when you have all denied me will I return to you." Meier: that is "the exhortatio of a philosopher, not the dictate of a prophet". The prophet needs believers and the philosopher wants none. "Two, not One."
 
-## 5. Three Difficulties Havas Raises
+**How provisional is all this?** For Lampert, "Part I is the provisional presentation of an unfinished teaching." Zarathustra in Part I is "merely the herald of the superman ... a maker of disciples who are to prepare the way for his coming". Lampert insists the overman is always singular. He is never shown as a plurality or as a new class of authentic people, and the hearers are never told to *become* him, only to prepare for him. That counts against the common democratised reading, in which everyone is invited to be their own overman. Meier adds that Part I already speaks to two kinds of listener. There are the knowers, future philosophers who must go through the lion's freedom. And there are the "noble ones", who need a holy hope to serve. I 10 sorts them openly: "if you cannot be saints of understanding, then at least be for me its warriors", and (in Meier's translation) "your highest thought ... is: man is something that is to be overcome."
 
-- **Regret.** How do I affirm a past I didn't choose? By treating it as the ground of what I'm now undertaking.
-- **Transience.** Nothing I do lasts. But demanding permanence is the ill will again.
-- **Originality.** If I'm all inheritance, what is mine? The commitment by which I take it up.
+### 6. Part II: The Teaching in Trouble
 
-Not sure the regret answer works for really bad pasts. Come back to this with [[Nietzsche: Eternal Recurrence]], which is the hard version of the same test.
+Years later Zarathustra dreams that a child shows him a mirror and he sees a devil's grimace. He concludes "my teaching is in danger". He goes to the disciples on the "Blessed Isles" and finds that nothing there is very different from the town. There are still priests, rabble and the good and the just.
 
-## 6. After the Death of God
+- **God a supposition (II 2).** "Once one said ‘God’ when one looked upon distant seas; but now I have taught you to say: Overhuman. / God is a supposition; but I would that your supposing might not reach farther than your creative will. Could you create a God?–Then do not speak to me of any Gods! But you could surely create the Overhuman. / Perhaps not you yourselves, my brothers! But into fathers and forefathers of the Overhuman you could re-create yourselves".
+  - Meier: the first danger to the teaching is confusing the overman with the Christian God. "The overman is supposed to take God's place, but not occupy his position." The prophet invited the confusion himself by making the overman an end-time hope.
+  - The same speech has the joke-syllogism, in Meier's translation: "if there were Gods, how could I stand not to be a God! Thus there are no Gods." Meier draws the consequence. Zarathustra the knower "cannot be satisfied with being the overman's herald and precursor."
+- **The image in the stone.** "The beauty of the Overhuman came to me as a shadow. Ah, my brothers! What are the Gods to me now!" Lampert: the rainbow, bridge and rope of Part I are replaced by "a hammer ringing on unyielding stone". The overman is now something to be carved out of the "hardest, ugliest stone", which is man.
+- **Never yet (II 4).** This is in "On the Priests", the one chapter where Zarathustra's disciples meet Jesus's. "Never yet has there been an Overhuman. Naked have I seen both, the greatest and the smallest human:– / All-too-similar are they to each other still. Verily, even the greatest did I find–all-too-human!" Even the greatest men so far are too small.
+- **Not equality (II 7).** Against the "tarantulas", the preachers of equality who also "preach my teaching of life": "‘Human beings are not equal.’ And they shall not become so either! For what would my love for the Overhuman be if I spoke otherwise?" Meier: this separates the overman from the revolutionary "New Man". "‘Overmen’ will coexist with ‘last men’ and not make them disappear." Zarathustra is then bitten by the tarantula himself. Revenge is a danger to him too.
+- **Gods and Overhumans (II 17).** On the poets: "Verily, we are drawn ever upward–but simply to the realm of the clouds: upon these we place our motley manikins and call them Gods and Overhumans". And Zarathustra admits he is a poet who lies too much.
+  - Lampert: this is the only plural of *Übermensch* in the whole book. It echoes the plural of GS 143. Here Zarathustra sets "his own most honored creation, the superman, among the clouds alongside the despised creations of other poets". It is also the only time a disciple gets angry with him.
+  - Meyer reads this as the hinge. The overman of Part I was Zarathustra's own poetic lie.
+- **The dragon and the devil (II 21).** "To the human my will fastens itself ... because I am swept upward to the Overhuman: for that is where my other will aims." He mocks the good: "the Overhuman would terrify you with his goodness!", "I suspect that you would call my Overhuman–Devil!" "That the Overhuman might not lack his dragon, the Overdragon that is worthy of him, much hot sun must yet burn upon damp primeval forest!" N. quotes this "Devil" line about himself in EH (§10).
+- **Redemption (II 20).** The deeper trouble comes out in "On Redemption". The will can create forward but is helpless against the past, the "it was", and its anger at that is the spirit of revenge. Zarathustra had called redemption from revenge "the bridge to the highest hope" (II 7). Now it turns out the will itself needs redeeming. The answer, "Thus I willed it", points to eternal recurrence, which isn't named yet. See [[Nietzsche: Eternal Recurrence]].
 
-- While God (or any outside authority) guarantees meaning, the question of our responsibility for it doesn't come up.
-- So the overman is only possible, and only needed, *after* the death of God.
-- **Nihilism** on Havas's reading = evasion. Refusing to be responsible for what your life means. The last man is the comfortable form of it.
+### 7. Parts III–IV: The Word Fades
 
-## 7. Community vs Herd
+Meier's counts: fifteen uses in the Prologue, twelve in Part I, fourteen in Part II, three in Part III, four in Part IV. Lampert: "After part I, speech about the superman is sharply and surprisingly curtailed."
 
-- A commitment only makes sense among others who can hold you to your word. So the overman implies **peers**.
-- Herd = held together by conformity, nobody answering for anything.
-- So the contrast isn't strong vs weak but **responsible vs irresponsible**.
-- Cf. Golomb in the WtP notes: among equals a healthy aristocracy refrains from exploitation (BGE 259).
+- **Looking back (III 12.3).** In "On Old and New Tablets" Zarathustra remembers: "It was there too that I gleaned the word ‘Overhuman’ from the way, and that the human is something that must be overcome". This is in the past tense, as something he once picked up on the road.
+- **The convalescent (III 13).** After his "most abysmal thought" (recurrence) knocks him down for seven days, he names his nausea. In Johnson's translation: "Naked I once saw them both, the greatest human and the smallest human: all too similar to one another ... And the eternal recurrence of even the smallest! – That was my surfeit of all existence!" Johnson: the overman was first offered as compensation for the last man. Recurrence means the small man can't be left behind. He comes back forever and has to be affirmed too. The animals then tell Zarathustra his own destiny. He will come back to "again bring to human beings the tidings of the Overhuman", and "as a herald I now perish!" The heralding is folded into the circle.
+- **The higher men (IV 13).** The last part has Zarathustra's guests, the "superior humans". To them he says: "God has died: now we want– the Overhuman to live." "The most concerned minds today ask: ‘How is the human to be preserved?’ But Zarathustra is the first and only one to ask: ‘How is the human to be overcome?’ / I have the Overhuman at heart, that is my first and only concern– and not the human". And: "‘The human being must become better and more evil’– thus I teach. What is most evil is necessary for the Overhuman’s best." Meyer treats these as mostly looking back to Part I. The higher men then turn the teaching into a religion with the Ass Festival, which is what Part II warned about.
+- By the end Zarathustra waits for his "children", not for the overman. See [[Thus Spoke Zarathustra as Drama: Plot, Tragedy and Parody|Zarathustra as drama]].
 
-## 8. Loose Ends
+### 8. Overman and Eternal Recurrence: Five Readings
 
-- Havas makes N. sound nearly Kantian (promises, responsibility). Is that too respectable? Golomb also brings in autonomy/heteronomy, so maybe it's a real strand.
-- Johnson says the overman is a lure that gets dropped; Lampert treats it as the real founding teaching. They can't both be right.
-- Link with WtP: Golomb says the overman is the "optimal" will to power, someone who has sublimated his drives into a whole.
+The puzzle, in Meyer's words: GS introduces Zarathustra directly after the thought of recurrence (GS 341–2), but Z opens with the overman and no recurrence at all. Zarathustra "offers no substantive explanation of what distinguishes such a figure from an ordinary human being." And a teaching aimed at a better future seems to clash with a thought that says nothing new will ever happen.
+
+1. **Replacement (Lampert).** "One of the greatest single causes of the misinterpretation of Nietzsche's teaching is the failure to see that the clearly provisional teaching on the superman is rendered obsolete by the clearly definitive teaching on eternal return." Recurrence opposes every straight-line view of time that ends in redemption: Zoroaster's, Christianity's, modern progress's, and "even ... the one constructed by the human enterprise of creating the superman". Hence "there is no call for a superman in the books after Zarathustra". But the word survives in a new sense: "The superman, if the word can still be used, is the one who has brought the teaching of eternal return." Zarathustra drops his disciples at the start of Part III "to take the impossible path himself, the way of the superman". The overman's job turns out to be founding a new teaching, and the teaching is recurrence.
+2. **Fiction (Tom Stern, as reported by Meyer).** Going by II 17, the overman "is revealed as yet another vain fiction."
+3. **Revision (T. K. Seung, as reported by Meyer).** The overman is not dropped but changed. The "Faustian" overman of Part I "asserts his autonomous will against the whole world". The "Spinozan" overman of "The Convalescent" "accepts cosmic necessity as his own will".
+4. **Apollonian lie, Dionysian reality (Meyer).** Meyer develops Seung's reading using the early notes.
+   - In notes of 1882 an "I" says it can only bear life by creating a vision of the overman. Kaufmann quotes one of them in his GS introduction: "I do not want life again. How did I endure it? Creating. What makes me stand the sight of it? The vision of the overman who affirms life. I have tried to affirm it myself—alas!"
+   - Meyer's reading of this: the Part I overman is a shield, like Homer's gods in *The Birth of Tragedy*, raised against the wisdom of Silenus. It was invented by someone not yet strong enough for recurrence.
+   - Meyer calls it Apollonian, the "apotheosis of individuation", and says it is the lie confessed in "On the Poets".
+   - What replaces it is a Dionysian overman. That is Zarathustra himself, once he has overcome his revenge against time, loves fate and teaches recurrence. EH supports this (§10).
+   - The Dionysian overman is close kin to the child of I 1, and in the later books it becomes "the noble soul" of BGE IX.
+5. **New species (Paul Loeb, as reported by Meyer).** The overman really is a coming species. Higher humans like Zarathustra must sacrifice themselves for it, even "the suicide of humankind". Recurrence is the tool that gives the overman "power over time" by willing backwards. Meyer's objections:
+   - It makes the overman more basic than recurrence.
+   - It swaps *amor fati* for mastery over fate.
+   - It rests on a single chapter. "Willing backwards" occurs only in "On Redemption" and in one note.
+
+**Two more ways of fitting them together.** *Drochon:* the overmen are "prefigured" in the shepherd of "On the Vision and the Riddle" (III 2). He bites off the snake's head and rises "illuminated, laughing". The overmen are those who overcome the last men's spirit of revenge through recurrence. Because recurrence also brings back the last man, it implies two separate spheres of society. *Johnson:* the affirmation of recurrence "becomes the new hallmark of the Übermensch". The overman is the one who can say yes even to the eternal return of the small man.
+
+My view is that Meyer and Lampert are nearer each other than they look. Both say the Part I overman is a stage that the book itself leaves behind, and both end with Zarathustra as the real overman, if anyone is. Lampert puts it politically: he is the founder of a new teaching. Meyer puts it psychologically: he is a soul that has got past revenge. Loeb is the real alternative, and the text is thin for him.
+
+### 9. Not a Darwinian Species
+
+The common picture is a biologically higher race, and the first readers held it. Johnson names Alexander Tille (1895) and Raoul Richter (1903), and the line runs on to the Nazis. N. had already mocked this in EH, where "scholarly oxen" took him for a Darwinist. Johnson's *Nietzsche's Anti-Darwinism*, ch. 2, is the fullest case against it.
+
+- **Darwin is about process; the overman is about state.** For Darwin, fitness is the result of external selection, survival and fertility. "All corporeal and mental endowments will tend to progress toward perfection" (*Origin*). The overman is defined from inside, by how its drives are ordered. Its acts are not adaptations but "a new beginning, a game, a wheel rolling out of itself, a first movement".
+- **The overman wouldn't survive.** "The Übermensch is the least likely to survive in the Darwinian 'struggle for existence'". It spends itself and courts danger. TI Skirmishes 44 on the genius: "A great human being is an end ... its greatness is in giving itself away." A note from 1888: "The short moment of beauty, of the genius, of Caesar, is sui generis; such a type does not get inherited."
+- **Against self-preservation.** GS 349: "The wish to preserve oneself is a sign of distress". Darwinism "exudes something like the stuffy air of English overpopulation". "In nature it is not distress which rules, but rather abundance, squandering". A note from 1881: "Nature does not wish to 'preserve the species'!"
+- **Breeding.** N. does talk of *Züchtung* (breeding). The middle-period N. toyed with arranging conditions for a higher type, but by Z he rejoices in chance and *amor fati*. Johnson quotes EH "Clever" 9: "To 'will' anything, to 'strive' after anything, to have a 'goal', a 'wish' in mind – I have never experienced this." Breeding, for Johnson, comes to mean self-discipline: ranking one's own drives and selecting against the reactive ones. That is why the overman "can never serve as an objective for a higher humanity". It is a possibility for individuals.
+- **Wohlgerathenheit.** EH defines the overman as a type that has *turned out well*. Johnson calls this N.'s own version of "fitness", a state rather than an outcome. EH "Wise" 2 describes the well-turned-out man: "he is a principle of selection, he lets many things fall by the wayside", "what does not kill him makes him stronger", "he does not believe in 'bad luck' or 'guilt'".
+
+**The other side.** Not everyone agrees.
+
+- *Sorgner* (2009) argues against Bostrom, who saw only "surface-level similarities" between Nietzsche and transhumanism. Sorgner reads N. as holding that species have fixed limits and that evolution goes in steps. Many "higher humans" (Goethe is the model) are the precondition for a leap, so the overman *would* be a new species, like F. M. Esfandiary's "posthuman". Sorgner also suggests N. might not have objected to genetic enhancement as a kind of education.
+- His better point is the second one. Transhumanists never say why the posthuman is worth wanting, and N. does. The overman is "the meaning of the earth", an immanent replacement for the Christian afterlife. "I wish to be the ancestor of a posthuman" is a religious sentence.
+- *Drochon* also keeps a species level of overcoming, using SE 6: "When a species has arrived at its limits and is about to go over into a higher species", its goal lies in "scattered and chance existences". His model is the way the philosopher grew out of the poet (the Basel lectures on the pre-Platonics). It was gradual and unpredictable, and nobody could have foreseen it from the poet's side.
+
+I think Johnson is right about Z and the later books, and Sorgner is reading N. through Lamarckian notes that sit badly with AC 3 (next section). But the Prologue's worm-ape-man language is really there, so it can't be written off. Johnson's answer is that it was speech to goatherds.
+
+### 10. After Zarathustra
+
+The usual claim is that the word vanishes after Z. Drochon shows it doesn't, though it changes.
+
+- **GM I 16.** Napoleon is a "synthesis of *Unmensch* and *Übermensch*" (inhuman and overhuman), quoted from Drochon.
+- **TI Skirmishes 37.** N. reports a critic's objection that "a Cesare Borgia is by no means to be represented after my manner as a 'higher man,' a kind of overman" (Kaufmann). Kaufmann's introduction to the *Portable* argues the legend that Borgia was N.'s idol "is easily refuted".
+- **AC 3–4.** "The problem I thus pose is not what shall succeed mankind in the sequence of living beings (man is an *end*), but what type of man shall be bred, shall be willed, for being higher in value, worthier of life, more certain of a future." Such types have already appeared "as a fortunate accident, as an exception, never as something willed". In many places and cultures "we really do find a higher type, which is, in relation to mankind as a whole, a kind of overman." "Man is an end" is the sentence the new-species readers have to get round. Meyer and Johnson take it as N.'s settled view.
+- **EH Books 1.** Drochon's translation: the word names a "type that has the highest constitutional excellence, in contrast to 'modern' people, to 'good' people, to Christian and other nihilists". It has been understood "with complete innocence" as the "'idealistic' type of the higher sort of humanity, half 'saint,' half 'genius.'" Parkes renders the phrase "a type that has turned out in the best possible way". The German is *Wohlgerathenheit*.
+- **EH Z 6.** In Z "the concept of the 'superman' has here become the greatest reality" (Lampert's translation). N. says Zarathustra "experiences himself as the supreme type of all beings". He quotes III 12.19 on "the most comprehensive soul", the one "which, having being, dives into becoming", and calls it "the concept of Dionysus himself" (Meyer's translations). This is Meyer's best evidence. The overman is Zarathustra himself in his *amor fati*.
+- **EH Destiny 5.** Zarathustra's type "is an overman specifically when compared to the good ... the good and just would call his overman devils" (quoted by Johnson). This echoes Z II 21.
+
+So the later N. drops the evolutionary frame and the prophet's tone. He keeps a type of human being who has turned out well, who is free of revenge, and whom the good would call evil. Lampert's sentence still stands, though. The books after Z never *call for* an overman the way Z I does.
+
+### 11. The Politics of the Overman
+
+- **Drochon: political perfectionism.** For Drochon the overman is the point of N.'s "great politics". Society should be organised so that the overmen can appear. Daniel Conway reads the overman as the "perfection, rather than the transcendence, of humankind". Drochon says no: perfecting modern man as he is produces the *last* man. A minority first has to break with herd values, and only then can a different type be perfected. On Rawls's scale (*A Theory of Justice* §50, which singles out SE 6: "mankind must work continually at the production of individual great men") Drochon puts N. as a moderate but strong perfectionist. There are two castes, each with its own values, and culture comes first. Stanley Cavell's softer, Emersonian reading is a defence against Rawls. Drochon finds it too individual.
+- **Lampert: the founder.** The overman founds a global people with a table of values "free of revenge and loyal to the earth". Heidegger read N. as completing modern man's dominion over the earth, the last chapter of Bacon and Descartes. Lampert says Heidegger judged Z by its beginning, not its end. The end, eternal return, gives up the project of conquest and accepts beings as they are. Strauss called N. "the 'complementary' man" (BGE 207) who "in an amazing way replaces Plato". Lampert puts the overman, Dionysus and Zarathustra in that line.
+- **Meier: philosopher or prophet.** Meier's whole book asks whether Zarathustra can be both the philosopher (who wants to understand) and the prophet (who wants to change mankind and needs believers). The overman belongs to the prophet. It is a "futurist" teaching that is meant to replace "Christian eschatology, which has lost its believability", with its "tense future-directedness" and "demand for devotion and sacrifice". The philosopher keeps slipping out from under it. In I 7 Zarathustra suddenly looks down on his own teaching ("now I see myself beneath myself, now a God dances through me"). In I 22 he tells the disciples to deny him. In II 2 he jokes that he couldn't bear not to be a god. Meier's refrain for these moments is "Two, not One." The overman is the prophet's word and recurrence is the philosopher's thought. Meier thinks this tension is why Z is a tragedy, and a parody of the Gospels too.
+- **Strauss's formula.** Strauss cites a note of N.'s describing the overman as "Caesar with the soul of Christ". It is rule and love together, the pairing Z keeps trying for: the eagle and the serpent, pride and prudence.
+
+### 12. Havas: The Overman as Commitment
+
+From the earlier version of this note. Havas reads the overman not as a person or species but as what it would be to be a real agent.
+
+- **Agency is commitment, and commitment faces two ways in time.**
+  - *Backwards:* nobody is the cause of himself (BGE 21 mocks the *causa sui*). What we can do comes from long training and obedience (BGE 188). Acting means taking up what you were given and making it yours.
+  - *Forwards:* the sovereign individual of GM II 1–2 has "the right to make promises". He can bind his later self and answer for it.
+  - The overman accepts both sides. He doesn't disown his past or dodge his future.
+- **Three difficulties.**
+  - *Regret:* how can I affirm a past I didn't choose? By treating it as the ground of what I'm now undertaking.
+  - *Transience:* nothing I do lasts, but demanding permanence is the "ill will" against time again.
+  - *Originality:* if I'm all inheritance, what is mine? The commitment by which I take it up.
+- **After the death of God.** While God guarantees meaning, our responsibility for it never comes up. So the overman is only possible, and only needed, afterwards. Nihilism is the refusal to be responsible for what your life means, and the last man is its comfortable form.
+- **Peers, not herd.** A commitment needs others who can hold you to it. The real contrast isn't strong against weak but responsible against irresponsible.
+
+Havas fits the later N. (the sovereign individual, *Wohlgerathenheit*) better than Z I. He also makes N. sound nearly Kantian, which Drochon's AC 11 passage contradicts: every virtue must be "our own invention", "everyone should invent his own virtues". And Havas has nothing to say about the parts of the overman that are not respectable: the "better and more evil", the devil the good would see, the breeding talk. The regret answer still seems to me too easy for really bad pasts. Eternal recurrence is the harder version of the same test.
+
+### Conclusion
+
+- **Six things I think are firm.**
+  1. The overman is introduced as a *meaning*, given by will after the death of God, to stand where the afterlife stood. That is Meier's and Sorgner's point, and the text says it outright: "May your will say".
+  2. It is defined against the last man more than in itself. Nobody in the book says what an overman does on an ordinary day.
+  3. It is addressed first to everyone, then to disciples, then to nobody. The word fades as Zarathustra learns who he is talking to and what he actually has to teach.
+  4. Zarathustra himself confesses it is partly a poet's invention (II 17) and says no overman has ever existed (II 4).
+  5. In EH it returns as the name for a well-turned-out type free of revenge, and N. gives it to Zarathustra himself. It is the "concept of Dionysus".
+  6. It is not a Darwinian species, and "man is an end" (AC 3) is N.'s own last word on the evolution question.
+- **The open question** is whether the political side survives: the overman as founder, the one goal and the chosen people, the two castes. Lampert and Drochon think it does, and that recurrence is the founding teaching rather than a replacement for founding. Johnson, Havas and the late Meyer think the overman becomes a matter of the soul. Meier thinks Z deliberately leaves the question open, because philosopher and prophet never quite become one.
+- **Where I land.** The overman is best read as a ladder N. built and then partly kicked away, and he told the reader so. Part of it stays, though. "What have you done to overcome it?" is still the question the late books ask, without the prophecy.
 
 ## Related
 
-- [[Nietzsche's Bestiary: Camel, Lion, Ape, Ass and Blond Beast]]
 - [[Thus Spoke Zarathustra as Drama: Plot, Tragedy and Parody]]
+- [[Nietzsche: Eternal Recurrence]]
 - [[Nietzsche: Amor Fati and Becoming What You Are]]
 - [[Nietzsche: The Will to Power]]
-- [[Nietzsche: Eternal Recurrence]]
-- [[Nietzsche and the Greeks]]
-- [[Relativism]]
+- [[Nietzsche's Bestiary: Camel, Lion, Ape, Ass and Blond Beast]]
 - [[Nietzsche's Character Types: Slave, Priest, Philosopher, Artist, Scientist, Noble]]
+- [[Nietzsche and the Greeks]]
+- [[Nietzsche on Nihilism and Its Overcoming]]
+- [[Relativism]]
