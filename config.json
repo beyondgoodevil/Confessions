@@ -20,7 +20,7 @@
         "book"
       ],
       "description": "Notes from my readings.",
-      "arrange": "title"
+      "arrange": "newest"
     },
     {
       "id": "misc",
@@ -34,7 +34,7 @@
         "other"
       ],
       "description": "Random thoughts I am too lazy to organize.",
-      "arrange": "topic"
+      "arrange": "newest"
     },
     {
       "id": "media",
