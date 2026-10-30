@@ -153,6 +153,7 @@ Both are answering the same question: how creatures can know and share in God. B
 
 ## Related
 
+- [[The Logic of Palamism: Swinburne and Rojek]]
 - [[Essence-Energies Distinction]]
 - [[God's Uncreated Energies]]
 - [[Divine Simplicity: Western and Orthodox Views]]

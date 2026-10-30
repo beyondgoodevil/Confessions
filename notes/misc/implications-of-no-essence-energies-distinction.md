@@ -23,6 +23,7 @@ In summary, if God's essence were the same as His energies, it would imply that 
 
 ## Related
 
+- [[The Logic of Palamism: Swinburne and Rojek]]
 - [[Essence-Energies Distinction]]
 - [[God's Uncreated Energies]]
 - [[Thomism Leads to Eternal Creation]]

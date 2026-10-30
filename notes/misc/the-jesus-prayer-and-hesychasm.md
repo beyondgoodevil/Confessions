@@ -167,6 +167,7 @@ Thought: the Palamite controversy looks like an argument about monks' prayer tec
 
 ## Related
 
+- [[The Logic of Palamism: Swinburne and Rojek]]
 - [[Essence-Energies Distinction]]
 - [[God's Uncreated Energies]]
 - [[Nous]]

@@ -38,6 +38,7 @@ The Transfiguration of Jesus on Mount Tabor is a profound revelation of His divi
 
 ## Related
 
+- [[The Logic of Palamism: Swinburne and Rojek]]
 - [[Matthew 17: Jesus Transfigured on the Mount]]
 - [[Essence-Energies Distinction]]
 - [[God's Uncreated Energies]]

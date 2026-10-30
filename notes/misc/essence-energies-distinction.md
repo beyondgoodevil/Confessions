@@ -66,6 +66,7 @@ This distinction is not optional; it is **dogmatic**, affirmed by the **Palamite
 
 ## Related
 
+- [[The Logic of Palamism: Swinburne and Rojek]]
 - [[God's Uncreated Energies]]
 - [[Implications of No Essence-Energies Distinction]]
 - [[Saint Gregory of Nyssa: Essence Energies]]

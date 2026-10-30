@@ -117,6 +117,7 @@ The key move: a **real distinction is not a composition**. The sun and its rays 
 
 ## Related
 
+- [[The Logic of Palamism: Swinburne and Rojek]]
 - [[Neoplatonic Idea of Divine Simplicity]]
 - [[Essence-Energies Distinction]]
 - [[Implications of No Essence-Energies Distinction]]

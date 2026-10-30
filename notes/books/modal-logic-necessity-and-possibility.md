@@ -168,6 +168,7 @@ Missing from Sider's chapter: the middle view that possible worlds are *abstract
 
 ## Related
 
+- [[The Logic of Palamism: Swinburne and Rojek]]
 - [[Stoic Logic: Chrysippus, the Five Indemonstrables and the Debate Over 'If']]
 - [[Propositional Logic Cheat Sheet]]
 - [[Valid vs Sound Arguments]]

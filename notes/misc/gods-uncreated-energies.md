@@ -74,6 +74,7 @@ On philosophy (*Triads* I): its natural power comes from God, but its use can be
 
 ## Related
 
+- [[The Logic of Palamism: Swinburne and Rojek]]
 - [[Essence-Energies Distinction]]
 - [[Implications of No Essence-Energies Distinction]]
 - [[2 Peter 1:3-4: Theosis]]
