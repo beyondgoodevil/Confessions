@@ -576,7 +576,8 @@ svg.graph:active{cursor:grabbing}
 .g-nodes circle.lone{stroke:var(--ink);stroke-width:1.2;stroke-dasharray:2 1.5}
 .g-nodes circle.dim{opacity:.13}
 .g-nodes a:hover circle{stroke:var(--ink);stroke-width:2}
-.g-sec-0{fill:#1D4BA0}.g-sec-1{fill:#B7791F}.g-sec-2{fill:#2F855A}.g-sec-3{fill:#A8322A}.g-sec-4{fill:#6B46C1}.g-sec-5{fill:#5A606B}
+.g-dom-0{fill:#7B2CBF}.g-dom-1{fill:#1D6FD1}.g-dom-2{fill:#D4790F}.g-dom-3{fill:#2F9E5A}.g-dom-4{fill:#C2342B}.g-dom-5{fill:#0F9BA8}.g-dom-6{fill:#C2418F}.g-dom-7{fill:#8A6D1F}.g-dom-other{fill:#8C929B}
+.g-key .count{color:var(--muted);font-size:.85em}
 /* index: links to the graph, series, tags and a random note */
 .home-graph{margin:2.2rem 0 0}
 .home-graph .graph-box{border-color:var(--rule)}

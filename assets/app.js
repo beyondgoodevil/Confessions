@@ -698,9 +698,16 @@ function graphLayout() {
   const deg = ns.map(() => 0); for (const [a, b] of edges) { deg[a]++; deg[b]++; }
   // start each section on its own arc so the picture comes out the same on every visit
   let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
-  const secIx = new Map(S.sections.map((s, i) => [s, i])), k = S.sections.length || 1;
-  const x = ns.map(n => Math.cos(2 * Math.PI * (secIx.get(n.section) + rnd() * .8) / k) * 300 + rnd() * 60);
-  const y = ns.map(n => Math.sin(2 * Math.PI * (secIx.get(n.section) + rnd() * .8) / k) * 300 + rnd() * 60);
+  // colour and place each note by its subject: the first broad field among its tags (config.browse.fields)
+  const field = n => n.tags.map(t => t.toLowerCase()).find(t => S.browse.fields.has(t)) || '';
+  const tally = new Map(); for (const n of ns) { const f = field(n); tally.set(f, (tally.get(f) || 0) + 1); }
+  const named = [...tally.keys()].filter(Boolean).sort((a, b) => tally.get(b) - tally.get(a) || a.localeCompare(b)).slice(0, GRAPH_COLOURS);
+  const dom = ns.map(n => { const i = named.indexOf(field(n)); return i < 0 ? named.length : i; });
+  const domains = named.map(f => ({ name: tagLabel(f), count: tally.get(f) }));
+  const rest = ns.length - domains.reduce((a, d) => a + d.count, 0); if (rest) domains.push({ name: 'Other', count: rest, other: true });
+  const k = domains.length || 1;
+  const x = ns.map((n, i) => Math.cos(2 * Math.PI * (dom[i] + rnd() * .8) / k) * 300 + rnd() * 60);
+  const y = ns.map((n, i) => Math.sin(2 * Math.PI * (dom[i] + rnd() * .8) / k) * 300 + rnd() * 60);
   const N = ns.length, vx = new Float64Array(N), vy = new Float64Array(N);
   for (let it = 0, heat = 1; it < 220; it++, heat *= .985) {
     for (let i = 0; i < N; i++) for (let j = i + 1; j < N; j++) {
@@ -716,7 +723,7 @@ function graphLayout() {
       x[i] += vx[i]; y[i] += vy[i]; vx[i] *= .5; vy[i] *= .5;
     }
   }
-  return (S.graph = { ns, x, y, edges, deg });
+  return (S.graph = { ns, x, y, edges, deg, dom, domains });
 }
 function viewGraph(opts) {
   const g = graphLayout(), tag = String(opts.tag || '').toLowerCase(), only = opts.only || '';
@@ -730,15 +737,16 @@ function viewGraph(opts) {
     <label><input type="checkbox" data-graph="orphans"${only === 'orphans' ? ' checked' : ''}> only notes with no links (${nLone})</label><span class="g-legend">${graphLegend()}</span></form>
     <div class="graph-box">${graphSVG(lit)}</div></div>`;
 }
-const graphLegend = () => S.sections.map((s, i) => `<span class="g-key"><svg width="10" height="10" aria-hidden="true"><circle cx="5" cy="5" r="4.5" class="g-sec-${i}"/></svg>${esc(s.shortName || s.name)}</span>`).join('');
+const GRAPH_COLOURS = 8;   // subjects beyond the eight largest share the grey of "Other"
+const domClass = (d, i) => d.other ? 'g-dom-other' : `g-dom-${i}`;
+const graphLegend = () => graphLayout().domains.map((d, i) => `<span class="g-key"><svg width="10" height="10" aria-hidden="true"><circle cx="5" cy="5" r="4.5" class="${domClass(d, i)}"/></svg>${esc(d.name)} <span class="count">${d.count}</span></span>`).join('');
 // the drawing itself; lit[i] false greys out note i (and lines touching it)
 function graphSVG(lit, cls = 'graph') {
   const g = graphLayout(), on = i => !lit || lit[i], lone = i => g.deg[i] === 0;
   const pad = 40, minX = Math.min(...g.x) - pad, minY = Math.min(...g.y) - pad, w = Math.max(...g.x) - minX + pad, h = Math.max(...g.y) - minY + pad;
   const vb = `${minX.toFixed(0)} ${minY.toFixed(0)} ${w.toFixed(0)} ${h.toFixed(0)}`;
-  const secIx = new Map(S.sections.map((s, i) => [s, i]));
   const lines = g.edges.map(([a, b]) => `<line x1="${g.x[a].toFixed(1)}" y1="${g.y[a].toFixed(1)}" x2="${g.x[b].toFixed(1)}" y2="${g.y[b].toFixed(1)}"${on(a) && on(b) ? '' : ' class="dim"'}/>`).join('');
-  const dots = g.ns.map((n, i) => `<a href="#/${n.id}" data-gid="${n.id}"><circle cx="${g.x[i].toFixed(1)}" cy="${g.y[i].toFixed(1)}" r="${(3 + Math.sqrt(g.deg[i]) * 1.6).toFixed(1)}" class="g-sec-${secIx.get(n.section)}${on(i) ? '' : ' dim'}${lone(i) ? ' lone' : ''}"><title>${esc(n.id + ' ' + n.title)}</title></circle></a>`).join('');
+  const dots = g.ns.map((n, i) => `<a href="#/${n.id}" data-gid="${n.id}"><circle cx="${g.x[i].toFixed(1)}" cy="${g.y[i].toFixed(1)}" r="${(3 + Math.sqrt(g.deg[i]) * 1.6).toFixed(1)}" class="${domClass(g.domains[g.dom[i]], g.dom[i])}${on(i) ? '' : ' dim'}${lone(i) ? ' lone' : ''}"><title>${esc(n.id + ' ' + n.title)}</title></circle></a>`).join('');
   return `<svg class="${cls}" viewBox="${vb}" data-vb="${vb}" role="img" aria-label="Graph of notes and links"><g class="g-edges">${lines}</g><g class="g-nodes">${dots}</g></svg>`;
 }
 function initGraph(main) {
