@@ -107,6 +107,7 @@
       "note-taking",
       "programming",
       "research",
+      "history",
       "guide"
     ],
     "secondary": [
@@ -203,6 +204,12 @@
         "name": "Art",
         "tags": [
           "art-history"
+        ]
+      },
+      {
+        "name": "History",
+        "tags": [
+          "china"
         ]
       }
     ],

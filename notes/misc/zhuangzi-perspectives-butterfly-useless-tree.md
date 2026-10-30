@@ -134,6 +134,7 @@ Graham's observation about mood is worth keeping: in Zhuangzi, as in Nietzsche, 
 
 ## Related
 
+- [[Eastern Zhou: The Springs and Autumns, the Warring States and the Hundred Schools]]
 - [[Nietzsche: The Will to Power]]
 - [[Nothingness East and West: Nishitani, Tanabe, Abe and the Christian Nihil]]
 - [[Relativism]]

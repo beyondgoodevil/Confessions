@@ -39,13 +39,14 @@ Maths macros (MathJax 4, STIX Two font): `\R \N \Z \Q \C`, `\dd x` (upright d), 
 
 Write tags as `tags: [domain, scripture?, topic, topic]`, in that order, lower-case, hyphenated. Tag what a note is *about*, not what it mentions in passing.
 
-- Domain (at least one): `theology`, `philosophy` (both only when a note really is both, e.g. a Plato note with an Orthodox section). Other fields: `mathematics`, `physics`, `chess`, `music`, `art`, `note-taking`, `programming`, `research`.
+- Domain (at least one): `theology`, `philosophy` (both only when a note really is both, e.g. a Plato note with an Orthodox section). Other fields: `mathematics`, `physics`, `chess`, `music`, `art`, `history`, `note-taking`, `programming`, `research`.
 - `scripture` only when the note is built on biblical passages (verse notes, verse collections, exegesis).
 - Theology topics: `trinity`, `christology`, `theosis` (essence-energies, uncreated light, deification), `salvation` (atonement, recapitulation, faith and works, resurrection), `the-fall`, `typology`, `prophecy`, `covenant` (the covenants themselves), `theophany`, `mary`, `sacraments`, `liturgy` (worship, heavenly liturgy), `icons-saints` (icons, relics, intercession), `prayer`, `tradition` (Holy Tradition, oral and written), `ecclesiology` (the Church: authority, succession, government, unity), `canon` (formation of the Bible, LXX, deuterocanon), `councils` (the ecumenical councils, their canons and the heresies they answered), `patristics` (notes built on the Fathers' writings), `church-history`, `papacy`, `reformation`, `ecumenism`, `catholicism` (Roman Catholic doctrine and documents), `thomism`, `neoplatonism`, `islam`.
 - Philosophy topics: `epistemology` (knowledge, justification, belief, scepticism; not every argument that mentions knowing), `logic`, `fallacies`, `metaphysics`, `ethics`, `mind`, `time`, `philosophy-of-science`, `apologetics` (TAG, presuppositions, worldview arguments), and a thinker's name when the note is about that thinker (`plato`, `aristotle`, `nietzsche`, `leibniz`, `kant`); `aesthetics` (beauty, taste, the nature and value of art).
 - Chess topics: `tactics` (pins, forks, discoveries, traps), `endgames`, `checkmate-patterns`.
 - Music topics: `composers` (a note about a composer's life, thought or works), `musical-form` (sonata form, fugue, blues form, how pieces are built), `opera`, `jazz`.
 - Art topics: `art-history` (methods of art history, iconography, artists and works).
+- History topics: `china` (Chinese history from the Neolithic to the present).
 - Guides carry `guide` plus their topic's tag. There are five broad guides (God and Christ, Scripture, Salvation and Worship, The Church and Its History, Philosophy and Apologetics); add notes to them rather than starting a new guide for a narrow topic. A guide's title starts with "Guide: "; its body is `## Part` headings, each with an intro line and `### Sub-part` headings, each with a one-line description and a numbered list of `N. [[Note title]] — the note's summary`. When adding a note to a guide, add one such line at the end of the right sub-part and number on.
 
 ## Writing notes (house style)
