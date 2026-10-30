@@ -172,6 +172,7 @@ The Eastern Zhou began with a Son of Heaven who had lost his army and ended with
 
 ## Related
 
+- [[The Mandate of Heaven and the Five Phases: Legitimacy from Qin to Song]]
 - [[Early China: From the Jade Age to the Zhou Conquest]]
 - [[Zhuangzi: Perspectives, the Butterfly Dream and the Useless Tree]]
 - [[The Modern Break: Machiavelli and Hobbes]]

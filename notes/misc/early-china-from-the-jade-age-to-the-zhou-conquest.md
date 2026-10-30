@@ -153,5 +153,6 @@ Early China was not one civilization moving in a straight line from Yao to the Z
 
 ## Related
 
+- [[The Mandate of Heaven and the Five Phases: Legitimacy from Qin to Song]]
 - [[Eastern Zhou: The Springs and Autumns, the Warring States and the Hundred Schools]]
 - [[The Case for One Ruler: Aquinas, Dante, Maistre, Kuehnelt-Leddihn]]
