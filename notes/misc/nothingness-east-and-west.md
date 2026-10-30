@@ -144,6 +144,7 @@ The Kyoto writers mostly know Christianity through Augustine, Eckhart, Luther, K
 
 ## Related
 
+- [[Buddhism in China from Han to Song: Arrival, Triumph and the Four Persecutions]]
 - [[Zhuangzi: Perspectives, the Butterfly Dream and the Useless Tree]]
 - [[Apophatic and Cataphatic Theology]]
 - [[Heidegger and the God Beyond Being]]
