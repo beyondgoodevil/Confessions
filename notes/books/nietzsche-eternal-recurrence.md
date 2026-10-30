@@ -2,108 +2,238 @@
 id: B-0002
 date: 2026-01-21
 title: "Nietzsche: Eternal Recurrence"
-tags: [philosophy, nietzsche, metaphysics]
-summary: Reading notes on eternal recurrence. Loeb says Nietzsche meant it literally as cosmology. Johnson says the cosmology is the dwarf's version and the real thing is personal. Hatab links it to will to power.
-author: Paul S. Loeb; Dirk R. Johnson; Lawrence J. Hatab
-source: "Oxford Handbook of Nietzsche (2013), ch. 28; New Cambridge Companion to Nietzsche (2019), chs. 7 and 13; A Companion to Friedrich Nietzsche (Camden House, 2012), ch. 7"
-aliases: [Eternal Recurrence, Eternal Return]
+tags: [philosophy, nietzsche, metaphysics, zarathustra]
+summary: "Eternal recurrence from the rock at Surlei to Ecce Homo. The first notes of August 1881, the demon of Gay Science 341, why a thought about endless repetition should weigh anything (Soll, Ridley, Sinhababu on infinite value), the 'proofs' in the notebooks and their kinship with Poincaré's recurrence theorem, the thought's slow arrival in Zarathustra (the soothsayer, 'On Redemption', the stillest hour), the gateway Moment and the dwarf, the shepherd and the snake, the convalescent and his animals, the love songs to eternity, the ass festival, the quarrel between cosmological and practical readings (Loeb, Nehamas, Johnson, Hatab), revenge and willing backwards, recurrence and will to power, recurrence and the overman, recurrence as the crisis of nihilism, and Heidegger's charge that the doctrine never escapes the spirit of revenge."
+author: "Friedrich Nietzsche; Martin Heidegger; Neil Sinhababu; Leo Strauss; Laurence Lampert; Paul S. Loeb; Dirk R. Johnson; Lawrence J. Hatab"
+source: "Primary: Nietzsche, Thus Spoke Zarathustra, trans. Graham Parkes (Oxford World's Classics, 2005); The Gay Science, trans. Walter Kaufmann (Vintage, 1974), §§109, 276, 341–2; Beyond Good and Evil, trans. Adrian Del Caro, Complete Works vol. 8 (Stanford University Press, 2014), §56; Twilight of the Idols in The Portable Nietzsche, trans. Walter Kaufmann (Viking, 1954). Secondary: Martin Heidegger, Nietzsche, vol. II: The Eternal Recurrence of the Same, trans. David Farrell Krell (Harper & Row, 1984), the whole 1937 course and 'Who Is Nietzsche's Zarathustra?'; Neil Sinhababu, Nietzsche on the Eternal Recurrence, Elements in the Philosophy of Friedrich Nietzsche (Cambridge University Press, 2024), whole; Leo Strauss on Nietzsche's Thus Spoke Zarathustra, ed. Richard L. Velkley (University of Chicago Press, 2017), sessions on Part III; Laurence Lampert, Nietzsche's Teaching (Yale University Press, 1986), Conclusions; Matthew Meyer, The Routledge Guidebook to Nietzsche's Thus Spoke Zarathustra (Routledge, 2025), §2.7; Hugo Drochon, Nietzsche's Great Politics (Princeton University Press, 2016), ch. 4; Dirk R. Johnson, Nietzsche's Anti-Darwinism (Cambridge University Press, 2010), ch. 2; Paul S. Loeb in The Oxford Handbook of Nietzsche (Oxford, 2013), ch. 28; Dirk R. Johnson and Lawrence J. Hatab in The New Cambridge Companion to Nietzsche (Cambridge, 2019), chs. 7 and 13; Laurence Lampert in A Companion to Friedrich Nietzsche (Camden House, 2012), ch. 7"
+aliases: [Eternal Recurrence, Eternal Return, Eternal Return of the Same, The Greatest Weight, Gay Science 341, The Vision and the Riddle, The Convalescent, Amor Fati and Recurrence, Circulus Vitiosus Deus]
 ---
 
-The idea: your life, and everything else, comes back exactly the same, forever. The fight in the literature is over whether N. *believed* that. Loeb says yes, literally. Johnson says no, and that the text itself tells you so. Hatab and Lampert come in on the side.
+Eternal recurrence is the idea that everything that has happened will happen again, in exactly the same order, infinitely many times. You will live this life again with nothing new in it, and you have already lived it before. N. called it "the highest formula of affirmation that can ever be attained" and "the fundamental conception" of *Zarathustra*. He hardly ever stated it in his own voice, though. It appears as a demon's question, as a vision told to sailors, as a song his animals sing, and as one long sentence in *Beyond Good and Evil* that ends in a question mark. The notebooks hold the arguments he never published. So the literature splits on whether he meant a fact about the cosmos or a test of how you stand toward your life. My view is that the split is partly false. The thought matters because of what it would mean if true, and N. took care never to claim that it was. Here's how it works:
 
-N. = Nietzsche, ER = eternal recurrence, GS = *Gay Science*, Z = *Zarathustra*, EH = *Ecce Homo*.
+N. = Nietzsche, ER = eternal recurrence, GS = *The Gay Science*, Z = *Thus Spoke Zarathustra* (by part and chapter, Pr = Prologue), BGE = *Beyond Good and Evil*, TI = *Twilight of the Idols*, EH = *Ecce Homo*, WM = the posthumous *Will to Power* collection, KSA = the critical edition of the notebooks. Z is quoted in Parkes's translation unless I say otherwise.
 
-## 1. The Texts
+### 1. Where the Thought Came From
 
-- **GS 341**, "The Heaviest Weight". A demon comes to you in your "loneliest loneliness" (Loeb: better "most solitary solitude") and says you'll live this life again, countless times, nothing new in it. Would you curse him or call him a god?
-- N. dates the thought to **August 1881** and calls it the basic conception of Z (EH).
-- In Z:
-    - II "The Soothsayer": first hint. "All is empty, all is the same."
-    - II "The Stillest Hour": he knows the thought is coming and isn't ready.
-    - III "On the Vision and the Riddle": gateway called Moment, two eternal paths, the dwarf; then the shepherd choking on a snake.
-    - III "The Convalescent": he finally calls up his "most abysmal thought", is ill seven days, the animals sing it back to him.
-    - III "The Other Dance Song", "The Seven Seals": "for I love you, O eternity."
-- Lampert notes that Part I of Z finishes with ER nowhere in sight. It arrives late.
+- **The rock.** In EH N. says the thought came to him in August 1881. He was walking by the lake of Silvaplana in the Engadine and stopped by "a powerful pyramidal rock not far from Surlei". He wrote it down on a sheet headed "6000 feet beyond man and time".
+- **The first note** (KSA 9:11[141]) is dated "Beginning of August 1881 in Sils-Maria, 6000 feet above sea level and much higher above all human affairs" (Sinhababu's translation). It is headed "The new weight: the eternal recurrence of the same". Its first comment is "Infinite importance of our knowing, erring, our habits, lifestyles for everything coming." So from the first day the thought was about weight and value, not just about how the cosmos runs.
+- **Plans.** In the same month N. drew up four plans for a book, all quoted by Heidegger. One is called "Midday and Eternity: Pointers Toward a New Life" and opens with Zarathustra born by Lake Urmi. Another ends with a book called "Annulus aeternitatis", the ring of eternity. Heidegger notes the word that keeps appearing in these plans: *Einverleibung*, "incorporation". The thought has to be taken into the body, not just believed.
+- **Silence.** To Peter Gast, on 14 August 1881: "Thoughts loom on my horizon the like of which I've never seen". N. planned to keep quiet about them for years. Heidegger quotes BGE 160: "One no longer loves his insight sufficiently when he communicates it."
+- **An old question.** At nineteen N. ended an autobiographical sketch: "And where is the ring that ultimately encircles him? Is it the world? Is it God?" Heidegger reads ER as N.'s answer twenty years later, and the "ring of rings" of Z III as the same ring.
+- **Three published statements.** Heidegger counts only three: GS 341 (1882), Z III (1884) and BGE 56 (1886). Each is a question or a poem. Later come TI, where N. calls himself "the teacher of the eternal recurrence", and EH, where he defines the doctrine as "the unconditional and infinitely repeated circular course of all things" (EH, "Books", BT 3, quoted by Sinhababu).
 
-## 2. The Standard View
+### 2. The Demon: Gay Science 341
 
-ER is a **thought experiment**. N. didn't think the universe repeats. It's a test: can you say yes to your life as it is? (Williams, Nehamas, Clark, Reginster.)
+The original fourth book of GS ends with section 341, "The greatest weight". Then comes 342, "Incipit tragoedia", which is the opening of Z word for word.
 
-## 3. Loeb: He Meant It
+> "What, if some day or night a demon were to steal after you into your loneliest loneliness and say to you: 'This life as you now live it and have lived it, you will have to live once more and innumerable times more; and there will be nothing new in it ... even this spider and this moonlight between the trees, and even this moment and I myself. The eternal hourglass of existence is turned upside down again and again, and you with it, speck of dust!'" (Kaufmann)
 
-**Reading GS 341 in context**
+- **Two answers.** Would you "throw yourself down and gnash your teeth and curse the demon"? Or have you known "a tremendous moment" when you would answer, "You are a god and never have I heard anything more divine"? If the thought gained power over you, "the question in each and every thing, 'Do you desire this once more and innumerable times more?' would lie upon your actions as the greatest weight." The section closes by asking how well disposed you would have to become to yourself and to life "to crave nothing more fervently than this ultimate eternal confirmation and seal".
+- **"What if".** Drochon stresses that it opens as a hypothesis. N. is getting a reaction out of the reader, not asserting a cosmology. Loeb (in the earlier version of this note) reads it the other way. Put next to GS 340, the dying Socrates who lets slip that life was a sickness, the demon becomes a Socratic *daimon* and the passage a revelation that would crush Socrates.
+- **Loneliest loneliness.** Heidegger: this is not withdrawal into the ego. It is the place where a person is "altogether himself", where it is decided "the weight that things and human beings will have, the scale on which they will be weighed, and the one who will do the weighing." His word for it, from *Being and Time*, is authentic appropriation.
+- **Why "weight".** Heidegger hears *Schwerpunkt*, centre of gravity, in N.'s *Schwergewicht*. A weight steadies you and gives you direction, but it can also pull you down and keep you down. He links it to a note from 1888: "we are losing the burden that allowed us to live" (WM 30). The old centre of gravity, the Christian God, has gone, and ER is offered as the new one.
+- **Earlier in the same book.** GS 109 already has the image: "The whole musical box repeats eternally its tune which may never be called a melody." In GS 276, the New Year's resolution, N. writes "Amor fati: let that be my love henceforth!" (Kaufmann). The love of fate and the thought of recurrence come into the book together.
 
-- Put it with GS 340 (dying Socrates, who lets slip that life was a sickness) and 342 (start of Z).
-- Then the demon = Socrates' *daimon*, and the passage is a *revelation*, not "suppose that". Socrates would be crushed by it.
+### 3. Why Should It Weigh Anything?
 
-**"But it's only in a fictional book and in notes"**
+There's an obvious objection, and the earlier version of this note left it open as Loeb's "motivation problem". If you don't remember earlier cycles, and nothing in this life changes, why care?
 
-- Z is modelled on Plato's dialogues. Fiction used to say what the author holds true.
+- Ivan Soll (1973): the prospect "should actually be a matter of complete indifference". Kathleen Higgins (1987): "What difference does the doctrine of eternal recurrence make? Even if the theory of time it proposes were true, nothing in our lives would be any different." Aaron Ridley (1997): "Why care?" (all quoted by Sinhababu).
+- **Sinhababu's answer: infinity.** If your life recurs infinitely many times, its value is multiplied by infinity. A life that is good on balance becomes infinitely good over eternity, and a bad one infinitely bad. "The eternal recurrence matters like an eternal religious afterlife": it is heaven or hell, though mixed and spread out over time. Feelings should be in proportion to the value of their objects, so the right feelings tend toward the infinite. That is why the demon gets either curses or worship. ER "displaces a divine heaven, hell, and creator all at once."
+- **The first note agrees.** KSA 9:11[141] goes straight to sums: "an absolute excess of joy must be demonstrated", otherwise the choice would be the annihilation of humanity. Then N. sees that this can't be the measure, because the past will recur whatever we do: "In order not to be toppled by this, our compassion must not be great." And "whether we still want to live is the question: and how!"
+- **Katsafanas's objection.** "If suffering is not an objection to living once, it should not be an objection to living twice, five times, or an infinite number of times." The ratio of good to bad stays the same. Sinhababu concedes the point and turns it. The ratio decides *whether* to say yes, and the total decides *how strongly*: "Whether to say 'yes' or 'no' to existence may be less important than whether to add infinite exclamation marks."
+- **The imperative.** A note from 1881 (KSA 9:11[163], also cited by Drochon and Heidegger): "My teaching says: the task is to live your life in such a way that you have to wish to live again — you will in any case." Deleuze turned this into a rival to Kant's categorical imperative: whatever you will, will it so that you also will its eternal return. Drochon adds that it can't be universal the way Kant's is. In AC 11 "everyone should invent his own virtues, his own categorical imperatives." The test is the same for everyone, but the life that passes it is your own.
+- **Heidegger's answer is different.** A thought can be a weight because thoughts determine us more than diet or milieu do. In "thought" the decision is made whether we accept our circumstances and how we read them. WM 70: "the inner force is infinitely superior." A note on possibility, number 119: "Even the thought of a possibility can shake us and transform us ... Note how effective the possibility of eternal damnation was!" So whether ER is true is not what gives it force. Hell worked on people who were never sure of it.
 
-**Logic: objections and replies**
+### 4. The Proofs in the Notebooks
+
+N. never published an argument for ER, but the notebooks have several. Heidegger pulls the 1881–2 notes into ten points:
+
+1. The whole world, living and dead, is "one vast nexus of Becoming". "Our whole world is the ashes of countless living creatures" (XII, no. 112). GS 109 puts it the other way round: "the living creature is simply a kind of dead creature, and a very rare kind."
+2. The world's character is force (later, will to power). This is not force as physics measures it.
+3. Force is finite: "we forbid ourselves the notion of an infinite force as incompatible with the very concept 'force'" (XII, no. 94).
+4. So the world is finite: "The amount of universal force is determinate, nothing 'infinite'" (XII, no. 90).
+5. It is never at rest. "Had an equilibrium of force been achieved at any time, it would have lasted up to now: hence it never entered on the scene" (XII, no. 103).
+6. The number of its states is practically immeasurable but determinate, not infinite.
+7. Space is not real in its own right: "There is no such thing [empty space]. All is force."
+8. Time is real and infinite: "To the actual course of things an actual time must also correspond."
+9. Its total character is chaos (GS 109). Chaos here means not lacking necessity but lacking order, that is, without design.
+10. So the world is necessity without purpose.
+
+**The argument.** A finite world of becoming in infinite time can't go on forever toward something new. It has finitely many states and an infinite past, so it must have gone through all of them already, and more than once. Since everything is knotted together, each state brings the whole sequence back with it. The 1885 note that became WM 1066 (KSA 11:38[12]) says it most clearly: if the world is "a certain definite quantity of force and ... a certain definite number of centers of force ... it must pass through a calculable number of combinations." "In infinite time, every possible combination would at some time or another be realized; more: it would be realized an infinite number of times." Hence "a circular movement of absolutely identical series ... the world as a circular movement that has already repeated itself infinitely often and plays its game *in infinitum*" (Sinhababu quoting Kaufmann's WM). Another note: "The principle of the conservation of energy demands eternal recurrence" (WM 1063).
+
+**Against the heat death.** The same note argues that if mechanism leads, as William Thomson thought, to a final state, then "the mechanistic theory stands refuted." Without a final state, everything comes round again.
+
+**Poincaré.** Sinhababu's most striking point. In 1890 Henri Poincaré proved a recurrence theorem from the same two premises, a bounded set of states and infinite time. The result had won King Oscar of Sweden's prize and was announced on 21 January 1889, eighteen days after N. collapsed in Turin. Historians of physics count N. as a forerunner. Stephen Brush calls his effort "a qualitative anticipation of Poincaré's theorem". Ernst Zermelo then used the second law of thermodynamics to attack Poincaré in 1896, and Boltzmann answered that the second law holds only as a probability. (The chess note's Zermelo is the same man: [[The Mathematics of Chess: Zermelo, Shannon, Eight Queens and the Knight's Tour]].) Two differences matter:
+- **Determinism.** N. needs it to get *identical* cycles, where Poincaré's states just return near-randomly.
+- **Today's physics.** An endlessly expanding universe would break the premises.
+
+So for Sinhababu the doctrine was a serious hypothesis by the science of its day, though probably false.
+
+**Heidegger: "nothing at all" scientific.** The 1937 course says the opposite. Ask what is scientific about the proof, and "the answer is: nothing at all". Force, finitude, time, chaos and necessity are not things physics can study. Physics has to presuppose them. Those who dismiss the proofs as bad physics and those who defend them with mathematics make the same mistake, treating it as physics. "Nietzsche did not stray into the natural sciences. Rather, the natural science that was contemporary to him drifted dubiously into a dubious philosophy." His evidence is a note: "Everything has returned: Sirius and the spider and your thoughts during this past hour and this very thought of yours, that everything recurs" (XII, 62). "Since when are 'thoughts' and 'hours' objects of physics or biology?" For Heidegger the "proof" is not a deduction. It is "the unfolding of a projection", setting out what is already implied once being as a whole is pictured this way.
+
+**Is it me who comes back?** Georg Simmel: "in reality I do not return, but a phenomenon appears which is identical with me." Loeb says N. meant qualitative identity, an exact duplicate. Sinhababu brings in Parfit. If there's no ego over and above our psychological states, a perfect copy linked to me by the right causes is as good as survival, like a Star Trek teleporter or an island that sinks and rises again. The animals in Z speak of the "knot of causes in which I am entwined" that "will create me again". Heidegger adds a note in which N. says no time passes between one life and the next: "it passes as quickly as a flash of lightning, even if living creatures measure it in terms of billions of years."
+
+**How much weight do the notes bear?** Pietro Gori, quoted by Sinhababu: the notebooks are "draft observations". Sinhababu's comparison is the scrap paper a student throws away after a maths test. N. "never published anything similarly explicit". Heidegger turns this around. What N. held back may matter more than what he printed, because "one no longer loves his insight sufficiently when he communicates it". Thomas Brobjer shows that from 1881 to 1885 N. planned a book called *The Recurrence of the Same*, and that the plan was later folded into the never-finished *Will to Power*.
+
+### 5. The Thought Approaches: Zarathustra II
+
+ER is not taught in Z I at all; there the subject is the overman. Sinhababu follows how it comes into Zarathustra's mind, and he thinks most readers start too late.
+
+- **"On Great Events."** The shadow flies past the volcano crying "It is time! It is high time!" To the fire-hound, Zarathustra says the greatest events are "not our loudest but our stillest hours".
+- **"The Soothsayer."** "A teaching went forth, and a belief along with it: 'All is empty, all is the same, all has been!'" The soothsayer's dark version of ER is meaninglessness that can't even end in death: "Verily, we have become too weary even to die" (Kaufmann, quoted by Sinhababu). Zarathustra stops eating and dreams that he is night-watchman in a castle of death until a wind bursts a coffin and "a thousandfold laughter" pours out. A disciple reads the dream as Zarathustra's victory over his enemies. Zarathustra says nothing, and after the closing formula "Thus spoke Zarathustra" the text adds that he "shook his head". Sinhababu: the dream is about the lifeless aeons between cycles, and the head-shake marks something he can't yet say.
+- **"On Redemption."** This is where the problem is set. The will creates forward but is helpless backward. "'It was': that is the will's gnashing of teeth and loneliest sorrow." "Backwards the will is unable to will." "This, yes this alone, is what revenge itself is: the will's ill-will toward time and its 'It was'." The spirit of revenge "has been up to now humanity's best reflection; and wherever there was suffering, there was always supposed to be punishment."
+  - Zarathustra lists the "madness" that follows: everything passes, so everything deserves to pass; existence is a punishment; "existence itself must eternally be deed and guilt again".
+  - Against this he sets redemption: "to re-create all 'It was' into a 'Thus I willed it!'"
+  - He asks who could teach the will to will backwards, then stops "like one who has received a severe shock" (Kaufmann). Sinhababu takes this to be the moment ER becomes conscious.
+  - The hunchback asks why Zarathustra speaks one way to his pupils and another to himself.
+- **"The Stillest Hour."** A voice without voice: "You know it, Zarathustra, but you do not say it!" "Speak your word and break!" Then the line Heidegger uses for the whole doctrine: "It is the stillest words that bring on the storm. Thoughts that come on doves' feet direct the world." Zarathustra isn't ready and goes back into solitude. In Kaufmann's version the voice tells him "your fruit is ripe, but you are not ripe for your fruit."
+
+### 6. The Gateway and the Dwarf: "On the Vision and the Riddle"
+
+Two days into a sea voyage, Zarathustra tells the sailors a riddle. He is climbing a mountain carrying the dwarf on his back, "the Spirit of Heaviness", his devil, who whispers that every stone thrown up must fall. He finds his courage: "'Was that life? Well then! One more time!'" and the dwarf jumps down.
+
+- **The gateway.** "Behold this gateway, dwarf! ... It has two faces. Two ways come together here: nobody has ever taken them to the end. / This long lane back here: it goes on for an eternity. And that long lane out there—that is another eternity." Over it is written *Augenblick*, "Moment".
+- **The dwarf's answer.** "'All that is straight lies,' murmured the dwarf contemptuously. 'All truth is crooked; time itself is a circle.'" Zarathustra: "You Spirit of Heaviness! ... Do not make it too light and easy for yourself!"
+- **Zarathustra's own argument.** "Must not whatever among all things can walk have walked this lane already? Must not whatever among all things can happen have happened, and been done, and passed by already?" All things are knotted together, so this moment draws the rest after it, itself included. "Must we not eternally come back again?" Then: "Thus was I talking, and ever more softly: for I was afraid of my own thoughts and the motives behind them." This is the same reasoning as the notebook proof, and the dwarf says it too. So what is the difference between them?
+- **Heidegger on the difference.** The dwarf looks at the two lanes from outside and pictures them meeting somewhere at infinity, far from him. To him time is a parade passing through the gate, and every circle evens everything out. Zarathustra says something stranger: the two lanes "affront one another" here, at the gateway. That collision "occurs only to one who does not remain a spectator but who is himself the Moment, performing actions directed toward the future and at the same time accepting and affirming the past." "To see the Moment means to stand in it. But the dwarf keeps to the outside." So "eternity is in the Moment", and what comes back "is decided by the Moment". Ernst Bertram had quoted Goethe against N.: "everything turns in a circle." Heidegger: that is exactly the dwarf's thought.
+- **Sinhababu on the dwarf.** The dwarf is not wrong about the shape of time. Loeb agrees, and adds that the two lanes may join far off. Zarathustra is angry at *why* the dwarf says it, to drag him down, not at *what* he says.
+- **The shepherd.** A dog howls, the scene changes, and a young shepherd lies choking with "a heavy black snake" in his mouth. Zarathustra can't pull it out and cries "Bite! Bite!" "But the shepherd bit, as my cry had counselled him ... Far away he spat out the head of the snake—and then sprang up. / No longer shepherd, no longer human—one transformed, illumined, who laughed!" Zarathustra asks who the shepherd is, and who it is "into whose throat all that is heaviest and blackest will crawl".
+  - *Heidegger:* the snake is nihilism, "drear monotony ... the goallessness and meaninglessness". It can't be pulled out from outside, by swapping God for Reason or Progress or Socialism. Each person has to bite, and bite the head, the ideals nihilism grows from. The shepherd is Zarathustra himself, and the laughter is the gay science. "The thought is only as that bite."
+  - *Sinhababu:* the snake is disgust at the small man, who will recur too. The shepherd is Zarathustra, but the one who rises "no longer human" is the overman, a separate being. The pair make a failed ouroboros, mouth to mouth with no circle.
+  - *Drochon:* "the overmen are prefigured in this transformed, laughing shepherd."
+
+### 7. The Convalescent and His Animals
+
+Back in his cave, Zarathustra jumps up one morning and summons the thought: "I, Zarathustra, the advocate of life, the advocate of suffering, the advocate of the circle—you I summon, my most abyss-deep thought!" It comes: "Disgust, disgust, disgust". He falls as if dead and lies seven days. His eagle brings him food, and he smells a rose-apple. Then the animals speak.
+
+- **Their song.** "Everything goes, everything comes back; eternally rolls the wheel of Being. Everything dies, everything blooms again, eternally runs the year of Being. / Everything breaks, everything is joined anew; eternally is built the same house of Being." They tell him who he is: "behold, you are the teacher of eternal recurrence—that is now your fate!" They even speak his dying words for him: "the knot of causes in which I am entwined recurs—it will create me again! ... I come again, with this sun, with this earth, with this eagle, with this serpent".
+- **His reply.** "And you—have you simply made a hurdy-gurdy song of it all? But now I lie here, still weary from this biting and spitting out, still sick from my own redemption." Then he names what choked him: "Naked I once saw them both, the greatest and the smallest human being: all-too-similar to each other ... All-too-small the greatest!—That was my loathing for the human! And eternal recurrence even of the smallest!—That was my loathing for all existence!" At the end he doesn't answer them, and lies still talking with his soul, and they slip away.
+- **Do the animals get it right?** This is the crux of the cosmology debate.
+  - *Johnson and Nehamas: no.* The full cosmic version is given only to the dwarf, Zarathustra's enemy, and to the animals, whom he calls barrel-organs. He "remains totally silent and does not once acknowledge the idea his animals attribute to him" (Nehamas, quoted by Johnson). Johnson adds that the version told to the dwarf is "almost comforting", hardly an "abysmal" thought. So the cosmology is what the spirit of gravity and the well-meaning followers make of ER. It isn't Zarathustra's own understanding, "let alone Nietzsche's".
+  - *Sinhababu, Lampert, Hatab, Higgins and Loeb: yes.* He mocks how *easily* they say it, not what they say. They are his "proudest" and "wisest" animals, the tragic chorus of the book, and he never corrects them. He also calls himself "the advocate of the circle", which sits badly with the claim that the circle is the dwarf's mistake. Sinhababu also rejects Deleuze's "selective" return, in which reactive forces don't come back. The animals say plainly that the smallest returns along with the greatest.
+  - *Heidegger: same words, different thought.* Zarathustra's line about the animals' chatter applies here: "for the smallest cleft is the hardest to bridge." The dwarf, the animals and Zarathustra all say "circle", but "one man's circle is not another man's circle." The ditty version says everything passes and comes back and evens out, so everything is indifferent. Zarathustra's version is "Everything recurs, it depends on each moment, everything matters". In German both come out as "it is all alike". The narrowest gap separates "everything is indifferent" from "nothing is indifferent".
+- **Singing.** The animals tell him to make a new lyre, because "singing is for convalescents". Heidegger: the thought has to be sung, not taught as a theory, and the singing *is* the getting well. Johnson: his cure is "the healing awareness that one day he must sing again".
+
+### 8. The Love Songs: Life, Eternity and the Ring
+
+Sinhababu reads the end of Part III as a love story with Life.
+
+- **"The Dancing Song" (II).** Life mocks Zarathustra for calling her unfathomable. She says she's only "changeable and wild". Wisdom tells him he praises life only because he loves it. He admits: "Deeply I love only life—and verily, most of all when I hate life" (Kaufmann).
+- **"The Other Dancing Song" (III).** They dance and quarrel. Life says, "Beyond good and evil we found our island and our green meadow—we two alone" (Kaufmann). She knows he means to leave her soon. "'Yes,' I answered hesitantly, 'but you also know that—' And I said something into her ear ... 'You know that, O Zarathustra? No one knows that.'" They weep together. "But just then Life was dearer to me than all my Wisdom ever was." What did he whisper?
+  - Michael Platt and Sinhababu say he whispered that he will come back. Lampert says he will come back *eternally*.
+  - For Sinhababu this is the most confident claim of ER anywhere in the published works, and it is said where we can't hear it. Life's answer, "No one knows that", is N.'s own honesty about the evidence. "What Nietzsche is uncertain of, Zarathustra merely whispers."
+- **The midnight song.** The bell strikes twelve. "The world is deep, / Deeper than day had been aware. / Deep is its woe— / Joy—deeper still than misery: / Woe says: Now go! / Yet all joy wants Eternity— / —wants deepest, deep Eternity!" Sinhababu: "deep" means infinite, and "deep midnight" means the lifeless ages between cycles.
+- **"The Seven Seals (or: The Yea-and-Amen-Song)."** Seven verses, each naming a joy: soothsaying, sitting on broken churches, creating, mixing, sailing, dancing, flying. Each ends: "Oh how should I not lust after Eternity and after the nuptial ring of all rings—the ring of recurrence! / Never yet have I found the woman from whom I wanted children, except for this woman whom I love: for I love you, O Eternity!"
+  - Sinhababu: Eternity is Life's married name. Wisdom, Life and Eternity are one woman, a trinity set against the Christian one.
+  - The title takes the seven seals of Revelation and reverses them. Revelation's seals open on the end of the world, while Zarathustra wants this world to come round again.
+  - Lampert reads destruction into the chapter. Sinhababu and Gudrun von Tevenar read it as a "jubilant celebration". The verb N. uses for lust, *brünstig*, is the word for rutting animals.
+- **BGE 56** says the same in prose: "the ideal of the most exuberant, lively and world-affirming human being who has learned to reconcile and come to terms with not only what was and is, but also wants to have it again as it was and is, for all eternity, insatiably shouting *da capo* not only to himself but to the whole play and performance ... —What? And this wouldn't be—*circulus vitiosus deus*?" (Del Caro). Heidegger takes the question mark seriously. "God is the vicious circle"? The god who is dead is the moral God, the judge and paymaster. Whether a god belongs to the circle is left as "'only' a question", and so is ER itself.
+
+### 9. Part IV: The Soothsayer Dances
+
+Years pass and Zarathustra's hair turns white. The soothsayer comes back to his cave with his old refrain: "All is the same, nothing is worth while, the world is without meaning, knowledge strangles" (Kaufmann, quoted by Sinhababu). He comes to tempt Zarathustra to his "final sin", pity for the "higher men" whose cries can be heard from below.
+
+- **The higher men** come to supper: two kings and their ass, the conscientious man of the spirit, the magician, the retired pope, the ugliest man who killed God, the voluntary beggar and the shadow. Sinhababu counts thirteen at the table, the number of the Last Supper.
+- **The ass festival.** They kneel and worship the ass, which answers every verse of the ugliest man's litany with "Yea-Yuh" (in German *I-A*, which sounds like *ja*). Zarathustra had earlier mocked the "omni-satisfied" who say yes to everything: "Always to bray Yea-Yuh—that only the ass has learned" (III, "On the Spirit of Gravity").
+  - He questions each guest. The pope: "Better to adore God in this form than in no form at all!" The conscientious man: God "seems relatively most credible to me in this form." The ugliest man reminds him: "Not by wrath does one kill, but by laughter."
+  - Zarathustra comes round: "we have become men—so we want the earth." He tells them to keep the festival "in remembrance of me".
+  - Berkowitz, following Strauss, reads this as the book reducing its own teaching to absurdity. Sinhababu thinks the guests have the better argument. The ass at least exists.
+- **"Was that life?"** Out in the night the ugliest man says: "'Was that—life?' I will say to death. 'Very well! One more time!'" These are the words of courage from the gateway. The old soothsayer dances. Zarathustra explains the midnight song, and the key passage of the whole doctrine comes here:
+  > "Did you ever say Yes to a single joy? Oh, my friends, then you said Yes to all woe as well. All things are chained together, entwined, in love— / —if you ever wanted one time a second time, if you ever said 'You please me, happiness! Quick! Moment!' then you wanted it all back!"
+  - The "Moment!" echoes Faust's wager with Mephistopheles, *Verweile doch*, the moment he begs to stay.
+  - "Joy wants the eternity of all things", says Zarathustra. "So rich is joy that she thirsts for woe, for Hell, for hate, for disgrace, for the cripple, for world—this world".
+  - Sinhababu's gloss: a single joy that wants to return wants, as a means, everything that leads back to it, woe included.
+- **What it means.** Sinhababu: the drama of Part IV is Zarathustra against the soothsayer. Zarathustra wins when the prophet of "all is the same" sings for recurrence too. Zarathustra still leaves in the morning, though. He wants "laughing lions" for companions, not higher men to nurse.
+
+### 10. Cosmology or Test?
+
+The earlier version of this note set Loeb (literal cosmology) against Johnson (personal, not cosmic). Having read more, I'd map it like this:
+
+- **The practical reading** (Nehamas, Clark, Reginster, Magnus, Soll and others). ER is a thought experiment that tests whether you can affirm your life. Nehamas says it "has little if anything to do with the nature of the universe". Its reasons:
+  - N. never asserts it in print.
+  - In Z it is spoken only in dreams, by animals and by the dwarf.
+  - The argument fails if the universe keeps expanding.
+  - What matters is "the realization that the world will continue to be more or less as it has always been so long as it exists, that no final state will redeem those who have gone before" (Nehamas, quoted by Johnson).
+- **The cosmological reading** (Loeb, Hatab, Small, Sinhababu, Meyer 2022, and earlier Danto and Kaufmann). N. thought of it as cosmology from the start.
+  - GS 109's "Let us beware" comes from Dühring's discussion of the cosmos's beginning (D'Iorio, cited by Meyer).
+  - EH defines it as a circular course of all things.
+  - Loeb's replies to the standard objections are in the table below.
+- **Sinhababu's compromise** is the one I find most useful. The cosmological readings say correctly *what* ER is. The evaluative readings say correctly *why* N. cared. N.'s own belief was somewhere in between. He knew he couldn't prove the premises, so he wrote what Sinhababu calls science fiction, with talking animals, and had his hero whisper it.
+- **Heidegger refuses both.** The distinction between theoretical content and practical effect is "impossible from the very start". "This thought can be neither 'theoretically' thought nor 'practically' applied." What is thought, being as a whole, can't be separated from how it is thought, standing in the Moment. That is also why N. calls it a *belief*. Belief here is "a taking to be true", a fixing of what is permanent in the flux, not faith in a revelation. Note 132 calls it "the religion of the freest, most cheerful and sublime souls". Note 130 warns: "Let us guard against teaching such a doctrine as though it were a religion that suddenly appeared."
+- **Strauss.** ER is "Nietzsche's formula for nature". It rests on "an enigmatic vision", "not in itself and not meant to be a rational doctrine". Earlier philosophers began with human things and rose to a view of the whole. N. reverses Socrates: the vision of the whole comes first and grounds the new tablets of values.
+
+Loeb's replies to the logical objections, kept from the earlier version:
 
 | Objection | Loeb's reply |
 |---|---|
-| No memory between cycles, so it isn't *me* and I needn't care (Simmel, Soll) | It's one and the same life. And Z has a sort of forward memory (Zarathustra recognising what's coming) |
+| No memory between cycles, so it isn't *me* and I needn't care (Simmel, Soll) | It's one and the same life. And Z has a kind of forward memory: Zarathustra recognises what's coming |
 | Identical cycles can't be told apart, so there's only one (Magnus) | Time itself recurs. One life in quality, many in number |
-| No possible evidence (Danto) | The proof is a priori. So were some of the best arguments in physics |
+| No possible evidence (Danto) | The proof is a priori, like some of the best arguments in physics |
 
-**Physics**
+### 11. Revenge, the Past and Willing Backwards
 
-- GS 109: world as a "music box" repeating its tune. Also the hourglass, the "great year".
-- Argument in "Vision and Riddle":
-    1. Eternity behind this moment, eternity ahead.
-    2. Whatever can happen must already have happened in an infinite past.
-    3. Everything is **knotted together**, so this moment drags all the rest after it.
-    4. So this moment has been before and will be again.
-- Plus: time is relational for N. No time apart from events, so if all events return, time returns.
+"On Redemption" sets the problem that ER is meant to solve. How it solves it is disputed.
 
-**Ethics**
+- **Two kinds of revenge against time** (Meyer). One is against *Vergänglichkeit*, transience: we resent that good things pass, as Xerxes wept over his army because all of them would be dead in a hundred years. The other is against *Vergangenheit*, the past: we resent that what happened can't be undone. ER answers the first, because nothing passes for good. It makes the second worse, because every horror, from a bad break-up to the slave trade, now comes back forever.
+- **Willing backwards.** What does "Thus I willed it" mean?
+  - *Loeb:* ER gives the overman "power over time". He can will backwards because the past is also the future.
+  - *Meyer, after Brusotti:* willing backwards is reinterpretation, the "plastic power" of *History for Life* 1 to "transform and incorporate into oneself what is past". A note: "Whatever I did not want before, this is what I must want afterward."
+  - *Drochon:* if I affirm this moment, I must affirm everything that made it possible. Nehamas: "to want to be different in any way is ... to want to be different in every way."
+- **Hatab: affirm is not approve.** I keep this from the earlier version. Will to power always needs resistance, so affirming my life means affirming the return of what I struggle against. Zarathustra rejects "omni-satisfaction". He wills the small man's return as something to keep fighting. ER rules out three ways out: a different past, an end in nothing, and even endless novelty. That is *amor fati*, "that one wants nothing to be different, not forward, not backward, not in all eternity" (EH, "Clever" 10, quoted by Sinhababu). See [[Nietzsche: Amor Fati and Becoming What You Are|amor fati]].
+- **Johnson.** Accepting ER means accepting that "man" can't be transcended but returns in all his smallness, "as a necessity both in one's own life and in all eternity". Affirming even that is "the new hallmark of the Übermensch". He quotes N.'s confession in EH that the deepest objection to ER was always his mother and sister.
 
-- Everyone agrees ER goes with life affirmation, "highest formula of affirmation" (EH).
-- Notebook: live so that you must wish to live again, "you will anyway!"
-- Loeb's reconstruction: we should affirm life; life in fact recurs; so affirming life = affirming its recurrence, and wishing it wouldn't recur = denying life.
-- His two problems for the thought-experiment people:
-    - *Motivation.* Why would a fantasy be the "heaviest weight"? (Williams asks this himself.)
-    - *Contrivance.* Why recurrence, why identical, why eternal and not once more?
-- He goes through the answers (ER as mere possibility, as counter-myth, as a conditional, as imagined uncritically, as about finitude) and says each one strains the text.
-- Against Reginster: "eternal" attaches to the *recurrence*, not the life. Death is unavoidable but not final.
+### 12. Recurrence and Will to Power
 
-## 4. Johnson: The Cosmology Belongs to the Dwarf
+A common story says ER was a phase, dropped once "will to power" took over N.'s plans after 1884. Heidegger argues against it at length.
 
-This is a direct problem for Loeb, and I find it pretty convincing.
+- **The plans.** In 1884 the projected main work is called *The Eternal Return*, then *Midday and Eternity: A Philosophy of Eternal Return*, then *Philosophy of Eternal Return*. From 1885 to 1887 the title is *The Will to Power*, but the last book of every plan is about recurrence. One plan ends with "The doctrine of eternal return as hammer in the hand of the most powerful man." A note glosses the hammer: "to conjure a frightful decision, to confront Europe with the consequences, whether its will to perish 'is willing'" (WM 1054). In autumn 1888 the fourth book becomes "Dionysos: Philosophy of Eternal Return".
+- **One note in two versions.** WM 1067 ends "This world is the will to power—and nothing besides!" (the line also in BGE 36). The earlier draft ended instead with "a ring of good will", the oath of one's own return, "the will to will back all the things that ever have been ... To will forward to everything that ever has to be". N. could put the one in place of the other. Heidegger concludes they are the same thought seen from two sides.
+- **Essence and existence.** Heidegger's formula: will to power is the *constitution* of beings, what they are. ER is their *way to be*, how they are. They answer different parts of the same question, so "it is ... an outright mistake ... when commentators try to play off will to power against eternal recurrence".
+- **"Recapitulation."** A note from 1886–7 (WM 617; the heading was added by Gast): "To stamp Becoming with the character of Being—that is the supreme will to power." And: "That everything recurs is the closest approximation of a world of Becoming to one of Being: peak of the meditation." For Heidegger N. here joins the two oldest answers, Parmenides' "being is" and Heraclitus' "being becomes". Becoming is given permanence by coming back.
+- **Heraclitus.** N. said ER was "nothing Heraclitus couldn't have said too" (EH, quoted by Drochon), and Drochon follows the line back through *Philosophy in the Tragic Age* to the contest that "endures in all eternity". Heidegger corrects him with a note from the Z period: "I teach you redemption from the eternal flux: the river flows ever back into itself, and you are ever stepping into the same river, as the selfsame ones." That is the opposite of the Heraclitean river. See [[Nietzsche and the Greeks]].
+- **Meyer on naturalism.** Schopenhauer said physics leaves two gaps that only metaphysics can fill: why forces act at all, and why the chain of causes exists at all. Will to power fills the first. ER fills the second, because a chain that closes on itself needs no first cause.
 
-- In "Vision and Riddle" the cosmological version (circular time etc.) comes up in the exchange with the **dwarf**, who *is* the spirit of gravity, Zarathustra's "devil and arch-enemy". The dwarf says "time itself is a circle" and Zarathustra tells him not to make it too easy.
-- In "The Convalescent" it's the **animals** who give the full cosmic doctrine ("you are the teacher of the eternal return"). Zarathustra doesn't join in. He lies there talking with his own soul. Earlier he shook his head at his disciple's neat interpretation of his dream, same pattern.
-- So the "scientific" ER is what the spirit of gravity and the well-meaning followers make of it. Not Zarathustra's own final understanding, "let alone Nietzsche's".
-- What ER is instead: the **dark side of the feeling of eternity**. If you get the moment where everything is perfect and you want it forever, the price is that everything woven into your life comes with it, including what disgusts you. For Zarathustra that's the small man returning eternally.
-- Affirming "Life" in the abstract is easy. Affirming *your own* life, as it was and is, is the test.
-- Part IV: the higher men make ER a spectacle and a creed. Last temptation is pity for them. Only at the very end is he the laughing shepherd who bit the snake's head off.
+### 13. Recurrence and the Overman
 
-Lampert (Camden House) is closer to Loeb on seriousness: ER is the new "centre of gravity", what a lover of life would most want, and Zarathustra's affirming it is how he proves to Life that he loves her.
+How the two teachings fit is the main question of [[Nietzsche: The Overman]].
 
-## 5. Hatab: Why Recurrence Goes with Will to Power
+- **Lampert:** the "clearly provisional" overman is "rendered obsolete by the clearly definitive teaching on eternal return". ER opposes every linear history that ends in redemption, including the overman's.
+- **Heidegger** (1953): Zarathustra teaches the overman *because* he teaches ER, and the reverse. Only when being shows itself as ER can a human being "cross over the bridge and, redeemed from the spirit of revenge, be the one in transition, the overman." The overman is the human type that fits being thought as recurrence.
+- **Sinhababu:** the shepherd turns into the overman, which shows how the two connect. If humanity ever reaches the overman, the cycle as a whole will have more joy than woe, so its eternal return will be infinitely good, not infinitely bad.
+- **Johnson and Meyer:** the overman began as a shield against the thought of recurrence, an ideal that let Zarathustra bear the small man. Once he can affirm recurrence he no longer needs the shield. Kaufmann's GS introduction quotes the note: "I do not want life again. How did I endure it? Creating. What makes me stand the sight of it? The vision of the overman who affirms life. I have tried to affirm it myself—alas!"
 
-- Z II "On Redemption": the problem is revenge against time and its "it was". The answer, "thus I willed it", is tied to WtP.
-- Hatab's explanation: WtP always involves resistance, so my meaning is bound up with what I oppose. To affirm my life I have to affirm the return of the opposition as well.
-- Important: **affirm ≠ approve**. Zarathustra rejects "omni-satisfaction". He wills the return of the small man as something to keep fighting.
-- ER rules out three escapes: a different past, an end in nothingness, and even endless novelty. *Amor fati*: wanting nothing different (see [[Nietzsche: Amor Fati and Becoming What You Are|amor fati]]).
+### 14. Nihilism, Crisis and Politics
 
-See [[Nietzsche: The Will to Power]] sec. 7.
+- **The worst form.** WM 55 (1886–7): "Let us think this thought in its most frightful form: existence as it is, without meaning and goal, yet inevitably recurring; existence with no finale to sweep it into nothingness: eternal recurrence. / That is the utterly extreme form of nihilism: the nothing ('meaninglessness') eternally!" (Krell's translation, in Heidegger). ER is both the soothsayer's doctrine and Zarathustra's.
+- **The crisis.** Heidegger: ER is the "fulfillment" of nihilism and therefore the turning point. A plan note says: "The doctrine of eternal return: as fulfillment of it [nihilism], as crisis." It ends the pretence that the old centre of gravity still holds, and so it is the passage to a new weight. But it works only if thought "in its character as decision, the character of the moment". Thought only as a frightful fact, it is "halfhearted". The fear is in the notebooks: "perhaps the best natures perish on account of it? The worst adopt it?" (no. 729).
+- **Selection and castes** (Drochon). The demon's question sorts people into those who say yes and those who curse, ascending and descending life. Because the last man recurs too, N. needs a two-sphere society, "one sphere devoted to the production of the overman, and the other to the perpetuation of the last man". Two notes, quoted by Heidegger, say the same: "those who do not believe in it must, according to their own nature, finally die off!" (no. 121), but "it has no hellfire, no threats" (no. 128).
+- **Strauss: nature must be willed.** Modern man has conquered nature, and complete conquest ends in the last man, who manipulates everything, himself included. The cure would be a return to nature, but nature can no longer simply be given. "Now, for the first time, nature must be willed." Hence "eternal return is willed because nature is no longer understandable except as will." And "One cannot will the peak without willing the descent. One cannot will the complete man without willing the fragmentary man."
 
-## 6. What I Think So Far
+### 15. Does It Escape Revenge?
 
-- Loeb is right that the thought-experiment reading has a motivation problem. Why lose sleep over a hypothetical?
-- But Johnson's point about *who speaks* the cosmology in Z is hard to get round. Loeb uses exactly those two passages as his proof texts.
-- Maybe a middle position: N. was tempted by the cosmology (the notebook proofs are real) but in Z what matters is whether you can bear it.
-- Havas's "it was" problem in [[Nietzsche: The Overman]] is the same issue from the side of agency.
-- Not read yet: Loeb's conclusion; Stern's chapter on affirmation in the Cambridge volume.
+Heidegger's last word ("Who Is Nietzsche's Zarathustra?", 1953) is a question.
+
+- Revenge, for N., is metaphysical. It is "the will's ill-will toward time and its 'It was'", and its deepest form is any philosophy that sets a timeless ideal above passing things, as Plato did. Heidegger quotes Schelling: "there is no other Being than willing ... eternity; independence from time; self-affirmation." N. means to free us from revenge, and that, Heidegger says, will surprise anyone who thinks of him as the thinker of the blond beast. The cure is to say yes to transience, "passing away and transiency must recur in their coming as the same."
+- But "stamping Becoming with the character of Being" gives becoming permanence by making it return eternally. "Does there not lie concealed in this very stamping ... a form of ill will against sheer transiency and thereby a highly spiritualized spirit of revenge?" N. half admits it in a draft preface for GS: "there is revenge in it, revenge on life itself, when one who suffers greatly takes life under his protection." So, Heidegger concludes, "Zarathustra's doctrine does not bring redemption from revenge". N. turns Platonism upside down and stays a metaphysician. He completes metaphysics and doesn't get out of it.
+- **Strauss** calls the criticism "very exact and according to Nietzsche's own thought". He adds two points. N.'s praise of cruelty in knowledge may be a way of dodging revenge. And N., set against the egalitarian tarantulas, is himself "a counter-tarantula". He thinks Heidegger's other remark, that the power-driven machine is "one offshoot of the eternal recurrence of the same", is "an exaggeration, because no machine produces eternally."
+
+### Conclusion
+
+- **What I now hold.**
+  1. ER was cosmological from the start, in the sense that N. thought of a world that literally repeats. The notebook argument is good enough that historians of physics place him beside Poincaré. Sinhababu settles that point for me.
+  2. He never claimed to know it was true. Every published version is a question, a vision, an animal's song or a whisper, and Life's "No one knows that" says why.
+  3. Its weight doesn't depend on its truth. It gives each life a weight, infinite under Sinhababu's arithmetic. Under Heidegger's reading it is a decision made in the Moment. As the possibility of hell once did, it changes how a life is lived.
+  4. The real test is not the cosmos but the small man. Zarathustra is sickened not by the circle but by the fact that "the smallest" comes back too. He gets well only when joy is great enough to want even that.
+- **Revisions to my earlier view.** Johnson's point about who speaks the cosmology still seems right, but Heidegger's reading of it is better than "the cosmology is wrong". The dwarf and the animals say the same words as Zarathustra but from outside, as spectators. The gap between "everything is indifferent" and "nothing is indifferent" is the smallest gap in the book and the hardest to bridge. Hatab's warning that affirming is not approving is still the best guard against reading ER as cheerful acceptance of everything.
+- **What stays open.** Whether a teaching that makes passing things eternal really frees us from resentment against time, or only gives that resentment its most refined form. Heidegger thinks it doesn't free us. I'm not sure. The midnight song's "Woe says: Now go!" lets the woe go, and that sounds less like holding on than like letting go and taking back at once.
 
 ## Related
 
-- [[The Mathematics of Chess: Zermelo, Shannon, Eight Queens and the Knight's Tour]]
-- [[Thus Spoke Zarathustra as Drama: Plot, Tragedy and Parody]]
-- [[Nietzsche: Amor Fati and Becoming What You Are]]
 - [[Nietzsche: The Overman]]
+- [[Nietzsche: Amor Fati and Becoming What You Are]]
 - [[Nietzsche: The Will to Power]]
+- [[Nietzsche on Nihilism and Its Overcoming]]
+- [[Thus Spoke Zarathustra as Drama: Plot, Tragedy and Parody]]
 - [[Nietzsche and the Greeks]]
+- [[The Mathematics of Chess: Zermelo, Shannon, Eight Queens and the Knight's Tour]]
