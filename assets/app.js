@@ -631,8 +631,11 @@ function viewNote(n) {
   }
   // notes whose headings carry their own numbers ("1. …", "A. …") are not numbered again by the stylesheet
   const ownNum = r.toc.some(t => /^(\d+|[A-Z]|[IVX]+)[.)]\s/.test(t.text));
-  const toc = r.toc.filter(t => t.level === 2 && !t.plain).length >= 2
-    ? `<nav class="toc" aria-label="Contents"><p class="toc-title">Contents</p><ol>${r.toc.map(t => `<li class="lvl-${t.level}${t.plain ? ' plain' : ''}"><a href="#" data-scroll="${t.anchor}">${esc(t.text)}</a></li>`).join('')}</ol></nav>` : '';
+  // sections are usually "### 1. …" under no "##" at all, so the contents take whichever level carries two or more sections
+  const count = l => r.toc.filter(t => t.level === l && !t.plain).length;
+  const top = count(2) >= 2 ? 2 : count(3) >= 2 ? 3 : 0;
+  const toc = top
+    ? `<nav class="toc" aria-label="Contents"><p class="toc-title">Contents</p><ol>${r.toc.map(t => `<li class="lvl-${Math.max(2, t.level - top + 2)}${t.plain ? ' plain' : ''}"><a href="#" data-scroll="${t.anchor}">${esc(t.text)}</a></li>`).join('')}</ol></nav>` : '';
   const back = (S.back.get(n.id) || []).map(b => ({ ...b, n: S.byId.get(b.from) })).sort((a, b) => a.n.id.localeCompare(b.n.id));
   const backHTML = `<section class="backlinks"><h2>Referenced by</h2>${back.length
     ? `<ul>${back.map(b => `<li><span class="bl-addr">[${b.n.id}]</span><a class="bl-title" href="#/${b.n.id}" data-id="${b.n.id}">${esc(b.n.title)}</a><p class="bl-ctx">${contextSnippet(b.line, n.id)}</p></li>`).join('')}</ul>`
