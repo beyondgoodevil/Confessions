@@ -577,3 +577,13 @@ svg.graph:active{cursor:grabbing}
 .g-nodes circle.dim{opacity:.13}
 .g-nodes a:hover circle{stroke:var(--ink);stroke-width:2}
 .g-sec-0{fill:#1D4BA0}.g-sec-1{fill:#B7791F}.g-sec-2{fill:#2F855A}.g-sec-3{fill:#A8322A}.g-sec-4{fill:#6B46C1}.g-sec-5{fill:#5A606B}
+/* index: links to the graph, series, tags and a random note */
+.home-graph{margin:2.2rem 0 0}
+.home-graph .graph-box{border-color:var(--rule)}
+svg.graph-mini{height:clamp(16rem,48vw,26rem);cursor:default}
+.home-graph figcaption{margin:.6rem 0 0;text-align:center}
+.home-graph .g-legend{justify-content:center;font-size:.88em}
+.explore{margin:.35rem auto 0;text-align:center;color:var(--muted);font-size:.95em}
+.explore a,.explore .linklike{color:var(--accent);text-decoration:none}
+.explore a:hover,.explore .linklike:hover{text-decoration:underline}
+.linklike{background:none;border:0;padding:0;font:inherit;cursor:pointer}

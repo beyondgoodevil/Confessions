@@ -457,10 +457,6 @@ const sectionNoun = sec => sec.noun || sec.name.toLowerCase();
 function viewIndex() {
   const c = S.config, per = c.indexPreviewCount || 4, perSub = c.indexPreviewCountPerSubsection || 3;
   const shown = S.sections.filter(sec => sec.index !== false);   // a section can opt out of the index page with "index": false
-  const toc = shown.map(sec => {
-    const row = `<a href="#/s/${sec.id}"><span class="st-name">${esc(sec.name)}</span><span class="st-c">${notesIn(sec).length}</span></a>`;
-    return row + sec.subsections.map(u => `<a class="st-sub" href="#/s/${sec.id}/${u.id}"><span class="st-name">${esc(u.name)}</span><span class="st-c">${notesIn(sec, u).length}</span></a>`).join('');
-  }).join('');
   const secs = shown.map(sec => {
     const all = notesIn(sec);
     let inner;
@@ -483,7 +479,9 @@ function viewIndex() {
   return `<div class="home home-forester">
     <header class="fr-head"><h1 class="home-title">${esc(c.title || 'Notes')}</h1>${c.subtitle ? `<p class="home-sub">${esc(c.subtitle)}</p>` : ''}
     ${c.author ? `<p class="fr-author">${esc(c.author)}</p>` : ''}</header>
-    ${intro}<nav class="sec-toc" aria-label="Sections">${toc}</nav>${secs}${updatedSec}</div>`;
+    ${intro}<figure class="home-graph"><div class="graph-box">${graphSVG(null, 'graph graph-mini')}</div>
+    <figcaption><span class="g-legend">${graphLegend()}</span>
+    <nav class="explore" aria-label="Explore">${plural(S.notes.length, 'note', 'notes')} · <a href="#/graph">Open the full graph</a> · ${S.notes.some(n => n.fm.series) ? '<a href="#/series">Series</a> · ' : ''}<a href="#/tags">Tags</a> · <button type="button" class="linklike" data-action="random">Random note</button></nav></figcaption></figure>${secs}${updatedSec}</div>`;
 }
 
 /* ---------------- browsing: topics, people and the section filter ---------------- */
@@ -725,18 +723,23 @@ function viewGraph(opts) {
   const has = i => tag ? g.ns[i].tags.some(t => t.toLowerCase() === tag) : true;
   const lone = i => g.deg[i] === 0;
   const lit = g.ns.map((n, i) => has(i) && (only !== 'orphans' || lone(i)));
-  const pad = 40, xs = [...g.x], ys = [...g.y];
-  const minX = Math.min(...xs) - pad, minY = Math.min(...ys) - pad, w = Math.max(...xs) - minX + pad, h = Math.max(...ys) - minY + pad;
-  const secIx = new Map(S.sections.map((s, i) => [s, i]));
-  const lines = g.edges.map(([a, b]) => `<line x1="${g.x[a].toFixed(1)}" y1="${g.y[a].toFixed(1)}" x2="${g.x[b].toFixed(1)}" y2="${g.y[b].toFixed(1)}"${lit[a] && lit[b] ? '' : ' class="dim"'}/>`).join('');
-  const dots = g.ns.map((n, i) => `<a href="#/${n.id}" data-gid="${n.id}"><circle cx="${g.x[i].toFixed(1)}" cy="${g.y[i].toFixed(1)}" r="${(3 + Math.sqrt(g.deg[i]) * 1.6).toFixed(1)}" class="g-sec-${secIx.get(n.section)}${lit[i] ? '' : ' dim'}${lone(i) ? ' lone' : ''}"><title>${esc(n.id + ' ' + n.title)}</title></circle></a>`).join('');
   const tags = [...S.tags.values()].filter(t => t.notes.length > 1).sort((a, b) => a.name.localeCompare(b.name));
   const nLone = g.deg.filter(d => !d).length;
-  const legend = S.sections.map((s, i) => `<span class="g-key"><svg width="10" height="10" aria-hidden="true"><circle cx="5" cy="5" r="4.5" class="g-sec-${i}"/></svg>${esc(s.shortName || s.name)}</span>`).join('');
   return `<div class="page page-graph"><header class="fr-head"><h1>Graph</h1><p class="home-sub">${plural(g.ns.length, 'note', 'notes')} and ${plural(g.edges.length, 'link', 'links')}. Bigger dots have more links; scroll to zoom, drag to move, click a dot to open it.</p></header>
     <form class="graph-tools" onsubmit="return false"><label>Tag <select data-graph="tag"><option value="">all notes</option>${tags.map(t => `<option value="${esc(t.name.toLowerCase())}"${t.name.toLowerCase() === tag ? ' selected' : ''}>${esc(t.name)} (${t.notes.length})</option>`).join('')}</select></label>
-    <label><input type="checkbox" data-graph="orphans"${only === 'orphans' ? ' checked' : ''}> only notes with no links (${nLone})</label><span class="g-legend">${legend}</span></form>
-    <div class="graph-box"><svg class="graph" viewBox="${minX.toFixed(0)} ${minY.toFixed(0)} ${w.toFixed(0)} ${h.toFixed(0)}" data-vb="${minX.toFixed(0)} ${minY.toFixed(0)} ${w.toFixed(0)} ${h.toFixed(0)}" role="img" aria-label="Graph of notes and links"><g class="g-edges">${lines}</g><g class="g-nodes">${dots}</g></svg></div></div>`;
+    <label><input type="checkbox" data-graph="orphans"${only === 'orphans' ? ' checked' : ''}> only notes with no links (${nLone})</label><span class="g-legend">${graphLegend()}</span></form>
+    <div class="graph-box">${graphSVG(lit)}</div></div>`;
+}
+const graphLegend = () => S.sections.map((s, i) => `<span class="g-key"><svg width="10" height="10" aria-hidden="true"><circle cx="5" cy="5" r="4.5" class="g-sec-${i}"/></svg>${esc(s.shortName || s.name)}</span>`).join('');
+// the drawing itself; lit[i] false greys out note i (and lines touching it)
+function graphSVG(lit, cls = 'graph') {
+  const g = graphLayout(), on = i => !lit || lit[i], lone = i => g.deg[i] === 0;
+  const pad = 40, minX = Math.min(...g.x) - pad, minY = Math.min(...g.y) - pad, w = Math.max(...g.x) - minX + pad, h = Math.max(...g.y) - minY + pad;
+  const vb = `${minX.toFixed(0)} ${minY.toFixed(0)} ${w.toFixed(0)} ${h.toFixed(0)}`;
+  const secIx = new Map(S.sections.map((s, i) => [s, i]));
+  const lines = g.edges.map(([a, b]) => `<line x1="${g.x[a].toFixed(1)}" y1="${g.y[a].toFixed(1)}" x2="${g.x[b].toFixed(1)}" y2="${g.y[b].toFixed(1)}"${on(a) && on(b) ? '' : ' class="dim"'}/>`).join('');
+  const dots = g.ns.map((n, i) => `<a href="#/${n.id}" data-gid="${n.id}"><circle cx="${g.x[i].toFixed(1)}" cy="${g.y[i].toFixed(1)}" r="${(3 + Math.sqrt(g.deg[i]) * 1.6).toFixed(1)}" class="g-sec-${secIx.get(n.section)}${on(i) ? '' : ' dim'}${lone(i) ? ' lone' : ''}"><title>${esc(n.id + ' ' + n.title)}</title></circle></a>`).join('');
+  return `<svg class="${cls}" viewBox="${vb}" data-vb="${vb}" role="img" aria-label="Graph of notes and links"><g class="g-edges">${lines}</g><g class="g-nodes">${dots}</g></svg>`;
 }
 function initGraph(main) {
   const svg = $('svg.graph', main); if (!svg) return;
