@@ -1,6 +1,4 @@
 ---
-series: Reading Plato
-part: 1
 id: M-0398
 date: 2026-10-30
 title: "Republic Book I: Cephalus, Polemarchus and Thrasymachus on Justice"

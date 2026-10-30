@@ -1,6 +1,4 @@
 ---
-series: Reading Plato
-part: 6
 id: M-0400
 date: 2026-10-30
 title: "Plato's Phaedrus: Divine Madness, the Winged Soul, Rhetoric and Writing"

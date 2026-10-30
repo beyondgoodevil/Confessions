@@ -1,6 +1,4 @@
 ---
-series: Reading Plato
-part: 4
 id: M-0397
 date: 2026-10-30
 title: "Plato's Phaedo: Philosophy as Practice for Dying"
