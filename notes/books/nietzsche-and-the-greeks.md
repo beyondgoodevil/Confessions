@@ -385,6 +385,7 @@ What stays unclear is whether he wanted the first side to win next time, or a ne
 
 ## Related
 
+- [[Nietzsche and Socrates: The Problem of Socrates]]
 - [[Apollo and Dionysus: The Birth of Tragedy]]
 - [[Nietzsche's Aristocratic Radicalism: The Greek State, Slavery and the Pyramid of Culture]]: "The Greek State", slavery, the Commune.
 - [[The Bacchae Three Ways: Euripides, Nietzsche, Dodds and Girard]]

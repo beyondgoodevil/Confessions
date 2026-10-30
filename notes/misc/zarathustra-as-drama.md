@@ -155,6 +155,7 @@ Matthew Meyer, *Routledge Guidebook* (2025).
 
 ## Related
 
+- [[Nietzsche and Socrates: The Problem of Socrates]]
 - [[Nietzsche's Bestiary: Camel, Lion, Ape, Ass and Blond Beast]]
 - [[Nietzsche: Eternal Recurrence]]
 - [[Nietzsche: The Overman]]

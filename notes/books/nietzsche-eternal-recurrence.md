@@ -230,6 +230,7 @@ Heidegger's last word ("Who Is Nietzsche's Zarathustra?", 1953) is a question.
 
 ## Related
 
+- [[Nietzsche and Socrates: The Problem of Socrates]]
 - [[Nietzsche: The Overman]]
 - [[Nietzsche: Amor Fati and Becoming What You Are]]
 - [[Nietzsche: The Will to Power]]
