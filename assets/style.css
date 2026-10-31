@@ -588,3 +588,46 @@ svg.graph-mini{height:clamp(16rem,48vw,26rem);cursor:default}
 .explore a,.explore .linklike{color:var(--accent);text-decoration:none}
 .explore a:hover,.explore .linklike:hover{text-decoration:underline}
 .linklike{background:none;border:0;padding:0;font:inherit;cursor:pointer}
+
+/* ===== PDF LIBRARY (#/library): channels and files as square blocks, after Are.na; a page-by-page reader ===== */
+.page-library{max-width:68rem}
+.page-library .fr-head{text-align:center;margin-bottom:1.6rem}
+.page-library .note-kicker{justify-content:center;display:flex;font-family:var(--font-body)}
+.page-library .note-taxon{font-variant-caps:small-caps;letter-spacing:.03em;color:var(--ink-2);text-decoration:none}
+.page-library .kicker-sep{color:var(--muted)}
+.page-library .home-sub{font-style:italic}
+.lib-controls{display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem 2.2rem;margin:0 0 2rem;font-size:.95em}
+.lib-choice{display:flex;flex-wrap:wrap;gap:.2rem .9rem;align-items:baseline}
+.lib-choice-label{color:var(--muted);font-variant-caps:small-caps;letter-spacing:.04em}
+.lib-choice a{color:var(--ink-2);text-decoration:none}
+.lib-choice a:hover{color:var(--accent)}
+.lib-choice a[aria-current]{color:var(--ink);font-weight:600}
+.lib-choice a[aria-current]::before{content:"";display:inline-block;width:.36em;height:.36em;border-radius:50%;background:currentColor;margin-right:.35em;vertical-align:.18em}
+.blk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:2.4rem 1.6rem;align-items:start}
+.blk-wrap{margin:0}
+.blk{display:flex;aspect-ratio:1;width:100%;box-sizing:border-box;text-decoration:none;color:var(--ink)}
+.blk-ch{flex-direction:column;justify-content:center;align-items:center;gap:.7rem;padding:1rem;border:1px solid var(--rule);text-align:center;transition:border-color .15s}
+.blk-ch:hover{border-color:var(--ink-2)}
+.blk-ch-name{font-size:1.3em;line-height:1.2;overflow-wrap:anywhere}
+.blk-meta{color:var(--muted);font-size:.82em;line-height:1.35}
+.blk-file{align-items:center;justify-content:center}
+.blk-file img{max-width:100%;max-height:100%;object-fit:contain;box-shadow:0 1px 3px rgba(0,0,0,.18);transition:transform .15s}
+.blk-file:hover img{transform:translateY(-2px)}
+.blk-fallback{display:flex;align-items:center;justify-content:center;width:72%;height:100%;padding:1rem;box-sizing:border-box;border:1px solid var(--rule);background:var(--surface);text-align:center;font-size:.95em;color:var(--ink-2)}
+.blk-cap{margin:.55rem 0 0;text-align:center;font-size:.86em;line-height:1.3}
+.blk-title{display:block;color:var(--ink)}
+.blk-author{display:block;color:var(--muted)}
+@media (max-width:520px){.blk-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:1.6rem 1rem}}
+.lib-desc{max-width:var(--measure);margin:.8rem auto 0;color:var(--ink-2)}
+.lib-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;margin:1.1rem 0 0}
+.lib-btn{border:1px solid var(--rule);padding:.32rem .8rem;color:var(--ink);text-decoration:none;font-size:.92em}
+.lib-btn:hover{border-color:var(--accent);color:var(--accent)}
+.pdf-bar{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:center;gap:.5rem;padding:.4rem;margin:0 auto 1rem;background:var(--bg);border-bottom:1px solid var(--rule);font-size:.92em}
+.pdf-bar button{font:inherit;min-width:2rem;padding:.1rem .5rem;border:1px solid var(--rule);background:var(--paper);color:var(--ink);cursor:pointer}
+.pdf-bar button:hover{border-color:var(--accent)}
+.pdf-zoom{min-width:3.2em;text-align:center;color:var(--ink-2)}
+.pdf-count{margin-left:1rem;color:var(--muted)}
+.pdf-pages{--pdf-zoom:1;display:flex;flex-direction:column;align-items:safe center;gap:1rem;overflow-x:auto;padding-bottom:.5rem}
+.pdf-page{width:calc(min(100%, 52rem) * var(--pdf-zoom));flex:none;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.pdf-page canvas{display:block;width:100%;height:auto}
+.pdf-frame{width:100%;height:85vh;border:1px solid var(--rule)}

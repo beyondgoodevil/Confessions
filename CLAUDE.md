@@ -18,6 +18,15 @@ Sections are defined in `config.json` (strict JSON). `templates/` holds Obsidian
 
 Browsing is set in `config.json` too. `browse.shelves` puts topic tags under headings (God and Christ, Scripture, …) for the topic list on large sections and the Tags page; `browse.fields` are broad tags (theology, philosophy…) that aren't offered as topics; `browse.secondary` tags (scripture) don't decide where a note is filed when a section is sorted by topic; `browse.labels` gives display names (`icons-saints` → Icons and saints). `editsCountFrom` (a date) sets when edits start counting: a note's "Updated" line shows its last commit only if that commit is on or after this date, otherwise the note's own `date`. A section with `"index": false` (Guides) is left off the index page but stays in the menu. A section's `arrange` picks its default order (`topic`, `author`, `newest`, `title`). When you add a new topic tag to the vocabulary below, add it to a shelf as well.
 
+## PDF library
+
+`library/<Channel>/<file>.pdf` becomes the site's Library (`#/library`): each folder is a channel, shown Are.na-style as square blocks, and each PDF opens in a page-by-page reader (pdf.js) with Download and Open-in-new-tab buttons. Nested folders make channels named `A / B`; PDFs directly in `library/` go to "Unsorted". Names starting with `.` or `_` are kept off the site.
+
+- A file named `Author - Title (Year).pdf` gets its author, title and year from the name. Otherwise, or to add more, use `library/library.json`: `{"channels": {"Channel": {"description": "…"}}, "files": {"Channel/file.pdf": {"title": "…", "author": "…", "year": 1948, "description": "…", "note": "B-0003"}}}` (`note` adds a "My notes on it" link).
+- An image with the PDF's name (`.jpg`, `.png`, `.webp`) is used as its cover; otherwise the first page is drawn.
+- Publish with `node tools/publish-library.mjs` (pulls, refuses files over GitHub's 100 MB limit, builds, commits `library/`, pushes).
+- Everything in `library/` is public. Only add PDFs the owner has the right to share.
+
 ## Note format
 
 YAML front matter, then Markdown. Fields by section (all optional except that a title is strongly preferred):

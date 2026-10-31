@@ -10,6 +10,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { pathToFileURL } from 'node:url';
 import { ROOT, NOTE_EXT, MEDIA_EXT, walk, gitDates, rel, loadConfig, readFrontMatter } from './lib.mjs';
+// (walk skips names starting with "." or "_", so library/_drafts/ stays unpublished)
 export { ROOT };
 
 const isDraft = raw => {
@@ -34,10 +35,41 @@ export function collectNotes({ withGit = true } = {}) {
   return { notes, files, drafts };
 }
 
+// The PDF library: library/<Channel>/<file>.pdf. Each folder is a channel. A file's title, author and year come
+// from library/library.json if given there, else from a name like "Author - Title (1999).pdf". An image with the
+// same name as a PDF (e.g. Title.jpg) is used as its cover instead of a picture of the first page.
+const COVER_EXT = ['.jpg', '.jpeg', '.png', '.webp'];
+export function collectLibrary({ withGit = true } = {}) {
+  const dir = path.join(ROOT, 'library');
+  let meta = {};
+  try { meta = JSON.parse(fs.readFileSync(path.join(dir, 'library.json'), 'utf8')); } catch (e) { if (e.code !== 'ENOENT') throw new Error(`library/library.json: ${e.message}`); }
+  const fileMeta = meta.files || {}, chanMeta = meta.channels || {};
+  const items = walk(dir).filter(f => /\.pdf$/i.test(f)).sort().map(f => {
+    const r = rel(f), inLib = r.replace(/^library\//, ''), parts = inLib.split('/');
+    const channel = parts.length > 1 ? parts.slice(0, -1).join(' / ') : 'Unsorted';
+    const base = parts[parts.length - 1].replace(/\.pdf$/i, '');
+    const m = base.match(/^(.+?)\s+-\s+(.+?)(?:\s*\((\d{4})\))?$/);
+    const given = fileMeta[inLib] || {};
+    const cover = COVER_EXT.map(x => f.replace(/\.pdf$/i, x)).find(c => fs.existsSync(c));
+    const git = withGit ? gitDates(r) : {};
+    return {
+      path: r, channel, size: fs.statSync(f).size,
+      title: given.title || (m ? m[2] : base.replace(/[_]+/g, ' ')),
+      author: given.author || (m ? m[1] : ''), year: given.year || (m && m[3]) || '',
+      description: given.description || '', note: given.note || '', cover: cover ? rel(cover) : '',
+      added: given.added || git.created || fs.statSync(f).mtime.toISOString().slice(0, 10)
+    };
+  });
+  const names = [...new Set(items.map(i => i.channel))];
+  const channels = names.map(name => ({ name, description: (chanMeta[name] || {}).description || '' }));
+  return { channels, items };
+}
+
 function copy(src) {
   const s = path.join(ROOT, src);
   if (!fs.existsSync(s)) return;
-  fs.cpSync(s, path.join(ROOT, '_site', src), { recursive: true, filter: p => !path.basename(p).startsWith('.') });
+  const hidden = src === 'library' ? /^[._]/ : /^\./;   // library/_anything is kept out of the site
+  fs.cpSync(s, path.join(ROOT, '_site', src), { recursive: true, filter: p => !hidden.test(path.basename(p)) });
 }
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -124,8 +156,10 @@ export function build() {
   const out = path.join(ROOT, '_site');
   fs.rmSync(out, { recursive: true, force: true });
   fs.mkdirSync(out, { recursive: true });
-  for (const f of ['index.html', 'write.html', 'config.json', 'assets', 'notes']) copy(f);
+  for (const f of ['index.html', 'write.html', 'config.json', 'assets', 'notes', 'library']) copy(f);
   const { notes, files, drafts } = collectNotes();
+  const library = collectLibrary();
+  fs.writeFileSync(path.join(out, 'library.json'), JSON.stringify(library));
   fs.writeFileSync(path.join(out, 'notes.json'), JSON.stringify({ generated: new Date().toISOString(), notes, files }));
   fs.writeFileSync(path.join(out, '.nojekyll'), '');
   finishPage(path.join(out, 'index.html'), { cfg, base, isHome: true });
@@ -141,7 +175,7 @@ export function build() {
   const num = e => +e.id.split('-')[1] || 0;
   const newest = [...entries].sort((a, b) => b.date.localeCompare(a.date) || num(b) - num(a)).slice(0, 30);
   fs.writeFileSync(path.join(out, 'feed.xml'), feed(newest, cfg, base));
-  console.log(`Built ${notes.length} note${notes.length === 1 ? '' : 's'} into _site/${drafts ? ` (${drafts} draft${drafts === 1 ? '' : 's'} skipped)` : ''}.`);
+  console.log(`Built ${notes.length} note${notes.length === 1 ? '' : 's'} into _site/${drafts ? ` (${drafts} draft${drafts === 1 ? '' : 's'} skipped)` : ''}${library.items.length ? `, with ${library.items.length} PDF${library.items.length === 1 ? '' : 's'} in the library` : ''}.`);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

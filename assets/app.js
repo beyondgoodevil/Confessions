@@ -13,11 +13,13 @@ const LIB = {
   chess: 'assets/chess-viewer.js?v=8',
   plot: 'assets/plot-viewer.js?v=2',
   abcjs: 'assets/vendor/abcjs-basic-min.js?v=6.4.4',
-  music: 'assets/music-viewer.js?v=3'
+  music: 'assets/music-viewer.js?v=3',
+  pdfjs: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js'
 };
+const PDF_WORKER = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 const libReady = n => n === 'marked' ? !!window.marked : n === 'yaml' ? !!window.jsyaml : n === 'purify' ? !!window.DOMPurify
   : n === 'hljs' ? !!window.hljs : n === 'mathjax' ? !!(window.MathJax && window.MathJax.typesetPromise) : n === 'chess' ? !!window.ChessViewer : n === 'plot' ? !!window.PlotViewer
-  : n === 'abcjs' ? !!window.ABCJS : n === 'music' ? !!window.MusicViewer : false;
+  : n === 'abcjs' ? !!window.ABCJS : n === 'music' ? !!window.MusicViewer : n === 'pdfjs' ? !!window.pdfjsLib : false;
 // Shorthand available in every note's maths (physics-package style); plain LaTeX still works.
 const TEX_MACROS = {
   R: '\\mathbb{R}', N: '\\mathbb{N}', Z: '\\mathbb{Z}', Q: '\\mathbb{Q}', C: '\\mathbb{C}',
@@ -797,6 +799,173 @@ function viewTag(key) {
 }
 const viewMissing = msg => `<div class="page page-section"><header class="fr-head"><h1>Not found</h1><p class="home-sub">${msg}</p></header><p style="text-align:center"><a href="#/">Back to the index</a></p></div>`;
 
+/* ---------------- PDF library ---------------- */
+// library.json (built from library/<Channel>/<file>.pdf) is fetched the first time the Library is opened.
+// Channels and files are shown as square blocks; a file opens in a reader drawn with pdf.js, page by page as it scrolls into view.
+const LIBRARY = { data: null, loading: null, thumbs: new Map(), thumbObs: null, reader: null };
+const pdfUrl = p => p.split('/').map(encodeURIComponent).join('/');
+const fileSize = b => b >= 1048576 ? `${(b / 1048576).toFixed(1)} MB` : `${Math.max(1, Math.round(b / 1024))} KB`;
+function loadLibrary() {
+  if (LIBRARY.data) return Promise.resolve(LIBRARY.data);
+  return LIBRARY.loading || (LIBRARY.loading = getJSON('library.json').catch(() => ({ channels: [], items: [] })).then(d => {
+    const items = d.items || [], used = new Set();
+    for (const i of items) {
+      i.chSlug = slug(i.channel);
+      let s = slug(i.path.split('/').pop().replace(/\.pdf$/i, '')) || 'file', k = s, n = 2;
+      while (used.has(i.chSlug + '/' + k)) k = `${s}-${n++}`;
+      used.add(i.chSlug + '/' + k); i.slug = k;
+    }
+    const channels = (d.channels || []).map(c => {
+      const its = items.filter(i => i.channel === c.name);
+      return { ...c, slug: slug(c.name), items: its, added: its.reduce((a, i) => i.added > a ? i.added : a, '') };
+    });
+    return (LIBRARY.data = { channels, items });
+  }));
+}
+function sortBlocks(arr, sort, key = x => x.title || x.name) {
+  const a = [...arr];
+  if (sort === 'title') a.sort((x, y) => key(x).localeCompare(key(y)));
+  else if (sort === 'random') { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } }
+  else a.sort((x, y) => String(y.added).localeCompare(String(x.added)) || key(x).localeCompare(key(y)));
+  return a;
+}
+const libChoice = (label, opts, cur, href) => `<div class="lib-choice"><span class="lib-choice-label">${label}</span>${opts.map(([v, name]) =>
+  `<a href="${href(v)}"${v === cur ? ' aria-current="true"' : ''}>${name}</a>`).join('')}</div>`;
+const channelBlock = c => `<a class="blk blk-ch" href="#/library/${encodeURIComponent(c.slug)}"><span class="blk-ch-name">${esc(c.name)}</span>
+  <span class="blk-meta">${plural(c.items.length, 'PDF', 'PDFs')}${c.added ? `<br>updated ${esc(fmtDate(toDate(c.added)))}` : ''}</span></a>`;
+const fileBlock = i => `<figure class="blk-wrap"><a class="blk blk-file" href="#/library/${encodeURIComponent(i.chSlug)}/${encodeURIComponent(i.slug)}" data-pdf="${esc(pdfUrl(i.path))}">
+  ${i.cover ? `<img src="${esc(pdfUrl(i.cover))}" alt="" loading="lazy">` : `<span class="blk-fallback">${esc(i.title)}</span>`}</a>
+  <figcaption class="blk-cap"><span class="blk-title">${esc(i.title)}</span>${i.author ? `<span class="blk-author">${esc(i.author)}</span>` : ''}</figcaption></figure>`;
+function viewLibrary(r) {
+  const d = LIBRARY.data;
+  if (!d) return { html: `<div class="page page-library"><header class="fr-head"><h1>Library</h1><p class="home-sub">Loading…</p></header></div>` };
+  const kicker = extra => `<p class="note-kicker"><a class="note-taxon" href="#/library">Library</a>${extra || ''}</p>`;
+  const sorts = [['recent', 'Recently added'], ['title', 'Title'], ['random', 'Random']], sort = sorts.some(s => s[0] === r.sort) ? r.sort : 'recent';
+  if (!r.channel) {
+    const view = ['channels', 'files'].includes(r.view) ? r.view : 'all';
+    const href = (v, s) => `#/library?${new URLSearchParams({ ...(v !== 'all' ? { view: v } : {}), ...(s !== 'recent' ? { sort: s } : {}) })}`.replace(/\?$/, '');
+    const blocks = [...(view !== 'files' ? sortBlocks(d.channels, sort).map(channelBlock) : []), ...(view !== 'channels' ? sortBlocks(d.items, sort).map(fileBlock) : [])];
+    const empty = `<p class="fr-empty">Nothing here yet. Put PDFs in <code>library/&lt;Channel&gt;/</code> in the repository and publish.</p>`;
+    return { html: `<div class="page page-library"><header class="fr-head"><h1>Library</h1><p class="home-sub">${plural(d.items.length, 'PDF', 'PDFs')} in ${plural(d.channels.length, 'channel', 'channels')}</p></header>
+      <div class="lib-controls">${libChoice('View', [['all', 'All'], ['channels', 'Channels'], ['files', 'Files']], view, v => href(v, sort))}${libChoice('Sort', sorts, sort, s => href(view, s))}</div>
+      ${d.items.length ? `<div class="blk-grid">${blocks.join('')}</div>` : empty}</div>` };
+  }
+  const c = d.channels.find(x => x.slug === r.channel);
+  if (!c) return { html: viewMissing('That channel isn’t in the library.') };
+  if (!r.file) {
+    const href = s => `#/library/${encodeURIComponent(c.slug)}${s !== 'recent' ? '?sort=' + s : ''}`;
+    return { title: c.name, html: `<div class="page page-library"><header class="fr-head">${kicker()}<h1>${esc(c.name)}</h1>
+      <p class="home-sub">${c.description ? esc(c.description) + ' · ' : ''}${plural(c.items.length, 'PDF', 'PDFs')}</p></header>
+      <div class="lib-controls">${libChoice('Sort', sorts, sort, href)}</div><div class="blk-grid">${sortBlocks(c.items, sort).map(fileBlock).join('')}</div></div>` };
+  }
+  const i = c.items.find(x => x.slug === r.file);
+  if (!i) return { html: viewMissing('That file isn’t in this channel.') };
+  const note = i.note && (S.byId.get(String(i.note).toUpperCase()) || S.byId.get(resolveTarget(i.note) || ''));
+  const facts = [i.author, i.year, fileSize(i.size), i.added && `added ${fmtDate(toDate(i.added))}`].filter(Boolean).map(esc).join(' · ');
+  return { title: i.title, html: `<div class="page page-library page-reader"><header class="fr-head">${kicker(` <span class="kicker-sep">/</span> <a class="note-taxon" href="#/library/${encodeURIComponent(c.slug)}">${esc(c.name)}</a>`)}
+    <h1>${esc(i.title)}</h1><p class="home-sub">${facts}</p>${i.description ? `<p class="lib-desc">${esc(i.description)}</p>` : ''}
+    <p class="lib-actions"><a class="lib-btn" href="${esc(pdfUrl(i.path))}" download>Download</a><a class="lib-btn" href="${esc(pdfUrl(i.path))}" target="_blank" rel="noopener">Open in a new tab</a>${note ? `<a class="lib-btn" href="#/${note.id}">My notes on it</a>` : ''}</p></header>
+    <div class="pdf-bar"><button type="button" data-zoom="-1" aria-label="Zoom out">−</button><span class="pdf-zoom">100%</span><button type="button" data-zoom="1" aria-label="Zoom in">+</button><span class="pdf-count">Loading…</span></div>
+    <div class="pdf-pages" data-pdf="${esc(pdfUrl(i.path))}"></div></div>` };
+}
+async function pdfReady() {
+  if (!(await loadLib('pdfjs'))) return null;
+  window.pdfjsLib.GlobalWorkerOptions.workerSrc = PDF_WORKER;
+  return window.pdfjsLib;
+}
+const openPdf = (lib, url) => lib.getDocument({ url, disableAutoFetch: true, disableStream: true, isEvalSupported: false }).promise;
+function initLibrary(main, r) {
+  if (!LIBRARY.data) { loadLibrary().then(() => { if (parseHash().name === 'library') route(); }); return; }
+  const pages = $('.pdf-pages', main);
+  if (pages) return openReader(main, pages);
+  // first-page pictures for files without a cover, two at a time, as they come into view
+  const queue = [], seen = new Set(); let busy = 0;
+  const pump = () => {
+    while (busy < 2 && queue.length) {
+      const a = queue.shift(); busy++;
+      thumbFor(a.dataset.pdf).then(src => { if (src && a.isConnected) a.innerHTML = `<img src="${src}" alt="">`; }).finally(() => { busy--; pump(); });
+    }
+  };
+  const obs = LIBRARY.thumbObs = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting || seen.has(e.target)) return;
+    seen.add(e.target); obs.unobserve(e.target);
+    const cached = LIBRARY.thumbs.get(e.target.dataset.pdf);
+    if (typeof cached === 'string') { if (cached) e.target.innerHTML = `<img src="${cached}" alt="">`; } else { queue.push(e.target); pump(); }
+  }), { rootMargin: '300px 0px' });
+  $$('.blk-file', main).filter(a => !a.querySelector('img')).forEach(a => obs.observe(a));
+}
+async function thumbFor(url) {
+  if (LIBRARY.thumbs.has(url)) return LIBRARY.thumbs.get(url);
+  const job = (async () => {
+    const lib = await pdfReady(); if (!lib) return '';
+    let doc;
+    try {
+      doc = await openPdf(lib, url);
+      const page = await doc.getPage(1), v0 = page.getViewport({ scale: 1 }), vp = page.getViewport({ scale: 420 / v0.width });
+      const cv = document.createElement('canvas'); cv.width = Math.round(vp.width); cv.height = Math.round(vp.height);
+      await page.render({ canvasContext: cv.getContext('2d'), viewport: vp }).promise;
+      return cv.toDataURL('image/jpeg', 0.82);
+    } catch (e) { console.warn('No preview for', url, e); return ''; }
+    finally { if (doc) doc.destroy(); }
+  })();
+  LIBRARY.thumbs.set(url, job);
+  const src = await job; LIBRARY.thumbs.set(url, src); return src;
+}
+async function openReader(main, box) {
+  const url = box.dataset.pdf, count = $('.pdf-count', main), zoomLabel = $('.pdf-zoom', main);
+  const bar = $('.pdf-bar', main), top = $('.topbar'); if (top && getComputedStyle(top).position === 'sticky') bar.style.top = top.offsetHeight + 'px';   // sit just under the site's own bar
+  const fallback = msg => { count.textContent = ''; box.innerHTML = `<p class="fr-empty">${msg}</p><iframe class="pdf-frame" src="${esc(url)}" title="PDF"></iframe>`; };
+  const lib = await pdfReady();
+  if (!box.isConnected) return;
+  if (!lib) return fallback('The page viewer didn’t load, so here is your browser’s own PDF viewer.');
+  let doc;
+  try { doc = await openPdf(lib, url); } catch (e) { return fallback(`This PDF couldn’t be opened here (${esc(e.message)}). Your browser’s viewer may manage it.`); }
+  if (!box.isConnected) { doc.destroy(); return; }
+  const ZOOMS = [0.5, 0.67, 0.8, 1, 1.25, 1.5, 2, 2.5];
+  const R = LIBRARY.reader = { doc, zoom: 3, obs: null, onScroll: null, tasks: new Map() };
+  const first = (await doc.getPage(1)).getViewport({ scale: 1 });
+  box.innerHTML = Array.from({ length: doc.numPages }, (_, k) => `<div class="pdf-page" data-n="${k + 1}" style="aspect-ratio:${first.width} / ${first.height}"></div>`).join('');
+  const pageEls = $$('.pdf-page', box);
+  const draw = async el => {
+    if (el.dataset.drawn === String(R.zoom)) return;
+    const z = el.dataset.drawn = String(R.zoom);
+    const page = await doc.getPage(+el.dataset.n); if (!el.isConnected || el.dataset.drawn !== z) return;
+    const v0 = page.getViewport({ scale: 1 }), dpr = Math.min(window.devicePixelRatio || 1, 2.5);
+    el.style.aspectRatio = `${v0.width} / ${v0.height}`;
+    const vp = page.getViewport({ scale: el.clientWidth * dpr / v0.width });
+    const cv = document.createElement('canvas'); cv.width = Math.round(vp.width); cv.height = Math.round(vp.height);
+    const task = page.render({ canvasContext: cv.getContext('2d'), viewport: vp }); R.tasks.set(el, task);
+    try { await task.promise; } catch (e) { return; } finally { if (R.tasks.get(el) === task) R.tasks.delete(el); }
+    if (el.dataset.drawn === z) el.replaceChildren(cv);
+  };
+  const clear = el => { const t = R.tasks.get(el); if (t) t.cancel(); delete el.dataset.drawn; el.replaceChildren(); };
+  R.obs = new IntersectionObserver(es => es.forEach(e => e.isIntersecting ? draw(e.target) : clear(e.target)), { rootMargin: '1200px 0px' });
+  pageEls.forEach(el => R.obs.observe(el));
+  const current = () => { const y = bar.getBoundingClientRect().bottom + 10; return pageEls.find(el => el.getBoundingClientRect().bottom > y) || pageEls[0]; };
+  const show = () => { count.textContent = `Page ${current().dataset.n} of ${doc.numPages}`; };
+  let frame = 0; R.onScroll = () => { cancelAnimationFrame(frame); frame = requestAnimationFrame(show); };
+  addEventListener('scroll', R.onScroll, { passive: true }); show();
+  const setZoom = z => {
+    const at = current(), off = at.getBoundingClientRect().top;
+    R.zoom = Math.max(0, Math.min(ZOOMS.length - 1, z));
+    box.style.setProperty('--pdf-zoom', ZOOMS[R.zoom]); zoomLabel.textContent = `${Math.round(ZOOMS[R.zoom] * 100)}%`;
+    pageEls.forEach(clear);
+    window.scrollBy(0, at.getBoundingClientRect().top - off);
+    const near = innerHeight + 1200;   // redraw what is on or near the screen; the observer handles the rest as the reader scrolls
+    pageEls.filter(el => { const r = el.getBoundingClientRect(); return r.bottom > -1200 && r.top < near; }).forEach(draw);
+  };
+  bar.addEventListener('click', e => { const b = e.target.closest('[data-zoom]'); if (b) setZoom(R.zoom + +b.dataset.zoom); });
+}
+function closeReader() {
+  if (LIBRARY.thumbObs) { LIBRARY.thumbObs.disconnect(); LIBRARY.thumbObs = null; }
+  const R = LIBRARY.reader; if (!R) return;
+  LIBRARY.reader = null;
+  if (R.obs) R.obs.disconnect();
+  if (R.onScroll) removeEventListener('scroll', R.onScroll);
+  R.tasks.forEach(t => t.cancel());
+  R.doc.destroy();
+}
+
 /* ---------------- routing ---------------- */
 function parseHash() {
   const raw = location.hash.replace(/^#\/?/, '');
@@ -807,12 +976,14 @@ function parseHash() {
   if (parts[0] === 's') return { name: 'section', sec: parts[1], sub: parts[2], sort: q.get('sort'), topic: q.get('topic'), q: q.get('q') };
   if (parts[0] === 'tags') return parts[1] ? { name: 'tag', tag: parts[1] } : { name: 'tags' };
   if (parts[0] === 'graph') return { name: 'graph', tag: q.get('tag'), only: q.get('only') };
+  if (parts[0] === 'library') return { name: 'library', channel: parts[1], file: parts[2], view: q.get('view'), sort: q.get('sort') };
   if (parts[0] === 'series') return parts[1] ? { name: 'series', key: parts[1] } : { name: 'serieslist' };
   return { name: 'note', id: parts[0].toUpperCase(), anchor: parts[1] };
 }
 let lastRoute = '';
 function route() {
   hidePopover();
+  closeReader();
   const r = parseHash(), main = $('#main');
   let html, title = S.config.title || 'Notes', navKey = r.name === 'index' ? 'index' : r.name.startsWith('tag') ? 'tags' : null;
   if (r.name === 'index') html = viewIndex();
@@ -825,6 +996,7 @@ function route() {
   else if (r.name === 'graph') { html = viewGraph(r); title = `Graph — ${title}`; navKey = 'graph'; }
   else if (r.name === 'series') { html = viewSeries(slug(r.key)); title = `Series — ${title}`; }
   else if (r.name === 'serieslist') { html = viewSeriesList(); title = `Series — ${title}`; }
+  else if (r.name === 'library') { const v = viewLibrary(r); html = v.html; title = `${v.title ? v.title + ' — ' : ''}Library — ${title}`; navKey = 'library'; }
   else {
     const n = S.byId.get(r.id) || S.byId.get(resolveTarget(r.id) || '');
     if (n && n.id !== r.id) { location.replace('#/' + n.id); return; }
@@ -834,6 +1006,7 @@ function route() {
   main.innerHTML = html;
   if (r.name === 'section') initBrowse(main, r.q);   // before restoring the scroll position, since filtering changes the page's length
   if (r.name === 'graph') initGraph(main);
+  if (r.name === 'library') initLibrary(main, r);
   document.title = title;
   $$('.nav a[data-nav]').forEach(a => a.dataset.nav === navKey ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
   const links = $('.nav-links'), cur = $('.nav a[aria-current="page"]');
@@ -885,7 +1058,7 @@ function buildShell() {
   document.body.innerHTML = `<a class="skip" href="#main">Skip to content</a>
   <header class="topbar"><a class="brand" href="#/"><span class="brand-title">${esc(c.title || 'Notes')}</span></a>
     <nav class="nav" aria-label="Main"><span class="nav-links"><a href="#/" data-nav="index">Index</a>${S.sections.map(s => `<a href="#/s/${s.id}" data-nav="${s.id}">${esc(s.shortName || s.name)}</a>`).join('')}
-    <a href="#/tags" data-nav="tags">Tags</a></span><button type="button" data-action="random" title="Open a random note">Random</button><button type="button" data-action="search">Search<kbd>/</kbd></button>
+    <a href="#/library" data-nav="library">Library</a><a href="#/tags" data-nav="tags">Tags</a></span><button type="button" data-action="random" title="Open a random note">Random</button><button type="button" data-action="search">Search<kbd>/</kbd></button>
     <button type="button" class="theme-btn" data-action="theme" aria-label="Switch colour theme" title="Switch colour theme"></button></nav></header>
   <main id="main" tabindex="-1"></main>
   <div class="popover" id="popover" hidden></div>`;
