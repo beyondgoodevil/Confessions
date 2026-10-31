@@ -976,7 +976,7 @@ function parseHash() {
   if (parts[0] === 's') return { name: 'section', sec: parts[1], sub: parts[2], sort: q.get('sort'), topic: q.get('topic'), q: q.get('q') };
   if (parts[0] === 'tags') return parts[1] ? { name: 'tag', tag: parts[1] } : { name: 'tags' };
   if (parts[0] === 'graph') return { name: 'graph', tag: q.get('tag'), only: q.get('only') };
-  if (parts[0] === 'library') return { name: 'library', channel: parts[1], file: parts[2], view: q.get('view'), sort: q.get('sort') };
+  if (parts[0] === 'library' && S.config.library) return { name: 'library', channel: parts[1], file: parts[2], view: q.get('view'), sort: q.get('sort') };
   if (parts[0] === 'series') return parts[1] ? { name: 'series', key: parts[1] } : { name: 'serieslist' };
   return { name: 'note', id: parts[0].toUpperCase(), anchor: parts[1] };
 }
@@ -1058,7 +1058,7 @@ function buildShell() {
   document.body.innerHTML = `<a class="skip" href="#main">Skip to content</a>
   <header class="topbar"><a class="brand" href="#/"><span class="brand-title">${esc(c.title || 'Notes')}</span></a>
     <nav class="nav" aria-label="Main"><span class="nav-links"><a href="#/" data-nav="index">Index</a>${S.sections.map(s => `<a href="#/s/${s.id}" data-nav="${s.id}">${esc(s.shortName || s.name)}</a>`).join('')}
-    <a href="#/library" data-nav="library">Library</a><a href="#/tags" data-nav="tags">Tags</a></span><button type="button" data-action="random" title="Open a random note">Random</button><button type="button" data-action="search">Search<kbd>/</kbd></button>
+    ${c.library ? '<a href="#/library" data-nav="library">Library</a>' : ''}<a href="#/tags" data-nav="tags">Tags</a></span><button type="button" data-action="random" title="Open a random note">Random</button><button type="button" data-action="search">Search<kbd>/</kbd></button>
     <button type="button" class="theme-btn" data-action="theme" aria-label="Switch colour theme" title="Switch colour theme"></button></nav></header>
   <main id="main" tabindex="-1"></main>
   <div class="popover" id="popover" hidden></div>`;

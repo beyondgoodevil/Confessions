@@ -20,6 +20,8 @@ Browsing is set in `config.json` too. `browse.shelves` puts topic tags under hea
 
 ## PDF library
 
+**Hidden for now:** the Library link and page only appear when `config.json` has `"library": true`. The code stays in place.
+
 `library/<Channel>/<file>.pdf` becomes the site's Library (`#/library`): each folder is a channel, shown Are.na-style as square blocks, and each PDF opens in a page-by-page reader (pdf.js) with Download and Open-in-new-tab buttons. Nested folders make channels named `A / B`; PDFs directly in `library/` go to "Unsorted". Names starting with `.` or `_` are kept off the site.
 
 - A file named `Author - Title (Year).pdf` gets its author, title and year from the name. Otherwise, or to add more, use `library/library.json`: `{"channels": {"Channel": {"description": "…"}}, "files": {"Channel/file.pdf": {"title": "…", "author": "…", "year": 1948, "description": "…", "note": "B-0003"}}}` (`note` adds a "My notes on it" link).
