@@ -12,6 +12,7 @@ The Torah is considered to have been written under **divine inspiration**. It in
 
 ## Related
 
+- [[The Demiurge in Ancient Thought, and Genesis as Timaeus: O'Brien and Gmirkin]]
 - [[Bible History]]
 - [[History of the Old Testament]]
 - [[NT Books Dates When Written]]

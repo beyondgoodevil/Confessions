@@ -66,6 +66,7 @@ Compare Hatab's Nietzsche, who starts from exactly the opposite assumption (no m
 
 ## Related
 
+- [[The Demiurge in Ancient Thought, and Genesis as Timaeus: O'Brien and Gmirkin]]
 - [[The Republic's Ideal City: The Noble Lie, Philosopher-Kings and the Guardians' Communism]]
 - [[Republic Book I: Cephalus, Polemarchus and Thrasymachus on Justice]]
 - [[Aletheia: Heidegger on Truth as Unconcealment]]

@@ -83,6 +83,7 @@ Diogenes Laertius on the Stoics: "the passive principle... is matter, whereas th
 
 ## Related
 
+- [[The Demiurge in Ancient Thought, and Genesis as Timaeus: O'Brien and Gmirkin]]
 - [[The Presocratics: Being and Becoming]]
 - [[Christian Platonism]]
 - [[The Logoi of Creation in St. Maximus]]
