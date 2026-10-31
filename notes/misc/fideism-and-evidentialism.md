@@ -58,6 +58,7 @@ Thus, Orthodoxy sees faith as a living relationship with God rather than a mere 
 
 ## Related
 
+- [[Keener's Miracles: Eyewitnesses, Analogy and the Gospel Accounts]]
 - [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[Hume Against Miracles, and the Replies]]
 - [[Fideism]]

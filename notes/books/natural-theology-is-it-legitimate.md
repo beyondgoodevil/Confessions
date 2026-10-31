@@ -138,6 +138,7 @@ The existing note [[Why Is the Transcendental Argument Prior to the Teleological
 
 ## Related
 
+- [[Keener's Miracles: Eyewitnesses, Analogy and the Gospel Accounts]]
 - [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[Bach's Metaphysics of Music: Luther, Leibniz and Spinoza]]
 - [[The Unmoved Mover]]

@@ -34,4 +34,5 @@ The account fits physics and chemistry well and biology less so. I'm also not co
 
 ## Related
 
+- [[Keener's Miracles: Eyewitnesses, Analogy and the Gospel Accounts]]
 - [[Science and Religion as Modern Categories: Harrison and Plantinga]]

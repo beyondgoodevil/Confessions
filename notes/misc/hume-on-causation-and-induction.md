@@ -95,6 +95,7 @@ Hume's own answer is **sceptical but practical**: we do it from **custom or habi
 
 ## Related
 
+- [[Keener's Miracles: Eyewitnesses, Analogy and the Gospel Accounts]]
 - [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[Hume Against Miracles, and the Replies]]
 - [[Malebranche: Occasionalism and Seeing All Things in God]]

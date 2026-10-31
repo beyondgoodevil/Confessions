@@ -94,6 +94,7 @@ Three defences:
 
 ## Related
 
+- [[Keener's Miracles: Eyewitnesses, Analogy and the Gospel Accounts]]
 - [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[Mysticism Does Not Contradict Evidentialism or Evidence]]
 - [[The Jesus Prayer and Hesychasm]]

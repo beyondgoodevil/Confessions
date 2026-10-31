@@ -136,6 +136,7 @@ Sullivan and Menssen's phrase for the options is whether Hume's essay is an "abj
 
 ## Related
 
+- [[Keener's Miracles: Eyewitnesses, Analogy and the Gospel Accounts]]
 - [[Hume Against Miracles, and the Replies]]
 - [[Natural Theology: Is It Legitimate]]
 - [[The Leibnizian Cosmological Argument]]
