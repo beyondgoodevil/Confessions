@@ -40,6 +40,7 @@ Thus, being made in the image of God means we have rationality, freedom, love, c
 
 ## Related
 
+- [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[Nous]]
 - [[2 Peter 1:3-4: Theosis]]
 - [[The Fall of Humanity and Its Consequences]]

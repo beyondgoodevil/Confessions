@@ -147,6 +147,7 @@ Malebranche's real target was concurrence, and Aquinas had already answered the 
 
 ## Related
 
+- [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[Hume Against Miracles, and the Replies]]
 - [[Hume on Causation and Induction]]
 - [[Descartes: The Cogito and Mind-Body Dualism]]

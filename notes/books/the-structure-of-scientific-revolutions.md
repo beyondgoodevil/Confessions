@@ -31,3 +31,7 @@ This is the backdrop to Hamming's advice in [[You and Your Research]]: "importan
 The account fits physics and chemistry well and biology less so. I'm also not convinced incommensurability is as total as Kuhn suggests; [[Lakatos' Research Programmes]] look like a better middle ground. (That link is dimmed because I haven't written the note yet.)
 
 [^paradigm]: Kuhn later admitted "paradigm" was overloaded. In the 1969 postscript he splits it into the *disciplinary matrix* and *exemplars*.
+
+## Related
+
+- [[Science and Religion as Modern Categories: Harrison and Plantinga]]

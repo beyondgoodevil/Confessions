@@ -94,6 +94,7 @@ Three defences:
 
 ## Related
 
+- [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[Mysticism Does Not Contradict Evidentialism or Evidence]]
 - [[The Jesus Prayer and Hesychasm]]
 - [[Nous]]

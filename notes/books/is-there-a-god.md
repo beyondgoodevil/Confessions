@@ -134,6 +134,7 @@ The short version of his big book *The Existence of God* (1979, 2004). Swinburne
 
 ## Related
 
+- [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[The Leibnizian Cosmological Argument]]
 - [[Natural Theology: Is It Legitimate]]
 - [[Religious Experience as Evidence]]

@@ -20,6 +20,7 @@ In summary, the underdetermination thesis in the context of evolution suggests t
 
 ## Related
 
+- [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[Evolution Can Be Understood as a Paradigm-Level Theory]]
 - [[What Is a Worldview or Paradigm]]
 - [[Critique of Empiricism]]

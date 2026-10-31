@@ -173,6 +173,7 @@ For full **Christian** belief (Trinity, Incarnation, Atonement), not just theism
 
 ## Related
 
+- [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[Religious Experience as Evidence]]
 - [[Nous]]
 - [[Critique of Empiricism]]

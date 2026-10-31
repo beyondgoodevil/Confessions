@@ -90,6 +90,7 @@ Whatever view of the mechanism:
 
 ## Related
 
+- [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[Evolution Can Be Understood as a Paradigm-Level Theory]]
 - [[The Underdetermination of Data Thesis in the Context of Evolution]]
 - [[Ancestral Sin vs Original Sin]]

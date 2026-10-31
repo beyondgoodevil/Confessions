@@ -115,6 +115,7 @@ Earman is not a Christian apologist, and he says so. His verdict: "Of Miracles" 
 
 ## Related
 
+- [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[Hume on Causation and Induction]]
 - [[Revelation and Miracles]]
 - [[The Case for the Resurrection of Jesus]]
