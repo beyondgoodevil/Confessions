@@ -191,6 +191,7 @@ In Book VII the philosophers must be compelled to go back down into the cave, an
 
 ## Related
 
+- [[Strauss's On Tyranny: Xenophon's Hiero and the Debate with Kojève]]
 - [[Republic Book I: Cephalus, Polemarchus and Thrasymachus on Justice]]
 - [[Plato's Quarrel With the Poets: Republic X Read Three Ways]]
 - [[The Good in Plato]]

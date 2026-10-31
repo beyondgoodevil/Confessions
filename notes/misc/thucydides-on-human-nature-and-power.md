@@ -161,6 +161,7 @@ In 416, in the middle of a nominal peace, Athens came to neutral Melos, a Sparta
 
 ## Related
 
+- [[Strauss's On Tyranny: Xenophon's Hiero and the Debate with Kojève]]
 - [[Nietzsche and the Greeks]]
 - [[Orthodox Political Theology: Symphonia, Autocracy or Democracy?]]
 - [[The Modern Break: Machiavelli and Hobbes]]

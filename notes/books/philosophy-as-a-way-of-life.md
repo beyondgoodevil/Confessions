@@ -127,6 +127,7 @@ The most important chapter for this site.
 
 ## Related
 
+- [[Strauss's On Tyranny: Xenophon's Hiero and the Debate with Kojève]]
 - [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[The Ladder of Divine Ascent]]
 - [[The Jesus Prayer and Hesychasm]]
