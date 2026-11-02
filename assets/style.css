@@ -631,3 +631,26 @@ svg.graph-mini{height:clamp(16rem,48vw,26rem);cursor:default}
 .pdf-page{width:calc(min(100%, 52rem) * var(--pdf-zoom));flex:none;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.2)}
 .pdf-page canvas{display:block;width:100%;height:auto}
 .pdf-frame{width:100%;height:85vh;border:1px solid var(--rule)}
+
+/* ===== reading progress, resume offer, search filters and highlights ===== */
+.read-progress{position:absolute;left:0;right:0;bottom:-1px;height:2px;overflow:hidden;pointer-events:none}
+.read-progress span{display:block;height:100%;background:var(--accent);transform-origin:0 50%;transform:scaleX(0);transition:transform .1s linear}
+.read-progress[hidden]{display:none}
+.resume,.hl-bar{position:fixed;left:50%;bottom:1.2rem;z-index:70;display:flex;align-items:center;gap:.6rem;max-width:calc(100vw - 2rem);box-sizing:border-box;padding:.45rem .55rem .45rem 1rem;border:1px solid var(--rule);border-radius:99px;background:var(--paper);color:var(--ink);box-shadow:var(--shadow);font-family:var(--font-ui);font-size:.92rem}
+.resume{transform:translate(-50%,1rem);opacity:0;transition:opacity .25s,transform .25s}
+.resume.is-on{transform:translate(-50%,0);opacity:1}
+.hl-bar{transform:translateX(-50%)}
+.resume span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.resume button,.hl-bar button{font:inherit;border:1px solid var(--rule);border-radius:99px;background:var(--bg);color:var(--ink);padding:.15rem .7rem;cursor:pointer;white-space:nowrap}
+.resume button[data-go]{border-color:var(--accent);color:var(--accent)}
+.resume button:hover,.hl-bar button:hover{border-color:var(--accent)}
+.hl-count{color:var(--ink-2);min-width:4.5em}
+mark.hl{background:var(--mark);color:inherit;border-radius:2px;padding:0 .05em}
+mark.hl.is-cur{outline:2px solid var(--accent);outline-offset:1px}
+.s-chips{display:flex;flex-wrap:wrap;gap:.35rem;margin:.6rem 1.25rem 0}
+.s-chip{font:inherit;font-size:.85em;border:1px solid var(--rule);border-radius:99px;background:none;color:var(--ink-2);padding:.1rem .65rem;cursor:pointer}
+.s-chip[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.s-help{margin:.45rem 1.25rem 0;color:var(--muted);font-size:.8em}
+.s-help code{font-size:.95em;margin:0 .15em}
+.r-head{margin:.1rem 0 0;color:var(--accent);font-size:.85em}
+@media print{.read-progress,.resume,.hl-bar{display:none!important}}

@@ -682,7 +682,7 @@ function viewNote(n) {
       <h1 class="note-title">${esc(n.title)}</h1>
       ${cite ? `<p class="cite">${cite}</p>` : ''}
       ${url ? `<p class="source-link"><a class="external" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(str(f.urlLabel) || 'Source')}</a></p>` : ''}
-      ${n.updated ? `<p class="note-updated">Updated ${fmtDate(n.updated)}</p>` : ''}
+      <p class="note-updated">${n.updated ? `Updated ${fmtDate(n.updated)} · ` : ''}${readMinutes(n)} min read</p>
       ${tags ? `<p class="note-tags">${tags}</p>` : ''}
       ${series}
     </header>
@@ -978,7 +978,7 @@ function parseHash() {
   if (parts[0] === 'graph') return { name: 'graph', tag: q.get('tag'), only: q.get('only') };
   if (parts[0] === 'library' && S.config.library) return { name: 'library', channel: parts[1], file: parts[2], view: q.get('view'), sort: q.get('sort') };
   if (parts[0] === 'series') return parts[1] ? { name: 'series', key: parts[1] } : { name: 'serieslist' };
-  return { name: 'note', id: parts[0].toUpperCase(), anchor: parts[1] };
+  return { name: 'note', id: parts[0].toUpperCase(), anchor: parts[1], hl: q.get('hl') };
 }
 let lastRoute = '';
 function route() {
@@ -1017,7 +1017,10 @@ function route() {
   if (saved != null) window.scrollTo(0, saved);   // Back, Forward or reload: return to where the reader was
   else { if (key !== lastRoute) window.scrollTo(0, 0); if (r.anchor) scrollToAnchor(r.anchor); }
   lastRoute = key;
-  enhance(main).then(markTocCurrent);
+  { const hb = $('.hl-bar'), rs = $('.resume'); if (hb) hb.remove(); if (rs) rs.remove(); }
+  updateProgress();
+  if (r.name === 'note' && saved == null && !r.anchor && !r.hl) { const a = $('article.note', main); if (a) offerResume(a.dataset.id); }
+  enhance(main).then(() => { markTocCurrent(); updateProgress(); if (r.name === 'note' && r.hl) highlightIn(main, r.hl); });
   markTocCurrent();
 }
 // Each history entry gets a key in history.state; its last scroll position is kept for the session.
@@ -1059,7 +1062,7 @@ function buildShell() {
   <header class="topbar"><a class="brand" href="#/"><span class="brand-title">${esc(c.title || 'Notes')}</span></a>
     <nav class="nav" aria-label="Main"><span class="nav-links"><a href="#/" data-nav="index">Index</a>${S.sections.map(s => `<a href="#/s/${s.id}" data-nav="${s.id}">${esc(s.shortName || s.name)}</a>`).join('')}
     ${c.library ? '<a href="#/library" data-nav="library">Library</a>' : ''}<a href="#/tags" data-nav="tags">Tags</a></span><button type="button" data-action="random" title="Open a random note">Random</button><button type="button" data-action="search">Search<kbd>/</kbd></button>
-    <button type="button" class="theme-btn" data-action="theme" aria-label="Switch colour theme" title="Switch colour theme"></button></nav></header>
+    <button type="button" class="theme-btn" data-action="theme" aria-label="Switch colour theme" title="Switch colour theme"></button></nav><div class="read-progress" hidden aria-hidden="true"><span></span></div></header>
   <main id="main" tabindex="-1"></main>
   <div class="popover" id="popover" hidden></div>`;
   updateThemeButton();
@@ -1093,40 +1096,54 @@ function markTerms(text, terms) {
   for (const [a, b] of spans) { if (a < last) continue; out += esc(text.slice(last, a)) + `<mark>${esc(text.slice(a, b))}</mark>`; last = b; }
   return out + esc(text.slice(last));
 }
-function search(q) {
-  const terms = fold(q).split(/\s+/).filter(Boolean);
-  if (!terms.length) return [...S.notes].sort((a, b) => time(b.updated) - time(a.updated) || newest(a, b)).slice(0, 8).map(n => ({ n, snip: '' }));
+function search(q, secs = []) {
+  const Q = parseQuery(q), terms = Q.terms, keys = [...Q.secs, ...secs];
+  const pool = S.notes.filter(n => secMatches(n, keys) && Q.tags.every(t => n.tags.some(x => fold(x).startsWith(t))));
+  const filtering = keys.length || Q.tags.length;
+  if (!terms.length) {
+    const ns = Q.not.length ? pool.filter(n => { const F = folded(n); return !Q.not.some(t => F.title.includes(t) || F.meta.includes(t) || F.body.includes(t)); }) : pool;
+    return [...ns].sort((a, b) => time(b.updated) - time(a.updated) || newest(a, b)).slice(0, filtering || Q.not.length ? 40 : 8).map(n => ({ n, snip: '' }));
+  }
   const res = [], whole = fold(q.trim());
-  for (const n of S.notes) {
+  for (const n of pool) {
     const F = folded(n), body = plainText(n);
+    if (Q.not.some(t => F.title.includes(t) || F.meta.includes(t) || F.body.includes(t))) continue;
     let score = 0, ok = true;
-    for (const t of terms) { if (F.title.includes(t)) score += 10; else if (F.meta.includes(t)) score += 5; else if (F.body.includes(t)) score += 1; else { ok = false; break; } }
+    for (const t of terms) { if (F.title.includes(t)) score += 10; else if (F.meta.includes(t)) score += 5; else if (F.body.includes(t)) score += t.includes(' ') ? 3 : 1; else { ok = false; break; } }
     if (!ok) continue;
     if (F.title.startsWith(whole)) score += 20;
-    const at = F.body.indexOf(terms[0]);
+    const t0 = terms.find(t => F.body.includes(t)), at = t0 ? F.body.indexOf(t0) : -1;
     const snip = at < 0 ? markTerms(n.summary || body.slice(0, 140), terms) : (at > 60 ? '…' : '') + markTerms(body.slice(Math.max(0, at - 60), at + 110), terms) + '…';
-    res.push({ n, snip, score });
+    res.push({ n, snip, score, head: t0 ? headingBefore(n, t0) : '' });
   }
-  return res.sort((a, b) => b.score - a.score).slice(0, 20);
+  return res.sort((a, b) => b.score - a.score).slice(0, 30);
 }
 function openSearch() {
   if ($('.overlay')) return;
   const prev = document.activeElement;
   const ov = document.createElement('div'); ov.className = 'overlay';
+  const chips = S.sections.map(s => `<button type="button" class="s-chip" data-sec="${esc(s.id)}" aria-pressed="false">${esc(s.shortName || s.name)}</button>`).join('');
   ov.innerHTML = `<div class="dialog search-dialog" role="dialog" aria-modal="true" aria-label="Search notes">
     <input class="search-input" type="search" placeholder="Search titles, tags, sources and text" aria-label="Search" autocomplete="off">
+    <div class="s-chips" role="group" aria-label="Only in">${chips}</div>
+    <p class="s-help">Use <code>"exact phrase"</code>, <code>-leave-out</code>, <code>tag:plato</code>, <code>in:books</code>.</p>
     <p class="results-label">Newest</p><ul class="results" role="listbox"></ul></div>`;
   document.body.append(ov);
-  const input = $('input', ov), ul = $('.results', ov), label = $('.results-label', ov);
+  const input = $('input', ov), ul = $('.results', ov), label = $('.results-label', ov), secs = new Set();
   let items = [], sel = 0;
   const draw = () => {
-    items = search(input.value.trim()); sel = 0;
-    label.textContent = input.value.trim() ? `${plural(items.length, 'result', 'results')}` : 'Newest';
-    ul.innerHTML = items.length ? items.map((r, i) => `<li role="option" data-i="${i}" aria-selected="${i === sel}"><div class="r-title"><span class="r-addr">${r.n.id}</span>${esc(r.n.title)}</div>${r.snip ? `<p class="r-snip">${r.snip}</p>` : ''}</li>`).join('') : '<li class="r-empty">Nothing matches. Try fewer words.</li>';
+    const q = input.value.trim();
+    items = search(q, [...secs].map(fold)); sel = 0;
+    label.textContent = q || secs.size ? `${plural(items.length, 'result', 'results')}${items.length === 30 || items.length === 40 ? ' (showing the first)' : ''}` : 'Newest';
+    ul.innerHTML = items.length ? items.map((r, i) => `<li role="option" data-i="${i}" aria-selected="${i === sel}"><div class="r-title"><span class="r-addr">${r.n.id}</span>${esc(r.n.title)}</div>${r.head ? `<p class="r-head">§ ${esc(r.head)}</p>` : ''}${r.snip ? `<p class="r-snip">${r.snip}</p>` : ''}</li>`).join('') : '<li class="r-empty">Nothing matches. Try fewer words or another section.</li>';
   };
   const mark = () => $$('li[data-i]', ul).forEach((li, i) => { li.setAttribute('aria-selected', i === sel); if (i === sel) li.scrollIntoView({ block: 'nearest' }); });
   const close = () => { ov.remove(); if (prev && prev.focus) prev.focus(); };
-  const open = i => { const r = items[i]; if (!r) return; close(); location.hash = '#/' + r.n.id; };
+  const open = i => {
+    const r = items[i]; if (!r) return;
+    const hl = parseQuery(input.value).terms.join('|');
+    close(); location.hash = '#/' + r.n.id + (hl ? '?hl=' + encodeURIComponent(hl) : '');
+  };
   input.addEventListener('input', draw);
   input.addEventListener('keydown', e => {
     if (e.key === 'ArrowDown') { sel = Math.min(items.length - 1, sel + 1); mark(); e.preventDefault(); }
@@ -1134,7 +1151,11 @@ function openSearch() {
     else if (e.key === 'Enter') open(sel);
   });
   ov.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
-  ov.addEventListener('click', e => { const li = e.target.closest('li[data-i]'); if (li) open(+li.dataset.i); else if (e.target === ov) close(); });
+  ov.addEventListener('click', e => {
+    const c = e.target.closest('.s-chip');
+    if (c) { const on = !secs.has(c.dataset.sec); on ? secs.add(c.dataset.sec) : secs.delete(c.dataset.sec); c.setAttribute('aria-pressed', on); draw(); input.focus(); return; }
+    const li = e.target.closest('li[data-i]'); if (li) open(+li.dataset.i); else if (e.target === ov) close();
+  });
   draw(); input.focus();
 }
 
@@ -1179,6 +1200,116 @@ function copyMath(container) {
 function toast(msg) {
   let t = $('#toast'); if (!t) { t = document.createElement('div'); t.id = 'toast'; t.setAttribute('role', 'status'); document.body.append(t); }
   t.textContent = msg; t.classList.add('is-on'); clearTimeout(toast.timer); toast.timer = setTimeout(() => t.classList.remove('is-on'), 1400);
+}
+
+/* ---------------- reading progress, resuming, and search highlights ---------------- */
+// minutes to read, at about 230 words a minute
+const readMinutes = n => Math.max(1, Math.round(plainText(n).split(/\s+/).filter(Boolean).length / 230));
+// The thin bar under the menu shows how far through the note body the reader is.
+function updateProgress() {
+  const bar = $('.read-progress'); if (!bar) return;
+  const body = $('#main .note-body');
+  if (!body) { bar.hidden = true; return; }
+  const top = body.getBoundingClientRect().top + scrollY, end = top + body.offsetHeight - innerHeight;
+  const p = end <= top ? 1 : Math.min(1, Math.max(0, (scrollY - top) / (end - top)));
+  bar.hidden = false; bar.firstElementChild.style.transform = `scaleX(${p})`;
+}
+// Where each note was left: the heading being read and how far through the body, kept in this browser.
+const PLACE_STORE = 'cp-place';
+const places = (() => { try { return JSON.parse(localStorage.getItem(PLACE_STORE)) || {}; } catch (e) { return {}; } })();
+let placeTimer = 0;
+function currentHeading(body) {
+  let cur = null;
+  for (const h of $$('[data-anchor]', body)) { if (h.getBoundingClientRect().top < 140) cur = h; else break; }
+  return cur;
+}
+function savePlace() {
+  const art = $('#main article.note'), body = art && $('.note-body', art); if (!body) return;
+  clearTimeout(placeTimer);
+  placeTimer = setTimeout(() => {
+    if (!body.isConnected) return;
+    const id = art.dataset.id, top = body.getBoundingClientRect().top + scrollY, f = (scrollY - top) / Math.max(1, body.offsetHeight - innerHeight);
+    if (f > 0.97 || f < 0.05) delete places[id];   // finished, or barely started: nothing to come back to
+    else { const h = currentHeading(body); places[id] = { f: +f.toFixed(4), a: h ? h.dataset.anchor : '', h: h ? h.textContent.trim().slice(0, 80) : '', t: Date.now() }; }
+    const keys = Object.keys(places).sort((a, b) => places[b].t - places[a].t); keys.slice(150).forEach(k => delete places[k]);
+    try { localStorage.setItem(PLACE_STORE, JSON.stringify(places)); } catch (e) {}
+  }, 400);
+}
+function offerResume(id) {
+  const old = $('.resume'); if (old) old.remove();
+  const p = places[id]; if (!p) return;
+  const el = document.createElement('div'); el.className = 'resume'; el.setAttribute('role', 'status');
+  el.innerHTML = `<span>Continue where you left off${p.h ? `: <em>${esc(p.h)}</em>` : ''}?</span><button type="button" data-go>Jump there</button><button type="button" data-x aria-label="Dismiss">×</button>`;
+  document.body.append(el);
+  const close = () => { el.classList.remove('is-on'); setTimeout(() => el.remove(), 250); };
+  el.addEventListener('click', e => {
+    if (e.target.closest('[data-x]')) return close();
+    if (!e.target.closest('[data-go]')) return;
+    close();
+    const body = $('#main .note-body'); if (!body) return;
+    const h = p.a && $(`[data-anchor="${CSS.escape(p.a)}"]`, body);
+    if (h) h.scrollIntoView({ block: 'start' });
+    else { const top = body.getBoundingClientRect().top + scrollY; window.scrollTo(0, top + p.f * (body.offsetHeight - innerHeight)); }
+  });
+  requestAnimationFrame(() => el.classList.add('is-on'));
+  setTimeout(() => { if (el.isConnected && scrollY > 400) close(); }, 12000);
+}
+// Search syntax: words (all must match), "exact phrases", -excluded, tag:name, in:section (books, misc, lectures…).
+function parseQuery(q) {
+  const out = { terms: [], not: [], tags: [], secs: [] };
+  for (const m of String(q).matchAll(/(-?)(?:(tag|in):)?(?:"([^"]+)"?|(\S+))/gi)) {
+    const neg = m[1] === '-', kind = (m[2] || '').toLowerCase(), v = fold((m[3] ?? m[4] ?? '').trim());
+    if (!v) continue;
+    if (kind === 'tag') out.tags.push(v.replace(/^#/, ''));
+    else if (kind === 'in') out.secs.push(v);
+    else (neg ? out.not : out.terms).push(v);
+  }
+  return out;
+}
+const secMatches = (n, keys) => !keys.length || keys.some(k => [n.section.id, n.section.name, n.sub && n.sub.id, n.sub && n.sub.name].filter(Boolean).some(x => fold(x).startsWith(k)));
+// the heading a passage of the body falls under, for "in § …" in the results
+function headingBefore(n, term) {
+  if (!n._heads) { n._heads = []; const re = /^#{2,4}[ \t]+(.+?)\s*$/gm; let m; const fb = fold(n.body); while ((m = re.exec(n.body))) n._heads.push([m.index, m[1].replace(/[*_`]/g, '')]); n._foldBody = fb; }
+  const at = n._foldBody.indexOf(term); if (at < 0) return '';
+  let h = ''; for (const [i, t] of n._heads) { if (i <= at) h = t; else break; }
+  return h;
+}
+// Mark every match of the terms inside a note body, and offer to step through them.
+function highlightIn(main, hl) {
+  const body = $('.note-body', main); if (!body) return;
+  const terms = hl.split('|').map(fold).filter(t => t.length > 1);
+  if (!terms.length) return;
+  const walker = document.createTreeWalker(body, NodeFilter.SHOW_TEXT, { acceptNode: t => t.parentElement.closest('mjx-container, code, pre, script, style, .katex, svg') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+  const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
+  const marks = [];
+  for (const node of nodes) {
+    const text = node.nodeValue; let f = '', map = [];
+    for (let i = 0; i < text.length; i++) { const c = fold(text[i]); for (let j = 0; j < c.length; j++) { f += c[j]; map.push(i); } }
+    map.push(text.length);
+    const spans = [];
+    for (const t of terms) for (let i = f.indexOf(t); i >= 0; i = f.indexOf(t, i + t.length)) spans.push([map[i], map[i + t.length]]);
+    if (!spans.length) continue;
+    spans.sort((a, b) => a[0] - b[0]);
+    const frag = document.createDocumentFragment(); let last = 0;
+    for (const [a, b] of spans) {
+      if (a < last) continue;
+      frag.append(text.slice(last, a));
+      const m = document.createElement('mark'); m.className = 'hl'; m.textContent = text.slice(a, b); frag.append(m); marks.push(m); last = b;
+    }
+    frag.append(text.slice(last)); node.replaceWith(frag);
+  }
+  const old = $('.hl-bar'); if (old) old.remove();
+  if (!marks.length) return;
+  let i = 0;
+  const bar = document.createElement('div'); bar.className = 'hl-bar';
+  bar.innerHTML = `<span class="hl-count"></span><button type="button" data-step="-1" aria-label="Previous match">↑</button><button type="button" data-step="1" aria-label="Next match">↓</button><button type="button" data-clear aria-label="Clear highlights">×</button>`;
+  document.body.append(bar);
+  const go = k => { marks[i].classList.remove('is-cur'); i = (k + marks.length) % marks.length; marks[i].classList.add('is-cur'); marks[i].scrollIntoView({ block: 'center' }); $('.hl-count', bar).textContent = `${i + 1} of ${marks.length}`; };
+  bar.addEventListener('click', e => {
+    const s = e.target.closest('[data-step]'); if (s) return go(i + +s.dataset.step);
+    if (e.target.closest('[data-clear]')) { marks.forEach(m => m.replaceWith(m.textContent)); body.normalize(); bar.remove(); }
+  });
+  go(0);
 }
 
 /* ---------------- events ---------------- */
@@ -1238,7 +1369,8 @@ function bindEvents() {
     const m = e.target.closest('mjx-container');
     if (m && copyMath(m)) { const sel = getSelection(); if (sel) sel.removeAllRanges(); }
   });
-  addEventListener('scroll', () => { hidePopover(); hideEqTip(); rememberScroll(); markTocCurrent(); }, { passive: true });
+  addEventListener('scroll', () => { hidePopover(); hideEqTip(); rememberScroll(); markTocCurrent(); updateProgress(); savePlace(); }, { passive: true });
+  addEventListener('resize', updateProgress, { passive: true });
   addEventListener('resize', markTocCurrent, { passive: true });
 }
 
