@@ -683,6 +683,7 @@ function viewNote(n) {
       ${cite ? `<p class="cite">${cite}</p>` : ''}
       ${url ? `<p class="source-link"><a class="external" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(str(f.urlLabel) || 'Source')}</a></p>` : ''}
       <p class="note-updated">${n.updated ? `Updated ${fmtDate(n.updated)} · ` : ''}${readMinutes(n)} min read</p>
+      <p class="note-tools"><button type="button" class="linklike" data-action="copy-link">Copy link</button><span aria-hidden="true"> · </span><button type="button" class="linklike" data-action="cite">Cite this note</button></p>
       ${tags ? `<p class="note-tags">${tags}</p>` : ''}
       ${series}
     </header>
@@ -1019,6 +1020,8 @@ function route() {
   lastRoute = key;
   { const hb = $('.hl-bar'), rs = $('.resume'); if (hb) hb.remove(); if (rs) rs.remove(); }
   updateProgress();
+  if (quoteBtn) quoteBtn.hidden = true;
+  if (r.name === 'note') addHeadingLinks(main);
   if (r.name === 'note' && saved == null && !r.anchor && !r.hl) { const a = $('article.note', main); if (a) offerResume(a.dataset.id); }
   enhance(main).then(() => { markTocCurrent(); updateProgress(); if (r.name === 'note' && r.hl) highlightIn(main, r.hl); });
   markTocCurrent();
@@ -1230,7 +1233,7 @@ function savePlace() {
     if (!body.isConnected) return;
     const id = art.dataset.id, top = body.getBoundingClientRect().top + scrollY, f = (scrollY - top) / Math.max(1, body.offsetHeight - innerHeight);
     if (f > 0.97 || f < 0.05) delete places[id];   // finished, or barely started: nothing to come back to
-    else { const h = currentHeading(body); places[id] = { f: +f.toFixed(4), a: h ? h.dataset.anchor : '', h: h ? h.textContent.trim().slice(0, 80) : '', t: Date.now() }; }
+    else { const h = currentHeading(body); places[id] = { f: +f.toFixed(4), a: h ? h.dataset.anchor : '', h: h ? h.textContent.replace(/#$/, '').trim().slice(0, 80) : '', t: Date.now() }; }
     const keys = Object.keys(places).sort((a, b) => places[b].t - places[a].t); keys.slice(150).forEach(k => delete places[k]);
     try { localStorage.setItem(PLACE_STORE, JSON.stringify(places)); } catch (e) {}
   }, 400);
@@ -1299,7 +1302,12 @@ function highlightIn(main, hl) {
     frag.append(text.slice(last)); node.replaceWith(frag);
   }
   const old = $('.hl-bar'); if (old) old.remove();
-  if (!marks.length) return;
+  if (!marks.length) {
+    // a quoted passage may run across italics or links: try a shorter opening of it
+    const words = terms.length === 1 ? terms[0].split(' ') : [];
+    if (words.length > 4) return highlightIn(main, words.slice(0, Math.max(4, Math.floor(words.length / 2))).join(' '));
+    return;
+  }
   let i = 0;
   const bar = document.createElement('div'); bar.className = 'hl-bar';
   bar.innerHTML = `<span class="hl-count"></span><button type="button" data-step="-1" aria-label="Previous match">↑</button><button type="button" data-step="1" aria-label="Next match">↓</button><button type="button" data-clear aria-label="Clear highlights">×</button>`;
@@ -1312,6 +1320,89 @@ function highlightIn(main, hl) {
   go(0);
 }
 
+/* ---------------- links to headings and quotes, and citations ---------------- */
+// On the published site each note has a share page at /<ID>/ (with a preview card) that forwards into the notebook,
+// keeping whatever follows its "#": /M-0410/#heading opens that heading, /M-0410/#?hl=… highlights a passage.
+const isLocal = /^(localhost|127\.|\[::1\])/.test(location.hostname) || location.protocol === 'file:';
+const siteBase = () => location.origin + location.pathname.replace(/[^/]*$/, '');
+function shareUrl(id, { anchor = '', quote = '' } = {}) {
+  if (isLocal) return `${siteBase()}#/${id}${anchor ? '/' + anchor : ''}${quote ? '?hl=' + encodeURIComponent(quote) : ''}`;
+  return `${siteBase()}${id}/${anchor ? '#' + anchor : quote ? '#?hl=' + encodeURIComponent(quote) : ''}`;
+}
+function copyText(text, msg) {
+  const done = () => toast(msg);
+  if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(text).then(done, () => fallbackCopy(text, done));
+  fallbackCopy(text, done);
+}
+function fallbackCopy(text, done) {
+  const t = document.createElement('textarea'); t.value = text; t.style.cssText = 'position:fixed;opacity:0';
+  document.body.append(t); t.select(); try { document.execCommand('copy'); done(); } catch (e) { prompt('Copy this link:', text); } t.remove();
+}
+// a small link mark beside each heading of the note being read
+function addHeadingLinks(main) {
+  const art = $('article.note', main); if (!art) return;
+  for (const h of $$('.note-body [data-anchor]', art)) {
+    if (h.classList.contains('h-plain') || h.querySelector('.h-link')) continue;
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'h-link'; b.dataset.action = 'copy-heading';
+    b.title = 'Copy a link to this section'; b.setAttribute('aria-label', `Copy a link to “${h.textContent.trim()}”`); b.textContent = '#';
+    h.append(b);
+  }
+}
+// select some text in a note and a button offers a link straight to that passage
+let quoteBtn = null, quoteTimer = 0;
+function onSelection() {
+  clearTimeout(quoteTimer);
+  quoteTimer = setTimeout(() => {
+    const sel = getSelection(), text = sel && sel.toString().replace(/\s+/g, ' ').trim();
+    const body = $('#main article.note .note-body');
+    const inside = body && sel.rangeCount && body.contains(sel.getRangeAt(0).commonAncestorContainer);
+    if (!text || text.length < 4 || text.length > 400 || !inside) { if (quoteBtn) quoteBtn.hidden = true; return; }
+    if (!quoteBtn) {
+      quoteBtn = document.createElement('button'); quoteBtn.type = 'button'; quoteBtn.className = 'quote-btn'; quoteBtn.dataset.action = 'copy-quote';
+      quoteBtn.textContent = 'Copy link to this passage';
+      quoteBtn.addEventListener('mousedown', e => e.preventDefault());   // keep the selection while clicking
+      document.body.append(quoteBtn);
+    }
+    const r = sel.getRangeAt(0).getBoundingClientRect();
+    quoteBtn.hidden = false;
+    const w = quoteBtn.offsetWidth, top = r.top - quoteBtn.offsetHeight - 8 < 60 ? r.bottom + 8 : r.top - quoteBtn.offsetHeight - 8;
+    quoteBtn.style.top = `${top + scrollY}px`; quoteBtn.style.left = `${Math.min(Math.max(8, r.left + r.width / 2 - w / 2), innerWidth - w - 8)}px`;
+  }, 180);
+}
+function copyQuoteLink() {
+  const art = $('#main article.note'); if (!art) return;
+  const text = getSelection().toString().replace(/\s+/g, ' ').trim().slice(0, 300);
+  if (text) copyText(shareUrl(art.dataset.id, { quote: text }), 'Link to the passage copied');
+  if (quoteBtn) quoteBtn.hidden = true;
+}
+// "Cite": the note as a reference, a BibTeX entry and a Markdown link
+function citeFormats(n) {
+  const site = S.config.title || 'Notes', author = str(S.config.author), url = shareUrl(n.id);
+  const d = n.updated || n.created, when = d ? fmtDate(d) : '', year = d ? d.getUTCFullYear() : '', today = fmtDate(new Date());
+  const plain = `${author ? author + '. ' : ''}“${n.title}.” ${site}, ${n.id}${when ? `. Last updated ${when}` : ''}. ${url} (accessed ${today}).`;
+  const key = `${slug(site).replace(/-/g, '')}${n.id.replace('-', '').toLowerCase()}`, br = s => String(s).replace(/[{}]/g, '');
+  const bib = `@misc{${key},\n  title = {{${br(n.title)}}},\n${author ? `  author = {${br(author)}},\n` : ''}  howpublished = {\\url{${url}}},\n  note = {${br(site)}, ${n.id}${when ? `; last updated ${when}` : ''}; accessed ${today}},\n  year = {${year}}\n}`;
+  const md = `[${n.title} (${n.id})](${url})`;
+  return [['Reference', plain], ['BibTeX', bib], ['Markdown link', md]];
+}
+function openCite(n) {
+  if ($('.overlay')) return;
+  const prev = document.activeElement, ov = document.createElement('div'); ov.className = 'overlay';
+  const formats = citeFormats(n);
+  ov.innerHTML = `<div class="dialog cite-dialog" role="dialog" aria-modal="true" aria-label="Cite this note">
+    <p class="cite-head">Cite <em>${esc(n.title)}</em></p>
+    ${formats.map(([name, text], i) => `<div class="cite-row"><div class="cite-label"><span>${name}</span><button type="button" data-copy="${i}">Copy</button></div><pre class="cite-text">${esc(text)}</pre></div>`).join('')}
+    <p class="cite-foot"><button type="button" data-close>Close</button></p></div>`;
+  document.body.append(ov);
+  const close = () => { ov.remove(); if (prev && prev.focus) prev.focus(); };
+  ov.addEventListener('click', e => {
+    const c = e.target.closest('[data-copy]'); if (c) return copyText(formats[+c.dataset.copy][1], `${formats[+c.dataset.copy][0]} copied`);
+    if (e.target.closest('[data-close]') || e.target === ov) close();
+  });
+  ov.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+  $('[data-copy]', ov).focus();
+}
+
 /* ---------------- events ---------------- */
 function bindEvents() {
   document.addEventListener('click', e => {
@@ -1322,6 +1413,10 @@ function bindEvents() {
         const here = parseHash().id, pool = S.notes.filter(n => n.id !== here && !(n.section && n.section.index === false));
         if (pool.length) location.hash = '#/' + pool[Math.floor(Math.random() * pool.length)].id;
       }
+      if (act.dataset.action === 'copy-heading') { const h = act.closest('[data-anchor]'), art = act.closest('article.note'); if (h && art) copyText(shareUrl(art.dataset.id, { anchor: h.dataset.anchor }), 'Link to the section copied'); }
+      if (act.dataset.action === 'copy-link') { const art = $('#main article.note'); if (art) copyText(shareUrl(art.dataset.id), 'Link copied'); }
+      if (act.dataset.action === 'cite') { const art = $('#main article.note'), n = art && S.byId.get(art.dataset.id); if (n) openCite(n); }
+      if (act.dataset.action === 'copy-quote') copyQuoteLink();
       if (act.dataset.action === 'theme') { const t = THEMES[(THEMES.indexOf(currentTheme()) + 1) % 3]; try { localStorage.setItem('theme', t); } catch (x) {} applyTheme(t); updateThemeButton(); }
       return;
     }
@@ -1371,6 +1466,7 @@ function bindEvents() {
   });
   addEventListener('scroll', () => { hidePopover(); hideEqTip(); rememberScroll(); markTocCurrent(); updateProgress(); savePlace(); }, { passive: true });
   addEventListener('resize', updateProgress, { passive: true });
+  document.addEventListener('selectionchange', onSelection);
   addEventListener('resize', markTocCurrent, { passive: true });
 }
 

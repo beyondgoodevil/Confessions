@@ -10,6 +10,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { pathToFileURL } from 'node:url';
 import { ROOT, NOTE_EXT, MEDIA_EXT, walk, gitDates, rel, loadConfig, readFrontMatter } from './lib.mjs';
+import { canDrawCards, drawCard } from './og.mjs';
 // (walk skips names starting with "." or "_", so library/_drafts/ stays unpublished)
 export { ROOT };
 
@@ -89,7 +90,7 @@ function describe(n) {
 }
 
 // a link preview and a forward into the site, for each entry
-function sharePage(e, site, base) {
+function sharePage(e, site, base, card) {
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -99,7 +100,11 @@ function sharePage(e, site, base) {
 ${e.summary ? `<meta name="description" content="${esc(e.summary)}">\n` : ''}<meta property="og:type" content="article">
 <meta property="og:site_name" content="${esc(site)}">
 <meta property="og:title" content="${esc(e.title)}">
-${e.summary ? `<meta property="og:description" content="${esc(e.summary)}">\n` : ''}${base ? `<meta property="og:url" content="${esc(base + e.id)}/">\n<link rel="canonical" href="${esc(base + e.id)}/">\n` : ''}<meta name="twitter:card" content="summary">
+${e.summary ? `<meta property="og:description" content="${esc(e.summary)}">\n` : ''}${base ? `<meta property="og:url" content="${esc(base + e.id)}/">\n<link rel="canonical" href="${esc(base + e.id)}/">\n` : ''}${card && base ? `<meta property="og:image" content="${esc(base + e.id)}/card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(e.title)}">
+<meta name="twitter:card" content="summary_large_image">` : '<meta name="twitter:card" content="summary">'}
 <script>location.replace('../#/${e.id}' + (location.hash.length > 1 ? '/' + location.hash.slice(1) : ''));</script>
 </head>
 <body><p><a href="../#/${e.id}">${esc(e.title)}</a></p></body>
@@ -166,15 +171,31 @@ export function build() {
   finishPage(path.join(out, 'write.html'), { cfg, base, isHome: false });
   const entries = notes.map(describe).filter(e => /^[A-Z]+-\d+$/.test(e.id));
   const site = cfg.title || 'Notes';
+  // pictures only matter where the site has a full address (the workflow sets SITE_URL); kept in .cards-cache between builds
+  const cards = !!base && canDrawCards() && process.env.NO_CARDS !== '1'; let drawn = 0, reused = 0, cardErr = null; const used = new Set();
+  const cacheDir = path.join(ROOT, '.cards-cache'); if (cards) fs.mkdirSync(cacheDir, { recursive: true });
+  const ogSrc = cards ? fs.readFileSync(path.join(ROOT, 'tools', 'og.mjs')) : '';
+  const labelFor = id => { const sec = (cfg.sections || []).find(s => s.prefix === id.split('-')[0]); return sec ? sec.name : 'Note'; };
   for (const e of entries) {
     const dir = path.join(out, e.id);
     if (fs.existsSync(dir)) continue;   // never shadow a real folder of the site
     fs.mkdirSync(dir);
-    fs.writeFileSync(path.join(dir, 'index.html'), sharePage(e, site, base));
+    let card = null;
+    if (cards) {
+      const spec = { id: e.id, title: e.title, label: labelFor(e.id), site };
+      const key = path.join(cacheDir, crypto.createHash('sha1').update(ogSrc).update(JSON.stringify(spec)).digest('hex') + '.png');
+      used.add(path.basename(key));
+      if (fs.existsSync(key)) { card = fs.readFileSync(key); reused++; }
+      else { try { card = drawCard(spec); if (card) { fs.writeFileSync(key, card); drawn++; } } catch (err) { if (!cardErr) console.warn('Preview pictures skipped:', (cardErr = err).message); } }
+    }
+    if (card) fs.writeFileSync(path.join(dir, 'card.png'), card);
+    fs.writeFileSync(path.join(dir, 'index.html'), sharePage(e, site, base, !!card));
   }
   const num = e => +e.id.split('-')[1] || 0;
   const newest = [...entries].sort((a, b) => b.date.localeCompare(a.date) || num(b) - num(a)).slice(0, 30);
   fs.writeFileSync(path.join(out, 'feed.xml'), feed(newest, cfg, base));
+  if (cards) for (const f of fs.readdirSync(cacheDir)) if (!used.has(f)) fs.rmSync(path.join(cacheDir, f));   // drop pictures of old titles
+  if (drawn || reused) console.log(`Preview pictures: ${drawn} drawn, ${reused} reused.`);
   console.log(`Built ${notes.length} note${notes.length === 1 ? '' : 's'} into _site/${drafts ? ` (${drafts} draft${drafts === 1 ? '' : 's'} skipped)` : ''}${library.items.length ? `, with ${library.items.length} PDF${library.items.length === 1 ? '' : 's'} in the library` : ''}.`);
 }
 

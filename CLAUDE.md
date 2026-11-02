@@ -18,6 +18,10 @@ Sections are defined in `config.json` (strict JSON). `templates/` holds Obsidian
 
 Browsing is set in `config.json` too. `browse.shelves` puts topic tags under headings (God and Christ, Scripture, …) for the topic list on large sections and the Tags page; `browse.fields` are broad tags (theology, philosophy…) that aren't offered as topics; `browse.secondary` tags (scripture) don't decide where a note is filed when a section is sorted by topic; `browse.labels` gives display names (`icons-saints` → Icons and saints). `editsCountFrom` (a date) sets when edits start counting: a note's "Updated" line shows its last commit only if that commit is on or after this date, otherwise the note's own `date`. A section with `"index": false` (Guides) is left off the index page but stays in the menu. A section's `arrange` picks its default order (`topic`, `author`, `newest`, `title`). When you add a new topic tag to the vocabulary below, add it to a shelf as well.
 
+## Link previews
+
+When `SITE_URL` is set (the workflow sets it), the build draws a 1200×630 preview card for each entry (`<ID>/card.png`, linked from the share page as `og:image`) with `tools/og.mjs`, using `@resvg/resvg-js` (`npm install`) and the STIX Two font in `tools/og-fonts/` (SIL Open Font Licence). Cards are cached in `.cards-cache/`; local builds without `SITE_URL` skip them, and `NO_CARDS=1` turns them off.
+
 ## PDF library
 
 **Hidden for now:** the Library link and page only appear when `config.json` has `"library": true`. The code stays in place.

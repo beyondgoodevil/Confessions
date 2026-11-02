@@ -4,3 +4,4 @@ node_modules/
 .trash/
 .obsidian/workspace*.json
 .obsidian/cache
+.cards-cache/

@@ -158,7 +158,7 @@ mjx-container a{color:var(--accent)}
 .math-d.is-flash,mjx-container.is-flash{border-radius:6px}
 .eq-tip{position:fixed;z-index:60;max-width:min(92vw,40rem);padding:.35em 1em;background:var(--paper);color:var(--ink);border:1px solid var(--rule);border-radius:8px;box-shadow:var(--shadow);pointer-events:none;overflow:hidden}
 .eq-tip .math-d,.eq-tip mjx-container{margin:0!important}
-#toast{position:fixed;left:50%;bottom:1.5rem;z-index:80;transform:translate(-50%,.8rem);padding:.45em 1em;border-radius:99px;background:var(--ink);color:var(--bg);font-family:var(--font-ui);font-size:.9rem;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s}
+#toast{position:fixed;left:50%;bottom:4.6rem;z-index:80;transform:translate(-50%,.8rem);padding:.45em 1em;border-radius:99px;background:var(--ink);color:var(--bg);font-family:var(--font-ui);font-size:.9rem;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s}
 #toast.is-on{opacity:1;transform:translate(-50%,0)}
 .prose a.wikilink{text-decoration-style:solid}
 .prose a.wikilink.is-broken,.prose a.is-broken{color:var(--link-broken);text-decoration-style:dotted;text-decoration-color:var(--link-broken);cursor:help}
@@ -654,3 +654,23 @@ mark.hl.is-cur{outline:2px solid var(--accent);outline-offset:1px}
 .s-help code{font-size:.95em;margin:0 .15em}
 .r-head{margin:.1rem 0 0;color:var(--accent);font-size:.85em}
 @media print{.read-progress,.resume,.hl-bar{display:none!important}}
+
+/* ===== copy links to headings and passages; citations ===== */
+.note-tools{margin:.35rem 0 0;font-size:.88em;color:var(--muted)}
+.note-tools .linklike{color:var(--accent)}
+.note-tools .linklike:hover{text-decoration:underline}
+.h-link{font:inherit;font-weight:400;font-size:.8em;margin-left:.4em;padding:0 .2em;border:0;background:none;color:var(--muted);cursor:pointer;opacity:0;transition:opacity .15s;vertical-align:.05em}
+.prose :is(h2,h3,h4):hover .h-link,.h-link:focus-visible{opacity:1}
+.h-link:hover{color:var(--accent)}
+@media (hover:none){.h-link{opacity:.45}}
+.quote-btn{position:absolute;z-index:60;font-family:var(--font-ui);font-size:.85rem;padding:.3rem .75rem;border:1px solid var(--rule);border-radius:99px;background:var(--paper);color:var(--accent);box-shadow:var(--shadow);cursor:pointer}
+.quote-btn[hidden]{display:none}
+.cite-dialog{padding:1.1rem 1.25rem;max-width:40rem;overflow:auto}
+.cite-head{margin:0 0 .8rem;font-size:1.05em}
+.cite-row{margin:0 0 .9rem}
+.cite-label{display:flex;justify-content:space-between;align-items:center;margin:0 0 .3rem;font-size:.85em;color:var(--muted);font-variant-caps:small-caps;letter-spacing:.03em}
+.cite-label button,.cite-foot button{font:inherit;font-variant-caps:normal;border:1px solid var(--rule);border-radius:99px;background:none;color:var(--accent);padding:.05rem .7rem;cursor:pointer}
+.cite-label button:hover,.cite-foot button:hover{border-color:var(--accent)}
+.cite-text{margin:0;padding:.6rem .75rem;background:var(--code-bg);border-radius:4px;white-space:pre-wrap;word-break:break-word;font-size:.82em;line-height:1.45;user-select:all}
+.cite-foot{margin:.2rem 0 0;text-align:right}
+@media print{.note-tools,.h-link,.quote-btn{display:none!important}}

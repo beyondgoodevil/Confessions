@@ -38,6 +38,15 @@ jobs:
           fi
       - id: pages
         uses: actions/configure-pages@v5
+      - name: Install the picture renderer (for link-preview cards)
+        run: npm ci --no-audit --no-fund
+        continue-on-error: true   # without it the site still builds, just without preview pictures
+      - name: Reuse preview pictures from earlier builds
+        uses: actions/cache@v4
+        with:
+          path: .cards-cache
+          key: cards-${{ github.run_id }}
+          restore-keys: cards-
       - name: Build the site
         run: node tools/build.mjs
         env:

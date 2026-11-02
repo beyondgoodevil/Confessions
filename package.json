@@ -9,5 +9,8 @@
     "publish": "node tools/publish.mjs",
     "suggest": "node tools/suggest.mjs",
     "publish-note": "node tools/publish-note.mjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
   }
 }
