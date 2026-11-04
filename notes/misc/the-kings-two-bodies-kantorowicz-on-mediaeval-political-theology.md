@@ -191,6 +191,7 @@ The book shows its argument more than it states it. Kantorowicz rarely claims th
 
 ## Related
 
+- [[The Social Contract and Its Critics: Locke, Hume and Rousseau in Rawls and Cohen]]
 - [[The Divine Right of Kings: Figgis on Its Origins and Work]]
 - [[Kingship of Christ]]
 - [[Orthodox Political Theology: Symphonia, Autocracy or Democracy?]]
