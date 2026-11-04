@@ -10,16 +10,17 @@ const LIB = {
   purify: 'https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js',
   hljs: 'https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.9.0/highlight.min.js',
   mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@4.1.3/tex-chtml.js',
-  chess: 'assets/chess-viewer.js?v=8',
+  chess: 'assets/chess-viewer.js?v=9',
   plot: 'assets/plot-viewer.js?v=2',
   abcjs: 'assets/vendor/abcjs-basic-min.js?v=6.4.4',
   music: 'assets/music-viewer.js?v=3',
-  pdfjs: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js'
+  pdfjs: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js',
+  chessapp: 'assets/chess-app.js?v=1'
 };
 const PDF_WORKER = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 const libReady = n => n === 'marked' ? !!window.marked : n === 'yaml' ? !!window.jsyaml : n === 'purify' ? !!window.DOMPurify
   : n === 'hljs' ? !!window.hljs : n === 'mathjax' ? !!(window.MathJax && window.MathJax.typesetPromise) : n === 'chess' ? !!window.ChessViewer : n === 'plot' ? !!window.PlotViewer
-  : n === 'abcjs' ? !!window.ABCJS : n === 'music' ? !!window.MusicViewer : n === 'pdfjs' ? !!window.pdfjsLib : false;
+  : n === 'abcjs' ? !!window.ABCJS : n === 'music' ? !!window.MusicViewer : n === 'pdfjs' ? !!window.pdfjsLib : n === 'chessapp' ? !!window.ChessApp : false;
 // Shorthand available in every note's maths (physics-package style); plain LaTeX still works.
 const TEX_MACROS = {
   R: '\\mathbb{R}', N: '\\mathbb{N}', Z: '\\mathbb{Z}', Q: '\\mathbb{Q}', C: '\\mathbb{C}',
@@ -967,6 +968,16 @@ function closeReader() {
   R.doc.destroy();
 }
 
+/* ---------------- chess page (assets/chess-app.js, loaded on first visit) ---------------- */
+let chessMounted = false;
+async function initChess(main) {
+  const box = $('.chess-mount', main);
+  const ok = (await loadLib('chess')) && (await loadLib('chessapp'));
+  if (!box.isConnected) return;
+  if (!ok) { box.innerHTML = '<p class="fr-empty">The chess page didn\u2019t load. Check your connection and reload.</p>'; return; }
+  window.ChessApp.mount(box, { toast }); chessMounted = true;
+}
+
 /* ---------------- routing ---------------- */
 function parseHash() {
   const raw = location.hash.replace(/^#\/?/, '');
@@ -977,6 +988,7 @@ function parseHash() {
   if (parts[0] === 's') return { name: 'section', sec: parts[1], sub: parts[2], sort: q.get('sort'), topic: q.get('topic'), q: q.get('q') };
   if (parts[0] === 'tags') return parts[1] ? { name: 'tag', tag: parts[1] } : { name: 'tags' };
   if (parts[0] === 'graph') return { name: 'graph', tag: q.get('tag'), only: q.get('only') };
+  if (parts[0] === 'chess') return { name: 'chess' };
   if (parts[0] === 'library' && S.config.library) return { name: 'library', channel: parts[1], file: parts[2], view: q.get('view'), sort: q.get('sort') };
   if (parts[0] === 'series') return parts[1] ? { name: 'series', key: parts[1] } : { name: 'serieslist' };
   return { name: 'note', id: parts[0].toUpperCase(), anchor: parts[1], hl: q.get('hl') };
@@ -985,6 +997,7 @@ let lastRoute = '';
 function route() {
   hidePopover();
   closeReader();
+  if (window.ChessApp && chessMounted) { window.ChessApp.unmount(); chessMounted = false; }
   const r = parseHash(), main = $('#main');
   let html, title = S.config.title || 'Notes', navKey = r.name === 'index' ? 'index' : r.name.startsWith('tag') ? 'tags' : null;
   if (r.name === 'index') html = viewIndex();
@@ -997,6 +1010,7 @@ function route() {
   else if (r.name === 'graph') { html = viewGraph(r); title = `Graph — ${title}`; navKey = 'graph'; }
   else if (r.name === 'series') { html = viewSeries(slug(r.key)); title = `Series — ${title}`; }
   else if (r.name === 'serieslist') { html = viewSeriesList(); title = `Series — ${title}`; }
+  else if (r.name === 'chess') { html = `<div class="page page-chess"><header class="fr-head"><h1>Chess</h1><p class="home-sub">Play Stockfish at any strength, analyse positions and review your games</p></header><div class="chess-mount"><p class="fr-empty">Loading the board and engine…</p></div><p class="ch-credits">Engine: <a href="https://stockfishchess.org/" target="_blank" rel="noopener">Stockfish 19</a> (GPL v3; <a href="https://github.com/nmrugg/stockfish.js" target="_blank" rel="noopener">web build and source</a>). Opening names: <a href="https://github.com/lichess-org/chess-openings" target="_blank" rel="noopener">lichess chess-openings</a>. Endgame tablebase: lichess. Right-click and drag to draw arrows; ← → step through moves; F flips the board.</p></div>`; title = `Chess — ${title}`; navKey = 'chess'; }
   else if (r.name === 'library') { const v = viewLibrary(r); html = v.html; title = `${v.title ? v.title + ' — ' : ''}Library — ${title}`; navKey = 'library'; }
   else {
     const n = S.byId.get(r.id) || S.byId.get(resolveTarget(r.id) || '');
@@ -1008,6 +1022,7 @@ function route() {
   if (r.name === 'section') initBrowse(main, r.q);   // before restoring the scroll position, since filtering changes the page's length
   if (r.name === 'graph') initGraph(main);
   if (r.name === 'library') initLibrary(main, r);
+  if (r.name === 'chess') initChess(main);
   document.title = title;
   $$('.nav a[data-nav]').forEach(a => a.dataset.nav === navKey ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
   const links = $('.nav-links'), cur = $('.nav a[aria-current="page"]');
@@ -1064,7 +1079,7 @@ function buildShell() {
   document.body.innerHTML = `<a class="skip" href="#main">Skip to content</a>
   <header class="topbar"><a class="brand" href="#/"><span class="brand-title">${esc(c.title || 'Notes')}</span></a>
     <nav class="nav" aria-label="Main"><span class="nav-links"><a href="#/" data-nav="index">Index</a>${S.sections.map(s => `<a href="#/s/${s.id}" data-nav="${s.id}">${esc(s.shortName || s.name)}</a>`).join('')}
-    ${c.library ? '<a href="#/library" data-nav="library">Library</a>' : ''}<a href="#/tags" data-nav="tags">Tags</a></span><button type="button" data-action="random" title="Open a random note">Random</button><button type="button" data-action="search">Search<kbd>/</kbd></button>
+    ${c.library ? '<a href="#/library" data-nav="library">Library</a>' : ''}<a href="#/chess" data-nav="chess">Chess</a><a href="#/tags" data-nav="tags">Tags</a></span><button type="button" data-action="random" title="Open a random note">Random</button><button type="button" data-action="search">Search<kbd>/</kbd></button>
     <button type="button" class="theme-btn" data-action="theme" aria-label="Switch colour theme" title="Switch colour theme"></button></nav><div class="read-progress" hidden aria-hidden="true"><span></span></div></header>
   <main id="main" tabindex="-1"></main>
   <div class="popover" id="popover" hidden></div>`;

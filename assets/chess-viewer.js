@@ -517,7 +517,7 @@ function mount(rootEl) {
   }
 }
 
-const api = { parseFEN, legalMoves, makeMove, sanOf, findMove, statusOf, parseBlock, mount, START };
+const api = { parseFEN, legalMoves, makeMove, sanOf, findMove, statusOf, inCheck, parseBlock, mount, START, sqName, sqIdx, pieceSVG, install, ICON };
 if (typeof window !== 'undefined') window.ChessViewer = api;
 if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })();

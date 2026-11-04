@@ -22,6 +22,10 @@ Browsing is set in `config.json` too. `browse.shelves` puts topic tags under hea
 
 When `SITE_URL` is set (the workflow sets it), the build draws a 1200×630 preview card for each entry (`<ID>/card.png`, linked from the share page as `og:image`) with `tools/og.mjs`, using `@resvg/resvg-js` (`npm install`) and the STIX Two font in `tools/og-fonts/` (SIL Open Font Licence). Cards are cached in `.cards-cache/`; local builds without `SITE_URL` skip them, and `NO_CARDS=1` turns them off.
 
+## Chess page
+
+`#/chess` ("Chess" in the menu) is `assets/chess-app.js`: play Stockfish at eight levels (Beginner to Impossible) with optional clocks, hints and takebacks; analyse with an evaluation bar, three engine lines and arrows; review games move by move (book/best/excellent/good/inaccuracy/mistake/blunder/missed win, accuracy, evaluation graph); load and copy PGN/FEN. It uses the rules and pieces of `assets/chess-viewer.js`, Stockfish 19 lite single-threaded in `assets/vendor/stockfish/` (GPLv3: keep `Copying.txt` and the credit line), and `assets/vendor/openings.json` (built from lichess chess-openings, CC0). The game in progress is kept in the browser (localStorage `cp-chess`).
+
 ## PDF library
 
 **Hidden for now:** the Library link and page only appear when `config.json` has `"library": true`. The code stays in place.
