@@ -130,6 +130,7 @@ Dante's earliest critic, Guido Vernani, objected that only **Christ** could have
 
 ## Related
 
+- [[Federalists and Anti-Federalists: The Debate over the Constitution]]
 - [[The Social Contract and Its Critics: Locke, Hume and Rousseau in Rawls and Cohen]]
 - [[The King's Two Bodies: Kantorowicz on Mediaeval Political Theology]]
 - [[The Modern Break: Machiavelli and Hobbes]]

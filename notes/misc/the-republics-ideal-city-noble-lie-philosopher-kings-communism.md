@@ -191,6 +191,7 @@ In Book VII the philosophers must be compelled to go back down into the cave, an
 
 ## Related
 
+- [[Federalists and Anti-Federalists: The Debate over the Constitution]]
 - [[The Social Contract and Its Critics: Locke, Hume and Rousseau in Rawls and Cohen]]
 - [[Strauss's On Tyranny: Xenophon's Hiero and the Debate with Kojève]]
 - [[Republic Book I: Cephalus, Polemarchus and Thrasymachus on Justice]]

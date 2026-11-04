@@ -201,6 +201,7 @@ Both lecturers leave a question open. If legitimacy turns on what people could h
 
 ## Related
 
+- [[Federalists and Anti-Federalists: The Debate over the Constitution]]
 - [[The Modern Break: Machiavelli and Hobbes]]
 - [[The Divine Right of Kings: Figgis on Its Origins and Work]]
 - [[Conservatism: Burke, de Maistre, Scruton]]

@@ -214,6 +214,7 @@ His verdict is that the theory died when its work was done: Rome no longer claim
 
 ## Related
 
+- [[Federalists and Anti-Federalists: The Debate over the Constitution]]
 - [[The Social Contract and Its Critics: Locke, Hume and Rousseau in Rawls and Cohen]]
 - [[The King's Two Bodies: Kantorowicz on Mediaeval Political Theology]]
 - [[Kingship of Christ]]

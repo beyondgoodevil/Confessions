@@ -213,6 +213,7 @@ Goldhill argues that the theatre was itself a democratic institution and that tr
 
 ## Related
 
+- [[Federalists and Anti-Federalists: The Debate over the Constitution]]
 - [[Aristotle's Politics]]
 - [[Thucydides on Human Nature and Power]]
 - [[Justice in the Oresteia: From Vendetta to the Court?]]

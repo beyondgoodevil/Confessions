@@ -143,6 +143,7 @@ A Savoyard Catholic, exiled by the Revolution, ambassador in St Petersburg. Much
 
 ## Related
 
+- [[Federalists and Anti-Federalists: The Debate over the Constitution]]
 - [[The Social Contract and Its Critics: Locke, Hume and Rousseau in Rawls and Cohen]]
 - [[The Divine Right of Kings: Figgis on Its Origins and Work]]
 - [[The Modern Break: Machiavelli and Hobbes]]
