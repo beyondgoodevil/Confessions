@@ -24,7 +24,12 @@ When `SITE_URL` is set (the workflow sets it), the build draws a 1200×630 previ
 
 ## Chess page
 
-`#/chess` ("Chess" in the menu) is `assets/chess-app.js`: play Stockfish at eight levels (Beginner to Impossible) with optional clocks, hints and takebacks; analyse with an evaluation bar, three engine lines and arrows; review games move by move (book/best/excellent/good/inaccuracy/mistake/blunder/missed win, accuracy, evaluation graph); load and copy PGN/FEN. It uses the rules and pieces of `assets/chess-viewer.js`, Stockfish 19 lite single-threaded in `assets/vendor/stockfish/` (GPLv3: keep `Copying.txt` and the credit line), and `assets/vendor/openings.json` (built from lichess chess-openings, CC0). The game in progress is kept in the browser (localStorage `cp-chess`).
+`#/chess` ("Chess" in the top bar, left of Random) is `assets/chess-app.js` (cache-busted by `chessapp: ...?v=N` in `assets/app.js`: bump N when it changes):
+- **Play**: Stockfish from Beginner (~400) to Elite GM (2850), full strength, or a custom rating (1320-3190); time controls from bullet to classical or custom, with increments; premoves, auto-queen, takeback, hint, draw offer, resign/abort; the engine uses its clock like a player.
+- **Analysis**: a move tree with variations, comments and !/?/!! annotations (right-click a move); 1-5 engine lines, depth/selective depth/speed, arrows, threat mode, clickable lines; evaluation bar; Lichess endgame tablebase (7 pieces or fewer); an opening explorer (Masters / Lichess 2200+) that needs the visitor to connect a Lichess account (OAuth PKCE, client id `confessions-notebook`, token kept in localStorage).
+- **Review**: every main-line move classified (book, great, best, excellent, good, inaccuracy, mistake, miss, blunder), accuracy, evaluation graph, jump to the next mistake. **Editor**: set up any position. PGN/FEN import (with variations) and export, typed moves, keyboard shortcuts, six board themes, three piece sets.
+- Engines: Stockfish 19 lite (`assets/vendor/stockfish/`, 1.8 MB) or the full NNUE build, whose loader is local and whose 100 MB network streams from unpkg. GPLv3: keep `Copying.txt` and the credit line. Pieces: `assets/vendor/pieces/` (cburnett, merida; GPLv2+). Openings: `assets/vendor/openings.json` (lichess chess-openings, CC0).
+- State is kept in the browser: localStorage `cp-chess2` (game, tree, review) and `cp-chess2-prefs`.
 
 ## PDF library
 

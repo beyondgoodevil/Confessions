@@ -15,7 +15,7 @@ const LIB = {
   abcjs: 'assets/vendor/abcjs-basic-min.js?v=6.4.4',
   music: 'assets/music-viewer.js?v=3',
   pdfjs: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js',
-  chessapp: 'assets/chess-app.js?v=1'
+  chessapp: 'assets/chess-app.js?v=2'
 };
 const PDF_WORKER = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 const libReady = n => n === 'marked' ? !!window.marked : n === 'yaml' ? !!window.jsyaml : n === 'purify' ? !!window.DOMPurify
@@ -1010,7 +1010,7 @@ function route() {
   else if (r.name === 'graph') { html = viewGraph(r); title = `Graph — ${title}`; navKey = 'graph'; }
   else if (r.name === 'series') { html = viewSeries(slug(r.key)); title = `Series — ${title}`; }
   else if (r.name === 'serieslist') { html = viewSeriesList(); title = `Series — ${title}`; }
-  else if (r.name === 'chess') { html = `<div class="page page-chess"><header class="fr-head"><h1>Chess</h1><p class="home-sub">Play Stockfish at any strength, analyse positions and review your games</p></header><div class="chess-mount"><p class="fr-empty">Loading the board and engine…</p></div><p class="ch-credits">Engine: <a href="https://stockfishchess.org/" target="_blank" rel="noopener">Stockfish 19</a> (GPL v3; <a href="https://github.com/nmrugg/stockfish.js" target="_blank" rel="noopener">web build and source</a>). Opening names: <a href="https://github.com/lichess-org/chess-openings" target="_blank" rel="noopener">lichess chess-openings</a>. Endgame tablebase: lichess. Right-click and drag to draw arrows; ← → step through moves; F flips the board.</p></div>`; title = `Chess — ${title}`; navKey = 'chess'; }
+  else if (r.name === 'chess') { html = `<div class="page page-chess"><header class="fr-head"><h1>Chess</h1><p class="home-sub">Play Stockfish at any strength, analyse positions and review your games</p></header><div class="chess-mount"><p class="fr-empty">Loading the board and engine…</p></div><p class="ch-credits">Engine: <a href="https://stockfishchess.org/" target="_blank" rel="noopener">Stockfish 19</a> (GPL v3; <a href="https://github.com/nmrugg/stockfish.js" target="_blank" rel="noopener">web build and source</a>). Pieces: cburnett (Colin M. L. Burnett) and merida (Armando Hernández Marroquín), GPL v2+, via <a href="https://github.com/lichess-org/lila" target="_blank" rel="noopener">Lichess</a>. Opening names: <a href="https://github.com/lichess-org/chess-openings" target="_blank" rel="noopener">lichess chess-openings</a>. Tablebase and opening explorer: Lichess. Shortcuts: ← → moves · ↑ ↓ start/end · F flip · L engine · X threat · E explorer · right-drag draws arrows (Shift red, Alt blue).</p></div>`; title = `Chess — ${title}`; navKey = 'chess'; }
   else if (r.name === 'library') { const v = viewLibrary(r); html = v.html; title = `${v.title ? v.title + ' — ' : ''}Library — ${title}`; navKey = 'library'; }
   else {
     const n = S.byId.get(r.id) || S.byId.get(resolveTarget(r.id) || '');
@@ -1079,7 +1079,7 @@ function buildShell() {
   document.body.innerHTML = `<a class="skip" href="#main">Skip to content</a>
   <header class="topbar"><a class="brand" href="#/"><span class="brand-title">${esc(c.title || 'Notes')}</span></a>
     <nav class="nav" aria-label="Main"><span class="nav-links"><a href="#/" data-nav="index">Index</a>${S.sections.map(s => `<a href="#/s/${s.id}" data-nav="${s.id}">${esc(s.shortName || s.name)}</a>`).join('')}
-    ${c.library ? '<a href="#/library" data-nav="library">Library</a>' : ''}<a href="#/chess" data-nav="chess">Chess</a><a href="#/tags" data-nav="tags">Tags</a></span><button type="button" data-action="random" title="Open a random note">Random</button><button type="button" data-action="search">Search<kbd>/</kbd></button>
+    ${c.library ? '<a href="#/library" data-nav="library">Library</a>' : ''}<a href="#/tags" data-nav="tags">Tags</a></span><a href="#/chess" data-nav="chess" class="nav-chess">Chess</a><button type="button" data-action="random" title="Open a random note">Random</button><button type="button" data-action="search">Search<kbd>/</kbd></button>
     <button type="button" class="theme-btn" data-action="theme" aria-label="Switch colour theme" title="Switch colour theme"></button></nav><div class="read-progress" hidden aria-hidden="true"><span></span></div></header>
   <main id="main" tabindex="-1"></main>
   <div class="popover" id="popover" hidden></div>`;
@@ -1508,6 +1508,8 @@ async function boot() {
   buildShell(); bindEvents();
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';   // route() restores positions itself
   addEventListener('hashchange', route);
+  // returning from Lichess sign-in (the chess page's opening explorer): finish it on the chess page
+  if (/[?&](code|error)=/.test(location.search) && sessionStorage.getItem('cp-lichess-pkce') && !location.hash.startsWith('#/chess')) location.hash = '#/chess';
   route();
 }
 if (window.COMMONPLACE_LIBRARY) {
