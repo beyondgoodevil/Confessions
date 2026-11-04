@@ -91,6 +91,7 @@ So the human king was always meant to stand in for God's own kingship. The Messi
 
 ## Related
 
+- [[The Divine Right of Kings: Figgis on Its Origins and Work]]
 - [[Orthodox Political Theology: Symphonia, Autocracy or Democracy?]]
 - [[King David Prophesied the Incarnation of the Messiah]]
 - [[Christ's Ascension: NT and Psalm 110]]

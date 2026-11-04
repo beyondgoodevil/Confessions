@@ -143,6 +143,7 @@ A Savoyard Catholic, exiled by the Revolution, ambassador in St Petersburg. Much
 
 ## Related
 
+- [[The Divine Right of Kings: Figgis on Its Origins and Work]]
 - [[The Modern Break: Machiavelli and Hobbes]]
 - [[Aristotle's Politics]]
 - [[Augustine's City of God]]

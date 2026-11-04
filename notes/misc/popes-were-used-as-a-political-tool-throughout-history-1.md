@@ -26,6 +26,7 @@ summary: The papacy and secular rulers in the Carolingian era and the Investitur
 
 ## Related
 
+- [[The Divine Right of Kings: Figgis on Its Origins and Work]]
 - [[Popes Were Used as a Political Tool Throughout History 2]]
 - [[Popes Were Used as a Political Tool Throughout History 3]]
 - [[The Gregorian Reforms]]
