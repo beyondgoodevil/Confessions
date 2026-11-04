@@ -175,6 +175,7 @@ Book I begins with a joke about force and persuasion and ends with Socrates conf
 
 ## Related
 
+- [[Politics Before Philosophy: Greek Political Thought from Homer to the Sophists]]
 - [[The Republic's Ideal City: The Noble Lie, Philosopher-Kings and the Guardians' Communism]]
 - [[Plato's Quarrel With the Poets: Republic X Read Three Ways]]
 - [[The Good in Plato]]

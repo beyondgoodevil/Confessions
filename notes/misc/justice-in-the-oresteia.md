@@ -178,6 +178,7 @@ See [[Girard's Scapegoat Mechanism: Sacrifice, Myth and the Gospels]].
 
 ## Related
 
+- [[Politics Before Philosophy: Greek Political Thought from Homer to the Sophists]]
 - [[Nussbaum's Fragility of Goodness: Luck, Tragedy and the Vulnerable Good]]
 - [[Girard's Scapegoat Mechanism: Sacrifice, Myth and the Gospels]]
 - [[Dionysus, Orpheus and the Mysteries: Dodds and the Irrational]]
