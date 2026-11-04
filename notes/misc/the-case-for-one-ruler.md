@@ -130,6 +130,7 @@ Dante's earliest critic, Guido Vernani, objected that only **Christ** could have
 
 ## Related
 
+- [[The King's Two Bodies: Kantorowicz on Mediaeval Political Theology]]
 - [[The Modern Break: Machiavelli and Hobbes]]
 - [[Orthodox Political Theology: Symphonia, Autocracy or Democracy?]]
 - [[Aristotle's Politics]]

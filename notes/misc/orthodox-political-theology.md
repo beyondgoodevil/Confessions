@@ -196,6 +196,7 @@ Vladimir Moss writes from the Russian "True Orthodox" tradition, which broke wit
 
 ## Related
 
+- [[The King's Two Bodies: Kantorowicz on Mediaeval Political Theology]]
 - [[The Divine Right of Kings: Figgis on Its Origins and Work]]
 - [[Nietzsche's Aristocratic Radicalism: The Greek State, Slavery and the Pyramid of Culture]]
 - [[The Case for One Ruler: Aquinas, Dante, Maistre, Kuehnelt-Leddihn]]

@@ -214,6 +214,7 @@ His verdict is that the theory died when its work was done: Rome no longer claim
 
 ## Related
 
+- [[The King's Two Bodies: Kantorowicz on Mediaeval Political Theology]]
 - [[Kingship of Christ]]
 - [[Orthodox Political Theology: Symphonia, Autocracy or Democracy?]]
 - [[The Modern Break: Machiavelli and Hobbes]]
