@@ -225,6 +225,7 @@ Odysseus has had seven years to shape the story; it's "his understanding of his 
 
 ## Related
 
+- [[Homer as Political Philosopher: Ahrensdorf on Homer, Plato, Machiavelli and Nietzsche]]
 - [[Aletheia: Heidegger on Truth as Unconcealment]]
 - [[Xenia: The Homeric Hospitality Scene]]
 - [[Achilles and Hector: The Homeric Hero]]

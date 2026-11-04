@@ -145,6 +145,7 @@ Thomas Hobbes (1588–1679) translated Thucydides in 1629 to warn England agains
 
 ## Related
 
+- [[Homer as Political Philosopher: Ahrensdorf on Homer, Plato, Machiavelli and Nietzsche]]
 - [[The Divine Right of Kings: Figgis on Its Origins and Work]]
 - [[Strauss's On Tyranny: Xenophon's Hiero and the Debate with Kojève]]
 - [[The Republic's Ideal City: The Noble Lie, Philosopher-Kings and the Guardians' Communism]]

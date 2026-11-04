@@ -195,6 +195,7 @@ Seth Benardete (1930–2001) was a student of Leo Strauss at Chicago and is best
 
 ## Related
 
+- [[Homer as Political Philosopher: Ahrensdorf on Homer, Plato, Machiavelli and Nietzsche]]
 - [[Politics Before Philosophy: Greek Political Thought from Homer to the Sophists]]
 - [[Nietzsche and the Greeks]]
 - [[Xenia: The Homeric Hospitality Scene]]

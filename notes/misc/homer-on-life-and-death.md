@@ -127,6 +127,7 @@ How later Greeks and Christians answered him:
 
 ## Related
 
+- [[Homer as Political Philosopher: Ahrensdorf on Homer, Plato, Machiavelli and Nietzsche]]
 - [[Aletheia: Heidegger on Truth as Unconcealment]]
 - [[Xenia: The Homeric Hospitality Scene]]
 - [[The Bow and the Lyre: A Platonic Reading of the Odyssey]]
