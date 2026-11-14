@@ -1,8 +1,9 @@
 ---
 id: M-0418
 date: 2026-11-14
+title: Western Zhou
+tags: [china, history]
 ---
-
 
 - Beginning about the reign of King Mu (r. 956—918 B.C.), a reign ushered in by a disastrous defeat in which the preceding king (King Zhao, r. 977—957 B.C.) was killed and the royal army was decimated, there emerge signs of an incipient bureaucracy:
 	- Bronze inscriptions record appointment of individuals without relationship to the king.
