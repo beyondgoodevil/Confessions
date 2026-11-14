@@ -8,7 +8,10 @@
     "check": "node tools/check.mjs",
     "publish": "node tools/publish.mjs",
     "suggest": "node tools/suggest.mjs",
-    "publish-note": "node tools/publish-note.mjs"
+    "publish-note": "node tools/publish-note.mjs",
+    "rename": "node tools/rename.mjs",
+    "table": "node tools/table.mjs",
+    "intake": "node tools/intake.mjs"
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2"

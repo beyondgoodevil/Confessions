@@ -32,4 +32,11 @@ Open a terminal in this folder (needs Node.js and Git). The whole routine:
 3. **Preview:** `npm run preview`, then open the address it prints.
 4. **Publish:** `npm run publish -- "What I changed"`. This gets the latest version, gives new notes their addresses, builds, checks for broken links, commits and pushes. Use `npm run publish -- --dry` to do everything except upload.
 
+More helpers:
+
+- **Start from an outline:** `npm run new -- misc "My Title" --outline comparison` fills the note with a skeleton (`study`, `comparison`, `book`, `lecture`, or `none`). Books and lectures get theirs by default. The outlines are the `Outline - ….md` files in `templates/`, so Obsidian's *Insert template* offers them too, and any `Outline - Name.md` you add becomes `--outline name`.
+- **Retitle a note:** `npm run rename -- "Old Title" "New Title"` changes the title, rewrites every `[[link]]` to it, keeps the old title as an alias and renames the file. Add `--dry` to see the plan first.
+- **Tables:** `npm run table -- "My Title"` lines up every table in a note; `npm run table -- --new "Question" "Plato" "Aristotle" --rows "Soul" "City"` prints an empty one; `npm run table -- --csv data.csv` makes one from a spreadsheet export.
+- **Take in a book:** `npm run intake -- "C:\Books\Some Book.pdf"` writes the text to `.intake/<name>/` (never published): the whole book with printed page numbers, one file per chapter, and a reading checklist. Scanned PDFs are read with Windows' built-in OCR. `npm run intake -- find <name> "a few words"` tells you the page a quotation is on.
+
 If publish stops, read the message just above "Stopped". Usually it's a merge conflict (`git status` shows the file) or a front-matter typo (`npm run check` names the note).
