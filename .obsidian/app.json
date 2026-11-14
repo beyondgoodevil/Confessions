@@ -9,5 +9,6 @@
     "assets/",
     "tools/",
     "node_modules/"
-  ]
+  ],
+  "alwaysUpdateLinks": true
 }
