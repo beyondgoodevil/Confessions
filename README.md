@@ -32,6 +32,8 @@ Open a terminal in this folder (needs Node.js and Git). The whole routine:
 3. **Preview:** `npm run preview`, then open the address it prints.
 4. **Publish:** `npm run publish -- "What I changed"`. This gets the latest version, gives new notes their addresses, builds, checks for broken links, commits and pushes. Use `npm run publish -- --dry` to do everything except upload.
 
+**Publishing from Obsidian:** the vault has its own plugin, *Publish to Confessions* (`.obsidian/plugins/publish-confessions`). Click the cloud icon in the left ribbon (or run *Publish this note* from the command palette) to see what needs fixing and which notes to link, then press Publish. `Ctrl+Alt+P` publishes the open note straight away when nothing is wrong. The status bar at the bottom shows how many notes have changes that are not on the site yet; click it for *Publish everything changed*. It needs Node.js and works on the desktop app only. A note with `draft: true` is saved to GitHub but kept off the site.
+
 More helpers:
 
 - **Start from an outline:** `npm run new -- misc "My Title" --outline comparison` fills the note with a skeleton (`study`, `comparison`, `book`, `lecture`, or `none`). Books and lectures get theirs by default. The outlines are the `Outline - ….md` files in `templates/`, so Obsidian's *Insert template* offers them too, and any `Outline - Name.md` you add becomes `--outline name`.

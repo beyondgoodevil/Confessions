@@ -4,10 +4,7 @@
 // It prints a ready-made `npm run link` line for the best matches that don't link to the note yet.
 import { readNotes, loadConfig } from './lib.mjs';
 
-const args = process.argv.slice(2);
-const nAt = args.indexOf('--n'); const N = nAt >= 0 ? +args[nAt + 1] || 12 : 12;
-const title = args.filter((a, i) => nAt < 0 || (i !== nAt && i !== nAt + 1)).join(' ').trim();
-if (!title) { console.log('Usage: node tools/suggest.mjs "Note Title" [--n 12]'); process.exit(1); }
+import { pathToFileURL } from 'node:url';
 
 const cfg = loadConfig();
 const broad = new Set(((cfg.browse || {}).fields || []).map(t => t.toLowerCase()));
@@ -20,9 +17,10 @@ const body = n => n.raw.replace(/^﻿?---[\s\S]*?\n---[ \t]*\r?\n/, '').replace(
 const words = s => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().match(/[a-z][a-z'-]{3,}/g) || [];
 const linksIn = n => new Set([...n.raw.matchAll(/\[\[([^\]|#]+)/g)].map(m => m[1].trim().toLowerCase()));
 
-const notes = readNotes({ withGit: false }).filter(n => titleOf(n));
-const me = notes.find(n => titleOf(n).toLowerCase() === title.toLowerCase());
-if (!me) { console.log(`No note titled "${title}".`); process.exit(1); }
+// The N notes most like `me` (a note from readNotes). Other tools use this too (tools/obsidian.mjs).
+export function rank(me, allNotes, N = 12) {
+const notes = allNotes.filter(n => titleOf(n) || n === me);
+const title = titleOf(me);
 
 // tf-idf over the notes' text (title counted three times, summary twice)
 const docs = notes.map(n => { const tf = new Map(); for (const w of [...words(titleOf(n)), ...words(titleOf(n)), ...words(titleOf(n)), ...words(String(n.fields.summary || '')), ...words(String(n.fields.summary || '')), ...words(body(n))]) if (!STOP.has(w)) tf.set(w, (tf.get(w) || 0) + 1); return tf; });
@@ -31,7 +29,7 @@ const vec = tf => { const v = new Map(); let norm = 0; for (const [w, c] of tf) 
 const vecs = docs.map(vec);
 const mi = notes.indexOf(me), mv = vecs[mi], myTags = tagsOf(me), myLinks = linksIn(me), myTitle = title.toLowerCase();
 
-const scored = notes.map((n, i) => {
+return notes.map((n, i) => {
   if (i === mi) return null;
   let dot = 0; for (const [w, x] of mv.v) { const y = vecs[i].v.get(w); if (y) dot += x * y; }
   const cos = dot / (mv.norm * vecs[i].norm);
@@ -40,7 +38,17 @@ const scored = notes.map((n, i) => {
   const top = [...vecs[i].v.entries()].filter(([w]) => mv.v.has(w)).sort((a, b) => b[1] * mv.v.get(b[0]) - a[1] * mv.v.get(a[0])).slice(0, 4).map(([w]) => w);
   return { n, score: cos + tagScore, shared, top, from: linksIn(n).has(myTitle), to: myLinks.has(titleOf(n).toLowerCase()) };
 }).filter(Boolean).sort((a, b) => b.score - a.score).slice(0, N);
+}
 
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+const args = process.argv.slice(2);
+const nAt = args.indexOf('--n'); const N = nAt >= 0 ? +args[nAt + 1] || 12 : 12;
+const title = args.filter((a, i) => nAt < 0 || (i !== nAt && i !== nAt + 1)).join(' ').trim();
+if (!title) { console.log('Usage: node tools/suggest.mjs "Note Title" [--n 12]'); process.exit(1); }
+const notes = readNotes({ withGit: false }).filter(n => titleOf(n));
+const me = notes.find(n => titleOf(n).toLowerCase() === title.toLowerCase());
+if (!me) { console.log(`No note titled "${title}".`); process.exit(1); }
+const scored = rank(me, notes, N);
 console.log(`Notes most like "${title}":\n`);
 for (const [k, s] of scored.entries()) {
   const mark = s.from && s.to ? '↔ linked both ways' : s.from ? '← already links here' : s.to ? '→ this note links to it' : '';
@@ -49,3 +57,4 @@ for (const [k, s] of scored.entries()) {
 }
 const todo = scored.filter(s => !s.from).slice(0, 6).map(s => JSON.stringify(titleOf(s.n)));
 if (todo.length) console.log(`\nTo add backlinks from the best that don't link here yet:\n  npm run link -- ${JSON.stringify(title)} ${todo.join(' ')}`);
+}

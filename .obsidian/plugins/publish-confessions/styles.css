@@ -1,0 +1,20 @@
+.pc-modal .pc-sub { color: var(--text-muted); margin: -4px 0 14px; font-size: var(--font-ui-small); }
+.pc-modal h4 { margin: 16px 0 6px; font-size: var(--font-ui-medium); }
+.pc-item { display: flex; gap: 8px; align-items: baseline; padding: 5px 8px; border-radius: 6px; cursor: pointer; }
+.pc-item:hover { background: var(--background-modifier-hover); }
+.pc-item .pc-dot { flex: none; width: 8px; height: 8px; border-radius: 50%; position: relative; top: -1px; }
+.pc-problem .pc-dot { background: var(--color-red); }
+.pc-warning .pc-dot { background: var(--color-orange); }
+.pc-item .pc-text { flex: 1; }
+.pc-item .pc-line { color: var(--text-faint); font-size: var(--font-ui-smaller); white-space: nowrap; }
+.pc-item button { flex: none; }
+.pc-ok { color: var(--color-green); padding: 4px 8px; }
+.pc-rel { display: flex; gap: 8px; align-items: baseline; padding: 4px 8px; }
+.pc-rel label { flex: 1; cursor: pointer; }
+.pc-rel .pc-mark { color: var(--text-faint); font-size: var(--font-ui-smaller); white-space: nowrap; }
+.pc-rel input:disabled + label { color: var(--text-muted); cursor: default; }
+.pc-log { margin-top: 14px; padding: 10px 12px; border-radius: 6px; background: var(--background-secondary); font-size: var(--font-ui-small); white-space: pre-wrap; }
+.pc-log.pc-error { border-left: 3px solid var(--color-red); }
+.pc-log.pc-done { border-left: 3px solid var(--color-green); }
+.pc-buttons { display: flex; gap: 8px; justify-content: flex-end; margin-top: 18px; flex-wrap: wrap; }
+.pc-status { cursor: pointer; }

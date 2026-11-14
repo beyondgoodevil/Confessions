@@ -1,0 +1,9 @@
+{
+  "id": "publish-confessions",
+  "name": "Publish to Confessions",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Publish the note you are writing to the Confessions site with one button: it gets its address, links to related notes, is checked, saved and uploaded.",
+  "author": "Confessions",
+  "isDesktopOnly": true
+}
