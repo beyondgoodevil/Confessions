@@ -50,7 +50,7 @@ function render(rows, aligns) {
 
 function tidy(raw) {
   const nl = raw.includes('\r\n') ? '\r\n' : '\n';
-  const lines = raw.split(/\r?\n/); const out = []; let fence = null, tables = 0, changed = 0;
+  const lines = raw.split(/\r?\n/); const out = []; let fence = null, tables = 0, changed = 0, skipped = 0;
   for (let i = 0; i < lines.length; i++) {
     const L = lines[i];
     const f = L.match(/^\s*(```+|~~~+)/);
@@ -61,12 +61,17 @@ function tidy(raw) {
       const indent = L.match(/^[\s>]*/)[0];
       const strip = x => x.slice(x.match(/^[\s>]*/)[0].length);
       const made = render([cells(strip(block[0])), ...block.slice(2).map(x => cells(strip(x)))], cells(strip(block[1]))).map(x => indent + x);
-      tables++; if (made.join('\n') !== block.join('\n')) changed++;
+      // Safety: tidying may only move spaces. If the cells read back differently (a stray $ or ` swallowed a pipe), leave the table as it was.
+      const naive = x => { const p = strip(x).trim().split(/(?<!\\)\|/).map(c => c.trim()); if (!p[0]) p.shift(); if (p.length && !p[p.length - 1]) p.pop(); return p.join('\u0001'); };
+      const same = made.length === block.length && made.every((x, k) => k === 1 ? cells(strip(x)).map(a => a.replace(/-+/g, '-')).join('|') === cells(strip(block[1])).map(a => a.replace(/-+/g, '-')).join('|') : naive(x) === naive(block[k]));
+      tables++;
+      if (!same) { skipped++; out.push(...block); i = j - 1; continue; }
+      if (made.join('\n') !== block.join('\n')) changed++;
       out.push(...made); i = j - 1; continue;
     }
     out.push(L);
   }
-  return { text: out.join(nl), tables, changed };
+  return { text: out.join(nl), tables, changed, skipped };
 }
 
 function csvRows(text) {
@@ -106,9 +111,10 @@ if (has('--new')) {
   const notes = readNotes({ withGit: false });
   const pick = all ? notes : notes.filter(n => String(n.fields.title ?? '').toLowerCase() === title.toLowerCase() || (n.fields.id || '').toLowerCase() === title.toLowerCase());
   if (!pick.length) { console.log(`No note titled "${title}".`); process.exit(1); }
-  let total = 0;
+  let total = 0, left = 0;
   for (const n of pick) {
     const r = tidy(n.raw);
+    if (r.skipped) { left += r.skipped; console.log(`left ${r.skipped} table${r.skipped === 1 ? '' : 's'} alone in ${n.path} (a cell has an unusual $ or \` in it; tidy it by hand)`); }
     if (!all && !r.tables) console.log(`${n.path}: no tables.`);
     if (!r.changed) { if (!all && r.tables) console.log(`${n.path}: ${r.tables} table${r.tables === 1 ? '' : 's'}, already tidy.`); continue; }
     total += r.changed;

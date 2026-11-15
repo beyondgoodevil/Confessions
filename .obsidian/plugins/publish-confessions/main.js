@@ -4,6 +4,7 @@
      Publish this note now        no panel unless something is wrong
      Publish everything changed   every changed file in the vault
      Check this note              the review panel without publishing
+     Renumber the sections        fixes ### 1., ### 2., … after you move sections around
    The status bar shows how many notes have changes that are not on the site yet.
    Plain JavaScript on purpose: there is no build step, edit this file and reload Obsidian. */
 'use strict';
@@ -25,6 +26,7 @@ module.exports = class PublishConfessions extends Plugin {
     this.addCommand({ id: 'publish-all', name: 'Publish everything changed', callback: () => this.publishAll() });
     this.addCommand({ id: 'check-note', name: 'Check this note', callback: () => this.review(false) });
     this.addCommand({ id: 'open-on-site', name: 'Open this note on the site', callback: () => this.openOnSite() });
+    this.addCommand({ id: 'renumber-sections', name: 'Renumber the sections (### 1., ### 2., …)', editorCallback: editor => this.renumber(editor) });
 
     this.status = this.addStatusBarItem();
     this.status.addClass('pc-status');
@@ -142,6 +144,32 @@ module.exports = class PublishConfessions extends Plugin {
     if (!this.site()) await this.refresh();
     const url = this.link(null, id);
     if (url) window.open(url); else new Notice('Set the site address in this plugin\'s settings.');
+  }
+
+  // Puts the "### 1." numbers back in order after sections were added, removed or moved. Works on whichever
+  // heading level the note's sections use (### in the house style, ## in older notes); Conclusion, Related and
+  // the like stay unnumbered. Only the heading lines are touched, so the cursor and undo history are kept.
+  renumber(editor) {
+    const UNNUMBERED = /^(related|references|footnotes|see also|sources|further reading|conclusion)$/i, NUM = /^(\d+|[IVXLC]+)[.)]\s+/;
+    const heads = []; let fence = false, inFront = false;
+    for (let i = 0; i < editor.lineCount(); i++) {
+      const line = editor.getLine(i);
+      if (i === 0 && /^---\s*$/.test(line)) { inFront = true; continue; }
+      if (inFront) { if (/^---\s*$/.test(line)) inFront = false; continue; }
+      if (/^\s*(```|~~~)/.test(line)) { fence = !fence; continue; }
+      const m = !fence && line.match(/^(#{1,6})[ \t]+(.+?)[ \t#]*$/);
+      if (m) heads.push({ i, level: m[1].length, text: m[2] });
+    }
+    const real = l => heads.filter(h => h.level === l && !UNNUMBERED.test(h.text.replace(NUM, '')));
+    const lvl = real(3).length >= 2 && real(2).length < 2 ? 3 : 2;
+    const secs = real(lvl);
+    if (secs.length < 2) { new Notice('This note has fewer than two sections to number.'); return; }
+    let n = 0, changed = 0;
+    for (const h of secs) {
+      const want = '#'.repeat(lvl) + ' ' + (++n) + '. ' + h.text.replace(NUM, '');
+      if (editor.getLine(h.i) !== want) { editor.setLine(h.i, want); changed++; }
+    }
+    new Notice(changed ? `Renumbered ${secs.length} sections (${changed} changed).` : 'The sections are already numbered in order.');
   }
 
   jump(file, line) {
