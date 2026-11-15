@@ -13,6 +13,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { ROOT, loadConfig, readNotes, planIds, addFields, today, slug } from './lib.mjs';
 import { rank } from './suggest.mjs';
+import { tidy, deletedSince } from './tidy.mjs';
 
 const [cmd, ...rest] = process.argv.slice(2);
 const flag = k => { const i = rest.indexOf('--' + k); return i < 0 ? null : (rest[i + 1] && !rest[i + 1].startsWith('--') ? rest[i + 1] : true); };
@@ -110,6 +111,11 @@ function addRelated(raw, title) {
   return raw.slice(0, start) + (m[1] ? '' : nl) + (trimmed ? trimmed + nl : '') + line + nl + (end < 0 ? '' : nl + restText.slice(end));
 }
 
+// notes deleted in the vault since the last commit: take them out of the notes that pointed at them
+function tidyDeleted() {
+  try { const r = tidy(deletedSince('')); if (r.targets.length) say(`Cleaning up after ${r.targets.length} deleted note${r.targets.length === 1 ? '' : 's'}${r.files.length ? ` (${r.files.length} note${r.files.length === 1 ? '' : 's'} pointed at ${r.targets.length === 1 ? 'it' : 'them'})` : ''}`); return { deleted: r.targets.length, cleaned: r.files.length }; }
+  catch { return { deleted: 0, cleaned: 0 }; }
+}
 function stampAll() {
   const cfg = loadConfig(); const notes = readNotes({ withGit: false });
   const { plan } = planIds(notes, cfg); const out = [];
@@ -166,6 +172,7 @@ try {
     const pulled = pull();
     if (pulled && pulled !== 'offline') done({ ok: false, error: 'Could not get the latest version from GitHub:\n' + pulled });
 
+    const tidied = tidyDeleted();
     say('Giving the note its address');
     stampAll();
     ({ notes, note } = load(positional[0]));
@@ -197,13 +204,14 @@ try {
     let err = push();
     if (err) { const again = pull(); if (!again) err = push(); }
     if (err) done({ ok: false, error: 'Saved on this computer, but the upload failed:\n' + err, committed });
-    done({ ok: true, committed, nothing: !committed && !staged, title, id: load(positional[0]).note.fields.id || '', site: siteUrl(), warnings: first.warnings.length });
+    done({ ok: true, committed, nothing: !committed && !staged, ...tidied, title, id: load(positional[0]).note.fields.id || '', site: siteUrl(), warnings: first.warnings.length });
   }
 
   if (cmd === 'publish-all') {
     say('Getting the latest version');
     const pulled = pull();
     if (pulled && pulled !== 'offline') done({ ok: false, error: 'Could not get the latest version from GitHub:\n' + pulled });
+    const tidied = tidyDeleted();
     say('Giving new notes their addresses');
     stampAll();
     say('Saving');
@@ -218,7 +226,7 @@ try {
     let err = push();
     if (err) { const again = pull(); if (!again) err = push(); }
     if (err) done({ ok: false, error: 'Saved on this computer, but the upload failed:\n' + err });
-    done({ ok: true, count: files.length, notes: noteFiles.length, site: siteUrl() });
+    done({ ok: true, count: files.length, notes: noteFiles.length, ...tidied, site: siteUrl() });
   }
 
   done({ ok: false, error: 'Usage: node tools/obsidian.mjs inspect|publish|publish-all|fix|status …' });

@@ -181,3 +181,16 @@ body.writer{min-height:100%}
 .w-list small{display:block;margin:.1rem 0 0 0}
 .w-list-head{padding:.7rem .3rem .3rem;font-size:.78rem;font-variant-caps:small-caps;letter-spacing:.05em;color:var(--muted);background:var(--bg)}
 .w-list .w-more-rows{text-align:center;color:var(--accent)}
+/* deleting */
+.w-row{display:flex;align-items:stretch}
+.w-row>[data-open]{flex:1;min-width:0}
+.w-list .w-row-del{flex:none;width:auto;padding:.3rem .7rem;font-size:.82rem;color:var(--muted);opacity:0}
+.w-row:hover .w-row-del,.w-row-del:focus{opacity:1}
+.w-list .w-row-del:hover{color:var(--danger);background:none;text-decoration:underline}
+@media (hover:none){.w-list .w-row-del{opacity:1}}
+.w-danger-solid{background:var(--danger,#A8322A);border-color:var(--danger,#A8322A);color:#fff;font-weight:700}
+.w-del-list{max-height:30vh}
+.w-del-list li{padding:.35rem .2rem}
+.w-del-list small{margin-left:0}
+.w-dialog p{margin:.5rem 0}
+.w-preview .owner-tools{display:none}

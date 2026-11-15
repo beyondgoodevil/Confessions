@@ -644,6 +644,10 @@ function viewSeriesList() {
     ${rows.length ? `<ol class="fr-list fr-list-full">${rows.map(([k, s]) => `<li><span class="fr-addr">${s.ns.length}</span><div><a href="#/series/${encodeURIComponent(k)}">${esc(s.name)}</a></div></li>`).join('')}</ol>` : '<p class="fr-empty">No series yet.</p>'}</div>`;
 }
 
+// True in a browser where the Writer page is connected to GitHub (the owner's). Visitors never see the owner's links.
+function ownerHere() {
+  try { const v = JSON.parse(localStorage.getItem('cp-conn') || sessionStorage.getItem('cp-conn') || 'null'); return !!(v && v.token); } catch { return false; }
+}
 function viewNote(n) {
   const r = renderNoteBody(n);
   const f = n.fm, sec = n.section;
@@ -684,7 +688,7 @@ function viewNote(n) {
       ${cite ? `<p class="cite">${cite}</p>` : ''}
       ${url ? `<p class="source-link"><a class="external" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(str(f.urlLabel) || 'Source')}</a></p>` : ''}
       <p class="note-updated">${n.updated ? `Updated ${fmtDate(n.updated)} · ` : ''}${readMinutes(n)} min read</p>
-      <p class="note-tools"><button type="button" class="linklike" data-action="copy-link">Copy link</button><span aria-hidden="true"> · </span><button type="button" class="linklike" data-action="cite">Cite this note</button></p>
+      <p class="note-tools"><button type="button" class="linklike" data-action="copy-link">Copy link</button><span aria-hidden="true"> · </span><button type="button" class="linklike" data-action="cite">Cite this note</button>${ownerHere() ? `<span class="owner-tools"><span aria-hidden="true"> · </span><a class="linklike" href="write.html?edit=${encodeURIComponent(n.path)}">Edit</a><span aria-hidden="true"> · </span><a class="linklike owner-delete" href="write.html?delete=${encodeURIComponent(n.path)}">Delete</a></span>` : ''}</p>
       ${tags ? `<p class="note-tags">${tags}</p>` : ''}
       ${series}
     </header>

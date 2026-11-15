@@ -825,6 +825,54 @@ function splitFront(raw) {
 }
 function joinFront(blocks, body) { return '---\n' + blocks.map(b => b.text).filter(t => t.trim()).join('\n') + '\n---\n\n' + body.replace(/\s+$/, '') + '\n'; }
 
+/* ---------------- deleting a note ---------------- */
+// Shows what deleting will touch, then removes the note and, in the same commit, takes it out of every Related
+// list and guide and turns links to it inside sentences into plain text (assets/tidy-core.js; tools/tidy.mjs
+// does the same for notes deleted in Obsidian or on github.com).
+function deleteFlow(path, after) {
+  if (!conn() || !conn().token) { toast('Connect to GitHub in Settings first.'); showTab('settings'); return; }
+  const n = W.notes.find(x => x.path === path);
+  if (!n || !n._meta) { toast('That note is not in the notebook any more.'); return; }
+  const m = n._meta, T = window.CommonplaceTidy;
+  // a title or alias that another note also answers to is left alone
+  const others = new Set(W.notes.filter(x => x !== n && x._meta).flatMap(x => [x._meta.title, x._meta.id]).map(k => String(k).toLowerCase()));
+  const target = { title: others.has(m.title.toLowerCase()) ? '' : m.title, id: m.id, aliases: m.aliases.filter(a => !others.has(a.toLowerCase())), path };
+  const hit = W.notes.filter(x => x !== n && x.raw).map(x => ({ x, r: T.unlink(x.raw, [target]) })).filter(a => a.r.changed);
+  const lists = hit.reduce((s, a) => s + a.r.removed, 0), prose = hit.reduce((s, a) => s + a.r.unlinked, 0);
+  // pictures only this note uses
+  const embeds = [...String(n.raw).matchAll(/!\[\[([^\]|#\n]+)|!\[[^\]]*\]\(([^)\s]+)/g)].map(x => (x[1] || x[2]).trim().split('/').pop().toLowerCase()).filter(f => /\.(png|jpe?g|gif|svg|webp|avif|bmp|pdf)$/.test(f));
+  const restText = W.notes.filter(x => x !== n).map(x => String(x.raw || '').toLowerCase()).join('\n');
+  const pics = [...new Set(embeds)].map(f => W.files.find(p => p.toLowerCase().endsWith('/' + f))).filter(Boolean).filter(p => !restText.includes(p.split('/').pop().toLowerCase()));
+  const row = a => `<li><span class="w-mono">${esc(a.x._meta ? a.x._meta.id : '')}</span> ${esc(a.x._meta ? a.x._meta.title : a.x.path)} <small>${[a.r.removed ? `${a.r.removed} list entr${a.r.removed === 1 ? 'y' : 'ies'} removed` : '', a.r.unlinked ? `${a.r.unlinked} link${a.r.unlinked === 1 ? '' : 's'} in the text made plain` : ''].filter(Boolean).join(' · ')}</small></li>`;
+  modal('', `<h2>Delete “${esc(m.title)}”?</h2>
+    <p class="w-muted"><span class="w-mono">${esc(m.id)}</span> · ${esc(path)}. Its address is retired and will not be given to another note.</p>
+    ${hit.length ? `<p>${hit.length} other note${hit.length === 1 ? ' points' : 's point'} at it. They are cleaned up in the same step${lists ? `: ${lists} entr${lists === 1 ? 'y' : 'ies'} come out of Related lists and guides (numbered lists are renumbered)` : ''}${prose ? `${lists ? ', and ' : ': '}${prose} link${prose === 1 ? '' : 's'} inside sentences become${prose === 1 ? 's' : ''} plain text` : ''}.</p>
+      <ul class="w-rel w-del-list">${hit.map(row).join('')}</ul>` : '<p>No other note links to it.</p>'}
+    ${pics.length ? `<label class="w-check"><input type="checkbox" name="pics" checked> Also delete ${pics.length} picture${pics.length === 1 ? '' : 's'} only this note uses <small>(${esc(pics.map(p => p.split('/').pop()).join(', '))})</small></label>` : ''}
+    <p class="w-muted">You can bring it back from the repository's history on GitHub if you change your mind.</p>
+    <div class="w-actions"><button type="button" class="w-btn" value="cancel">Cancel</button><button type="button" class="w-btn w-danger-solid" value="ok">Delete the note</button></div>`,
+    async d => {
+      const withPics = pics.length && $('[name=pics]', d) && $('[name=pics]', d).checked;
+      busy(true, 'Deleting and cleaning up…');
+      try {
+        const files = [{ path, remove: true }], fresh = [];
+        for (const a of hit) {                    // work on the newest copy of each note, not the one loaded with the page
+          let latest = a.x.raw; try { latest = await readFile(a.x.path); } catch {}
+          const r = T.unlink(latest, [target]);
+          if (r.changed) { files.push({ path: a.x.path, content: r.text }); fresh.push([a.x, r.text]); }
+        }
+        if (withPics) pics.forEach(p => files.push({ path: p, remove: true }));
+        await commitFiles(files, `Delete ${m.id ? m.id + ' ' : ''}${m.title}${fresh.length ? `; remove it from ${fresh.length} note${fresh.length === 1 ? '' : 's'}` : ''}`);
+        fresh.forEach(([x, text]) => { x.raw = text; });
+        W.notes = W.notes.filter(x => x.path !== path); if (withPics) W.files = W.files.filter(p => !pics.includes(p));
+        store.set('recent-edits', store.get('recent-edits', []).filter(p => p !== path));
+        annotate();
+        done(`Deleted <strong>${esc(m.title)}</strong>${fresh.length ? ` and cleaned up ${fresh.length} note${fresh.length === 1 ? '' : 's'} that pointed at it` : ''}.`);
+        if (after) after();
+      } catch (e) { toast(esc(e.message), 9000); } finally { busy(false); }
+    });
+}
+
 /* ---------------- Edit tab ---------------- */
 const editState = { q: '', sec: '', sort: 'recent', limit: 60 };
 const day = t => t ? new Date(t).toISOString().slice(0, 10) : '';
@@ -837,8 +885,9 @@ function editRows() {
   return rows.sort(by[editState.sort] || by.recent);
 }
 function editList() {
-  const row = m => `<li><button type="button" data-open="${esc(m.path)}"><span class="w-mono">${esc(m.id)}</span> ${esc(m.title)}
-    <small>${esc(m.section)}${m.tags.length ? ' · ' + esc(m.tags.slice(0, 4).join(', ')) : ''}${m.updated ? ' · ' + day(m.updated) : ''}</small></button></li>`;
+  const row = m => `<li class="w-row"><button type="button" data-open="${esc(m.path)}"><span class="w-mono">${esc(m.id)}</span> ${esc(m.title)}
+    <small>${esc(m.section)}${m.tags.length ? ' · ' + esc(m.tags.slice(0, 4).join(', ')) : ''}${m.updated ? ' · ' + day(m.updated) : ''}</small></button>
+    <button type="button" class="w-row-del" data-del="${esc(m.path)}" title="Delete this note" aria-label="Delete ${esc(m.title)}">Delete</button></li>`;
   const rows = editRows(), shown = rows.slice(0, editState.limit);
   const byPath = new Map(W.notes.filter(n => n._meta).map(n => [n.path, n._meta]));
   const recent = !editState.q && !editState.sec ? store.get('recent-edits', []).map(p => byPath.get(p)).filter(Boolean).slice(0, 5) : [];
@@ -858,7 +907,10 @@ function editTab() {
   $('#edit-q').addEventListener('input', e => { editState.q = e.target.value.trim(); editState.limit = 60; draw(); });
   $('#edit-sec').addEventListener('change', e => { editState.sec = e.target.value; editState.limit = 60; draw(); });
   $('#edit-sort').addEventListener('change', e => { editState.sort = e.target.value; draw(); });
-  $('#tab-edit .w-list').addEventListener('click', e => { if (e.target.closest('[data-more]')) { editState.limit += 100; draw(); } });
+  $('#tab-edit .w-list').addEventListener('click', e => {
+    if (e.target.closest('[data-more]')) { editState.limit += 100; draw(); }
+    const del = e.target.closest('[data-del]'); if (del) deleteFlow(del.dataset.del, draw);
+  });
   $('#edit-q').addEventListener('keydown', e => { if (e.key === 'Enter') { const first = $('#tab-edit .w-list [data-open]'); if (first) first.click(); } });
   draw(); $('#edit-q').focus();
 }
@@ -952,12 +1004,7 @@ async function openEditor(path, rawMode = false) {
       done(`Published your changes to <code>${esc(np)}</code>. The site updates in about a minute.`); editTab();
     } catch (e) { status.textContent = e.message; } finally { busy(false); }
   };
-  $('[data-delete]', form).onclick = async () => {
-    if (!confirm(`Delete ${path}? Its address won't be reused, and links to it will show as not-yet-written.`)) return;
-    busy(true, 'Deleting…');
-    try { await commitFiles([{ path, remove: true }], `Delete ${path}`); W.notes = W.notes.filter(n => n.path !== path); annotate(); done(`Deleted <code>${esc(path)}</code>.`); editTab(); }
-    catch (e) { $('.w-status', form).textContent = e.message; } finally { busy(false); }
-  };
+  $('[data-delete]', form).onclick = () => deleteFlow(path, editTab);
 }
 
 /* ---------------- Bulk upload tab ---------------- */
@@ -1105,7 +1152,13 @@ async function boot() {
   $('.w-tabs').addEventListener('click', e => { const b = e.target.closest('[data-tab]'); if (b) showTab(b.dataset.tab); });
   document.addEventListener('click', e => { const b = e.target.closest('#conn [data-tab]'); if (b) showTab('settings'); });
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') $('#local-note').hidden = false;
-  updateConn(); showTab(conn() && conn().token ? 'write' : 'settings');
+  updateConn();
+  const ask = new URLSearchParams(location.search), want = ask.get('edit') || ask.get('delete');
+  if (want && conn() && conn().token && W.notes.some(n => n.path === want)) {
+    history.replaceState(null, '', location.pathname);
+    showTab('edit');
+    if (ask.get('delete')) deleteFlow(want, () => { const m = $('#tab-edit .w-list'); if (m) m.innerHTML = editList(); }); else openEditor(want);
+  } else showTab(conn() && conn().token ? 'write' : 'settings');
 }
 boot();
 })();

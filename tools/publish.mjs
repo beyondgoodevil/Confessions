@@ -11,6 +11,7 @@ const run = (cmd, quiet = false) => execSync(cmd, { cwd: ROOT, stdio: quiet ? 'i
 const step = s => console.log(`\n== ${s}`);
 try {
   step('Getting the latest version from GitHub'); run('git pull --rebase --autostash');
+  step('Cleaning up after deleted notes');       run('node tools/tidy.mjs');
   step('Giving new notes their addresses');      run('node tools/stamp.mjs');
   step('Building the site');                     run('node tools/build.mjs', true); console.log('built.');
   step('Checking links and front matter');       run('node tools/check.mjs');
