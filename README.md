@@ -34,6 +34,8 @@ Open a terminal in this folder (needs Node.js and Git). The whole routine:
 
 **Publishing from Obsidian:** the vault has its own plugin, *Publish to Confessions* (`.obsidian/plugins/publish-confessions`). Click the cloud icon in the left ribbon (or run *Publish this note* from the command palette) to see what needs fixing and which notes to link, then press Publish. `Ctrl+Alt+P` publishes the open note straight away when nothing is wrong. The status bar at the bottom shows how many notes have changes that are not on the site yet; click it for *Publish everything changed*. It needs Node.js and works on the desktop app only. A note with `draft: true` is saved to GitHub but kept off the site.
 
+**On the site:** every note has its own address (`…/M-0416/`) and opens with its text already there. Press `/` to search; *See all … with their passages* opens the full search page, where `author:`, `title:`, `before:` and `after:` narrow the results. **People** in the top bar lists every author and thinker the notes draw on, each with the works used, the notes and the quotations; it is built from the notes' `source:` lines and citations, and `people.json` is where to say that two spellings are one person.
+
 More helpers:
 
 - **Start from an outline:** `npm run new -- misc "My Title" --outline comparison` fills the note with a skeleton (`study`, `comparison`, `book`, `lecture`, or `none`). Books and lectures get theirs by default. The outlines are the `Outline - ….md` files in `templates/`, so Obsidian's *Insert template* offers them too, and any `Outline - Name.md` you add becomes `--outline name`.

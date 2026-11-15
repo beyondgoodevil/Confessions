@@ -14,6 +14,9 @@ import { execFileSync } from 'node:child_process';
 import { ROOT, loadConfig, readNotes, planIds, addFields, today, slug } from './lib.mjs';
 import { rank } from './suggest.mjs';
 import { tidy, deletedSince } from './tidy.mjs';
+import { pathToFileURL } from 'node:url';
+await import(pathToFileURL(path.join(ROOT, 'assets', 'checks-core.js')).href);     // the checks the Writer page uses too
+const Core = globalThis.CommonplaceChecks;
 
 const [cmd, ...rest] = process.argv.slice(2);
 const flag = k => { const i = rest.indexOf('--' + k); return i < 0 ? null : (rest[i + 1] && !rest[i + 1].startsWith('--') ? rest[i + 1] : true); };
@@ -51,32 +54,19 @@ function inspect(note, notes) {
   });
   const off = headLines(raw);
   const body = bodyOf(raw);
-  const heads = [...body.matchAll(/^(#{2,3})[ \t]+(.+?)\s*$/gm)].map(m => ({ level: m[1].length, text: m[2] }));
-  const count = l => heads.filter(h => h.level === l && !/^(related|conclusion)$/i.test(h.text)).length;
-  if (count(2) < 2 && count(3) < 2) problems.push({ text: 'No contents box: the note needs at least two "### 1. …" sections.', line: off + 1 });
-  if (!heads.some(h => /^conclusion$/i.test(h.text))) warnings.push({ text: 'No "### Conclusion" section.', line: raw.split('\n').length });
-  if (!heads.some(h => h.level === 2 && /^related$/i.test(h.text))) warnings.push({ text: 'No "## Related" list (ticking a note below adds one).', line: raw.split('\n').length });
-  if (!note.fields.title) warnings.push({ text: `No title: line, so the note is called "${baseName(note.path)}" after its file.`, line: 2 });
-  for (const k of ['summary', 'tags']) if (!note.fields[k] || note.fields[k] === '[]') warnings.push({ text: `No ${k}: in the front matter.`, line: lineOf(raw, new RegExp(`^${k}[ \\t]*:`, 'm')) });
-  if (note.path.startsWith('notes/misc/') && !note.fields.source) warnings.push({ text: 'No source: line (Miscellany notes cite their sources there).', line: lineOf(raw, /^source[ \t]*:/m) });
-  if (/^draft[ \t]*:[ \t]*true[ \t]*$/mi.test(fm ? fm[1] : '')) warnings.push({ text: 'draft: true is set, so the note will be saved to GitHub but not shown on the site.', line: lineOf(raw, /^draft[ \t]*:/m) });
-  if (/\[\[\]\]/.test(body)) warnings.push({ text: 'An empty [[ ]] link is left over from the outline.', line: lineOf(raw, /\[\[\]\]/) });
-
-  // links that point at nothing
+  // what a link may point at: an address, a title, a file name or an alias
   const key = new Map(); const add = (k, n) => { const s = slug(k); if (s && !key.has(s)) key.set(s, n); };
   for (const n of notes) { if (n.fields.id) key.set(n.fields.id.toLowerCase(), n); add(titleOf(n), n); }
   for (const n of notes) { add(baseName(n.path), n); aliasesOf(n).forEach(a => add(a, n)); }
-  const text = body.replace(/```[\s\S]*?```|~~~[\s\S]*?~~~|`[^`\n]*`/g, m => m.replace(/[^\n]/g, ' '));
-  const missing = new Map();
-  for (const m of text.matchAll(/!?\[\[([^\[\]\n]+?)\]\]/g)) {
-    const target = m[1].replace(/\\\|/g, '|').split('|')[0].split('#')[0].trim();
-    if (!target || /\.(png|jpe?g|gif|svg|webp|avif|bmp|pdf)$/i.test(target)) continue;
-    if (!(key.get(target.toLowerCase()) || key.get(slug(target))) && !missing.has(target)) missing.set(target, off + text.slice(0, m.index).split('\n').length);
-  }
-  for (const [t, line] of missing) warnings.push({ text: `[[${t}]] points at a note that does not exist yet.`, line });
-  const clash = notes.find(n => n !== note && slug(titleOf(n)) === slug(titleOf(note)));
-  if (clash) problems.push({ text: `Another note has the same title (${clash.path}), so links to it are ambiguous.`, line: 2 });
-
+  const tags = (String(note.fields.tags || '').match(/^\[(.*)\]$/) || [, String(note.fields.tags || '')])[1].split(',').map(t => t.trim().replace(/^['"]|['"]$/g, '')).filter(Boolean);
+  const meta = { title: note.fields.title ? titleOf(note) : '', tags, summary: note.fields.summary || '', body, path: note.path,
+    source: note.fields.source || '', draft: /^draft[ \t]*:[ \t]*true[ \t]*$/mi.test(fm ? fm[1] : ''), kind: note.path.startsWith('notes/misc/') ? 'misc' : '' };
+  const fieldLine = f => f ? lineOf(raw, new RegExp(`^${f}[ \\t]*:`, 'm')) : raw.split('\n').length;
+  for (const i of Core.check(meta, {
+    linkExists: t => !!(key.get(t.toLowerCase()) || key.get(slug(t))) || /\.(png|jpe?g|gif|svg|webp|avif|bmp|pdf)$/i.test(t),
+    titleTaken: t => notes.some(n => n !== note && slug(titleOf(n)) === slug(t))
+  })) (i.level === 'problem' ? problems : warnings).push({ text: i.id === 'no-related' ? 'No Related list (ticking a note below adds one).' : i.text,
+    line: i.line != null ? off + i.line + 1 : fieldLine(i.field), ...(i.fix && !i.fix.ui ? { fix: i.fix.id, fixLabel: i.fix.label } : {}) });
   // notes worth linking
   const relBlock = (body.match(/^## Related[ \t]*\r?\n([\s\S]*?)(?=^## |\s*$(?![\s\S]))/m) || [, ''])[1];
   const inRelated = new Set([...relBlock.matchAll(/\[\[([^\]|#]+)/g)].map(m => m[1].trim().toLowerCase()));
@@ -153,7 +143,17 @@ try {
     const { note } = load(positional[0]); const what = positional[1] || '';
     if (!note) done({ ok: false, error: 'No such note.' });
     const k = what.replace(/^quote-/, '');
-    if (!what.startsWith('quote-')) done({ ok: false, error: `Unknown fix "${what}".` });
+    if (!what.startsWith('quote-')) {
+      const body = bodyOf(note.raw), head = note.raw.slice(0, note.raw.length - body.length);
+      const u = Core.applyFix(what, { title: note.fields.title ? titleOf(note) : '', summary: note.fields.summary || '', body });
+      if (u.title == null && u.summary == null && u.body == null) done({ ok: false, error: `Unknown fix "${what}".` });
+      // set a front-matter value, quoted, keeping every other line as it is
+      const setFm = (h, key, v) => new RegExp(`^${key}[ \\t]*:.*$`, 'm').test(h) ? h.replace(new RegExp(`^${key}[ \\t]*:.*$`, 'm'), () => `${key}: ${JSON.stringify(v)}`)
+        : h.replace(/(\r?\n)---[ \t]*(\r?\n?)$/, (m, a, b) => `${a}${key}: ${JSON.stringify(v)}${a}---${b}`);
+      let h = head; if (u.title != null) h = setFm(h, 'title', u.title); if (u.summary != null) h = setFm(h, 'summary', u.summary);
+      fs.writeFileSync(note.file, h + (u.body != null ? u.body : body));
+      done({ ok: true });
+    }
     const fm = note.raw.match(/^﻿?---[ \t]*\r?\n([\s\S]*?)\r?\n---[ \t]*(?:\r?\n|$)/);
     if (!fm) done({ ok: false, error: 'The note has no front matter.' });
     const inner = fm[1].replace(new RegExp(`^(${k}[ \\t]*:[ \\t]*)(.*?)[ \\t]*$`, 'mi'), (m, a, v) => a + JSON.stringify(v));

@@ -111,7 +111,7 @@ function toolbar() {
     <button type="button" data-ins="ul" title="Bulleted list">• List</button>
     <button type="button" data-ins="ol" title="Numbered list">1. List</button>
     <button type="button" data-ins="quote" title="Quotation">“ ”</button>
-    <button type="button" data-ins="table" title="Insert a table">Table</button>
+    <button type="button" data-ins="table" title="Insert a table, or edit the one the cursor is in as a grid">Table</button>
     <button type="button" data-ins="hr" title="Dividing line">—</button>
     <button type="button" data-ins="link" title="Link to a note (or type [[)">[[ ]]</button>
     <button type="button" data-ins="math" title="Inline maths">$x$</button>
@@ -131,40 +131,9 @@ const sidePanels = () => `<div class="w-side"><details class="w-checks" open><su
   <details class="w-outline"><summary>Outline</summary><ol></ol></details></div>`;
 
 /* ---- structure helpers ---- */
-const UNNUMBERED = /^(related|references|footnotes|see also|sources|further reading|conclusion)$/i;
-const NUM_PREFIX = /^(\d+|[IVXLC]+)[.)]\s+/;
-// Every heading in the body with its line number, skipping fenced code.
-function headings(body) {
-  const out = []; let fence = false;
-  body.split('\n').forEach((line, i) => {
-    if (/^\s*(```|~~~)/.test(line)) { fence = !fence; return; }
-    const m = !fence && line.match(/^(#{1,6})[ \t]+(.+?)[ \t#]*$/);
-    if (m) out.push({ level: m[1].length, text: m[2], line: i });
-  });
-  return out;
-}
-// The level a note's sections sit at: ### when it has two or more of those and fewer than two ## sections
-// (the house style: "### 1. Title", then "### Conclusion" and "## Related"), otherwise ##.
-function sectionLevel(hs) {
-  const real = l => hs.filter(h => h.level === l && !UNNUMBERED.test(h.text.replace(NUM_PREFIX, ''))).length;
-  return real(3) >= 2 && real(2) < 2 ? 3 : 2;
-}
-function numberSections(body, strip) {
-  const lines = body.split('\n'), hs = headings(body), lvl = sectionLevel(hs); let n = 0;
-  for (const h of hs) {
-    if (h.level !== lvl) continue;
-    const bare = h.text.replace(NUM_PREFIX, '');
-    lines[h.line] = '#'.repeat(lvl) + ' ' + (strip || UNNUMBERED.test(bare) ? bare : `${++n}. ${bare}`);
-  }
-  return lines.join('\n');
-}
-// How the sections are numbered: { lvl, real (the headings that take a number), numbered (how many have one), inOrder }
-function numbering(body) {
-  const hs = headings(body), lvl = sectionLevel(hs);
-  const real = hs.filter(h => h.level === lvl && !UNNUMBERED.test(h.text.replace(NUM_PREFIX, '')));
-  const nums = real.map(h => (h.text.match(/^(\d+)[.)]\s/) || [])[1]).map(x => x ? +x : null);
-  return { lvl, real, numbered: nums.filter(x => x != null).length, inOrder: nums.every((x, i) => x === i + 1) };
-}
+// Headings, section numbers, the checks and their fixes live in assets/checks-core.js, shared with the Obsidian plugin.
+const Core = window.CommonplaceChecks;
+const { UNNUMBERED, NUM_PREFIX, headings, sectionLevel, numberSections, numbering, wikiLinks, splitRelated, titleCase, firstParagraph } = Core;
 // Replace the whole text but keep the caret on the same line, at the same distance from the end of that line.
 function replaceBody(ta, next) {
   if (next === ta.value) return false;
@@ -182,19 +151,10 @@ function jumpToLine(ta, line, len) {
   ta.scrollTop = Math.max(0, (l / Math.max(1, lines.length)) * ta.scrollHeight - 80);
   ta.scrollIntoView({ block: 'nearest' });
 }
-const wikiLinks = body => [...body.matchAll(/(!?)\[\[([^\]\n|#]+)(?:#[^\]\n|]*)?(?:\|[^\]\n]*)?\]\]/g)].filter(m => !m[1]).map(m => m[2].trim());
 function noteIndex() {
   const m = new Map();
   for (const x of W.notes.map(n => n._meta).filter(Boolean)) { for (const k of [x.title, x.id, ...x.aliases]) m.set(String(k).toLowerCase(), x); }
   return m;
-}
-// Splits the body into what comes before "## Related" and the titles already listed there.
-function splitRelated(body) {
-  const hs = headings(body), lines = body.split('\n');
-  const i = hs.findIndex(h => h.level === 2 && /^related$/i.test(h.text.replace(NUM_PREFIX, '')));
-  if (i < 0) return { before: body.replace(/\s+$/, ''), listed: [], after: '' };
-  const start = hs[i].line, next = hs.slice(i + 1).find(h => h.level <= 2), end = next ? next.line : lines.length;
-  return { before: lines.slice(0, start).join('\n').replace(/\s+$/, ''), listed: wikiLinks(lines.slice(start, end).join('\n')), after: lines.slice(end).join('\n').replace(/\s+$/, '') };
 }
 function relatedCandidates(meta) {
   const idx = noteIndex(), mine = new Set(meta.tags), { before, listed } = splitRelated(meta.body);
@@ -422,53 +382,27 @@ function drawOutline(root, ta) {
     return `<li class="lvl-${h.level}"><button type="button" data-line="${h.line}">${esc(h.text)}</button>${h.level === 1 ? ' <small>use ## — the title is already the top heading</small>' : skip ? ' <small>skips a level</small>' : ''}</li>`; }).join('')
     || '<li class="w-empty">No headings yet. Start a section with <code>## </code>.</li>';
 }
-const SMALL_WORDS = /^(a|an|and|as|at|but|by|for|from|if|in|into|is|nor|of|on|or|so|the|to|up|via|vs|with|yet)$/i;
-const titleCase = t => t.split(/(\s+)/).map((w, i) => /^[a-z]/.test(w) && (i === 0 || !SMALL_WORDS.test(w)) ? w[0].toUpperCase() + w.slice(1) : w).join('');
-// The opening paragraph as plain text, cut at a sentence end: a starting point for the summary.
-function firstParagraph(body) {
-  const para = body.split(/\n\s*\n/).map(x => x.trim()).find(x => x && !/^(#|>|\||```|~~~|[-*+]\s|\d+[.)]\s|!\[)/.test(x)) || '';
-  let t = para.replace(/!?\[\[([^\]|]+\|)?([^\]]+)\]\]/g, '$2').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/[*_=`]+/g, '').replace(/\$+/g, '').replace(/\s+/g, ' ').trim();
-  if (t.length > 300) { const cut = t.slice(0, 300), dot = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('? ')); t = dot > 80 ? cut.slice(0, dot + 1) : cut.replace(/\s+\S*$/, '') + '…'; }
-  return t;
+// The list under the editor. The checks themselves are CommonplaceChecks.check(); here each gets its fix wired
+// to the form: api = { ta, setField, focusField, getMeta }.
+function runFix(fix, a) {
+  if (fix.ui) return relatedDialog(a.ta, a.getMeta);
+  const m = a.getMeta(), u = Core.applyFix(fix.id, { title: m.title, summary: m.summary, body: a.ta.value });
+  if (u.title != null && a.setField) a.setField('title', u.title);
+  if (u.summary != null && a.setField) { a.setField('summary', u.summary); a.focusField('summary'); }
+  if (u.body != null) { replaceBody(a.ta, u.body); if (u.caret) jumpToLine(a.ta, a.ta.value.split('\n').indexOf(u.caret) + 2, 0); }
 }
-// Things to look at before publishing. Nothing here blocks it. Each item may say where it is (field or line)
-// and may carry a fix: { label, run(api) } where api = { ta, setField, focusField, getMeta }.
 function checkNote(meta) {
-  const out = [], body = meta.body || '', hs = headings(body), idx = noteIndex(), words = body.trim().split(/\s+/).filter(Boolean).length;
-  const lineOf = re => { const i = body.split('\n').findIndex(l => re.test(l)); return i < 0 ? null : i; };
-  const add = (text, o = {}) => out.push({ text, ...o });
-  if (!meta.title) add('The note has no title.', { field: 'title' });
-  else {
-    const w = meta.title.split(/\s+/), bad = w.filter((x, i) => /^[a-z]/.test(x) && (i === 0 || !SMALL_WORDS.test(x)));
-    if (bad.length) add(`Title isn't in title case (“${bad[0]}”).`, { field: 'title', fix: { label: 'Capitalise it', run: a => a.setField('title', titleCase(meta.title)) } });
-    if (W.notes.some(n => n._meta && n._meta.path !== meta.path && n._meta.title.toLowerCase() === meta.title.toLowerCase())) add('Another note already has this title, so links to it will be ambiguous.', { field: 'title' });
-  }
-  if (/^notes\/guides\//.test(meta.path || '') && meta.title && !/^guide:\s/i.test(meta.title)) add('Guide titles start with “Guide: ”, like the others.', { field: 'title', fix: { label: 'Add it', run: a => a.setField('title', 'Guide: ' + meta.title) } });
-  if (!meta.tags.length) add('No tags.', { field: 'tags' });
-  if (!meta.summary) { const draft = firstParagraph(body);
-    add('No summary. It is what shows under the title in lists and guides.', { field: 'summary', fix: draft ? { label: 'Draft it from the first paragraph', run: a => { a.setField('summary', draft); a.focusField('summary'); } } : null }); }
-  const missing = [...new Set(wikiLinks(body).filter(t => !idx.has(t.toLowerCase())))];
-  if (missing.length) add(`Links to notes that don't exist: ${missing.slice(0, 4).map(t => `“${t}”`).join(', ')}${missing.length > 4 ? ` and ${missing.length - 4} more` : ''}.`, { line: lineOf(new RegExp('\\[\\[' + missing[0].replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))) });
-  if (/\[\[\s*\]\]/.test(body)) add('An empty [[ ]] link is left in the note.', { line: lineOf(/\[\[\s*\]\]/) });
-  if (hs.some(h => h.level === 1)) add('A single # heading repeats the title. Use ## for sections.', { line: hs.find(h => h.level === 1).line,
-    fix: { label: 'Make it ##', run: a => { const ls = a.ta.value.split('\n'); for (const h of headings(a.ta.value)) if (h.level === 1) ls[h.line] = '#' + ls[h.line]; replaceBody(a.ta, ls.join('\n')); } } });
-  const nb = numbering(body), isGuide = /^notes\/guides\//.test(meta.path || '') || meta.tags.includes('guide');
-  if (words > 250 && nb.real.length < 2) add('A long note with no sections. Two or more ### headings give it a table of contents.');
-  if (nb.numbered && (!nb.inOrder || nb.numbered < nb.real.length)) add('Section numbers are out of order.', { line: nb.real[0].line, fix: { label: 'Renumber', run: a => replaceBody(a.ta, numberSections(a.ta.value, false)) } });
-  if (!isGuide && words > 250 && nb.real.length >= 2 && !hs.some(h => /^conclusion$/i.test(h.text.replace(NUM_PREFIX, '')))) add('No Conclusion section.', { fix: { label: 'Add the heading', run: a => {
-    const v = a.ta.value, cur = numbering(v), { before, listed, after } = splitRelated(v), rel = hs.some(h => /^related$/i.test(h.text.replace(NUM_PREFIX, '')));
-    const head = '#'.repeat(cur.lvl) + ' Conclusion';
-    a.ta.value = before + '\n\n' + head + '\n\n' + (rel ? '\n## Related\n\n' + listed.map(t => `- [[${t}]]`).join('\n') : '') + (after ? '\n\n' + after : '') + '\n';
-    jumpToLine(a.ta, a.ta.value.split('\n').indexOf(head) + 2, 0);
-  } } });
-  if (!isGuide && words > 80 && !hs.some(h => /^related$/i.test(h.text.replace(NUM_PREFIX, '')))) add('No Related list.', { fix: { label: 'Suggest one…', run: a => relatedDialog(a.ta, a.getMeta) } });
-  return out;
+  const idx = noteIndex();
+  return Core.check(meta, {
+    linkExists: t => idx.has(t.toLowerCase()),
+    titleTaken: t => W.notes.some(n => n._meta && n._meta.path !== meta.path && n._meta.title.toLowerCase() === t.toLowerCase())
+  }).map(i => ({ ...i, fix: i.fix ? { label: i.fix.label, run: a => runFix(i.fix, a) } : null }));
 }
 function drawChecks(root, api) {
   const ul = $('.w-checks ul', root); if (!ul || !api) return;
   const issues = root._issues = checkNote(api.getMeta());
   ul.innerHTML = issues.map((i, k) => { const where = i.field && api.focusField ? 'field' : i.line != null ? 'line' : '';
-    return `<li>${where ? `<button type="button" class="w-check-go" data-check="${k}" title="${where === 'field' ? 'Go to the field' : 'Go to the line'}">${esc(i.text)}</button>` : `<span>${esc(i.text)}</span>`}${i.fix && (!i.field || api.setField) ? ` <button type="button" class="w-check-fix" data-fix="${k}">${esc(i.fix.label)}</button>` : ''}</li>`; }).join('') || '<li class="w-ok">Nothing to fix.</li>';
+    return `<li${i.level === 'problem' ? ' class="is-problem"' : ''}>${where ? `<button type="button" class="w-check-go" data-check="${k}" title="${where === 'field' ? 'Go to the field' : 'Go to the line'}">${esc(i.text)}</button>` : `<span>${esc(i.text)}</span>`}${i.fix && (!i.field || api.setField) ? ` <button type="button" class="w-check-fix" data-fix="${k}">${esc(i.fix.label)}</button>` : ''}</li>`; }).join('') || '<li class="w-ok">Nothing to fix.</li>';
   $('.w-checks summary', root).textContent = issues.length ? `Before you publish (${issues.length})` : 'Before you publish';
   const pane = root.closest('.w-pane'), badge = pane && $('.w-bar-checks', pane);
   if (badge) { badge.textContent = issues.length ? `${issues.length} to check` : '✓ ready'; badge.classList.toggle('is-ok', !issues.length); }
@@ -490,10 +424,164 @@ function insertLine(ta, text) {
   const a = ta.selectionStart, v = ta.value, lead = a > 0 && v[a - 1] !== '\n' ? '\n\n' : (a > 1 && v[a - 2] !== '\n' ? '\n' : '');
   ta.setRangeText(lead + text, a, ta.selectionEnd, 'end'); ta.focus(); ta.dispatchEvent(new Event('input'));
 }
+/* ---- styling as you type ----
+   The text box stays an ordinary text box (so the keyboard, spell-check and undo behave as usual); a layer
+   underneath it draws the same text with headings, bold, links, quotations and code picked out. Only colour and
+   weight change, never the width of a character, so the two stay exactly in step. */
+function paint(text) {
+  const e = t => t.replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+  const inline = t => e(t)
+    .replace(/(`+)([^`\n]+?)\1/g, '<span class="hl-code">$1$2$1</span>')
+    .replace(/(!?\[\[)([^\]\n]*)(\]\])/g, '<span class="hl-link">$1$2$3</span>')
+    .replace(/(\[)([^\]\n]+)(\]\([^)\n]*\))/g, '<span class="hl-link">$1$2$3</span>')
+    .replace(/(\*\*)(?=\S)([^*\n]+?)(\*\*)/g, '<span class="hl-b">$1$2$3</span>')
+    .replace(/(^|[^*\w])(\*)(?=\S)([^*\n]+?)(\*)(?!\*)/g, '$1<span class="hl-i">$2$3$4</span>')
+    .replace(/(==)([^=\n]+?)(==)/g, '<span class="hl-mark">$1$2$3</span>')
+    .replace(/(\$)([^$\n]+?)(\$)/g, '<span class="hl-math">$1$2$3</span>')
+    .replace(/(\[\^[^\]\n]+\])/g, '<span class="hl-fn">$1</span>');
+  let fence = false, front = false; const out = [];
+  const lines = text.split('\n');
+  for (let i = 0; i < lines.length; i++) {
+    const l = lines[i];
+    if (i === 0 && /^---\s*$/.test(l)) { front = true; out.push(`<span class="hl-dim">${e(l)}</span>`); continue; }
+    if (front) { if (/^---\s*$/.test(l)) front = false; out.push(`<span class="hl-dim">${e(l)}</span>`); continue; }
+    if (/^\s*(```|~~~)/.test(l)) { fence = !fence; out.push(`<span class="hl-code">${e(l)}</span>`); continue; }
+    if (fence) { out.push(`<span class="hl-code">${e(l)}</span>`); continue; }
+    let m;
+    if ((m = l.match(/^(#{1,6})([ \t]+.*)$/))) out.push(`<span class="hl-h hl-h${m[1].length}"><span class="hl-dim">${m[1]}</span>${inline(m[2])}</span>`);
+    else if ((m = l.match(/^(\s*&gt;|\s*>)(.*)$/))) out.push(`<span class="hl-quote"><span class="hl-dim">${e(m[1])}</span>${inline(m[2])}</span>`);
+    else if ((m = l.match(/^(\s*(?:[-*+]|\d+[.)])\s)(.*)$/))) out.push(`<span class="hl-dim">${e(m[1])}</span>${inline(m[2])}`);
+    else if (/^\s*\|.*\|\s*$/.test(l)) out.push(inline(l).replace(/\|/g, '<span class="hl-dim">|</span>'));
+    else if (/^\s*(---|\*\*\*)\s*$/.test(l)) out.push(`<span class="hl-dim">${e(l)}</span>`);
+    else out.push(inline(l));
+  }
+  return out.join('\n') + '\n';
+}
+function styleEditor(ta) {
+  if (ta._painted) return ta._painted;
+  const wrap = document.createElement('div'); wrap.className = 'w-edwrap';
+  const layer = document.createElement('pre'); layer.className = ta.className.replace('w-body', 'w-body w-hl'); layer.setAttribute('aria-hidden', 'true');
+  ta.before(wrap); wrap.append(layer, ta); ta.classList.add('w-over');
+  let frame = 0;
+  const draw = () => { frame = 0; layer.innerHTML = paint(ta.value); layer.scrollTop = ta.scrollTop; };
+  const soon = () => { if (!frame) frame = setTimeout(draw, 16); };   // a timer, not an animation frame: those stop while the window is in the background
+  ta.addEventListener('input', soon);
+  ta.addEventListener('scroll', () => { layer.scrollTop = ta.scrollTop; layer.scrollLeft = ta.scrollLeft; }, { passive: true });
+  if (window.ResizeObserver) new ResizeObserver(() => { layer.style.height = ta.offsetHeight + 'px'; }).observe(ta);
+  draw();
+  return (ta._painted = soon);
+}
+
+/* ---- tables you edit as a grid ---- */
+// split a table row into cells; a pipe inside [[a|b]], `code`, $maths$ or after a backslash is not a column break
+function tableCells(line) {
+  const out = []; let cur = '', i = 0; const t = line.trim();
+  while (i < t.length) {
+    const c = t[i];
+    if (c === '\\' && i + 1 < t.length) { cur += c + t[i + 1]; i += 2; continue; }
+    if (t.startsWith('[[', i)) { const e = t.indexOf(']]', i); if (e > 0) { cur += t.slice(i, e + 2); i = e + 2; continue; } }
+    if (c === '`' || c === '$') { const e = t.indexOf(c, i + 1); if (e > 0) { cur += t.slice(i, e + 1); i = e + 1; continue; } }
+    if (c === '|') { out.push(cur); cur = ''; i++; continue; }
+    cur += c; i++;
+  }
+  out.push(cur);
+  if (t.startsWith('|')) out.shift();
+  if (/(^|[^\\])\|$/.test(t)) out.pop();
+  return out.map(x => x.trim());
+}
+const isTableRule = line => { const c = tableCells(line); return c.length > 0 && c.every(x => /^:?-+:?$/.test(x)); };
+// The table the caret is in: { start, end (line numbers), head, rows, align } or null.
+function tableAt(ta) {
+  const lines = ta.value.split('\n'), at = ta.value.slice(0, ta.selectionStart).split('\n').length - 1;
+  const isRow = i => i >= 0 && i < lines.length && lines[i].includes('|') && lines[i].trim() !== '';
+  if (!isRow(at)) return null;
+  let a = at; while (isRow(a - 1)) a--;
+  let b = at; while (isRow(b + 1)) b++;
+  if (b - a < 1 || !isTableRule(lines[a + 1])) return null;
+  const head = tableCells(lines[a]), align = tableCells(lines[a + 1]).map(x => x.startsWith(':') && x.endsWith(':') ? 'c' : x.endsWith(':') ? 'r' : 'l');
+  return { start: a, end: b, head, align, rows: lines.slice(a + 2, b + 1).map(tableCells) };
+}
+function tableMarkdown(head, rows, align) {
+  const n = Math.max(head.length, ...rows.map(r => r.length), 1), len = x => [...x].length;
+  const safe = x => { const parts = tableCells('|' + x + '|'); return parts.length > 1 ? parts.join(' \\| ') : x; };   // a | typed into a cell must not start a new column
+  const all = [head, ...rows].map(r => Array.from({ length: n }, (_, j) => safe((r[j] || '').replace(/\s*\n\s*/g, ' ').trim())));
+  const w = Array.from({ length: n }, (_, j) => { const m = Math.max(3, ...all.map(r => len(r[j]))); return m > 48 ? 0 : m; });   // very wide columns are left unpadded
+  const line = r => '| ' + r.map((x, j) => w[j] ? x + ' '.repeat(w[j] - len(x)) : x).join(' | ') + ' |';
+  const rule = '| ' + Array.from({ length: n }, (_, j) => { const k = Math.max(3, w[j] || 3), a = align[j] || 'l'; return a === 'c' ? ':' + '-'.repeat(k - 2) + ':' : a === 'r' ? '-'.repeat(k - 1) + ':' : '-'.repeat(k); }).join(' | ') + ' |';
+  return [line(all[0]), rule, ...all.slice(1).map(line)].join('\n');
+}
+function tableEditor(ta, t) {
+  let head = [...t.head], rows = t.rows.map(r => [...r]), align = [...t.align];
+  const cols = () => Math.max(head.length, ...rows.map(r => r.length), 1);
+  const grid = () => { const n = cols();
+    return `<table class="w-grid-table"><thead><tr><th></th>${Array.from({ length: n }, (_, j) => `<th><button type="button" class="w-gt-al" data-al="${j}" title="Alignment: click to change">${{ l: 'Left', c: 'Centre', r: 'Right' }[align[j] || 'l']}</button><button type="button" class="w-gt-x" data-delc="${j}" title="Delete this column" aria-label="Delete column ${j + 1}">×</button></th>`).join('')}</tr>
+      <tr><th class="w-gt-lab">Head</th>${Array.from({ length: n }, (_, j) => `<td><input data-r="-1" data-c="${j}" value="${esc(head[j] || '')}" aria-label="Heading ${j + 1}"></td>`).join('')}</tr></thead>
+      <tbody>${rows.map((r, i) => `<tr><th><button type="button" class="w-gt-x" data-delr="${i}" title="Delete this row" aria-label="Delete row ${i + 1}">×</button></th>${Array.from({ length: n }, (_, j) => `<td><input data-r="${i}" data-c="${j}" value="${esc(r[j] || '')}" aria-label="Row ${i + 1}, column ${j + 1}"></td>`).join('')}</tr>`).join('')}</tbody></table>`; };
+  const dlg = modal('w-wide', `<h2>Edit the table</h2>
+    <p class="w-muted">Type in the cells. Tab moves to the next one; Enter in the last row adds a row. The Markdown is rewritten and lined up when you press Done.</p>
+    <div class="w-gt-wrap">${grid()}</div>
+    <p class="w-gt-add"><button type="button" class="w-btn w-btn-small" data-addr>Add a row</button> <button type="button" class="w-btn w-btn-small" data-addc>Add a column</button></p>
+    <div class="w-actions"><button type="button" class="w-btn" value="cancel">Cancel</button><button type="button" class="w-btn w-primary" value="ok">Done</button></div>`,
+    () => {
+      const lines = ta.value.split('\n'), top = ta.scrollTop;
+      const made = tableMarkdown(head, rows.filter(r => r.some(x => (x || '').trim()) || rows.length === 1), align).split('\n');
+      lines.splice(t.start, t.end - t.start + 1, ...made);
+      ta.value = lines.join('\n'); const pos = lines.slice(0, t.start).join('\n').length + (t.start ? 1 : 0); ta.selectionStart = ta.selectionEnd = pos; ta.scrollTop = top;
+      ta.dispatchEvent(new Event('input'));
+    }, () => ta.focus());
+  const wrap = $('.w-gt-wrap', dlg);
+  const redraw = focus => { wrap.innerHTML = grid(); if (focus) { const el = $(`input[data-r="${focus[0]}"][data-c="${focus[1]}"]`, wrap); if (el) el.focus(); } };
+  wrap.addEventListener('input', e => { const i = e.target.closest('input[data-r]'); if (!i) return; const r = +i.dataset.r, c = +i.dataset.c; if (r < 0) head[c] = i.value; else rows[r][c] = i.value; });
+  wrap.addEventListener('keydown', e => {
+    const i = e.target.closest('input[data-r]'); if (!i || e.key !== 'Enter') return;
+    e.preventDefault(); e.stopPropagation(); const r = +i.dataset.r, c = +i.dataset.c;
+    if (r === rows.length - 1) { rows.push(Array(cols()).fill('')); redraw([r + 1, c]); } else { const el = $(`input[data-r="${r + 1}"][data-c="${c}"]`, wrap); if (el) el.focus(); }
+  });
+  dlg.addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b || b.value) return;
+    if (b.dataset.addr != null) { rows.push(Array(cols()).fill('')); redraw([rows.length - 1, 0]); }
+    else if (b.dataset.addc != null) { const n = cols(); head[n] = ''; rows.forEach(r => { r[n] = ''; }); align[n] = 'l'; redraw([-1, n]); }
+    else if (b.dataset.delr != null) { if (rows.length > 1) rows.splice(+b.dataset.delr, 1); else rows[0] = Array(cols()).fill(''); redraw(); }
+    else if (b.dataset.delc != null) { const j = +b.dataset.delc; if (cols() > 1) { head.splice(j, 1); rows.forEach(r => r.splice(j, 1)); align.splice(j, 1); redraw(); } }
+    else if (b.dataset.al != null) { const j = +b.dataset.al; align[j] = { l: 'c', c: 'r', r: 'l' }[align[j] || 'l']; redraw(); }
+  });
+  const first = $('input[data-r="0"]', wrap) || $('input', wrap); if (first) first.focus();
+}
+
+/* ---- what has changed since the published version ---- */
+// Line-by-line comparison (longest common subsequence). Returns [{ op: ' ' | '-' | '+', text }].
+function diffLines(a, b) {
+  const A = a.split('\n'), B = b.split('\n'), n = A.length, m = B.length;
+  if (n * m > 4000000) return null;
+  const L = Array.from({ length: n + 1 }, () => new Uint16Array(m + 1));
+  for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--) L[i][j] = A[i] === B[j] ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+  const out = []; let i = 0, j = 0;
+  while (i < n && j < m) { if (A[i] === B[j]) { out.push({ op: ' ', text: A[i] }); i++; j++; } else if (L[i + 1][j] >= L[i][j + 1]) out.push({ op: '-', text: A[i++] }); else out.push({ op: '+', text: B[j++] }); }
+  while (i < n) out.push({ op: '-', text: A[i++] }); while (j < m) out.push({ op: '+', text: B[j++] });
+  return out;
+}
+function diffHTML(before, after) {
+  const d = diffLines(before.replace(/\r\n?/g, '\n').replace(/\s+$/, ''), after.replace(/\r\n?/g, '\n').replace(/\s+$/, ''));
+  if (!d) return '<p class="w-muted w-diff-none">This note is too long to compare line by line here.</p>';
+  const add = d.filter(x => x.op === '+').length, del = d.filter(x => x.op === '-').length;
+  if (!add && !del) return '<p class="w-muted w-diff-none">No changes yet: this is the published version.</p>';
+  // keep two lines of context round each change, and fold the rest
+  const keep = new Uint8Array(d.length); d.forEach((x, i) => { if (x.op !== ' ') for (let k = Math.max(0, i - 2); k <= Math.min(d.length - 1, i + 2); k++) keep[k] = 1; });
+  let html = '', skipped = 0;
+  d.forEach((x, i) => {
+    if (!keep[i]) { skipped++; return; }
+    if (skipped) { html += `<div class="w-diff-skip">${skipped} unchanged line${skipped === 1 ? '' : 's'}</div>`; skipped = 0; }
+    html += `<div class="w-diff-line ${x.op === '+' ? 'is-add' : x.op === '-' ? 'is-del' : ''}"><span class="w-diff-op">${x.op === ' ' ? '' : x.op}</span><span>${esc(x.text) || ' '}</span></div>`;
+  });
+  if (skipped) html += `<div class="w-diff-skip">${skipped} unchanged line${skipped === 1 ? '' : 's'}</div>`;
+  return `<p class="w-diff-sum">${add} line${add === 1 ? '' : 's'} added, ${del} removed, compared with what is on the site now.</p><div class="w-diff">${html}</div>`;
+}
+
 function bindEditor(root, onChange, getMeta, fields) {
   const ta = $('textarea.w-body', root);
+  const repaint = styleEditor(ta);
   const api = { ta, getMeta: getMeta || (() => ({ title: '', tags: [], summary: '', body: ta.value, path: '' })), ...(fields || {}) };
-  const redraw = () => { drawOutline(root, ta); drawChecks(root, getMeta ? api : null); };
+  const redraw = () => { drawOutline(root, ta); drawChecks(root, getMeta ? api : null); repaint(); };
   // "### " with the next number when the note's sections are numbered
   const heading = lvl => { const nb = numbering(ta.value); return '#'.repeat(lvl) + ' ' + (nb.lvl === lvl && nb.numbered && nb.numbered === nb.real.length ? `${nb.real.length + 1}. ` : ''); };
   root.addEventListener('click', e => {
@@ -513,7 +601,7 @@ function bindEditor(root, onChange, getMeta, fields) {
     if (k === 'ol') prefixLines(ta, i => `${i + 1}. `);
     if (k === 'quote') prefixLines(ta, () => '> ');
     if (k === 'hr') insertLine(ta, '---\n\n');
-    if (k === 'table') tableDialog(ta);
+    if (k === 'table') { const t = tableAt(ta); if (t) tableEditor(ta, t); else tableDialog(ta); }
     if (k === 'h2') insertLine(ta, heading(2));
     if (k === 'link') { wrapSel(ta, '[[', ']]', ''); openSuggest(ta); }
     if (k === 'math') wrapSel(ta, '$', '$', 'x^2');
@@ -677,7 +765,7 @@ function bindBar(form) {
 // field helpers the checks use to jump to a field or fill it in
 const fieldApi = (form, refresh) => ({
   setField(name, v) { const el = form[name]; if (!el) return; el.value = v; refresh(); },
-  focusField(name) { const el = form[name]; if (!el) return; const d = el.closest('details'); if (d) d.open = true; el.focus(); el.scrollIntoView({ block: 'center' }); }
+  focusField(name) { const el = form[name] || form['f_' + name]; if (!el) return; const d = el.closest('details'); if (d) d.open = true; el.focus(); el.scrollIntoView({ block: 'center' }); }
 });
 const ago = at => { const s = Math.round((Date.now() - at) / 1000); return s < 15 ? 'just now' : s < 90 ? 'a minute ago' : s < 3600 ? `${Math.round(s / 60)} minutes ago` : 'over an hour ago'; };
 setInterval(() => $$('.w-bar-saved[data-at]').forEach(el => { el.textContent = `Draft saved ${ago(+el.dataset.at)}`; }), 20000);
@@ -762,7 +850,7 @@ function writeForm() {
   };
   const pathFor = d => uniquePath(folderOf(d.k), slug(d.title) || 'untitled');
   const tagList = s => [...new Set(s.split(',').map(t => slug(t)).filter(Boolean))];
-  const getMeta = () => { const d = collect(); return { title: d.title, tags: tagList(d.tags), summary: d.summary, body: d.body, path: pathFor(d) }; };
+  const getMeta = () => { const d = collect(); return { title: d.title, tags: tagList(d.tags), summary: d.summary, body: d.body, path: pathFor(d), kind: d.k.kind, source: d.f.source || '' }; };
   const refresh = () => {
     const d = collect(); const { k, ...save } = d; store.set('draft', save); previewRaw(toRaw(d), pathFor(d)); const ed = $('.w-editor', form); if (ed._redraw) ed._redraw();
     detailsState(form, getMeta());
@@ -936,7 +1024,8 @@ async function openEditor(path, rawMode = false) {
         ${fmx ? `<details class="w-more"><summary>Other fields <small>address, date, author, source…</small></summary><textarea name="others" rows="${Math.min(8, others.split('\n').length + 1)}" class="w-mono" spellcheck="false">${esc(others)}</textarea></details>` : ''}`)}
       ${bottomBar('<button type="button" class="w-btn w-danger" data-delete>Delete</button>', 'Publish changes')}
     </form>
-    <section class="w-preview-wrap" aria-label="Preview"><p class="w-preview-label">Preview</p><div id="preview" class="w-preview"></div></section>
+    <section class="w-preview-wrap" aria-label="Preview"><p class="w-preview-label w-preview-tabs"><button type="button" data-pv="preview" aria-pressed="true">Preview</button><button type="button" data-pv="diff" aria-pressed="false">Changes</button></p>
+      <div id="preview" class="w-preview"></div><div id="changes" class="w-changes" hidden></div></section>
   </div>`;
   const form = $('#tab-edit form'), ta = $('.w-body', form);
   let picks = [];
@@ -966,10 +1055,17 @@ async function openEditor(path, rawMode = false) {
   };
   const original = build();
   const refresh = () => {
-    const now = build(); previewRaw(now, form.path.value.trim()); const ed = $('.w-editor', form); if (ed._redraw) ed._redraw();
+    const now = build(); const ed = $('.w-editor', form); if (ed._redraw) ed._redraw();
+    if (pvMode === 'diff') $('#changes').innerHTML = diffHTML(original, now); else   // against the note as it opened, so only your edits show previewRaw(now, form.path.value.trim());
     detailsState(form, getMeta());
     const sv = $('.w-bar-saved', form); if (sv) { const changed = now !== original || form.path.value.trim() !== path; sv.textContent = changed ? 'Changes not published' : 'No changes'; sv.classList.toggle('is-changed', changed); }
   };
+  let pvMode = 'preview';
+  $('.w-preview-tabs', $('#tab-edit')).addEventListener('click', e => {
+    const b = e.target.closest('[data-pv]'); if (!b) return;
+    pvMode = b.dataset.pv; $$('[data-pv]', $('#tab-edit')).forEach(x => x.setAttribute('aria-pressed', x === b));
+    $('#preview').hidden = pvMode === 'diff'; $('#changes').hidden = pvMode !== 'diff'; refresh();
+  });
   bindTags(form); bindDetails(form); bindBar(form);
   bindEditor($('.w-editor', form), refresh, getMeta, fmx ? fieldApi(form, () => refresh()) : null); refresh();
   form.path.addEventListener('change', refresh);
