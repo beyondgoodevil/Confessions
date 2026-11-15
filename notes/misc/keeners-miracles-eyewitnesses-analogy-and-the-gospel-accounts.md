@@ -72,16 +72,16 @@ Anthropologists report the same thing. Edith Turner observed forty-six cures amo
 
 Chapters 8–11 collect hundreds of claims. They come from published sources, about a hundred of Keener's own interviews and correspondence with more than a hundred others (p. 266).
 
-| Region | Examples Keener reports |
-|---|---|
-| Philippines | David Dominong, an electrocuted welder told he might not walk for years, walked at a crusade; Keener saw his scars (p. 272) |
-| India | A neurologist estimates that 80–85 per cent of new churches are planted through healings; a woman's fibroids disappear on ultrasound; an atheist businessman's angiogram blockages fall below 50 per cent (pp. 284–285) |
-| China | Up to 90 per cent of new believers cite healing; pastors Keener met in 2007 describe a brain-stem tumour shrinking to the size of a grain of rice (pp. 297, 303–304) |
-| Korea | A church commission confirmed the healings in Kim Ik-tu's ministry, and in 1923 the Korean Presbyterian Church gave up the doctrine that miracles had ceased (p. 291) |
-| Africa | A Nigerian medical student's ulcerated arm closed overnight, as his classmate Dr Tonye Briggs attests; in Mozambique a deaf girl began to hear in front of a village of non-Christians, about five hundred committed themselves to Christianity and a church was founded the next day (pp. 326, 331–332) |
+| Region            | Examples Keener reports |
+| ----------------- | --- |
+| Philippines       | David Dominong, an electrocuted welder told he might not walk for years, walked at a crusade; Keener saw his scars (p. 272) |
+| India             | A neurologist estimates that 80–85 per cent of new churches are planted through healings; a woman's fibroids disappear on ultrasound; an atheist businessman's angiogram blockages fall below 50 per cent (pp. 284–285) |
+| China             | Up to 90 per cent of new believers cite healing; pastors Keener met in 2007 describe a brain-stem tumour shrinking to the size of a grain of rice (pp. 297, 303–304) |
+| Korea             | A church commission confirmed the healings in Kim Ik-tu's ministry, and in 1923 the Korean Presbyterian Church gave up the doctrine that miracles had ceased (p. 291) |
+| Africa            | A Nigerian medical student's ulcerated arm closed overnight, as his classmate Dr Tonye Briggs attests; in Mozambique a deaf girl began to hear in front of a village of non-Christians, about five hundred committed themselves to Christianity and a church was founded the next day (pp. 326, 331–332) |
 | Congo-Brazzaville | Keener's wife's family and their mainline Protestant circle: deacons and lay people with healing accounts, a French doctor at the hospital remarking "You pray to a true God" (pp. 333–338) |
-| Latin America | Margarita Campos, a Chilean pastor, awoke from a meningitis coma after scans showed half her brain damaged and returned to pastoring; her doctors said "You must have good connections up there" (p. 355) |
-| United States | Brad Wilkinson's atrial septal defect was gone by the time of surgery; the surgeon said "You can count this as a miracle" and the hospital's risk manager added "this was not a misdiagnosis" (pp. 430–432) |
+| Latin America     | Margarita Campos, a Chilean pastor, awoke from a meningitis coma after scans showed half her brain damaged and returned to pastoring; her doctors said "You must have good connections up there" (p. 355) |
+| United States     | Brad Wilkinson's atrial septal defect was gone by the time of surgery; the surgeon said "You can count this as a miracle" and the hospital's risk manager added "this was not a misdiagnosis" (pp. 430–432) |
 
 Keener explains how he chose them. He offers samples, not his strongest cases. He screened out claims he found fraudulent, and an investigator who shared cases with him found two to be fraudulent (pp. 250–251). Claims made on the spot at public meetings are the least reliable, and long-term recoveries reported later are worth more (pp. 252–253). Most healings, by one survey, follow private prayer, not a healing evangelist (p. 253). He also covers church history (ch. 10). Augustine collected about seventy written testimonies at a shrine in Hippo within two years and was himself present at the healing of Innocentius (p. 359). In 1743 Mercy Wheeler, bedridden since 1726, rose and walked, and a critic who conceded the cure still refused to call it a miracle (pp. 381–382). The chapter also covers Lourdes, Blumhardt, Dorothy Kerin, the Anglican healer James Moore Hickson and early Pentecostalism. Keener does not hide the failures. Some healers opposed medicine, and in 1915 forty-five South African Pentecostal missionaries had died of malaria after refusing quinine (pp. 395–399).
 

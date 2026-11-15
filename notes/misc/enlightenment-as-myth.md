@@ -74,14 +74,14 @@ Two German Jewish Marxists, exiled in California while Europe burned, asked how 
 
 ## 7. Comparison
 
-| | **Bacon / Enlightenment** | **Horkheimer and Adorno** | **Baudrillard** | **The Fathers** |
-|---|---|---|---|---|
-| what knowledge is for | power, "operation" | should be self-reflection, "determinate negation" | (signs circulate; knowledge is spectacle) | communion: knowing the *logoi*, contemplation |
-| nature | raw material | dominated nature that takes revenge | turned into sign and commodity | creation, gift, sacrament |
-| the self | sovereign subject | survives by self-denial ("Nobody") | consumer; body as salvation | person in the image of God, fulfilled by gift |
-| sacrifice | outgrown superstition | "introverted" into renunciation | the ascetic duty of leisure | ended and fulfilled in Christ's self-offering |
-| religion | superstition | the image banned (Judaism) or idolised (Christianity, *proton pseudos*) | replaced by consumption's liturgy | the Liturgy: the world offered back to God |
-| hope | progress | reason that reflects on itself | (none: "absence of reflection") | the Kingdom, tasted now in the Eucharist |
+|                       | **Bacon / Enlightenment** | **Horkheimer and Adorno** | **Baudrillard**                           | **The Fathers**                               |
+| --------------------- | ------------------------- | --- | ----------------------------------------- | --------------------------------------------- |
+| what knowledge is for | power, "operation"        | should be self-reflection, "determinate negation" | (signs circulate; knowledge is spectacle) | communion: knowing the *logoi*, contemplation |
+| nature                | raw material              | dominated nature that takes revenge | turned into sign and commodity            | creation, gift, sacrament                     |
+| the self              | sovereign subject         | survives by self-denial ("Nobody") | consumer; body as salvation               | person in the image of God, fulfilled by gift |
+| sacrifice             | outgrown superstition     | "introverted" into renunciation | the ascetic duty of leisure               | ended and fulfilled in Christ's self-offering |
+| religion              | superstition              | the image banned (Judaism) or idolised (Christianity, *proton pseudos*) | replaced by consumption's liturgy         | the Liturgy: the world offered back to God    |
+| hope                  | progress                  | reason that reflects on itself | (none: "absence of reflection")           | the Kingdom, tasted now in the Eucharist      |
 
 ## 8. Assessment
 

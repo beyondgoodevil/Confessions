@@ -25,12 +25,12 @@ First-chapter stuff from Gensler, but everything else depends on it and people (
 
 Gensler's test question, which about half his students get wrong:
 
-| | |
-|---|---|
+|                                   |                                   |
+| --------------------------------- | --------------------------------- |
 | If you overslept, you'll be late. | If you overslept, you'll be late. |
-| You aren't late. | You didn't oversleep. |
-| ∴ You didn't oversleep. | ∴ You aren't late. |
-| **valid** | **invalid** |
+| You aren't late.                  | You didn't oversleep.             |
+| ∴ You didn't oversleep.           | ∴ You aren't late.                |
+| **valid**                         | **invalid**                       |
 
 Second one fails because you could be late for some other reason (car wouldn't start).
 
@@ -38,11 +38,11 @@ Second one fails because you could be late for some other reason (car wouldn't s
 
 Validity comes from **form**, not content. Swap in letters:
 
-| Valid | Invalid |
-|---|---|
+| Valid       | Invalid     |
+| ----------- | ----------- |
 | If A then B | If A then B |
-| Not-B | Not-A |
-| ∴ Not-A | ∴ Not-B |
+| Not-B       | Not-A       |
+| ∴ Not-A     | ∴ Not-B     |
 
 - Any argument with the left form is valid, whatever A and B are. "If you're in France you're in Europe; you're not in Europe; so you're not in France."
 - Same content in the right-hand form: "you're not in France; so you're not in Europe." You might be in Italy.
@@ -56,18 +56,18 @@ Validity comes from **form**, not content. Swap in letters:
 - Conclusion of a sound argument is always true.
 - Two ways to be unsound:
 
-| False premise | Doesn't follow |
-|---|---|
-| All logicians are millionaires. | All millionaires eat well. |
-| Gensler is a logician. | Gensler eats well. |
-| ∴ Gensler is a millionaire. | ∴ Gensler is a millionaire. |
-| valid, unsound | invalid |
+| False premise                   | Doesn't follow              |
+| ------------------------------- | --------------------------- |
+| All logicians are millionaires. | All millionaires eat well.  |
+| Gensler is a logician.          | Gensler eats well.          |
+| ∴ Gensler is a millionaire.     | ∴ Gensler is a millionaire. |
+| valid, unsound                  | invalid                     |
 
 So the combinations:
 
-| | premises all true | a premise false |
-|---|---|---|
-| **valid** | sound, conclusion must be true | unsound, conclusion could be either |
+|             | premises all true                   | a premise false                     |
+| ----------- | ----------------------------------- | ----------------------------------- |
+| **valid**   | sound, conclusion must be true      | unsound, conclusion could be either |
 | **invalid** | unsound, conclusion could be either | unsound, conclusion could be either |
 
 Only the top-left box guarantees anything.
@@ -96,7 +96,7 @@ This is useful for the apologetics notes. Most of the listed fallacies are reall
 ## 7. Deductive vs Inductive
 
 | Deductive | Inductive |
-|---|---|
+| --- | --- |
 | conclusion claimed to follow *necessarily* | conclusion claimed to follow *probably* |
 | All who live in France live in Europe. Pierre lives in France. ∴ Pierre lives in Europe. | Most who live in France speak French. Pierre lives in France. That's all we know. ∴ Pierre (probably) speaks French. |
 | valid / invalid | strong / weak |

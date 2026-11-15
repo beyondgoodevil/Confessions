@@ -17,10 +17,10 @@ Not a set of proofs, more a clearing of the ground. Hart's complaint: in current
 
 ## Structure
 
-| Part | Chapters |
-|---|---|
-| **One** | 1. "God" Is Not a Proper Name; 2. Pictures of the World |
-| **Two** | 3. Being (*sat*); 4. Consciousness (*chit*); 5. Bliss (*ananda*) |
+| Part      | Chapters |
+| --------- | --- |
+| **One**   | 1. "God" Is Not a Proper Name; 2. Pictures of the World |
+| **Two**   | 3. Being (*sat*); 4. Consciousness (*chit*); 5. Bliss (*ananda*) |
 | **Three** | 6. Conclusion: Being, Consciousness, Bliss; Epilogue: Concerning Rhetoric |
 
 - The three middle chapters borrow the Vedantic triad for the absolute, *sat-chit-ananda*: a venerable Indian definition of the Godhead (Upanishads), and an elegant summary of definitions of God in many traditions. Each names a mystery that "resolutely resists" reduction to nature.
@@ -74,12 +74,12 @@ Not a set of proofs, more a clearing of the ground. Hart's complaint: in current
 
 The longest chapter. Mind is the hardest thing for materialism. Consciousness is "the very phenomenon of the 'first person' as such, the sole act whereby someone is anyone at all", with no third-person aspect, and it can't be reduced to physics "without subtracting something". Each of these resists reduction:
 
-| Feature | Problem for materialism |
-|---|---|
-| **Qualia** | subjective experience: why is there *something it is like*? |
-| **Abstraction** | grasping universals, mathematics |
-| **Reason** | inferring because of logical relations, not just physical causes. The argument from reason; see [[The Argument from Reason]] |
-| **Intentionality** | thoughts are *about* things; matter isn't about anything |
+| Feature                    | Problem for materialism |
+| -------------------------- | --- |
+| **Qualia**                 | subjective experience: why is there *something it is like*? |
+| **Abstraction**            | grasping universals, mathematics |
+| **Reason**                 | inferring because of logical relations, not just physical causes. The argument from reason; see [[The Argument from Reason]] |
+| **Intentionality**         | thoughts are *about* things; matter isn't about anything |
 | **Unity of consciousness** | one subject holding many experiences together |
 
 - **Qualia**: the brain doesn't just "represent" the world; the claim that we see only a mental "portrait" of the rose leads to absurdities. **Dennett** denies qualia exist; his "Multiple Drafts" model denies a "Cartesian theatre". Hart: subjective consciousness is an "indubitable primordial datum"; denying it is meaningless.

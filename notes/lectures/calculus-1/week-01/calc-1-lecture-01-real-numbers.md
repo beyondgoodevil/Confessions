@@ -20,12 +20,12 @@ Calculus is basically **inequalities**: "$f(x)$ is within $\varepsilon$ of $l$ w
 
 For all numbers $a, b, c$:
 
-| | Addition | Multiplication |
-|---|---|---|
-| Associative | (P1) $a+(b+c) = (a+b)+c$ | (P5) $a(bc) = (ab)c$ |
-| Identity | (P2) $a + 0 = a$ | (P6) $a \cdot 1 = a$, and $1 \ne 0$ |
-| Inverse | (P3) $a + (-a) = 0$ | (P7) $a \cdot a^{-1} = 1$ for $a \ne 0$ |
-| Commutative | (P4) $a+b = b+a$ | (P8) $ab = ba$ |
+|             | Addition                 | Multiplication                          |
+| ----------- | ------------------------ | --------------------------------------- |
+| Associative | (P1) $a+(b+c) = (a+b)+c$ | (P5) $a(bc) = (ab)c$                    |
+| Identity    | (P2) $a + 0 = a$         | (P6) $a \cdot 1 = a$, and $1 \ne 0$     |
+| Inverse     | (P3) $a + (-a) = 0$      | (P7) $a \cdot a^{-1} = 1$ for $a \ne 0$ |
+| Commutative | (P4) $a+b = b+a$         | (P8) $ab = ba$                          |
 
 and the one that links them, the **distributive law** (P9): $a(b + c) = ab + ac$.
 

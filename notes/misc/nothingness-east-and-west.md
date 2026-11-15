@@ -102,14 +102,14 @@ The Kyoto writers mostly know Christianity through Augustine, Eckhart, Luther, K
 
 ## 6. Comparison
 
-| | **Nishitani** | **Tanabe** | **Abe** | **Heidegger** | **Orthodox (Athanasius, Dionysius, Lossky)** |
-|---|---|---|---|---|---|
-| what "nothing" is | śūnyatā, emptiness emptied, the "absolute near side" | the absolute as conversion: "nothingness-qua-love" | Mu, beyond being and non-being alike | the nothing that nihilates, really Being | the *nihil* below creatures; the "beyond-being" of God above |
-| being vs non-being | neither prior; "double exposure" | negation turned to affirmation by Other-power | strictly equal (u = mu) | belong together (Hegel) | being and good are prior; evil is privation |
-| how it is reached | Great Doubt, Great Death | *zange*, repentance in despair | existential double negation | anxiety | repentance, purification, grace, the Cross |
-| the self | ego broken; "true self" in emptiness | self dies to self-power | no permanent self | Dasein held out into the nothing | the person is created *by name*, healed not dissolved |
-| God | beyond personal and impersonal; Eckhart's godhead | Other-power, Great Compassion | inadequate as the "ultimate" | (left open) | Trinity: three Persons, one nature, beyond essence |
-| good and evil | beyond the distinction | evil faced in repentance | equal and opposed; transcend both | (not addressed) | evil has no being; good is the first name of God |
+|                    | **Nishitani** | **Tanabe** | **Abe**                              | **Heidegger**                            | **Orthodox (Athanasius, Dionysius, Lossky)** |
+| ------------------ | --- | --- | ------------------------------------ | ---------------------------------------- | --- |
+| what "nothing" is  | śūnyatā, emptiness emptied, the "absolute near side" | the absolute as conversion: "nothingness-qua-love" | Mu, beyond being and non-being alike | the nothing that nihilates, really Being | the *nihil* below creatures; the "beyond-being" of God above |
+| being vs non-being | neither prior; "double exposure" | negation turned to affirmation by Other-power | strictly equal (u = mu)              | belong together (Hegel)                  | being and good are prior; evil is privation |
+| how it is reached  | Great Doubt, Great Death | *zange*, repentance in despair | existential double negation          | anxiety                                  | repentance, purification, grace, the Cross |
+| the self           | ego broken; "true self" in emptiness | self dies to self-power | no permanent self                    | Dasein held out into the nothing         | the person is created *by name*, healed not dissolved |
+| God                | beyond personal and impersonal; Eckhart's godhead | Other-power, Great Compassion | inadequate as the "ultimate"         | (left open)                              | Trinity: three Persons, one nature, beyond essence |
+| good and evil      | beyond the distinction | evil faced in repentance | equal and opposed; transcend both    | (not addressed)                          | evil has no being; good is the first name of God |
 
 ## 7. Assessment
 

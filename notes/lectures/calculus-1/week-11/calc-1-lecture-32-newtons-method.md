@@ -58,24 +58,24 @@ and the MVT applied to $f'$ turns $f'(x_k) - f'(\xi_k)$ into $f''(\eta_k)(x_k - 
 $$x_{n+1} = x_n - \frac{x_n^2 - 2}{2x_n} = \frac12\left(x_n + \frac{2}{x_n}\right),$$
 the ancient **Babylonian / Heron** method: average the guess with $2/\text{guess}$. From $x_0 = 1.4$:
 
-| $n$ | $x_n$ |
-|---|---|
-| 0 | 1.4 |
-| 1 | 1.4142857 |
-| 2 | 1.4142136 |
-| 3 | 1.4142136 |
+| $n$ | $x_n$     |
+| --- | --------- |
+| 0   | 1.4       |
+| 1   | 1.4142857 |
+| 2   | 1.4142136 |
+| 3   | 1.4142136 |
 
 Already correct to 7 decimals at $n = 2$.
 
 2. **$x^3 + x - 1 = 0$ on $[0, 1]$** (Problem 22-15(iii)). $f'(x) = 3x^2 + 1$, start at $x_0 = 1$:
 
-| $n$ | $x_n$ |
-|---|---|
-| 0 | 1 |
-| 1 | 0.75 |
-| 2 | 0.6860465 |
-| 3 | 0.6823396 |
-| 4 | 0.6823278 |
+| $n$ | $x_n$     |
+| --- | --------- |
+| 0   | 1         |
+| 1   | 0.75      |
+| 2   | 0.6860465 |
+| 3   | 0.6823396 |
+| 4   | 0.6823278 |
 
 Errors: about $0.32$, $0.068$, $0.0037$, $0.000012$. Each one is roughly a constant times the square of the last.
 

@@ -76,19 +76,19 @@ St. Athanasius, deacon at Nicaea, then bishop of Alexandria (exiled five times),
 
 The council didn't end the crisis. It started it.
 
-| Date | Event |
-|---|---|
-| 328 | Arius readmitted by Constantine; Athanasius becomes bishop of Alexandria |
-| 335 | Athanasius deposed at Tyre, exiled to Trier |
-| 336 | Arius dies suddenly in Constantinople the day before his reinstatement |
-| 337 | Constantine baptised on his deathbed by Eusebius of Nicomedia, an Arian sympathiser |
+| Date      | Event |
+| --------- | --- |
+| 328       | Arius readmitted by Constantine; Athanasius becomes bishop of Alexandria |
+| 335       | Athanasius deposed at Tyre, exiled to Trier |
+| 336       | Arius dies suddenly in Constantinople the day before his reinstatement |
+| 337       | Constantine baptised on his deathbed by Eusebius of Nicomedia, an Arian sympathiser |
 | 340s–350s | Constantius II favours anti-Nicenes; councils of Sirmium, Rimini, Seleucia produce **homoian** creeds ("like the Father") |
-| 341 | Second Creed of Antioch: three hypostases "in agreement one" (Davis) |
-| 357 | Second Council of Sirmium, which Hilary called "**The Blasphemy**"; the aged Ossius forced to sign (Davis) |
-| 359 | Jerome: "the whole world groaned and was astonished to find itself Arian" |
-| 362 | Athanasius's council of Alexandria: reconciles the **homoiousians** ("of like essence") with Nicaea |
-| 370s | the **Cappadocians** clarify one ousia, three hypostases, and the Spirit's divinity |
-| 381 | **Constantinople I** reaffirms Nicaea, completes the Creed |
+| 341       | Second Creed of Antioch: three hypostases "in agreement one" (Davis) |
+| 357       | Second Council of Sirmium, which Hilary called "**The Blasphemy**"; the aged Ossius forced to sign (Davis) |
+| 359       | Jerome: "the whole world groaned and was astonished to find itself Arian" |
+| 362       | Athanasius's council of Alexandria: reconciles the **homoiousians** ("of like essence") with Nicaea |
+| 370s      | the **Cappadocians** clarify one ousia, three hypostases, and the Spirit's divinity |
+| 381       | **Constantinople I** reaffirms Nicaea, completes the Creed |
 
 Parties in the middle period:
 - **Anomoeans** (Aetius, Eunomius): the Son is **unlike** the Father.

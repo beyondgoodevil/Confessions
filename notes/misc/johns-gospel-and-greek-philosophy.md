@@ -24,7 +24,7 @@ Engberg-Pedersen reads John 1:1–5 as a **normative cosmogony**: an account of 
 Engberg-Pedersen follows C. H. Dodd's survey, then corrects it.
 
 | background | what it explains | what it can't |
-|---|---|---|
+| --- | --- | --- |
 | **The Hebrew "Word of the LORD"** (Gen 1, "God said"; "By the word of the LORD were the heavens made", Ps 33:6). Boyarin adds the Aramaic *Memra* of the Targums | the Word as creative and pre-existent; the rabbis called Torah "life and light" | "the Word was God" and "became flesh" |
 | **Wisdom** (Prov 8:22–31; Wisdom of Solomon): Sophia beside God's throne, making the world, dwelling with men | the personification; Wisdom "pitched her tent" among men | Dodd: "it would be idle to look for any real anticipation of the Johannine doctrine of incarnation" |
 | **Philo** (Platonist Jew): the Logos is God's "firstborn", the intelligible world of ideas, God's blueprint and "instrument" (*organon*) | "the Word was with God" (the Logos distinct from a transcendent God) | it puts a layer **between** God and the world, so God stays inaccessible. John says the opposite: seeing Jesus is seeing the Father (14:9) |

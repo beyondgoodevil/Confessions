@@ -26,11 +26,11 @@ The blues comes from African American **folk poetry**: a three-line stanza where
 1. **Three lines of four bars.** Each line is about two and a half bars of singing followed by **a bar and a half of instrumental response**: **call and response**. Three lines of four bars make twelve.
 2. **Three chords.** The basic progression uses only the **I** (tonic), **IV** and **V** (dominant) chords:
 
-| Line | Bars 1–4 / 5–8 / 9–12 |
-|---|---|
-| 1 | I · I · I · I |
-| 2 (repeats line 1) | IV · IV · I · I |
-| 3 (the answer) | V · V · I · I |
+| Line               | Bars 1–4 / 5–8 / 9–12 |
+| ------------------ | --------------------- |
+| 1                  | I · I · I · I         |
+| 2 (repeats line 1) | IV · IV · I · I       |
+| 3 (the answer)     | V · V · I · I         |
 
 The move to **IV** marks the start of the second line, perhaps because its words repeat the first line (Giddins).
 
@@ -64,12 +64,12 @@ The other great form comes from the **golden age of American songwriting** (abou
 - **Verse dropped.** Theatre songs had an introductory **verse** and a thirty-two-bar **refrain**. Jazz musicians ignored the verse and turned the refrain into a **repeating cycle**, "not unlike the African tradition" (Giddins).
 - **The recipe.** Write an eight-bar phrase, repeat it, contrast it with a new eight-bar phrase (the **bridge** or **release**, ending on a half cadence to push forward), then repeat the first phrase once more:
 
-| Section | Bars | Job |
-|---|---|---|
-| A | 8 | statement |
-| A | 8 | repetition (often ending with a full cadence where the first ended on a half cadence) |
-| B (bridge) | 8 | contrast |
-| A | 8 | return |
+| Section    | Bars | Job |
+| ---------- | ---- | --- |
+| A          | 8    | statement |
+| A          | 8    | repetition (often ending with a full cadence where the first ended on a half cadence) |
+| B (bridge) | 8    | contrast |
+| A          | 8    | return |
 
 - **It's about the music, not the words.** The words of the three A's differ; the melody and chords are what repeat. And unlike the blues, AABA has **no fixed chords**: it is a pattern, filled with whatever harmonies the composer chose.
 

@@ -14,12 +14,12 @@ Leibniz's question: why is there something rather than nothing? His answer: beca
 
 Pruss's own way of organising the topic, and the most useful thing in the chapter.
 
-| Problem | What it is | Name from |
-|---|---|---|
+| Problem       | What it is | Name from |
+| ------------- | --- | --- |
 | **Glendower** | things "call for" an explanation, but is there one? | Shakespeare: "I can call spirits from the vasty deep." "But will they come when you do call for them?" |
-| **Regress** | why not an infinite chain of causes, each explained by the one before? | Hume |
-| **Taxicab** | you use the explanatory principle to reach God, then dismiss it. "What caused God?" | Schopenhauer: the PSR isn't a cab you can send away when you've arrived |
-| **Gap** | granted a first cause, why think it's God? | (Richard Gale's term) |
+| **Regress**   | why not an infinite chain of causes, each explained by the one before? | Hume |
+| **Taxicab**   | you use the explanatory principle to reach God, then dismiss it. "What caused God?" | Schopenhauer: the PSR isn't a cab you can send away when you've arrived |
+| **Gap**       | granted a first cause, why think it's God? | (Richard Gale's term) |
 
 - On the Gap: Aquinas's "and this all understand to be God" isn't papering over it. The next sections of the *Summa* argue for the attributes one by one.
 - Pruss thinks the Gap is where the most work is left to do.
@@ -28,10 +28,10 @@ Pruss's own way of organising the topic, and the most useful thing in the chapte
 
 Sorted by how they handle Glendower and Regress:
 
-| | Principle | How it stops the regress |
-|---|---|---|
-| **Kalam** | whatever *begins* has a cause | argues the past is finite, so no infinite regress happened |
-| **Thomistic** | every change / contingent thing has a cause | allows an infinite past, but argues a certain kind of causal series (intermediate causes depending on a non-intermediate one) must have a first member |
+|                | Principle                                      | How it stops the regress |
+| -------------- | ---------------------------------------------- | --- |
+| **Kalam**      | whatever *begins* has a cause                  | argues the past is finite, so no infinite regress happened |
+| **Thomistic**  | every change / contingent thing has a cause    | allows an infinite past, but argues a certain kind of causal series (intermediate causes depending on a non-intermediate one) must have a first member |
 | **Leibnizian** | every contingent fact has an explanation (PSR) | an infinite chain doesn't explain why *the whole chain* is there |
 
 - Feser's Aristotelian proof is the Thomistic kind. See [[The Unmoved Mover]] sec. 6.

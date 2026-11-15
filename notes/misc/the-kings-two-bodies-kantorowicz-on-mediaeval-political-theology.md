@@ -174,14 +174,14 @@ The two essays mostly agree. Both see a great and uneven book, and both stress i
 
 ### Summary table
 
-| Stage | Chapters | What makes the king more than a man | Key texts | Key formula |
-|---|---|---|---|---|
-| Christ-centred | III | Grace at anointing; imitation of the two-natured Christ | Norman Anonymous; Aachen Gospels | "God and Christ, but by grace" |
-| Law-centred | IV | Justice and Law as immortal ideas | Policraticus; Liber augustalis; Bracton | "Father and Son of Justice"; *lex animata* |
-| Fiscal | IV.4 | The inalienable fisc, which never dies | Bracton; Paston; Baldus | "What is not snatched by Christus, is snatched by the Fiscus" |
-| Polity-centred | V | The realm as *corpus mysticum*, married to the prince | Unam sanctam; Lucas de Penna; Fortescue | "The prince is the head of the realm, and the realm the body of the prince" |
-| Corporational | VI–VII | The undying corporation, Crown and Dignity | Glossa ordinaria; Quoniam abbas; Baldus; Plowden | *Dignitas non moritur*; "the King never dies" |
-| Man-centred | VIII | Humanity as a body, with the "best man" as standard | Monarchia III; Purgatorio | "I crown and mitre you over yourself" |
+| Stage          | Chapters | What makes the king more than a man | Key texts                                        | Key formula |
+| -------------- | -------- | --- | ------------------------------------------------ | --- |
+| Christ-centred | III      | Grace at anointing; imitation of the two-natured Christ | Norman Anonymous; Aachen Gospels                 | "God and Christ, but by grace" |
+| Law-centred    | IV       | Justice and Law as immortal ideas | Policraticus; Liber augustalis; Bracton          | "Father and Son of Justice"; *lex animata* |
+| Fiscal         | IV.4     | The inalienable fisc, which never dies | Bracton; Paston; Baldus                          | "What is not snatched by Christus, is snatched by the Fiscus" |
+| Polity-centred | V        | The realm as *corpus mysticum*, married to the prince | Unam sanctam; Lucas de Penna; Fortescue          | "The prince is the head of the realm, and the realm the body of the prince" |
+| Corporational  | VI–VII   | The undying corporation, Crown and Dignity | Glossa ordinaria; Quoniam abbas; Baldus; Plowden | *Dignitas non moritur*; "the King never dies" |
+| Man-centred    | VIII     | Humanity as a body, with the "best man" as standard | Monarchia III; Purgatorio                        | "I crown and mitre you over yourself" |
 
 ### Conclusion
 

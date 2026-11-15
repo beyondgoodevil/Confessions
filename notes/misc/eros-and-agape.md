@@ -144,14 +144,14 @@ Lewis set out (ch. I) to praise **Gift-love**, which is like God, and belittle *
 
 ## 8. Comparison
 
-| | **Plato (Diotima)** | **Nygren** | **Dionysius / Maximus** | **Nyssa** | **Lewis** |
-|---|---|---|---|---|---|
-| does God love? | no; the gods lack nothing | yes, only as agape | yes, as Eros, ecstatically | yes; the Bridegroom seeks the bride | yes, as Gift-love |
-| is eros acquisitive? | yes, desire for the good to be one's own | yes, by definition | no; real eros gives itself away | it starts as desire and becomes self-forgetting | Need-love is real love |
-| direction | upward only | agape down, eros up | out and back: one circle | endless upward, drawn from above | down (grace) and up (need) |
-| the individual | a step on the ladder | loved without regard to worth | loved in God's providence | the soul as unique bride | Eros wants "the Beloved herself" |
-| the body | the first rung, then left behind | (not Nygren's concern) | in the world's eros, down to stones | a figure, passion turned to impassibility | "Brother Ass"; Venus is partly comic |
-| end | seeing the beautiful itself; immortality by begetting | fellowship given by God alone | union, deification | infinite progress (*epektasis*) | the natural loves taken up into Charity |
+|                      | **Plato (Diotima)** | **Nygren**                    | **Dionysius / Maximus**             | **Nyssa**                                       | **Lewis**                               |
+| -------------------- | --- | ----------------------------- | ----------------------------------- | ----------------------------------------------- | --------------------------------------- |
+| does God love?       | no; the gods lack nothing | yes, only as agape            | yes, as Eros, ecstatically          | yes; the Bridegroom seeks the bride             | yes, as Gift-love                       |
+| is eros acquisitive? | yes, desire for the good to be one's own | yes, by definition            | no; real eros gives itself away     | it starts as desire and becomes self-forgetting | Need-love is real love                  |
+| direction            | upward only | agape down, eros up           | out and back: one circle            | endless upward, drawn from above                | down (grace) and up (need)              |
+| the individual       | a step on the ladder | loved without regard to worth | loved in God's providence           | the soul as unique bride                        | Eros wants "the Beloved herself"        |
+| the body             | the first rung, then left behind | (not Nygren's concern)        | in the world's eros, down to stones | a figure, passion turned to impassibility       | "Brother Ass"; Venus is partly comic    |
+| end                  | seeing the beautiful itself; immortality by begetting | fellowship given by God alone | union, deification                  | infinite progress (*epektasis*)                 | the natural loves taken up into Charity |
 
 ## 9. Assessment
 

@@ -16,10 +16,10 @@ aliases: ["St. Athanasius, On the Incarnation: Main Argument", On the Incarnatio
 
 ## 1. Layout
 
-| Ch. | About |
-|---|---|
-| 1–5 | Creation and Fall |
-| 6–10 | The "divine dilemma" and the Incarnation as solution |
+| Ch.   | About |
+| ----- | --- |
+| 1–5   | Creation and Fall |
+| 6–10  | The "divine dilemma" and the Incarnation as solution |
 | 11–18 | Second reason: restoring knowledge of God |
 | 19–25 | The death of Christ, why the Cross |
 | 26–32 | Resurrection and proofs |

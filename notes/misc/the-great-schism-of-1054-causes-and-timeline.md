@@ -41,28 +41,28 @@ Of the two, the papacy is the deeper one, I think. The Filioque could only be ad
 
 ## 2. Timeline
 
-| Year | Event |
-|---|---|
-| 330 | Constantinople founded as New Rome |
-| 381 | 2nd Ecumenical Council: Constantinople second in honour after Rome |
-| 451 | Chalcedon canon 28 confirms it. Rome objects |
+| Year    | Event |
+| ------- | --- |
+| 330     | Constantinople founded as New Rome |
+| 381     | 2nd Ecumenical Council: Constantinople second in honour after Rome |
+| 451     | Chalcedon canon 28 confirms it. Rome objects |
 | 484–519 | Acacian Schism, first long break |
-| 589 | Toledo III: Filioque in the Creed in Spain |
-| 692 | Council in Trullo condemns several Roman customs. Rome doesn't accept all its canons |
-| 800 | Leo III crowns Charlemagne |
-| 809 | Aachen endorses the Filioque. Leo III refuses to add it at Rome (has the Creed engraved without it on silver shields) |
+| 589     | Toledo III: Filioque in the Creed in Spain |
+| 692     | Council in Trullo condemns several Roman customs. Rome doesn't accept all its canons |
+| 800     | Leo III crowns Charlemagne |
+| 809     | Aachen endorses the Filioque. Leo III refuses to add it at Rome (has the Creed engraved without it on silver shields) |
 | 863–867 | Photian controversy: Nicholas I vs St. Photios. Bulgaria, Filioque |
 | 879–880 | Council of Constantinople restores Photios, forbids additions to the Creed |
-| 1014 | Filioque sung in the Creed at Rome for the first time |
-| 1054 | Humbert's bull on the altar of Hagia Sophia. Cerularius and synod anathematise the legates |
-| 1098 | Council of Bari. Crusades put Latin bishops in Eastern sees |
-| 1182 | Massacre of the Latins in Constantinople |
-| 1204 | Fourth Crusade sacks Constantinople, installs a Latin patriarch |
-| 1274 | Lyons II: union accepted by the emperor, rejected in the East |
+| 1014    | Filioque sung in the Creed at Rome for the first time |
+| 1054    | Humbert's bull on the altar of Hagia Sophia. Cerularius and synod anathematise the legates |
+| 1098    | Council of Bari. Crusades put Latin bishops in Eastern sees |
+| 1182    | Massacre of the Latins in Constantinople |
+| 1204    | Fourth Crusade sacks Constantinople, installs a Latin patriarch |
+| 1274    | Lyons II: union accepted by the emperor, rejected in the East |
 | 1438–39 | Ferrara-Florence: union signed. St. Mark of Ephesus refuses. East repudiates it |
-| 1453 | Fall of Constantinople |
-| 1484 | Synod of Constantinople formally rejects Florence |
-| 1965 | Paul VI and Athenagoras lift the 1054 anathemas. Communion not restored |
+| 1453    | Fall of Constantinople |
+| 1484    | Synod of Constantinople formally rejects Florence |
+| 1965    | Paul VI and Athenagoras lift the 1054 anathemas. Communion not restored |
 
 Things that stand out: 809 (a pope *refusing* the Filioque in the Creed) and 879–80 (a council with Roman legates present forbidding additions). The East counts that council as authoritative.
 

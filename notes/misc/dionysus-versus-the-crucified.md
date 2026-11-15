@@ -81,11 +81,11 @@ N. = Nietzsche. Girard's essay is short (about twenty pages) but it is one of th
 
 These read the same facts (sacrifice is universal) in three ways.
 
-| | universal sacrifice is... | the Cross is... | the crowd's violence is... |
-|---|---|---|---|
-| **Maistre** | a true principle ("the innocent can pay for the guilty"), corrupted into human sacrifice | the fulfilment of the sacrificial system; "heaven... could only be appeased by blood" | part of a world-altar; "war is divine in itself" |
-| **Nietzsche** | the healthy religion of life | an indictment of life | to be affirmed |
-| **Girard** | the trace of a founding murder, hidden by myth | the revelation that unmasks the mechanism | Satan's work, exposed |
+|               | universal sacrifice is... | the Cross is... | the crowd's violence is...                       |
+| ------------- | --- | --- | ------------------------------------------------ |
+| **Maistre**   | a true principle ("the innocent can pay for the guilty"), corrupted into human sacrifice | the fulfilment of the sacrificial system; "heaven... could only be appeased by blood" | part of a world-altar; "war is divine in itself" |
+| **Nietzsche** | the healthy religion of life | an indictment of life | to be affirmed                                   |
+| **Girard**    | the trace of a founding murder, hidden by myth | the revelation that unmasks the mechanism | Satan's work, exposed                            |
 
 - **Maistre and N. are oddly close.** Both see blood as the hidden law of the world. Maistre's "the entire earth, perpetually steeped in blood, is nothing but an immense altar" could almost be N.'s Dionysus. Maistre baptizes the sacrificial order; N. defends it against Christianity.
 - Girard says the Gospel does something different: it doesn't continue the sacrificial order but brings it to an end by showing what it is.

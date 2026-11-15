@@ -83,12 +83,12 @@ Earman is not a Christian apologist, and he says so. His verdict: "Of Miracles" 
 
 ## 7. Comparison
 
-| | **Hume** | **Paley / Lewis** | **Houston** | **Earman** | **Augustine / Aquinas** |
-|---|---|---|---|---|---|
-| what a miracle is | violation of a law by God's particular volition | divine act | violation, possibly with a purpose | violation of a presumptive law | a sign beyond the known order of secondary causes |
-| status of laws | uniform experience gives a "proof" (probability 1) | God's ordinary will | well-supported generalisations | high, never 1 | God's ordinary governance |
-| can testimony establish one? | no, especially for religion | yes, given God | not excluded; judged by best overall explanation | yes in principle, Bayesian | yes: signs for faith |
-| main flaw found | — | (begs the question, if one assumes theism) | assumes no God; slides from event to report | straight rule; ignores independent witnesses | — |
+|                              | **Hume** | **Paley / Lewis**                          | **Houston**                                      | **Earman**                                   | **Augustine / Aquinas** |
+| ---------------------------- | --- | ------------------------------------------ | ------------------------------------------------ | -------------------------------------------- | --- |
+| what a miracle is            | violation of a law by God's particular volition | divine act                                 | violation, possibly with a purpose               | violation of a presumptive law               | a sign beyond the known order of secondary causes |
+| status of laws               | uniform experience gives a "proof" (probability 1) | God's ordinary will                        | well-supported generalisations                   | high, never 1                                | God's ordinary governance |
+| can testimony establish one? | no, especially for religion | yes, given God                             | not excluded; judged by best overall explanation | yes in principle, Bayesian                   | yes: signs for faith |
+| main flaw found              | — | (begs the question, if one assumes theism) | assumes no God; slides from event to report      | straight rule; ignores independent witnesses | — |
 
 ## 8. Assessment
 

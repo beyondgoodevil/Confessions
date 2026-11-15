@@ -34,7 +34,7 @@ Thus, the reason we can have knowledge is because the transcendental categories 
 ## Objections and Replies
 
 | Objection | Reply |
-|---|---|
+| --- | --- |
 | **Only how we must think** (Stroud, 1968): transcendental arguments only show what we must **believe** or how we must think, not what's actually true | the TAG says the unbeliever already presupposes these things are **actually** true (logic really holds); if they're only "how we must think", the skeptic has to use logic to say so |
 | **"Why God?"** Couldn't something else ground logic: brute necessity, Platonic abstracta, the structure of the mind? | brute necessity is no explanation; Platonic abstracta are inert and can't be known (the epistemic access problem); the mind is finite and contingent. See [[Philosophy of Logic: What Grounds the Laws of Logic]] |
 | **"Why your God?"** Even if a mind grounds logic, why the Christian God? | the Trinitarian version (see the presuppositional versions above) argues only a God who is both one and many can ground unity and diversity. That's the strongest and most contested step |

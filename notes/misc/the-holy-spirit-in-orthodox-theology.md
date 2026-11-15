@@ -29,10 +29,10 @@ The Spirit is the least talked-about Person in a lot of Western theology. In Ort
 
 ## 2. Procession: From the Father
 
-| | Orthodox | Filioque (West) |
-|---|---|---|
-| Creed | "proceeds from the Father" (John 15:26) | "proceeds from the Father **and the Son**" |
-| Eternal source | the Father alone, the one cause (*monarchia*) | Father and Son as one principle |
+|                | Orthodox | Filioque (West)                               |
+| -------------- | --- | --------------------------------------------- |
+| Creed          | "proceeds from the Father" (John 15:26) | "proceeds from the Father **and the Son**"    |
+| Eternal source | the Father alone, the one cause (*monarchia*) | Father and Son as one principle               |
 | The Son's role | the Spirit is **sent** through the Son in time, and in eternity "rests on" the Son / shines through Him | the Son is co-cause of the Spirit's existence |
 
 - John 15:26: "the Comforter... whom **I will send** unto you **from the Father**, even the Spirit of truth, **which proceedeth from the Father**." Two different verbs: *pempsō* (send, in time) and *ekporeuetai* (proceed, eternal origin). Lossky's point: the Filioque confuses the two.
@@ -72,12 +72,12 @@ Before Pentecost the Spirit came **on** certain people for certain tasks. After,
 
 Every Orthodox sacrament has an **epiclesis**, a calling-down of the Spirit.
 
-| Sacrament | The Spirit's work |
-|---|---|
-| **Baptism** | "born of water and of the Spirit" (John 3:5); the water is blessed by calling the Spirit on it |
-| **Chrismation** | "the seal of the gift of the Holy Spirit" (2 Cor 1:21-22; Acts 8:14-17). Each person's own Pentecost |
-| **Eucharist** | the epiclesis: "send down Thy Holy Spirit upon us and upon these gifts here offered", "making them" the Body and Blood. See [[The Divine Liturgy Explained]] |
-| **Ordination** | "The divine grace, which always heals that which is infirm..." |
+| Sacrament                         | The Spirit's work |
+| --------------------------------- | --- |
+| **Baptism**                       | "born of water and of the Spirit" (John 3:5); the water is blessed by calling the Spirit on it |
+| **Chrismation**                   | "the seal of the gift of the Holy Spirit" (2 Cor 1:21-22; Acts 8:14-17). Each person's own Pentecost |
+| **Eucharist**                     | the epiclesis: "send down Thy Holy Spirit upon us and upon these gifts here offered", "making them" the Body and Blood. See [[The Divine Liturgy Explained]] |
+| **Ordination**                    | "The divine grace, which always heals that which is infirm..." |
 | **Confession, unction, marriage** | each has its prayer for the Spirit |
 
 - West vs East on the Eucharist: Latin theology tended to locate the change at the **words of institution**; Orthodoxy says the Spirit makes the change, with the whole anaphora.

@@ -196,13 +196,13 @@ The book closes with a warning. The seventeenth century failed in its attempt to
 
 The appendices give the succession statutes, which show the idea of election fading into inherent right. Richard III's title of 1484 blends inheritance with election. Henry VII's is a brisk enactment. Elizabeth's rests on an Act of Parliament. James I's recognises a crown that came to him "by inherent birthright" (pp. 267–270). Another appendix traces popular sovereignty to the conciliar theory of Gerson, who argued that a council can judge and depose a Pope, and so supplied the arguments later used against kings (pp. 271–274). The last appendix gathers extracts from the pamphlets.
 
-| | Papal | Presbyterian | Royalist (Divine Right) | Whig |
-|---|---|---|---|---|
-| Who holds power by divine right | The Pope | The Kirk's office-bearers | The king (in later writers, any supreme power) | The people, or the law |
-| Is there a sovereign above law? | Yes, the Pope over kings | Yes, the Kirk in spiritual things, which reach everywhere | Yes, every state has one | No; law and fundamental rights limit every power |
-| Who may resist? | Subjects released by the Pope | Subjects at the Kirk's command | No one | The people or its representatives; not private men |
-| Origin of the state | Sin, the Fall | God's law, as the Church reads it | Nature and God's ordinance | Contract for utility |
-| Image of the state | Servant of the Church | Executive of the Kirk | Organism | Machine |
+|                                 | Papal                         | Presbyterian | Royalist (Divine Right)                        | Whig |
+| ------------------------------- | ----------------------------- | --- | ---------------------------------------------- | --- |
+| Who holds power by divine right | The Pope                      | The Kirk's office-bearers | The king (in later writers, any supreme power) | The people, or the law |
+| Is there a sovereign above law? | Yes, the Pope over kings      | Yes, the Kirk in spiritual things, which reach everywhere | Yes, every state has one                       | No; law and fundamental rights limit every power |
+| Who may resist?                 | Subjects released by the Pope | Subjects at the Kirk's command | No one                                         | The people or its representatives; not private men |
+| Origin of the state             | Sin, the Fall                 | God's law, as the Church reads it | Nature and God's ordinance                     | Contract for utility |
+| Image of the state              | Servant of the Church         | Executive of the Kirk | Organism                                       | Machine |
 
 ### Conclusion
 

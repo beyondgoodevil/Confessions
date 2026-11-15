@@ -180,31 +180,31 @@ Gmirkin's main evidence is threefold.
 
 **First, the Septuagint's vocabulary.** Following Martin Rösel, he notes that the Greek translation renders Hebrew terms with words from the *Timaeus*:
 
-| Hebrew | Septuagint Greek | Timaeus |
-|---|---|---|
-| *tohu wabohu* | "invisible and unformed" (ἀόρατος καὶ ἀκατασκεύαστος) | 51a "invisible and unshaped" |
-| *tov* | καλός | 29a |
-| *raqia* | στερέωμα | 31b |
-| *tselem*, *demut* | εἰκών, ὁμοιότης | 29b, 30c |
-| *yatsar* | ἔπλασεν | 42d |
-| *nefesh* | ψυχή | 42e |
+| Hebrew            | Septuagint Greek | Timaeus                      |
+| ----------------- | --- | ---------------------------- |
+| *tohu wabohu*     | "invisible and unformed" (ἀόρατος καὶ ἀκατασκεύαστος) | 51a "invisible and unshaped" |
+| *tov*             | καλός | 29a                          |
+| *raqia*           | στερέωμα | 31b                          |
+| *tselem*, *demut* | εἰκών, ὁμοιότης | 29b, 30c                     |
+| *yatsar*          | ἔπλασεν | 42d                          |
+| *nefesh*          | ψυχή | 42e                          |
 
 The first of these, he says, "can hardly be explained other than as reflecting the language of Timaeus" (§4.1, quoting van der Meer). Rösel thought a free translator had harmonised an older Hebrew text with Plato. Text critics now hold that the Septuagint is a literal translation of a different Hebrew original (Hendel, van der Louw, Tov). A Qumran fragment of Genesis 1:9 agrees with the Greek against the Masoretic Text. Gmirkin concludes that the Platonism was already in the Hebrew, and that the translator was one of the authors (§4.1–4.2).
 
 **Second, the order of events.** Gmirkin rejects Rösel's reading, which followed Philo in taking Genesis 1 as the creation of the noetic world. All three of the *Timaeus*' accounts are about the material world (§4.3). He then lines the two up:
 
-| Step | Genesis | Timaeus |
-|---|---|---|
-| chaos and darkness | 1:2 | 30a, 52a–53b |
-| light; day and night | 1:3–5 | 31b, 39b–d |
-| earth and sky separated | 1:6–8 | 32b, 33b |
-| land and sea | 1:9–10 | 53a |
-| plants | 1:11–12 | 77a |
-| days, months, years; sun, moon, stars | 1:14–18 | 37e–40a |
-| creatures of water, air and land | 1:20–25 | 40a |
-| humankind | 1:26–28 | 41c–42a |
-| rest and completion | 2:1–3 | 42e |
-| mortal life made by the lesser gods | 2:4–25 | 40d–47e, 69a–92c |
+| Step                                  | Genesis | Timaeus          |
+| ------------------------------------- | ------- | ---------------- |
+| chaos and darkness                    | 1:2     | 30a, 52a–53b     |
+| light; day and night                  | 1:3–5   | 31b, 39b–d       |
+| earth and sky separated               | 1:6–8   | 32b, 33b         |
+| land and sea                          | 1:9–10  | 53a              |
+| plants                                | 1:11–12 | 77a              |
+| days, months, years; sun, moon, stars | 1:14–18 | 37e–40a          |
+| creatures of water, air and land      | 1:20–25 | 40a              |
+| humankind                             | 1:26–28 | 41c–42a          |
+| rest and completion                   | 2:1–3   | 42e              |
+| mortal life made by the lesser gods   | 2:4–25  | 40d–47e, 69a–92c |
 
 **Third, the ideas.** Gmirkin finds several Platonic ideas in Genesis 1 (§4.4):
 
@@ -282,14 +282,14 @@ Gmirkin's account of what followed is political:
 
 The books never mention each other, but their subjects overlap at nearly every point.
 
-| Question | O'Brien | Gmirkin |
-|---|---|---|
+| Question                                         | O'Brien | Gmirkin |
+| ------------------------------------------------ | --- | --- |
 | First text to read Genesis through the *Timaeus* | Philo (*De Opificio Mundi*) | Genesis 1 itself, about 270 BCE |
-| A model or pattern in creation | "clearly not a Jewish or Christian concept"; it enters through Philo and Origen (pp. 302, 305) | already in Genesis 1:26 ("image and likeness") and the Septuagint's ὁμοιότης |
-| Creation from nothing | Greeks never mentioned it (p. 24); O'Neill holds Philo taught it and the New Testament assumed it (p. 57) | absent from Genesis and Plato; a later patristic doctrine (§5.1.1) |
-| Who makes mortal man | Plato's Young Gods; Philo's helpers of "Let us make man"; the Gnostic Archons | Yahweh Elohim as one of the younger gods (Gen 2:7) |
-| Demiurge and highest god | separated from Numenius on; ends in antagonism with the Gnostics | Genesis keeps them distinct; Exodus merges Yahweh with the Creator |
-| Source of evil | matter (Plutarch, Numenius), a fallen Aeon (Valentinus), free will (Origen) | Plato's delegation to the lesser gods, retold in Genesis 2–3 |
+| A model or pattern in creation                   | "clearly not a Jewish or Christian concept"; it enters through Philo and Origen (pp. 302, 305) | already in Genesis 1:26 ("image and likeness") and the Septuagint's ὁμοιότης |
+| Creation from nothing                            | Greeks never mentioned it (p. 24); O'Neill holds Philo taught it and the New Testament assumed it (p. 57) | absent from Genesis and Plato; a later patristic doctrine (§5.1.1) |
+| Who makes mortal man                             | Plato's Young Gods; Philo's helpers of "Let us make man"; the Gnostic Archons | Yahweh Elohim as one of the younger gods (Gen 2:7) |
+| Demiurge and highest god                         | separated from Numenius on; ends in antagonism with the Gnostics | Genesis keeps them distinct; Exodus merges Yahweh with the Creator |
+| Source of evil                                   | matter (Plutarch, Numenius), a fallen Aeon (Valentinus), free will (Origen) | Plato's delegation to the lesser gods, retold in Genesis 2–3 |
 
 Read together, each book sheds light on the other.
 

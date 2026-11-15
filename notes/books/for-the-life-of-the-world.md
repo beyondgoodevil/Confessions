@@ -29,14 +29,14 @@ The thesis in one line: the Church's sacraments aren't religious extras added on
 
 The longest and most important chapter. The Liturgy is a **journey** or procession into the Kingdom, step by step.
 
-| Stage | Schmemann's point |
-|---|---|
-| **Assembly** | the Liturgy begins when people leave home to *become* the Church. *Leitourgia*: an action by which a group becomes something corporately, more than the sum of its members |
-| **Entrance** | the Church ascends; the altar is the throne of God and the Kingdom |
-| **Word** | Scripture and sermon are a sacrament, not just teaching. The Word is heard *in* the Spirit |
-| **Offering** | the bread and wine are our life and the whole world, offered. "To take the whole world into our hands as if it were an apple" and give it back to God |
-| **Anaphora** | lifting up, thanksgiving. Thanksgiving is the true relation to God, restored |
-| **Communion** | the Kingdom tasted. Christ is the perfect Eucharist: the one who gave thanks perfectly |
+| Stage                        | Schmemann's point |
+| ---------------------------- | --- |
+| **Assembly**                 | the Liturgy begins when people leave home to *become* the Church. *Leitourgia*: an action by which a group becomes something corporately, more than the sum of its members |
+| **Entrance**                 | the Church ascends; the altar is the throne of God and the Kingdom |
+| **Word**                     | Scripture and sermon are a sacrament, not just teaching. The Word is heard *in* the Spirit |
+| **Offering**                 | the bread and wine are our life and the whole world, offered. "To take the whole world into our hands as if it were an apple" and give it back to God |
+| **Anaphora**                 | lifting up, thanksgiving. Thanksgiving is the true relation to God, restored |
+| **Communion**                | the Kingdom tasted. Christ is the perfect Eucharist: the one who gave thanks perfectly |
 | **"Let us depart in peace"** | the return to the world, now as witnesses. The Liturgy ends in mission |
 
 - **Joy** is the key word. Nietzsche's charge, that Christians don't look redeemed, sticks because we've lost the joy. "For behold, I bring you good tidings of great joy" (Luke 2:10).

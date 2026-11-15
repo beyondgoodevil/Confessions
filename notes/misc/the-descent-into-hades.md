@@ -84,12 +84,12 @@ It shows the Resurrection as the event that affects the whole of humanity, start
 
 ## 6. Orthodox vs Western Views
 
-| | Orthodox | Catholic | Some Protestants |
-|---|---|---|---|
-| Where | Hades, the realm of all the dead | the "limbo of the fathers" (a part of Hades for the righteous) | Calvin: the descent = Christ's suffering of hell's torments on the cross. Some deny it |
+|              | Orthodox | Catholic | Some Protestants |
+| ------------ | --- | --- | --- |
+| Where        | Hades, the realm of all the dead | the "limbo of the fathers" (a part of Hades for the righteous) | Calvin: the descent = Christ's suffering of hell's torments on the cross. Some deny it |
 | Who He frees | the righteous at least; hymns can sound as if Hades is emptied | the righteous of the OT only | — |
-| Why | to destroy death and Hades from within | to bring the just into heaven, opened by His death | to bear the full punishment |
-| Mood | victory | victory | suffering (Calvin), or omitted |
+| Why          | to destroy death and Hades from within | to bring the just into heaven, opened by His death | to bear the full punishment |
+| Mood         | victory | victory | suffering (Calvin), or omitted |
 
 - The Calvinist reading ties into penal substitution: Christ suffers the damned's punishment. Orthodoxy has Christ going down as **conqueror**, not victim. See [[Recapitulation Doctrine vs PSA]].
 - Whether everyone in Hades was freed, or only those who accepted His preaching, is left open by the hymns. They speak broadly ("Hades emptied"), but the Church doesn't teach that all were saved.

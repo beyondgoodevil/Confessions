@@ -29,11 +29,11 @@ source: Genesis 2–3 (KJV); St. John of Damascus, An Exact Exposition of the Or
 
 Two strands in the Fathers:
 
-| | Irenaeus | Later Fathers (Damascene, Maximus, Rose's reading) |
-|---|---|---|
+|              | Irenaeus | Later Fathers (Damascene, Maximus, Rose's reading) |
+| ------------ | --- | --- |
 | Adam created | as a **child** (*nēpios*): innocent but immature, meant to grow into the likeness | in a high state of grace: his nous turned to God, wise (he named the animals) |
-| the Fall | a stumble of immaturity, being hurried before he was ready | a fall from a real height, by pride |
-| the goal | growth to maturity was always planned | restoration and more: theosis |
+| the Fall     | a stumble of immaturity, being hurried before he was ready | a fall from a real height, by pride |
+| the goal     | growth to maturity was always planned | restoration and more: theosis |
 
 They're not really opposed: both say Adam was **not yet** deified, but **called** to it. Irenaeus, *AH* IV.38: God could have given perfection from the start, but man couldn't have received it, "being as yet an infant".
 

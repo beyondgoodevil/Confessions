@@ -41,9 +41,9 @@ The short version of his big book *The Existence of God* (1979, 2004). Swinburne
 
 - The world consists of **substances** with powers and liabilities. What science discovers is the powers and liabilities of substances.
 
-| Scientific (inanimate) | Personal |
-|---|---|
-| initial conditions + laws of nature | an agent + his intentions + his powers |
+| Scientific (inanimate)                       | Personal                                       |
+| -------------------------------------------- | ---------------------------------------------- |
+| initial conditions + laws of nature          | an agent + his intentions + his powers         |
 | the dynamite exploded because it was ignited | it was ignited because a terrorist intended it |
 
 - Personal explanation isn't reducible to scientific (the mind can't be eliminated).

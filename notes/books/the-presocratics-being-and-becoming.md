@@ -35,11 +35,11 @@ Names in brackets below (Long, Sedley…) are the authors of chapters in the Cam
 - Before philosophy: Hesiod's gods (Night, Earth, Chaos) behave anthropomorphically; sun, earth and rivers were invoked in oaths (Algra).
 - Early cosmogonies use a **biological model**: the cosmos is "born", like living things.
 
-| Thinker | The *arche* (principle) | Idea |
-|---|---|---|
-| **Thales** (c. 585 BC) | water | "all things are full of gods"; the magnet has a soul |
-| **Anaximander** | the *apeiron* (boundless) | opposites separate out of an unlimited stuff and "pay penalty to one another for their injustice according to the ordering of time". The first surviving sentence of Western philosophy |
-| **Anaximenes** | air | condensation and rarefaction produce everything else: the first mechanism |
+| Thinker                | The *arche* (principle)   | Idea |
+| ---------------------- | ------------------------- | --- |
+| **Thales** (c. 585 BC) | water                     | "all things are full of gods"; the magnet has a soul |
+| **Anaximander**        | the *apeiron* (boundless) | opposites separate out of an unlimited stuff and "pay penalty to one another for their injustice according to the ordering of time". The first surviving sentence of Western philosophy |
+| **Anaximenes**         | air                       | condensation and rarefaction produce everything else: the first mechanism |
 
 The question they start is **the one and the many**: what single principle underlies the many things? See [[The Problem of the One and the Many]].
 
@@ -122,10 +122,10 @@ Aristotle's answer: the distance is only **potentially** infinitely divisible, n
 Accept that real being doesn't come to be or perish, but make it **many**.
 - Graham argues Parmenides wasn't a strict monist: he gave a "manual" for a responsible natural philosophy, which the pluralists followed. Their changeless ultimate stuffs move toward distinguishing agent/patient, mind/matter, soul/body.
 
-| Thinker | Elements | Moving cause |
-|---|---|---|
-| **Empedocles** | four roots: earth, water, air, fire | **Love** (combines) and **Strife** (separates), in cycles |
-| **Anaxagoras** | infinitely many stuffs; "in everything there is a portion of everything" | **Nous** (Mind), which set the mixture rotating. Socrates was excited by this, then disappointed that Anaxagoras didn't use Mind to explain *why* things are best (*Phaedo* 97–99) |
+| Thinker                              | Elements | Moving cause |
+| ------------------------------------ | --- | --- |
+| **Empedocles**                       | four roots: earth, water, air, fire | **Love** (combines) and **Strife** (separates), in cycles |
+| **Anaxagoras**                       | infinitely many stuffs; "in everything there is a portion of everything" | **Nous** (Mind), which set the mixture rotating. Socrates was excited by this, then disappointed that Anaxagoras didn't use Mind to explain *why* things are best (*Phaedo* 97–99) |
 | **Leucippus, Democritus** (atomists) | **atoms** (uncuttable) and **void** | none: atoms collide by necessity. "By convention sweet, by convention bitter... in reality atoms and void" |
 
 - **Empedocles**: as Love asserts itself, detached limbs form and join by chance into monsters, "man-faced ox-kind and ox-headed man-kind": an early survival-of-the-fit idea. Also a religious doctrine of the soul's wanderings, probably Pythagorean (Graham).

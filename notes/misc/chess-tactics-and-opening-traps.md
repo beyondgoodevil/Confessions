@@ -20,14 +20,14 @@ Seirawan's **first principle** is **force**: who has more fighting material, ove
 
 Seirawan's table:
 
-| Piece | Points |
-|---|---|
-| Pawn | 1 |
-| Knight | 3 |
-| Bishop | 3 |
-| Rook | 5 |
-| Queen | 9 |
-| King | Infinite: losing it loses the game |
+| Piece  | Points                             |
+| ------ | ---------------------------------- |
+| Pawn   | 1                                  |
+| Knight | 3                                  |
+| Bishop | 3                                  |
+| Rook   | 5                                  |
+| Queen  | 9                                  |
+| King   | Infinite: losing it loses the game |
 
 - Knights and bishops are **minor pieces**. Rooks and queens are **major pieces**.
 - **Typical imbalances** (his examples):
@@ -174,15 +174,15 @@ caption: The Caro-Kann trap: a smothered mate on d6. Seirawan calls 5.Qe2 a 'che
 
 ## 9. The Traps at a Glance
 
-| Trap | Moves | Tactic | Lesson |
-|---|---|---|---|
-| Scholar's mate | 1.e4 e5 2.Bc4 Nc6 3.Qh5 Nf6?? 4.Qxf7# | Attack on f7 | Defend f7; don't bring the queen out early |
-| Legall's mate | 1.e4 e5 2.Nf3 d6 3.Bc4 Bg4 4.Nc3 g6? 5.Nxe5!! Bxd1? 6.Bxf7+ Ke7 7.Nd5# | Breaking a relative pin | A pin on a knight can be ignored if the threat is bigger |
-| Excommunicated Bishop | ...5.O-O Nge7?? 6.Bxf7+ Kxf7 7.Ng5+ Ke8 8.Qxg4 | Discovered attack | Don't leave pieces undefended |
+| Trap                       | Moves | Tactic                     | Lesson |
+| -------------------------- | --- | -------------------------- | --- |
+| Scholar's mate             | 1.e4 e5 2.Bc4 Nc6 3.Qh5 Nf6?? 4.Qxf7# | Attack on f7               | Defend f7; don't bring the queen out early |
+| Legall's mate              | 1.e4 e5 2.Nf3 d6 3.Bc4 Bg4 4.Nc3 g6? 5.Nxe5!! Bxd1? 6.Bxf7+ Ke7 7.Nd5# | Breaking a relative pin    | A pin on a knight can be ignored if the threat is bigger |
+| Excommunicated Bishop      | ...5.O-O Nge7?? 6.Bxf7+ Kxf7 7.Ng5+ Ke8 8.Qxg4 | Discovered attack          | Don't leave pieces undefended |
 | Queen That Never Came Home | ...5.Bd3 Qxd4?? 6.Bb5+ | Discovered attack plus pin | Don't grab pawns with the queen |
-| Fool's mate | 1.f4 e5 2.g4?? Qh4# | Open diagonal to the king | Don't weaken the king's pawns |
-| From's Gambit trap | 1.f4 e5 2.fxe5 d6 3.exd6 Bxd6 4.Nc3?? Qh4+ 5.g3 Qxg3+ 6.hxg3 Bxg3# | Queen sacrifice | Develop with tempo; block threats |
-| Caro-Kann smothered mate | 1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Qe2 Ngf6?? 6.Nd6# | Pin plus smothered mate | Don't play "hope chess" |
+| Fool's mate                | 1.f4 e5 2.g4?? Qh4# | Open diagonal to the king  | Don't weaken the king's pawns |
+| From's Gambit trap         | 1.f4 e5 2.fxe5 d6 3.exd6 Bxd6 4.Nc3?? Qh4+ 5.g3 Qxg3+ 6.hxg3 Bxg3# | Queen sacrifice            | Develop with tempo; block threats |
+| Caro-Kann smothered mate   | 1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Qe2 Ngf6?? 6.Nd6# | Pin plus smothered mate    | Don't play "hope chess" |
 
 ## 10. Assessment
 

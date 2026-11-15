@@ -60,20 +60,20 @@ N. = Nietzsche, Z = *Zarathustra* (citations by part and chapter title, Kaufmann
 
 ## 3. The Cast
 
-| Figure | Where | What it's for |
-|---|---|---|
-| The sun | Prologue 1; IV end | Zarathustra's model: overflowing, going-under, rising again |
-| The saint in the forest | Prologue 2; IV "Retired from Service" | Old piety that hasn't heard God is dead (and the last pope who has) |
-| The tightrope walker | Prologue 3–6 | Man as a "rope"; a bridge that falls. Jung: N.'s own shadow |
-| The jester | Prologue 6, 8 | The one who "leaps over", a caricature of overcoming |
-| The last man | Prologue 5 | Comfort, safety, blinking: the crowd's real ideal |
-| The dwarf / spirit of gravity | III "Vision and Riddle" | The cheap version of the thought: "time itself is a circle" |
-| The shepherd | III "Vision and Riddle" | Zarathustra himself, choking on nausea at "the small man" recurring |
-| Eagle and serpent | Throughout | Pride and wisdom. They speak the doctrine he won't |
-| Life and Wisdom | II "Dance Song"; III "Other Dance Song" | Women he loves and quarrels with |
-| The higher men | IV | Those for whom the old values have died but no new ones live: each a broken piece of the past |
-| The ass | IV | What the higher men worship once God is dead: "Yea-Yuh", a yes to everything |
-| The laughing lion and doves | IV "The Sign" | The sign that his "children" are near |
+| Figure                        | Where                                   | What it's for |
+| ----------------------------- | --------------------------------------- | --- |
+| The sun                       | Prologue 1; IV end                      | Zarathustra's model: overflowing, going-under, rising again |
+| The saint in the forest       | Prologue 2; IV "Retired from Service"   | Old piety that hasn't heard God is dead (and the last pope who has) |
+| The tightrope walker          | Prologue 3–6                            | Man as a "rope"; a bridge that falls. Jung: N.'s own shadow |
+| The jester                    | Prologue 6, 8                           | The one who "leaps over", a caricature of overcoming |
+| The last man                  | Prologue 5                              | Comfort, safety, blinking: the crowd's real ideal |
+| The dwarf / spirit of gravity | III "Vision and Riddle"                 | The cheap version of the thought: "time itself is a circle" |
+| The shepherd                  | III "Vision and Riddle"                 | Zarathustra himself, choking on nausea at "the small man" recurring |
+| Eagle and serpent             | Throughout                              | Pride and wisdom. They speak the doctrine he won't |
+| Life and Wisdom               | II "Dance Song"; III "Other Dance Song" | Women he loves and quarrels with |
+| The higher men                | IV                                      | Those for whom the old values have died but no new ones live: each a broken piece of the past |
+| The ass                       | IV                                      | What the higher men worship once God is dead: "Yea-Yuh", a yes to everything |
+| The laughing lion and doves   | IV "The Sign"                           | The sign that his "children" are near |
 
 ## 4. Lampert: The Education of Zarathustra
 
@@ -120,18 +120,18 @@ Matthew Meyer, *Routledge Guidebook* (2025).
 
 ## 9. Comparison: Gospel and Counter-Gospel
 
-| | The Gospels | *Zarathustra* |
-|---|---|---|
-| **Beginning** | At about thirty, Jesus goes into the wilderness for forty days (Luke 3–4) | At thirty, Zarathustra goes into the mountains for ten years |
-| **Descent** | *Kenosis*: "emptied himself" (Phil 2:7) | *Untergang*: "going-under", from an overflow of wisdom |
+|                    | The Gospels | *Zarathustra* |
+| ------------------ | --- | --- |
+| **Beginning**      | At about thirty, Jesus goes into the wilderness for forty days (Luke 3–4) | At thirty, Zarathustra goes into the mountains for ten years |
+| **Descent**        | *Kenosis*: "emptied himself" (Phil 2:7) | *Untergang*: "going-under", from an overflow of wisdom |
 | **First audience** | "The common people heard him gladly" (Mark 12:37) | The crowd laughs and wants the last man |
-| **Temptation** | The devil, in the wilderness | The soothsayer: pity for the higher men, "my final sin" |
-| **Disciples** | "Lo, I am with you alway" (Matt 28:20) | "Lose me and find yourselves... when you have all denied me will I return" |
-| **Supper** | The Last Supper | "The Supper", then the Ass Festival |
-| **Liturgy** | "Blessing, and glory, and wisdom, and thanksgiving..." (Rev 7:12) | The same doxology, sung to an ass, answered "Yea-Yuh" |
-| **The dead** | Lazarus raised | The tightrope walker buried in a hollow tree |
-| **Climax** | Gethsemane and the Cross: suffering *for* others | The Convalescent: seven days prostrate under his own thought |
-| **End** | Resurrection; "I go to prepare a place for you" | "Rise now, rise, thou great noon!", alone, with a lion |
+| **Temptation**     | The devil, in the wilderness | The soothsayer: pity for the higher men, "my final sin" |
+| **Disciples**      | "Lo, I am with you alway" (Matt 28:20) | "Lose me and find yourselves... when you have all denied me will I return" |
+| **Supper**         | The Last Supper | "The Supper", then the Ass Festival |
+| **Liturgy**        | "Blessing, and glory, and wisdom, and thanksgiving..." (Rev 7:12) | The same doxology, sung to an ass, answered "Yea-Yuh" |
+| **The dead**       | Lazarus raised | The tightrope walker buried in a hollow tree |
+| **Climax**         | Gethsemane and the Cross: suffering *for* others | The Convalescent: seven days prostrate under his own thought |
+| **End**            | Resurrection; "I go to prepare a place for you" | "Rise now, rise, thou great noon!", alone, with a lion |
 
 ## 10. Assessment
 

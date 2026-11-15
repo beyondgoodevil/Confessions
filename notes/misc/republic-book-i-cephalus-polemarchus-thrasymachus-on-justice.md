@@ -140,11 +140,11 @@ This is the classic Socratic ending. The interlocutors have been refuted, but no
 
 Book I is in the style of Plato's early Socratic dialogues, while the rest of the *Republic* is mostly a long exposition. So readers have long asked whether it was written separately. Weiss lists three main views (ch. 1):
 
-| View | Who | Claim |
-|---|---|---|
-| Continuous | Taylor, Kahn, Guthrie | Book I was always meant as the introduction and is "proleptic" of what follows |
+| View              | Who                                       | Claim |
+| ----------------- | ----------------------------------------- | --- |
+| Continuous        | Taylor, Kahn, Guthrie                     | Book I was always meant as the introduction and is "proleptic" of what follows |
 | Separate dialogue | Dümmler, Friedländer (the "Thrasymachus") | Book I was an earlier aporetic dialogue later attached |
-| Repudiation | Vlastos and others | Plato includes it to show the weakness of the Socratic elenchus |
+| Repudiation       | Vlastos and others                        | Plato includes it to show the weakness of the Socratic elenchus |
 
 Annas adds one piece of outside evidence. The short dialogue *Cleitophon* has Cleitophon complain that Socrates only knocks down other people's accounts of justice and never says what it is. That complaint "makes no sense at all as a reaction to the complete *Republic*; but it does make sense as a reaction to Book I on its own" (ch. 2). Still, she thinks Book I makes an "entirely suitable introduction", whatever its origin.
 

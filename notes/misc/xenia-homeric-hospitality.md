@@ -40,13 +40,13 @@ In Homer, how you treat a stranger at your door shows what kind of person, and w
 
 Reece abstracts the conventional elements of 18 hospitality scenes (in the *Iliad*, *Odyssey* and *Homeric Hymns*) into a grid of 25 headings and 38 sub-elements. No scene has them all and no two scenes are identical, but the **order** underlies every scene: it's the "syntax" of hospitality. Grouped:
 
-| Stage | Elements |
-|---|---|
-| **Approach** | I. maiden at the well / youth on the road; II. arrival; III. description of the house and its people; IV. dog at the door; V. waiting at the threshold; VI. supplication |
+| Stage         | Elements |
+| ------------- | --- |
+| **Approach**  | I. maiden at the well / youth on the road; II. arrival; III. description of the house and its people; IV. dog at the door; V. waiting at the threshold; VI. supplication |
 | **Reception** | VII. host sees the visitor, (hesitates), rises, approaches, (sees to the horses), takes his hand, says welcome, takes his spear, leads him in; VIII. seat |
-| **Meal** | IX. feast (preparation, eating, end); X. after-dinner drink |
-| **Exchange** | XI. identification (host asks, guest answers); XII. exchange of information; XIII. entertainment; XIV. guest blesses host; XV. guest shares in libation or sacrifice |
-| **Night** | XVI. guest asks to sleep; XVII. bed; XVIII. bath |
+| **Meal**      | IX. feast (preparation, eating, end); X. after-dinner drink |
+| **Exchange**  | XI. identification (host asks, guest answers); XII. exchange of information; XIII. entertainment; XIV. guest blesses host; XV. guest shares in libation or sacrifice |
+| **Night**     | XVI. guest asks to sleep; XVII. bed; XVIII. bath |
 | **Departure** | XIX. host detains guest; XX. guest-gifts; XXI. departure meal; XXII. departure libation; XXIII. farewell blessing; XXIV. departure omen; XXV. escort to the next destination |
 
 Some conventions are worth knowing because the poem plays with them so much:

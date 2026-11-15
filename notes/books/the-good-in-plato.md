@@ -15,12 +15,12 @@ source: "Thinking Being: Introduction to Metaphysics in the Classical Tradition 
 - Seeing needs three things, not two: eye, object, and **light**. Light comes from the sun and is the "yoke" between seeing and seen.
 - Same for knowing. Something has to join intellect and what it knows, and that comes from the Good.
 
-| Visible | Intelligible |
-|---|---|
-| sun | the Good |
-| light | truth / being |
-| eye, sight | intellect, knowledge |
-| visible things | forms |
+| Visible        | Intelligible         |
+| -------------- | -------------------- |
+| sun            | the Good             |
+| light          | truth / being        |
+| eye, sight     | intellect, knowledge |
+| visible things | forms                |
 
 - Second half of the analogy, easy to skip: the sun also makes things *grow*, not only be seen. So the Good gives the forms their **being**, not only their being known.
 

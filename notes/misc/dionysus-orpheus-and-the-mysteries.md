@@ -24,12 +24,12 @@ Nietzsche made Dionysus the god of frenzy and Apollo the god of clear form and m
 
 "Our greatest blessings come to us by way of madness... provided the madness is given us by divine gift" (Socrates in the *Phaedrus*).
 
-| madness | patron | what it is |
-|---|---|---|
-| **prophetic** | Apollo | the Pythia, the Sibyl, Dodona: a god speaking through a medium |
-| **telestic** (ritual) | Dionysus | collective, healing ecstasy through wine and dance |
-| **poetic** | the Muses | the poet given what he could not know |
-| **erotic** | Aphrodite and Eros | love as the soul's wings regrowing |
+| madness               | patron             | what it is |
+| --------------------- | ------------------ | --- |
+| **prophetic**         | Apollo             | the Pythia, the Sibyl, Dodona: a god speaking through a medium |
+| **telestic** (ritual) | Dionysus           | collective, healing ecstasy through wine and dance |
+| **poetic**            | the Muses          | the poet given what he could not know |
+| **erotic**            | Aphrodite and Eros | love as the soul's wings regrowing |
 
 **Against Nietzsche and Rohde.** Rohde, following "his friend Nietzsche", held that Apollo's religion was "hostile to anything in the nature of ecstasy", and that prophetic madness came in with Dionysus. Dodds: wrong.
 - Plato carefully distinguishes the **Apolline**, which is **mediumship**, aimed at knowledge, the rare gift of individuals, and the **Dionysiac**, which is **collective**, for its own sake or for healing, highly infectious.
@@ -160,13 +160,13 @@ So, against Nietzsche, the "irrational" belonged to **Apollo** as much as to Dio
 
 ## 10. Comparison: Three Kinds of Greek Ecstasy
 
-| | **Apolline** | **Dionysiac** | **"shamanic"/Orphic** |
-|---|---|---|---|
-| who | chosen individuals (the Pythia) | everyone, women especially, slaves too | individual holy men and their followers |
-| how | trance, possession, the god speaks in the first person | wine, dance, flute and drum, collective frenzy | fasting, retreat, purity, the soul leaving the body |
-| aim | knowledge (oracle) | release, "stop being yourself", healing | release from the cycle of rebirth, becoming a god |
-| view of the body | indifferent | celebrated, then torn | a prison or tomb |
-| what it gave later thought | the idea of inspiration | catharsis, tragedy | soul/body dualism, asceticism, "puritanism" |
+|                            | **Apolline** | **Dionysiac**                                  | **"shamanic"/Orphic** |
+| -------------------------- | --- | ---------------------------------------------- | --- |
+| who                        | chosen individuals (the Pythia) | everyone, women especially, slaves too         | individual holy men and their followers |
+| how                        | trance, possession, the god speaks in the first person | wine, dance, flute and drum, collective frenzy | fasting, retreat, purity, the soul leaving the body |
+| aim                        | knowledge (oracle) | release, "stop being yourself", healing        | release from the cycle of rebirth, becoming a god |
+| view of the body           | indifferent | celebrated, then torn                          | a prison or tomb |
+| what it gave later thought | the idea of inspiration | catharsis, tragedy                             | soul/body dualism, asceticism, "puritanism" |
 
 ## 11. Assessment
 

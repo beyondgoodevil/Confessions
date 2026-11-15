@@ -28,24 +28,24 @@ The site has verse notes and a list of Fathers on deification but no main page. 
 
 ## 3. Vocabulary
 
-| Term | Meaning |
-|---|---|
-| *hamartia* | "missing the mark": the *state* of sin, not just a sinful act (*hamartema*) |
-| *zoe* vs *bios* | divine, everlasting life vs ordinary biological life. Theosis is receiving *zoe* |
-| image / likeness | the image can't be lost; the likeness is what theosis grows into. See [[Image and Likeness]] |
+| Term               | Meaning |
+| ------------------ | --- |
+| *hamartia*         | "missing the mark": the *state* of sin, not just a sinful act (*hamartema*) |
+| *zoe* vs *bios*    | divine, everlasting life vs ordinary biological life. Theosis is receiving *zoe* |
+| image / likeness   | the image can't be lost; the likeness is what theosis grows into. See [[Image and Likeness]] |
 | *podvig* (Russian) | ascetic struggle |
-| *theoria* | vision / contemplation of God |
-| *apotheosis* | deification **in God's essence**. Rejected as heresy |
+| *theoria*          | vision / contemplation of God |
+| *apotheosis*       | deification **in God's essence**. Rejected as heresy |
 
 ## 4. Three Stages
 
 This is the classic patristic scheme (Dionysius, Maximus, the Philokalia), and modern writers like Romanides and Met. Hierotheos Vlachos make it central.
 
-| Stage | Greek | What happens | Mainly through |
-|---|---|---|---|
-| **Purification** | *katharsis* | of the heart from the passions | repentance, fasting, the commandments, confession |
-| **Illumination** | *photismos* | of the *nous*; unceasing prayer in the heart | prayer, the Jesus Prayer, watchfulness |
-| **Glorification** | *theosis* proper | vision of the uncreated light | grace, given, not achieved |
+| Stage             | Greek            | What happens                                 | Mainly through |
+| ----------------- | ---------------- | -------------------------------------------- | --- |
+| **Purification**  | *katharsis*      | of the heart from the passions               | repentance, fasting, the commandments, confession |
+| **Illumination**  | *photismos*      | of the *nous*; unceasing prayer in the heart | prayer, the Jesus Prayer, watchfulness |
+| **Glorification** | *theosis* proper | vision of the uncreated light                | grace, given, not achieved |
 
 - Dionysius has the same triad as purification, illumination, perfection, and maps it onto the orders of clergy. See [[St. Dionysius the Areopagite]].
 - Not strictly one after the other. More like overlapping. Purification never stops.

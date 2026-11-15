@@ -158,16 +158,16 @@ Vladimir Moss writes from the Russian "True Orthodox" tradition, which broke wit
 
 ## 6. Comparison
 
-| question | **Basis (ROC, 2000)** | **Moss** | **Papanikolaou** |
-|---|---|---|---|
-| origin of the state | after the Fall, to restrain sin | after the Fall; monarchy natural (family to tsar) | after the Fall, from failure to love |
-| ideal | symphonia, possible only in an Orthodox state | Orthodox autocracy, the anointed tsar | none is the Kingdom; liberal democracy is "most iconic" now |
-| democracy | accepted; no preference among systems | heresy as ideology; a mechanism is fine | endorsed as the consequence of theosis |
-| church-state separation | division of domains yes, privatisation no | rejected | endorsed, as freedom for the Church |
-| religious freedom | a sign of apostasy, but useful | ecumenism is "the religious aspect of democracy" | required, including freedom to reject God |
-| human rights | from the image of God; secular version distorted | subhuman humanism | endorsed with qualification, as fear-based but iconic |
-| key Father | Justinian, Chrysostom, Philaret | Eusebius, Theodore the Studite, Philaret | Chrysostom (provisional state), Maximus (learning to love) |
-| key danger | secular apostasy | the Antichrist after the restrainer | Christian anger and coercion |
+| question                | **Basis (ROC, 2000)**                            | **Moss** | **Papanikolaou** |
+| ----------------------- | ------------------------------------------------ | --- | --- |
+| origin of the state     | after the Fall, to restrain sin                  | after the Fall; monarchy natural (family to tsar) | after the Fall, from failure to love |
+| ideal                   | symphonia, possible only in an Orthodox state    | Orthodox autocracy, the anointed tsar | none is the Kingdom; liberal democracy is "most iconic" now |
+| democracy               | accepted; no preference among systems            | heresy as ideology; a mechanism is fine | endorsed as the consequence of theosis |
+| church-state separation | division of domains yes, privatisation no        | rejected | endorsed, as freedom for the Church |
+| religious freedom       | a sign of apostasy, but useful                   | ecumenism is "the religious aspect of democracy" | required, including freedom to reject God |
+| human rights            | from the image of God; secular version distorted | subhuman humanism | endorsed with qualification, as fear-based but iconic |
+| key Father              | Justinian, Chrysostom, Philaret                  | Eusebius, Theodore the Studite, Philaret | Chrysostom (provisional state), Maximus (learning to love) |
+| key danger              | secular apostasy                                 | the Antichrist after the restrainer | Christian anger and coercion |
 
 ## 7. Assessment
 

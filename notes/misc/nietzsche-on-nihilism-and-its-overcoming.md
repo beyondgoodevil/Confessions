@@ -27,11 +27,11 @@ N. = Nietzsche. GS = *Gay Science*, GM = *Genealogy*, WP = *Will to Power* notes
 
 ## 2. Two Nihilisms: Disorientation and Despair
 
-| | **disorientation** | **despair** |
-|---|---|---|
-| condition lost | value | realizability |
-| what's wrong | our values (they lack the authority we thought) | the world (it can't realize our values) |
-| typical text | "the highest values devaluate themselves" (WP 2) | "it would be better if the world did not exist" (WP 701) |
+|                 | **disorientation** | **despair** |
+| --------------- | --- | --- |
+| condition lost  | value | realizability |
+| what's wrong    | our values (they lack the authority we thought) | the world (it can't realize our values) |
+| typical text    | "the highest values devaluate themselves" (WP 2) | "it would be better if the world did not exist" (WP 701) |
 | typical feeling | "Is there still any up or down? Are we not straying as through an infinite nothing?" (GS 125) | the world "ought not to be" (WP 585) |
 
 - **Disorientation** is the usual scholarly reading: no objective values, so nothing matters. It rests on a hidden premise Reginster calls **normative objectivism**: values have authority *only if* they are objective.

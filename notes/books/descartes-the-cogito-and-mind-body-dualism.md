@@ -86,13 +86,13 @@ Also the **divisibility** argument: the body is divisible, the mind isn't (I can
 
 ## Objections
 
-| Objection | Who | Point |
-|---|---|---|
-| **Cartesian circle** | Arnauld | clear and distinct perception proves God; God guarantees clear and distinct perception. Circular |
-| **Interaction** | Princess Elisabeth of Bohemia (1643) | how can an unextended mind move an extended body? Causation by contact needs extension. Descartes's answer (the pineal gland) didn't help. See [[Mind and Body: Dualism, Materialism, Emergence]] |
-| **Conceivability ≠ possibility** | Arnauld | I can conceive a right triangle without knowing Pythagoras's theorem holds; that doesn't make them separable. Abstraction "by an intellect conceiving inadequately" gives only a formal, not a real, distinction (Fourth Objections) |
-| **"I think" assumes an "I"** | Lichtenberg, Nietzsche | at most "there is thinking" |
-| **Animals** | many | Descartes said animals are machines without souls. Absurd consequences |
+| Objection                        | Who                                  | Point |
+| -------------------------------- | ------------------------------------ | --- |
+| **Cartesian circle**             | Arnauld                              | clear and distinct perception proves God; God guarantees clear and distinct perception. Circular |
+| **Interaction**                  | Princess Elisabeth of Bohemia (1643) | how can an unextended mind move an extended body? Causation by contact needs extension. Descartes's answer (the pineal gland) didn't help. See [[Mind and Body: Dualism, Materialism, Emergence]] |
+| **Conceivability ≠ possibility** | Arnauld                              | I can conceive a right triangle without knowing Pythagoras's theorem holds; that doesn't make them separable. Abstraction "by an intellect conceiving inadequately" gives only a formal, not a real, distinction (Fourth Objections) |
+| **"I think" assumes an "I"**     | Lichtenberg, Nietzsche               | at most "there is thinking" |
+| **Animals**                      | many                                 | Descartes said animals are machines without souls. Absurd consequences |
 
 ## Death of the Soul: The Story Afterwards
 

@@ -30,16 +30,16 @@ So the virtues aren't extras added to human nature. They're God's own qualities,
 
 First found in **Evagrius Ponticus** (4th c., Egyptian desert), handed to the West by **St. John Cassian** (*Conferences* 5, *Institutes* 5–12).
 
-| # | Passion | Greek | What it is |
-|---|---|---|---|
-| 1 | Gluttony | *gastrimargia* | disordered appetite for food and drink |
-| 2 | Lust | *porneia* | disordered sexual desire |
-| 3 | Avarice | *philargyria* | love of money and possessions |
-| 4 | Anger | *orge* | rage, resentment, remembering wrongs |
-| 5 | Sadness / dejection | *lype* | worldly grief, self-pity, sorrow over what you couldn't have |
-| 6 | Despondency / acedia | *akedia* | listlessness, boredom with spiritual things, "the noonday demon" (Ps 91:6 LXX) |
-| 7 | Vainglory | *kenodoxia* | wanting to be seen and praised, even for virtue |
-| 8 | Pride | *hyperephania* | self-exaltation; crediting yourself and not God |
+| #   | Passion              | Greek          | What it is |
+| --- | -------------------- | -------------- | --- |
+| 1   | Gluttony             | *gastrimargia* | disordered appetite for food and drink |
+| 2   | Lust                 | *porneia*      | disordered sexual desire |
+| 3   | Avarice              | *philargyria*  | love of money and possessions |
+| 4   | Anger                | *orge*         | rage, resentment, remembering wrongs |
+| 5   | Sadness / dejection  | *lype*         | worldly grief, self-pity, sorrow over what you couldn't have |
+| 6   | Despondency / acedia | *akedia*       | listlessness, boredom with spiritual things, "the noonday demon" (Ps 91:6 LXX) |
+| 7   | Vainglory            | *kenodoxia*    | wanting to be seen and praised, even for virtue |
+| 8   | Pride                | *hyperephania* | self-exaltation; crediting yourself and not God |
 
 **Cassian's grouping**
 
@@ -53,17 +53,17 @@ My summary: the first six are passions of the body and lower soul; the last two 
 
 Pope St. Gregory the Great (6th c.) reworked the list into the West's seven:
 
-| Eastern eight | Western seven |
-|---|---|
-| gluttony | gluttony |
-| lust | lust |
-| avarice | greed |
-| anger | wrath |
-| sadness | *(merged into sloth)* |
-| despondency | sloth |
-| vainglory | *(merged into pride)* |
-| pride | pride |
-| — | **envy** (added) |
+| Eastern eight | Western seven         |
+| ------------- | --------------------- |
+| gluttony      | gluttony              |
+| lust          | lust                  |
+| avarice       | greed                 |
+| anger         | wrath                 |
+| sadness       | *(merged into sloth)* |
+| despondency   | sloth                 |
+| vainglory     | *(merged into pride)* |
+| pride         | pride                 |
+| —             | **envy** (added)      |
 
 - Gregory put pride at the root of all the others, not at the end of the list.
 - The East keeps *lype* (sadness) separate, which I think is psychologically sharper: there's a "worldly sorrow that worketh death" (2 Cor 7:10) that isn't the same as laziness.
@@ -72,16 +72,16 @@ Pope St. Gregory the Great (6th c.) reworked the list into the West's seven:
 
 The traditional pairing (Cassian, the Philokalia, St. John Climacus). Each passion is healed by its opposite, not by willpower in the abstract.
 
-| Passion | Remedy | Practice |
-|---|---|---|
-| Gluttony | **temperance** / self-control | fasting |
-| Lust | **chastity** | guarding the eyes and thoughts; fasting |
-| Avarice | **non-possessiveness**, generosity | almsgiving |
-| Anger | **meekness**, patience | forgiving; not answering back; prayer for enemies |
-| Sadness | **joy** in God, hope | thanksgiving; spiritual reading |
-| Despondency | **diligence**, perseverance | manual work; a fixed rule; "stay in your cell" |
-| Vainglory | **hiddenness** | doing good in secret (Matt 6:1-6) |
-| Pride | **humility** | self-reproach; obedience; attributing everything to God |
+| Passion     | Remedy                             | Practice |
+| ----------- | ---------------------------------- | --- |
+| Gluttony    | **temperance** / self-control      | fasting |
+| Lust        | **chastity**                       | guarding the eyes and thoughts; fasting |
+| Avarice     | **non-possessiveness**, generosity | almsgiving |
+| Anger       | **meekness**, patience             | forgiving; not answering back; prayer for enemies |
+| Sadness     | **joy** in God, hope               | thanksgiving; spiritual reading |
+| Despondency | **diligence**, perseverance        | manual work; a fixed rule; "stay in your cell" |
+| Vainglory   | **hiddenness**                     | doing good in secret (Matt 6:1-6) |
+| Pride       | **humility**                       | self-reproach; obedience; attributing everything to God |
 
 **Humility** is the hinge of the whole list. Seeing yourself as God sees you. St. Isaac the Syrian calls it "the garment of the Godhead".
 

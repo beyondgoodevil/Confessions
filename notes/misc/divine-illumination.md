@@ -39,10 +39,10 @@ The argument underneath, as I reconstruct it:
 
 Roughly sorted:
 
-| Explains | How |
-|---|---|
-| **Certainty** | turns true belief into knowledge: you *see* that it must be so |
-| **Necessary truths** | logic, maths, ethics: grasped in the divine light, not abstracted from senses |
+| Explains                | How |
+| ----------------------- | --- |
+| **Certainty**           | turns true belief into knowledge: you *see* that it must be so |
+| **Necessary truths**    | logic, maths, ethics: grasped in the divine light, not abstracted from senses |
 | **Concepts / essences** | the senses give appearances; grasping what a thing really is needs more |
 
 - Best reading: illumination is mainly about **justification**, not delivering information. The mind forms its own beliefs; the light lets it see they're true.
@@ -51,14 +51,14 @@ Roughly sorted:
 
 ## 4. The Medieval Debate
 
-| Who | Position |
-|---|---|
-| **Bonaventure** | certainty needs unchangeability, found only in the eternal ideas in God's mind. We reach them only by illumination |
-| **Roger Marston** | God is a separate active intellect *and* each of us has one too |
+| Who                  | Position |
+| -------------------- | --- |
+| **Bonaventure**      | certainty needs unchangeability, found only in the eternal ideas in God's mind. We reach them only by illumination |
+| **Roger Marston**    | God is a separate active intellect *and* each of us has one too |
 | **Peter John Olivi** | raises objections that seem fatal, then accepts the theory out of respect (a sign it was weakening) |
-| **Aquinas** | we know all things "in the eternal reasons" (*ST* I.84.5), but only in the sense that our natural intellectual light is a **created likeness** of the uncreated light. No further special illumination needed. First principles are self-evident to that natural light |
-| **Henry of Ghent** | knowing *that* something is true needs no help; knowing *what* a thing essentially is does. Proposed God is the active intellect |
-| **Duns Scotus** | rejects it. If any part of the process is fallible, divine help can't make the whole certain. And we don't need it: self-evident truths, once we have the concepts, are known infallibly by nature |
+| **Aquinas**          | we know all things "in the eternal reasons" (*ST* I.84.5), but only in the sense that our natural intellectual light is a **created likeness** of the uncreated light. No further special illumination needed. First principles are self-evident to that natural light |
+| **Henry of Ghent**   | knowing *that* something is true needs no help; knowing *what* a thing essentially is does. Proposed God is the active intellect |
+| **Duns Scotus**      | rejects it. If any part of the process is fallible, divine help can't make the whole certain. And we don't need it: self-evident truths, once we have the concepts, are known infallibly by nature |
 
 One image: for Aquinas the light is a deep well inside us; for the Franciscans it falls like rain, drop by drop.
 

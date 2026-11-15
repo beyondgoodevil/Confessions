@@ -12,13 +12,13 @@ Reality looks like both: one world, many things. One human nature, many humans. 
 
 Not one question but a family:
 
-| Area | The "one" | The "many" | Question |
-|---|---|---|---|
-| Being | reality as a whole | individual things | is the world really one thing or really lots? |
-| Universals | humanity | Peter, Paul, John | what do the many share? |
-| Change | what stays the same | the successive states | is it one thing through time? |
-| Knowledge | concepts, laws | particular facts | how does a general law apply to cases it has never met? |
-| Society | the state, the community | individuals | which exists for which? |
+| Area       | The "one"                | The "many"            | Question |
+| ---------- | ------------------------ | --------------------- | --- |
+| Being      | reality as a whole       | individual things     | is the world really one thing or really lots? |
+| Universals | humanity                 | Peter, Paul, John     | what do the many share? |
+| Change     | what stays the same      | the successive states | is it one thing through time? |
+| Knowledge  | concepts, laws           | particular facts      | how does a general law apply to cases it has never met? |
+| Society    | the state, the community | individuals           | which exists for which? |
 
 Two ways to fail:
 

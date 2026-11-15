@@ -56,14 +56,14 @@ Written against Dawkins's line that the OT God is "arguably the most unpleasant 
 
 The hardest one: "thou shalt **utterly destroy** them" (Deut 7:2; 20:16-17).
 
-| Point | Detail |
-|---|---|
-| **Hyperbole** | ANE war reports routinely exaggerate ("left none remaining") as stock language. Joshua says all were destroyed (Josh 10:40), but Judges 1 says many Canaanites were still there. Both are inspired; the first is rhetoric of victory |
+| Point                            | Detail |
+| -------------------------------- | --- |
+| **Hyperbole**                    | ANE war reports routinely exaggerate ("left none remaining") as stock language. Joshua says all were destroyed (Josh 10:40), but Judges 1 says many Canaanites were still there. Both are inspired; the first is rhetoric of victory |
 | **"Drive out" more than "kill"** | the main command is to **drive out** or dispossess (Exod 23:28-30; Num 33:52): the Canaanites could flee |
-| **Military targets** | Jericho and Ai were likely forts or garrisons, not cities of civilians; the "king" a military commander. "Women and children" may be stock phrase ("all in the city"). Rahab survives |
-| **Judgment on sin** | God waited 400 years: "the iniquity of the Amorites is not yet full" (Gen 15:16). Child sacrifice, cult prostitution (Lev 18:24-28). The same judgment fell on Israel later |
-| **Unique and limited** | in one place, one time, for one purpose. Not a model for holy war; no command to repeat it |
-| **Not ethnic** | foreigners could join (Rahab, Ruth, the Gibeonites); Israel was judged by the same standard |
+| **Military targets**             | Jericho and Ai were likely forts or garrisons, not cities of civilians; the "king" a military commander. "Women and children" may be stock phrase ("all in the city"). Rahab survives |
+| **Judgment on sin**              | God waited 400 years: "the iniquity of the Amorites is not yet full" (Gen 15:16). Child sacrifice, cult prostitution (Lev 18:24-28). The same judgment fell on Israel later |
+| **Unique and limited**           | in one place, one time, for one purpose. Not a model for holy war; no command to repeat it |
+| **Not ethnic**                   | foreigners could join (Rahab, Ruth, the Gibeonites); Israel was judged by the same standard |
 
 ## 9. The Fathers' Reading
 

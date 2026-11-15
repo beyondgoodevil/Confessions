@@ -76,16 +76,16 @@ One thread runs from Genesis to Revelation: **God wants to dwell with His people
 
 ## 9. Summary
 
-| Stage | Where God dwells | Key verse |
-|---|---|---|
-| Eden | the garden on the mountain | Gen 3:8 |
-| Tabernacle | a tent, a copy of heaven | Exod 25:8 |
-| Temple | Solomon's house | 1 Kgs 8:11 |
-| Exile | the glory departs | Ezek 10:18 |
-| Incarnation | Christ's body | John 2:21 |
-| Pentecost | the Church | Eph 2:21-22 |
-| Each Christian | the body | 1 Cor 6:19 |
-| The End | the whole city; God and the Lamb | Rev 21:22 |
+| Stage          | Where God dwells                 | Key verse   |
+| -------------- | -------------------------------- | ----------- |
+| Eden           | the garden on the mountain       | Gen 3:8     |
+| Tabernacle     | a tent, a copy of heaven         | Exod 25:8   |
+| Temple         | Solomon's house                  | 1 Kgs 8:11  |
+| Exile          | the glory departs                | Ezek 10:18  |
+| Incarnation    | Christ's body                    | John 2:21   |
+| Pentecost      | the Church                       | Eph 2:21-22 |
+| Each Christian | the body                         | 1 Cor 6:19  |
+| The End        | the whole city; God and the Lamb | Rev 21:22   |
 
 *Mine:* the movement is outward. In Eden God is with two people; at the end the whole creation is the holy of holies. The Orthodox church building copies this (narthex, nave, altar as the holy of holies, iconostasis as the veil now opened at the Royal Doors). See [[Old Testament Foreshadowings of Heavenly Worship]], [[Types of Church in the OT]].
 

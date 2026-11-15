@@ -72,15 +72,15 @@ aliases: [Moby-Dick, Moby Dick, Ahab, Ishmael, The Whiteness of the Whale, Melvi
 
 ## 6. Ahab and Job
 
-| | **Job** | **Ahab** |
-|---|---|---|
-| the wound | children, goods and health lost without cause (1–2) | a leg lost to a whale |
-| the protest | "I will say unto God, Do not condemn me; shew me wherefore thou contendest with me" (10:2) | "strike through the mask!" |
-| the addressee | God, as a person, in a lawsuit | an "inscrutable thing", agent or principal |
-| the motive | integrity and longing: "Oh that I knew where I might find him!" (23:3) | "for hate's sake" |
-| the answer | God speaks from the whirlwind and shows him Leviathan (38–41) | the white Leviathan, silent, kills him |
-| the end | "now mine eye seeth thee… I abhor myself, and repent" (42:5–6); restored and intercedes for his friends | dragged under; the ship and all but one lost |
-| the survivor | the messengers: "I only am escaped" | Ishmael, saved on a coffin |
+|               | **Job** | **Ahab**                                     |
+| ------------- | --- | -------------------------------------------- |
+| the wound     | children, goods and health lost without cause (1–2) | a leg lost to a whale                        |
+| the protest   | "I will say unto God, Do not condemn me; shew me wherefore thou contendest with me" (10:2) | "strike through the mask!"                   |
+| the addressee | God, as a person, in a lawsuit | an "inscrutable thing", agent or principal   |
+| the motive    | integrity and longing: "Oh that I knew where I might find him!" (23:3) | "for hate's sake"                            |
+| the answer    | God speaks from the whirlwind and shows him Leviathan (38–41) | the white Leviathan, silent, kills him       |
+| the end       | "now mine eye seeth thee… I abhor myself, and repent" (42:5–6); restored and intercedes for his friends | dragged under; the ship and all but one lost |
+| the survivor  | the messengers: "I only am escaped" | Ishmael, saved on a coffin                   |
 
 ## 7. Assessment
 

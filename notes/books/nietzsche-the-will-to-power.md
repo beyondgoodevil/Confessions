@@ -92,27 +92,27 @@ Useful as a map. WtP has been read as:
 
 Where my sources fall:
 
-| Reading | Hatab's number(s) |
-|---|---|
-| Kaufmann | 4 + 8 (psychology of self-overcoming) |
-| Golomb | 4 + 8, against 1 |
-| Richardson (*System*) | 3, worked up into an ontology close to 2 |
-| Heidegger | 2 |
-| Poellner | works out what 2 would need, and doubts it |
-| Clark | 10, and close to 11 as a claim about the world |
-| Lightbody | 9, with 7 for ontology |
-| Hatab | 7 + 10 |
+| Reading               | Hatab's number(s)                              |
+| --------------------- | ---------------------------------------------- |
+| Kaufmann              | 4 + 8 (psychology of self-overcoming)          |
+| Golomb                | 4 + 8, against 1                               |
+| Richardson (*System*) | 3, worked up into an ontology close to 2       |
+| Heidegger             | 2                                              |
+| Poellner              | works out what 2 would need, and doubts it     |
+| Clark                 | 10, and close to 11 as a claim about the world |
+| Lightbody             | 9, with 7 for ontology                         |
+| Hatab                 | 7 + 10                                         |
 
 ### 5. Why "to Power"? Drives and Their Ends
 
 The obvious objection: nobody wants "power" as such. We want food, love, a finished book. So in what sense is all willing will to power?
 
-| Who | WtP is |
-|---|---|
-| Kaufmann | self-overcoming; whatever is wanted is wanted as a way of growing |
-| Clark | a second-order desire: wanting to be able to satisfy your other desires |
+| Who        | WtP is |
+| ---------- | --- |
+| Kaufmann   | self-overcoming; whatever is wanted is wanted as a way of growing |
+| Clark      | a second-order desire: wanting to be able to satisfy your other desires |
 | Richardson | every *drive* tends to grow, to raise its own activity to a higher level |
-| Reginster | desire to overcome **resistance** in pursuing something, and to feel yourself doing it |
+| Reginster  | desire to overcome **resistance** in pursuing something, and to feel yourself doing it |
 
 - **Clark's version** is the most sensible but misses something. Power as capacity could be satisfied once you have enough. N. insists it never is. WP 689 asks whether "the only reality is the will to grow stronger of every center of force--not self-preservation, but the will to appropriate, dominate, increase, grow stronger".
 - **Richardson** makes the key move: "To be a will to power, it must already want something other than power." Drives come with their own ends (sex, eating, knowing). Power is not a further end but the drive's tendency to enhance that very activity. So power "lacks content" of its own, and every will to power is specific. A 11 follows: everyone must invent "his virtue, his categorical imperative".
@@ -157,10 +157,10 @@ Kaufmann's ch. 7. His epigraph is WM 382: "I assess the power of a will by how m
 
 Golomb's target is the Nazi reading (Bäumler). His move is that N. has three words and the Nazis ran them together.
 
-| German | English | What it is |
-|---|---|---|
-| *Kraft* | force | raw energy, a potential, quantitative |
-| *Macht* | power | force that has been shaped or sublimated, qualitative |
+| German   | English  | What it is |
+| -------- | -------- | --- |
+| *Kraft*  | force    | raw energy, a potential, quantitative |
+| *Macht*  | power    | force that has been shaped or sublimated, qualitative |
 | *Gewalt* | violence | force used to crush, exploit, destroy |
 
 - **Power = sublimated force.** It goes back to *The Birth of Tragedy*: Apollonian form shaping Dionysian drive.

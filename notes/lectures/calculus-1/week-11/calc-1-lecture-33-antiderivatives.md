@@ -30,17 +30,17 @@ with **two independent constants**.
 
 Every differentiation formula read backwards (Spivak's table at the start of Ch. 19):
 
-| $f(x)$ | a primitive |
-|---|---|
-| $x^n$ ($n \ne -1$) | $\dfrac{x^{n+1}}{n+1}$ |
-| $\dfrac1x$ | $\log\lvert x\rvert$ |
-| $e^x$ | $e^x$ |
-| $\sin x$ | $-\cos x$ |
-| $\cos x$ | $\sin x$ |
-| $\sec^2 x$ | $\tan x$ |
-| $\sec x\tan x$ | $\sec x$ |
-| $\dfrac{1}{1 + x^2}$ | $\arctan x$ |
-| $\dfrac{1}{\sqrt{1 - x^2}}$ | $\arcsin x$ |
+| $f(x)$                      | a primitive            |
+| --------------------------- | ---------------------- |
+| $x^n$ ($n \ne -1$)          | $\dfrac{x^{n+1}}{n+1}$ |
+| $\dfrac1x$                  | $\log\lvert x\rvert$   |
+| $e^x$                       | $e^x$                  |
+| $\sin x$                    | $-\cos x$              |
+| $\cos x$                    | $\sin x$               |
+| $\sec^2 x$                  | $\tan x$               |
+| $\sec x\tan x$              | $\sec x$               |
+| $\dfrac{1}{1 + x^2}$        | $\arctan x$            |
+| $\dfrac{1}{\sqrt{1 - x^2}}$ | $\arcsin x$            |
 
 Plus **linearity**: $\int(f + g) = \int f + \int g$ and $\int cf = c\int f$. Checking a primitive is easy: **differentiate it**. Finding one can be hard.
 

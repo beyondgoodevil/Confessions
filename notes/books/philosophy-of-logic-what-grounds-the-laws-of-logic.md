@@ -22,11 +22,11 @@ Take "This is green. This is an apple. ∴ Some apple is green." Talking about i
 
 None of those is a physical object or somebody's feeling.
 
-| View | Says |
-|---|---|
+| View                             | Says |
+| -------------------------------- | --- |
 | **Platonism** (logicians' sense) | abstract objects exist, full stop |
-| **Nominalism** | only concrete physical or mental things. Has to make sense of logic without the above |
-| In between | they're creations / fictions of the mind |
+| **Nominalism**                   | only concrete physical or mental things. Has to make sense of logic without the above |
+| In between                       | they're creations / fictions of the mind |
 
 Same fight as [[The Problem of Universals: Realism vs Nominalism]], in modern dress.
 
@@ -89,14 +89,14 @@ Test cases: modus ponens, and non-contradiction. Five answers.
 
 ### Scorecard
 
-| View | Explains necessity? | Avoids circularity? | Main problem |
-|---|---|---|---|
-| Radical supernaturalism | no | | laws become contingent |
-| Moderate supernaturalism | yes | | the three objections above |
-| Psychologism | no | no | instinct ≠ correct |
-| Pragmatism | no | no | "works" ≠ "must" |
-| Conventionalism | sort of | no | arbitrary |
-| Realism | yes | yes | what and where are these truths? |
+| View                     | Explains necessity? | Avoids circularity? | Main problem                     |
+| ------------------------ | ------------------- | ------------------- | -------------------------------- |
+| Radical supernaturalism  | no                  |                     | laws become contingent           |
+| Moderate supernaturalism | yes                 |                     | the three objections above       |
+| Psychologism             | no                  | no                  | instinct ≠ correct               |
+| Pragmatism               | no                  | no                  | "works" ≠ "must"                 |
+| Conventionalism          | sort of             | no                  | arbitrary                        |
+| Realism                  | yes                 | yes                 | what and where are these truths? |
 
 Three of the five fail the same way: they try to justify logic by something (evolution, experience, definitions) that you can only establish by using logic. Worth noticing that this is the structure of a transcendental argument, and Gensler isn't an apologist.
 
@@ -136,11 +136,11 @@ Against nominalism and conceptualism he lists the standard arguments (one over m
 
 **Step 2: which realism?**
 
-| Version | Abstract objects exist... | Problem |
-|---|---|---|
-| **Platonic** | in a "third realm", neither mind nor matter | how do causally inert things in a third realm connect to anything? Third Man. How do we know them? |
+| Version          | Abstract objects exist... | Problem |
+| ---------------- | --- | --- |
+| **Platonic**     | in a "third realm", neither mind nor matter | how do causally inert things in a third realm connect to anything? Third Man. How do we know them? |
 | **Aristotelian** | only in things, and in minds that abstract them | then no truths before there were minds or things? But 2+2=4 didn't begin |
-| **Scholastic** | in things, in our minds, and first of all in an **eternal divine intellect** | |
+| **Scholastic**   | in things, in our minds, and first of all in an **eternal divine intellect** | |
 
 Feser calls the third "Scholastic realism". It's the "Christian synthesis" in sec. 3 of the Universals note.
 

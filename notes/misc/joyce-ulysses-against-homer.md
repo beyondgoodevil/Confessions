@@ -79,16 +79,16 @@ aliases: [Ulysses, Joyce, Leopold Bloom, Stephen Dedalus, Molly Bloom, Bloomsday
 
 ## 5. Comparison
 
-| | ***Odyssey*** | ***Ulysses*** |
-|---|---|---|
-| hero | king, warrior, "man of many turns" | ad canvasser, outsider, "two-eyed" |
-| son | Telemachus seeks his father and grows up | Stephen refuses father, mother, Church and nation; meets Bloom and leaves |
+|            | ***Odyssey*** | ***Ulysses*** |
+| ---------- | --- | --- |
+| hero       | king, warrior, "man of many turns" | ad canvasser, outsider, "two-eyed" |
+| son        | Telemachus seeks his father and grows up | Stephen refuses father, mother, Church and nation; meets Bloom and leaves |
 | underworld | Odysseus speaks with Antikleia, who "three times… flitted away from my hands like a shadow" (11) | Bloom at Glasnevin; Stephen haunted by his mother's ghost |
-| Cyclops | blinded by a stake; "Noman" | the citizen; Bloom answers hatred with "love" |
-| Circe | men to swine; *moly* | Nighttown; Bloom transformed; Rudy's vision |
+| Cyclops    | blinded by a stake; "Noman" | the citizen; Bloom answers hatred with "love" |
+| Circe      | men to swine; *moly* | Nighttown; Bloom transformed; Rudy's vision |
 | homecoming | slaughter of the suitors, the olive-tree bed, recognition by the scar | "equanimity", a used bed, no recognition |
-| ending | Athena imposes peace | Molly's "Yes" |
-| frame | the gods | Mass parody; Hebrew rites; Spinoza |
+| ending     | Athena imposes peace | Molly's "Yes" |
+| frame      | the gods | Mass parody; Hebrew rites; Spinoza |
 
 ## 6. Assessment
 

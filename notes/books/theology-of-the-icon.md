@@ -116,17 +116,17 @@ The thesis: the icon is not religious art in the Western sense (illustration, de
 
 The icon shows the world **transfigured**, not the world as it looks to ordinary eyes. Its features follow from that:
 
-| Feature | Meaning |
-|---|---|
+| Feature                 | Meaning |
+| ----------------------- | --- |
 | **Inverse perspective** | lines converge toward the viewer, not toward a vanishing point behind. The space of the icon opens toward us; we are drawn into it |
-| **Light** | no single light source and no cast shadows. Light comes from within: the uncreated light. The gold background is that light (the "Tabor light") |
-| **Faces** | large eyes (seeing spiritually), small mouth (silence), thin nose, elongated features: the senses transfigured. Ears often hidden or small |
-| **Bodies** | elongated, stylised; not anatomically "realistic", since this is the deified body |
-| **Buildings** | shown from several sides at once, often behind the figures; a red cloth (veil) over them shows the scene is inside |
-| **Time** | several moments in one picture (the Nativity: birth, shepherds, Magi, the washing) |
-| **Inscriptions** | every icon is named; the name links it to the prototype. *ICXC*, *ὁ ὤν* in Christ's halo, *ΜΡ ΘΥ* for the Mother of God. See [[The Name of God]] |
-| **Colours** | symbolic: gold (divinity), blue (heaven, the human), red (life, divinity in the Theotokos' cloak), white (the Transfiguration, Resurrection) |
-| **No naturalism** | the Renaissance shift to natural perspective and emotion (Western religious painting, and Russian painting after the 17th c.) loses the icon's theology |
+| **Light**               | no single light source and no cast shadows. Light comes from within: the uncreated light. The gold background is that light (the "Tabor light") |
+| **Faces**               | large eyes (seeing spiritually), small mouth (silence), thin nose, elongated features: the senses transfigured. Ears often hidden or small |
+| **Bodies**              | elongated, stylised; not anatomically "realistic", since this is the deified body |
+| **Buildings**           | shown from several sides at once, often behind the figures; a red cloth (veil) over them shows the scene is inside |
+| **Time**                | several moments in one picture (the Nativity: birth, shepherds, Magi, the washing) |
+| **Inscriptions**        | every icon is named; the name links it to the prototype. *ICXC*, *ὁ ὤν* in Christ's halo, *ΜΡ ΘΥ* for the Mother of God. See [[The Name of God]] |
+| **Colours**             | symbolic: gold (divinity), blue (heaven, the human), red (life, divinity in the Theotokos' cloak), white (the Transfiguration, Resurrection) |
+| **No naturalism**       | the Renaissance shift to natural perspective and emotion (Western religious painting, and Russian painting after the 17th c.) loses the icon's theology |
 
 - The **kontakion of the Triumph of Orthodoxy** sums up the teaching: "No one could describe the Word of the Father; but when He took flesh from you, O Theotokos, He accepted to be described, and restored the fallen image to its former state by uniting it to divine beauty."
 - **Deification**: saints of monastic holiness are called *prepodobnyi* in Slavonic: "very similar" (to God). Gregory the Theologian: "Man is a creature, but he is commanded to become God."

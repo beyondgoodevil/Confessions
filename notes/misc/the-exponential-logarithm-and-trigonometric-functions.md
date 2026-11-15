@@ -35,13 +35,13 @@ The *Companion* treats having many equivalent definitions as the mark of an impo
 
 The fourth definition is the one the *Companion* says "comes much closer to telling us what it really means". Suppose you invest \$100 for ten years at a nominal 100% total. Paid once at the end, you get \$200. Paid as 10% each year, compounded, you get $100 \times 1.1^{10} \approx \$259.37$. Compounding more often helps, but less and less:
 
-| Compounding over ten years | Growth factor |
-|---|---|
-| once | $2$ |
-| yearly, $(1 + \tfrac1{10})^{10}$ | $2.5937$ |
-| monthly, $(1 + \tfrac1{120})^{120}$ | $2.7070$ |
-| daily, $(1 + \tfrac1{3650})^{3650}$ | $2.7179$ |
-| a million times, $(1 + 10^{-6})^{10^6}$ | $2.7182805$ |
+| Compounding over ten years              | Growth factor |
+| --------------------------------------- | ------------- |
+| once                                    | $2$           |
+| yearly, $(1 + \tfrac1{10})^{10}$        | $2.5937$      |
+| monthly, $(1 + \tfrac1{120})^{120}$     | $2.7070$      |
+| daily, $(1 + \tfrac1{3650})^{3650}$     | $2.7179$      |
+| a million times, $(1 + 10^{-6})^{10^6}$ | $2.7182805$   |
 
 The factors approach $e$. Why the limit exists is subtle. For fixed power $m$, $(1 + \frac1n)^m \to 1$ as $n \to \infty$; for fixed $n$, $(1+\frac1n)^m \to \infty$ as $m \to \infty$. In $(1 + \frac1n)^n$ the growing power exactly balances the shrinking base. The slider below shows $(1 + x/n)^n$ closing in on $e^x$.
 
@@ -178,12 +178,12 @@ The best polynomial spreads the error evenly. The Remez algorithm finds the poly
 
 The article's table shows the trade-off. The maximum error of the approximation falls with the degree and rises with the interval size:
 
-| Degree | $[0, 1]$ | $[0, \tfrac12]$ | $[0, \tfrac14]$ |
-|---|---|---|---|
-| 2 | $1.41\times10^{-2}$ | $1.08\times10^{-3}$ | $1.07\times10^{-4}$ |
-| 3 | $8.76\times10^{-4}$ | $3.40\times10^{-5}$ | $1.90\times10^{-6}$ |
-| 4 | $5.07\times10^{-5}$ | $8.33\times10^{-7}$ | $4.57\times10^{-8}$ |
-| 5 | $4.86\times10^{-6}$ | $5.27\times10^{-8}$ | $1.94\times10^{-9}$ |
+| Degree | $[0, 1]$            | $[0, \tfrac12]$     | $[0, \tfrac14]$     |
+| ------ | ------------------- | ------------------- | ------------------- |
+| 2      | $1.41\times10^{-2}$ | $1.08\times10^{-3}$ | $1.07\times10^{-4}$ |
+| 3      | $8.76\times10^{-4}$ | $3.40\times10^{-5}$ | $1.90\times10^{-6}$ |
+| 4      | $5.07\times10^{-5}$ | $8.33\times10^{-7}$ | $4.57\times10^{-8}$ |
+| 5      | $4.86\times10^{-6}$ | $5.27\times10^{-8}$ | $1.94\times10^{-9}$ |
 
 High degree costs time and can add rounding error. So the second step shrinks the interval instead.
 

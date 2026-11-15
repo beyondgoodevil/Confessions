@@ -180,14 +180,14 @@ Three passages often cited against Rousseau get a defence.
 
 ### 16. The two lecturers compared
 
-| | Hobbes | Locke | Hume | Rousseau |
-|---|---|---|---|---|
+|                           | Hobbes | Locke | Hume | Rousseau |
+| ------------------------- | --- | --- | --- | --- |
 | Problem addressed (Rawls) | Civil war among religious sects | Resistance to the Crown under a mixed constitution | Explaining the origin and support of moral and political institutions | Diagnosing civilization's vices; designing a just, stable society |
-| Use of the contract | Reasons to support any effective sovereign | Test of legitimacy ("ideal history") plus consent for obligation | Rejected: an "unnecessary shuffle" | Terms of association expressing the general will |
-| Ground of obligation | Rational self-interest; authorization | Consent within a legitimate regime; natural duty | Utility ("necessities of society") | Laws we give ourselves as citizens |
-| Interests normalized | Life, family, commodious living | Lives, liberties, estates | Not applicable | Free will, perfectibility, equal standing |
-| Rawls's main criticism | No reasonableness or fairness | Rights hostage to bargaining power (class state) | Misses the legitimacy/obligation distinction | Largely defended |
-| Cohen's main criticism | The state cannot be formed as described; authorization contradiction | Tacit consent incoherent (highway); proviso inconsistent with labour argument | Ignores self-ownership; is/ought confusion; promises not utility-based | Not treated |
+| Use of the contract       | Reasons to support any effective sovereign | Test of legitimacy ("ideal history") plus consent for obligation | Rejected: an "unnecessary shuffle" | Terms of association expressing the general will |
+| Ground of obligation      | Rational self-interest; authorization | Consent within a legitimate regime; natural duty | Utility ("necessities of society") | Laws we give ourselves as citizens |
+| Interests normalized      | Life, family, commodious living | Lives, liberties, estates | Not applicable | Free will, perfectibility, equal standing |
+| Rawls's main criticism    | No reasonableness or fairness | Rights hostage to bargaining power (class state) | Misses the legitimacy/obligation distinction | Largely defended |
+| Cohen's main criticism    | The state cannot be formed as described; authorization contradiction | Tacit consent incoherent (highway); proviso inconsistent with labour argument | Ignores self-ownership; is/ought confusion; promises not utility-based | Not treated |
 
 The two readers agree more than their methods suggest. Both see Hume's essay as effective against consent as the source of obligation and ineffective against something deeper in Locke. They differ on what that deeper thing is. For Rawls it is the test of legitimacy by what free and equal people could have agreed to. That test survives Hume, and Rawls revises it, through Rousseau and Kant, into his own veil of ignorance. For Cohen it is self-ownership. Hume never confronts it, and it is the premise Cohen had long criticized in Nozick (Cohen, p. viii). Both lecturers notice that Hobbes and Hume describe as short-sightedness what is really a collective action problem. Rawls uses this to explain Hobbes's sovereign charitably; Cohen uses it to say that Hobbes and Hume did not understand their own insight.
 

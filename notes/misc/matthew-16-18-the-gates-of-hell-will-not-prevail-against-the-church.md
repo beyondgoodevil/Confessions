@@ -22,7 +22,7 @@ The image shows Matthew 16:18 in the New King James Version, with "My church" hi
 The Fathers give **several** readings, often the same Father in different places (Siecienski ch. 3):
 
 | Reading | Who |
-|---|---|
+| --- | --- |
 | **Peter's confession / faith** ("Thou art the Christ, the Son of the living God", v. 16) | Origen (in part), Chrysostom (*Hom. on Matt.* 54: "upon the faith of his confession"), Hilary, Ambrose, Cyril of Alexandria; the most common Eastern reading |
 | **Peter himself** | Tertullian, Cyprian, Ephrem, Leo the Great; frequent in the West, also in some Eastern hymns |
 | **Christ** ("that Rock was Christ", 1 Cor 10:4; "other foundation can no man lay", 1 Cor 3:11) | Augustine (*Retractations* I.20.1: he says he often took the rock as Christ, but leaves the reader to choose) |

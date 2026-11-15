@@ -78,11 +78,11 @@ Written in Paris (French 1944, English 1957). Probably the most influential 20th
 
 ## 9. Two Aspects of the Church
 
-| Christological | Pneumatological |
-|---|---|
-| the Body of Christ | the fullness of the Spirit |
-| nature, unity | persons, multiplicity |
-| one | catholic |
+| Christological                   | Pneumatological                          |
+| -------------------------------- | ---------------------------------------- |
+| the Body of Christ               | the fullness of the Spirit               |
+| nature, unity                    | persons, multiplicity                    |
+| one                              | catholic                                 |
 | objective: sacraments, hierarchy | subjective: each person's sanctification |
 
 - The canons are dogma applied.

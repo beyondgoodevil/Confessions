@@ -12,14 +12,14 @@ What did Adam's sin do to the rest of us? West and East agree that something was
 
 ## 1. The Two Views
 
-| | Original sin (Augustine, the West) | Ancestral sin (the Greek Fathers, Orthodoxy) |
-|---|---|---|
-| What is inherited | Adam's **guilt**, and a corrupted nature (concupiscence) | **death** and **corruption** (mortality, the passions, a weakened will) |
+|                              | Original sin (Augustine, the West) | Ancestral sin (the Greek Fathers, Orthodoxy) |
+| ---------------------------- | --- | --- |
+| What is inherited            | Adam's **guilt**, and a corrupted nature (concupiscence) | **death** and **corruption** (mortality, the passions, a weakened will) |
 | Are we guilty of Adam's sin? | yes; all sinned "in Adam" | no; each is guilty only of his own sins |
-| Newborn infants | guilty, liable to damnation without baptism (Augustine); later softened to limbo | not guilty; but born mortal and subject to corruption |
-| What sin is | primarily a legal state, a debt | primarily a sickness, a loss of communion and life |
-| Why we sin | because our nature is guilty and disordered | because we are mortal: fear of death drives us to sin |
-| What Christ does | pays the debt, removes the guilt | destroys death, heals and deifies nature |
+| Newborn infants              | guilty, liable to damnation without baptism (Augustine); later softened to limbo | not guilty; but born mortal and subject to corruption |
+| What sin is                  | primarily a legal state, a debt | primarily a sickness, a loss of communion and life |
+| Why we sin                   | because our nature is guilty and disordered | because we are mortal: fear of death drives us to sin |
+| What Christ does             | pays the debt, removes the guilt | destroys death, heals and deifies nature |
 
 The Greek word is *propatorikon hamartema*, "the sin of the forefathers". The Orthodox usually avoid the phrase "original sin" for this reason.
 
@@ -29,11 +29,11 @@ The Greek word is *propatorikon hamartema*, "the sin of the forefathers". The Or
 
 The whole question turns on three Greek words: ***eph' hō pantes hēmarton***.
 
-| Reading | Translation | Who |
-|---|---|---|
-| ***in quo*** (relative pronoun, masculine) | "**in whom** all sinned", i.e. in Adam | the Latin Vulgate / Old Latin; Augustine, who couldn't read Greek well |
-| ***eph' hō*** as a conjunction | "**because** all sinned" | most modern translations, KJV ("for that") |
-| ***eph' hō*** with "death" (neuter/masc.) | "**because of which** (death) all sinned" | Romanides, following some Greek Fathers (Cyril of Alexandria, Theodoret) |
+| Reading                                    | Translation                               | Who |
+| ------------------------------------------ | ----------------------------------------- | --- |
+| ***in quo*** (relative pronoun, masculine) | "**in whom** all sinned", i.e. in Adam    | the Latin Vulgate / Old Latin; Augustine, who couldn't read Greek well |
+| ***eph' hō*** as a conjunction             | "**because** all sinned"                  | most modern translations, KJV ("for that") |
+| ***eph' hō*** with "death" (neuter/masc.)  | "**because of which** (death) all sinned" | Romanides, following some Greek Fathers (Cyril of Alexandria, Theodoret) |
 
 - On the Latin reading, all men were in Adam and sinned in him: so all share his guilt. That's the textual root of Augustine's doctrine.
 - On the third reading, the order is the reverse: Adam's sin brought death, and **death** is why everyone sins. The fear of death and the drive for self-preservation produce the passions. Heb 2:14-15: Christ came to "deliver them who through fear of death were all their lifetime subject to bondage."
@@ -68,13 +68,13 @@ The Orthodox position in brief: the inheritance is in **nature** (mortality, cor
 
 ## 6. Consequences
 
-| Question | Augustinian answer | Orthodox answer |
-|---|---|---|
-| **Why baptise infants?** | to wash away inherited guilt | to give them new life in Christ, unite them to His Body, and free them from death's dominion. Not for guilt |
-| **Unbaptised infants** | damned (Augustine), then limbo (medieval), now "hope" (2007 Catholic document) | in God's mercy; no punishment for others' sin |
-| **The Theotokos** | must be preserved from original sin at conception: the **Immaculate Conception** (1854) | unnecessary: there's no guilt to be preserved from. She was born mortal like us and freely pure |
-| **Christ's humanity** | sinless because conceived without male seed (which transmits sin) | He took on our mortal, passible nature, without sin |
-| **The atonement** | the debt of guilt must be paid: Anselm, then penal substitution | death must be destroyed: Christ enters death and empties it. See [[Recapitulation Doctrine vs PSA]] |
+| Question                     | Augustinian answer | Orthodox answer |
+| ---------------------------- | --- | --- |
+| **Why baptise infants?**     | to wash away inherited guilt | to give them new life in Christ, unite them to His Body, and free them from death's dominion. Not for guilt |
+| **Unbaptised infants**       | damned (Augustine), then limbo (medieval), now "hope" (2007 Catholic document) | in God's mercy; no punishment for others' sin |
+| **The Theotokos**            | must be preserved from original sin at conception: the **Immaculate Conception** (1854) | unnecessary: there's no guilt to be preserved from. She was born mortal like us and freely pure |
+| **Christ's humanity**        | sinless because conceived without male seed (which transmits sin) | He took on our mortal, passible nature, without sin |
+| **The atonement**            | the debt of guilt must be paid: Anselm, then penal substitution | death must be destroyed: Christ enters death and empties it. See [[Recapitulation Doctrine vs PSA]] |
 | **Total depravity** (Calvin) | follows: the will is enslaved | rejected: the image remains; synergy. See [[Synergy: Grace and Free Will]] |
 
 So the Immaculate Conception and penal substitution both rest on the Augustinian view. Remove inherited guilt and neither is needed.

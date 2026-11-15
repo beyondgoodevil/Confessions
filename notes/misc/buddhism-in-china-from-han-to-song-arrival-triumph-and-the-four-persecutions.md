@@ -32,12 +32,12 @@ Xiang Kai also repeated the belief that the Buddha was really Laozi, who had gon
 
 The first translations made the Daoist reading almost unavoidable, because Daoist words were used for Buddhist ideas (*CHC* 1, p. 825):
 
-| Buddhist term | Chinese word used | What the Chinese word normally meant |
-|---|---|---|
-| *bodhi* (enlightenment), *yoga* | *dao* | The Way |
-| *nirvāṇa* | *wuwei* | Non-action, quiescence |
-| *tathatā* (suchness) | *benwu* | Original non-being |
-| *arhat* (saint) | *zhenren* | Daoist "perfected man" or immortal |
+| Buddhist term                   | Chinese word used | What the Chinese word normally meant |
+| ------------------------------- | ----------------- | ------------------------------------ |
+| *bodhi* (enlightenment), *yoga* | *dao*             | The Way                              |
+| *nirvāṇa*                       | *wuwei*           | Non-action, quiescence               |
+| *tathatā* (suchness)            | *benwu*           | Original non-being                   |
+| *arhat* (saint)                 | *zhenren*         | Daoist "perfected man" or immortal   |
 
 Demiéville calls the result "a clumsy and obscure jargon". Buddhist breathing and meditation looked like Daoist techniques for long life, and the Buddhist "emptiness" looked like Laozi's "non-being". This misunderstanding was also the bridge by which Buddhism crossed into Chinese culture.
 
@@ -111,11 +111,11 @@ The Northern Wei even used them as state granaries. The *Weishu* records the mon
 
 The numbers grew fast, especially in the north (*CHC* 1, pp. 856–57):
 
-| Date | Region | Monasteries | Monks and nuns |
-|---|---|---|---|
-| 477 | Northern Wei | 6,478 | 67,258 |
-| End of Northern Wei (534) | Northern Wei | about 30,000 | about 2 million |
-| 5th–6th c. | Southern dynasties | 1,768–2,846 | 24,000–82,700 |
+| Date                      | Region             | Monasteries  | Monks and nuns  |
+| ------------------------- | ------------------ | ------------ | --------------- |
+| 477                       | Northern Wei       | 6,478        | 67,258          |
+| End of Northern Wei (534) | Northern Wei       | about 30,000 | about 2 million |
+| 5th–6th c.                | Southern dynasties | 1,768–2,846  | 24,000–82,700   |
 
 By 518 more than a third of the area of Luoyang was occupied by Buddhist buildings. Sixteen years later the Northern Wei fell. With growth came "pseudo-monks" escaping taxes and military service. Between 402 and 517 there were nine peasant rebellions led by Buddhists, often by a monk claiming to be the future Buddha **Maitreya** and promising, like the Yellow Turbans, an age of Great Peace (p. 856).
 
@@ -206,14 +206,14 @@ The last of the four came during the Five Dynasties. In 955 **Emperor Shizong** 
 
 The four persecutions compared:
 
-| | Northern Wei, 446 | Northern Zhou, 574–577 | Tang Huichang, 842–845 | Later Zhou, 955 |
-|---|---|---|---|---|
-| Emperor | Taiwu | Wu | Wuzong | Shizong |
-| Advisers | Cui Hao (Confucian), Kou Qianzhi (Daoist) | Wei Yuansong, Zhang Bin | Li Deyu; Daoist favourites | — |
-| Stated reasons | Seditious, corrupt sangha; arms found | Ranking of the three teachings | "Buddhist pest"; foreign religion | Bad conditions, low morale |
-| Main real motives | Treasury, conscripts, security | Confucian-state ideology, wealth | Copper, estates, tax losses | Cash shortage |
-| Scale | Monks executed or defrocked | 2–3 million laicized; Daoism banned too | About 260,000 laicized; 4,600 monasteries | 27,642 of 30,336 monasteries closed |
-| Ended | Within years, under Wencheng | At Wu's death, 578 | Relaxed 847 | Reversed by the early Song |
+|                   | Northern Wei, 446                         | Northern Zhou, 574–577                  | Tang Huichang, 842–845                    | Later Zhou, 955                     |
+| ----------------- | ----------------------------------------- | --------------------------------------- | ----------------------------------------- | ----------------------------------- |
+| Emperor           | Taiwu                                     | Wu                                      | Wuzong                                    | Shizong                             |
+| Advisers          | Cui Hao (Confucian), Kou Qianzhi (Daoist) | Wei Yuansong, Zhang Bin                 | Li Deyu; Daoist favourites                | —                                   |
+| Stated reasons    | Seditious, corrupt sangha; arms found     | Ranking of the three teachings          | "Buddhist pest"; foreign religion         | Bad conditions, low morale          |
+| Main real motives | Treasury, conscripts, security            | Confucian-state ideology, wealth        | Copper, estates, tax losses               | Cash shortage                       |
+| Scale             | Monks executed or defrocked               | 2–3 million laicized; Daoism banned too | About 260,000 laicized; 4,600 monasteries | 27,642 of 30,336 monasteries closed |
+| Ended             | Within years, under Wencheng              | At Wu's death, 578                      | Relaxed 847                               | Reversed by the early Song          |
 
 Three of the four emperors had *Wu*, "martial", in their names. Kieschnick's conclusion about all of them is the key point: they were "relatively short-lived and followed, with the death of the emperor who instigated them, by astonishingly rapid restorations of monks, monasteries, images, and scriptures—testimony to the extent to which Buddhism had become woven into the fabric of Chinese society" (*CHC* 2, ch. 24).
 

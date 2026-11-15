@@ -17,12 +17,12 @@ The question is what a universal *is*, if anything.
 
 ## 2. Positions
 
-| Position | Universals exist... | Tag |
-|---|---|---|
-| Platonic (extreme) realism | on their own, apart from things and minds, as Forms | *ante rem*, before the thing |
-| Aristotelian (moderate) realism | only in particulars, as their shared nature | *in re*, in the thing |
-| Conceptualism | only as concepts in the mind | |
-| Nominalism | nowhere. Only names | *post rem*, after the thing |
+| Position                        | Universals exist... | Tag                          |
+| ------------------------------- | --- | ---------------------------- |
+| Platonic (extreme) realism      | on their own, apart from things and minds, as Forms | *ante rem*, before the thing |
+| Aristotelian (moderate) realism | only in particulars, as their shared nature | *in re*, in the thing        |
+| Conceptualism                   | only as concepts in the mind |                              |
+| Nominalism                      | nowhere. Only names | *post rem*, after the thing  |
 
 Notes on each:
 
@@ -85,14 +85,14 @@ Added after reading Conee's chapter in *Riddles of Existence* (ch. 8). He doesn'
 
 ### The options, with costs
 
-| View | Idea | Main cost |
-|---|---|---|
-| Abundant universals | a universal for every predicate | all the problems above |
+| View                              | Idea | Main cost |
+| --------------------------------- | --- | --- |
+| Abundant universals               | a universal for every predicate | all the problems above |
 | **Sparse universals** (Armstrong) | only the properties real science needs | which science? And can't say "other properties *could have been* fundamental". Location problem remains |
-| **Tropes** | properties are real but **particular**: this hydrant's redness, that hydrant's redness | then what makes two tropes "the same colour"? Exact resemblance. But resemblance in what respect, if there are no respects? |
-| **Sets** | redness = the set of red things | properties with no instances all collapse into the empty set (being phlogiston = being a Salem witch). And Oprah becomes part of what *your* happiness is |
-| **Nominalism** | only particulars; "red" just applies to red things | has to paraphrase away "blue is a colour", and "sloth is a vice" resists. And the explanation stops at "blue things just are blue" |
-| **Conceptualism** | generality is in our concepts | apples having grown on trees is a fact about apples, not minds. And why does the concept apply to *these* things? |
+| **Tropes**                        | properties are real but **particular**: this hydrant's redness, that hydrant's redness | then what makes two tropes "the same colour"? Exact resemblance. But resemblance in what respect, if there are no respects? |
+| **Sets**                          | redness = the set of red things | properties with no instances all collapse into the empty set (being phlogiston = being a Salem witch). And Oprah becomes part of what *your* happiness is |
+| **Nominalism**                    | only particulars; "red" just applies to red things | has to paraphrase away "blue is a colour", and "sloth is a vice" resists. And the explanation stops at "blue things just are blue" |
+| **Conceptualism**                 | generality is in our concepts | apples having grown on trees is a fact about apples, not minds. And why does the concept apply to *these* things? |
 
 Things I notice:
 

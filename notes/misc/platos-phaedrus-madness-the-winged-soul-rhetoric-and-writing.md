@@ -40,12 +40,12 @@ Cobb notices that in the *Symposium* Diotima makes Eros a *daimōn*, something b
 
 The first two speeches assumed that madness is bad and self-control good. Socrates replies: "the best things we have come from madness, when it is given as a gift of the god" (244a). He lists four kinds, and later (265b) assigns each to a god:
 
-| Kind | God | Example |
-|---|---|---|
-| Prophetic | Apollo | The priestesses at Delphi and Dodona, who do good "out of their minds" and little or nothing when sane (244b) |
-| Ritual / purificatory | Dionysus | Rites that release families from guilt for ancient crimes (244d–e) |
-| Poetic | The Muses | Whoever tries to be a poet by skill alone "will fail, and his self-controlled verses will be eclipsed by the poetry of men who have been driven out of their minds" (245a) |
-| Erotic | Aphrodite and Eros | "the madness of love is the best" (265b) |
+| Kind                  | God                | Example |
+| --------------------- | ------------------ | --- |
+| Prophetic             | Apollo             | The priestesses at Delphi and Dodona, who do good "out of their minds" and little or nothing when sane (244b) |
+| Ritual / purificatory | Dionysus           | Rites that release families from guilt for ancient crimes (244d–e) |
+| Poetic                | The Muses          | Whoever tries to be a poet by skill alone "will fail, and his self-controlled verses will be eclipsed by the poetry of men who have been driven out of their minds" (245a) |
+| Erotic                | Aphrodite and Eros | "the madness of love is the best" (265b) |
 
 To support the first kind, Socrates adds a joke etymology: the old word for prophecy was *manikē*, "madness", and people later inserted a *t* to make it *mantikē* (244c).
 

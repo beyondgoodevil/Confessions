@@ -143,12 +143,12 @@ This note is the theory. For how Girard reads Nietzsche against it, see [[Dionys
 
 ## 11. The Four Books at a Glance
 
-| book | main contribution |
-|---|---|
+| book                             | main contribution |
+| -------------------------------- | --- |
 | *Violence and the Sacred* (1972) | the sacrificial crisis, the surrogate victim, Oedipus and Dionysus, critiques of Freud and Lévi-Strauss |
-| *Things Hidden* (1978) | the full theory as dialogue: hominization, myth, the Bible as revelation, the "non-sacrificial" reading, interdividual psychology |
-| *The Scapegoat* (1982) | persecution texts and stereotypes, myths as persecution texts, close readings of the Passion, Peter, the Baptist, Gerasa |
-| *I See Satan* (1999) | the mimetic cycle and Satan, Apollonius of Tyana's lynching as a counter-Gospel, the triumph of the Cross, the modern concern for victims |
+| *Things Hidden* (1978)           | the full theory as dialogue: hominization, myth, the Bible as revelation, the "non-sacrificial" reading, interdividual psychology |
+| *The Scapegoat* (1982)           | persecution texts and stereotypes, myths as persecution texts, close readings of the Passion, Peter, the Baptist, Gerasa |
+| *I See Satan* (1999)             | the mimetic cycle and Satan, Apollonius of Tyana's lynching as a counter-Gospel, the triumph of the Cross, the modern concern for victims |
 
 **Apollonius of Tyana** is Girard's best illustration (*I See Satan* ch. 4). In Philostratus, the pagan wonder-worker stops a plague at Ephesus by getting the crowd to stone a beggar. When they uncover the body, it is a demonic dog, and a statue of Heracles the Averter is set up on the spot. Put this beside John 8 ("He that is without sin among you, let him first cast a stone at her") and you have the difference between pagan miracle and Gospel.
 

@@ -24,10 +24,10 @@ Panofsky starts not with a painting but with the street. An acquaintance greets 
 
 Transferred to art (pp. 5–8):
 
-| | Object of interpretation | Act of interpretation |
-|---|---|---|
-| **I** | Primary or natural subject matter (factual, expressional): the world of **motifs** | Pre-iconographical description |
-| **II** | Secondary or conventional subject matter: the world of **images, stories and allegories** | Iconographical analysis |
+|         | Object of interpretation | Act of interpretation |
+| ------- | --- | --- |
+| **I**   | Primary or natural subject matter (factual, expressional): the world of **motifs** | Pre-iconographical description |
+| **II**  | Secondary or conventional subject matter: the world of **images, stories and allegories** | Iconographical analysis |
 | **III** | Intrinsic meaning or content: the world of **"symbolical" values** | Iconographical interpretation in a deeper sense (iconology) |
 
 1. **Motifs.** Lines and colours read as people, animals, houses, tools; their relations as events; and expressional qualities such as "the mournful character of a pose." Listing these is a **pre-iconographical description**.
@@ -43,11 +43,11 @@ Transferred to art (pp. 5–8):
 
 Panofsky's key move is that our equipment at each level can mislead us if applied "indiscriminately." So each level gets a **controlling principle** (pp. 9–16):
 
-| Equipment | Controlling principle |
-|---|---|
-| Practical experience | **History of style**: how objects and events were expressed by forms |
+| Equipment                     | Controlling principle |
+| ----------------------------- | --- |
+| Practical experience          | **History of style**: how objects and events were expressed by forms |
 | Knowledge of literary sources | **History of types**: how themes and concepts were expressed by objects and events |
-| Synthetic intuition | **History of cultural symptoms**: how the essential tendencies of the human mind were expressed by themes and concepts |
+| Synthetic intuition           | **History of cultural symptoms**: how the essential tendencies of the human mind were expressed by themes and concepts |
 
 1. **Style: what's floating?** In Roger van der Weyden's *Three Magi*, a child hovers in the sky, so we read it as an **apparition**. But in an Ottonian miniature from the *Gospels of Otto III*, the whole city of Nain hangs in empty space, and it's not a miracle at all: around 1000, the background just wasn't thought of as real three-dimensional space. Even the "simplest" description depends on knowing a picture's historical "locus" (pp. 9–11).
 2. **Types: Judith or Salome?** Francesco Maffei painted a young woman with a **sword** in one hand and a man's head on a **charger** in the other. The Bible gives Salome the charger but not the sword, and Judith the sword but a sack, not a charger. Texts alone can't decide. But there are several sixteenth-century pictures of "Judith with a charger" and not one Salome with a sword, so it's **Judith**. Why the transfer went one way: the sword was an honourable attribute (of Judith, martyrs, Justice) and couldn't go to "a lascivious girl," while the Baptist's head on a charger had become a popular devotional image (pp. 12–14).

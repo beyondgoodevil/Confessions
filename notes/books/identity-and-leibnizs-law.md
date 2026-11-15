@@ -26,10 +26,10 @@ Identity = the relation everything has to itself and to nothing else. Hawthorne'
 
 ## 3. The Two Principles
 
-| | Name | Says | Status |
-|---|---|---|---|
-| LL | **Leibniz's law** (indiscernibility of identicals) | if x = y, then whatever is true of x is true of y | uncontroversial |
-| II | **Identity of indiscernibles** | if x and y have all the same properties, then x = y | depends what counts as a property |
+|     | Name | Says | Status                            |
+| --- | --- | --- | --------------------------------- |
+| LL  | **Leibniz's law** (indiscernibility of identicals) | if x = y, then whatever is true of x is true of y | uncontroversial                   |
+| II  | **Identity of indiscernibles** | if x and y have all the same properties, then x = y | depends what counts as a property |
 
 - LL is the working tool. To show x ≠ y, find one thing true of x and not of y.
 - II is **trivial** if "being identical to x" counts as a property (only x has that one).

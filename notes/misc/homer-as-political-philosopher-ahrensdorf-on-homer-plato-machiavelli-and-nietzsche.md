@@ -144,14 +144,14 @@ So "beyond good and evil" is a demand on philosophers, not peoples: "that he tak
 
 Why then attack Plato (pp. 295–305)? Nietzsche calls dogmatic philosophy a "grimace" that great things wear "in order to inscribe themselves in the hearts of humanity", Platonism in Europe being one. He asks how "the most beautiful growth of antiquity" could catch such a disease, whether "the evil Socrates" corrupted him. Ahrensdorf reads this as saying Plato did not believe in Platonism. Plato wore it as a mask to make philosophy look moral and pious after Socrates' execution. Nietzsche cites Epicurus calling Plato an "actor", the volume of Aristophanes under his deathbed pillow, and the old distinction between esoteric and exoteric teaching. Plato's error was rhetorical, and it worked too well: everyone came to think philosophy is dogmatic and moral, "The philosophical life is misinterpreted". Nietzsche's cure was Thucydides and *The Prince*. Yet he follows Plato, not them, in openly praising the philosopher; he only reverses the mask, presenting the philosopher as "the first immoralist", as Antichrist, as "a terrible explosive endangering everything". Even so, "every philosophy also conceals a philosophy" (*BGE* 289). In this "does Nietzsche, the critic of Platonism and therefore of Plato himself, reveal his fundamental affinity with Plato" (p. 305).
 
-| | Homer | Plato | Machiavelli | Nietzsche |
-|---|---|---|---|---|
-| Visible model of excellence | Achilles, tragic and questioning | Socrates the philosopher | Founders and princes, happy | The philosopher, free mind |
-| Philosophy shown openly? | No; hidden behind the Muse | Yes, as moral and pious | No; hidden behind the adviser | Yes, as immoral and godless |
-| Gods | Limited, indifferent | Good but passive | Barely present; religion as tool | Homer's mirror gods; Dionysos the philosopher |
-| Reason and passion | Passion can lead to thought | Passion overwhelms reason; needs noble lies | Experience of politics sobers thought | Passions to be channelled, not cut out |
-| Road to wisdom | Through political and military life | Through private talk and the Forms | Through politics and reading | Through solitude and skepticism |
-| Death | Final; faced with calm and compassion | Not to be feared; immortality taught | Even glory does not last | Amor fati; "blessing it more than in love with it" |
+|                             | Homer                                 | Plato                                       | Machiavelli                           | Nietzsche |
+| --------------------------- | ------------------------------------- | ------------------------------------------- | ------------------------------------- | --- |
+| Visible model of excellence | Achilles, tragic and questioning      | Socrates the philosopher                    | Founders and princes, happy           | The philosopher, free mind |
+| Philosophy shown openly?    | No; hidden behind the Muse            | Yes, as moral and pious                     | No; hidden behind the adviser         | Yes, as immoral and godless |
+| Gods                        | Limited, indifferent                  | Good but passive                            | Barely present; religion as tool      | Homer's mirror gods; Dionysos the philosopher |
+| Reason and passion          | Passion can lead to thought           | Passion overwhelms reason; needs noble lies | Experience of politics sobers thought | Passions to be channelled, not cut out |
+| Road to wisdom              | Through political and military life   | Through private talk and the Forms          | Through politics and reading          | Through solitude and skepticism |
+| Death                       | Final; faced with calm and compassion | Not to be feared; immortality taught        | Even glory does not last              | Amor fati; "blessing it more than in love with it" |
 
 ### Conclusion
 

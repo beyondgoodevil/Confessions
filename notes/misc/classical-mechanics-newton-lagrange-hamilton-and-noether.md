@@ -20,12 +20,12 @@ and with constant mass it becomes $\vb F = m\vb a$. Because this is a second-ord
 
 **The first law is not a special case of the second.** Setting $\vb F = 0$ in the second law already gives straight-line motion. Tong's better reading of the first law is that *inertial frames exist*, frames in which free particles move uniformly. The second law then holds in those frames. There are infinitely many inertial frames, related by a 10-parameter family of transformations, the Galilean group:
 
-| Transformation | Formula | Parameters |
-|---|---|---|
-| spatial translation | $\vb r' = \vb r + \vb c$ | 3 |
-| rotation | $\vb r' = O\vb r$, $O^TO = I$ | 3 |
-| boost | $\vb r' = \vb r + \vb ut$ | 3 |
-| time translation | $t' = t + d$ | 1 |
+| Transformation      | Formula                       | Parameters |
+| ------------------- | ----------------------------- | ---------- |
+| spatial translation | $\vb r' = \vb r + \vb c$      | 3          |
+| rotation            | $\vb r' = O\vb r$, $O^TO = I$ | 3          |
+| boost               | $\vb r' = \vb r + \vb ut$     | 3          |
+| time translation    | $t' = t + d$                  | 1          |
 
 Position, direction and velocity are relative. Acceleration is not: it makes sense to say simply that one is accelerating.
 
@@ -51,11 +51,11 @@ Tong calls it "by far the most important system in all of theoretical physics". 
 
 **Damping.** Add linear drag $-\gamma\dot x$ (see section 4) to get $m\ddot x = -\gamma\dot x - kx$. Trying $x = e^{i\omega t}$ and writing $\beta = \gamma/2m$ gives three regimes:
 
-| Regime | Condition | Solution |
-|---|---|---|
+| Regime      | Condition              | Solution |
+| ----------- | ---------------------- | --- |
 | underdamped | $\omega_0^2 > \beta^2$ | $x = e^{-\beta t}(Ae^{i\omega t} + Be^{-i\omega t})$, $\omega = \sqrt{\omega_0^2 - \beta^2}$ |
-| overdamped | $\omega_0^2 < \beta^2$ | $x = e^{-\beta t}(Ae^{\Omega t} + Be^{-\Omega t})$, $\Omega = \sqrt{\beta^2 - \omega_0^2}$ |
-| critical | $\omega_0^2 = \beta^2$ | $x = (A + Bt)e^{-\beta t}$ |
+| overdamped  | $\omega_0^2 < \beta^2$ | $x = e^{-\beta t}(Ae^{\Omega t} + Be^{-\Omega t})$, $\Omega = \sqrt{\beta^2 - \omega_0^2}$ |
+| critical    | $\omega_0^2 = \beta^2$ | $x = (A + Bt)e^{-\beta t}$ |
 
 In every case $x \to 0$: energy is not conserved. In the underdamped case the system oscillates more slowly than $\omega_0$, inside a decaying envelope. The graph uses $\omega_0 = 2$ and starts from $x = 1$ at rest; slide $\beta$ through 2 to pass from oscillation to critical damping and beyond.
 
@@ -170,7 +170,7 @@ A symmetry is an invariance under a transformation. Emmy Noether's theorem ties 
 Tong notes that the proof is constructive: it tells you not only that something is conserved but what it is.
 
 | Symmetry | Conserved quantity |
-|---|---|
+| --- | --- |
 | space is the same everywhere (translation, $\vb r_i \to \vb r_i + s\vb n$) | total linear momentum $\sum_i\vb p_i$ |
 | time is the same at every moment ($\partial L/\partial t = 0$) | energy $H = \sum_a\dot q_a\,\partial L/\partial\dot q_a - L$ |
 | space is the same in every direction (rotation) | angular momentum |

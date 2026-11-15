@@ -21,13 +21,13 @@ Taliaferro's chapter is the introduction to the Blackwell volume. Read the objec
 
 ## 2. Five Objections to the Whole Project
 
-| # | Objection | From |
-|---|---|---|
-| I | **No logical space.** You can't have a theory of "everything" or of what's beyond the world. "Everything" isn't the name of one big thing | D. Z. Phillips |
-| II | **Not a real explanation.** "God did it" gives no mechanism. Real explanations are scientific | Narveson, Bagger |
-| III | **Anthropomorphism.** Why make human thought, "this little agitation of the brain", the model for the cause of the universe? And a bodiless agent that acts, hears, knows is incoherent | Hume; Rundle |
-| IV | **Uniqueness.** We infer causes from repeated experience. We've seen one universe. So no inference to its cause | Hume |
-| V | **Not enough.** Even if the arguments work they give an architect, not the omnipotent, good God of religion | Hume, Kant |
+| #   | Objection | From             |
+| --- | --- | ---------------- |
+| I   | **No logical space.** You can't have a theory of "everything" or of what's beyond the world. "Everything" isn't the name of one big thing | D. Z. Phillips   |
+| II  | **Not a real explanation.** "God did it" gives no mechanism. Real explanations are scientific | Narveson, Bagger |
+| III | **Anthropomorphism.** Why make human thought, "this little agitation of the brain", the model for the cause of the universe? And a bodiless agent that acts, hears, knows is incoherent | Hume; Rundle     |
+| IV  | **Uniqueness.** We infer causes from repeated experience. We've seen one universe. So no inference to its cause | Hume             |
+| V   | **Not enough.** Even if the arguments work they give an architect, not the omnipotent, good God of religion | Hume, Kant       |
 
 Kant on design: it gets you at most "a highest architect of the world", limited by his material, "not a creator".
 
@@ -59,15 +59,15 @@ V is Pruss's **Gap Problem**. Feser's Stage 2 arguments are aimed at it.
 
 Taliaferro mostly argues with naturalists. But the sharper opposition to natural theology has been theological.
 
-| Who | Objection |
-|---|---|
-| **Tertullian** | "What has Athens to do with Jerusalem?" |
-| **Pascal** | "God of Abraham, God of Isaac, God of Jacob, not of the philosophers and scholars." The proofs are remote and don't move anyone |
-| **Luther** | reason is fallen; theology of glory vs theology of the cross |
-| **Barth** | "Nein!" to Brunner, 1934. God is known only where He reveals Himself, in Christ. Natural theology is man making a God in his own image |
-| **Kierkegaard** | proving God's existence to someone is an insult, like proving to a man that he exists |
+| Who                                     | Objection |
+| --------------------------------------- | --- |
+| **Tertullian**                          | "What has Athens to do with Jerusalem?" |
+| **Pascal**                              | "God of Abraham, God of Isaac, God of Jacob, not of the philosophers and scholars." The proofs are remote and don't move anyone |
+| **Luther**                              | reason is fallen; theology of glory vs theology of the cross |
+| **Barth**                               | "Nein!" to Brunner, 1934. God is known only where He reveals Himself, in Christ. Natural theology is man making a God in his own image |
+| **Kierkegaard**                         | proving God's existence to someone is an insult, like proving to a man that he exists |
 | **Plantinga** ("Reformed epistemology") | belief in God is **properly basic**. It doesn't need arguments to be rational, any more than belief in other minds does. Arguments are optional |
-| **Van Til** (presuppositionalism) | the proofs treat God as a hypothesis to be tested by a neutral reason. There's no neutral reason. Hence [[TAG]] |
+| **Van Til** (presuppositionalism)       | the proofs treat God as a hypothesis to be tested by a neutral reason. There's no neutral reason. Hence [[TAG]] |
 
 On the other side: **Vatican I** (1870) defined that God "can be known with certainty from created things by the natural light of human reason". So for Roman Catholics natural theology isn't optional. That's part of why Feser writes as he does.
 

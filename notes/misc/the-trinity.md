@@ -48,15 +48,15 @@ Nazianzen: "No sooner do I conceive of the One than I am illumined by the splend
 
 ## Terms
 
-| Greek | Latin | Meaning |
-|---|---|---|
-| *ousia* | *essentia*, *substantia* | essence: **what** God is. One |
-| *physis* | *natura* | nature: used as near-synonym of ousia |
-| *hypostasis* | *persona* (confusingly, *substantia* in older Latin) | a concrete existent: **who**. Three |
-| *prosopon* | *persona* | person, face. Equated with hypostasis by the Cappadocians |
-| *homoousios* | *consubstantialis* | of the same essence (Nicaea, 325) |
+| Greek          | Latin | Meaning |
+| -------------- | --- | --- |
+| *ousia*        | *essentia*, *substantia* | essence: **what** God is. One |
+| *physis*       | *natura* | nature: used as near-synonym of ousia |
+| *hypostasis*   | *persona* (confusingly, *substantia* in older Latin) | a concrete existent: **who**. Three |
+| *prosopon*     | *persona* | person, face. Equated with hypostasis by the Cappadocians |
+| *homoousios*   | *consubstantialis* | of the same essence (Nicaea, 325) |
 | *perichoresis* | *circumincessio* | mutual indwelling: "I am in the Father, and the Father in me" (John 14:11) |
-| *monarchia* | | the Father as the one source |
+| *monarchia*    |  | the Father as the one source |
 
 Before the Cappadocians, *ousia* and *hypostasis* were near-synonyms (Nicaea's anathemas use them interchangeably), which caused years of confusion between East and West. Basil fixed the vocabulary: **one ousia, three hypostases**.
 
@@ -66,13 +66,13 @@ Before the Cappadocians, *ousia* and *hypostasis* were near-synonyms (Nicaea's a
 ## Analogies (and Why They Fail)
 
 | Analogy | What it gets right | Where it fails |
-|---|---|---|
+| --- | --- | --- |
 | sun, ray, light | one light, distinct aspects | the ray and light aren't persons; tends to modalism |
 | spring, river, sea | one water, source and flow | the parts are divided; tends to tritheism or subordinationism |
 | Adam, Eve, Abel (one human nature, three persons) | the Cappadocian favourite: one nature, three hypostases | three humans are three separate beings; God's three are one God (no separation, one will, one act) |
 | mind, word, spirit (Nazianzen, Palamas; Augustine's memory, understanding, will) | images of the Trinity in the soul. See [[Nous]] | these aren't hypostases |
-| water, ice, steam | | **modalism**: one thing in three states, not three persons at once |
-| shamrock | | three parts: **partialism** |
+| water, ice, steam |  | **modalism**: one thing in three states, not three persons at once |
+| shamrock |  | three parts: **partialism** |
 
 Nazianzen's conclusion: "I have thought of every image I could, and found none to rest on... It is best to keep to the few words, taking the Spirit as guide" (*Or.* 31.31-33).
 

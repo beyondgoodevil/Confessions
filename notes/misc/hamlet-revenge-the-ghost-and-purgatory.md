@@ -114,13 +114,13 @@ Prosser read the homilies, treatises and sermons:
 
 ## 7. Comparison
 
-| question | **traditional** (Bradley) | **Prosser** | **Miriam Joseph** | **Cantor** |
-|---|---|---|---|---|
-| the Ghost | Hamlet's father, telling the truth | probably a devil, telling a truth to damn | a soul from Purgatory, rightly tested | both pagan and Christian, ambiguous |
-| the command | a sacred duty | a temptation to mortal sin | just, if done without hatred | an ancient task in a Christian world |
-| the delay | a flaw (thought, melancholy, Oedipus) | his conscience, which he wrongly overrides | a necessary period of discernment | belief in the afterlife complicating heroism |
-| the prayer scene | an excuse for delay | the moment Hamlet becomes damnable | where he "taints his mind" | the central irony of Christian revenge |
-| Act 5 | resolution | real conversion: "the readiness is all" | (not discussed) | fatalism, a disguised suicide, catastrophe |
+| question         | **traditional** (Bradley)             | **Prosser**                                | **Miriam Joseph**                     | **Cantor**                                   |
+| ---------------- | ------------------------------------- | ------------------------------------------ | ------------------------------------- | -------------------------------------------- |
+| the Ghost        | Hamlet's father, telling the truth    | probably a devil, telling a truth to damn  | a soul from Purgatory, rightly tested | both pagan and Christian, ambiguous          |
+| the command      | a sacred duty                         | a temptation to mortal sin                 | just, if done without hatred          | an ancient task in a Christian world         |
+| the delay        | a flaw (thought, melancholy, Oedipus) | his conscience, which he wrongly overrides | a necessary period of discernment     | belief in the afterlife complicating heroism |
+| the prayer scene | an excuse for delay                   | the moment Hamlet becomes damnable         | where he "taints his mind"            | the central irony of Christian revenge       |
+| Act 5            | resolution                            | real conversion: "the readiness is all"    | (not discussed)                       | fatalism, a disguised suicide, catastrophe   |
 
 ## 8. With the *Oresteia* and Girard
 

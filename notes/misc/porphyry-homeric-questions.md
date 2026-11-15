@@ -46,12 +46,12 @@ Ancient readers didn't just admire Homer, they **interrogated** him. Why does Ze
 
 Following Aristotle, the solutions are classified by where they come from (MacPhail, pp. 7–8):
 
-| Solution | What it means | Example |
-|---|---|---|
-| **From diction** (*ek tēs lexeōs*) | the word means something else here | allegory: the battle of the gods is a battle of elements (HQ ad Il. 20.67–75) |
-| **From custom** (*ek tou ethous*) | that's how people did things then | Aristotle: "even now in Thessaly they drag [corpses] around tombs" |
+| Solution                                   | What it means                            | Example |
+| ------------------------------------------ | ---------------------------------------- | --- |
+| **From diction** (*ek tēs lexeōs*)         | the word means something else here       | allegory: the battle of the gods is a battle of elements (HQ ad Il. 20.67–75) |
+| **From custom** (*ek tou ethous*)          | that's how people did things then        | Aristotle: "even now in Thessaly they drag [corpses] around tombs" |
 | **From time / occasion** (*ek tou kairou*) | the circumstances of the time explain it | the gods behave like kings because Homer lived "when Hellas was ruled by kings" (HQ ad Il. 20.67–75) |
-| **From the character** (*ek tou prosōpou*) | a character said it, not the poet | Hector's "no one escapes *moira*" vs Zeus on Aegisthus |
+| **From the character** (*ek tou prosōpou*) | a character said it, not the poet        | Hector's "no one escapes *moira*" vs Zeus on Aegisthus |
 
 Allegory counts too: Porphyry files it as a "solution from diction", the oldest of all, "from Theagenes of Rhegium, who first wrote about Homer" (HQ ad Il. 20.67–75).
 

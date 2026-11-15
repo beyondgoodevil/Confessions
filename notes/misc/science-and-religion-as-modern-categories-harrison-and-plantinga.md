@@ -109,7 +109,7 @@ Behe's biological arguments fare similarly as arguments. Paul Draper shows that 
 "Modern Western empirical science originated and flourished in the bosom of Christian theism and originated nowhere else" (p. 266). Plantinga's explanation is the **image of God**. God is the supreme knower, and Aquinas says the intellect is most in God's image because it can most imitate him (pp. 268–269). The medievals' *adequatio intellectus ad rem*, a fit between mind and world, is what science needs. Chomsky calls it "blind luck"; Plantinga answers that "From the point of view of theistic religion, this is not blind luck. It is only to be expected" (pp. 269–270). He lists the forms the fit takes:
 
 | What science needs | Theistic account | Naturalism |
-|---|---|---|
+| --- | --- | --- |
 | A regular, law-governed world, and belief in it (Whitehead: "an instinctive conviction in the existence of an Order of Things") (p. 272) | God's providence and rationality; Aquinas's primacy of intellect over Ockham's will (pp. 272–274) | "a piece of enormous cosmic luck" (p. 283) |
 | The necessity of laws, stronger than mere truth but weaker than logic | Laws are "finitely inviolable": no creature can break them, but God could have made them otherwise (pp. 280–281) | "stands mute" (p. 283) |
 | Mathematics that applies to the world and that we can grasp (Wigner's "unreasonable efficacy") | Dirac: "God is a mathematician of a very high order" (pp. 284–286) | The "nerdiness factor": set theory did not help anyone on the Pleistocene savannah (pp. 286–287) |
@@ -138,15 +138,15 @@ The defeater cannot itself be defeated. It is like a drug that makes 95 per cent
 
 The books overlap more than their methods suggest. Both cite Samuel Clarke's line that the "course of nature" is the will of God acting in "a continued, regular, constant, and uniform manner" (Harrison p. 80; Plantinga p. 274). Harrison reads it as the moment efficient causation became a "zero-sum game" between God and nature. Plantinga reads it as theism's support for the regularity science needs. Both discuss David Sloan Wilson's *Darwin's Cathedral*. Harrison treats its use of catechisms as "measurable" data as a symptom of religion's reduction to propositions (pp. 83–84). Plantinga treats its functional account of Calvinism as one theory among others, superficially in conflict with Christian belief (pp. 145–152). Both reject White's account of Galileo (Harrison pp. 172–173; Plantinga pp. 6–7), and both see Dawkins and his allies offering science as a substitute worldview: for Harrison a successor to natural theology's moral role (p. 180), for Plantinga a "quasi-religion" (p. 311).
 
-| | Harrison | Plantinga |
-|---|---|---|
-| Discipline | History of ideas, conceptual history | Analytic epistemology and philosophy of religion |
-| The categories | Modern constructs, not natural kinds | Accepted: "theistic religion", "naturalism", "science" |
-| Where conflict lies | In the boundary-drawing of the nineteenth century and its myths | Between science and naturalism |
-| Natural theology | A seventeenth-century novelty that "gave hostages to fortune" | Fine-tuning gives "slight support"; design is better seen as perception |
+|                                       | Harrison | Plantinga |
+| ------------------------------------- | --- | --- |
+| Discipline                            | History of ideas, conceptual history | Analytic epistemology and philosophy of religion |
+| The categories                        | Modern constructs, not natural kinds | Accepted: "theistic religion", "naturalism", "science" |
+| Where conflict lies                   | In the boundary-drawing of the nineteenth century and its myths | Between science and naturalism |
+| Natural theology                      | A seventeenth-century novelty that "gave hostages to fortune" | Fine-tuning gives "slight support"; design is better seen as perception |
 | Why science arose in Christian Europe | Christianity reshaped natural philosophy "in the image of religion", including its universal claims | The image of God makes the world knowable to us |
-| Human faculties | Seventeenth-century thinkers stressed fallen, "dull and weak" faculties | The imago dei and *adequatio*; naturalism cannot trust our faculties |
-| Faith | Once trust and a disposition, later made into "assent upon evidence" | A source of knowledge alongside reason, which need not be propositionally proved |
+| Human faculties                       | Seventeenth-century thinkers stressed fallen, "dull and weak" faculties | The imago dei and *adequatio*; naturalism cannot trust our faculties |
+| Faith                                 | Once trust and a disposition, later made into "assent upon evidence" | A source of knowledge alongside reason, which need not be propositionally proved |
 
 Two tensions stand out. First, Plantinga's "Christian evidence base", a set of propositions from which probabilities are reckoned, is exactly the kind of propositional religion whose rise Harrison traces. And his concord chapter could look like a repeat of the Boyle lecturers' strategy. Harrison would say that tying God to the success of science gives "hostages to fortune" again. Second, Plantinga avoids the charge that Harrison brings against dialogue advocates. He rejects the "Archimedean" neutral space: on his account, science under methodological naturalism is a deliberately truncated perspective, not the neutral judge of all claims. His faith is a gift and his design beliefs are perceptions, not conclusions of evidential arguments. In that respect he is closer to the older modes of knowing Harrison describes than to the eighteenth-century evidentialism he criticizes. He also asks whether Christians should practise a science not limited by methodological naturalism (p. 189). That is the kind of question that only arises once Harrison's neutral ground has been abandoned.
 

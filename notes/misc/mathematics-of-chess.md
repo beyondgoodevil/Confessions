@@ -109,16 +109,16 @@ caption: The mutilated chessboard: remove a1 and h8 (both dark squares). Every d
 
 ## 8. The Numbers at a Glance
 
-| Quantity | Value | Source |
-|---|---|---|
-| Wheat on the chessboard | $2^{64}-1 \approx 1.8 \times 10^{19}$ grains | Geometric series |
-| Typical legal moves per position | about 30 | Shannon (1950) |
-| Game-tree size (Shannon number) | about $10^{120}$ games | Shannon (1950) |
-| Legal positions | about $4.8 \times 10^{44}$ | Tromp (2021) |
-| Endings solved | all with ≤ 7 pieces | Lomonosov (2012), Syzygy (2018) |
-| Longest 7-piece forced mate | 549 moves | Lomonosov tables |
-| Eight-queens solutions | 92 (12 fundamental) | Nauck (1850) |
-| Closed knight's tours | 13,267,364,410,532 | McKay (1997) |
+| Quantity                         | Value                                        | Source                          |
+| -------------------------------- | -------------------------------------------- | ------------------------------- |
+| Wheat on the chessboard          | $2^{64}-1 \approx 1.8 \times 10^{19}$ grains | Geometric series                |
+| Typical legal moves per position | about 30                                     | Shannon (1950)                  |
+| Game-tree size (Shannon number)  | about $10^{120}$ games                       | Shannon (1950)                  |
+| Legal positions                  | about $4.8 \times 10^{44}$                   | Tromp (2021)                    |
+| Endings solved                   | all with ≤ 7 pieces                          | Lomonosov (2012), Syzygy (2018) |
+| Longest 7-piece forced mate      | 549 moves                                    | Lomonosov tables                |
+| Eight-queens solutions           | 92 (12 fundamental)                          | Nauck (1850)                    |
+| Closed knight's tours            | 13,267,364,410,532                           | McKay (1997)                    |
 
 ## 9. Assessment
 

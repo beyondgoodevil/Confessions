@@ -41,7 +41,7 @@ Hadot (1922–2010, Collège de France, specialist on Plotinus and Marcus Aureli
 From Philo's lists and the Stoics:
 
 | Exercise | What it is |
-|---|---|
+| --- | --- |
 | **Attention** (*prosochē*) | constant vigilance over oneself, presence of mind. "The fundamental Stoic attitude" |
 | **Living in the present** | the past is gone, the future not ours; only the present is in our power |
 | **Meditation** (*meletē*) | rehearsing principles until they're ready to hand ("have them at hand like a doctor his instruments") |

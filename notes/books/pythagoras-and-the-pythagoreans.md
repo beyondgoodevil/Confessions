@@ -45,10 +45,10 @@ From Iamblichus's *Life* (the first part of the *Sourcebook*):
     - **The blacksmith's discovery**: hearing hammers ring in concord, he found the ratios by hanging weights on strings, then made a "string-stretcher" (*chordotonon*) (the *Lives*).
 
 | Interval | Ratio |
-|---|---|
-| octave | 2:1 |
-| fifth | 3:2 |
-| fourth | 4:3 |
+| -------- | ----- |
+| octave   | 2:1   |
+| fifth    | 3:2   |
+| fourth   | 4:3   |
 
 - If sound, which seems purely qualitative, is ratio, maybe everything is.
 - **The scale**: built by dividing the octave (6:12) by the arithmetic and harmonic means (8 and 9); the whole tone is 8:9, and the leftover semitone 243:256 is the *leimma* ("left over") (Fideler).

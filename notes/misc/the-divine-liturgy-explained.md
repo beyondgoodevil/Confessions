@@ -10,13 +10,13 @@ The main Sunday service of the Orthodox Church, and the Eucharist. Three parts: 
 
 ## 1. The Five Liturgies
 
-| Liturgy | When | Notes |
-|---|---|---|
+| Liturgy                 | When | Notes |
+| ----------------------- | --- | --- |
 | **St. John Chrysostom** | most Sundays and feasts | the usual one |
 | **St. Basil the Great** | five Sundays of Lent, Holy Thursday, Holy Saturday, Christmas and Theophany eves, St. Basil's day (about ten a year) | older and longer; the differences are mainly the priest's prayers |
 | **Presanctified Gifts** | Wednesday and Friday evenings in Lent | no consecration; Communion from gifts consecrated the Sunday before. Attributed to St. Gregory the Dialogist |
-| **St. James** | rarely; St. James's day (Oct 23) | the ancient Jerusalem rite |
-| **St. Mark** | rarely | the ancient Alexandrian rite |
+| **St. James**           | rarely; St. James's day (Oct 23) | the ancient Jerusalem rite |
+| **St. Mark**            | rarely | the ancient Alexandrian rite |
 
 The basic shape is the same in all.
 
@@ -34,38 +34,38 @@ Symbolism: Bethlehem. The table is the manger; the star is placed over the Lamb.
 
 ## 3. Liturgy of the Catechumens
 
-| Step | What happens | Meaning |
-|---|---|---|
-| **"Blessed is the Kingdom..."** | priest proclaims the Kingdom of the Father, Son and Holy Spirit | the Liturgy is entry into the Kingdom, not a commemoration only |
-| **Great Litany** | "In peace let us pray to the Lord": for peace, the Church, the bishop, the city, travellers, the sick, captives... ends commending ourselves to Christ with the Theotokos and saints | 1 Tim 2:1-2: "supplications, prayers, intercessions... for all men" |
-| **Three antiphons** | psalms (often 103, 146), then the Beatitudes; "Only-begotten Son" hymn | |
-| **Little Entrance** | the Gospel book is carried out and into the altar: "Wisdom! Let us attend!" | Christ coming out to teach. Originally the actual entry of clergy and people into the church |
-| **Troparia, kontakia** | hymns of the day, feast, saint | |
-| **Trisagion** | "Holy God, Holy Mighty, Holy Immortal, have mercy on us" (3×) | the angels' song, Isa 6:3 |
-| **Prokeimenon, Epistle** | psalm verse; reading from Acts or the Epistles | |
-| **Alleluia, Gospel** | "Wisdom! Stand upright! Let us hear the holy Gospel" | Christ Himself speaks |
-| **Homily** | sermon on the readings or feast | |
+| Step                               | What happens | Meaning |
+| ---------------------------------- | --- | --- |
+| **"Blessed is the Kingdom..."**    | priest proclaims the Kingdom of the Father, Son and Holy Spirit | the Liturgy is entry into the Kingdom, not a commemoration only |
+| **Great Litany**                   | "In peace let us pray to the Lord": for peace, the Church, the bishop, the city, travellers, the sick, captives... ends commending ourselves to Christ with the Theotokos and saints | 1 Tim 2:1-2: "supplications, prayers, intercessions... for all men" |
+| **Three antiphons**                | psalms (often 103, 146), then the Beatitudes; "Only-begotten Son" hymn | |
+| **Little Entrance**                | the Gospel book is carried out and into the altar: "Wisdom! Let us attend!" | Christ coming out to teach. Originally the actual entry of clergy and people into the church |
+| **Troparia, kontakia**             | hymns of the day, feast, saint | |
+| **Trisagion**                      | "Holy God, Holy Mighty, Holy Immortal, have mercy on us" (3×) | the angels' song, Isa 6:3 |
+| **Prokeimenon, Epistle**           | psalm verse; reading from Acts or the Epistles | |
+| **Alleluia, Gospel**               | "Wisdom! Stand upright! Let us hear the holy Gospel" | Christ Himself speaks |
+| **Homily**                         | sermon on the readings or feast | |
 | **Litany of Fervent Supplication** | "Lord, have mercy" ×3 | |
-| **Litany of the Catechumens** | prayer for those preparing for baptism; then "All catechumens depart!" | even with no catechumens present, a reminder of the Church's mission |
+| **Litany of the Catechumens**      | prayer for those preparing for baptism; then "All catechumens depart!" | even with no catechumens present, a reminder of the Church's mission |
 
 ## 4. Liturgy of the Faithful
 
-| Step | What happens | Meaning |
-|---|---|---|
-| **Cherubic Hymn** | "Let us who mystically represent the Cherubim... lay aside all earthly cares" | the congregation joins the angels |
-| **Great Entrance** | the gifts are carried in procession from the prothesis to the altar; "May the Lord God remember all of you in His Kingdom" | Christ going to His Passion; also the burial (Joseph of Arimathea) |
-| **"The doors! The doors!"** | historically the doors were shut so only the baptised remained | |
-| **Kiss of peace**, **Creed** | "Let us love one another, that with one mind we may confess..." then the Nicene Creed | Matt 5:23-24: be reconciled before offering. The Creed: the faith we must share to commune |
-| **Anaphora** | "Let us lift up our hearts." "We lift them up unto the Lord." | the great prayer of offering; named from its opening |
-| — thanksgiving | for creation, the Fall and redemption; "Holy, holy, holy" (Isa 6:3) | |
-| — words of institution | "Take, eat: this is my Body... Drink of it all of you: this is my Blood" | Matt 26:26-28 |
+| Step                           | What happens | Meaning |
+| ------------------------------ | --- | --- |
+| **Cherubic Hymn**              | "Let us who mystically represent the Cherubim... lay aside all earthly cares" | the congregation joins the angels |
+| **Great Entrance**             | the gifts are carried in procession from the prothesis to the altar; "May the Lord God remember all of you in His Kingdom" | Christ going to His Passion; also the burial (Joseph of Arimathea) |
+| **"The doors! The doors!"**    | historically the doors were shut so only the baptised remained | |
+| **Kiss of peace**, **Creed**   | "Let us love one another, that with one mind we may confess..." then the Nicene Creed | Matt 5:23-24: be reconciled before offering. The Creed: the faith we must share to commune |
+| **Anaphora**                   | "Let us lift up our hearts." "We lift them up unto the Lord." | the great prayer of offering; named from its opening |
+| — thanksgiving                 | for creation, the Fall and redemption; "Holy, holy, holy" (Isa 6:3) | |
+| — words of institution         | "Take, eat: this is my Body... Drink of it all of you: this is my Blood" | Matt 26:26-28 |
 | — **"Thine own of thine own"** | the gifts lifted up: "we offer unto Thee... on behalf of all and for all" | 1 Chr 29:14: "of thine own have we given thee" |
-| — **Epiclesis** | the priest calls down the Holy Spirit "upon us and upon these gifts", to change them into the Body and Blood | for the Orthodox the change is the Spirit's work; the moment isn't fixed by a formula |
-| — commemorations | the Theotokos above all ("It is truly meet..."), the saints, the departed, the bishop, the living | |
-| **Lord's Prayer** | | "give us this day our daily bread" (*epiousios*, "supersubstantial") |
-| **Elevation** | "The holy things for the holy!" "One is holy, one is Lord, Jesus Christ" | only God is holy; we receive holiness |
-| **Communion** | clergy in the altar; then the people, by spoon, Body and Blood together | "Behold, this hath touched thy lips; and thine iniquity is taken away" (Isa 6:7) |
-| **Thanksgiving, dismissal** | "Let us depart in peace"; prayer behind the ambo; antidoron; veneration of the cross | the faithful sent out as witnesses |
+| — **Epiclesis**                | the priest calls down the Holy Spirit "upon us and upon these gifts", to change them into the Body and Blood | for the Orthodox the change is the Spirit's work; the moment isn't fixed by a formula |
+| — commemorations               | the Theotokos above all ("It is truly meet..."), the saints, the departed, the bishop, the living | |
+| **Lord's Prayer**              |  | "give us this day our daily bread" (*epiousios*, "supersubstantial") |
+| **Elevation**                  | "The holy things for the holy!" "One is holy, one is Lord, Jesus Christ" | only God is holy; we receive holiness |
+| **Communion**                  | clergy in the altar; then the people, by spoon, Body and Blood together | "Behold, this hath touched thy lips; and thine iniquity is taken away" (Isa 6:7) |
+| **Thanksgiving, dismissal**    | "Let us depart in peace"; prayer behind the ambo; antidoron; veneration of the cross | the faithful sent out as witnesses |
 
 ## 5. What It Is
 

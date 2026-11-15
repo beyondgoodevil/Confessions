@@ -108,13 +108,13 @@ David Owen, *Nietzsche, Politics and Modernity*.
 
 ## 8. Comparison
 
-| | Aristotle | "Greek State" N. (1871) | Late N. (1886–88) | Rawls | Fathers |
-|---|---|---|---|---|---|
-| **Basis of inequality** | Nature: some are slaves "by nature" | Culture needs a surplus; the state forged by conquest | "Life is will to power"; rank order; pathos of distance | Inequalities allowed only if they benefit the worst off | Sin and the Fall, not nature |
-| **Slavery** | Natural for some, conventional (unjust) for others | "Of the essence of culture", but a vulture at the liver | "In some sense" necessary, with a good conscience | Ruled out absolutely | Tolerated as a fact in the early Church, then denounced as theft from God (Gregory of Nyssa) |
+|                              | Aristotle | "Greek State" N. (1871) | Late N. (1886–88) | Rawls | Fathers |
+| ---------------------------- | --- | --- | --- | --- | --- |
+| **Basis of inequality**      | Nature: some are slaves "by nature" | Culture needs a surplus; the state forged by conquest | "Life is will to power"; rank order; pathos of distance | Inequalities allowed only if they benefit the worst off | Sin and the Fall, not nature |
+| **Slavery**                  | Natural for some, conventional (unjust) for others | "Of the essence of culture", but a vulture at the liver | "In some sense" necessary, with a good conscience | Ruled out absolutely | Tolerated as a fact in the early Church, then denounced as theft from God (Gregory of Nyssa) |
 | **Where dignity comes from** | Reason, more or less of it | Being a "tool of the genius" | Achievement; for most, service | Moral personality, equal in all | The image of God, equal in all |
-| **What society is for** | The good life of the polis | Producing the genius | A "substructure" for a higher kind of being | Fair cooperation among equals | Communion: one body, where the weaker members are "necessary" |
-| **The greatest** | The magnanimous man | The artist-genius | The philosopher-legislator | — | "Servant of all" |
+| **What society is for**      | The good life of the polis | Producing the genius | A "substructure" for a higher kind of being | Fair cooperation among equals | Communion: one body, where the weaker members are "necessary" |
+| **The greatest**             | The magnanimous man | The artist-genius | The philosopher-legislator | — | "Servant of all" |
 
 ## 9. Assessment
 

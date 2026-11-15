@@ -28,20 +28,20 @@ Thus, unlike creatures who move from first to second actuality (e.g., from abili
 
 Aristotle distinguishes **three** levels (*De Anima* II.1 and II.5), with the example of knowledge:
 
-| Level | Example | |
-|---|---|---|
-| **first potentiality** | a child who **can** learn grammar | can acquire the capacity |
+| Level                                     | Example | |
+| ----------------------------------------- | --- | --- |
+| **first potentiality**                    | a child who **can** learn grammar | can acquire the capacity |
 | **first actuality** = second potentiality | someone who **knows** grammar but is asleep, or not using it | has the capacity, actualised as a disposition (*hexis*) |
-| **second actuality** | someone **actually reading** or speaking grammatically now | exercises it |
+| **second actuality**                      | someone **actually reading** or speaking grammatically now | exercises it |
 
 - Aristotle's own wording (II.1): actuality "is spoken of in two ways, first as **knowledge** is and second as **contemplating** is". Bermúdez notes he uses a noun (*epistêmē*) for the first and a verb (*theôrein*) for the second: a **state** versus an **activity**.
 - The terms shift between chapters, which is confusing. Bermúdez lines them up:
 
-| *De Anima* II.1 | *De Anima* II.5 | example |
-|---|---|---|
-| first potentiality | potentiality | able to acquire knowledge |
-| second potentiality | first actuality | has knowledge but isn't using it |
-| actuality | second actuality | actually using it |
+| *De Anima* II.1     | *De Anima* II.5  | example                          |
+| ------------------- | ---------------- | -------------------------------- |
+| first potentiality  | potentiality     | able to acquire knowledge        |
+| second potentiality | first actuality  | has knowledge but isn't using it |
+| actuality           | second actuality | actually using it                |
 
 ## The Soul as First Actuality
 

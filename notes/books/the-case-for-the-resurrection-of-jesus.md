@@ -36,7 +36,7 @@ Written as a handbook for sharing faith, with quizzes. The method is what's impo
 ## 2. The Minimal Facts ("4 + 1")
 
 | Fact | Evidence |
-|---|---|
+| --- | --- |
 | **1. Jesus died by crucifixion** | all four Gospels, Paul; Josephus (*Ant.* 18.3), Tacitus (*Annals* 15.44), Lucian, Mara bar Serapion, the Talmud. Roman crucifixion was deadly; John 19:34 (blood and water) fits medical understanding |
 | **2. The disciples believed He rose and appeared to them** | **1 Cor 15:3-8**: a creed Paul "received", dated by most scholars within 2–5 years of the crucifixion. Lists appearances to Peter, the Twelve, 500, James, all the apostles, Paul. Oral formulas in Acts (Acts 2, 13). The disciples' **transformation** and willingness to suffer and die for it (Clement, Polycarp, Tertullian, Origen) |
 | **3. Paul, a persecutor, was converted** | Paul's own letters (Gal 1:13-16; 1 Cor 15:9; Phil 3:6); Acts. An enemy converted by what he took to be an appearance |
@@ -54,16 +54,16 @@ Written as a handbook for sharing faith, with quizzes. The method is what's impo
 
 ## 3. Alternative Theories
 
-| Theory | Reply |
-|---|---|
-| **Legend**: the story grew over time | the 1 Cor 15 creed is too early; and it doesn't explain Paul's conversion |
+| Theory                                         | Reply |
+| ---------------------------------------------- | --- |
+| **Legend**: the story grew over time           | the 1 Cor 15 creed is too early; and it doesn't explain Paul's conversion |
 | **Fraud**: the disciples stole the body / lied | liars don't die for what they know is false; doesn't explain Paul or James |
-| **Wrong tomb** | the authorities would have found the right one; doesn't explain the appearances |
-| **Swoon**: Jesus didn't die | Romans were expert executioners; a half-dead man wouldn't inspire belief that He had conquered death (Strauss's own objection) |
-| **Hallucination** | hallucinations are private, not group experiences (the 500; the Twelve); they don't happen to enemies like Paul or sceptics like James; and they don't explain the empty tomb |
-| **Conversion disorder / grief visions** | same problems: groups, enemies, the tomb |
-| **Different Jesus / twin** | no evidence; ad hoc |
-| **Copycat of pagan dying-rising gods** | the parallels are late, vague, or not resurrections (Osiris rules the underworld); Jews weren't borrowing from pagan myth |
+| **Wrong tomb**                                 | the authorities would have found the right one; doesn't explain the appearances |
+| **Swoon**: Jesus didn't die                    | Romans were expert executioners; a half-dead man wouldn't inspire belief that He had conquered death (Strauss's own objection) |
+| **Hallucination**                              | hallucinations are private, not group experiences (the 500; the Twelve); they don't happen to enemies like Paul or sceptics like James; and they don't explain the empty tomb |
+| **Conversion disorder / grief visions**        | same problems: groups, enemies, the tomb |
+| **Different Jesus / twin**                     | no evidence; ad hoc |
+| **Copycat of pagan dying-rising gods**         | the parallels are late, vague, or not resurrections (Osiris rules the underworld); Jews weren't borrowing from pagan myth |
 
 The resurrection explains **all** the facts; each rival explains at most a few, and needs to combine several.
 

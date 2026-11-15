@@ -111,13 +111,13 @@ Her opponent throughout is not just Plato but **Kant**. For Kant, one value, the
 
 ## 6. Comparison
 
-| | **Tragedy** | **Plato (middle)** | **Plato (*Phaedrus*)** | **Aristotle** | **Kant** |
-|---|---|---|---|---|---|
-| can luck harm goodness? | yes, even character | no; the good is invulnerable | love's risk accepted | yes: activity, even *eudaimonia* | no, not moral worth |
-| conflict of values | real; demands remorse | dissolved by a single measure | — | real; perception handles it | inconceivable |
-| passions | part of seeing rightly | disorders to be cut away | "divine madness" helps | trained, they perceive | not objects of praise or blame |
-| love of a unique person | Haemon, Ismene, Iphigenia's father | a step on the ladder | central, with madness | *philia*: separateness, mutuality | (practical love only) |
-| image | vine | gem, stone | winged soul | plant tended with reason | the good will that "shines like a jewel" |
+|                         | **Tragedy**                        | **Plato (middle)**            | **Plato (*Phaedrus*)** | **Aristotle**                     | **Kant**                                 |
+| ----------------------- | ---------------------------------- | ----------------------------- | ---------------------- | --------------------------------- | ---------------------------------------- |
+| can luck harm goodness? | yes, even character                | no; the good is invulnerable  | love's risk accepted   | yes: activity, even *eudaimonia*  | no, not moral worth                      |
+| conflict of values      | real; demands remorse              | dissolved by a single measure | —                      | real; perception handles it       | inconceivable                            |
+| passions                | part of seeing rightly             | disorders to be cut away      | "divine madness" helps | trained, they perceive            | not objects of praise or blame           |
+| love of a unique person | Haemon, Ismene, Iphigenia's father | a step on the ladder          | central, with madness  | *philia*: separateness, mutuality | (practical love only)                    |
+| image                   | vine                               | gem, stone                    | winged soul            | plant tended with reason          | the good will that "shines like a jewel" |
 
 ## 7. Assessment
 

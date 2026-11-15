@@ -41,10 +41,10 @@ There's no official list, which itself is an objection: if no one knows exactly 
 
 ## Historical Problem Cases
 
-| Case | Problem |
-|---|---|
+| Case                       | Problem |
+| -------------------------- | --- |
 | **Pope Liberius** (4th c.) | under pressure, signed a semi-Arian formula and condemned Athanasius |
-| **Pope Vigilius** (553) | changed his position on the Three Chapters several times; the Fifth Council struck him from the diptychs |
+| **Pope Vigilius** (553)    | changed his position on the Three Chapters several times; the Fifth Council struck him from the diptychs |
 | **Pope Honorius** (d. 638) | taught one will in Christ; condemned by name as a heretic by the **Sixth Ecumenical Council** (681), confirmed by Pope Leo II. Vatican I's defenders argued he wasn't speaking *ex cathedra* |
 
 - Klaus Schatz: many crucial objections came "from the arsenal of history" (Siecienski).

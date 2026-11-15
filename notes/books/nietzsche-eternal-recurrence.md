@@ -166,7 +166,7 @@ The earlier version of this note set Loeb (literal cosmology) against Johnson (p
 Loeb's replies to the logical objections, kept from the earlier version:
 
 | Objection | Loeb's reply |
-|---|---|
+| --- | --- |
 | No memory between cycles, so it isn't *me* and I needn't care (Simmel, Soll) | It's one and the same life. And Z has a kind of forward memory: Zarathustra recognises what's coming |
 | Identical cycles can't be told apart, so there's only one (Magnus) | Time itself recurs. One life in quality, many in number |
 | No possible evidence (Danto) | The proof is a priori, like some of the best arguments in physics |

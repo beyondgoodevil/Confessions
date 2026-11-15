@@ -42,11 +42,11 @@ N. = Nietzsche, GS = *Gay Science*, Z = *Zarathustra*, BGE = *Beyond Good and Ev
 
 This is where N. makes his own distinction.
 
-| | Turkish fatalism | Russian fatalism |
-|---|---|---|
-| **Where** | *Wanderer and His Shadow* 61 | GM II 15 ("resolute fatalism without revolt"); EH "Wise" 6 |
-| **Picture** | Man on one side, fate on the other. You can fight, but fate always wins, so give up, or do anything at all | You are yourself a piece of fate. The struggle is imaginary, and so is the resignation |
-| **Result** | Folded hands or caprice. Both nihilistic | Lying still in the snow like the Russian soldier on campaign: not reacting, conserving yourself |
+|                  | Turkish fatalism | Russian fatalism |
+| ---------------- | --- | --- |
+| **Where**        | *Wanderer and His Shadow* 61 | GM II 15 ("resolute fatalism without revolt"); EH "Wise" 6 |
+| **Picture**      | Man on one side, fate on the other. You can fight, but fate always wins, so give up, or do anything at all | You are yourself a piece of fate. The struggle is imaginary, and so is the resignation |
+| **Result**       | Folded hands or caprice. Both nihilistic | Lying still in the snow like the Russian soldier on campaign: not reacting, conserving yourself |
 | **N.'s verdict** | The error behind people's fear of determinism | "To accept oneself as a destiny, not to wish oneself 'different'" (EH) |
 
 - WS 61 (Handwerk trans.): Turkish fatalism "makes the fundamental mistake of opposing humans and fate, as if they were two different things". In truth "every human is himself a part of fate". Even "the fear of the belief in fate is fate". And to the "poor frightened one": *you* are "the invincible moira that rules even over the gods".
@@ -164,15 +164,15 @@ Stambaugh compares N. with **Spinoza**, whom N. in 1881 hailed as his "precursor
 
 ## 11. Comparison
 
-| | Stoics | Spinoza | Nietzsche | Christian (Fathers) |
-|---|---|---|---|---|
+|                         | Stoics                                         | Spinoza                               | Nietzsche | Christian (Fathers) |
+| ----------------------- | ---------------------------------------------- | ------------------------------------- | --- | --- |
 | **What governs events** | Fate = providence = divine reason (Chrysippus) | God or Nature, by geometric necessity | Fate: necessity plus chance; no purpose | Providence of a personal God, working through secondary causes and free wills |
-| **Personal?** | Logos immanent, not personal | No; intellect and will "in name only" | No; "petty deity" mocked | Yes: "the very hairs of your head" |
-| **Ideal attitude** | Consent ("lead the willing") | Intellectual love from understanding | Love, wanting nothing different | Trust, thanksgiving, "Thy will be done" |
-| **Evil** | Only vice is bad; the rest indifferent | Good and evil are human fictions | Beyond good and evil; even the "smallest man" recurs | Real, not willed by God, but turned to good (Gen 50:20) |
-| **The past** | Accept it | Necessary, so no regret | "Thus I willed it" | Repent of sin; give thanks for what God brought out of it |
-| **Self** | Live in accordance with your rational nature | Persevere in your being | Become who you are | Grow from image into likeness |
-| **Gratitude to** | Zeus/the whole | God-Nature (who doesn't love back) | No one | Someone |
+| **Personal?**           | Logos immanent, not personal                   | No; intellect and will "in name only" | No; "petty deity" mocked | Yes: "the very hairs of your head" |
+| **Ideal attitude**      | Consent ("lead the willing")                   | Intellectual love from understanding  | Love, wanting nothing different | Trust, thanksgiving, "Thy will be done" |
+| **Evil**                | Only vice is bad; the rest indifferent         | Good and evil are human fictions      | Beyond good and evil; even the "smallest man" recurs | Real, not willed by God, but turned to good (Gen 50:20) |
+| **The past**            | Accept it                                      | Necessary, so no regret               | "Thus I willed it" | Repent of sin; give thanks for what God brought out of it |
+| **Self**                | Live in accordance with your rational nature   | Persevere in your being               | Become who you are | Grow from image into likeness |
+| **Gratitude to**        | Zeus/the whole                                 | God-Nature (who doesn't love back)    | No one | Someone |
 
 ## 12. Assessment
 

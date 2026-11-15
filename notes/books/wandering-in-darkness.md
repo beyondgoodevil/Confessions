@@ -16,12 +16,12 @@ A long book (over 600 pages) and one of the most important modern works on the p
 
 ## Structure
 
-| Part | Chapters |
-|---|---|
-| **1. The Nature of the Project** | 1. Suffering, Theodicy, and Defense; 2. Philosophy and Narrative; 3. Narrative as a Means of Knowledge: Francis and Dominic; 4. Narrative and the Knowledge of Persons |
+| Part                                           | Chapters |
+| ---------------------------------------------- | --- |
+| **1. The Nature of the Project**               | 1. Suffering, Theodicy, and Defense; 2. Philosophy and Narrative; 3. Narrative as a Means of Knowledge: Francis and Dominic; 4. Narrative and the Knowledge of Persons |
 | **2. The World at Large: Love and Loneliness** | 5. The Nature of Love; 6. Union, Presence, and Omnipresence; 7. Willed Loneliness; 8. Other-Worldly Redemption |
-| **3. The World of the Stories** | 9. Job; 10. Samson; 11. Abraham; 12. Mary of Bethany |
-| **4. Other-Worldly Theodicy** | 13. Theodicy in Another World; 14. The Desires of the Heart; 15. The Defense of the Defense |
+| **3. The World of the Stories**                | 9. Job; 10. Samson; 11. Abraham; 12. Mary of Bethany |
+| **4. Other-Worldly Theodicy**                  | 13. Theodicy in Another World; 14. The Desires of the Heart; 15. The Defense of the Defense |
 
 ## 1. Why Narrative
 
@@ -76,11 +76,11 @@ A long book (over 600 pages) and one of the most important modern works on the p
 
 ## 3. The Stories
 
-| Story | What it shows |
-|---|---|
-| **Job** | God's answer from the whirlwind isn't an explanation but His **presence**: a second-personal encounter. "I have heard of thee by the hearing of the ear: but now mine eye seeth thee" (Job 42:5). Job's suffering ends in a closeness to God he didn't have before |
-| **Samson** | self-destroying evil: his own choices ruin him. Suffering in captivity, blind, he finally turns to God. Suffering as the means of **internal integration** |
-| **Abraham** | the desires of the heart: God promises Isaac, then asks for him. Abraham trusts God's goodness, and gets the desire of his heart back, now as gift. The binding of Isaac |
+| Story               | What it shows |
+| ------------------- | --- |
+| **Job**             | God's answer from the whirlwind isn't an explanation but His **presence**: a second-personal encounter. "I have heard of thee by the hearing of the ear: but now mine eye seeth thee" (Job 42:5). Job's suffering ends in a closeness to God he didn't have before |
+| **Samson**          | self-destroying evil: his own choices ruin him. Suffering in captivity, blind, he finally turns to God. Suffering as the means of **internal integration** |
+| **Abraham**         | the desires of the heart: God promises Isaac, then asks for him. Abraham trusts God's goodness, and gets the desire of his heart back, now as gift. The binding of Isaac |
 | **Mary of Bethany** | **heartbreak and shame**: Jesus delays and Lazarus dies (John 11). She is crushed; Jesus weeps with her, raises Lazarus. Earlier: she anoints His feet and is defended against shame (John 12) |
 
 **Job**

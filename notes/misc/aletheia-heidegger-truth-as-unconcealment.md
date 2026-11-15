@@ -100,17 +100,17 @@ The *Parmenides* lectures add a second, Latin stage. Heidegger thinks translatin
 
 If falsity isn't the only opposite of truth, what are the others? Heidegger lists several (pp. 58–64):
 
-| Kind of concealment | Greek or example | What it does |
-|---|---|---|
-| Dissembling | *pseudos*: the cupboard, the pseudonym | hides by showing something else |
-| Deception | *apatē*, "off the path" | leads you down a by-way |
-| Sheltering | *kruptō*, *kalyptō*: Troy hides treasure, the earth covers the dead (*Od.* 3.16) | keeps safe |
+| Kind of concealment | Greek or example | What it does                                |
+| ------------------- | --- | ------------------------------------------- |
+| Dissembling         | *pseudos*: the cupboard, the pseudonym | hides by showing something else             |
+| Deception           | *apatē*, "off the path" | leads you down a by-way                     |
+| Sheltering          | *kruptō*, *kalyptō*: Troy hides treasure, the earth covers the dead (*Od.* 3.16) | keeps safe                                  |
 | Night, earth, death | night "veils"; Hades | the dark from which things come and go back |
-| The rare | "what is truly rare is available precisely always and for everyone" | preserves by not being grabbed |
-| The open mystery | "not touching the concealedness of the simple" | is respected, not solved |
-| The clandestine | a conspiracy | lies in ambush |
-| The not-yet-known | the "miracles of technology" | waits to be discovered |
-| Oblivion | *lēthē* | withdraws and hides its own withdrawing |
+| The rare            | "what is truly rare is available precisely always and for everyone" | preserves by not being grabbed              |
+| The open mystery    | "not touching the concealedness of the simple" | is respected, not solved                    |
+| The clandestine     | a conspiracy | lies in ambush                              |
+| The not-yet-known   | the "miracles of technology" | waits to be discovered                      |
+| Oblivion            | *lēthē* | withdraws and hides its own withdrawing     |
 
 For the Greeks, birth and death "take their essence from the realm of disclosiveness and concealment," and the earth is the in-between of the underworld's darkness and heaven's light (p. 60). Myth itself, *muthos*, is the word that lets this disclosing and concealing appear. "There is only one myth, namely the *muthos* of the Greeks" (p. 60).
 

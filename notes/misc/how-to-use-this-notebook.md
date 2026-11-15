@@ -10,13 +10,13 @@ Every note is a Markdown file in `notes/`. The folder decides the section; the f
 
 ## Linking notes
 
-| You write | You get |
-|---|---|
-| `[[How to Take Smart Notes]]` | a link using the note's title |
-| `[[B-0012]]` | the same link by address (shows the title) |
-| `[[B-0012\|Ahrens]]` | a link with your own words: [[B-0012|Ahrens]] |
-| `[[Some Note#A heading]]` | a link to a heading inside a note |
-| `[[Something Not Written Yet]]` | a dimmed link: [[Something Not Written Yet]] |
+| You write                       | You get                                       |
+| ------------------------------- | --------------------------------------------- |
+| `[[How to Take Smart Notes]]`   | a link using the note's title                 |
+| `[[B-0012]]`                    | the same link by address (shows the title)    |
+| `[[B-0012\|Ahrens]]`            | a link with your own words: [[B-0012|Ahrens]] |
+| `[[Some Note#A heading]]`       | a link to a heading inside a note             |
+| `[[Something Not Written Yet]]` | a dimmed link: [[Something Not Written Yet]]  |
 
 Every link shows up on the other note under **Referenced by**, with the sentence it came from.
 

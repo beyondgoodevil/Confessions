@@ -128,14 +128,14 @@ So the universe began to exist; whatever begins to exist has a cause; so the uni
 
 ## 8. Naturalistic Alternatives
 
-| Model | Problem |
-|---|---|
-| steady state | refuted by the cosmic microwave background |
-| oscillating universe | entropy builds up each cycle; no known mechanism for a bounce. Zeldovich and Novikov: "an infinite future, but only a finite past". Joseph Silk: no more than about **100** previous oscillations, given current entropy |
-| vacuum fluctuation | the vacuum is not nothing; and it should produce universes everywhere (Isham calls this "fairly lethal"). Avoiding it means the vacuum itself began to expand: back to an absolute origin |
-| chaotic inflation | still needs a beginning (BGV) |
+| Model                            | Problem |
+| -------------------------------- | --- |
+| steady state                     | refuted by the cosmic microwave background |
+| oscillating universe             | entropy builds up each cycle; no known mechanism for a bounce. Zeldovich and Novikov: "an infinite future, but only a finite past". Joseph Silk: no more than about **100** previous oscillations, given current entropy |
+| vacuum fluctuation               | the vacuum is not nothing; and it should produce universes everywhere (Isham calls this "fairly lethal"). Avoiding it means the vacuum itself began to expand: back to an absolute origin |
+| chaotic inflation                | still needs a beginning (BGV) |
 | quantum gravity (Hartle–Hawking) | removes a beginning only by using **imaginary time**, which hides the real difference; the real-time interpretation still has a beginning |
-| time loop (Gott and Li-Xin) | "the laws of physics may allow the universe to be its own mother": Craig leaves it to physicists, but notes it's a strange explanation |
+| time loop (Gott and Li-Xin)      | "the laws of physics may allow the universe to be its own mother": Craig leaves it to physicists, but notes it's a strange explanation |
 
 **Philosophical objections**
 - **Grünbaum**: the inference to a first cause assumes "the spontaneity of nothingness". Craig: it rests on an **A-theory** of time, not on that.

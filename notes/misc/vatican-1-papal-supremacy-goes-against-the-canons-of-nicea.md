@@ -25,12 +25,12 @@ The **jurisdiction** claim is what Orthodox see as the real break: it makes ever
 
 ## The First Millennium Canons
 
-| Canon | Says | Implication |
-|---|---|---|
-| **Apostolic Canon 34** | the bishops of each nation must recognise **the first among them** as head and do nothing important without him, and he nothing without all of them | primacy is **regional** and **conciliar** |
-| **Nicaea 6** (325) | Alexandria's authority over Egypt, "since the like is customary for the bishop of Rome"; also Antioch | Rome's authority is a **regional custom**, parallel to others. See [[Nicene Creed Canon 6: First Among Equals Explanation]] |
-| **Constantinople 3** (381) | the bishop of Constantinople has "primacy of honour after the bishop of Rome, **because it is New Rome**" | honour based on the **city**, not Peter |
-| **Chalcedon 28** (451) | the fathers gave privileges to Old Rome "**because it was the imperial city**" and equal privileges to New Rome | same; Rome objected |
+| Canon                        | Says | Implication |
+| ---------------------------- | --- | --- |
+| **Apostolic Canon 34**       | the bishops of each nation must recognise **the first among them** as head and do nothing important without him, and he nothing without all of them | primacy is **regional** and **conciliar** |
+| **Nicaea 6** (325)           | Alexandria's authority over Egypt, "since the like is customary for the bishop of Rome"; also Antioch | Rome's authority is a **regional custom**, parallel to others. See [[Nicene Creed Canon 6: First Among Equals Explanation]] |
+| **Constantinople 3** (381)   | the bishop of Constantinople has "primacy of honour after the bishop of Rome, **because it is New Rome**" | honour based on the **city**, not Peter |
+| **Chalcedon 28** (451)       | the fathers gave privileges to Old Rome "**because it was the imperial city**" and equal privileges to New Rome | same; Rome objected |
 | **Sardica** (343) canons 3–5 | a deposed bishop may appeal to Rome, which can order a rehearing | a real Roman role, but as court of **appeal**, not ordinary jurisdiction; and Sardica wasn't ecumenical |
 
 ## Rome's Primacy in History

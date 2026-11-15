@@ -18,11 +18,11 @@ Here's how it works:
 
 Any interval on which $\sin$ is one-one has length at most $\pi$ (Problem 15-23), so we pick a standard one:
 
-| Function | Restricted to | Inverse | Domain of inverse | Range of inverse |
-|---|---|---|---|---|
-| $\sin$ | $[-\pi/2, \pi/2]$ | $\arcsin$ | $[-1, 1]$ | $[-\pi/2, \pi/2]$ |
-| $\cos$ | $[0, \pi]$ | $\arccos$ | $[-1, 1]$ | $[0, \pi]$ |
-| $\tan$ | $(-\pi/2, \pi/2)$ | $\arctan$ | $\mathbb{R}$ | $(-\pi/2, \pi/2)$ |
+| Function | Restricted to     | Inverse   | Domain of inverse | Range of inverse  |
+| -------- | ----------------- | --------- | ----------------- | ----------------- |
+| $\sin$   | $[-\pi/2, \pi/2]$ | $\arcsin$ | $[-1, 1]$         | $[-\pi/2, \pi/2]$ |
+| $\cos$   | $[0, \pi]$        | $\arccos$ | $[-1, 1]$         | $[0, \pi]$        |
+| $\tan$   | $(-\pi/2, \pi/2)$ | $\arctan$ | $\mathbb{R}$      | $(-\pi/2, \pi/2)$ |
 
 - Spivak avoids writing $\sin^{-1}$ because $\arcsin$ is **not** the inverse of $\sin$ (which isn't one-one) but of the restricted function (sometimes written $\operatorname{Sin}$).
 - **Watch out:** $\arcsin(\sin x) = x$ only for $x \in [-\pi/2, \pi/2]$. E.g. $\arcsin(\sin \pi) = \arcsin 0 = 0 \ne \pi$. But $\sin(\arcsin x) = x$ for every $x \in [-1, 1]$.

@@ -12,15 +12,15 @@ Part VI of the Handbook. Three long chapters and I only read the opening and the
 
 ## 1. The Positions
 
-| View | Says | Problem |
-|---|---|---|
-| **Substance dualism** | I am (or have) an immaterial thing that thinks and feels | how do mind and body interact? |
-| **Property dualism** | one kind of substance, two irreducible kinds of property | does the mental do anything, or is it along for the ride? |
+| View                                        | Says | Problem |
+| ------------------------------------------- | --- | --- |
+| **Substance dualism**                       | I am (or have) an immaterial thing that thinks and feels | how do mind and body interact? |
+| **Property dualism**                        | one kind of substance, two irreducible kinds of property | does the mental do anything, or is it along for the ride? |
 | **Reductive materialism** (identity theory) | mental states *are* brain states | what it's like; multiple realizability |
-| **Functionalism** | mental states are defined by what they *do*; the brain "realizes" them | same worry about what it's like |
-| **Emergentism** | mind is a new kind of property arising from complex matter, not predictable from it | "arises" how? |
-| **Eliminativism** | there are no beliefs or pains, strictly | hard to believe (literally) |
-| **Idealism** | only minds and their contents | |
+| **Functionalism**                           | mental states are defined by what they *do*; the brain "realizes" them | same worry about what it's like |
+| **Emergentism**                             | mind is a new kind of property arising from complex matter, not predictable from it | "arises" how? |
+| **Eliminativism**                           | there are no beliefs or pains, strictly | hard to believe (literally) |
+| **Idealism**                                | only minds and their contents | |
 
 ## 2. Zimmerman: If I'm Material, Which Thing Am I?
 
@@ -48,13 +48,13 @@ Zimmerman tightens it into two premises about me and the mass of matter that mak
 
 Escape routes he goes through:
 
-| Move | Idea | His complaint |
-|---|---|---|
-| **Temporal parts** | strictly only my *present stage* is in pain; longer things are in pain by having that stage | then I never have my experiences directly |
+| Move                                    | Idea | His complaint |
+| --------------------------------------- | --- | --- |
+| **Temporal parts**                      | strictly only my *present stage* is in pain; longer things are in pain by having that stage | then I never have my experiences directly |
 | **Coincidentalism** ("the new dualism") | person and matter are two things in one place, alike atom for atom, but only one thinks | how can things identical in microstructure differ in powers? |
-| **Shared tropes** | one pain-instance shared by both | rejected |
-| **No masses of matter** (van Inwagen) | "the matter" is just many particles, not a thing | he argues it doesn't escape |
-| **Dominant kinds** (Burke) | the mass stops existing when it comes to constitute a person | masses of matter popping out of existence |
+| **Shared tropes**                       | one pain-instance shared by both | rejected |
+| **No masses of matter** (van Inwagen)   | "the matter" is just many particles, not a thing | he argues it doesn't escape |
+| **Dominant kinds** (Burke)              | the mass stops existing when it comes to constitute a person | masses of matter popping out of existence |
 
 His conclusion, roughly: once you spell the materialist options out, each is strange enough that "dualism is considerably less unbelievable" than it's usually taken to be.
 
@@ -70,12 +70,12 @@ Three questions for an "ontology of the mental":
 
 **Perception**
 
-| Theory | The content of my experience is... |
-|---|---|
-| **Naive realism** | the external object itself |
-| **Direct realism** | a way the external object *appears*; no other entity involved |
+| Theory                 | The content of my experience is... |
+| ---------------------- | --- |
+| **Naive realism**      | the external object itself |
+| **Direct realism**     | a way the external object *appears*; no other entity involved |
 | **Sense-datum theory** | some entity other than the external object |
-| **Adverbialism** | not an object at all but a way of sensing ("I sense redly") |
+| **Adverbialism**       | not an object at all but a way of sensing ("I sense redly") |
 
 Argument from hallucination:
 

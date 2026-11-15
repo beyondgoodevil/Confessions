@@ -42,7 +42,7 @@ The Council of Ephesus, convened in 431 AD, was the third Ecumenical Council. It
 **Two schools**
 
 | Antioch | Alexandria |
-|---|---|
+| --- | --- |
 | literal, historical exegesis | spiritual, typological exegesis |
 | stress on Christ's full, real **humanity** (His growth, suffering, obedience) | stress on the **unity** of Christ: the Word Himself is the subject of everything |
 | "Word–man" Christology: the Word **indwells** a man as in a temple | "Word–flesh" Christology: the Word **became** flesh |

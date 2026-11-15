@@ -31,15 +31,15 @@ All three also doubt that any classification can be complete:
 
 These are "double vision" fallacies: one set of words is seen as two different things (p. 80). Kreeft's rule for undoing them: "To unmake an ambiguity, make a distinction" (p. 72). He insists that "no term is equivocal itself; a term is only used equivocally", and that "Concepts are not equivocal, only terms" (p. 71).
 
-| | Fallacy | What goes wrong | Kreeft's example |
-|---|---|---|---|
-| 1A | **Equivocation** | One term used in two senses within an argument; "the simplest and most common" material fallacy (p. 71) | "Nothing is more expensive than diamonds. But paper is more expensive than nothing" (p. 73) |
-| 1B | **Amphiboly** | Ambiguous syntax, not an ambiguous word (p. 74) | Berkeley: "Is it not a great contradiction to think a thing exists when you do not think it?" |
-| 1C | **Accent** | Meaning shifted by stress, tone or innuendo (p. 75) | Antony's "And Brutus is an honorable man" |
-| 1D | **Slanting** | A "question-begging epithet": a word that describes and evaluates at once (pp. 76–7) | "I am firm, you are stubborn, he is pigheaded" (Russell) |
-| 1E | **Slogans** | "There is no fallacy in a slogan as such, but in its use as a substitute for argument" (p. 78) | Rival bumper stickers on abortion |
-| 1F | **Hyperbole** | Exaggeration, including "absurd extension" of an opponent's claim (p. 78) | "Oh, so you're against pornography. You must be against freedom of speech." |
-| 1G | **Straw man** | Refuting a weak version of the opponent's view (p. 79) | Johnson kicking the stone to "refute" Berkeley |
+|     | Fallacy          | What goes wrong | Kreeft's example |
+| --- | ---------------- | --- | --- |
+| 1A  | **Equivocation** | One term used in two senses within an argument; "the simplest and most common" material fallacy (p. 71) | "Nothing is more expensive than diamonds. But paper is more expensive than nothing" (p. 73) |
+| 1B  | **Amphiboly**    | Ambiguous syntax, not an ambiguous word (p. 74) | Berkeley: "Is it not a great contradiction to think a thing exists when you do not think it?" |
+| 1C  | **Accent**       | Meaning shifted by stress, tone or innuendo (p. 75) | Antony's "And Brutus is an honorable man" |
+| 1D  | **Slanting**     | A "question-begging epithet": a word that describes and evaluates at once (pp. 76–7) | "I am firm, you are stubborn, he is pigheaded" (Russell) |
+| 1E  | **Slogans**      | "There is no fallacy in a slogan as such, but in its use as a substitute for argument" (p. 78) | Rival bumper stickers on abortion |
+| 1F  | **Hyperbole**    | Exaggeration, including "absurd extension" of an opponent's claim (p. 78) | "Oh, so you're against pornography. You must be against freedom of speech." |
+| 1G  | **Straw man**    | Refuting a weak version of the opponent's view (p. 79) | Johnson kicking the stone to "refute" Berkeley |
 
 Kreeft separates absurd extension (1F) from a legitimate *reductio ad absurdum*. A reductio shows that a premise really leads to something everyone knows is false, and it contains "no formal or material fallacy" (p. 79). Against the straw man he cites a medieval debating rule: state the opponent's idea in your own words, "to his satisfaction, before you go on to refute it" (p. 79).
 
@@ -49,15 +49,15 @@ See also [[Word-Concept Fallacy: Biblical Examples]], a close relative of 1A. It
 
 These seven "turn our attention away from the facts, from reality, to something else". In place of an *argumentum ad rem*, an argument to the point, they argue "ad" something else: the person, authority, threat, pity, shame, popularity or ignorance (p. 80).
 
-| | Fallacy | What goes wrong | Kreeft's example |
-|---|---|---|---|
-| 2A | **Ad hominem**, including poisoning the well, *tu quoque* and the genetic fallacy | Attacking the person instead of the issue (pp. 80–81) | The convicted thief who tells the judge, "If I'm a thief, you're a bigger one" |
-| 2B | **Ad verecundiam** | "The illegitimate appeal to authority, or the appeal to illegitimate authority" (p. 82) | "There must be something to astrology: my mother swears by it." |
-| 2C | **Ad baculum** | Appeal to force or fear in place of reason (p. 83) | "Before you answer, remember who pays your salary." |
-| 2D | **Ad misericordiam** | Pity used as "a substitute for argument" (p. 84) | The student who wants an A for having studied hard |
-| 2E | **Ad ignominiam** | Appeal to shame (p. 84) | Augustine stealing pears because "I was ashamed to be ashamed" |
-| 2F | **Ad populum** | Believing or doing something "only because it is popular" (p. 85), including snob appeal and the Big Lie | "Forty million Frenchmen can't be wrong." |
-| 2G | **Ad ignorantiam** | True because not shown false: "Nothing logically follows from nothing" (p. 86) | "He can't prove he earned that money, so he must have stolen it." |
+|     | Fallacy | What goes wrong | Kreeft's example |
+| --- | --- | --- | --- |
+| 2A  | **Ad hominem**, including poisoning the well, *tu quoque* and the genetic fallacy | Attacking the person instead of the issue (pp. 80–81) | The convicted thief who tells the judge, "If I'm a thief, you're a bigger one" |
+| 2B  | **Ad verecundiam** | "The illegitimate appeal to authority, or the appeal to illegitimate authority" (p. 82) | "There must be something to astrology: my mother swears by it." |
+| 2C  | **Ad baculum** | Appeal to force or fear in place of reason (p. 83) | "Before you answer, remember who pays your salary." |
+| 2D  | **Ad misericordiam** | Pity used as "a substitute for argument" (p. 84) | The student who wants an A for having studied hard |
+| 2E  | **Ad ignominiam** | Appeal to shame (p. 84) | Augustine stealing pears because "I was ashamed to be ashamed" |
+| 2F  | **Ad populum** | Believing or doing something "only because it is popular" (p. 85), including snob appeal and the Big Lie | "Forty million Frenchmen can't be wrong." |
+| 2G  | **Ad ignorantiam** | True because not shown false: "Nothing logically follows from nothing" (p. 86) | "He can't prove he earned that money, so he must have stolen it." |
 
 Kreeft calls the **genetic fallacy** "the most common form of ad hominem today". It confuses two senses of "because": a psychological cause of a belief and a logical reason for it (pp. 80–81). If Einstein had found relativity only to give Hitler the bomb, "that would not prove that E does not equal MC2". When each side of a gender argument says the other believes what it does "just because" of its sex, "the two suspicions cancel each other out" (p. 81). Two of the diversions are in his view not mistakes in themselves. "Appeal to authority is not in itself fallacious", since most of what we know comes to us second-hand (p. 82), and pity "is usually a good thing" (p. 84). He also notes that the opposite of the appeal to force, the appeal to desire ("It's true because I want it to be true"), has no technical name but is "perhaps the commonest fallacy of all" (p. 83).
 
@@ -65,15 +65,15 @@ See also [[The Ad Hominem Fallacy]], [[Tu Quoque Fallacy]] and [[The Consensus F
 
 ### 4. Family Three: Fallacies of Oversimplification
 
-| | Fallacy | What goes wrong | Kreeft's example |
-|---|---|---|---|
-| 3A | **Dicto simpliciter** | Applying a general rule to a special case without the needed qualification (p. 86) | "Man is a rational animal. Therefore even an idiot can pass a logic course." |
-| 3B | **Special case** | The reverse: from a special case to a general rule (p. 87) | "There are a lot of idiots who can't pass a logic course. Therefore man is not rational." |
-| 3C | **Composition** | From part to whole (p. 87) | Texas has the most millionaires, so it is the richest state |
-| 3D | **Division** | From whole to part (p. 88) | "Irishmen are scattered all over the world. Pat is an Irishman. Therefore Pat is scattered all over the world." |
-| 3E | **Black-and-white** | No middle ground between extremes (p. 89) | "Do you hate me?" "No." "How wonderful! You love me!" |
-| 3F | **Quoting out of context** | Ignoring the literary or real context (p. 90) | "Judas went and hanged himself" plus "Go and do thou likewise" |
-| 3G | **Stereotyping** | No room for the exception (p. 91) | "You're tall; you must play basketball." |
+|     | Fallacy                    | What goes wrong | Kreeft's example |
+| --- | -------------------------- | --- | --- |
+| 3A  | **Dicto simpliciter**      | Applying a general rule to a special case without the needed qualification (p. 86) | "Man is a rational animal. Therefore even an idiot can pass a logic course." |
+| 3B  | **Special case**           | The reverse: from a special case to a general rule (p. 87) | "There are a lot of idiots who can't pass a logic course. Therefore man is not rational." |
+| 3C  | **Composition**            | From part to whole (p. 87) | Texas has the most millionaires, so it is the richest state |
+| 3D  | **Division**               | From whole to part (p. 88) | "Irishmen are scattered all over the world. Pat is an Irishman. Therefore Pat is scattered all over the world." |
+| 3E  | **Black-and-white**        | No middle ground between extremes (p. 89) | "Do you hate me?" "No." "How wonderful! You love me!" |
+| 3F  | **Quoting out of context** | Ignoring the literary or real context (p. 90) | "Judas went and hanged himself" plus "Go and do thou likewise" |
+| 3G  | **Stereotyping**           | No room for the exception (p. 91) | "You're tall; you must play basketball." |
 
 Under 3B Kreeft explains the proverb "the exception proves the rule". It does not mean that an exception proves a rule true. It means that "the exception or special case presupposes the rule. If there is no rule, there can be no exceptions" (p. 87). Under 3F he gives the standard Protestant–Catholic example: setting Paul's "justified by faith" against James's "not by faith alone" ignores the two problems they were answering, legalism for Paul and antinomianism for James (p. 90). Under 3G he warns that "one of the most misused stereotypes in modern discourse is that of the stereotype", since every generalization now gets called one (p. 91).
 
@@ -83,15 +83,15 @@ See also [[Appeal to Generality]], a claim too sweeping to test, which is relate
 
 Kreeft calls these "fallacies of logical strategy", like bad military strategy. They are close to formal fallacies but still material. His test: "a computer could infallibly detect formal fallacies but not material fallacies" (p. 92).
 
-| | Fallacy | What goes wrong | Kreeft's example |
-|---|---|---|---|
-| 4A | **Non sequitur** | The conclusion simply does not follow; "the master fallacy of this group" (p. 92) | "I hate courthouses. Therefore you will lose your case in court today." |
-| 4B | **Ignoratio elenchi** | Reasons that prove a different conclusion; "missing the point" (p. 94) | Chamberlain: peace is better than war, so appease Hitler |
-| 4C | **Begging the question** | "Smuggling the conclusion back into the premises, usually under different words" (p. 94) | Molière's doctor: opium makes you sleep because of its "dormative virtue" |
-| 4D | **Complex question** | A question that cannot be answered without begging another (p. 95) | "Who made God?" assumes God was made |
-| 4E | **Arguing in a circle** | Using the conclusion to prove the premise that proved it (p. 95) | Chesterton: peasants are credulous because they see ghosts, and their ghosts are dismissed because peasants are credulous |
-| 4F | **Contradictory premises** | Usually "using reason to attack reason" (p. 97) | "There are absolutely no absolutes." |
-| 4G | **False assumption** | Like begging the question but "more covert"; the basis of many jokes (p. 99) | "That ain't my dog." |
+|     | Fallacy                    | What goes wrong | Kreeft's example |
+| --- | -------------------------- | --- | --- |
+| 4A  | **Non sequitur**           | The conclusion simply does not follow; "the master fallacy of this group" (p. 92) | "I hate courthouses. Therefore you will lose your case in court today." |
+| 4B  | **Ignoratio elenchi**      | Reasons that prove a different conclusion; "missing the point" (p. 94) | Chamberlain: peace is better than war, so appease Hitler |
+| 4C  | **Begging the question**   | "Smuggling the conclusion back into the premises, usually under different words" (p. 94) | Molière's doctor: opium makes you sleep because of its "dormative virtue" |
+| 4D  | **Complex question**       | A question that cannot be answered without begging another (p. 95) | "Who made God?" assumes God was made |
+| 4E  | **Arguing in a circle**    | Using the conclusion to prove the premise that proved it (p. 95) | Chesterton: peasants are credulous because they see ghosts, and their ghosts are dismissed because peasants are credulous |
+| 4F  | **Contradictory premises** | Usually "using reason to attack reason" (p. 97) | "There are absolutely no absolutes." |
+| 4G  | **False assumption**       | Like begging the question but "more covert"; the basis of many jokes (p. 99) | "That ain't my dog." |
 
 Kreeft's distinction in 4A is useful. "The sky is blue. The sea is blue. Therefore the sky is the sea" is a formal fallacy, because the form is invalid. "Grass is green. I feel depressed today. Therefore the grass is to blame" is a material non sequitur, because nothing in the content connects premises and conclusion (pp. 92–3). Two of his examples are open to dispute. He treats Descartes' *cogito* as begging the question, since "I think" already assumes the "I" (p. 94), and he cites Descartes' proof of God from clear and distinct ideas as a circle (p. 96).
 
@@ -99,15 +99,15 @@ See also [[A Circular Argument]] and [[The Fallacy of Circular Reasoning]] (4C, 
 
 ### 6. Family Five: Inductive Fallacies
 
-| | Fallacy | What goes wrong | Kreeft's example |
-|---|---|---|---|
-| 5A | **Hasty generalization** | Too few or unrepresentative examples; "a matter of degree and a common-sense 'judgment call'" (p. 100) | "All the swans we've ever seen were white" |
-| 5B | **Post hoc** | "After this, therefore because of this" (p. 100) | The lemon peel that keeps the alligators away: "See? It works." |
-| 5C | **Hypothesis contrary to fact** | The "if only" fallacy: "We cannot know what isn't, only what is" (p. 101) | The chain from Italian clocks to "the only reason we are not Nazis" |
-| 5D | **False analogy** | "Analogies do not prove anything", and this fallacy assumes they do (p. 102) | Mill's "visible / desirable" |
-| 5E | **Argument from silence** | Silence about *x* taken to show disbelief in *x*, or that there is no *x* (p. 103) | A writer never mentions her husband, so she was unmarried |
-| 5F | **Selective evidence** | Citing only the supporting data; "the most basic of all mistakes for a scientist" (p. 103) | Pessimists' and optimists' rival lists |
-| 5G | **Slanting the question** | Poll wording that fixes the answer (p. 104) | The two ways of asking about abortion |
+|     | Fallacy                         | What goes wrong | Kreeft's example |
+| --- | ------------------------------- | --- | --- |
+| 5A  | **Hasty generalization**        | Too few or unrepresentative examples; "a matter of degree and a common-sense 'judgment call'" (p. 100) | "All the swans we've ever seen were white" |
+| 5B  | **Post hoc**                    | "After this, therefore because of this" (p. 100) | The lemon peel that keeps the alligators away: "See? It works." |
+| 5C  | **Hypothesis contrary to fact** | The "if only" fallacy: "We cannot know what isn't, only what is" (p. 101) | The chain from Italian clocks to "the only reason we are not Nazis" |
+| 5D  | **False analogy**               | "Analogies do not prove anything", and this fallacy assumes they do (p. 102) | Mill's "visible / desirable" |
+| 5E  | **Argument from silence**       | Silence about *x* taken to show disbelief in *x*, or that there is no *x* (p. 103) | A writer never mentions her husband, so she was unmarried |
+| 5F  | **Selective evidence**          | Citing only the supporting data; "the most basic of all mistakes for a scientist" (p. 103) | Pessimists' and optimists' rival lists |
+| 5G  | **Slanting the question**       | Poll wording that fixes the answer (p. 104) | The two ways of asking about abortion |
 
 Under **post hoc**, Kreeft lists the alternatives to the first event being the cause: coincidence, a third cause of both, or the second event causing the first (p. 101). Under **false analogy**, he separates using an analogy that is not a real resemblance from using a real analogy falsely, by assuming that things alike in one way are alike in another. He also includes a deliberate false analogy from Scripture. Jesus' "It is not fair to take the children's bread and throw it to the dogs" was meant to test the Canaanite woman, and "he was pleased when she detected and refuted his fallacy by extending his analogy" (Matt. 15:21–28; pp. 102–3). Under **argument from silence**, he notes that the law already recognizes the fallacy: Thomas More's "silence betokeneth nothing", and the Fifth Amendment (p. 103).
 
@@ -117,15 +117,15 @@ See also [[Hasty Generalization Fallacy]] (5A).
 
 Kreeft says these "violate basic logical justice. The arguments may be formally valid, but they are used, or treated, wrongly". Textbooks seldom discuss them, and they "do not have technical titles" (p. 104). Hamblin's dialectical approach (section 13) would put this family at the centre.
 
-| | Fallacy | What goes wrong |
-|---|---|---|
-| 6A | **"Refuting" an argument by refuting its conclusion** | "All offense and no defense": setting up a counter-argument while leaving the original standing (pp. 104–5) |
-| 6B | **Assuming that refuting an argument refutes its conclusion** | "All defense and no offense": "There will always be some bad arguments for true conclusions" (p. 105) |
-| 6C | **Ignoring the argument** | Waiting your turn and then talking past it; Marx in the *Manifesto*; "When your point is weak, holler like hell" (p. 106) |
-| 6D | **Substituting explanations for proofs** | A proof "slammed the door shut"; an explanation only opens it (pp. 106–7) |
-| 6E | **Answering another argument than the one given** | Slaying "the wrong enemy" (p. 107) |
-| 6F | **Shifting the burden of proof** | Changing midway who must prove what (p. 108) |
-| 6G | **Winning the argument but losing the arguer, or vice versa** | "Good logic is an instrument of persuasion; it is only one ingredient in a larger interpersonal situation" (p. 108) |
+|     | Fallacy | What goes wrong |
+| --- | --- | --- |
+| 6A  | **"Refuting" an argument by refuting its conclusion** | "All offense and no defense": setting up a counter-argument while leaving the original standing (pp. 104–5) |
+| 6B  | **Assuming that refuting an argument refutes its conclusion** | "All defense and no offense": "There will always be some bad arguments for true conclusions" (p. 105) |
+| 6C  | **Ignoring the argument** | Waiting your turn and then talking past it; Marx in the *Manifesto*; "When your point is weak, holler like hell" (p. 106) |
+| 6D  | **Substituting explanations for proofs** | A proof "slammed the door shut"; an explanation only opens it (pp. 106–7) |
+| 6E  | **Answering another argument than the one given** | Slaying "the wrong enemy" (p. 107) |
+| 6F  | **Shifting the burden of proof** | Changing midway who must prove what (p. 108) |
+| 6G  | **Winning the argument but losing the arguer, or vice versa** | "Good logic is an instrument of persuasion; it is only one ingredient in a larger interpersonal situation" (p. 108) |
 
 Under 6A Kreeft discusses Kant's antinomies, where reason seems to prove both sides of a question. His reply: "two contradictory conclusions cannot both be true, therefore they cannot both be proved by perfectly good arguments", so at least one side must contain a mistake, usually an ambiguous term (p. 105). Under 6F he separates protocol from logic. In science an idea is "guilty until proved innocent". In conversation it is "innocent until proved guilty": if your aunt says the diner has the best apple pie, you do not say "Prove it" (p. 108). The burden becomes a matter of logic only when it is shifted silently partway through a debate, and who carries it should be "agreed on before argument proceeds" (p. 108). Under 6G his example is from *A Man for All Seasons*. Norfolk asks More to sign "for friendship's sake?", and More replies by asking whether, when More goes to Hell for disobeying his conscience, Norfolk will come with him "for friendship's sake" (p. 109).
 
@@ -135,15 +135,15 @@ See also [[Moving the Goalpost]] (6F, changing the standard of proof after it ha
 
 Most textbooks leave these out. Kreeft includes them because "metaphysics is at the root of the other divisions of philosophy" (p. 109).
 
-| | Fallacy | What goes wrong | Kreeft's example |
-|---|---|---|---|
-| 7A | **Reductionism, "nothing buttery"** | Reducing form to matter; "Whenever we hear the phrase 'nothing but,' a bell of suspicion should ring" (p. 109) | "In our world a star is only a big ball of gas." "Even in your world, that is not what a star is, only what it is made of." (Lewis) |
-| 7B | **Accident** | Treating the accidental as essential, or the essential as accidental (p. 110) | Racism, which treats race as if it were species |
-| 7C | **Quantity for quality** | Measuring what cannot be measured, or mystifying numbers (p. 111) | IQ tests as a measure of wisdom |
-| 7D | **Misplaced concreteness** | Treating an abstraction as a concrete thing (Whitehead's phrase) (p. 111) | "Telescopic philanthropy": loving Humanity, not people |
-| 7E | **Confusing logical, physical and psychological causes** | The confusion behind the genetic fallacy (p. 112, referring to p. 81) | See 2A |
-| 7F | **Existential fallacy** | Confusing essence and existence (p. 112) | Treating existence as a perfection in one version of the ontological argument |
-| 7G | **The natural for the common** | Mistaking what is usual for what belongs to a nature (p. 113) | Wanting property is natural; wanting more than we can use is only common |
+|     | Fallacy | What goes wrong | Kreeft's example |
+| --- | --- | --- | --- |
+| 7A  | **Reductionism, "nothing buttery"** | Reducing form to matter; "Whenever we hear the phrase 'nothing but,' a bell of suspicion should ring" (p. 109) | "In our world a star is only a big ball of gas." "Even in your world, that is not what a star is, only what it is made of." (Lewis) |
+| 7B  | **Accident** | Treating the accidental as essential, or the essential as accidental (p. 110) | Racism, which treats race as if it were species |
+| 7C  | **Quantity for quality** | Measuring what cannot be measured, or mystifying numbers (p. 111) | IQ tests as a measure of wisdom |
+| 7D  | **Misplaced concreteness** | Treating an abstraction as a concrete thing (Whitehead's phrase) (p. 111) | "Telescopic philanthropy": loving Humanity, not people |
+| 7E  | **Confusing logical, physical and psychological causes** | The confusion behind the genetic fallacy (p. 112, referring to p. 81) | See 2A |
+| 7F  | **Existential fallacy** | Confusing essence and existence (p. 112) | Treating existence as a perfection in one version of the ontological argument |
+| 7G  | **The natural for the common** | Mistaking what is usual for what belongs to a nature (p. 113) | Wanting property is natural; wanting more than we can use is only common |
 
 Kreeft's examples here reflect his Thomist commitments, and he admits some are contested. In a footnote he says that his two examples of misplaced concreteness, Plato's Forms and humanism's worship of "humanity", are "controversial, and some would defend these two examples as not fallacious at all" (p. 111 n.). He also observes that each era overrates what it is good at. Ancient thought tended to give numbers qualities, and modern thought tends to reduce qualities to numbers (p. 111).
 
@@ -152,7 +152,7 @@ Kreeft's examples here reflect his Thomist commitments, and he admits some are c
 Kreeft takes up formal fallacies later in the book, as "fallacies of logical form", meaning faults in "the relationship between, or arrangement of, terms and propositions" (p. 194). They are few and exact:
 
 | Rule broken | Fallacy | Kreeft's example |
-|---|---|---|
+| --- | --- | --- |
 | A syllogism has three and only three terms | **Four terms**, including **ambiguous middle** (p. 243) | "All power tends to corrupt" (Acton) + "Knowledge is power" (Bacon) → "knowledge tends to corrupt" |
 | The middle term must be distributed at least once | **Undistributed middle** (p. 243) | |
 | No term undistributed in a premise may be distributed in the conclusion | **Illicit major / illicit minor** (p. 243) | |
@@ -166,7 +166,7 @@ Kreeft points out that the two hypothetical fallacies are the same mistake: "the
 ### 10. Where This Notebook's Fallacy Notes Fit
 
 | Note | Kreeft's family |
-|---|---|
+| --- | --- |
 | [[Word-Concept Fallacy: Biblical Examples]] | 1, Language (beside 1A; also 5E when the argument is "the word never appears") |
 | [[The Ad Hominem Fallacy]] | 2A |
 | [[Tu Quoque Fallacy]] | 2A |

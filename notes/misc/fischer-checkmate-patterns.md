@@ -160,15 +160,15 @@ start: 59
 
 ## 7. The Patterns at a Glance
 
-| Pattern | What makes it work | Defence |
-|---|---|---|
-| Back-rank mate | King hemmed in by its own pawns; open file to the back rank | Luft; keep a piece guarding the back rank |
-| Counting power | More attackers than defenders of the mating square (only checking pieces count) | Add a defender; trade off an attacker |
-| Removing a defender | Capture or sacrifice takes off the back-rank guard first | Recapture with the right piece |
-| Drawing away | A check or threat forces a guard off its post | Don't let key defenders be lured away |
-| Driving the king | Checks force the king into the corner | Keep flight squares; don't walk into the corner |
-| Pawn-cover sacrifice | Queen takes pawn with check, the recapture is impossible or creates a pin, and a heavy piece reaches the file | Check every element; keep pieces near the king |
-| Sideways back-rank mate | The same pattern on an edge file | Same as the back-rank mate |
+| Pattern                 | What makes it work | Defence                                         |
+| ----------------------- | --- | ----------------------------------------------- |
+| Back-rank mate          | King hemmed in by its own pawns; open file to the back rank | Luft; keep a piece guarding the back rank       |
+| Counting power          | More attackers than defenders of the mating square (only checking pieces count) | Add a defender; trade off an attacker           |
+| Removing a defender     | Capture or sacrifice takes off the back-rank guard first | Recapture with the right piece                  |
+| Drawing away            | A check or threat forces a guard off its post | Don't let key defenders be lured away           |
+| Driving the king        | Checks force the king into the corner | Keep flight squares; don't walk into the corner |
+| Pawn-cover sacrifice    | Queen takes pawn with check, the recapture is impossible or creates a pin, and a heavy piece reaches the file | Check every element; keep pieces near the king  |
+| Sideways back-rank mate | The same pattern on an edge file | Same as the back-rank mate                      |
 
 ## 8. Assessment
 

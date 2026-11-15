@@ -17,7 +17,7 @@ The site already has the philosophy-of-science angle: [[Evolution Can Be Underst
 Not one way. Most read it on several levels at once.
 
 | Father | Approach |
-|---|---|
+| --- | --- |
 | **St. Basil**, *Hexaemeron* (c. 370) | mostly literal: real days, real kinds. Warns against allegorists who turn water into something else: "when I hear 'grass', I think of grass." But he isn't doing science: Genesis teaches what's useful for the soul, not cosmology |
 | **St. Gregory of Nyssa**, *On the Making of Man*, *Hexaemeron* | God created all things together in **potency** in one instant; they unfolded in order. The "days" mark a logical sequence of appearance |
 | **St. Augustine**, *On the Literal Meaning of Genesis* | creation was **instantaneous** (Sir 18:1, "he that liveth for ever created all things in general"); the six days are an order of angelic knowledge, not 24-hour periods. God placed **"seminal reasons"** (*rationes seminales*) in matter, which develop over time. Warns Christians not to talk nonsense about nature and make the faith look ridiculous to unbelievers |
@@ -49,22 +49,22 @@ This is the hard part for any Orthodox view of evolution.
 
 **Responses**
 
-| Response | Idea | Problem |
-|---|---|---|
-| **No death before the Fall** (Seraphim Rose) | reject evolution: creation was incorrupt until Adam; animals didn't die | conflicts with geology and the fossil record |
-| **Only human death** | Rom 5:12 means *human* death; animal death was always natural | Rom 8 speaks of the whole creation in bondage; and the Fathers (e.g. Basil) speak of animals as not carnivorous in Paradise (Gen 1:30) |
+| Response                                      | Idea | Problem |
+| --------------------------------------------- | --- | --- |
+| **No death before the Fall** (Seraphim Rose)  | reject evolution: creation was incorrupt until Adam; animals didn't die | conflicts with geology and the fossil record |
+| **Only human death**                          | Rom 5:12 means *human* death; animal death was always natural | Rom 8 speaks of the whole creation in bondage; and the Fathers (e.g. Basil) speak of animals as not carnivorous in Paradise (Gen 1:30) |
 | **Retroactive Fall** (Dembski, some Orthodox) | God, foreseeing the Fall, made the world as it would need to be for fallen man. The Fall's effects reach backward | can sound arbitrary |
-| **Fall out of time** | the Fall happened in a different mode of existence (paradise isn't in our history); the fallen world, *as we see it*, is entirely fallen, with its whole past | Maximus says Adam fell "at the moment he was created": creation and Fall are almost simultaneous for us. Harder to square with a historical Adam |
-| **Paradise as a place within** | the world outside was already mortal; Adam in paradise was protected and called to extend paradise outward (Gen 1:28, "subdue"), and failed | close to some Fathers' view of paradise as a special place (Gregory of Sinai, Ephrem); keeps Rom 8 as frustration of what creation *should have* become |
+| **Fall out of time**                          | the Fall happened in a different mode of existence (paradise isn't in our history); the fallen world, *as we see it*, is entirely fallen, with its whole past | Maximus says Adam fell "at the moment he was created": creation and Fall are almost simultaneous for us. Harder to square with a historical Adam |
+| **Paradise as a place within**                | the world outside was already mortal; Adam in paradise was protected and called to extend paradise outward (Gen 1:28, "subdue"), and failed | close to some Fathers' view of paradise as a special place (Gregory of Sinai, Ephrem); keeps Rom 8 as frustration of what creation *should have* become |
 
 See [[Death and Corruptibility as Privations of Life and the Ability to Sin]], [[The Fall of Humanity and Its Consequences]].
 
 ## 4. Modern Orthodox Positions
 
-| Position | Who | Summary |
-|---|---|---|
-| **Creationist** | Fr. Seraphim Rose, *Genesis, Creation and Early Man* | evolution is a philosophy (materialism, progress), not just science. The Fathers' consensus is literal and incompatible with it. Creation was incorrupt before Adam |
-| **Open / agnostic** | many bishops; the Church as such | no dogma on the mechanism; reject only materialist evolution (no God, no purpose) |
+| Position               | Who | Summary |
+| ---------------------- | --- | --- |
+| **Creationist**        | Fr. Seraphim Rose, *Genesis, Creation and Early Man* | evolution is a philosophy (materialism, progress), not just science. The Fathers' consensus is literal and incompatible with it. Creation was incorrupt before Adam |
+| **Open / agnostic**    | many bishops; the Church as such | no dogma on the mechanism; reject only materialist evolution (no God, no purpose) |
 | **Theistic evolution** | Theodosius Dobzhansky (an Orthodox Christian; "Nothing in biology makes sense except in the light of evolution"); Fr. Doru Costache; Gayle Woloschak | evolution is how God brought creatures into being; the *logoi* unfold through it. Man is set apart not by biology but by the image and God's call |
 
 - Rose's argument partly answers the "underdetermination" point: the same data, read through different metaphysics. See [[The Underdetermination of Data Thesis in the Context of Evolution]].

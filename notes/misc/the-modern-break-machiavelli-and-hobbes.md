@@ -111,14 +111,14 @@ Thomas Hobbes (1588–1679) translated Thucydides in 1629 to warn England agains
 
 ## 5. Comparison
 
-| question | **Classical (Plato, Aristotle)** | **Christian (Fathers)** | **Machiavelli** | **Hobbes** |
-|---|---|---|---|---|
-| starting point | how one ought to live | God, the Fall, grace | how men do live; the extreme case | the passions; fear of violent death |
-| the good | virtue, contemplation | communion with God | glory, the safety of the fatherland | no *summum bonum*; peace, self-preservation |
-| human nature | political animal | image of God, fallen | "ungrateful, fickle… eager for gain" | restless desire of power; equal and dangerous |
-| justice | natural, prior to the city | God's law written on the heart | rooted in crime, made by founders | made by covenant and the sword |
-| religion | civic piety and true theology | the truth itself | a useful instrument, "even if false" | fear of invisible power as allowed by the state |
-| the remedy | education in virtue | grace, repentance, the Church | the armed prophet; *virtù* against fortune | the Leviathan |
+| question       | **Classical (Plato, Aristotle)** | **Christian (Fathers)**        | **Machiavelli**                            | **Hobbes**                                      |
+| -------------- | -------------------------------- | ------------------------------ | ------------------------------------------ | ----------------------------------------------- |
+| starting point | how one ought to live            | God, the Fall, grace           | how men do live; the extreme case          | the passions; fear of violent death             |
+| the good       | virtue, contemplation            | communion with God             | glory, the safety of the fatherland        | no *summum bonum*; peace, self-preservation     |
+| human nature   | political animal                 | image of God, fallen           | "ungrateful, fickle… eager for gain"       | restless desire of power; equal and dangerous   |
+| justice        | natural, prior to the city       | God's law written on the heart | rooted in crime, made by founders          | made by covenant and the sword                  |
+| religion       | civic piety and true theology    | the truth itself               | a useful instrument, "even if false"       | fear of invisible power as allowed by the state |
+| the remedy     | education in virtue              | grace, repentance, the Church  | the armed prophet; *virtù* against fortune | the Leviathan                                   |
 
 ## 6. Assessment
 

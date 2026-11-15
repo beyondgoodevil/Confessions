@@ -156,15 +156,15 @@ The question that haunts the subject is the Other's ***Che vuoi?*** "What do you
 
 ## 7. Comparison
 
-| | **Girard / Oughourlian** | **Lacan** |
-|---|---|---|
-| desire comes from | a model whose desire I copy | the Other: language, the parents' discourse, the wish to be recognized |
+|                              | **Girard / Oughourlian** | **Lacan** |
+| ---------------------------- | --- | --- |
+| desire comes from            | a model whose desire I copy | the Other: language, the parents' discourse, the wish to be recognized |
 | what desire wants in the end | the model's **being** | to be the object of the Other's desire; the lost *objet a* |
-| the self | "interdividual", produced by relation | a split subject; the ego is a mirror image, a misrecognition |
-| rivalry and aggression | the core problem, which escalates into violence and scapegoating | built into the imaginary relation with one's counterpart |
-| the key myth | none; myths hide the mechanism, the Bible reveals it | Narcissus (mirror), Oedipus (Name-of-the-Father) |
-| the cure | conversion: renounce metaphysical desire, imitate a non-rival model (Christ) | "do not give ground on your desire"; analysis traverses the fantasy and separates the subject from the Other's demand |
-| attitude to Christianity | the Gospel is the truth about desire | psychoanalysis as a secular substitute; Christian ideas reread structurally |
+| the self                     | "interdividual", produced by relation | a split subject; the ego is a mirror image, a misrecognition |
+| rivalry and aggression       | the core problem, which escalates into violence and scapegoating | built into the imaginary relation with one's counterpart |
+| the key myth                 | none; myths hide the mechanism, the Bible reveals it | Narcissus (mirror), Oedipus (Name-of-the-Father) |
+| the cure                     | conversion: renounce metaphysical desire, imitate a non-rival model (Christ) | "do not give ground on your desire"; analysis traverses the fantasy and separates the subject from the Other's demand |
+| attitude to Christianity     | the Gospel is the truth about desire | psychoanalysis as a secular substitute; Christian ideas reread structurally |
 
 **What they share:**
 - desire is **not autonomous**;

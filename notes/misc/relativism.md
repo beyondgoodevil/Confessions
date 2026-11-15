@@ -11,11 +11,11 @@ Relativism is wrong because it undermines logic and truth itself. If all truths 
 
 ## Kinds of Relativism
 
-| Kind | Claim | Example |
-|---|---|---|
-| **truth** (alethic) | truth itself is relative to a person or culture | "true for you, not for me" |
-| **epistemic** | standards of justification vary, none better | "science is just the West's way of knowing" |
-| **moral** | right and wrong are relative to a culture or person | "who are we to judge?" |
+| Kind                       | Claim | Example |
+| -------------------------- | --- | --- |
+| **truth** (alethic)        | truth itself is relative to a person or culture | "true for you, not for me" |
+| **epistemic**              | standards of justification vary, none better | "science is just the West's way of knowing" |
+| **moral**                  | right and wrong are relative to a culture or person | "who are we to judge?" |
 | **cultural** (descriptive) | cultures do in fact differ in beliefs and values | anthropology. True, but a fact, not a theory of truth |
 
 Descriptive cultural relativism is just observation. The others are philosophical claims, and they don't follow from it.
@@ -40,7 +40,7 @@ Adler's definitions (*Ten Philosophical Mistakes* ch. 5) help keep the words str
 ## Arguments For, and Replies
 
 | Argument | Reply |
-|---|---|
+| --- | --- |
 | **Disagreement**: cultures disagree, so there's no fact of the matter | people disagree about the shape of the earth too. Disagreement doesn't show there's no truth. And the deep agreement (don't kill the innocent, keep faith, care for children) is greater than the surface differences (C. S. Lewis, *Abolition of Man*, appendix) |
 | **Tolerance**: relativism makes us tolerant | tolerance is a **universal** value; relativism can't support it. A relativist has no reason to object to intolerant cultures |
 | **Humility**: who are we to judge? | relativism doesn't make us humble; it makes reform impossible. Abolitionists, reformers and martyrs were "wrong" by their society's standards |

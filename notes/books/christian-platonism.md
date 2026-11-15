@@ -39,17 +39,17 @@ Not just Plato's dialogues but a family of convictions, roughly:
 
 ## 3. What They Changed
 
-| Platonist idea | Christian correction |
-|---|---|
-| the world is **eternal** (or matter is) | creation **out of nothing**, with a beginning. See [[Creation out of Nothing]] |
-| the **Forms** exist on their own | the Forms are **God's ideas** (Philo, Augustine), or the **logoi** in the Word (Maximus) |
-| the One **emanates** by necessity | God creates **freely**, by will |
-| the highest principle is **impersonal** | God is three **Persons**; the Trinity isn't a hierarchy of One, Mind, Soul. Nicaea against subordinationism |
+| Platonist idea                                | Christian correction |
+| --------------------------------------------- | --- |
+| the world is **eternal** (or matter is)       | creation **out of nothing**, with a beginning. See [[Creation out of Nothing]] |
+| the **Forms** exist on their own              | the Forms are **God's ideas** (Philo, Augustine), or the **logoi** in the Word (Maximus) |
+| the One **emanates** by necessity             | God creates **freely**, by will |
+| the highest principle is **impersonal**       | God is three **Persons**; the Trinity isn't a hierarchy of One, Mind, Soul. Nicaea against subordinationism |
 | the **soul pre-exists** and falls into a body | soul and body created together (Origen's pre-existence condemned 553) |
 | the body is a **prison**; salvation is escape | the body is good, will **rise**, and the Word **became flesh** |
-| **transmigration** | one life, one judgement |
-| union by **one's own** ascent | by **grace**, through Christ and the Church |
-| only philosophers ascend | the Gospel is for all, the simple included |
+| **transmigration**                            | one life, one judgement |
+| union by **one's own** ascent                 | by **grace**, through Christ and the Church |
+| only philosophers ascend                      | the Gospel is for all, the simple included |
 
 The **Incarnation** and **resurrection** are where Platonism had to break. "The Word was made flesh" was Augustine's point: the Platonists told him of the Word but not of His becoming flesh (*Confessions* VII.9). See [[Augustine's Confessions: Memory, Time and the Restless Heart]].
 

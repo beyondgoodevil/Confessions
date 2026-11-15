@@ -16,14 +16,14 @@ Background is in [[Logic Before Aristotle]].
 
 Probable order of writing (they follow others here, and admit nobody is sure):
 
-| Work | About |
-|---|---|
-| *Categories* | kinds of predicate / kinds of being |
-| *On Interpretation* | statements, affirmation and denial, opposition |
-| *Topics* I–VII | strategies for arguing either side of a question |
-| *Posterior Analytics* I | demonstration, scientific knowledge |
-| *Topics* VIII, *Sophistical Refutations* | conducting and exposing arguments |
-| *Prior Analytics*, *Posterior Analytics* II | the formal syllogistic |
+| Work                                        | About                                            |
+| ------------------------------------------- | ------------------------------------------------ |
+| *Categories*                                | kinds of predicate / kinds of being              |
+| *On Interpretation*                         | statements, affirmation and denial, opposition   |
+| *Topics* I–VII                              | strategies for arguing either side of a question |
+| *Posterior Analytics* I                     | demonstration, scientific knowledge              |
+| *Topics* VIII, *Sophistical Refutations*    | conducting and exposing arguments                |
+| *Prior Analytics*, *Posterior Analytics* II | the formal syllogistic                           |
 
 - "Topic" (*topos*) = a strategy or scheme of argument. Not "subject matter".
 - *Sophistical Refutations* may just be the last book of the *Topics*.
@@ -46,13 +46,13 @@ Definition (*Soph. Ref.* 165a; nearly the same in *Topics* and *Prior Analytics*
 
 So a syllogism here is not yet "two premises, three terms, a figure". It's a valid argument that meets extra conditions:
 
-| Condition | Rules out |
-|---|---|
-| Conclusion follows of necessity | invalid arguments |
+| Condition | Rules out                                 |
+| --- | ----------------------------------------- |
+| Conclusion follows of necessity | invalid arguments                         |
 | Conclusion is **other than** any premise | circular arguments (begging the question) |
-| Follows **through** the premises, all of them | idle / irrelevant premises |
-| More than one premise ("certain statements") | one-step immediate inferences |
-| Every line is a **proposition**: one thing said of one thing | compound statements, double questions |
+| Follows **through** the premises, all of them | idle / irrelevant premises                |
+| More than one premise ("certain statements") | one-step immediate inferences             |
+| Every line is a **proposition**: one thing said of one thing | compound statements, double questions     |
 
 Consequences I hadn't appreciated:
 
@@ -101,14 +101,14 @@ Two groups. Medieval labels: ***in dictione*** (dependent on language) and ***ex
 
 ### Dependent on language (6)
 
-| # | Name | What goes wrong | Example |
-|---|---|---|---|
-| 1 | **Equivocation** | one word, two meanings | The end of life is death. Happiness is the end of life. ∴ Happiness is death. |
-| 2 | **Amphiboly** | the *grammar* is ambiguous | Visiting relatives can be boring. Oscar is a visiting relative. ∴ Oscar can be boring. |
-| 3 | **Combination** | words taken together that should be apart | "Socrates can walk while sitting" (= can walk-and-sit at once: false) |
-| 4 | **Division** | words taken apart that should be together | same sentence the other way (= while sitting, has the power to walk: true) |
-| 5 | **Accent** | meaning shifts with pronunciation / accent mark | his example is an emended line of Homer |
-| 6 | **Form of expression** | similar-looking words treated as the same kind | "flourishing" looks like "cutting" but one is a state, the other an action |
+| #   | Name                   | What goes wrong                                 | Example |
+| --- | ---------------------- | ----------------------------------------------- | --- |
+| 1   | **Equivocation**       | one word, two meanings                          | The end of life is death. Happiness is the end of life. ∴ Happiness is death. |
+| 2   | **Amphiboly**          | the *grammar* is ambiguous                      | Visiting relatives can be boring. Oscar is a visiting relative. ∴ Oscar can be boring. |
+| 3   | **Combination**        | words taken together that should be apart       | "Socrates can walk while sitting" (= can walk-and-sit at once: false) |
+| 4   | **Division**           | words taken apart that should be together       | same sentence the other way (= while sitting, has the power to walk: true) |
+| 5   | **Accent**             | meaning shifts with pronunciation / accent mark | his example is an emended line of Homer |
+| 6   | **Form of expression** | similar-looking words treated as the same kind  | "flourishing" looks like "cutting" but one is a state, the other an action |
 
 - Equivocation rewritten without the ambiguity has **four terms**, so it's not a syllogism.
 - Modern "composition and division" (every player is excellent ∴ the team is excellent) is a *different* fallacy about parts and wholes that inherited the names of 3 and 4.
@@ -116,15 +116,15 @@ Two groups. Medieval labels: ***in dictione*** (dependent on language) and ***ex
 
 ### Outside language (7)
 
-| # | Name | What goes wrong | Modern descendant |
-|---|---|---|---|
-| 7 | **Accident** | treating what's true of a thing as true of its attribute, or mixing the "is" of predication with the "is" of identity | (obscure; the modern "accident" is different) |
-| 8 | ***Secundum quid*** | dropping a qualification: true "in a certain respect" taken as true without qualification | hasty generalisation |
-| 9 | ***Ignoratio elenchi*** | "ignorance of refutation": proving something other than the contradictory of the thesis | missing the point, straw man, red herring |
-| 10 | **Consequent** | thinking an if-then converts | affirming the consequent |
-| 11 | **Non-cause as cause** | a premise that does no work is blamed for the absurd result | (in the *Rhetoric*: *post hoc ergo propter hoc*) |
-| 12 | **Begging the question** | assuming what's to be proved | circular reasoning |
-| 13 | **Many questions** | two questions asked as one | loaded / complex question |
+| #   | Name                     | What goes wrong | Modern descendant                                |
+| --- | ------------------------ | --- | ------------------------------------------------ |
+| 7   | **Accident**             | treating what's true of a thing as true of its attribute, or mixing the "is" of predication with the "is" of identity | (obscure; the modern "accident" is different)    |
+| 8   | ***Secundum quid***      | dropping a qualification: true "in a certain respect" taken as true without qualification | hasty generalisation                             |
+| 9   | ***Ignoratio elenchi***  | "ignorance of refutation": proving something other than the contradictory of the thesis | missing the point, straw man, red herring        |
+| 10  | **Consequent**           | thinking an if-then converts | affirming the consequent                         |
+| 11  | **Non-cause as cause**   | a premise that does no work is blamed for the absurd result | (in the *Rhetoric*: *post hoc ergo propter hoc*) |
+| 12  | **Begging the question** | assuming what's to be proved | circular reasoning                               |
+| 13  | **Many questions**       | two questions asked as one | loaded / complex question                        |
 
 Notes:
 
@@ -138,13 +138,13 @@ Notes:
 
 ### Sorted by what they violate
 
-| Violates | Fallacies |
-|---|---|
-| validity | 1–6 (once disambiguated), 7, 8, 10 |
-| "conclusion other than premises" | 12 |
-| "through the premises" (relevance) | 11 |
-| "one thing of one thing" | 13 |
-| contradicting *the thesis* | 9 |
+| Violates                           | Fallacies                          |
+| ---------------------------------- | ---------------------------------- |
+| validity                           | 1–6 (once disambiguated), 7, 8, 10 |
+| "conclusion other than premises"   | 12                                 |
+| "through the premises" (relevance) | 11                                 |
+| "one thing of one thing"           | 13                                 |
+| contradicting *the thesis*         | 9                                  |
 
 Only about half are invalid in the modern sense. The others are valid arguments that fail to be syllogisms or fail to be refutations.
 

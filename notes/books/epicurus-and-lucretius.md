@@ -108,10 +108,10 @@ The "four-part cure" (Philodemus's summary):
 
 **Classification of desires**
 
-| Kind | Example | Policy |
-|---|---|---|
-| natural and necessary | food, shelter, friendship | satisfy: easy |
-| natural but not necessary | fancy food, sex | allowed, not pursued |
+| Kind                                  | Example                          | Policy                           |
+| ------------------------------------- | -------------------------------- | -------------------------------- |
+| natural and necessary                 | food, shelter, friendship        | satisfy: easy                    |
+| natural but not necessary             | fancy food, sex                  | allowed, not pursued             |
 | neither natural nor necessary (empty) | fame, power, wealth, immortality | eliminate: limitless and painful |
 
 - Virtue is valued because it produces pleasure: you can't live pleasantly without living wisely, honourably and justly.

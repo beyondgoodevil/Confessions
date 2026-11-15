@@ -24,12 +24,12 @@ N. = Nietzsche, BT = *Birth of Tragedy* (section). For N.'s Greeks more generall
 
 ## 2. Four Responses (Young)
 
-| response | example | how it works |
-|---|---|---|
-| **none** | the age of the Titans before Homer, when Silenus's wisdom was "popular philosophy" | it doesn't |
+| response       | example | how it works |
+| -------------- | --- | --- |
+| **none**       | the age of the Titans before Homer, when Silenus's wisdom was "popular philosophy" | it doesn't |
 | **Apollonian** | Homer, the Olympian gods | "joy in appearances": the world glorified |
-| **Dionysian** | Aeschylus and Sophocles | "metaphysical comfort": joy *behind* appearances |
-| **Socratic** | Socrates, Euripides, modern science | faith that reason can understand and **correct** existence |
+| **Dionysian**  | Aeschylus and Sophocles | "metaphysical comfort": joy *behind* appearances |
+| **Socratic**   | Socrates, Euripides, modern science | faith that reason can understand and **correct** existence |
 
 **Young's provocative claim** (following Geuss): the young N. agrees with Schopenhauer that life is **not** worth living. All three, Apollonian, Dionysian and Socratic, are "illusions" by which the Will tricks us into going on living (BT 18). Note the shift:
 - "only as an aesthetic phenomenon is existence and the world eternally **justified**" (BT 5)

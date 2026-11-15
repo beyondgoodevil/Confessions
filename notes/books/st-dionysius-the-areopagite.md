@@ -27,13 +27,13 @@ Does the dating matter for Orthodox use? The Church received the writings by the
 
 ## 2. The Corpus
 
-| Work | About |
-|---|---|
-| ***Divine Names*** | what the names of God in Scripture mean, and how they fall short |
-| ***Mystical Theology*** | five short chapters: ascent beyond all names into the divine darkness |
-| ***Celestial Hierarchy*** | nine ranks of angels in three triads |
-| ***Ecclesiastical Hierarchy*** | the Church's sacraments and orders as a hierarchy |
-| **Ten letters** | to monks, clergy, bishops. Letter 9 on symbolic theology |
+| Work                                        | About |
+| ------------------------------------------- | --- |
+| ***Divine Names***                          | what the names of God in Scripture mean, and how they fall short |
+| ***Mystical Theology***                     | five short chapters: ascent beyond all names into the divine darkness |
+| ***Celestial Hierarchy***                   | nine ranks of angels in three triads |
+| ***Ecclesiastical Hierarchy***              | the Church's sacraments and orders as a hierarchy |
+| **Ten letters**                             | to monks, clergy, bishops. Letter 9 on symbolic theology |
 | *Theological Outlines*, *Symbolic Theology* | lost (or never existed), known only from his references |
 
 ## 3. The Divine Names
@@ -61,17 +61,17 @@ That second point matters. The structure is Neoplatonic, but the God is personal
 
 The word "hierarchy" is his coinage. It means a sacred order through which light is passed on, not a chain of command.
 
-| Celestial (3 × 3) | |
-|---|---|
-| Highest | seraphim, cherubim, thrones |
-| Middle | dominions, powers, authorities |
-| Lowest | principalities, archangels, angels |
+| Celestial (3 × 3) |                                    |
+| ----------------- | ---------------------------------- |
+| Highest           | seraphim, cherubim, thrones        |
+| Middle            | dominions, powers, authorities     |
+| Lowest            | principalities, archangels, angels |
 
-| Ecclesiastical | Initiators | Initiated |
-|---|---|---|
-| perfecting | bishops (hierarchs) | monks |
-| illuminating | priests | holy people (laity) |
-| purifying | deacons | catechumens, penitents, possessed |
+| Ecclesiastical | Initiators          | Initiated                         |
+| -------------- | ------------------- | --------------------------------- |
+| perfecting     | bishops (hierarchs) | monks                             |
+| illuminating   | priests             | holy people (laity)               |
+| purifying      | deacons             | catechumens, penitents, possessed |
 
 - Each rank receives from the one above and passes on to the one below.
 - The three functions: **purify, illumine, perfect**. Same as the three stages of [[Theosis: Becoming by Grace What God Is by Nature]].
@@ -80,11 +80,11 @@ The word "hierarchy" is his coinage. It means a sacred order through which light
 
 ## 6. Saying and Unsaying
 
-| | Kataphatic | Apophatic |
-|---|---|---|
-| Does | affirms names of God | denies them |
-| Moves | downward, from highest names to lowest symbols | upward, from lowest denials to highest |
-| Example | God is good, wise, light | God is not good as we know good |
+|         | Kataphatic                                     | Apophatic                              |
+| ------- | ---------------------------------------------- | -------------------------------------- |
+| Does    | affirms names of God                           | denies them                            |
+| Moves   | downward, from highest names to lowest symbols | upward, from lowest denials to highest |
+| Example | God is good, wise, light                       | God is not good as we know good        |
 
 - Then **deny the denials too**. God is beyond both affirmation and negation. Otherwise "not-X" becomes the new idol.
 - **Symbolic theology**: Scripture calls God a rock, a worm, drunk, asleep. These "dissimilar similarities" are actually *safer* than noble images, because no one mistakes God for a worm.

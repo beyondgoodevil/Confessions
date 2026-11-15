@@ -114,14 +114,14 @@ Erich Auerbach (1892–1957) was a German Jewish philologist, removed from his M
 
 ## 7. Comparison
 
-| | **Homer** | **Genesis and the Gospels** | **Classical history (Tacitus)** | **Medieval figural art** | **Dante** |
-|---|---|---|---|---|---|
-| lighting | uniform foreground | relief and darkness | rhetorical clarity | sensory event and its meaning | intense individual realism |
-| style rule | high and low not yet separated | mixed: sublime in the low | strict separation | mixed (*sermo humilis*) | mixed, but with high *gravitas* |
-| truth claim | pleasure, no claim | absolute, "tyrannical" | moral judgement | universal history | divine judgement |
-| interpretation | analysable, not interpretable | demands interpretation | none needed | figural (vertical links) | figure fulfilled, then eclipsing |
-| character | fixed, no development | layered, developing | types of virtue and vice | everyman inside the one drama | fulfilled personality |
-| the humble | servants, idyllic | central: fishermen, servant girls | contempt for the mob | the faithful audience | all, in eternity |
+|                | **Homer**                      | **Genesis and the Gospels**       | **Classical history (Tacitus)** | **Medieval figural art**      | **Dante**                        |
+| -------------- | ------------------------------ | --------------------------------- | ------------------------------- | ----------------------------- | -------------------------------- |
+| lighting       | uniform foreground             | relief and darkness               | rhetorical clarity              | sensory event and its meaning | intense individual realism       |
+| style rule     | high and low not yet separated | mixed: sublime in the low         | strict separation               | mixed (*sermo humilis*)       | mixed, but with high *gravitas*  |
+| truth claim    | pleasure, no claim             | absolute, "tyrannical"            | moral judgement                 | universal history             | divine judgement                 |
+| interpretation | analysable, not interpretable  | demands interpretation            | none needed                     | figural (vertical links)      | figure fulfilled, then eclipsing |
+| character      | fixed, no development          | layered, developing               | types of virtue and vice        | everyman inside the one drama | fulfilled personality            |
+| the humble     | servants, idyllic              | central: fishermen, servant girls | contempt for the mob            | the faithful audience         | all, in eternity                 |
 
 ## 8. Assessment
 

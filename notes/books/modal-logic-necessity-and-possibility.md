@@ -12,11 +12,11 @@ Modal logic = arguments that turn on "necessary", "possible", "must", "can't". A
 
 ## 1. Box and Diamond
 
-| Symbol | Read | In possible-worlds talk |
-|---|---|---|
-| ◇A | it's possible that A | A is true in **some** possible world |
-| A | A | A is true in the **actual** world |
-| □A | it's necessary that A | A is true in **all** possible worlds |
+| Symbol | Read                  | In possible-worlds talk              |
+| ------ | --------------------- | ------------------------------------ |
+| ◇A     | it's possible that A  | A is true in **some** possible world |
+| A      | A                     | A is true in the **actual** world    |
+| □A     | it's necessary that A | A is true in **all** possible worlds |
 
 - Strength: □A is stronger than A, which is stronger than ◇A. So □A ∴ A ∴ ◇A, never backwards.
 - "Possible" here = **logically** possible, not self-contradictory. Running a mile in two minutes is physically impossible but logically possible.
@@ -30,14 +30,14 @@ They define each other:
 
 ## 2. Translations
 
-| English | Symbols |
-|---|---|
-| A is impossible | ¬◇A (or □¬A) |
-| A is consistent with B | ◇(A ∧ B) |
-| A entails B | □(A → B) |
-| A is inconsistent with B | ¬◇(A ∧ B) |
-| A is a contingent statement | ◇A ∧ ◇¬A |
-| A is a contingent truth | A ∧ ◇¬A |
+| English                     | Symbols      |
+| --------------------------- | ------------ |
+| A is impossible             | ¬◇A (or □¬A) |
+| A is consistent with B      | ◇(A ∧ B)     |
+| A entails B                 | □(A → B)     |
+| A is inconsistent with B    | ¬◇(A ∧ B)    |
+| A is a contingent statement | ◇A ∧ ◇¬A     |
+| A is a contingent truth     | A ∧ ◇¬A      |
 
 - Statements are necessary, impossible, or contingent. *Truths* are only necessary or contingent.
 - "Entails" is stronger than plain if-then. "Rain entails precipitation" holds in every world. "If it's Saturday I don't teach" just happens to be so.
@@ -46,12 +46,12 @@ They define each other:
 
 "If you're a bachelor, then you must be unmarried." Two readings:
 
-| | Box inside | Box outside |
-|---|---|---|
-| Symbols | B → □U | □(B → U) |
-| Says | given that you're a bachelor, "you're unmarried" is *in itself* necessary. Nobody could ever marry you | the *connection* is necessary: no world where you're a bachelor and married |
+|               | Box inside | Box outside |
+| ------------- | --- | --- |
+| Symbols       | B → □U | □(B → U) |
+| Says          | given that you're a bachelor, "you're unmarried" is *in itself* necessary. Nobody could ever marry you | the *connection* is necessary: no world where you're a bachelor and married |
 | Medieval name | necessity of the **consequent** | necessity of the **consequence** |
-| True? | false (and rude) | trivially true |
+| True?         | false (and rude) | trivially true |
 
 - English "if A then *must* B" nearly always *means* box-outside but *sounds* like box-inside.
 - Gensler: several "intriguing but fallacious philosophical arguments" depend on this.
@@ -81,12 +81,12 @@ Example, why □A ∴ ◇A is valid: assume ¬◇A, i.e. □¬A. Drop both boxes
 
 Logicians mostly agree on modal arguments until one modal operator sits inside another (□□A, ◇□A). Then it depends on how free you are with the drop-box rule. Gensler's picture is "galactic travel": dropping a diamond from world 1 into world 2 gives you a **ticket** 1 ⇒ 2, and the systems differ on how tickets can be used.
 
-| System | Drop a box into... | Extra thing it proves |
-|---|---|---|
-| **T** | a world you hold a direct ticket to | just □A → A |
-| **S4** | also via a chain of tickets | □A → □□A |
-| **B** | also backwards along a ticket | A → □◇A |
-| **S5** | any world from any world | all of the above, plus ◇A → □◇A |
+| System | Drop a box into...                  | Extra thing it proves           |
+| ------ | ----------------------------------- | ------------------------------- |
+| **T**  | a world you hold a direct ticket to | just □A → A                     |
+| **S4** | also via a chain of tickets         | □A → □□A                        |
+| **B**  | also backwards along a ticket       | A → □◇A                         |
+| **S5** | any world from any world            | all of the above, plus ◇A → □◇A |
 
 - T is weakest, S5 strongest. S4 and B are in between and neither contains the other.
 - S5 says: whatever is necessary anywhere is necessary everywhere, and whatever is possible is necessarily possible. Most philosophers use S5 for logical / metaphysical necessity.
@@ -116,12 +116,12 @@ Added from Sider's chapter in *Riddles of Existence* (ch. 9). The logic above te
 
 First, sort the senses of "possible":
 
-| Kind | "Must" means | Example |
-|---|---|---|
-| epistemic | for all I know | "It's possible they won; I don't follow it" |
-| moral (deontic) | required | "You must not murder" |
-| **natural** | given the laws of nature | a dropped stone must fall |
-| **absolute** | no matter what | bachelors must be unmarried |
+| Kind            | "Must" means             | Example                                     |
+| --------------- | ------------------------ | ------------------------------------------- |
+| epistemic       | for all I know           | "It's possible they won; I don't follow it" |
+| moral (deontic) | required                 | "You must not murder"                       |
+| **natural**     | given the laws of nature | a dropped stone must fall                   |
+| **absolute**    | no matter what           | bachelors must be unmarried                 |
 
 - Absolute possibility is the widest: breaking the laws of nature is absolutely possible (you can imagine the stone hovering). Absolute necessity is the narrowest.
 - Sider's "absolute" = what Gensler calls logical necessity, roughly. Others say "metaphysical".

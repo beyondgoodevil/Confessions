@@ -38,11 +38,11 @@ The chapter title is a question: "Development or Birth?" Moravcsik's answer is b
 
 Ordinary "true" had to be stripped down three ways:
 
-| Ordinary "true" | Logician's "true" |
-|---|---|
+| Ordinary "true" | Logician's "true"                                |
+| --- | ------------------------------------------------ |
 | evaluative: a *true* friend, a *true* diamond | no praise in it. A true sentence can be bad news |
-| comes in degrees: more or less genuine | all or nothing. No half-true |
-| relative to context and community (what counts as a table?) | context-free |
+| comes in degrees: more or less genuine | all or nothing. No half-true                     |
+| relative to context and community (what counts as a table?) | context-free                                     |
 
 - Plato's formula (*Sophist* 263b): the true sentence says of things that are, *as they are*. Not a definition, and Plato knows it.
 - Two attitudes to this stripping-down: Platonic "purification" (we'd say idealisation) vs the complaint that it throws away metaphor and richness. Moravcsik: you can't have both at once. Natural language picks one or the other depending on context.
@@ -67,10 +67,10 @@ Compare [[Deviant Logics]]: many-valued logic is in effect a proposal to put the
 
 Two Greek words show the climb from concrete to abstract:
 
-| Word | Starts as | Ends as |
-|---|---|---|
+| Word          | Starts as | Ends as                              |
+| ------------- | --- | ------------------------------------ |
 | *akolouthein* | following in a rank (soldiers), then one natural event following another, then obeying | one statement following from another |
-| *sumbainein* | "standing with feet together", then joining, agreeing | what necessarily results |
+| *sumbainein*  | "standing with feet together", then joining, agreeing | what necessarily results             |
 
 The idea carried along the whole way is **order**: things follow because of some rule.
 
@@ -115,11 +115,11 @@ On Heraclitus: Berry (in the Nietzsche notes) argues he *wasn't* a radical-flux 
 
 Moravcsik's appendix. Aristotle's logic is a **term logic**, so it depends on what "is" does in "S is P". What holds a sentence together so it's more than a list?
 
-| Who | Answer | |
-|---|---|---|
-| Plato | particulars **partake** in Forms | can't say what partaking is. Described negatively (*Parmenides* 131). In the *Sophist*, Being is like a vowel linking consonants |
+| Who       | Answer | |
+| --------- | --- | --- |
+| Plato     | particulars **partake** in Forms | can't say what partaking is. Described negatively (*Parmenides* 131). In the *Sophist*, Being is like a vowel linking consonants |
 | Aristotle | sentence is like a **syllable**: more than its letters, with no extra letter doing the joining (*Met.* Z 17) | metaphor, chosen to stop a regress |
-| Frege | predicate is a **function**, "unsaturated", completed by an argument | also a metaphor |
+| Frege     | predicate is a **function**, "unsaturated", completed by an argument | also a metaphor |
 
 "The jury is still out." So the foundations of the first logic rest on something nobody has explained. Connects to [[The Problem of Universals: Realism vs Nominalism]].
 

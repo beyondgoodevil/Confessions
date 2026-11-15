@@ -59,14 +59,14 @@ Note the last line. The story doesn't say the distinction is unreal. It says the
 
 Ziporyn lists the labels that have been aggressively argued: mystic, skeptic, monist, dualist, intuitionist, theist, agnostic, relativist, fatalist, nihilist, existentialist. All have some support in the text. The main lines:
 
-| Reading | Who | Claim |
-|---|---|---|
+| Reading                 | Who                              | Claim |
+| ----------------------- | -------------------------------- | --- |
 | **Therapeutic skeptic** | Kjellberg; Raphals; Schwitzgebel | Like Sextus Empiricus, he uses arguments to **unsettle**, not to prove that nothing can be known. Raphals: skeptical **method and attitude** but no self-refuting skeptical **thesis**. Schwitzgebel: the radical doubt is a kind of therapy that brings us to an "everyday skepticism", humility about our views. |
-| **Relativist** | Chad Hansen (SEP) | "Indexical relativism": each *dao* is right relative to a standpoint, as in physics a frame of reference. Nature offers many paths and picks none as *the* Dao. |
-| **Not a relativist** | Ivanhoe | He plainly recommends some ways of living over others, so he can't think all accounts equally good. The skepticism is "therapy" against self-aggrandisement, so that we fit as "things among things". |
-| **Anti-rationalist** | Graham | Not an *irrationalist*: the world is really there, and you must take it as it is. He denies only that **analytic reason** can show it. Two stages: (1) all principles for grounding conduct are groundless; (2) at the bottom remain spontaneity and **one imperative, "mirror things as they are"**. He distinguishes the fluid "'this' that goes by circumstances" (*yinshi*) from the rigid "'this' that deems" (*weishi*). |
-| **Nondual** | Loy | Read with Nāgārjuna: reason used to show the limits of reason, and "nonduality [as] the great dream which we awaken not from but to". |
-| **Genuine pretender** | Moeller & D'Ambrosio | Against the Confucian "regime of sincerity". The *zhenren* (genuine person) plays social roles without identifying with them. Humour, parody and tricksters are the method. |
+| **Relativist**          | Chad Hansen (SEP)                | "Indexical relativism": each *dao* is right relative to a standpoint, as in physics a frame of reference. Nature offers many paths and picks none as *the* Dao. |
+| **Not a relativist**    | Ivanhoe                          | He plainly recommends some ways of living over others, so he can't think all accounts equally good. The skepticism is "therapy" against self-aggrandisement, so that we fit as "things among things". |
+| **Anti-rationalist**    | Graham                           | Not an *irrationalist*: the world is really there, and you must take it as it is. He denies only that **analytic reason** can show it. Two stages: (1) all principles for grounding conduct are groundless; (2) at the bottom remain spontaneity and **one imperative, "mirror things as they are"**. He distinguishes the fluid "'this' that goes by circumstances" (*yinshi*) from the rigid "'this' that deems" (*weishi*). |
+| **Nondual**             | Loy                              | Read with Nāgārjuna: reason used to show the limits of reason, and "nonduality [as] the great dream which we awaken not from but to". |
+| **Genuine pretender**   | Moeller & D'Ambrosio             | Against the Confucian "regime of sincerity". The *zhenren* (genuine person) plays social roles without identifying with them. Humour, parody and tricksters are the method. |
 
 Graham's observation about mood is worth keeping: in Zhuangzi, as in Nietzsche, there is **no vertigo in the doubt**. Ethical skepticism only hurts if you must choose without grounds. Zhuangzi's ideal is not to need to choose.
 
@@ -100,14 +100,14 @@ Graham's observation about mood is worth keeping: in Zhuangzi, as in Nietzsche, 
 
 ## 10. Comparison
 
-| | Zhuangzi | Sextus Empiricus | Nāgārjuna | Christian (Fathers) |
-|---|---|---|---|---|
-| **Problem** | rival *daos*, anxious fixed judgments | dogmatic beliefs disturbing peace | clinging to "own-being" (*svabhāva*) | sin: the will turned from God; pride |
-| **Method** | stories, paradox, parody, "goblet words" | opposing arguments, *epochē* | reductio of every view | repentance, ascesis, the commandments |
-| **Goal** | free wandering, mirror-mind, skill | *ataraxia* | nirvana as emptiness | union with the personal God (theosis) |
-| **Ultimate** | the Course that is not a course; transformation | (none claimed) | emptiness, itself empty | the Trinity, beyond being but personal |
-| **Language** | can't fix the Way; "the Course spoken is not the Course" | appearances reported, not asserted | conventional truth only | apophatic and cataphatic; the Word made flesh |
-| **Death** | one more transformation; sing | (not a theme) | samsara to be ended | "the last enemy", defeated by Resurrection |
+|              | Zhuangzi | Sextus Empiricus                   | Nāgārjuna                            | Christian (Fathers)                           |
+| ------------ | --- | ---------------------------------- | ------------------------------------ | --------------------------------------------- |
+| **Problem**  | rival *daos*, anxious fixed judgments | dogmatic beliefs disturbing peace  | clinging to "own-being" (*svabhāva*) | sin: the will turned from God; pride          |
+| **Method**   | stories, paradox, parody, "goblet words" | opposing arguments, *epochē*       | reductio of every view               | repentance, ascesis, the commandments         |
+| **Goal**     | free wandering, mirror-mind, skill | *ataraxia*                         | nirvana as emptiness                 | union with the personal God (theosis)         |
+| **Ultimate** | the Course that is not a course; transformation | (none claimed)                     | emptiness, itself empty              | the Trinity, beyond being but personal        |
+| **Language** | can't fix the Way; "the Course spoken is not the Course" | appearances reported, not asserted | conventional truth only              | apophatic and cataphatic; the Word made flesh |
+| **Death**    | one more transformation; sing | (not a theme)                      | samsara to be ended                  | "the last enemy", defeated by Resurrection    |
 
 ## 11. Assessment
 

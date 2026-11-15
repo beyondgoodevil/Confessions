@@ -109,13 +109,13 @@ Malebranche's real target was concurrence, and Aquinas had already answered the 
 
 ## 7. Comparison
 
-| | **Aristotle / Scholastics** | **Malebranche** | **Hume** | **Orthodox (Damascene, Maximus, Palamas)** |
-|---|---|---|---|---|
-| do creatures act? | yes, by natures and powers | no; they are occasions | unknowable; we see only conjunction | yes: every nature has its own energy |
-| God's role | first cause, concurring | sole cause, by general laws | (no idea of power at all) | Creator who gives natures their energies and works with them |
-| what is "nature"? | an inner principle of motion | God's general will | habit of expectation | a *logos* in the Word, with its own energy |
-| how we know bodies | by abstraction from sense | by seeing their ideas in God | impressions and copies | the senses plus the *logoi* seen by the purified *nous* |
-| the danger he fears | — | idolatry of creatures | dogmatism | a God who works without a real creature (monoenergism) |
+|                     | **Aristotle / Scholastics**  | **Malebranche**              | **Hume**                            | **Orthodox (Damascene, Maximus, Palamas)** |
+| ------------------- | ---------------------------- | ---------------------------- | ----------------------------------- | --- |
+| do creatures act?   | yes, by natures and powers   | no; they are occasions       | unknowable; we see only conjunction | yes: every nature has its own energy |
+| God's role          | first cause, concurring      | sole cause, by general laws  | (no idea of power at all)           | Creator who gives natures their energies and works with them |
+| what is "nature"?   | an inner principle of motion | God's general will           | habit of expectation                | a *logos* in the Word, with its own energy |
+| how we know bodies  | by abstraction from sense    | by seeing their ideas in God | impressions and copies              | the senses plus the *logoi* seen by the purified *nous* |
+| the danger he fears | —                            | idolatry of creatures        | dogmatism                           | a God who works without a real creature (monoenergism) |
 
 ## 8. Assessment
 

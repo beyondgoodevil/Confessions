@@ -13,17 +13,17 @@ Written c. 397–400, when Augustine had become bishop of Hippo. The first autob
 
 ## Books I–IX: The Story
 
-| Book | Content |
-|---|---|
-| **I** | "**Thou hast made us for Thyself, and our heart is restless until it rest in Thee.**" Infancy: already sin (the baby jealous of its foster-brother at the breast). Schooling, Latin and Greek, weeping for Dido |
-| **II** | Age 16. **The pear theft**: stealing pears he didn't want, just for the sake of doing wrong with friends. Analysing why: love of evil itself, a perverse imitation of God's freedom |
-| **III** | Carthage: "I came to Carthage, where a cauldron of unholy loves sang all around me." Cicero's *Hortensius* turns him to love wisdom. Joins the **Manichees**: two principles, good and evil, God as a kind of material light |
-| **IV** | Teaching rhetoric. Living with a concubine (unnamed), a son, Adeodatus. **Death of a friend**: grief because he loved a mortal as if immortal. See [[Friendship and Love in Ancient and Medieval Thought]] |
-| **V** | Disillusioned with the Manichee bishop Faustus. To Rome, then **Milan**: hears **Ambrose** preach; allegorical reading of the OT removes his objections |
-| **VI** | Monica follows; his concubine sent away for an arranged marriage. "Give me chastity and continence, but not yet." |
-| **VII** | **The books of the Platonists** (Plotinus, Porphyry): God is immaterial; evil is privation, not a substance. A glimpse of God "in the flash of a trembling glance". But they didn't tell him that "**the Word was made flesh**". See [[Christian Platonism]] |
+| Book     | Content |
+| -------- | --- |
+| **I**    | "**Thou hast made us for Thyself, and our heart is restless until it rest in Thee.**" Infancy: already sin (the baby jealous of its foster-brother at the breast). Schooling, Latin and Greek, weeping for Dido |
+| **II**   | Age 16. **The pear theft**: stealing pears he didn't want, just for the sake of doing wrong with friends. Analysing why: love of evil itself, a perverse imitation of God's freedom |
+| **III**  | Carthage: "I came to Carthage, where a cauldron of unholy loves sang all around me." Cicero's *Hortensius* turns him to love wisdom. Joins the **Manichees**: two principles, good and evil, God as a kind of material light |
+| **IV**   | Teaching rhetoric. Living with a concubine (unnamed), a son, Adeodatus. **Death of a friend**: grief because he loved a mortal as if immortal. See [[Friendship and Love in Ancient and Medieval Thought]] |
+| **V**    | Disillusioned with the Manichee bishop Faustus. To Rome, then **Milan**: hears **Ambrose** preach; allegorical reading of the OT removes his objections |
+| **VI**   | Monica follows; his concubine sent away for an arranged marriage. "Give me chastity and continence, but not yet." |
+| **VII**  | **The books of the Platonists** (Plotinus, Porphyry): God is immaterial; evil is privation, not a substance. A glimpse of God "in the flash of a trembling glance". But they didn't tell him that "**the Word was made flesh**". See [[Christian Platonism]] |
 | **VIII** | **The garden in Milan**: torn between two wills. Hears a child's voice: "**tolle, lege**" (take up and read). Opens Paul: Rom 13:13-14, "put ye on the Lord Jesus Christ, and make not provision for the flesh". Converts. "The divided will" |
-| **IX** | Baptised by Ambrose (Easter 387). **The vision at Ostia** with Monica: together they rise in conversation beyond all creatures to Wisdom itself, touch it for an instant. Monica dies days later. Augustine's grief |
+| **IX**   | Baptised by Ambrose (Easter 387). **The vision at Ostia** with Monica: together they rise in conversation beyond all creatures to Wisdom itself, touch it for an instant. Monica dies days later. Augustine's grief |
 
 **Infancy, schooling and ambition**
 - "Since nothing that is could exist without You, You must in some way be in all that is: therefore also in me." (I)

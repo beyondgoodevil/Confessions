@@ -60,13 +60,13 @@ The most surprising passage is the last days in prison. A dream kept telling Soc
 
 Dannhauser sets out the two "world views" N. opposes:
 
-| | tragic view | theoretical (Socratic) view |
-|---|---|---|
-| the world | a chaos, a "contradiction in the heart of the world" | a cosmos, intelligible |
-| how we know | by making and taking part | by detachment, reason |
-| suffering | inevitable, to be affirmed and transfigured | the wound of existence can be healed |
-| the high | derived from the low and frail | independent, with power of its own |
-| existence | affirmed | judged and corrected |
+|             | tragic view | theoretical (Socratic) view          |
+| ----------- | --- | ------------------------------------ |
+| the world   | a chaos, a "contradiction in the heart of the world" | a cosmos, intelligible               |
+| how we know | by making and taking part | by detachment, reason                |
+| suffering   | inevitable, to be affirmed and transfigured | the wound of existence can be healed |
+| the high    | derived from the low and frail | independent, with power of its own   |
+| existence   | affirmed | judged and corrected                 |
 
 He also contrasts BT with Aristotle's *Poetics*, which N. treats as aesthetic Socratism in its purest form. Aristotle wants a hero who is "not preeminently virtuous" and falls by an error of judgement, which quietly implies that reason brings happiness. So "Nietzsche's tragic hero suffers because he is an individual, Aristotle's because he is not individual enough". For Aristotle the goal is catharsis, an end to suffering; for N. it is a "metaphysical solace" that affirms suffering.
 
@@ -160,7 +160,7 @@ The next sections widen the attack from the philosopher to philosophy: "reason" 
 Z never names Socrates, but Dannhauser reads Zarathustra as an anti-Socrates as much as an Antichrist:
 
 | Socrates | Zarathustra |
-|---|---|
+| --- | --- |
 | never leaves Athens except on campaign (*Crito* 52b) | "many lands" and peoples; his only home is the "children's land" |
 | neither laughs nor weeps | laughs and weeps constantly |
 | always in public (Xenophon, *Memorabilia* I.1.10) | mostly alone or with his animals, and we see him asleep |

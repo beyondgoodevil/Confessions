@@ -142,14 +142,14 @@ Principe doesn't deny that alchemy had religious dimensions. They were simply no
 
 ## 8. Comparison
 
-| | **spiritual / psychological reading** (Atwood, Jung, Eliade) | **historical / chymical reading** (Principe, Newman) |
-|---|---|---|
-| what the texts describe | inner states projected or symbolized | laboratory processes in code |
-| why the strange language | the unconscious speaks in images; initiation secrecy | trade secrecy, Decknamen, dispersal; protecting economies and the unworthy |
-| the Stone | the Self; inner gold | a real (hoped-for) transmuting agent |
-| relation to chemistry | opposite; chemistry is "merely physical" | continuous; much of chemistry was made by alchemists |
+|                           | **spiritual / psychological reading** (Atwood, Jung, Eliade) | **historical / chymical reading** (Principe, Newman) |
+| ------------------------- | --- | --- |
+| what the texts describe   | inner states projected or symbolized | laboratory processes in code |
+| why the strange language  | the unconscious speaks in images; initiation secrecy | trade secrecy, Decknamen, dispersal; protecting economies and the unworthy |
+| the Stone                 | the Self; inner gold | a real (hoped-for) transmuting agent |
+| relation to chemistry     | opposite; chemistry is "merely physical" | continuous; much of chemistry was made by alchemists |
 | where the idea comes from | Mesmerism, Victorian occultism, Jung's own séance research | the sources read with chemical knowledge and tested in the lab |
-| best evidence | the universality of the images; Pauli's dreams | replications that work; Newton's notebooks |
+| best evidence             | the universality of the images; Pauli's dreams | replications that work; Newton's notebooks |
 
 ## 9. Assessment
 

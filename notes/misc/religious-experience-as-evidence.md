@@ -62,12 +62,12 @@ Three defences:
 
 ## 4. Objections
 
-| Objection | Point | Reply |
-|---|---|---|
-| **Diversity** | traditions report contradictory things: a personal God, an impersonal Absolute, nothingness | conflicting eyewitnesses don't show nothing happened; and a practice can be reliable on its core even with errors at the edges (Alston). Hick: one Reality experienced differently. (Then at least some are wrong about it) |
-| **No public checks** | you can't verify it by others looking | rational intuition (logic, maths) can't be checked that way either, and we trust it. And there *are* checks inside a tradition |
-| **Naturalistic explanation** | Freud (wish), Marx (economics), neuroscience (seizures, drugs, brain states) | every experience, including seeing a tree, has a neural correlate. Finding the brain activity doesn't show nothing was perceived. And these explanations usually assume what they set out to show |
-| **Hiddenness** | if God shows Himself, why to so few? | see below |
+| Objection                      | Point | Reply |
+| ------------------------------ | --- | --- |
+| **Diversity**                  | traditions report contradictory things: a personal God, an impersonal Absolute, nothingness | conflicting eyewitnesses don't show nothing happened; and a practice can be reliable on its core even with errors at the edges (Alston). Hick: one Reality experienced differently. (Then at least some are wrong about it) |
+| **No public checks**           | you can't verify it by others looking | rational intuition (logic, maths) can't be checked that way either, and we trust it. And there *are* checks inside a tradition |
+| **Naturalistic explanation**   | Freud (wish), Marx (economics), neuroscience (seizures, drugs, brain states) | every experience, including seeing a tree, has a neural correlate. Finding the brain activity doesn't show nothing was perceived. And these explanations usually assume what they set out to show |
+| **Hiddenness**                 | if God shows Himself, why to so few? | see below |
 | **Counter-induction** (Axtell) | holding your own tradition true when the same sources produce rivals is irrational | Alston/Plantinga: being inside a tradition gives you resources outsiders lack, like someone who has travelled |
 
 ## 5. Non-Perceptual Models

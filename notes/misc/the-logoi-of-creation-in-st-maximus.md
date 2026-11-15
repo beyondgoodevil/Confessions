@@ -35,9 +35,9 @@ Compare Plato's forms: see [[The Forms and the Demiurge]]. Same job (patterns of
 
 Two things to tell apart in any creature:
 
-| | | |
-|---|---|---|
-| **logos of nature** (*logos physeos*) | what it is | fixed by God, can't be corrupted |
+|                                            |                                       |                                     |
+| ------------------------------------------ | ------------------------------------- | ----------------------------------- |
+| **logos of nature** (*logos physeos*)      | what it is                            | fixed by God, can't be corrupted    |
 | **mode of existence** (*tropos hyparxeos*) | how it actually lives that nature out | can go with the logos or against it |
 
 - Sin doesn't change human nature. It's a wrong *mode*, living against your logos.

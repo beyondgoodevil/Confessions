@@ -79,12 +79,12 @@ The Septuagint was universally accepted in the Eastern Church, including books l
 
 ## 4. Modern Canonical Differences
 
-| Tradition | Old Testament | New Testament |
-|---|---|---|
-| **Eastern Orthodox** | 49 books (Septuagint) | 27 books |
-| **Roman Catholic** | 46 books (Deuterocanonical) | 27 books |
-| **Protestant** | 39 books (Hebrew Canon) | 27 books |
-| **Ethiopian Orthodox** | Over 50 OT books | 27 books + extras |
+| Tradition              | Old Testament               | New Testament     |
+| ---------------------- | --------------------------- | ----------------- |
+| **Eastern Orthodox**   | 49 books (Septuagint)       | 27 books          |
+| **Roman Catholic**     | 46 books (Deuterocanonical) | 27 books          |
+| **Protestant**         | 39 books (Hebrew Canon)     | 27 books          |
+| **Ethiopian Orthodox** | Over 50 OT books            | 27 books + extras |
 
 ## 5. The Gospel of Thomas and Non-Canonical Texts
 

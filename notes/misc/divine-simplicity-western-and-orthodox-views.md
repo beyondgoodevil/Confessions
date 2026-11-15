@@ -26,13 +26,13 @@ God is "uniquely unique". Not just the greatest thing, but different from everyt
 
 ## 2. Why Hold It
 
-| Motive | Argument |
-|---|---|
-| **Aseity** | if God had parts or properties distinct from Him, He'd depend on them. Then He isn't wholly from Himself |
-| **Necessity** | what's composed could be decomposed. Only what isn't composed exists necessarily |
-| **Euthyphro** | if God *is* goodness, there's no standard above Him and no arbitrary command. See [[The Euthyphro Dilemma and the Orthodox Answer]] |
-| **Other attributes** | immutability, eternity, immateriality all follow from having no parts and no potential |
-| **First cause** | every composite needs a cause of its composition; the first cause can't be composite. Feser's Neo-Platonic proof. See [[The Neo-Platonic Proof]] |
+| Motive                   | Argument |
+| ------------------------ | --- |
+| **Aseity**               | if God had parts or properties distinct from Him, He'd depend on them. Then He isn't wholly from Himself |
+| **Necessity**            | what's composed could be decomposed. Only what isn't composed exists necessarily |
+| **Euthyphro**            | if God *is* goodness, there's no standard above Him and no arbitrary command. See [[The Euthyphro Dilemma and the Orthodox Answer]] |
+| **Other attributes**     | immutability, eternity, immateriality all follow from having no parts and no potential |
+| **First cause**          | every composite needs a cause of its composition; the first cause can't be composite. Feser's Neo-Platonic proof. See [[The Neo-Platonic Proof]] |
 | **Trinity** (Athanasius) | the Son is the Father's own Wisdom and Word; since God is simple, He was never without them, so the Son is eternal |
 
 ## 3. Objections
@@ -67,15 +67,15 @@ No response to this is free of problems. See [[Thomism Leads to Eternal Creation
 
 ## 4. Replies
 
-| Reply | Who | Idea |
-|---|---|---|
-| **Wrong framework** | many | Plantinga assumes properties are abstract objects outside things. Classical defenders used a **constituent ontology**: a thing's nature is a concrete part of it, not an abstract property it relates to |
-| **Truthmaker** | Bergmann and Brower | "God is omniscient" has God Himself as its truthmaker. "God's omniscience" refers to God, not to a property. No identity with properties needed |
-| **Analogy** | Miller, Oppy | divine "perfections" aren't instances of the properties we have; "perfect" changes the meaning |
-| **Mystery** | Dolezal | simplicity and freedom are both true; how is beyond us. Critics: retreat into mystery |
-| **Wave-particle** | Stump | God is both *esse* and *id quod est*, the way light is both wave and particle |
-| **Creatures distinct from acts** | Greeley and others | against modal collapse: the act is necessary, its effects aren't |
-| **Give it up** | Plantinga, Hasker | the doctrine is incoherent; drop it, keep the God of Scripture |
+| Reply                            | Who                 | Idea |
+| -------------------------------- | ------------------- | --- |
+| **Wrong framework**              | many                | Plantinga assumes properties are abstract objects outside things. Classical defenders used a **constituent ontology**: a thing's nature is a concrete part of it, not an abstract property it relates to |
+| **Truthmaker**                   | Bergmann and Brower | "God is omniscient" has God Himself as its truthmaker. "God's omniscience" refers to God, not to a property. No identity with properties needed |
+| **Analogy**                      | Miller, Oppy        | divine "perfections" aren't instances of the properties we have; "perfect" changes the meaning |
+| **Mystery**                      | Dolezal             | simplicity and freedom are both true; how is beyond us. Critics: retreat into mystery |
+| **Wave-particle**                | Stump               | God is both *esse* and *id quod est*, the way light is both wave and particle |
+| **Creatures distinct from acts** | Greeley and others  | against modal collapse: the act is necessary, its effects aren't |
+| **Give it up**                   | Plantinga, Hasker   | the doctrine is incoherent; drop it, keep the God of Scripture |
 
 ## 5. Where That Leaves It
 
@@ -90,12 +90,12 @@ No response to this is free of problems. See [[Thomism Leads to Eternal Creation
 
 **Simple, but with real distinctions**
 
-| | ADS (Thomism) | Orthodox (Cappadocians, Palamas) |
-|---|---|---|
+|                        | ADS (Thomism) | Orthodox (Cappadocians, Palamas) |
+| ---------------------- | --- | --- |
 | Essence and attributes | identical; the distinctions are only in our concepts | the essence is distinct from the energies (goodness, wisdom, life) |
-| Energies | God's acts toward creation = His essence | uncreated, really distinct from the essence, really God |
-| Persons | distinguished by relations within one essence | the hypostases are distinct by their manner of existence, from the Father as source |
-| What "simple" means | no distinctions of any kind | **not composed**: distinctions without parts |
+| Energies               | God's acts toward creation = His essence | uncreated, really distinct from the essence, really God |
+| Persons                | distinguished by relations within one essence | the hypostases are distinct by their manner of existence, from the Father as source |
+| What "simple" means    | no distinctions of any kind | **not composed**: distinctions without parts |
 
 The key move: a **real distinction is not a composition**. The sun and its rays are distinct; the sun isn't assembled out of them. Three hypostases aren't three parts of God. Palamas says the energies don't make God composite. See [[Distinction Does Not Necessitate Separation, Division, or Composition]].
 

@@ -137,10 +137,10 @@ Chapter 7 begins: "A fallacy is a fallacious argument. Someone who merely makes 
 
 Hamblin sets out three sets of criteria for a good argument:
 
-| Criteria | What they require |
-|---|---|
-| **Alethic** (1)–(4) | Premisses true; conclusion implied; following reasonably immediately; unstated premisses omissible (pp. 234–5) |
-| **Epistemic** (E1)–(E5) | Premisses *known* to be true; the step clear; and (E5) the conclusion would be in doubt without the argument (pp. 236–8) |
+| Criteria                  | What they require |
+| ------------------------- | --- |
+| **Alethic** (1)–(4)       | Premisses true; conclusion implied; following reasonably immediately; unstated premisses omissible (pp. 234–5) |
+| **Epistemic** (E1)–(E5)   | Premisses *known* to be true; the step clear; and (E5) the conclusion would be in doubt without the argument (pp. 236–8) |
 | **Dialectical** (D1)–(D5) | "The premisses must be accepted"; the passage "of an accepted kind"; and (D5) "in the absence of the argument, it would not be accepted" (p. 245) |
 
 The alethic criteria are not enough, because true premisses that nobody knows persuade no one. The epistemic criteria are too strong, because everyday argument works from what is accepted, not from what is known. That leads to the dialectical criteria, relative to a particular hearer: "We are, in fact, talking about the class of arguments that Aristotle called dialectical, and that Locke called ad hominem" (p. 241).

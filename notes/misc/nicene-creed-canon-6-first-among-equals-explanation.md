@@ -42,7 +42,7 @@ This canon set the precedent for how authority was distributed among the early b
 ## Objections and Replies
 
 | Catholic reading | Orthodox reply |
-|---|---|
+| --- | --- |
 | "since the like is customary for Rome" means Alexandria's authority is modelled on Rome's, which is greater | the canon treats Rome's position as one **custom** among others, a parallel, not a source |
 | the canon is about **regional** matters and doesn't address universal primacy at all | true, which is why it can't be used for universal jurisdiction either; and the Church's structure in it is regional |
 | **Ignatius** (to the Romans): Rome "presides in love" | presiding in **love** (*agape*, perhaps the whole community) is not jurisdiction |

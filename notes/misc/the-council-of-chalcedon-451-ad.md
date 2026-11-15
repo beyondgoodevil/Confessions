@@ -38,12 +38,12 @@ This council was convened to address controversies surrounding the teachings of 
 
 The core (paraphrased): one and the same Christ, Son, Lord, Only-begotten, **acknowledged in two natures**:
 
-| Adverb | Greek | Rules out |
-|---|---|---|
-| **without confusion** | *asynchytōs* | Eutyches (mixing) |
-| **without change** | *atreptōs* | Eutyches (one turned into the other) |
-| **without division** | *adiairetōs* | Nestorius (two subjects) |
-| **without separation** | *achōristōs* | Nestorius |
+| Adverb                 | Greek        | Rules out                            |
+| ---------------------- | ------------ | ------------------------------------ |
+| **without confusion**  | *asynchytōs* | Eutyches (mixing)                    |
+| **without change**     | *atreptōs*   | Eutyches (one turned into the other) |
+| **without division**   | *adiairetōs* | Nestorius (two subjects)             |
+| **without separation** | *achōristōs* | Nestorius                            |
 
 - "the difference of the natures being in no way removed because of the union, but rather the property of each nature being preserved, and **concurring into one prosopon and one hypostasis**".
 - Christ is **consubstantial with the Father** in divinity, and **consubstantial with us** in humanity, "like us in all things except sin" (Heb 4:15).

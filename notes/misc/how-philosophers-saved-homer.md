@@ -105,13 +105,13 @@ The Fathers used the same tools, and some of the same images:
 
 **But the Church drew a line between allegory and typology:**
 
-| | **Neoplatonist allegory of Homer** | **Christian typology of Scripture** |
-|---|---|---|
-| the text's literal sense | often an embarrassment to be escaped ("if he meant nothing allegorically he was impious") | true history, which God himself shaped to point forward |
-| what it points to | timeless metaphysics (the soul's descent and ascent, the hypostases) | a **person and events**: Christ, his death and resurrection, the Church |
+|                                | **Neoplatonist allegory of Homer** | **Christian typology of Scripture** |
+| ------------------------------ | --- | --- |
+| the text's literal sense       | often an embarrassment to be escaped ("if he meant nothing allegorically he was impious") | true history, which God himself shaped to point forward |
+| what it points to              | timeless metaphysics (the soul's descent and ascent, the hypostases) | a **person and events**: Christ, his death and resurrection, the Church |
 | who authors the second meaning | the poet's hidden wisdom, or the reader's ingenuity | God, the Lord of history, who "spake by the prophets" |
-| the end | the soul's flight from matter and the body | the transfiguration of creation and resurrection of the body |
-| control | the school tradition | the Church's rule of faith and liturgy |
+| the end                        | the soul's flight from matter and the body | the transfiguration of creation and resurrection of the body |
+| control                        | the school tradition | the Church's rule of faith and liturgy |
 
 - **The Antiochenes** (Diodore, Theodore, Chrysostom) criticized Alexandrian allegory for dissolving history. They insisted on ***theōria*** grounded in the literal sense.
 - Paul's own "which things are an allegory" (Gal 4:24) concerns real persons, Sarah and Hagar, whose history God made to signify.

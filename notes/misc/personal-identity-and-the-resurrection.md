@@ -10,15 +10,15 @@ summary: What makes you the same person over time? The psychological view (Locke
 
 ## 1. Several Questions, Not One
 
-| Question | Asks |
-|---|---|
+| Question                         | Asks |
+| -------------------------------- | --- |
 | **Who am I?** (characterisation) | what traits make up "my identity" in the everyday sense. Not this note |
-| **Personhood** | what is a person? Locke: "a thinking intelligent being, that has reason and reflection, and can consider itself as itself, the same thinking thing, in different times and places" |
-| **Persistence** | what makes a past or future being *numerically the same* as you? |
-| **Evidence** | how do we tell? memory, bodily continuity |
-| **Population** | how many people are here? (split brains, multiple personality) |
-| **What am I?** (ontology) | an animal? a brain? a soul? a bundle of experiences? |
-| **What matters** | is identity even what we care about in survival? |
+| **Personhood**                   | what is a person? Locke: "a thinking intelligent being, that has reason and reflection, and can consider itself as itself, the same thinking thing, in different times and places" |
+| **Persistence**                  | what makes a past or future being *numerically the same* as you? |
+| **Evidence**                     | how do we tell? memory, bodily continuity |
+| **Population**                   | how many people are here? (split brains, multiple personality) |
+| **What am I?** (ontology)        | an animal? a brain? a soul? a bundle of experiences? |
+| **What matters**                 | is identity even what we care about in survival? |
 
 Persistence is about **numerical** identity (one and the same), not **qualitative** (exactly alike). See [[Identity and Leibniz's Law]].
 
@@ -80,13 +80,13 @@ Repairs:
 
 **How each view does**
 
-| View | Resurrection |
-|---|---|
-| **Psychological** | easy to state (God restores my psychology) but **duplication** problem: God could make two such beings; which is me? If neither, I'm not raised |
-| **Animalist** | the organism dies and decays. Gap. Van Inwagen once suggested God secretly preserves the corpse and leaves a simulacrum. Others: "body-snatching" by a fission at death. Both look desperate |
+| View                      | Resurrection |
+| ------------------------- | --- |
+| **Psychological**         | easy to state (God restores my psychology) but **duplication** problem: God could make two such beings; which is me? If neither, I'm not raised |
+| **Animalist**             | the organism dies and decays. Gap. Van Inwagen once suggested God secretly preserves the corpse and leaves a simulacrum. Others: "body-snatching" by a fission at death. Both look desperate |
 | **Simple view + dualism** | the soul continues between death and resurrection and carries identity. God gives it its body back. Coherent, but needs a soul |
-| **Temporal parts** | a worm with a gap in it. Depends what links the stages across the gap |
-| **Parfit** | "it doesn't matter whether it's you" isn't the Christian hope |
+| **Temporal parts**        | a worm with a gap in it. Depends what links the stages across the gap |
+| **Parfit**                | "it doesn't matter whether it's you" isn't the Christian hope |
 
 **The Fathers**
 

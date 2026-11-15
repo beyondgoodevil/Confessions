@@ -91,17 +91,17 @@ And it includes the **Trinity**: to the Son, as "Son of God" (so the Father), in
 
 ## 4. Vocabulary
 
-| Term | Meaning |
-|---|---|
-| *hesychia* | stillness, inner quiet |
-| *nepsis* | watchfulness, sobriety, guarding the heart |
-| *nous* | spiritual intellect, "eye of the soul" (not discursive reason) |
-| *logismoi* | intrusive thoughts / suggestions |
+| Term                | Meaning |
+| ------------------- | --- |
+| *hesychia*          | stillness, inner quiet |
+| *nepsis*            | watchfulness, sobriety, guarding the heart |
+| *nous*              | spiritual intellect, "eye of the soul" (not discursive reason) |
+| *logismoi*          | intrusive thoughts / suggestions |
 | prayer of the heart | the nous "descends into the heart" and prays there |
-| *umilenie* | "warm tenderness of heart", a Russian word that resists translation |
-| *theoria* | vision / contemplation of God |
-| *theosis* | deification, sharing God's life by grace |
-| *prelest* | spiritual delusion |
+| *umilenie*          | "warm tenderness of heart", a Russian word that resists translation |
+| *theoria*           | vision / contemplation of God |
+| *theosis*           | deification, sharing God's life by grace |
+| *prelest*           | spiritual delusion |
 
 ## 5. Three Stages
 

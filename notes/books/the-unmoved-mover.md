@@ -71,11 +71,11 @@ Added from Feser, *Five Proofs of the Existence of God* (2017), ch. 1, "The Aris
 
 The distinction that carries it:
 
-| | Linear series (*per accidens*) | Hierarchical series (*per se*) |
-|---|---|---|
-| Example | father begets son begets grandson | hand moves stick moves stone; cup held by table held by floor held by earth... |
-| Earlier members | can be gone | must all be acting now |
-| Power | each has its own | later ones only pass on what the first gives |
+|                     | Linear series (*per accidens*) | Hierarchical series (*per se*) |
+| ------------------- | --- | --- |
+| Example             | father begets son begets grandson | hand moves stick moves stone; cup held by table held by floor held by earth... |
+| Earlier members     | can be gone | must all be acting now |
+| Power               | each has its own | later ones only pass on what the first gives |
 | Can it be infinite? | maybe (Aristotle and Aquinas both allow an eternal world) | no. Nothing to pass on without a source |
 
 So the proof is **not about a beginning of the universe**. It's about what keeps anything in being this instant. Feser says this is the commonest misreading. It also means "science says the universe might be eternal" doesn't touch it.
@@ -84,17 +84,17 @@ Not the same route as Aristotle's own, I think. Aristotle argues from eternal mo
 
 **Stage 2: the attributes.** From "purely actual" alone:
 
-| Attribute | Why |
-|---|---|
-| **One** | two would need something to tell them apart, i.e. something one has and the other lacks, i.e. an unactualized potential |
-| **Immutable** | change needs potential |
-| **Eternal** | in time means changeable |
-| **Immaterial** | matter is changeable |
-| **Perfect** | imperfection = unrealised potential |
-| **Good** | badness is privation, a failure to be actual |
-| **Omnipotent** | all power to actualize anything derives from it |
+| Attribute       | Why |
+| --------------- | --- |
+| **One**         | two would need something to tell them apart, i.e. something one has and the other lacks, i.e. an unactualized potential |
+| **Immutable**   | change needs potential |
+| **Eternal**     | in time means changeable |
+| **Immaterial**  | matter is changeable |
+| **Perfect**     | imperfection = unrealised potential |
+| **Good**        | badness is privation, a failure to be actual |
+| **Omnipotent**  | all power to actualize anything derives from it |
 | **Intelligent** | what's in an effect is somehow in its cause (**proportionate causality**); the forms of things can't be in it materially, so they're in it the way forms are in a mind |
-| **Omniscient** | the forms of *all* things are in it |
+| **Omniscient**  | the forms of *all* things are in it |
 
 That's his answer in advance to "fine, a first cause, but why call it God?" (Pruss calls this the **Gap Problem**. See [[The Leibnizian Cosmological Argument]].)
 

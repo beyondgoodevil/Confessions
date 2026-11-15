@@ -13,12 +13,12 @@ The third volume of Plantinga's warrant trilogy. He doesn't argue that Christian
 
 ## Structure
 
-| Part | Chapters |
-|---|---|
-| **I. Is There a Question?** | 1. Kant; 2. Kaufman and Hick |
-| **II. What is the Question?** | 3. Justification and the Classical Picture; 4. Rationality; 5. Warrant and the Freud-and-Marx Complaint |
+| Part                                | Chapters |
+| ----------------------------------- | --- |
+| **I. Is There a Question?**         | 1. Kant; 2. Kaufman and Hick |
+| **II. What is the Question?**       | 3. Justification and the Classical Picture; 4. Rationality; 5. Warrant and the Freud-and-Marx Complaint |
 | **III. Warranted Christian Belief** | 6. Warranted Belief in God; 7. Sin and Its Cognitive Consequences; 8. The Extended Aquinas/Calvin Model; 9. The Testimonial Model; 10. Objections |
-| **IV. Defeaters?** | 11. Defeaters and Defeat; 12. Two Kinds of Scripture Scholarship; 13. Postmodernism and Pluralism; 14. Suffering and Evil |
+| **IV. Defeaters?**                  | 11. Defeaters and Defeat; 12. Two Kinds of Scripture Scholarship; 13. Postmodernism and Pluralism; 14. Suffering and Evil |
 
 ## 1. De Facto and De Jure
 
@@ -134,12 +134,12 @@ For full **Christian** belief (Trinity, Incarnation, Atonement), not just theism
 - A defeater can arise irrationally and still defeat (a cognitive malfunction making something seem obvious).
 - **Projection theories** (Freud, Marx, Durkheim) at most offer undercutting defeaters, and even if belief in God can be "explained" without God, theism may explain much else.
 
-| Alleged defeater | Plantinga |
-|---|---|
+| Alleged defeater                           | Plantinga |
+| ------------------------------------------ | --- |
 | **Historical biblical criticism** (ch. 12) | "Historical Biblical Criticism" methodologically excludes revelation (Troeltsch). Its results depend on its assumptions; a believer doesn't have to share them |
-| **Postmodernism** | its denial of truth isn't a threat; it's equally a problem for everyone |
-| **Pluralism** | the believer who knows other religions and still believes isn't arrogant: anyone who believes anything disagrees with someone. A believer may think his own faculties are working well and others' not |
-| **Evil** (ch. 14) | evil is a serious objection to non-believers, but for a believer with the experience of God, it doesn't defeat. A good God might have reasons we can't see (the "noseeum" point) |
+| **Postmodernism**                          | its denial of truth isn't a threat; it's equally a problem for everyone |
+| **Pluralism**                              | the believer who knows other religions and still believes isn't arrogant: anyone who believes anything disagrees with someone. A believer may think his own faculties are working well and others' not |
+| **Evil** (ch. 14)                          | evil is a serious objection to non-believers, but for a believer with the experience of God, it doesn't defeat. A good God might have reasons we can't see (the "noseeum" point) |
 
 **Scripture scholarship**
 - **Traditional biblical commentary**: Scripture is a unified communication from God; what it teaches is true, though it's not always easy to tell what it teaches.

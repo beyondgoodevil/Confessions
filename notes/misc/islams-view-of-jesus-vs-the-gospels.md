@@ -12,19 +12,19 @@ Islam honours Jesus (*ʿĪsā*) more than any other prophet except Muhammad. It 
 
 ## 1. What the Qur'an Affirms
 
-| Claim | Qur'an | Gospels |
-|---|---|---|
-| **Virgin birth** | 3:45-47; 19:16-22 (Mary under a palm tree) | Matt 1:18-25; Luke 1:26-38 |
-| **Mary's holiness** | 3:42: "chosen thee above the women of the worlds". The only woman named in the Qur'an; Surah 19 is named after her | Luke 1:28, 42 |
-| **"The Messiah"** (*al-Masīḥ*) | 3:45; 4:171 | Matt 16:16 |
-| **"Word from God"** (*kalimah*) | 3:45; 4:171: "his word which he conveyed unto Mary" | John 1:1, 14 |
-| **"A spirit from Him"** | 4:171 | Luke 1:35 |
-| **Miracles** | 3:49: heals the blind and lepers, raises the dead, makes clay birds live (the last from the apocryphal *Infancy Gospel of Thomas*); 5:110 | throughout |
-| **Speaks as an infant** | 19:29-33 | (from apocryphal sources) |
-| **Sinless** | implied: "a faultless son" (19:19) | Heb 4:15 |
-| **Taken up to God** | 4:158 | Acts 1:9 |
-| **Will return** | hadith; the "sign of the Hour" (43:61) | Acts 1:11 |
-| **The Injil** (Gospel) given to Him | 5:46 | |
+| Claim                               | Qur'an | Gospels                    |
+| ----------------------------------- | --- | -------------------------- |
+| **Virgin birth**                    | 3:45-47; 19:16-22 (Mary under a palm tree) | Matt 1:18-25; Luke 1:26-38 |
+| **Mary's holiness**                 | 3:42: "chosen thee above the women of the worlds". The only woman named in the Qur'an; Surah 19 is named after her | Luke 1:28, 42              |
+| **"The Messiah"** (*al-Masīḥ*)      | 3:45; 4:171 | Matt 16:16                 |
+| **"Word from God"** (*kalimah*)     | 3:45; 4:171: "his word which he conveyed unto Mary" | John 1:1, 14               |
+| **"A spirit from Him"**             | 4:171 | Luke 1:35                  |
+| **Miracles**                        | 3:49: heals the blind and lepers, raises the dead, makes clay birds live (the last from the apocryphal *Infancy Gospel of Thomas*); 5:110 | throughout                 |
+| **Speaks as an infant**             | 19:29-33 | (from apocryphal sources)  |
+| **Sinless**                         | implied: "a faultless son" (19:19) | Heb 4:15                   |
+| **Taken up to God**                 | 4:158 | Acts 1:9                   |
+| **Will return**                     | hadith; the "sign of the Hour" (43:61) | Acts 1:11                  |
+| **The Injil** (Gospel) given to Him | 5:46 |                            |
 
 ## 2. What the Qur'an Denies
 
@@ -42,10 +42,10 @@ Islam honours Jesus (*ʿĪsā*) more than any other prophet except Muhammad. It 
 
 The single verse 4:157 is the only place, and it's ambiguous. Muslim interpretations:
 
-| Theory | Idea |
-|---|---|
-| **Substitution** (most common) | God made someone else look like Jesus (Judas, Simon of Cyrene, a volunteer disciple), who was crucified instead. Jesus was raised alive |
-| **Swoon** (Ahmadiyya) | Jesus was crucified but didn't die; revived, went to Kashmir |
+| Theory                          | Idea |
+| ------------------------------- | --- |
+| **Substitution** (most common)  | God made someone else look like Jesus (Judas, Simon of Cyrene, a volunteer disciple), who was crucified instead. Jesus was raised alive |
+| **Swoon** (Ahmadiyya)           | Jesus was crucified but didn't die; revived, went to Kashmir |
 | **Only "they" didn't kill him** | a minority reading: the Jews didn't kill Him, God did (cf. 8:17, "ye slew them not, but Allah slew them"); the death is real but its agent is God |
 
 **Problems**

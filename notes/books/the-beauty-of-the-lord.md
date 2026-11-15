@@ -27,11 +27,11 @@ King starts from the question Socrates put to Hippias, "could you tell me what t
 
 Following the medieval tradition, truth, goodness and beauty are "transcendentals": properties convertible with being itself, distinct in concept but identical in reality.
 
-| | Relation of being to | We approach it by |
-|---|---|---|
-| **Truth** | the mind (being as knowable) | knowledge |
-| **Goodness** | the will (being as desirable) | desire |
-| **Beauty** | mind and will together (being as "delightable") | delight |
+|              | Relation of being to                            | We approach it by |
+| ------------ | ----------------------------------------------- | ----------------- |
+| **Truth**    | the mind (being as knowable)                    | knowledge         |
+| **Goodness** | the will (being as desirable)                   | desire            |
+| **Beauty**   | mind and will together (being as "delightable") | delight           |
 
 - **The classical formula:** in the true the intellect rests, in the good the will rests, in the beautiful **both rest together**. Beauty is not wanted as a means to something else; its delight is the end.
 - **So God is beautiful.** Since the transcendentals are perfections that exist most perfectly in God, beauty is a **divine attribute**. King adds that God's truth, goodness and beauty correspond to his **knowledge, will and beatitude** (his own delight).

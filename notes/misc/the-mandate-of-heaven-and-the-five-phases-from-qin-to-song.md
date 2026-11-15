@@ -40,10 +40,10 @@ Loewe's chapter on Han cosmology explains why the idea spread so widely. Once a 
 
 There were two different orders for the cycle, and the choice between them mattered politically:
 
-| Order | How one phase follows another | Sequence | Implied view of the last dynasty |
-|---|---|---|---|
-| **Conquest** ("overcoming") | Each phase defeats the one before | Earth → wood → metal → fire → water → earth | Your predecessor was beaten |
-| **Generation** ("producing") | Each phase grows out of the one before | Wood → fire → earth → metal → water → wood | Your predecessor gave birth to you |
+| Order                        | How one phase follows another          | Sequence                                    | Implied view of the last dynasty   |
+| ---------------------------- | -------------------------------------- | ------------------------------------------- | ---------------------------------- |
+| **Conquest** ("overcoming")  | Each phase defeats the one before      | Earth → wood → metal → fire → water → earth | Your predecessor was beaten        |
+| **Generation** ("producing") | Each phase grows out of the one before | Wood → fire → earth → metal → water → wood  | Your predecessor gave birth to you |
 
 The *Lüshi chunqiu*, compiled in Qin around 240 BCE, gives the conquest version and ties it to omens. Before the Yellow Emperor, Heaven showed worms, so he chose earth and yellow; before Yu, grass that did not die in winter, so wood and green; before Tang, metal blades coming out of liquid, so metal and white; before King Wen, "scarlet birds holding texts inscribed in red", so fire and red. Then comes the prediction: "It will of course be the energy of water that must displace that of fire" (quoted in *CHC* 1, p. 730). Loewe notes that the passage quietly combines two inconsistent ideas, an arbitrary Heaven that chooses and a cycle that runs by itself. Reconciling the two kept Han thinkers busy for two centuries.
 
@@ -96,15 +96,15 @@ There was one famous sceptic. **Wang Chong** (27–c. 100 CE) argued that Heaven
 
 For the Han, picking a phase was "a declaration of faith that the dynasty was entitled to its appropriate place in the universal and unbreakable sequence", and it also said what you thought of the dynasty before you (*CHC* 1, p. 737). The Han changed its mind twice, and its rivals made their own choices:
 
-| Who | When | Phase | Reasoning |
-|---|---|---|---|
-| Qin | 221 BCE | Water (black) | Water conquers Zhou's fire |
-| Early Han | 206 BCE on | Water, unofficially | Kept Qin's arrangement; proposals to switch to earth in c. 180 and 166 BCE rejected |
-| Emperor Wu | 104 BCE | **Earth** (yellow) | Conquest order: earth defeats Qin's water. Announced with a new calendar and reign title in a year of imperial pride |
-| Late Former Han | 1st c. BCE | **Fire** (red) | Generation order: Han had "really" been fire all along |
-| Wang Mang's Xin | 9 CE | Earth | Generation order: fire (Han) gives birth to earth |
-| Gongsun Shu in Sichuan | 25 CE | Metal | Treated Former Han as earth, so metal came next |
-| Emperor Guangwu, Later Han | 25 CE | **Fire** | Continuity with Former Han and with Yao, leaving Wang Mang out |
+| Who                        | When       | Phase               | Reasoning |
+| -------------------------- | ---------- | ------------------- | --- |
+| Qin                        | 221 BCE    | Water (black)       | Water conquers Zhou's fire |
+| Early Han                  | 206 BCE on | Water, unofficially | Kept Qin's arrangement; proposals to switch to earth in c. 180 and 166 BCE rejected |
+| Emperor Wu                 | 104 BCE    | **Earth** (yellow)  | Conquest order: earth defeats Qin's water. Announced with a new calendar and reign title in a year of imperial pride |
+| Late Former Han            | 1st c. BCE | **Fire** (red)      | Generation order: Han had "really" been fire all along |
+| Wang Mang's Xin            | 9 CE       | Earth               | Generation order: fire (Han) gives birth to earth |
+| Gongsun Shu in Sichuan     | 25 CE      | Metal               | Treated Former Han as earth, so metal came next |
+| Emperor Guangwu, Later Han | 25 CE      | **Fire**            | Continuity with Former Han and with Yao, leaving Wang Mang out |
 
 The last choice is the important one. By counting from Former Han straight to himself, Guangwu "was branding the Hsin dynasty as the regime of a usurper, which merited no proper place in the natural sequence" (pp. 738–39). The cycle could thus erase a dynasty from legitimate history. That is the beginning of the later theory of **legitimate succession** (*zhengtong*), which decided which of several rival regimes really held the Mandate. Loewe notes that "some of the most brilliant minds of the Sung period bent their intellects" to this problem (p. 740).
 

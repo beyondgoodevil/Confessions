@@ -13,15 +13,15 @@ A collection of essays, not a single argument, but one idea runs through all of 
 
 ## Chapters
 
-| Ch. | Title | Point |
-|---|---|---|
-| 1 | Personhood and Being | the Fathers' "ontological revolution": person is the ground of being |
-| 2 | Truth and Communion | truth isn't a correspondence between mind and object but communion; six patristic approaches to truth |
-| 3 | Christ, the Spirit and the Church | Christology must be conditioned by Pneumatology |
-| 4 | Eucharist and Catholicity | the local Eucharist is the whole Church |
-| 5 | Apostolic Continuity and Succession | historical and eschatological continuity |
-| 6 | Ministry and Communion | all ministry is relational, inside the community |
-| 7 | The Local Church in a Perspective of Communion | locality and universality |
+| Ch. | Title                                          | Point |
+| --- | ---------------------------------------------- | --- |
+| 1   | Personhood and Being                           | the Fathers' "ontological revolution": person is the ground of being |
+| 2   | Truth and Communion                            | truth isn't a correspondence between mind and object but communion; six patristic approaches to truth |
+| 3   | Christ, the Spirit and the Church              | Christology must be conditioned by Pneumatology |
+| 4   | Eucharist and Catholicity                      | the local Eucharist is the whole Church |
+| 5   | Apostolic Continuity and Succession            | historical and eschatological continuity |
+| 6   | Ministry and Communion                         | all ministry is relational, inside the community |
+| 7   | The Local Church in a Perspective of Communion | locality and universality |
 
 ## 1. Personhood and Being
 
@@ -48,12 +48,12 @@ A collection of essays, not a single argument, but one idea runs through all of 
 
 **Two kinds of human existence**
 
-| Hypostasis of biological existence | Hypostasis of ecclesial existence |
-|---|---|
-| born from *eros* and natural necessity | born from baptism, "from above" (John 3:3) |
-| individualism: I exist as separate from others | person: I exist in relation |
-| ends in death: nature wins over the person | eschatological: open to the Kingdom |
-| the "tragic" human condition | a new way of being, given in Christ |
+| Hypostasis of biological existence             | Hypostasis of ecclesial existence          |
+| ---------------------------------------------- | ------------------------------------------ |
+| born from *eros* and natural necessity         | born from baptism, "from above" (John 3:3) |
+| individualism: I exist as separate from others | person: I exist in relation                |
+| ends in death: nature wins over the person     | eschatological: open to the Kingdom        |
+| the "tragic" human condition                   | a new way of being, given in Christ        |
 
 - Biological existence is caught between two failures: it wants personal communion but produces **individuals**, and it wants to survive but ends in **death**.
 - Baptism and the Eucharist give a new hypostasis: you exist not because you were born, but because you are loved by God and in communion. That's salvation as **ontological**, not just moral.

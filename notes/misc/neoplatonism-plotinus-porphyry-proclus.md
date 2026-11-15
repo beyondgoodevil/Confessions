@@ -19,16 +19,16 @@ The problem that follows: how does a physical, many-sided world come from one pr
 
 ## 2. Who
 
-| Who | Dates | Main works | Note |
-|---|---|---|---|
-| Ammonius Saccas | 3rd c. | none | teacher of Plotinus in Alexandria (perhaps of Origen too) |
-| **Plotinus** | 204/5–270 | *Enneads* (6 × 9 treatises) | founder. Taught in Rome |
-| **Porphyry** | c. 234–305 | *Life of Plotinus*, *Isagoge*, *Against the Christians* | edited the *Enneads*; the *Isagoge* became the medieval logic primer |
-| **Iamblichus** | c. 245–325 | *On the Mysteries* | made ritual (theurgy) central |
-| **Proclus** | c. 412–485 | *Elements of Theology*, *Platonic Theology*, commentaries | head of the Athenian Academy ~50 years; systematiser |
-| Damascius | c. 462–540s | *Problems and Solutions on First Principles* | last head of the Academy |
-| Simplicius | 6th c. | commentaries on Aristotle | preserved much of the Presocratics |
-| John Philoponus | 6th c. | *Against Proclus on the Eternity of the World* | Christian; attacked the eternal world |
+| Who             | Dates       | Main works | Note |
+| --------------- | ----------- | --- | --- |
+| Ammonius Saccas | 3rd c.      | none | teacher of Plotinus in Alexandria (perhaps of Origen too) |
+| **Plotinus**    | 204/5–270   | *Enneads* (6 × 9 treatises) | founder. Taught in Rome |
+| **Porphyry**    | c. 234–305  | *Life of Plotinus*, *Isagoge*, *Against the Christians* | edited the *Enneads*; the *Isagoge* became the medieval logic primer |
+| **Iamblichus**  | c. 245–325  | *On the Mysteries* | made ritual (theurgy) central |
+| **Proclus**     | c. 412–485  | *Elements of Theology*, *Platonic Theology*, commentaries | head of the Athenian Academy ~50 years; systematiser |
+| Damascius       | c. 462–540s | *Problems and Solutions on First Principles* | last head of the Academy |
+| Simplicius      | 6th c.      | commentaries on Aristotle | preserved much of the Presocratics |
+| John Philoponus | 6th c.      | *Against Proclus on the Eternity of the World* | Christian; attacked the eternal world |
 
 **529**: Justinian's law closes the Academy in Athens. Philosophy continues in Alexandria and Constantinople, taught by Christians.
 
@@ -36,11 +36,11 @@ The problem that follows: how does a physical, many-sided world come from one pr
 
 *Enneads* V.1, "On the Three Primary Hypostases".
 
-| | What it is | Note |
-|---|---|---|
+|                        | What it is | Note |
+| ---------------------- | --- | --- |
 | **The One** (the Good) | absolute unity, beyond being and thought | can't strictly be described. Not even "thinks" or "is" |
 | **Intellect** (*Nous*) | the One's first "outer activity"; pure thinking, containing the Forms | turning back to know its source, it becomes two (thinker and thought), and the categories arise. Knower and known are one activity |
-| **Soul** (*Psyche*) | Intellect's outer activity; carries the Forms down into the world | the World Soul animates the cosmos; individual souls are parts of it |
+| **Soul** (*Psyche*)    | Intellect's outer activity; carries the Forms down into the world | the World Soul animates the cosmos; individual souls are parts of it |
 
 Below Soul: **Nature** (unconscious life, a dim contemplation), then **matter**.
 
@@ -71,9 +71,9 @@ Compare Perl on Plato's demiurge: intellect and forms as one. See [[The Forms an
 
 ## 7. Theurgy
 
-| | Route to the divine |
-|---|---|
-| Plotinus, Porphyry | **philosophy**: contemplation. The highest part of the soul never fully fell |
+|                     | Route to the divine |
+| ------------------- | --- |
+| Plotinus, Porphyry  | **philosophy**: contemplation. The highest part of the soul never fully fell |
 | Iamblichus, Proclus | **ritual** (theurgy, "god-work"): the soul descended fully into the body, so it can't think its way back; it needs divinely given rites |
 
 Proclus: theurgy has three levels; the highest is union with the One through negation, silence and faith (*pistis*).
@@ -110,7 +110,7 @@ Dionysius's ordered ranks and triads clearly come from here. What he drops: the 
 **What was refused**
 
 | Neoplatonism | Christianity |
-|---|---|
+| --- | --- |
 | the world proceeds **necessarily** and **eternally** | God creates **freely**, **from nothing**, with a beginning |
 | the One doesn't know or love the world | God loves the world, providentially, personally |
 | hierarchy of lesser principles between the One and us | one Creator; everything depends on Him directly |

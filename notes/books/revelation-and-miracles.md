@@ -14,12 +14,12 @@ The other half of [[Natural Theology: Is It Legitimate]]. Natural theology asks 
 
 **Revelation**: from *revelare*, to remove the veil.
 
-| | |
-|---|---|
+|                                    | |
+| ---------------------------------- | --- |
 | **Universal** (general) revelation | God shown through the created world. Ps 19, Rom 1. Even the deist Paine accepted this: "the word of God is the creation we behold" |
-| **Special** revelation | God intervening: prophets, Scripture, the Incarnation, the Resurrection |
-| **Propositional** | *that* something is so. 1 Cor 15:3-5 with its repeated "that": that Christ died, that he was buried, that he rose |
-| **Non-propositional** | a person or act is revealed. Christians take this as more basic: God reveals *Himself* in Christ. But it doesn't exclude the first |
+| **Special** revelation             | God intervening: prophets, Scripture, the Incarnation, the Resurrection |
+| **Propositional**                  | *that* something is so. 1 Cor 15:3-5 with its repeated "that": that Christ died, that he was buried, that he rose |
+| **Non-propositional**              | a person or act is revealed. Christians take this as more basic: God reveals *Himself* in Christ. But it doesn't exclude the first |
 
 **Miracle.** Hume's definition: "a transgression of a law of nature by a particular volition of the Deity".
 
@@ -39,12 +39,12 @@ That distinction is the most useful thing in the chapter.
 
 "Case" = an argument for the claim at least as strong as any against.
 
-| Answer | Who |
-|---|---|
-| Yes, and there isn't one | deists, atheists |
+| Answer | Who                                       |
+| --- | ----------------------------------------- |
+| Yes, and there isn't one | deists, atheists                          |
 | No: faith and reason are separate. "Absurd and most worthy of acceptance" | Tertullian, Kierkegaard (as usually read) |
-| No: it can be known directly, by the Holy Spirit's prompting. **Properly basic**. Objections still need answering | Plantinga |
-| Not in each believer's head, but there must be one **in the abstract** | Newman |
+| No: it can be known directly, by the Holy Spirit's prompting. **Properly basic**. Objections still need answering | Plantinga                                 |
+| Not in each believer's head, but there must be one **in the abstract** | Newman                                    |
 
 Newman's version:
 
@@ -74,10 +74,10 @@ This is the reverse of the order Feser and the Blackwell volume assume, and near
 
 ## 4. Is a Confirming Miracle Required?
 
-| | |
-|---|---|
+|         | |
+| ------- | --- |
 | **Yes** | Paley; Swinburne. A revelation has to carry God's "signature", something only God could do. Swinburne concludes only Christianity is even a candidate |
-| **No** | Aquinas (people should have accepted Christ without miracles); Newman |
+| **No**  | Aquinas (people should have accepted Christ without miracles); Newman |
 
 Their points for "no":
 

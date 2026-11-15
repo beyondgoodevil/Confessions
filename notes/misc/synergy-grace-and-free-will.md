@@ -55,12 +55,12 @@ KJV.
 
 ## 3. Three Positions
 
-| | Pelagianism | Monergism (Augustinian / Calvinist) | Synergy (Orthodox) |
-|---|---|---|---|
-| Fallen will | fine | totally unable to turn to God | weakened, darkened, not destroyed |
-| Grace | helpful, not needed | does everything, irresistible | needed at every step, can be refused |
-| Human will | decisive | nothing in conversion | free consent and cooperation |
-| Why some are lost | didn't try | God didn't choose them | refused grace offered to all |
+|                   | Pelagianism         | Monergism (Augustinian / Calvinist) | Synergy (Orthodox)                   |
+| ----------------- | ------------------- | ----------------------------------- | ------------------------------------ |
+| Fallen will       | fine                | totally unable to turn to God       | weakened, darkened, not destroyed    |
+| Grace             | helpful, not needed | does everything, irresistible       | needed at every step, can be refused |
+| Human will        | decisive            | nothing in conversion               | free consent and cooperation         |
+| Why some are lost | didn't try          | God didn't choose them              | refused grace offered to all         |
 
 - Against Pelagius: we can't save ourselves or even start.
 - Against monergism: grace doesn't override freedom, and God "will have all men to be saved" (1 Tim 2:4).

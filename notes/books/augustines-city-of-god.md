@@ -52,9 +52,9 @@ Written 413–426, provoked by the **sack of Rome** by Alaric's Goths in **410**
 
 **Part I (I–X): against the pagans**
 
-| Books | Argument |
-|---|---|
-| **I–V** | **"Where were the gods?"**: Rome suffered disasters while it worshipped them (the Gauls, Cannae, civil wars). The gods never gave moral teaching; their own stories are immoral. Christians who suffered in the sack (including consecrated virgins who were raped) lost nothing of their virtue. Rome's empire came from God's providence, not Fortune, rewarding Roman virtues with earthly glory (V) |
+| Books    | Argument |
+| -------- | --- |
+| **I–V**  | **"Where were the gods?"**: Rome suffered disasters while it worshipped them (the Gauls, Cannae, civil wars). The gods never gave moral teaching; their own stories are immoral. Christians who suffered in the sack (including consecrated virgins who were raped) lost nothing of their virtue. Rome's empire came from God's providence, not Fortune, rewarding Roman virtues with earthly glory (V) |
 | **VI–X** | **Varro, Platonists and demons**: Varro's three theologies (mythical, natural, civil) all fail. The **Platonists** are the best philosophers, nearest to Christianity: God is incorporeal, creator, the source of knowledge and happiness (VIII). But they worship **demons** as mediators. The only true mediator is **Christ**, God and man (IX–X). Against Porphyry's theurgy |
 
 - **I–V**: Book 1 stands apart: about the sack itself.
@@ -70,9 +70,9 @@ Written 413–426, provoked by the **sack of Rome** by Alaric's Goths in **410**
 
 **Part II (XI–XXII): the two cities**
 
-| Books | Content |
-|---|---|
-| **XI–XIV** | **Origins**: creation; time begins with the world; the angels, and the fall of some: the first division into two cities. Evil is privation; the bad will has no efficient cause, only a "deficient" one. Man's creation; the **Fall** from pride; death; the **passions**, now disordered (lust no longer obeys the will: XIV). See [[Ancestral Sin vs Original Sin]] |
+| Books        | Content |
+| ------------ | --- |
+| **XI–XIV**   | **Origins**: creation; time begins with the world; the angels, and the fall of some: the first division into two cities. Evil is privation; the bad will has no efficient cause, only a "deficient" one. Man's creation; the **Fall** from pride; death; the **passions**, now disordered (lust no longer obeys the will: XIV). See [[Ancestral Sin vs Original Sin]] |
 | **XV–XVIII** | **History**: Cain (founder of a city) and Abel (a pilgrim); Cain and Romulus both fratricides. Noah, Abraham, Israel, the prophets; the earthly empires (Assyria, Rome) in parallel. Prophecies of Christ, including the Sibyl |
 | **XIX–XXII** | **Ends**: Varro's 288 possible philosophies of the highest good; all wrong because they seek happiness in this life. **Peace**: the "tranquillity of order". The Last Judgement (XX), hell's eternal punishment (XXI), the resurrection of the body and the **vision of God** (XXII). "There we shall rest and see, see and love, love and praise." |
 

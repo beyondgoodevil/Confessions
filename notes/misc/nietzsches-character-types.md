@@ -106,14 +106,14 @@ The first of three figures (with artist and scientist) who seem neither slavish 
 
 ## 8. The Six at a Glance
 
-| type | relation to suffering | relation to the ascetic ideal | kind of conscience |
-|---|---|---|---|
-| slave | good *because* I suffer; the oppressor is evil | not yet: still this-worldly | bad bad conscience, first form |
-| priest | you are to blame; this world is a wrong road | inventor and administrator | bad bad conscience, completed and made transcendent |
-| philosopher | uses hardship as working conditions | wears it as a caterpillar's disguise | ephectic, "untimely" |
-| artist | gives suffering form (the state, the soul) | usually a valet of it; possibly a counter-art | good bad conscience, at best |
-| scientist | anaesthetizes it, or seeks truth at any cost | its last and most honest form, which destroys itself | will to truth turning on itself |
-| noble | affirms it, even demands it | must outgrow it with an immanent ideal | recommended, not shown |
+| type        | relation to suffering                          | relation to the ascetic ideal | kind of conscience |
+| ----------- | ---------------------------------------------- | --- | --- |
+| slave       | good *because* I suffer; the oppressor is evil | not yet: still this-worldly | bad bad conscience, first form |
+| priest      | you are to blame; this world is a wrong road   | inventor and administrator | bad bad conscience, completed and made transcendent |
+| philosopher | uses hardship as working conditions            | wears it as a caterpillar's disguise | ephectic, "untimely" |
+| artist      | gives suffering form (the state, the soul)     | usually a valet of it; possibly a counter-art | good bad conscience, at best |
+| scientist   | anaesthetizes it, or seeks truth at any cost   | its last and most honest form, which destroys itself | will to truth turning on itself |
+| noble       | affirms it, even demands it                    | must outgrow it with an immanent ideal | recommended, not shown |
 
 ## 9. Assessment
 

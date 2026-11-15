@@ -33,11 +33,11 @@ Critics ancient and modern have pressed this charge. The Pyrrhonist dodge is the
 
 ## Ancient Skepticism
 
-| | **Pyrrhonian** (Pyrrho, Sextus Empiricus) | **Academic** (Arcesilaus, Carneades: Plato's Academy) |
-|---|---|---|
-| claim | suspend judgement (*epochē*) on everything, including whether knowledge is possible | nothing can be known (with certainty); some things are more **probable** |
-| goal | **tranquillity** (*ataraxia*): stop worrying about what's true | avoid rash assent |
-| method | set equal arguments against each other (*isostheneia*) | criticise the Stoic criterion of truth |
+|                                  | **Pyrrhonian** (Pyrrho, Sextus Empiricus) | **Academic** (Arcesilaus, Carneades: Plato's Academy) |
+| -------------------------------- | --- | --- |
+| claim                            | suspend judgement (*epochē*) on everything, including whether knowledge is possible | nothing can be known (with certainty); some things are more **probable** |
+| goal                             | **tranquillity** (*ataraxia*): stop worrying about what's true | avoid rash assent |
+| method                           | set equal arguments against each other (*isostheneia*) | criticise the Stoic criterion of truth |
 | reply to "you assert skepticism" | Pyrrhonists don't assert anything; they report how things seem | Academics do seem to assert one thing |
 
 ## Skeptical Arguments
@@ -76,17 +76,17 @@ All three seem unsatisfactory. This is the root of **foundationalism** (option 3
 
 Besides the self-refutation charge (the reductio above):
 
-| Answer | Who | Idea |
-|---|---|---|
-| **Moorean** | G. E. Moore | "here is one hand." I'm more certain I have hands than of any premise in the skeptic's argument. So reject premise 2 of the brain-in-a-vat argument |
-| **Denial of closure** | Dretske, Nozick | you can know you have hands without knowing you're not a BIV. You only need to rule out **relevant alternatives**: in the closest worlds where I have no hands, I have stumps or hooks, not a vat |
-| **Hinge propositions** | Wittgenstein, Wright | some things (I'm not deceived by a demon) we're simply **entitled** to, given their role in all our thinking |
-| **Matrix as metaphysics** | Chalmers | if you found you were in the Matrix, your beliefs about tables wouldn't be false; you'd learn that tables are, at bottom, computational patterns |
-| **Externalism** | reliabilists, Plantinga | knowledge doesn't require being able to **prove** you know; it requires that your belief actually be reliably formed. If I'm not a brain in a vat, I know I have hands, even if I can't prove it |
-| **Contextualism** | DeRose, Lewis | "know" has higher standards in the philosophy room than in ordinary life. Both "I know" and "I don't know" can be true in different contexts |
-| **Semantic externalism** | Putnam | a real brain in a vat couldn't even think "I am a brain in a vat", since its word "vat" refers to vat-images. So the hypothesis is self-refuting |
-| **Common sense** | Thomas Reid | the skeptic trusts reason to doubt the senses; but both come from the same maker. If you trust one, trust the other |
-| **Inference to the best explanation** | BonJour | the real-world hypothesis explains the order of our experience better than the demon or the vat |
+| Answer                                | Who                     | Idea |
+| ------------------------------------- | ----------------------- | --- |
+| **Moorean**                           | G. E. Moore             | "here is one hand." I'm more certain I have hands than of any premise in the skeptic's argument. So reject premise 2 of the brain-in-a-vat argument |
+| **Denial of closure**                 | Dretske, Nozick         | you can know you have hands without knowing you're not a BIV. You only need to rule out **relevant alternatives**: in the closest worlds where I have no hands, I have stumps or hooks, not a vat |
+| **Hinge propositions**                | Wittgenstein, Wright    | some things (I'm not deceived by a demon) we're simply **entitled** to, given their role in all our thinking |
+| **Matrix as metaphysics**             | Chalmers                | if you found you were in the Matrix, your beliefs about tables wouldn't be false; you'd learn that tables are, at bottom, computational patterns |
+| **Externalism**                       | reliabilists, Plantinga | knowledge doesn't require being able to **prove** you know; it requires that your belief actually be reliably formed. If I'm not a brain in a vat, I know I have hands, even if I can't prove it |
+| **Contextualism**                     | DeRose, Lewis           | "know" has higher standards in the philosophy room than in ordinary life. Both "I know" and "I don't know" can be true in different contexts |
+| **Semantic externalism**              | Putnam                  | a real brain in a vat couldn't even think "I am a brain in a vat", since its word "vat" refers to vat-images. So the hypothesis is self-refuting |
+| **Common sense**                      | Thomas Reid             | the skeptic trusts reason to doubt the senses; but both come from the same maker. If you trust one, trust the other |
+| **Inference to the best explanation** | BonJour                 | the real-world hypothesis explains the order of our experience better than the demon or the vat |
 
 **BonJour's verdicts** (ch. 12):
 - **Particularism** (Moore, Chisholm) gives common sense too absolute a weight and so rules out skepticism by fiat. But common sense does create "a fairly strong rational presumption" against skepticism, because there's no other starting point big enough for philosophy to get a grip. It's still only a presumption: it could be defeated if epistemologists kept failing to say *what* the justification is.

@@ -146,18 +146,18 @@ Siemers lists where each side was proved right. The executive has gained power, 
 
 Mansfield turns this round. Publius "did not conquer his adversary, the old republicanism of responsive government," and the "constitutional distance" between government and people that he designed has been worn down by parties, popular election of the president and polling. "Yet if Publius did not conquer his adversary, he won the battle he entered when the Constitution was ratified" (Mansfield, ch. 16).
 
-| Question | Federalists (Publius) | Anti-Federalists |
-|---|---|---|
+| Question             | Federalists (Publius) | Anti-Federalists |
+| -------------------- | --- | --- |
 | Size of the republic | Larger is safer: "Extend the sphere" (Fed. 10) | Free republics must be small: "natural to a republic to have only a small territory" (Brutus, quoting Montesquieu) |
-| Main danger | Majority faction in the states | Consolidation and an aristocratic federal government |
-| Representation | Should "refine and enlarge the public views" | Should "resemble those they represent" (Smith); "a true likeness of the people" (Brutus) |
-| Natural aristocracy | Men "most noted for wisdom and virtue" (Wilson) | Men with "the same feelings ... as an hereditary nobility" (Smith); to be checked by the yeomanry |
-| Structure | Complex: "Ambition must be made to counteract ambition" (Fed. 51) | Simple and responsible (Centinel); "checks founded on self-love" (Henry) |
-| Powers | Means proportioned to unforeseeable ends (Fed. 23) | Grant power cautiously; limit taxation and standing armies (Brutus) |
-| Federalism | "Neither a national nor a federal constitution; but a composition of both" (Fed. 39) | "So far ... as its powers reach, all ideas of confederation are given up and lost" (Brutus I) |
-| Judiciary | "Neither Force nor Will, but merely judgment" (Fed. 78) | "Independent of the people, of the legislature, and of every power under heaven" (Brutus XV) |
-| Bill of rights | Unnecessary under enumerated powers (Wilson) | Educates the people and limits implied powers (Federal Farmer) |
-| Virtue | Supplied by interest, with virtue taken for granted | Formed by small republics, juries, religion and education |
+| Main danger          | Majority faction in the states | Consolidation and an aristocratic federal government |
+| Representation       | Should "refine and enlarge the public views" | Should "resemble those they represent" (Smith); "a true likeness of the people" (Brutus) |
+| Natural aristocracy  | Men "most noted for wisdom and virtue" (Wilson) | Men with "the same feelings ... as an hereditary nobility" (Smith); to be checked by the yeomanry |
+| Structure            | Complex: "Ambition must be made to counteract ambition" (Fed. 51) | Simple and responsible (Centinel); "checks founded on self-love" (Henry) |
+| Powers               | Means proportioned to unforeseeable ends (Fed. 23) | Grant power cautiously; limit taxation and standing armies (Brutus) |
+| Federalism           | "Neither a national nor a federal constitution; but a composition of both" (Fed. 39) | "So far ... as its powers reach, all ideas of confederation are given up and lost" (Brutus I) |
+| Judiciary            | "Neither Force nor Will, but merely judgment" (Fed. 78) | "Independent of the people, of the legislature, and of every power under heaven" (Brutus XV) |
+| Bill of rights       | Unnecessary under enumerated powers (Wilson) | Educates the people and limits implied powers (Federal Farmer) |
+| Virtue               | Supplied by interest, with virtue taken for granted | Formed by small republics, juries, religion and education |
 
 ### Conclusion
 

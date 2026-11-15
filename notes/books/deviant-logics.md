@@ -14,23 +14,23 @@ Matters for the apologetics notes because [[TAG]] leans on "the laws of logic". 
 
 ## 1. Overview
 
-| Logic | Rejects | Slogan | Main name |
-|---|---|---|---|
-| Many-valued | bivalence | more than two truth values | Łukasiewicz; fuzzy logic (Zadeh) |
-| Paraconsistent | explosion (and, for dialetheists, non-contradiction) | some contradictions are true | Graham Priest |
-| Intuitionist | excluded middle, double negation | truth = provability | Brouwer, Heyting |
-| Relevance | material implication | "if" needs a real connection | Anderson and Belnap |
+| Logic          | Rejects | Slogan                       | Main name                        |
+| -------------- | --- | ---------------------------- | -------------------------------- |
+| Many-valued    | bivalence | more than two truth values   | Łukasiewicz; fuzzy logic (Zadeh) |
+| Paraconsistent | explosion (and, for dialetheists, non-contradiction) | some contradictions are true | Graham Priest                    |
+| Intuitionist   | excluded middle, double negation | truth = provability          | Brouwer, Heyting                 |
+| Relevance      | material implication | "if" needs a real connection | Anderson and Belnap              |
 
 ## 2. Many-Valued Logic
 
 - Classical: only 1 and 0 (**bivalence**). Gensler notes this is compatible with truth-value *gaps* for meaningless or vague sentences. Logic just doesn't bother with those.
 - Three-valued: add ½ = "half-true". Could mean unknowable, vague, unproved, meaningless, or about a future not yet settled.
 
-| P | ¬P |
-|---|---|
-| 0 | 1 |
-| ½ | ½ |
-| 1 | 0 |
+| P   | ¬P  |
+| --- | --- |
+| 0   | 1   |
+| ½   | ½   |
+| 1   | 0   |
 
 - AND takes the lower value, OR the higher. If-then is true if the consequent is at least as true as the antecedent.
 - Result: P ∨ ¬P and ¬(P ∧ ¬P) are sometimes only **half-true** (when P = ½). So excluded middle and non-contradiction stop being laws.
@@ -51,13 +51,13 @@ Who denies it:
 
 Candidate true contradictions, and the stock answer:
 
-| Claim | Stock answer |
-|---|---|
-| "We do and do not step into the same river" | different senses of "same river" |
+| Claim | Stock answer                         |
+| --- | ------------------------------------ |
+| "We do and do not step into the same river" | different senses of "same river"     |
 | "God is spirit and is not spirit" (Pseudo-Dionysius) | apophatic: not spirit *in our sense* |
-| "The moving ball is here and not here" | |
-| "Sara is a child and not a child" | child in age, not in sophistication |
-| "This sentence is false" (liar) | the hard one |
+| "The moving ball is here and not here" |                                      |
+| "Sara is a child and not a child" | child in age, not in sophistication  |
+| "This sentence is false" (liar) | the hard one                         |
 
 Most logicians: these aren't real "A and not-A" because the two A's mean different things. Standard logic assumes P means the same throughout. "I went to Paris and I didn't go to Paris" (landed at the airport, saw nothing) is really P ∧ ¬Q.
 

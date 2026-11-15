@@ -70,9 +70,9 @@ In 1922 Florensky proposed formulas for the four possible views of how energy (*
 
 Rojek shows that the formula as written fails. Read in modern notation as (A ⊃ B) ∧ (B ⊃ ¬A), it gives A ⊃ ¬A by transitivity, which is true only if *A* is false. So "Palamism would be true if and only if there were no energies at all" (p. 59). The negation is in the wrong place. Corrected, Palamism says energy implies essence, but it is *not the case* that essence implies energy: (A ⊃ B) ∧ ¬(B ⊃ A). Bogdan Strachowski objected that the same correction makes Kantianism self-contradictory, since (A ⊃ B) ∨ (B ⊃ A) is a law of classical logic (p. 60). Rojek's answer is **modal logic**, which "was not invented at that time yet" (p. 61):
 
-| View | Rojek's modal version | In words |
-|---|---|---|
-| Palamism | □(A ⊃ B) ∧ ¬□(B ⊃ A) | Energy necessarily requires essence; essence does not necessarily require energy |
+| View       | Rojek's modal version | In words |
+| ---------- | --------------------- | --- |
+| Palamism   | □(A ⊃ B) ∧ ¬□(B ⊃ A)  | Energy necessarily requires essence; essence does not necessarily require energy |
 | Kantianism | ◊(A ∧ ¬B) ∧ ◊(B ∧ ¬A) | Each could exist without the other; consistent, because ◊A ∧ ◊B does not entail ◊(A ∧ B) |
 
 He then sees two remaining problems with his own fix (p. 62). First, simple dependence does not separate energies from **effects**, since the created world also could not exist without God. He borrows Roman Ingarden's distinction: effects are merely "non-self-sufficient", needing something else, while energies are *dependent*, belonging to their subject. Second, the essence is not wholly independent of its energies, because its powers (*dynamis*) belong to it necessarily. So the formula "holds only for acts, not for the potencies" (pp. 62–3).
@@ -85,20 +85,20 @@ Before Palamas, theology knew two kinds of union: **essential**, of the three Pe
 
 Rojek draws here on Florensky's *The Pillar and Ground of the Truth*. Florensky treated love as a real union, *Finis amoris ut duo unum fiant* ("love is completed when two become one"). He accused modern logic of reducing identity to likeness: the usual definition of identity "replaces the question of real numerical identity with the question of the formal similarity of traits" (p. 66). Rojek finds the argument "perfectly sound". If properties are real universals, so that two things can share one and the same property, and a thing is more than a bundle of its properties, then the **identity of indiscernibles** fails. Two distinct things can have every property in common (p. 67). That allows two kinds of sameness:
 
-| Kind | What is shared | Rojek's label |
-|---|---|---|
-| Realistic ("homoousian") | Numerically the same properties | Identity |
-| Nominalistic ("homoiousian") | Exactly similar properties | Resemblance |
+| Kind                         | What is shared                  | Rojek's label |
+| ---------------------------- | ------------------------------- | ------------- |
+| Realistic ("homoousian")     | Numerically the same properties | Identity      |
+| Nominalistic ("homoiousian") | Exactly similar properties      | Resemblance   |
 
 Florensky's version risked **pantheism**, since he spoke as if humans could share God's *nature*. Rojek's correction uses Palamas's distinction. Sharing one nature is consubstantiality, found only in the Trinity. Sharing the same energies is **synergy**, open to the saints. "Without the Palamitic distinction it is uneasy to avoid the charge of pantheism" (pp. 68–9). Assimilation is then shared likeness of energies, and unification is shared identity of energies. Since identity entails likeness but not the reverse, "assimilation really is only a necessary but not sufficient condition of deification" (p. 70).
 
 The disputed question is which kind of synergy deification is. Rojek's thesis is "that deification consist of strict identity of energies, and not mere resemblance" (p. 70). He compares three patristic cases (p. 70):
 
-| Case | Essences | Energies |
-|---|---|---|
-| The Trinity | one | one, "not by analogy ... but truly also one in number" |
-| Christ | two | two, with "no division, no change, no partition, no confusion" |
-| Ordinary humans | many | "similar, but not identical" |
+| Case            | Essences | Energies |
+| --------------- | -------- | --- |
+| The Trinity     | one      | one, "not by analogy ... but truly also one in number" |
+| Christ          | two      | two, with "no division, no change, no partition, no confusion" |
+| Ordinary humans | many     | "similar, but not identical" |
 
 Meyendorff modelled synergy on Christ's two energies, with the human energy "obedient" to the divine (p. 71). Rojek objects that this leaves God and man with two distinct, merely similar energies. Deification would then be "a homoiousian imitation, not homoousian union", the external imitation Palamas rejected. In Christ the two energies could stay two because one hypostasis already united the natures. In deification there is no shared hypostasis, so only identical energies give a real union (p. 72). Florensky's language of energies that "fuse" and "knit" points the same way, and Lourié goes further: the deified man has "no human energies, only divine" (pp. 71–2). Palamas's own analogy supports Rojek. God is joined to the saints "as a soul is to its body", and soul and body have activities in common, not merely similar ones (pp. 72–3).
 

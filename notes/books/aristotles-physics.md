@@ -43,12 +43,12 @@ The *Critical Guide* (Leunissen) reads it in three blocks: **nature, chance, tel
 
 **The four causes** (ch. 3): four answers to "why?"
 
-| Cause | Answers | Example: a house |
-|---|---|---|
-| **material** | out of what? | bricks, timber |
-| **formal** | what is it? its essence, structure | the plan, the form of house |
-| **efficient** | from what source of change? | the builder (really, the art of building) |
-| **final** | for the sake of what? | shelter |
+| Cause         | Answers                            | Example: a house                          |
+| ------------- | ---------------------------------- | ----------------------------------------- |
+| **material**  | out of what?                       | bricks, timber                            |
+| **formal**    | what is it? its essence, structure | the plan, the form of house               |
+| **efficient** | from what source of change?        | the builder (really, the art of building) |
+| **final**     | for the sake of what?              | shelter                                   |
 
 In nature, the formal, efficient and final often coincide: the form of the oak is what the acorn grows toward, and an oak produced the acorn.
 - The student of nature will know **all four causes**; formal and final causes are identified: form is a "moving principle" because it's an end (Kelsey).

@@ -67,13 +67,13 @@ source: St. Irenaeus, Against Heresies III–V (sel. Hans Urs von Balthasar, The
 
 ## The Historical Sequence
 
-| Theory | Who | Core |
-|---|---|---|
+| Theory                       | Who                                         | Core |
+| ---------------------------- | ------------------------------------------- | --- |
 | **Recapitulation / theosis** | Irenaeus, Athanasius, Cappadocians, Maximus | Christ heals and deifies human nature by uniting it to God and passing through death |
-| **Ransom / Christus Victor** | Origen, Gregory of Nyssa | Christ frees us from the devil and death; the "fishhook" |
-| **Satisfaction** | Anselm (1098) | Christ restores God's offended honour; a debt of honour |
-| **Penal substitution** | Calvin, Reformed (16th c.) | Christ bears the Father's punishment for sin in our place |
-| **Moral influence** | Abelard | the Cross shows God's love and moves us |
+| **Ransom / Christus Victor** | Origen, Gregory of Nyssa                    | Christ frees us from the devil and death; the "fishhook" |
+| **Satisfaction**             | Anselm (1098)                               | Christ restores God's offended honour; a debt of honour |
+| **Penal substitution**       | Calvin, Reformed (16th c.)                  | Christ bears the Father's punishment for sin in our place |
+| **Moral influence**          | Abelard                                     | the Cross shows God's love and moves us |
 
 - Bulgakov's survey of theories: the Fathers asked to whom the **ransom** was paid (the devil: Origen, Nyssa; God: Gregory the Theologian); Athanasius placed its power in the victory over death; **Anselm**'s "juridical thought" made it a question of the equivalence of sin and sacrifice. Each takes a true idea and makes it **one-sided**.
 

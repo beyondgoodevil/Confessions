@@ -124,13 +124,13 @@ He compares the stages, after St John of Kronstadt, to a diseased eye that goes 
 
 ## 7. Comparison
 
-| question | **Shestov** | **Girard** | **Rose** | **Thompson** |
-|---|---|---|---|---|
-| what is the underground? | the person's cry against necessity | pride caught between Self and Other | a stage of apostasy from Truth | the person reified by science |
-| Part One (the "two plus two" polemic) | the heart of the book; a critique of reason | weak, an empty "right to caprice" | a symptom, not a remedy | a defence of personhood |
-| the enemy | Athens: self-evidence, necessity | romantic and individualist self-deification | the denial of absolute truth | determinism and positivism |
-| the way out | faith that "all things are possible" | humility; imitation of Christ; resurrection | repentance; Orthodox faith; the Kingdom | Christ as person and truth |
-| Nietzsche | an ally, a fellow sufferer | a fellow "prophet" of the double | the "prophet of Satan" who saw all but the meaning | (in the background) |
+| question                              | **Shestov**                                 | **Girard**                                  | **Rose** | **Thompson**                  |
+| ------------------------------------- | ------------------------------------------- | ------------------------------------------- | --- | ----------------------------- |
+| what is the underground?              | the person's cry against necessity          | pride caught between Self and Other         | a stage of apostasy from Truth | the person reified by science |
+| Part One (the "two plus two" polemic) | the heart of the book; a critique of reason | weak, an empty "right to caprice"           | a symptom, not a remedy | a defence of personhood       |
+| the enemy                             | Athens: self-evidence, necessity            | romantic and individualist self-deification | the denial of absolute truth | determinism and positivism    |
+| the way out                           | faith that "all things are possible"        | humility; imitation of Christ; resurrection | repentance; Orthodox faith; the Kingdom | Christ as person and truth    |
+| Nietzsche                             | an ally, a fellow sufferer                  | a fellow "prophet" of the double            | the "prophet of Satan" who saw all but the meaning | (in the background)           |
 
 ## 8. Assessment
 

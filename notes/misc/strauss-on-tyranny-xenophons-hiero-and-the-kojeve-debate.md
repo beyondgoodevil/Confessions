@@ -255,17 +255,17 @@ The editors add several points the texts leave implicit.
 - **Liberal democracy.** Strauss's remark that liberal democracy comes closest to the classical demand is best read as "a suggestion for a radical revision of our conception of liberal democracy", since attempts to reconcile classical philosophy with it end in concessions he never made (p. xxii).
 - **Heidegger.** Never named in the debate, he is present throughout. The Livy line that closes the Restatement seems aimed at the one great thinker who joined the Nazis in the name of his teaching (p. xxii). The letters bear this out. Strauss is glad that someone at last states the modern position intelligently and "without Heidegger's cowardly vagueness" (p. 244), and reads Heidegger as "the last refuge of nationalism", with only language left after the state and culture are done with (pp. 251–252).
 
-| Question | Strauss | Kojève |
-|---|---|---|
-| What is philosophy? | Awareness of the permanent problems; quest, not wisdom | A stage on the way to wisdom, which arrives at the end of history |
-| Criterion of truth | Evidence of the problems; friends correct each other | Recognition by others, finally by history |
-| Being | Eternal order; history takes place within it | Being becomes; Truth = Man = History |
-| Motive of the ruler | Love, an erotic desire for the demos | Recognition, as for everyone |
+| Question                  | Strauss | Kojève |
+| ------------------------- | --- | --- |
+| What is philosophy?       | Awareness of the permanent problems; quest, not wisdom | A stage on the way to wisdom, which arrives at the end of history |
+| Criterion of truth        | Evidence of the problems; friends correct each other | Recognition by others, finally by history |
+| Being                     | Eternal order; history takes place within it | Being becomes; Truth = Man = History |
+| Motive of the ruler       | Love, an erotic desire for the demos | Recognition, as for everyone |
 | Motive of the philosopher | Love of truth and of well-ordered souls; honour is secondary | Recognition, and the wish to deserve it |
-| Philosopher and city | Conflict permanent and not tragic; defend philosophy through "philosophic politics" | Conflict tragic for the individual, resolved by history through tyrants |
-| Good tyranny | Possible only by chance; the thesis exposes the problem of law | Realized in modern states (Salazar) |
-| End state | The last man; a universal tyranny with no escape | Satisfaction of all, wisdom for the few who want it |
-| Best practical regime | Rule of law by gentlemen; liberal democracy as the nearest viable form | The universal and homogeneous state |
+| Philosopher and city      | Conflict permanent and not tragic; defend philosophy through "philosophic politics" | Conflict tragic for the individual, resolved by history through tyrants |
+| Good tyranny              | Possible only by chance; the thesis exposes the problem of law | Realized in modern states (Salazar) |
+| End state                 | The last man; a universal tyranny with no escape | Satisfaction of all, wisdom for the few who want it |
+| Best practical regime     | Rule of law by gentlemen; liberal democracy as the nearest viable form | The universal and homogeneous state |
 
 ### Conclusion
 

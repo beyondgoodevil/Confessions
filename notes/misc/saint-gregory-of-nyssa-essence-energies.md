@@ -26,7 +26,7 @@ The *Life of Moses* (full title *On the Life of Moses, or On Perfection in Virtu
 **Three theophanies, three stages**
 
 | Event | Stage |
-|---|---|
+| --- | --- |
 | **The burning bush** (Exod 3) | **light**: the first knowledge of God, turning away from error. God reveals Himself as "He who is" (*ho ōn*): only God truly is. See [[The Name of God]] |
 | **The cloud** (Exod 19) | the mind goes beyond the senses, from appearances toward the invisible |
 | **The darkness** on Sinai (Exod 20:21, "Moses drew near unto the thick darkness where God was") | the highest: knowing God by **unknowing**: "the true vision of the One sought consists in this: in seeing that He is not seen" |

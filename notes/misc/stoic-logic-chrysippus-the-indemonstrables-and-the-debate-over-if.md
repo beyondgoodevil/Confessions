@@ -93,12 +93,12 @@ The **disjunction** is where the two readings clash most sharply. The usual view
 
 By Chrysippus' time Sextus lists four positions, from weakest to strongest (PH ii.110–12):
 
-| View | Test for "If p, q" | Problem case |
-|---|---|---|
-| Philo | not (p true and q false) | "If it is day, I converse" is true whenever I happen to be talking |
-| Diodorus | at no time was or is p true and q false | true whenever q is necessary or p impossible |
+| View                      | Test for "If p, q"                          | Problem case |
+| ------------------------- | ------------------------------------------- | --- |
+| Philo                     | not (p true and q false)                    | "If it is day, I converse" is true whenever I happen to be talking |
+| Diodorus                  | at no time was or is p true and q false     | true whenever q is necessary or p impossible |
 | Connection (*synartēsis*) | the contradictory of q **conflicts** with p | excludes "If p, not-p" style conditionals |
-| Inclusion (*emphasis*) | q is "potentially contained" in p | even "If it is day, it is day" fails, since nothing contains itself |
+| Inclusion (*emphasis*)    | q is "potentially contained" in p           | even "If it is day, it is day" fails, since nothing contains itself |
 
 Both works attribute the connection view to Chrysippus (Cic. *On Fate* 12; D.L. vii.73) (Cambridge History, pp. 106–7; O'Toole and Jennings, p. 479). "If the earth flies, Axiothea philosophizes" fails it, because the earth's flying is perfectly compatible with Axiothea not philosophizing (Cambridge History, p. 107).
 

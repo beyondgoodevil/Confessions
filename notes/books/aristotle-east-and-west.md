@@ -113,12 +113,12 @@ The best book on the philosophical background to the essence–energies distinct
 
 ## 7. Palamas and Aquinas
 
-| | Aquinas | Palamas |
-|---|---|---|
-| God is | pure act, being itself | beyond being in essence; present in His energies |
+|                    | Aquinas | Palamas |
+| ------------------ | --- | --- |
+| God is             | pure act, being itself | beyond being in essence; present in His energies |
 | Distinction in God | essence and attributes identical; distinctions only in our concepts | real distinction (not separation) between essence and energies |
-| Union with God | the vision of God's essence, by the light of glory (created) | participation in the uncreated energies; the essence remains beyond |
-| Grace | created | uncreated |
+| Union with God     | the vision of God's essence, by the light of glory (created) | participation in the uncreated energies; the essence remains beyond |
+| Grace              | created | uncreated |
 
 Both are answering the same question: how creatures can know and share in God. Both use the Greek tradition; they inherited different halves of it.
 

@@ -16,11 +16,11 @@ Four writers, five centuries apart, all argue that government by **one** is best
 
 **Six forms** (I.2). A ruler's rule is just if it aims at the common good, unjust if at his own:
 
-| | just | unjust |
-|---|---|---|
-| one | **king** | **tyrant** |
-| few | aristocracy | oligarchy |
-| many | polity | democracy ("the whole people will be as one tyrant") |
+|      | just        | unjust |
+| ---- | ----------- | --- |
+| one  | **king**    | **tyrant** |
+| few  | aristocracy | oligarchy |
+| many | polity      | democracy ("the whole people will be as one tyrant") |
 
 A king is "a shepherd, seeking the common good of the multitude and not his own" (Ezek 34:23, "I will set up one shepherd over them, even my servant David").
 
@@ -111,13 +111,13 @@ Dante's earliest critic, Guido Vernani, objected that only **Christ** could have
 
 ## 6. Comparison
 
-| | Aquinas | Dante | Maistre | Kuehnelt-Leddihn |
-|---|---|---|---|---|
-| main argument | unity → peace | the end of mankind → one world ruler | sovereignty is one; history shows monarchy is natural | a comparison of crutches |
-| scale | city or province | the whole world | the nation | the nation |
-| why government exists | natural, even without sin | to secure peace for the intellect's work | born with society, from God | the Fall |
+|                         | Aquinas                            | Dante                                     | Maistre | Kuehnelt-Leddihn                              |
+| ----------------------- | ---------------------------------- | ----------------------------------------- | --- | --------------------------------------------- |
+| main argument           | unity → peace                      | the end of mankind → one world ruler      | sovereignty is one; history shows monarchy is natural | a comparison of crutches                      |
+| scale                   | city or province                   | the whole world                           | the nation | the nation                                    |
+| why government exists   | natural, even without sin          | to secure peace for the intellect's work  | born with society, from God | the Fall                                      |
 | what restrains the king | choosing well, tempering his power | his lack of greed (nothing left to covet) | religion, customs, aristocracy, remonstrance | God, his oath, his heirs, Christian education |
-| the enemy | tyranny | greed and division | rationalist constitution-making | egalitarian democracy and its dictators |
+| the enemy               | tyranny                            | greed and division                        | rationalist constitution-making | egalitarian democracy and its dictators       |
 
 ## 7. Notes
 

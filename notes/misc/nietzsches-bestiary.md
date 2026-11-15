@@ -216,30 +216,30 @@ Christa Acampora's afterword looks at the **parts** of animals.
 
 ## 9. The Bestiary at a Glance
 
-| Animal | Where | What N. makes of it | Commentator |
-|---|---|---|---|
-| Cattle | UM II 1 | Happy forgetting; the unhistorical | Lemm |
-| Camel | Z I | Reverent bearing of burdens; "dancing in chains" | Taylor, Perkins |
-| Lion | Z I; IV | "I will"; at the end, laughter and destruction | Loeb |
-| Child (not an animal, the goal) | Z I | Innocence, forgetting, a sacred Yes; replaces the senile ape | Perkins |
-| Ape | Z Prologue; III | Imitation; man's embarrassing past | Groff |
-| Polyp | D 119 | The self as competing drives | Domino |
-| Eagle and serpent | Z Prologue 10 | Pride and wisdom as friends | Pappas |
-| Dog | Z III; GS 312 | The domesticated ego | Shapiro |
-| Tarantula, spider | Z II; AOM 194; A 17 | Revenge; metaphysicians spinning webs | Schrift |
-| Snake | Z I, III; GS | Knowledge, eternity, renewal; masculine | Pappas |
-| Halcyon bird | EH; Z III "Seven Seals" | Lightness, song, eternity | Shapiro |
-| Cow | Z IV; GM Preface 8 | Rumination; the voluntary beggar's gospel | Stark |
-| Ass | Z IV; BGE 8 | The yes that can't say no; folly as a stage | Higgins |
-| Blond beast | GM I 11; II 17 | The predator under noble cultures; state-founder | Schank, Conway |
-| Lambs and birds of prey | GM I 13 | Slave morality's origin | |
-| Sea animals | GM II 16 | Bad conscience: instincts turned inward | Conway |
-| Priest as predator | GM III 15 | Polar bear, tiger, fox in one | Conway |
-| Woman as cat, tiger | BGE 131, 239; Z I | Predatory, "more natural"; the whip | Brobjer, Ham |
-| Satyr | BT; EH | Animal-human, tragedy's comic source | Hatab |
-| Mole | D Preface; HH 18; Z III | Genealogist, then enemy | Bergoffen |
-| Cat | Z II, IV | Feral play; crooked style | Woodruff |
-| Lizard | HH Preface 5; EH; Z IV | Convalescence; "divine lizards" of thought | Babich |
+| Animal                          | Where                   | What N. makes of it | Commentator     |
+| ------------------------------- | ----------------------- | --- | --------------- |
+| Cattle                          | UM II 1                 | Happy forgetting; the unhistorical | Lemm            |
+| Camel                           | Z I                     | Reverent bearing of burdens; "dancing in chains" | Taylor, Perkins |
+| Lion                            | Z I; IV                 | "I will"; at the end, laughter and destruction | Loeb            |
+| Child (not an animal, the goal) | Z I                     | Innocence, forgetting, a sacred Yes; replaces the senile ape | Perkins         |
+| Ape                             | Z Prologue; III         | Imitation; man's embarrassing past | Groff           |
+| Polyp                           | D 119                   | The self as competing drives | Domino          |
+| Eagle and serpent               | Z Prologue 10           | Pride and wisdom as friends | Pappas          |
+| Dog                             | Z III; GS 312           | The domesticated ego | Shapiro         |
+| Tarantula, spider               | Z II; AOM 194; A 17     | Revenge; metaphysicians spinning webs | Schrift         |
+| Snake                           | Z I, III; GS            | Knowledge, eternity, renewal; masculine | Pappas          |
+| Halcyon bird                    | EH; Z III "Seven Seals" | Lightness, song, eternity | Shapiro         |
+| Cow                             | Z IV; GM Preface 8      | Rumination; the voluntary beggar's gospel | Stark           |
+| Ass                             | Z IV; BGE 8             | The yes that can't say no; folly as a stage | Higgins         |
+| Blond beast                     | GM I 11; II 17          | The predator under noble cultures; state-founder | Schank, Conway  |
+| Lambs and birds of prey         | GM I 13                 | Slave morality's origin |                 |
+| Sea animals                     | GM II 16                | Bad conscience: instincts turned inward | Conway          |
+| Priest as predator              | GM III 15               | Polar bear, tiger, fox in one | Conway          |
+| Woman as cat, tiger             | BGE 131, 239; Z I       | Predatory, "more natural"; the whip | Brobjer, Ham    |
+| Satyr                           | BT; EH                  | Animal-human, tragedy's comic source | Hatab           |
+| Mole                            | D Preface; HH 18; Z III | Genealogist, then enemy | Bergoffen       |
+| Cat                             | Z II, IV                | Feral play; crooked style | Woodruff        |
+| Lizard                          | HH Preface 5; EH; Z IV  | Convalescence; "divine lizards" of thought | Babich          |
 
 ## 10. Assessment
 

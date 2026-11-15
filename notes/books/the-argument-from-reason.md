@@ -15,11 +15,11 @@ Reppert's way of putting it: "In the beginning was the Word" (John 1:1). On thei
 
 ## 1. Two Kinds of Worldview
 
-| Mentalistic | Materialistic |
-|---|---|
+| Mentalistic | Materialistic                                 |
+| --- | --------------------------------------------- |
 | mind is fundamental; matter is created by or flows from mind | matter is fundamental; mind is a late product |
-| top-down | bottom-up |
-| Plato, Aristotle, the Stoics, Christian theism, Hindu pantheism, Spinoza, idealism | Democritus, modern naturalism |
+| top-down | bottom-up                                     |
+| Plato, Aristotle, the Stoics, Christian theism, Hindu pantheism, Spinoza, idealism | Democritus, modern naturalism                 |
 
 ## 2. What Any Materialism Needs
 
@@ -111,7 +111,7 @@ Each is a separate argument. If materialism can't make room for one of them, it 
 ## 8. Objections
 
 | Objection | Reply |
-|---|---|
+| --- | --- |
 | **Anscombe**: causal and rational explanations don't compete | they do, given causal closure: only physical causes are left, and the content of a thought adds nothing |
 | **Computers reason, and they're physical** | computers manipulate symbols according to rules *we* gave them, and whose meaning *we* supply (Searle's Chinese Room). Derived intentionality, not original |
 | **Evolution selects for truth: true beliefs help survival** | only behaviour is selected; true and false belief-desire pairs can give the same behaviour. And abstract reasoning (set theory) had no survival value |

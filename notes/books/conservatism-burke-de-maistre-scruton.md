@@ -125,12 +125,12 @@ A Savoyard Catholic, exiled by the Revolution, ambassador in St Petersburg. Much
 
 ## 4. Comparing Them
 
-| | Burke | de Maistre | Scruton |
-|---|---|---|---|
-| basis | prudence, experience, prescription | providence, sacrifice, authority | inheritance, home, the sacred |
-| religion | establishment, social usefulness and truth | everything; theocratic | cultural and personal; Anglican |
-| attitude to change | gradual reform | providential judgement | protective, gradual |
-| key image | the little platoons | the executioner | the home (*oikos*) |
+|                    | Burke                                      | de Maistre                       | Scruton                         |
+| ------------------ | ------------------------------------------ | -------------------------------- | ------------------------------- |
+| basis              | prudence, experience, prescription         | providence, sacrifice, authority | inheritance, home, the sacred   |
+| religion           | establishment, social usefulness and truth | everything; theocratic           | cultural and personal; Anglican |
+| attitude to change | gradual reform                             | providential judgement           | protective, gradual             |
+| key image          | the little platoons                        | the executioner                  | the home (*oikos*)              |
 
 ## 5. Notes
 

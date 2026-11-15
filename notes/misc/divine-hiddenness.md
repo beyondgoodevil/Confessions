@@ -49,7 +49,7 @@ Later versions (2015 on): premises stated as necessary truths; "culpable" replac
 **Reasons God might allow nonbelief** (each from someone in the literature):
 
 | Reason | Idea |
-|---|---|
+| --- | --- |
 | **Freedom / moral autonomy** (Hick, Swinburne, Murray) | God's obvious presence would overwhelm free moral choice: we'd be good out of fear or self-interest |
 | **Right motives** | belief now might come with the wrong motives (fear of punishment); first those must change |
 | **Owning one's character** | goodness should first be freely chosen against the pull of the opposite |

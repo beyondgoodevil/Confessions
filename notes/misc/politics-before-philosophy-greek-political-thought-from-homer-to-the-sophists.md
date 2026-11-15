@@ -191,19 +191,19 @@ Second, Thucydides joins two kinds of writing (pp. 114–116). The narrative is 
 
 Third, the structure carries the verdict (pp. 116–121). Athens lost the war; Sparta did not win it. Pericles had said "I am more afraid of our own mistakes than I am of the plans of our enemies" (1.144). Athens was destroyed by the very energy and boldness he praised. Under him it was "in name a democracy, in fact ... rule by the leading man" (2.65), and his successors competed for popular favour. Alcibiades was "a Pericles without principle or judgment" (p. 117). Melos is placed straight before Sicily, and the reversal speaks for itself: at Syracuse the Athenians become "sailors become landsmen", and the survivors end in the stone-quarries (pp. 117–118). The Hermae affair of 415 "opened up a fatal breach of mistrust ... between the demos and its traditional aristocratic leaders" (p. 120). Thucydides admired the oligarch Antiphon but condemned the coup of 411. He praised the regime of the Five Thousand that followed as "a moderate mixing-together (*xunkrasis*) in respect of the few and the many", because it averted civil war (8.97) (p. 121).
 
-| Term | Meaning | Where it appears |
-|---|---|---|
-| *es meson* | "in the middle", public affairs as a shared prize | Cartledge, p. 12 |
-| *themistes* | inherited norms of justice | Cyclopes lack them, *Od.* 9 |
-| *dike* | justice, retribution, lawsuit | Hesiod, Solon, Anaximander, the *Oresteia* |
-| *eunomia* / *dusnomia* | good order / bad order | Hesiod, Tyrtaeus, Solon |
-| *isonomia* | equal shares; political equality | Alcmaeon, Cleisthenes, Otanes |
-| *homonoia* | "same-mindedness", the cure for faction | Cartledge, p. 19 |
-| *stasis* | civil strife | Theognis, Solon, Thucydides 3.82 |
-| *hubris* | violent excess, "the ultimate civic crime" | Cartledge, p. 18; Solon |
-| *politike techne* | the political art, given to all | Protagoras' Great Speech |
-| *nomos* / *phusis* | law or custom / nature | sophists, Herodotus 3.38, Melos |
-| *theoria* | official viewing at a festival; root of "theory" | Goldhill, p. 65 |
+| Term                   | Meaning | Where it appears                           |
+| ---------------------- | --- | ------------------------------------------ |
+| *es meson*             | "in the middle", public affairs as a shared prize | Cartledge, p. 12                           |
+| *themistes*            | inherited norms of justice | Cyclopes lack them, *Od.* 9                |
+| *dike*                 | justice, retribution, lawsuit | Hesiod, Solon, Anaximander, the *Oresteia* |
+| *eunomia* / *dusnomia* | good order / bad order | Hesiod, Tyrtaeus, Solon                    |
+| *isonomia*             | equal shares; political equality | Alcmaeon, Cleisthenes, Otanes              |
+| *homonoia*             | "same-mindedness", the cure for faction | Cartledge, p. 19                           |
+| *stasis*               | civil strife | Theognis, Solon, Thucydides 3.82           |
+| *hubris*               | violent excess, "the ultimate civic crime" | Cartledge, p. 18; Solon                    |
+| *politike techne*      | the political art, given to all | Protagoras' Great Speech                   |
+| *nomos* / *phusis*     | law or custom / nature | sophists, Herodotus 3.38, Melos            |
+| *theoria*              | official viewing at a festival; root of "theory" | Goldhill, p. 65                            |
 
 ### Conclusion
 

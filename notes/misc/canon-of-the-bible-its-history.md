@@ -27,14 +27,14 @@ source: "Eugen J. Pentiuc, The Old Testament in Eastern Orthodox Tradition (Oxfo
 
 **Early Christian OT lists**
 
-| Source | Date | Deuterocanonicals? |
-|---|---|---|
-| Melito of Sardis | c. 170 | lists the Hebrew books (+ Wisdom?) after visiting Palestine |
-| Origen | c. 230 | lists the Hebrew 22 but uses the others freely; says the Church reads them |
-| Athanasius, *39th Festal Letter* | 367 | 22 canonical OT books; Wisdom, Sirach, Esther, Judith, Tobit as "**to be read**" (*anaginōskomena*) by catechumens |
-| Cyril of Jerusalem, Gregory Nazianzen | 4th c. | close to the Hebrew list |
-| Councils of Hippo / Carthage | 393/397 | include them in the canon |
-| Apostolic Canon 85, Trullo (692) | | endorse several lists that disagree: no single list |
+| Source                                | Date    | Deuterocanonicals? |
+| ------------------------------------- | ------- | --- |
+| Melito of Sardis                      | c. 170  | lists the Hebrew books (+ Wisdom?) after visiting Palestine |
+| Origen                                | c. 230  | lists the Hebrew 22 but uses the others freely; says the Church reads them |
+| Athanasius, *39th Festal Letter*      | 367     | 22 canonical OT books; Wisdom, Sirach, Esther, Judith, Tobit as "**to be read**" (*anaginōskomena*) by catechumens |
+| Cyril of Jerusalem, Gregory Nazianzen | 4th c.  | close to the Hebrew list |
+| Councils of Hippo / Carthage          | 393/397 | include them in the canon |
+| Apostolic Canon 85, Trullo (692)      |         | endorse several lists that disagree: no single list |
 
 - **Justin** is the first to suggest the Church is self-sufficient in deciding her own Scriptures (Pentiuc).
 - **Origen** gives Hebrew and Greek names for each book, and first uses the term "outside" (*exō*) for the Septuagint additions (naming Maccabees; Pentiuc).
@@ -60,7 +60,7 @@ source: "Eugen J. Pentiuc, The Old Testament in Eastern Orthodox Tradition (Oxfo
 **Disputed books**
 
 | Book | Doubts |
-|---|---|
+| --- | --- |
 | **Hebrews** | doubted in the West (authorship) until the 4th c. |
 | **Revelation** | doubted in the East (Dionysius of Alexandria, Cyril of Jerusalem, Chrysostom never cites it); still **not read in the Orthodox Liturgy** |
 | **2 Peter, 2–3 John, Jude, James** | Eusebius's "disputed" (*antilegomena*) category |

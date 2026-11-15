@@ -12,12 +12,12 @@ Friendship (*philia*) was a central topic in ancient ethics, almost gone from mo
 
 ## 1. The Greek Words
 
-| Word | Meaning |
-|---|---|
+| Word         | Meaning |
+| ------------ | --- |
 | ***storgē*** | natural affection, family love |
 | ***philia*** | friendship; love between equals; also broader (fondness for wine, love of wisdom) |
-| ***erōs*** | passionate, desiring love; in Plato, desire for beauty |
-| ***agapē*** | rare in classical Greek; in the NT, God's self-giving love and the love Christians owe |
+| ***erōs***   | passionate, desiring love; in Plato, desire for beauty |
+| ***agapē***  | rare in classical Greek; in the NT, God's self-giving love and the love Christians owe |
 
 C. S. Lewis's *Four Loves* uses these four (affection, friendship, eros, charity).
 
@@ -49,10 +49,10 @@ Eros is **desire for the good to be one's own forever**: "giving birth in beauty
 
 **Three kinds of friendship**, by what is loved:
 
-| Kind | Loves the other for | Lasts |
-|---|---|---|
-| **utility** | what they're useful for | while useful: old people, business |
-| **pleasure** | the pleasure they give | while pleasant: young people |
+| Kind                  | Loves the other for                    | Lasts |
+| --------------------- | -------------------------------------- | --- |
+| **utility**           | what they're useful for                | while useful: old people, business |
+| **pleasure**          | the pleasure they give                 | while pleasant: young people |
 | **virtue** (complete) | **who they are**, their good character | as long as both are good: rare, needs time and "eating salt together" |
 
 - Definition: "to have goodwill and wish good things for one another, both being aware of it, because of one of the [three] ends" (*EN* VIII.2).

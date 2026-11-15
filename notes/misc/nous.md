@@ -16,13 +16,13 @@ source: "A Monk of Mount Athos, The Watchful Mind: Teachings on the Prayer of th
 
 Nous and reason compared:
 
-| | *nous* | *dianoia* / *logos* (reason) |
-|---|---|---|
-| knows by | direct apprehension, spiritual perception | discursive steps, concepts, inference |
-| object | God, the logoi of things, spiritual realities | the world, reasoning about it |
-| image | the **eye** of the soul | the soul's **reasoning faculty** |
-| when healthy | sees God and is "the king" of the soul | serves the nous |
-| when sick | darkened, scattered, identified with reason | becomes the only thing we know; rationalism |
+|              | *nous*                                        | *dianoia* / *logos* (reason)                |
+| ------------ | --------------------------------------------- | ------------------------------------------- |
+| knows by     | direct apprehension, spiritual perception     | discursive steps, concepts, inference       |
+| object       | God, the logoi of things, spiritual realities | the world, reasoning about it               |
+| image        | the **eye** of the soul                       | the soul's **reasoning faculty**            |
+| when healthy | sees God and is "the king" of the soul        | serves the nous                             |
+| when sick    | darkened, scattered, identified with reason   | becomes the only thing we know; rationalism |
 
 Western languages lose the distinction: *nous* is usually translated "mind" or "intellect", which makes it sound like reason. The Philokalia translators use "intellect" in a special sense.
 
@@ -65,10 +65,10 @@ Western languages lose the distinction: *nous* is usually translated "mind" or "
 
 Three stages (the standard scheme, Romanides and Hierotheos following the Philokalia):
 
-| Stage | What happens |
-|---|---|
-| **Purification** (*katharsis*) | of the passions, by repentance, ascesis, the commandments |
-| **Illumination** (*photismos*) | the nous freed and praying unceasingly in the heart: **noetic prayer** |
+| Stage                                            | What happens |
+| ------------------------------------------------ | --- |
+| **Purification** (*katharsis*)                   | of the passions, by repentance, ascesis, the commandments |
+| **Illumination** (*photismos*)                   | the nous freed and praying unceasingly in the heart: **noetic prayer** |
 | **Deification** (*theosis*) / vision (*theoria*) | the vision of the uncreated light |
 
 **Watchfulness** (*nepsis*) is the main tool: guarding the nous against thoughts (*logismoi*) before they become passions. St. Hesychios: "watchfulness is a spiritual method which... frees us from impassioned thoughts". See [[The Jesus Prayer and Hesychasm]], [[The Virtues and the Eight Passions]].

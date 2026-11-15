@@ -152,13 +152,13 @@ See [[Girard's Scapegoat Mechanism: Sacrifice, Myth and the Gospels]].
 
 ## 10. Comparison of the Readings
 
-| reading | what the ending is | key evidence | weak point |
-|---|---|---|---|
-| **evolutionary** (Kitto, Fagles) | justice grows from revenge into law; the gods grow too | Electra's "juror or avenger"; the Furies converted | the tied vote; Apollo's argument |
+| reading                             | what the ending is | key evidence | weak point |
+| ----------------------------------- | --- | --- | --- |
+| **evolutionary** (Kitto, Fagles)    | justice grows from revenge into law; the gods grow too | Electra's "juror or avenger"; the Furies converted | the tied vote; Apollo's argument |
 | **ideological** (Marxist, feminist) | the state and patriarchy legitimized | "I am wholly of the father"; Furies made subordinate | ignores the play's own doubts |
-| **Goldhill** | a celebration with its questions still sounding | the ambiguity of *dikē*; persuasion, not trial, ends it | leaves us with no answer |
-| **Vellacott** | a hollow "reconciliation" that excuses matricide | Apollo's lies; the Furies' consistency; Euripides | requires the poet to be ironic against his own ending |
-| **Nikolopoulou** | justice rooted in cosmic order that the court can't abolish | Artemis, Earth, the Furies housed not destroyed | dense; polemical about modern readings |
+| **Goldhill**                        | a celebration with its questions still sounding | the ambiguity of *dikē*; persuasion, not trial, ends it | leaves us with no answer |
+| **Vellacott**                       | a hollow "reconciliation" that excuses matricide | Apollo's lies; the Furies' consistency; Euripides | requires the poet to be ironic against his own ending |
+| **Nikolopoulou**                    | justice rooted in cosmic order that the court can't abolish | Artemis, Earth, the Furies housed not destroyed | dense; polemical about modern readings |
 
 ## 11. Assessment
 

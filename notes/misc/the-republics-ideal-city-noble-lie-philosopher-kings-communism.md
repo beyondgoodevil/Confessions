@@ -154,12 +154,12 @@ The proposal was radical for Athens, where women were not legal persons and resp
 
 **Morrison** maps the main answers (*Companion*, ch. 9):
 
-| Reading | Who | What Callipolis is |
-|---|---|---|
-| A real programme | Barker, Popper | A blueprint Plato hoped to see applied |
+| Reading                             | Who | What Callipolis is |
+| ----------------------------------- | --- | --- |
+| A real programme                    | Barker, Popper | A blueprint Plato hoped to see applied |
 | A possible but very difficult ideal | Aristotle (who thought it wrong), Burnyeat, Morrison | A "utopia that is not a mere utopia": the best city, hard but not impossible |
-| Ironic | Strauss, Bloom | A city Plato knew to be impossible, written to show the limits of politics |
-| A metaphor for the soul | Annas (1999) | Not a political proposal at all, but a picture of justice in the individual |
+| Ironic                              | Strauss, Bloom | A city Plato knew to be impossible, written to show the limits of politics |
+| A metaphor for the soul             | Annas (1999) | Not a political proposal at all, but a picture of justice in the individual |
 
 Morrison sides with the second reading. Socrates explicitly says the city is not "wishful thinking" (540d), and he wants to show its approximate possibility, because otherwise it would not be an ideal for *human beings*. Morrison compares it to calling a Rothko painting the ideal of a beautiful woman. Socrates assumes human nature is very flexible in some ways, enough that a whole class could live without families. In other ways it is not: he never thinks most people could become philosophers. As Morrison puts it, "nature is just too fond of dolts".
 

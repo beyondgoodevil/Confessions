@@ -189,12 +189,12 @@ Phaedo's epitaph closes the dialogue: "of all those we have known the best, and 
 
 A cock was the usual offering to **Asclepius**, the god of healing, after a cure. Readers have offered at least four explanations:
 
-| Reading | Who | What the cure is |
-|---|---|---|
-| Release from the disease of life | Nietzsche, *Gay Science* 340: "O Crito, life is a disease!" | Death heals Socrates of living |
-| A literal debt | Gallop | Some real vow, "incurred in some connection unknown" |
+| Reading                                 | Who | What the cure is |
+| --------------------------------------- | --- | --- |
+| Release from the disease of life        | Nietzsche, *Gay Science* 340: "O Crito, life is a disease!" | Death heals Socrates of living |
+| A literal debt                          | Gallop | Some real vow, "incurred in some connection unknown" |
 | The healing of the friends and of Plato | Burger, Lampert | Socrates "healed us" of misology (89a); Plato, who was "ill", recovers through the dialogue |
-| Gratitude for life itself | Lampert, after Nietzsche's *Beyond Good and Evil* 49 | Greek religion's "unrestrained fullness of gratitude" for life as it is |
+| Gratitude for life itself               | Lampert, after Nietzsche's *Beyond Good and Evil* 49 | Greek religion's "unrestrained fullness of gratitude" for life as it is |
 
 **Gallop** rejects the first reading. The idea that life is a disease was Cebes' (95d), and it is "hardly compatible" with Socrates' own warning against misology. **Burger** points out that Asclepius was the son of Apollo, the god of purification, so the healing god completes the hymn to Apollo with which the day began. She also notes that Pindar told of Asclepius being bribed to save a dying man, so the offering might even be "one last affirmation of the goodness of life".
 

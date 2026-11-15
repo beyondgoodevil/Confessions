@@ -122,15 +122,15 @@ The Eucharist doesn't come out of nowhere at the Last Supper. Bread and wine fro
 
 ## 6. Side by Side
 
-| Type | Fulfilment |
-|---|---|
-| Melchizedek offers bread and wine | Christ, priest after that order, gives bread and wine as His Body and Blood |
+| Type                                        | Fulfilment |
+| ------------------------------------------- | --- |
+| Melchizedek offers bread and wine           | Christ, priest after that order, gives bread and wine as His Body and Blood |
 | Passover lamb eaten, blood saves from death | Christ our Passover, flesh eaten, blood gives life |
-| Manna in the wilderness | "I am the living bread which came down from heaven" |
-| Blood of the covenant at Sinai | "My blood of the new testament" |
-| Bread of the Presence | Christ present on the altar |
-| Coal on Isaiah's lips | Communion "for the remission of sins" |
-| Pure offering in every place | Eucharist offered in every nation |
+| Manna in the wilderness                     | "I am the living bread which came down from heaven" |
+| Blood of the covenant at Sinai              | "My blood of the new testament" |
+| Bread of the Presence                       | Christ present on the altar |
+| Coal on Isaiah's lips                       | Communion "for the remission of sins" |
+| Pure offering in every place                | Eucharist offered in every nation |
 
 Missing from this list and worth adding later: the tree of life, Elijah's bread for the journey (1 Kings 19), the feeding of the five thousand as the bridge to John 6.
 

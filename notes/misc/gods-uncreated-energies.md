@@ -53,7 +53,7 @@ The *Triads* (nine treatises, 1338–41, in three groups of three) answer first 
 - Pelikan's preface: older Western reference works treated Palamas as a scandal. One encyclopedia said the controversy "ended with a resurrection of polytheism".
 
 | Barlaam / later Western critics | Palamas |
-|---|---|
+| --- | --- |
 | God is simple; any distinction in Him makes Him composite | a distinction isn't a composition; the sun isn't composed of its rays. See [[Distinction Does Not Necessitate Separation, Division, or Composition]] |
 | if the light of Tabor is uncreated, it is God's essence, which no one can see | it is uncreated but not the essence: an energy |
 | so it must be created, a symbol | then the apostles saw a created phenomenon, and theosis is metaphor |

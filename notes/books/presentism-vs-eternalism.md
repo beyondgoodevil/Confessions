@@ -12,12 +12,12 @@ source: "The Oxford Handbook of Metaphysics, eds. Loux and Zimmerman (OUP, 2003)
 
 ## 1. The Views
 
-| View | What exists | Does the present move? |
-|---|---|---|
-| **Presentism** | present things only | yes (A-theory) |
-| **Growing block** (Broad, Tooley) | past and present, no future | yes |
-| **Moving spotlight** | everything, with a privileged "now" sliding along | yes |
-| **Static eternalism** ("block universe") | everything | no (B-theory) |
+| View                                     | What exists | Does the present move? |
+| ---------------------------------------- | --- | ---------------------- |
+| **Presentism**                           | present things only | yes (A-theory)         |
+| **Growing block** (Broad, Tooley)        | past and present, no future | yes                    |
+| **Moving spotlight**                     | everything, with a privileged "now" sliding along | yes                    |
+| **Static eternalism** ("block universe") | everything | no (B-theory)          |
 
 - **A-theory / B-theory** (from McTaggart): A = there's an objective fact about which time is present, and it changes. B = there are only earlier-than / later-than relations.
 - Crisp groups the middle two as "dynamic eternalism": the *totality of events that exist* changes over time.

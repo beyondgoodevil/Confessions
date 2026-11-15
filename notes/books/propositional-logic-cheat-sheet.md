@@ -12,13 +12,13 @@ Propositional logic = arguments that depend on "not", "and", "or", "if-then", "i
 
 ## 1. Symbols
 
-| Symbol | Read | Name | Gensler writes |
-|---|---|---|---|
-| ¬P | not P | negation | ∼P |
-| P ∧ Q | P and Q | conjunction | (P · Q) |
-| P ∨ Q | P or Q (or both) | disjunction | (P ∨ Q) |
-| P → Q | if P then Q | conditional | (P ⊃ Q) |
-| P ↔ Q | P if and only if Q | biconditional | (P ≡ Q) |
+| Symbol | Read               | Name          | Gensler writes |
+| ------ | ------------------ | ------------- | -------------- |
+| ¬P     | not P              | negation      | ∼P             |
+| P ∧ Q  | P and Q            | conjunction   | (P · Q)        |
+| P ∨ Q  | P or Q (or both)   | disjunction   | (P ∨ Q)        |
+| P → Q  | if P then Q        | conditional   | (P ⊃ Q)        |
+| P ↔ Q  | P if and only if Q | biconditional | (P ≡ Q)        |
 
 - In P → Q, P is the **antecedent**, Q the **consequent**.
 - "Or" is inclusive unless you say otherwise.
@@ -31,12 +31,12 @@ Propositional logic = arguments that depend on "not", "and", "or", "if-then", "i
 
 1 = true, 0 = false.
 
-| P | Q | P ∧ Q | P ∨ Q | P → Q | P ↔ Q |
-|---|---|---|---|---|---|
-| 0 | 0 | 0 | 0 | 1 | 1 |
-| 0 | 1 | 0 | 1 | 1 | 0 |
-| 1 | 0 | 0 | 1 | 0 | 0 |
-| 1 | 1 | 1 | 1 | 1 | 1 |
+| P   | Q   | P ∧ Q | P ∨ Q | P → Q | P ↔ Q |
+| --- | --- | ----- | ----- | ----- | ----- |
+| 0   | 0   | 0     | 0     | 1     | 1     |
+| 0   | 1   | 0     | 1     | 1     | 0     |
+| 1   | 0   | 0     | 1     | 0     | 0     |
+| 1   | 1   | 1     | 1     | 1     | 1     |
 
 - AND: true only when both are.
 - OR: false only when both are.
@@ -49,12 +49,12 @@ Propositional logic = arguments that depend on "not", "and", "or", "if-then", "i
 
 Modus tollens, checked:
 
-| P | Q | P → Q | ¬Q | ∴ ¬P |
-|---|---|---|---|---|
-| 0 | 0 | 1 | 1 | 1 |
-| 0 | 1 | 1 | 0 | 1 |
-| 1 | 0 | 0 | 1 | 0 |
-| 1 | 1 | 1 | 0 | 0 |
+| P   | Q   | P → Q | ¬Q  | ∴ ¬P |
+| --- | --- | ----- | --- | ---- |
+| 0   | 0   | 1     | 1   | 1    |
+| 0   | 1   | 1     | 0   | 1    |
+| 1   | 0   | 0     | 1   | 0    |
+| 1   | 1   | 1     | 0   | 0    |
 
 Only row 1 has both premises true, and there the conclusion is true. Valid.
 
@@ -64,15 +64,15 @@ Only row 1 has both premises true, and there the conclusion is true. Valid.
 
 ## 4. The Valid Forms to Know
 
-| Name | Form | Example |
-|---|---|---|
-| **Modus ponens** (MP) | P → Q, P ∴ Q | If it rains the match is off. It's raining. So it's off. |
-| **Modus tollens** (MT) | P → Q, ¬Q ∴ ¬P | ...The match isn't off. So it isn't raining. |
-| **Disjunctive syllogism** (DS) | P ∨ Q, ¬P ∴ Q | Either the butler or the maid. Not the butler. So the maid. |
-| **Conjunctive syllogism** | ¬(P ∧ Q), P ∴ ¬Q | Can't be both in Rome and in Paris. In Rome. So not in Paris. |
-| **Hypothetical syllogism** | P → Q, Q → R ∴ P → R | chain of if-thens |
-| **Simplification** | P ∧ Q ∴ P | |
-| **Reductio** | assume P, derive a contradiction ∴ ¬P | |
+| Name                           | Form                                  | Example |
+| ------------------------------ | ------------------------------------- | --- |
+| **Modus ponens** (MP)          | P → Q, P ∴ Q                          | If it rains the match is off. It's raining. So it's off. |
+| **Modus tollens** (MT)         | P → Q, ¬Q ∴ ¬P                        | ...The match isn't off. So it isn't raining. |
+| **Disjunctive syllogism** (DS) | P ∨ Q, ¬P ∴ Q                         | Either the butler or the maid. Not the butler. So the maid. |
+| **Conjunctive syllogism**      | ¬(P ∧ Q), P ∴ ¬Q                      | Can't be both in Rome and in Paris. In Rome. So not in Paris. |
+| **Hypothetical syllogism**     | P → Q, Q → R ∴ P → R                  | chain of if-thens |
+| **Simplification**             | P ∧ Q ∴ P                             | |
+| **Reductio**                   | assume P, derive a contradiction ∴ ¬P | |
 
 Gensler sorts his rules into two piles, which helps:
 
@@ -86,10 +86,10 @@ His proof method is basically reductio every time: assume the opposite of the co
 
 ## 5. The Two Invalid Look-Alikes
 
-| Name | Form | Why it fails |
-|---|---|---|
-| **Affirming the consequent** | P → Q, Q ∴ P | Q could be true for another reason. "If it rained the street's wet. The street's wet. So it rained." (Street cleaner.) |
-| **Denying the antecedent** | P → Q, ¬P ∴ ¬Q | same problem. "It didn't rain, so the street isn't wet." |
+| Name                         | Form           | Why it fails |
+| ---------------------------- | -------------- | --- |
+| **Affirming the consequent** | P → Q, Q ∴ P   | Q could be true for another reason. "If it rained the street's wet. The street's wet. So it rained." (Street cleaner.) |
+| **Denying the antecedent**   | P → Q, ¬P ∴ ¬Q | same problem. "It didn't rain, so the street isn't wet." |
 
 Trick for remembering: with an if-then you may **affirm the front** (MP) or **deny the back** (MT). The other two are the fallacies.
 

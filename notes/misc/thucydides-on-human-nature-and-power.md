@@ -130,12 +130,12 @@ In 416, in the middle of a nominal peace, Athens came to neutral Melos, a Sparta
 
 ## 9. Comparison
 
-| question | **Athenian envoys** | **Diodotus** | **Spartans and Melians** | **Thucydides (Orwin)** | **Price** |
-|---|---|---|---|---|---|
-| what moves cities? | fear, honour, interest, as compulsions | hope, greed, eros, fortune | justice and the gods (so they say) | the same, plus self-deception | the passions of stasis |
-| is justice real? | only between equals | set aside in deliberation | yes, but used as a mask | real and good, rarely decisive | concepts ruined by war |
-| the gods | rule where they can, like men | (silent) | protect the just | no visible providence; piety needed but limited | (secondary) |
-| lesson | yield to the stronger | moderation from understanding | trust in right | avoid the abyss; prefer sober regimes | the war was a Hellenic civil war |
+| question           | **Athenian envoys**                    | **Diodotus**                  | **Spartans and Melians**           | **Thucydides (Orwin)**                          | **Price**                        |
+| ------------------ | -------------------------------------- | ----------------------------- | ---------------------------------- | ----------------------------------------------- | -------------------------------- |
+| what moves cities? | fear, honour, interest, as compulsions | hope, greed, eros, fortune    | justice and the gods (so they say) | the same, plus self-deception                   | the passions of stasis           |
+| is justice real?   | only between equals                    | set aside in deliberation     | yes, but used as a mask            | real and good, rarely decisive                  | concepts ruined by war           |
+| the gods           | rule where they can, like men          | (silent)                      | protect the just                   | no visible providence; piety needed but limited | (secondary)                      |
+| lesson             | yield to the stronger                  | moderation from understanding | trust in right                     | avoid the abyss; prefer sober regimes           | the war was a Hellenic civil war |
 
 ## 10. Assessment
 

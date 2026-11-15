@@ -73,11 +73,11 @@ Names in brackets below (Bradley, Keyt, Irwin…) are the authors of essays in t
     - All Greeks agreed the *agathos* (good man) should rule, deliberate and defend the city (Adkins).
 - **Six constitutions**: rule by one, few or many, for the **common good** (correct) or for the rulers' own interest (deviant):
 
-| Rulers | Correct | Deviant |
-|---|---|---|
-| one | kingship | tyranny |
-| few | aristocracy | oligarchy (really: rule of the rich) |
-| many | **polity** (*politeia*) | democracy (really: rule of the poor) |
+| Rulers | Correct                 | Deviant                              |
+| ------ | ----------------------- | ------------------------------------ |
+| one    | kingship                | tyranny                              |
+| few    | aristocracy             | oligarchy (really: rule of the rich) |
+| many   | **polity** (*politeia*) | democracy (really: rule of the poor) |
 
 - The three good constitutions in descending order, the three bad in descending badness: "**the corruption of the best (kingship) is the worst (tyranny)**" (Bradley).
 - Deviant constitutions are posterior **evaluatively** (they're bad). Plato's *Laws*: the Stranger refuses the name "constitution" to arrangements not for the common good.

@@ -26,7 +26,7 @@ See [[Nietzsche: The Will to Power]] for the Nietzsche side.
 ## 2. Versions Linville Sets Aside
 
 | Version | Problem |
-|---|---|
+| --- | --- |
 | **Law needs a lawgiver** | trades on an ambiguity of "law" |
 | **Carrot and stick**: no heaven or hell, no reason to be moral | makes morality self-interest |
 | **Only believers can know right and wrong** | false: Rom 2:14-15, the law "written in their hearts" |
@@ -69,10 +69,10 @@ Either way naturalism can't guarantee that moral beliefs which help survival are
 - What we take as obvious (rape is wrong, torturing children for fun is wrong) seems to rest on the **worth of persons**: persons ought never to be treated that way. Kant's "never merely as a means".
 - Test the main theories against this:
 
-| Theory | Why it fails to explain the wrongness of, say, rape |
-|---|---|
-| **Utilitarianism** | wrong only because it lowers total welfare; could be right if it raised it. Persons are just containers for utility (Rawls: doesn't take seriously the distinction between persons) |
-| **Virtue ethics** (Hursthouse) | "raping would be uncharitable" is true but grotesquely understated. The wrong is to the *victim*, not a flaw in the rapist's character. Midgley: refraining from cruelty only to keep one's own character clean is narcissistic |
+| Theory                                | Why it fails to explain the wrongness of, say, rape |
+| ------------------------------------- | --- |
+| **Utilitarianism**                    | wrong only because it lowers total welfare; could be right if it raised it. Persons are just containers for utility (Rawls: doesn't take seriously the distinction between persons) |
+| **Virtue ethics** (Hursthouse)        | "raping would be uncharitable" is true but grotesquely understated. The wrong is to the *victim*, not a flaw in the rapist's character. Midgley: refraining from cruelty only to keep one's own character clean is narcissistic |
 | **Environmental / biocentric ethics** | puts persons on a level with other living things; loses what's special about persons |
 
 - Linville: a virtue ethic grounded in **respect for persons** could work, but then dignity is doing the work.
@@ -88,7 +88,7 @@ Either way naturalism can't guarantee that moral beliefs which help survival are
 ## 5. Common Objections
 
 | Objection | Reply |
-|---|---|
+| --- | --- |
 | **Euthyphro**: is it good because God commands it, or does He command it because it's good? | neither: God's commands come from His nature, which *is* the good. See [[The Euthyphro Dilemma and the Orthodox Answer]] |
 | **Moral realism without God** (Shafer-Landau, Wielenberg, Enoch): moral facts are just brute necessary truths | possible in principle, but then there's no explanation of why our faculties grasp them (sec. 3), and no explanation of why persons, of all things, have this worth (sec. 4) |
 | **Atheists know morality fine** | agreed: the argument is about grounding, not knowledge. Rom 2:14-15 |

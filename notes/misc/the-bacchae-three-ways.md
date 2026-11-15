@@ -116,14 +116,14 @@ Seaford, *Dionysos* ch. 9:
 
 ## 8. Comparison
 
-| reader | Dionysus is | Pentheus is | the play is |
-|---|---|---|---|
-| **Nietzsche** | the primal unity, the truth beneath appearances | the individual who must be broken | the old Socratic poet's recantation |
+| reader                | Dionysus is | Pentheus is | the play is                                  |
+| --------------------- | --- | --- | -------------------------------------------- |
+| **Nietzsche**         | the primal unity, the truth beneath appearances | the individual who must be broken | the old Socratic poet's recantation          |
 | **Winnington-Ingram** | a real and terrible force, beyond good and evil, odious as a person | a repressed man destroyed by what he denies | a poet's clear-eyed refusal to worship power |
-| **Hinden** | the target of irony | a pathetic adolescent, no tragic mask | the strongest case *for* Nietzsche's charge |
-| **Dodds / Seaford** | the god of real ecstatic and mystery cult | the initiand who refuses initiation and dies for real | a mystery play and a civic drama |
-| **Otto** | the god of madness, mask and duality, life and death in one | the resister of the god who comes | the deepest revelation of the Dionysian |
-| **Girard** | the god of the founding lynching | the scapegoat of a staged crisis | a myth half-exposed by tragedy |
+| **Hinden**            | the target of irony | a pathetic adolescent, no tragic mask | the strongest case *for* Nietzsche's charge  |
+| **Dodds / Seaford**   | the god of real ecstatic and mystery cult | the initiand who refuses initiation and dies for real | a mystery play and a civic drama             |
+| **Otto**              | the god of madness, mask and duality, life and death in one | the resister of the god who comes | the deepest revelation of the Dionysian      |
+| **Girard**            | the god of the founding lynching | the scapegoat of a staged crisis | a myth half-exposed by tragedy               |
 
 ## 9. Assessment
 

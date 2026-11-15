@@ -90,14 +90,14 @@ John Hartmann, "Garry Kasparov Is a Cyborg".
 
 ## 9. The Positions at a Glance
 
-| | Does the computer understand chess? | Key reason |
-|---|---|---|
-| **Searle** (implied) | No | Symbol manipulation isn't understanding; no intentionality |
-| **Miah** | No, and chess is the wrong test | It doesn't know it's playing a game; chess is "too easy" |
-| **Coutts** | Yes, in a limited sense | Systems reply: chess needs no beliefs or desires; human and machine differ only in degree |
-| **Dreyfus** | No; it plays differently | Experts perceive and intuit; machines calculate |
-| **Selinger** | Not as humans do | Human play is embodied, temporal, marked by culture and desire |
-| **Hartmann** | Wrong question | The real unit is the human–machine hybrid |
+|                      | Does the computer understand chess? | Key reason |
+| -------------------- | ----------------------------------- | --- |
+| **Searle** (implied) | No                                  | Symbol manipulation isn't understanding; no intentionality |
+| **Miah**             | No, and chess is the wrong test     | It doesn't know it's playing a game; chess is "too easy" |
+| **Coutts**           | Yes, in a limited sense             | Systems reply: chess needs no beliefs or desires; human and machine differ only in degree |
+| **Dreyfus**          | No; it plays differently            | Experts perceive and intuit; machines calculate |
+| **Selinger**         | Not as humans do                    | Human play is embodied, temporal, marked by culture and desire |
+| **Hartmann**         | Wrong question                      | The real unit is the human–machine hybrid |
 
 ## 10. Assessment
 

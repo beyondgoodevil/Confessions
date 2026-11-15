@@ -8,23 +8,23 @@ summary: Ethics built on character, not rules or outcomes. Aristotle's arete, eu
 
 Three ways to do ethics:
 
-| | Asks | Right action is |
-|---|---|---|
-| **Deontology** (Kant) | what is my duty? | following the right rule |
-| **Consequentialism** (Mill) | what will turn out best? | producing the best outcome |
+|                               | Asks | Right action is |
+| ----------------------------- | --- | --- |
+| **Deontology** (Kant)         | what is my duty? | following the right rule |
+| **Consequentialism** (Mill)   | what will turn out best? | producing the best outcome |
 | **Virtue ethics** (Aristotle) | what kind of person should I be? how should I live? | what a virtuous person would characteristically do |
 
 Virtue ethics looks at a whole life, not isolated acts. The Fathers' ethics is much closer to this than to the other two, which is why it's worth understanding.
 
 ## 1. Aristotle's Terms
 
-| Term | Means |
-|---|---|
-| ***arete*** | excellence. Of a knife: cutting. Of a human: living well as a rational being |
+| Term             | Means |
+| ---------------- | --- |
+| ***arete***      | excellence. Of a knife: cutting. Of a human: living well as a rational being |
 | ***eudaimonia*** | flourishing, the best kind of life. Not "happiness" as a feeling. Wanted for itself, and everything else for it |
-| ***phronesis*** | practical wisdom: seeing what matters in *this* situation and how to act. Comes mostly with experience |
-| **the mean** | virtue lies between excess and deficiency, relative to the person and situation. Courage between rashness and cowardice |
-| **habituation** | we become just by doing just acts, like builders by building. Then it becomes second nature |
+| ***phronesis***  | practical wisdom: seeing what matters in *this* situation and how to act. Comes mostly with experience |
+| **the mean**     | virtue lies between excess and deficiency, relative to the person and situation. Courage between rashness and cowardice |
+| **habituation**  | we become just by doing just acts, like builders by building. Then it becomes second nature |
 
 - **The function argument**: everything has a function; man's is reason; so the good life is activity of soul in accordance with reason, i.e. with virtue.
 - The mean isn't "moderation in all things". Sometimes the right amount of anger is a lot.
@@ -44,7 +44,7 @@ Anscombe's point is the same as [[Is Ought]] from the other side.
 ## 3. Objections and Replies
 
 | Objection | Reply |
-|---|---|
+| --- | --- |
 | **No guidance**: "be virtuous" doesn't tell me what to do | virtue terms do guide: "don't do what's dishonest, cruel, cowardly". And rules have never settled hard cases either |
 | **Circular**: right = what the virtuous do; virtuous = does what's right | the virtues are defined by flourishing and human nature, not by "right" |
 | **Relativism**: virtues differ by culture | Nussbaum: the virtues are the same (how to handle fear, desire, others' needs); local *understandings* differ. And the other theories face the same problem |
@@ -74,7 +74,7 @@ Anscombe's point is the same as [[Is Ought]] from the other side.
 **Where they change it**
 
 | Aristotle | The Fathers |
-|---|---|
+| --- | --- |
 | goal: *eudaimonia*, flourishing as a rational animal | goal: **theosis**, union with God. Flourishing is fulfilled *beyond* nature |
 | virtue acquired by our effort | virtue is **synergy**: grace and effort together. Without Christ "ye can do nothing" (John 15:5) |
 | top virtue: contemplation, or magnanimity (the great-souled man, who knows his worth) | top virtues: **love** and **humility**. Aristotle's great-souled man would look to the Fathers like vainglory |

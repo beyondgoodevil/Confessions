@@ -53,12 +53,12 @@ Very fun attack on the New Atheists. Feser's claim: the "superstition" of the ti
 - **Form and matter** (hylomorphism): a thing is matter organised by a form.
 - **The four causes**:
 
-| Cause | Question | For a statue |
-|---|---|---|
-| material | what is it made of? | bronze |
-| formal | what is it? | the shape |
-| efficient | what made it? | the sculptor |
-| **final** | what is it for? | to honour a hero |
+| Cause     | Question            | For a statue     |
+| --------- | ------------------- | ---------------- |
+| material  | what is it made of? | bronze           |
+| formal    | what is it?         | the shape        |
+| efficient | what made it?       | the sculptor     |
+| **final** | what is it for?     | to honour a hero |
 
 - Other examples: a rubber ball (material: rubber); a heart (formal: muscle tissue organised into atria and ventricles; final: pumping blood).
 - **Final causes** are everywhere in nature, not just in design: an acorn is directed toward being an oak, fire toward heat. Even basic efficient causation needs them: a cause "points to" its typical effect. Feser's key thesis: "**Final causality underlies all potentiality and thus all materiality.**"

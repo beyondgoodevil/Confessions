@@ -19,12 +19,12 @@ Hume's starting point is empiricism taken all the way. If every idea comes from 
 
 **Hume's fork** (§4)
 
-| Relations of ideas | Matters of fact |
-|---|---|
-| maths, logic: "3 × 5 = 15" | "the sun will rise tomorrow" |
-| known by thought alone | known only by experience |
-| denial is a contradiction | denial is perfectly conceivable |
-| certain | at best probable |
+| Relations of ideas         | Matters of fact                 |
+| -------------------------- | ------------------------------- |
+| maths, logic: "3 × 5 = 15" | "the sun will rise tomorrow"    |
+| known by thought alone     | known only by experience        |
+| denial is a contradiction  | denial is perfectly conceivable |
+| certain                    | at best probable                |
 
 Everything we believe about the world beyond present perception and memory is a **matter of fact**, and rests on **cause and effect**.
 
@@ -67,15 +67,15 @@ Hume's own answer is **sceptical but practical**: we do it from **custom or habi
 
 ## 4. Replies
 
-| Reply | Who | Idea |
-|---|---|---|
-| **Synthetic a priori** | Kant | causation is a category the mind brings to experience; experience is impossible without it. Answers Hume by making causation necessary for *us*, but at the cost of the thing in itself. Kant: Hume "woke me from my dogmatic slumber" |
-| **Common sense** | Thomas Reid | we have a first principle of trusting our faculties and the uniformity of nature. Hume trusts reason and the senses selectively; that's arbitrary |
-| **Dissolution** | Strawson | asking for justification of induction as a whole is confused: being reasonable *means* reasoning inductively |
-| **Falsification** | Popper | science doesn't use induction; it conjectures and refutes. Critics: then why rely on well-tested theories? |
-| **Bayesian** | | updating probabilities. Still needs priors that favour uniformity |
-| **Inference to the best explanation** | Armstrong, Foster | regularities are best explained by real laws or necessitation relations; once you have those, induction follows |
-| **Powers / natures** | Aristotelians (Feser, Mumford) | things have **natures** and **causal powers**. Fire burns because it's *fire*. Hume's mistake was to look at events and not substances. The regularity comes from what things are |
+| Reply                                 | Who                            | Idea |
+| ------------------------------------- | ------------------------------ | --- |
+| **Synthetic a priori**                | Kant                           | causation is a category the mind brings to experience; experience is impossible without it. Answers Hume by making causation necessary for *us*, but at the cost of the thing in itself. Kant: Hume "woke me from my dogmatic slumber" |
+| **Common sense**                      | Thomas Reid                    | we have a first principle of trusting our faculties and the uniformity of nature. Hume trusts reason and the senses selectively; that's arbitrary |
+| **Dissolution**                       | Strawson                       | asking for justification of induction as a whole is confused: being reasonable *means* reasoning inductively |
+| **Falsification**                     | Popper                         | science doesn't use induction; it conjectures and refutes. Critics: then why rely on well-tested theories? |
+| **Bayesian**                          |                                | updating probabilities. Still needs priors that favour uniformity |
+| **Inference to the best explanation** | Armstrong, Foster              | regularities are best explained by real laws or necessitation relations; once you have those, induction follows |
+| **Powers / natures**                  | Aristotelians (Feser, Mumford) | things have **natures** and **causal powers**. Fire burns because it's *fire*. Hume's mistake was to look at events and not substances. The regularity comes from what things are |
 
 ## 5. Hume and God
 

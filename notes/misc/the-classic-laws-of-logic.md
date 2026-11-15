@@ -42,14 +42,14 @@ They are not just rules of thought but laws of **being**: a thing can't be and n
 
 The main non-classical logics (Priest, *An Introduction to Non-Classical Logic*):
 
-| Logic | Drops | Motivation |
-|---|---|---|
-| **Intuitionist** (Brouwer, Heyting) | **excluded middle** (and double negation) | in mathematics, a statement is true only if proved; for some statements we have neither proof nor disproof |
+| Logic                                 | Drops | Motivation |
+| ------------------------------------- | --- | --- |
+| **Intuitionist** (Brouwer, Heyting)   | **excluded middle** (and double negation) | in mathematics, a statement is true only if proved; for some statements we have neither proof nor disproof |
 | **Many-valued** (Kleene, Łukasiewicz) | bivalence | future contingents ("there will be a sea battle tomorrow": Aristotle, *De Interpretatione* 9) may be neither true nor false yet; also sentences with names that refer to nothing |
-| **Fuzzy** | sharp truth values | vagueness: "bald", "heap" (the sorites paradox) |
-| **Paraconsistent** | **explosion** (from a contradiction, anything follows) | to reason with inconsistent information without everything following |
-| **Dialetheism** (Priest) | **non-contradiction** itself: some contradictions are **true** | the Liar paradox ("this sentence is false"); paradoxes of set theory |
-| **Quantum** (Birkhoff, von Neumann) | distributive law | quantum mechanics |
+| **Fuzzy**                             | sharp truth values | vagueness: "bald", "heap" (the sorites paradox) |
+| **Paraconsistent**                    | **explosion** (from a contradiction, anything follows) | to reason with inconsistent information without everything following |
+| **Dialetheism** (Priest)              | **non-contradiction** itself: some contradictions are **true** | the Liar paradox ("this sentence is false"); paradoxes of set theory |
+| **Quantum** (Birkhoff, von Neumann)   | distributive law | quantum mechanics |
 
 **Details from Priest**
 - **Intuitionism** began with Brouwer (who thought arithmetic was the Kantian "pure form of temporal intuition"); Heyting axiomatised it in 1930; Kripke gave its possible-world semantics. Dummett later argued for it from the theory of **meaning**: if meaning is what we can show we understand, not Frege's truth conditions, then a sentence we can neither prove nor refute isn't guaranteed to be true or false.

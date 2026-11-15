@@ -8,10 +8,10 @@ summary: Speaking of God by negation and by affirmation, and why the Orthodox tr
 
 Two ways of speaking about God:
 
-| | Cataphatic (*kataphasis*, affirmation) | Apophatic (*apophasis*, negation) |
-|---|---|---|
-| Says | what God is: good, wise, light, love | what God is not: not limited, not visible, not comprehensible |
-| Based on | what God has revealed | that God's essence exceeds every concept |
+|               | Cataphatic (*kataphasis*, affirmation)       | Apophatic (*apophasis*, negation) |
+| ------------- | -------------------------------------------- | --- |
+| Says          | what God is: good, wise, light, love         | what God is not: not limited, not visible, not comprehensible |
+| Based on      | what God has revealed                        | that God's essence exceeds every concept |
 | Risk if alone | an idol: God as one more thing we can define | empty agnosticism, or a God with nothing to say |
 
 The site uses "apophatic" in a dozen notes without ever explaining it. This is that note.
@@ -39,7 +39,7 @@ Note John 1:18: the same verse that says no one has seen God says the Son has ma
 ## 3. The Fathers
 
 | Father | What he says |
-|---|---|
+| --- | --- |
 | **Philo** (1st c., Jewish) | God's existence can be known, not His essence. Moses in the darkness |
 | **Clement of Alexandria** | reach God by abstraction: take away body, then dimension, then position... |
 | **St. Gregory of Nyssa** (*Life of Moses*) | true knowledge of God is seeing that He is invisible; the darkness of Sinai is where God is. Ascent never ends (*epektasis*) |

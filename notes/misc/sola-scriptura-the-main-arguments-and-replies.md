@@ -25,40 +25,40 @@ The claim is about **sufficiency** (everything necessary is there), **perspicuit
 **2 Tim 3:16-17**: "**All scripture is given by inspiration of God**, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be **perfect, throughly furnished unto all good works**."
 
 | Protestant | Reply |
-|---|---|
+| --- | --- |
 | Scripture is inspired and makes us complete; so it's sufficient | "profitable" isn't "sufficient". And "scripture" here is the OT (the NT wasn't complete): if this proves sufficiency, it proves the OT alone is sufficient |
-| | the verse before: "**continue thou in the things which thou hast learned**... knowing **of whom thou hast learned them**" (3:14). Timothy is pointed to Paul's oral teaching too. And 2:2: "the things that thou hast heard of me... **commit thou to faithful men**" |
-| | James 1:4 says patience makes us "perfect and entire, wanting nothing". Not sufficiency of patience alone |
+|  | the verse before: "**continue thou in the things which thou hast learned**... knowing **of whom thou hast learned them**" (3:14). Timothy is pointed to Paul's oral teaching too. And 2:2: "the things that thou hast heard of me... **commit thou to faithful men**" |
+|  | James 1:4 says patience makes us "perfect and entire, wanting nothing". Not sufficiency of patience alone |
 
 **Mark 7:8-13** / Matt 15: "**laying aside the commandment of God, ye hold the tradition of men**... **making the word of God of none effect through your tradition**."
 
-| Protestant | Reply |
-|---|---|
+| Protestant               | Reply |
+| ------------------------ | --- |
 | Jesus condemns tradition | He condemns *human* traditions that contradict God's command (Corban). Paul *commands* apostolic tradition: 2 Thess 2:15. The issue is which tradition, not tradition as such. See [[Overview of Where Jesus Refers to Oral Tradition]] |
-| | and Jesus Himself accepts oral tradition: Matt 23:2-3 ("Moses' seat"), Matt 2:23 ("He shall be called a Nazarene", in no OT book) |
+|                          | and Jesus Himself accepts oral tradition: Matt 23:2-3 ("Moses' seat"), Matt 2:23 ("He shall be called a Nazarene", in no OT book) |
 
 **Acts 17:11**: the Bereans "searched the scriptures daily, whether those things were so."
 
-| Protestant | Reply |
-|---|---|
+| Protestant                                       | Reply |
+| ------------------------------------------------ | --- |
 | they tested apostolic teaching against Scripture | they were testing whether Jesus was the Messiah against OT prophecy. They then accepted Paul's oral preaching as God's word (1 Thess 2:13). See [[1 Thessalonians 2:13: Paul Teaches Oral Tradition]] |
 
 **Isa 8:20**: "**To the law and to the testimony**: if they speak not according to this word, it is because there is no light in them."
 
-| Protestant | Reply |
-|---|---|
+| Protestant                        | Reply |
+| --------------------------------- | --- |
 | everything is tested by Scripture | the Orthodox agree that true tradition doesn't contradict Scripture. It doesn't follow that Scripture is the *only* rule |
 
 **Rev 22:18**: "**If any man shall add unto these things**, God shall add unto him the plagues."
 
-| Protestant | Reply |
-|---|---|
+| Protestant             | Reply |
+| ---------------------- | --- |
 | don't add to Scripture | refers to the book of Revelation. Deut 4:2 says the same of the Law, and then came the Prophets and the NT |
 
 **1 Cor 4:6**: "**not to think of men above that which is written**."
 
-| Protestant | Reply |
-|---|---|
+| Protestant                | Reply |
+| ------------------------- | --- |
 | don't go beyond Scripture | the context is about pride among teachers; "that which is written" probably refers to the OT texts Paul just cited. Very unclear |
 
 **Historical argument**: the Fathers constantly appeal to Scripture as the final authority (Athanasius: "the holy and inspired Scriptures are sufficient for the declaration of truth"; Cyril of Jerusalem: "do not believe me unless you receive the proof from the Scriptures").

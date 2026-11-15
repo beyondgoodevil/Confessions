@@ -131,13 +131,13 @@ His conclusion is restrained: some ontological arguments are sound, non-question
 
 ## 7. Where It Stands
 
-| Version | Valid? | Weak point |
-|---|---|---|
-| Anselm | yes, as reconstructed | "greater", existence-in-reality as great-making |
-| Descartes–Leibniz | yes | is existence a perfection? are perfections compatible? |
-| Malcolm / Hartshorne / Plantinga | yes (S5) | the possibility premise; reverse parody |
-| Gödel | yes | what "positive" means; modal collapse |
-| Maydole | yes | Barcan formula; premise 3 |
+| Version                          | Valid?                | Weak point |
+| -------------------------------- | --------------------- | --- |
+| Anselm                           | yes, as reconstructed | "greater", existence-in-reality as great-making |
+| Descartes–Leibniz                | yes                   | is existence a perfection? are perfections compatible? |
+| Malcolm / Hartshorne / Plantinga | yes (S5)              | the possibility premise; reverse parody |
+| Gödel                            | yes                   | what "positive" means; modal collapse |
+| Maydole                          | yes                   | Barcan formula; premise 3 |
 
 General worries:
 
