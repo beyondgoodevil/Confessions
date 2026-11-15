@@ -127,11 +127,11 @@ function toolbar() {
   </div>`;
 }
 // Shown under the editor: a live outline of the headings and a list of things to check before publishing.
-const sidePanels = () => `<div class="w-side"><details class="w-outline" open><summary>Outline</summary><ol></ol></details>
-  <details class="w-checks" open><summary>Before you publish</summary><ul></ul></details></div>`;
+const sidePanels = () => `<div class="w-side"><details class="w-checks" open><summary>Before you publish</summary><ul></ul></details>
+  <details class="w-outline"><summary>Outline</summary><ol></ol></details></div>`;
 
 /* ---- structure helpers ---- */
-const UNNUMBERED = /^(related|references|footnotes|see also|sources|further reading)$/i;
+const UNNUMBERED = /^(related|references|footnotes|see also|sources|further reading|conclusion)$/i;
 const NUM_PREFIX = /^(\d+|[IVXLC]+)[.)]\s+/;
 // Every heading in the body with its line number, skipping fenced code.
 function headings(body) {
@@ -143,14 +143,44 @@ function headings(body) {
   });
   return out;
 }
+// The level a note's sections sit at: ### when it has two or more of those and fewer than two ## sections
+// (the house style: "### 1. Title", then "### Conclusion" and "## Related"), otherwise ##.
+function sectionLevel(hs) {
+  const real = l => hs.filter(h => h.level === l && !UNNUMBERED.test(h.text.replace(NUM_PREFIX, ''))).length;
+  return real(3) >= 2 && real(2) < 2 ? 3 : 2;
+}
 function numberSections(body, strip) {
-  const lines = body.split('\n'); let n = 0;
-  for (const h of headings(body)) {
-    if (h.level !== 2) continue;
+  const lines = body.split('\n'), hs = headings(body), lvl = sectionLevel(hs); let n = 0;
+  for (const h of hs) {
+    if (h.level !== lvl) continue;
     const bare = h.text.replace(NUM_PREFIX, '');
-    lines[h.line] = '## ' + (strip || UNNUMBERED.test(bare) ? bare : `${++n}. ${bare}`);
+    lines[h.line] = '#'.repeat(lvl) + ' ' + (strip || UNNUMBERED.test(bare) ? bare : `${++n}. ${bare}`);
   }
   return lines.join('\n');
+}
+// How the sections are numbered: { lvl, real (the headings that take a number), numbered (how many have one), inOrder }
+function numbering(body) {
+  const hs = headings(body), lvl = sectionLevel(hs);
+  const real = hs.filter(h => h.level === lvl && !UNNUMBERED.test(h.text.replace(NUM_PREFIX, '')));
+  const nums = real.map(h => (h.text.match(/^(\d+)[.)]\s/) || [])[1]).map(x => x ? +x : null);
+  return { lvl, real, numbered: nums.filter(x => x != null).length, inOrder: nums.every((x, i) => x === i + 1) };
+}
+// Replace the whole text but keep the caret on the same line, at the same distance from the end of that line.
+function replaceBody(ta, next) {
+  if (next === ta.value) return false;
+  const before = ta.value.slice(0, ta.selectionStart), line = before.split('\n').length - 1;
+  const oldLine = ta.value.split('\n')[line] || '', fromEnd = oldLine.length - (before.length - (before.lastIndexOf('\n') + 1));
+  const top = ta.scrollTop; ta.value = next;
+  const lines = next.split('\n'), l = Math.min(line, lines.length - 1);
+  const pos = lines.slice(0, l).join('\n').length + (l ? 1 : 0) + Math.max(0, lines[l].length - Math.max(0, fromEnd));
+  ta.selectionStart = ta.selectionEnd = pos; ta.scrollTop = top;
+  return true;
+}
+function jumpToLine(ta, line, len) {
+  const lines = ta.value.split('\n'), l = Math.max(0, Math.min(line, lines.length - 1)), pos = lines.slice(0, l).join('\n').length + (l ? 1 : 0);
+  ta.focus(); ta.selectionStart = pos; ta.selectionEnd = pos + (len == null ? lines[l].length : len);
+  ta.scrollTop = Math.max(0, (l / Math.max(1, lines.length)) * ta.scrollHeight - 80);
+  ta.scrollIntoView({ block: 'nearest' });
 }
 const wikiLinks = body => [...body.matchAll(/(!?)\[\[([^\]\n|#]+)(?:#[^\]\n|]*)?(?:\|[^\]\n]*)?\]\]/g)].filter(m => !m[1]).map(m => m[2].trim());
 function noteIndex() {
@@ -360,6 +390,14 @@ function smartKey(e, ta) {
   const v = ta.value, s = ta.selectionStart, en = ta.selectionEnd, ls = v.lastIndexOf('\n', s - 1) + 1;
   if (e.key === 'Enter' && !e.shiftKey && s === en) {
     const line = v.slice(ls, s), m = line.match(/^(\s*)(?:([-*+])|(\d+)([.)])|(>))(\s+)(.*)$/);
+    const hm = !m && s === (v.indexOf('\n', s) < 0 ? v.length : v.indexOf('\n', s)) && line.match(/^(#{2,3})[ \t]+(\S.*)$/);
+    if (hm) {      // a heading just typed: give it its number if the other sections have theirs
+      const nb = numbering(v);
+      if (hm[1].length === nb.lvl && !NUM_PREFIX.test(hm[2]) && !UNNUMBERED.test(hm[2].trim()) && nb.real.length >= 2 && nb.numbered === nb.real.length - 1) {
+        replaceBody(ta, numberSections(v, false));
+        const at = ta.selectionStart; ta.setRangeText('\n\n', at, at, 'end'); ta.dispatchEvent(new Event('input')); return true;
+      }
+    }
     if (!m) return false;
     if (!m[7].trim()) { ta.setRangeText('', ls, s, 'end'); ta.dispatchEvent(new Event('input')); return true; }
     const marker = m[2] || (m[3] ? (+m[3] + 1) + m[4] : m[5]);
@@ -385,37 +423,60 @@ function drawOutline(root, ta) {
     || '<li class="w-empty">No headings yet. Start a section with <code>## </code>.</li>';
 }
 const SMALL_WORDS = /^(a|an|and|as|at|but|by|for|from|if|in|into|is|nor|of|on|or|so|the|to|up|via|vs|with|yet)$/i;
-// Returns a list of plain-language warnings. Nothing here blocks publishing.
+const titleCase = t => t.split(/(\s+)/).map((w, i) => /^[a-z]/.test(w) && (i === 0 || !SMALL_WORDS.test(w)) ? w[0].toUpperCase() + w.slice(1) : w).join('');
+// The opening paragraph as plain text, cut at a sentence end: a starting point for the summary.
+function firstParagraph(body) {
+  const para = body.split(/\n\s*\n/).map(x => x.trim()).find(x => x && !/^(#|>|\||```|~~~|[-*+]\s|\d+[.)]\s|!\[)/.test(x)) || '';
+  let t = para.replace(/!?\[\[([^\]|]+\|)?([^\]]+)\]\]/g, '$2').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/[*_=`]+/g, '').replace(/\$+/g, '').replace(/\s+/g, ' ').trim();
+  if (t.length > 300) { const cut = t.slice(0, 300), dot = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('? ')); t = dot > 80 ? cut.slice(0, dot + 1) : cut.replace(/\s+\S*$/, '') + '…'; }
+  return t;
+}
+// Things to look at before publishing. Nothing here blocks it. Each item may say where it is (field or line)
+// and may carry a fix: { label, run(api) } where api = { ta, setField, focusField, getMeta }.
 function checkNote(meta) {
   const out = [], body = meta.body || '', hs = headings(body), idx = noteIndex(), words = body.trim().split(/\s+/).filter(Boolean).length;
-  if (!meta.title) out.push('The note has no title.');
+  const lineOf = re => { const i = body.split('\n').findIndex(l => re.test(l)); return i < 0 ? null : i; };
+  const add = (text, o = {}) => out.push({ text, ...o });
+  if (!meta.title) add('The note has no title.', { field: 'title' });
   else {
     const w = meta.title.split(/\s+/), bad = w.filter((x, i) => /^[a-z]/.test(x) && (i === 0 || !SMALL_WORDS.test(x)));
-    if (bad.length) out.push(`Title isn't in title case (“${bad[0]}”).`);
-    if (W.notes.some(n => n._meta && n._meta.path !== meta.path && n._meta.title.toLowerCase() === meta.title.toLowerCase())) out.push('Another note already has this title, so links to it will be ambiguous.');
+    if (bad.length) add(`Title isn't in title case (“${bad[0]}”).`, { field: 'title', fix: { label: 'Capitalise it', run: a => a.setField('title', titleCase(meta.title)) } });
+    if (W.notes.some(n => n._meta && n._meta.path !== meta.path && n._meta.title.toLowerCase() === meta.title.toLowerCase())) add('Another note already has this title, so links to it will be ambiguous.', { field: 'title' });
   }
-  if (/^notes\/guides\//.test(meta.path || '') && meta.title && !/^guide:\s/i.test(meta.title)) out.push('Guide titles start with “Guide: ”, like the others.');
-  if (!meta.tags.length) out.push('No tags.');
-  if (!meta.summary) out.push('No summary. It is what shows under the title in lists and guides.');
+  if (/^notes\/guides\//.test(meta.path || '') && meta.title && !/^guide:\s/i.test(meta.title)) add('Guide titles start with “Guide: ”, like the others.', { field: 'title', fix: { label: 'Add it', run: a => a.setField('title', 'Guide: ' + meta.title) } });
+  if (!meta.tags.length) add('No tags.', { field: 'tags' });
+  if (!meta.summary) { const draft = firstParagraph(body);
+    add('No summary. It is what shows under the title in lists and guides.', { field: 'summary', fix: draft ? { label: 'Draft it from the first paragraph', run: a => { a.setField('summary', draft); a.focusField('summary'); } } : null }); }
   const missing = [...new Set(wikiLinks(body).filter(t => !idx.has(t.toLowerCase())))];
-  if (missing.length) out.push(`Links to notes that don't exist: ${missing.slice(0, 4).map(t => `“${t}”`).join(', ')}${missing.length > 4 ? ` and ${missing.length - 4} more` : ''}.`);
-  if (/\[\[\s*\]\]/.test(body)) out.push('An empty [[ ]] link is left in the note.');
-  if (hs.some(h => h.level === 1)) out.push('A single # heading repeats the title. Use ## for sections.');
-  if (words > 250 && hs.filter(h => h.level === 2).length < 2) out.push('A long note with no sections. Two or more ## headings give it a table of contents.');
-  const nums = hs.filter(h => h.level === 2).map(h => (h.text.match(/^(\d+)[.)]\s/) || [])[1]).filter(Boolean).map(Number);
-  const h2 = hs.filter(h => h.level === 2 && !UNNUMBERED.test(h.text.replace(NUM_PREFIX, '')));
-  if (nums.some((n, i) => n !== i + 1) || (nums.length && nums.length < h2.length)) out.push('Section numbers are out of order. “Sections… → Number the sections” fixes them.');
-  if (words > 80 && !hs.some(h => /^related$/i.test(h.text.replace(NUM_PREFIX, '')))) out.push('No Related list. “Sections… → Build the Related list” suggests one.');
+  if (missing.length) add(`Links to notes that don't exist: ${missing.slice(0, 4).map(t => `“${t}”`).join(', ')}${missing.length > 4 ? ` and ${missing.length - 4} more` : ''}.`, { line: lineOf(new RegExp('\\[\\[' + missing[0].replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))) });
+  if (/\[\[\s*\]\]/.test(body)) add('An empty [[ ]] link is left in the note.', { line: lineOf(/\[\[\s*\]\]/) });
+  if (hs.some(h => h.level === 1)) add('A single # heading repeats the title. Use ## for sections.', { line: hs.find(h => h.level === 1).line,
+    fix: { label: 'Make it ##', run: a => { const ls = a.ta.value.split('\n'); for (const h of headings(a.ta.value)) if (h.level === 1) ls[h.line] = '#' + ls[h.line]; replaceBody(a.ta, ls.join('\n')); } } });
+  const nb = numbering(body), isGuide = /^notes\/guides\//.test(meta.path || '') || meta.tags.includes('guide');
+  if (words > 250 && nb.real.length < 2) add('A long note with no sections. Two or more ### headings give it a table of contents.');
+  if (nb.numbered && (!nb.inOrder || nb.numbered < nb.real.length)) add('Section numbers are out of order.', { line: nb.real[0].line, fix: { label: 'Renumber', run: a => replaceBody(a.ta, numberSections(a.ta.value, false)) } });
+  if (!isGuide && words > 250 && nb.real.length >= 2 && !hs.some(h => /^conclusion$/i.test(h.text.replace(NUM_PREFIX, '')))) add('No Conclusion section.', { fix: { label: 'Add the heading', run: a => {
+    const v = a.ta.value, cur = numbering(v), { before, listed, after } = splitRelated(v), rel = hs.some(h => /^related$/i.test(h.text.replace(NUM_PREFIX, '')));
+    const head = '#'.repeat(cur.lvl) + ' Conclusion';
+    a.ta.value = before + '\n\n' + head + '\n\n' + (rel ? '\n## Related\n\n' + listed.map(t => `- [[${t}]]`).join('\n') : '') + (after ? '\n\n' + after : '') + '\n';
+    jumpToLine(a.ta, a.ta.value.split('\n').indexOf(head) + 2, 0);
+  } } });
+  if (!isGuide && words > 80 && !hs.some(h => /^related$/i.test(h.text.replace(NUM_PREFIX, '')))) add('No Related list.', { fix: { label: 'Suggest one…', run: a => relatedDialog(a.ta, a.getMeta) } });
   return out;
 }
-function drawChecks(root, getMeta) {
-  const ul = $('.w-checks ul', root); if (!ul || !getMeta) return;
-  const issues = checkNote(getMeta());
-  ul.innerHTML = issues.map(i => `<li>${esc(i)}</li>`).join('') || '<li class="w-ok">Nothing to fix.</li>';
+function drawChecks(root, api) {
+  const ul = $('.w-checks ul', root); if (!ul || !api) return;
+  const issues = root._issues = checkNote(api.getMeta());
+  ul.innerHTML = issues.map((i, k) => { const where = i.field && api.focusField ? 'field' : i.line != null ? 'line' : '';
+    return `<li>${where ? `<button type="button" class="w-check-go" data-check="${k}" title="${where === 'field' ? 'Go to the field' : 'Go to the line'}">${esc(i.text)}</button>` : `<span>${esc(i.text)}</span>`}${i.fix && (!i.field || api.setField) ? ` <button type="button" class="w-check-fix" data-fix="${k}">${esc(i.fix.label)}</button>` : ''}</li>`; }).join('') || '<li class="w-ok">Nothing to fix.</li>';
   $('.w-checks summary', root).textContent = issues.length ? `Before you publish (${issues.length})` : 'Before you publish';
+  const pane = root.closest('.w-pane'), badge = pane && $('.w-bar-checks', pane);
+  if (badge) { badge.textContent = issues.length ? `${issues.length} to check` : '✓ ready'; badge.classList.toggle('is-ok', !issues.length); }
+  const wc = pane && $('.w-bar-words', pane);
+  if (wc) { const n = $('textarea.w-body', root).value.trim().split(/\s+/).filter(Boolean).length; wc.textContent = `${n.toLocaleString()} word${n === 1 ? '' : 's'}`; }
 }
 function confirmChecks(meta) {
-  const issues = checkNote(meta);
+  const issues = checkNote(meta).map(i => i.text);
   return !issues.length || confirm(`${issues.length === 1 ? 'One thing' : issues.length + ' things'} to check:\n\n• ${issues.join('\n• ')}\n\nPublish anyway?`);
 }
 function wrapSel(ta, before, after = before, placeholder = '') {
@@ -429,28 +490,31 @@ function insertLine(ta, text) {
   const a = ta.selectionStart, v = ta.value, lead = a > 0 && v[a - 1] !== '\n' ? '\n\n' : (a > 1 && v[a - 2] !== '\n' ? '\n' : '');
   ta.setRangeText(lead + text, a, ta.selectionEnd, 'end'); ta.focus(); ta.dispatchEvent(new Event('input'));
 }
-function bindEditor(root, onChange, getMeta) {
+function bindEditor(root, onChange, getMeta, fields) {
   const ta = $('textarea.w-body', root);
-  const redraw = () => { drawOutline(root, ta); drawChecks(root, getMeta); };
+  const api = { ta, getMeta: getMeta || (() => ({ title: '', tags: [], summary: '', body: ta.value, path: '' })), ...(fields || {}) };
+  const redraw = () => { drawOutline(root, ta); drawChecks(root, getMeta ? api : null); };
+  // "### " with the next number when the note's sections are numbered
+  const heading = lvl => { const nb = numbering(ta.value); return '#'.repeat(lvl) + ' ' + (nb.lvl === lvl && nb.numbered && nb.numbered === nb.real.length ? `${nb.real.length + 1}. ` : ''); };
   root.addEventListener('click', e => {
     const j = e.target.closest('[data-line]');
-    if (j) {      // jump to a heading from the outline
-      const lines = ta.value.split('\n'), pos = lines.slice(0, +j.dataset.line).join('\n').length + (+j.dataset.line ? 1 : 0);
-      ta.focus(); ta.selectionStart = pos; ta.selectionEnd = pos + lines[+j.dataset.line].length;
-      ta.scrollTop = Math.max(0, (+j.dataset.line / Math.max(1, lines.length)) * ta.scrollHeight - 60); return;
-    }
+    if (j) { jumpToLine(ta, +j.dataset.line); return; }      // jump to a heading from the outline
+    const go = e.target.closest('[data-check]');
+    if (go) { const i = (root._issues || [])[+go.dataset.check]; if (!i) return; if (i.field && api.focusField) api.focusField(i.field); else if (i.line != null) jumpToLine(ta, i.line); return; }
+    const fx = e.target.closest('[data-fix]');
+    if (fx) { const i = (root._issues || [])[+fx.dataset.fix]; if (i && i.fix) { i.fix.run(api); ta.dispatchEvent(new Event('input')); onChange(); redraw(); } return; }
     const b = e.target.closest('[data-ins]'); if (!b) return;
     const k = b.dataset.ins;
     if (k === 'bold') wrapSel(ta, '**', '**', 'bold text');
     if (k === 'italic') wrapSel(ta, '*', '*', 'italic text');
     if (k === 'hl') wrapSel(ta, '==', '==', 'highlighted');
-    if (k === 'h3') insertLine(ta, '### ');
+    if (k === 'h3') insertLine(ta, heading(3));
     if (k === 'ul') prefixLines(ta, () => '- ');
     if (k === 'ol') prefixLines(ta, i => `${i + 1}. `);
     if (k === 'quote') prefixLines(ta, () => '> ');
     if (k === 'hr') insertLine(ta, '---\n\n');
     if (k === 'table') tableDialog(ta);
-    if (k === 'h2') insertLine(ta, '## ');
+    if (k === 'h2') insertLine(ta, heading(2));
     if (k === 'link') { wrapSel(ta, '[[', ']]', ''); openSuggest(ta); }
     if (k === 'math') wrapSel(ta, '$', '$', 'x^2');
     if (k === 'mathd') insertLine(ta, '$$\n\n$$\n');
@@ -469,7 +533,12 @@ function bindEditor(root, onChange, getMeta) {
     else toast(t === 'strip' ? 'No section numbers to remove.' : 'The sections are already numbered in order.');
   });
   $('[data-img]', root).addEventListener('change', e => { [...e.target.files].forEach(f => addImage(f, ta)); e.target.value = ''; });
-  ta.addEventListener('paste', e => { const f = [...(e.clipboardData?.files || [])].find(f => f.type.startsWith('image/')); if (f) { e.preventDefault(); addImage(f, ta); } });
+  ta.addEventListener('paste', e => {
+    const f = [...(e.clipboardData?.files || [])].find(f => f.type.startsWith('image/')); if (f) { e.preventDefault(); addImage(f, ta); return; }
+    // a web address pasted over selected words turns them into a link
+    const url = (e.clipboardData?.getData('text/plain') || '').trim(), sel = ta.value.slice(ta.selectionStart, ta.selectionEnd);
+    if (sel.trim() && !/\n/.test(sel) && /^https?:\/\/\S+$/.test(url) && !/^https?:\/\//.test(sel.trim())) { e.preventDefault(); ta.setRangeText(`[${sel}](${url})`, ta.selectionStart, ta.selectionEnd, 'end'); ta.dispatchEvent(new Event('input')); }
+  });
   ta.addEventListener('drop', e => { const fs = [...(e.dataTransfer?.files || [])].filter(f => f.type.startsWith('image/')); if (fs.length) { e.preventDefault(); fs.forEach(f => addImage(f, ta)); } });
   ta.addEventListener('keydown', e => {
     if (suggest.open && ['ArrowDown', 'ArrowUp', 'Enter', 'Tab', 'Escape'].includes(e.key)) { e.preventDefault(); suggestKey(e.key, ta); return; }
@@ -478,8 +547,12 @@ function bindEditor(root, onChange, getMeta) {
     if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') { e.preventDefault(); $('[data-publish]', root.closest('.w-pane'))?.click(); return; }
     if (smartKey(e, ta)) e.preventDefault();
   });
-  let t = null;
-  ta.addEventListener('input', () => { openSuggest(ta); clearTimeout(t); t = setTimeout(() => { onChange(); redraw(); }, 250); });
+  let t = null, t2 = null;
+  ta.addEventListener('input', () => {
+    openSuggest(ta); clearTimeout(t); t = setTimeout(() => { onChange(); redraw(); }, 250);
+    // sections moved or deleted: once you pause, put the numbers back in order (only when every section already has one)
+    clearTimeout(t2); t2 = setTimeout(() => { const nb = numbering(ta.value); if (nb.real.length >= 2 && nb.numbered === nb.real.length && !nb.inOrder && replaceBody(ta, numberSections(ta.value, false))) { onChange(); redraw(); } }, 1200);
+  });
   root._redraw = redraw; redraw();
   ta.addEventListener('blur', () => setTimeout(closeSuggest, 150));
 }
@@ -536,6 +609,79 @@ function caretXY(ta) {
   return { x: r.left + sl, y: r.top + sr - ta.scrollTop + parseFloat(cs.lineHeight || 20) + 4 };
 }
 
+/* ---------------- form pieces shared by Write and Edit ---------------- */
+// How often each tag is used across the notebook, most used first.
+function tagCounts() {
+  const m = new Map(); for (const n of W.notes) for (const t of (n._meta ? n._meta.tags : [])) m.set(t, (m.get(t) || 0) + 1);
+  return [...m.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+}
+// The Tags box: suggestions appear as you type; the ten most used tags sit underneath as one-click chips.
+function tagsField(value) {
+  const top = tagCounts().filter(([t]) => t !== 'guide').slice(0, 10);
+  return `<div class="w-field w-tagfield"><span>Tags <small>start typing to find one; separate with commas</small></span>
+    <div class="w-tagwrap"><input name="tags" value="${esc(value || '')}" placeholder="philosophy, plato" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false">
+    <ul class="w-suggest w-tagsuggest" role="listbox" hidden></ul></div>
+    ${top.length ? `<p class="w-chips" aria-label="Most used tags"><small>Most used:</small> ${top.map(([t]) => `<button type="button" data-tag="${esc(t)}">${esc(t)}</button>`).join('')}</p>` : ''}</div>`;
+}
+function bindTags(form) {
+  const input = form.tags, box = input && $('.w-tagsuggest', form); if (!input || !box) return;
+  const all = tagCounts(); let items = [], sel = 0;
+  const token = () => { const before = input.value.slice(0, input.selectionStart ?? input.value.length); return { start: before.lastIndexOf(',') + 1, text: before.slice(before.lastIndexOf(',') + 1).trim().toLowerCase() }; };
+  const close = () => { box.hidden = true; input.setAttribute('aria-expanded', 'false'); items = []; };
+  const draw = () => {
+    const { text } = token(), have = new Set(input.value.split(',').map(t => slug(t)).filter(Boolean));
+    if (!text) return close();
+    const q = slug(text);
+    items = all.filter(([t]) => t.includes(q) && (!have.has(t) || t === q) && t !== q)
+      .sort((a, b) => (b[0].startsWith(q)) - (a[0].startsWith(q)) || b[1] - a[1]).slice(0, 8);
+    if (!items.length) return close();
+    sel = 0; box.hidden = false; input.setAttribute('aria-expanded', 'true');
+    box.innerHTML = items.map(([t, c], i) => `<li data-i="${i}" role="option" aria-selected="${i === 0}">${esc(t)} <span>${c} note${c === 1 ? '' : 's'}</span></li>`).join('');
+  };
+  const pick = i => {
+    const it = items[i]; if (!it) return;
+    const { start } = token(), end = input.selectionStart ?? input.value.length;
+    const head = input.value.slice(0, start), rest = input.value.slice(end).replace(/^[^,]*/, '').replace(/^,\s*/, '');
+    input.value = (head.trim() ? head.replace(/\s*$/, ' ') : '') + it[0] + ', ' + rest;
+    const pos = input.value.length - rest.length; input.setSelectionRange(pos, pos);
+    close(); input.dispatchEvent(new Event('input', { bubbles: true })); close(); input.focus();
+  };
+  input.addEventListener('input', draw);
+  input.addEventListener('keydown', e => {
+    if (box.hidden) return;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); sel = (sel + (e.key === 'ArrowDown' ? 1 : -1) + items.length) % items.length; $$('li', box).forEach((li, i) => li.setAttribute('aria-selected', i === sel)); }
+    else if (e.key === 'Enter' || e.key === 'Tab') { e.preventDefault(); pick(sel); }
+    else if (e.key === 'Escape') { e.preventDefault(); close(); }
+  });
+  box.addEventListener('mousedown', e => { const li = e.target.closest('li'); if (li) { e.preventDefault(); pick(+li.dataset.i); } });
+  input.addEventListener('blur', () => setTimeout(close, 150));
+}
+// Everything that isn't the title or the text lives in one fold-away panel under the editor.
+const detailsPanel = inner => `<details class="w-details"${store.get('details-open', false) ? ' open' : ''}><summary>Details <small class="w-details-state"></small></summary><div class="w-details-body">${inner}</div></details>`;
+function bindDetails(form) {
+  const d = $('.w-details', form); if (!d) return;
+  d.addEventListener('toggle', () => store.set('details-open', d.open));
+}
+function detailsState(form, meta) {
+  const el = $('.w-details-state', form); if (!el) return;
+  const bits = [meta.tags.length ? `${meta.tags.length} tag${meta.tags.length === 1 ? '' : 's'}` : 'no tags', meta.summary ? 'summary ✓' : 'no summary'];
+  el.textContent = bits.join(' · '); el.classList.toggle('is-missing', !meta.tags.length || !meta.summary);
+}
+// The bar pinned to the bottom of the form: what's left to check, the word count, the save state, and Publish.
+const bottomBar = (left, publish) => `<div class="w-bar"><button type="button" class="w-bar-checks" data-to-checks title="Show what's left to check"></button><span class="w-bar-words"></span><span class="w-bar-saved"></span>
+  <span class="w-status" role="status"></span><span class="w-bar-btns">${left}<button type="button" class="w-btn w-primary" data-publish title="Ctrl+Enter">${publish}</button></span></div>`;
+function bindBar(form) {
+  const b = $('[data-to-checks]', form); if (!b) return;
+  b.addEventListener('click', () => { const c = $('.w-checks', form); if (c) { c.open = true; c.scrollIntoView({ block: 'center', behavior: 'smooth' }); } });
+}
+// field helpers the checks use to jump to a field or fill it in
+const fieldApi = (form, refresh) => ({
+  setField(name, v) { const el = form[name]; if (!el) return; el.value = v; refresh(); },
+  focusField(name) { const el = form[name]; if (!el) return; const d = el.closest('details'); if (d) d.open = true; el.focus(); el.scrollIntoView({ block: 'center' }); }
+});
+const ago = at => { const s = Math.round((Date.now() - at) / 1000); return s < 15 ? 'just now' : s < 90 ? 'a minute ago' : s < 3600 ? `${Math.round(s / 60)} minutes ago` : 'over an hour ago'; };
+setInterval(() => $$('.w-bar-saved[data-at]').forEach(el => { el.textContent = `Draft saved ${ago(+el.dataset.at)}`; }), 20000);
+
 /* ---------------- templates ---------------- */
 // Skeletons modelled on the notes already in the notebook. `kind` picks the section when it exists.
 const TEMPLATES = [
@@ -572,26 +718,23 @@ const TEMPLATES = [
 /* ---------------- Write tab ---------------- */
 function writeForm() {
   const draft = store.get('draft', {});
-  const kind = W.kinds.find(k => k.key === draft.kind) || W.kinds[0];
-  const tags = [...new Set(W.notes.flatMap(n => n._meta ? n._meta.tags : []))].sort();
+  const kind = W.kinds.find(k => k.key === draft.kind) || W.kinds.find(k => k.sec.id === W.cfg.defaultSection) || W.kinds[0];
   const courses = [...new Set(W.notes.map(n => n._meta && n._meta.course).filter(Boolean))].sort();
   $('#tab-write').innerHTML = `<div class="w-pane w-split">
     <form class="w-form" autocomplete="off" onsubmit="return false">
-      <div class="w-row">
-        <label class="w-field"><span>Section</span><select name="kind">${W.kinds.map(k => `<option value="${k.key}"${k === kind ? ' selected' : ''}>${esc(k.label)}</option>`).join('')}</select></label>
-        <label class="w-field"><span>Start from a template</span><select name="tpl"><option value="">Blank note</option>${TEMPLATES.map((t, i) => `<option value="${i}">${esc(t.name)}</option>`).join('')}</select></label>
-        <p class="w-addr">Address <strong id="addr">…</strong></p>
+      <label class="w-field w-title"><span class="w-sr">Title</span><input name="title" required value="${esc(draft.title || '')}" placeholder="Title"></label>
+      <div class="w-meta">
+        <label>Section <select name="kind">${W.kinds.map(k => `<option value="${k.key}"${k === kind ? ' selected' : ''}>${esc(k.label)}</option>`).join('')}</select></label>
+        <label>Template <select name="tpl"><option value="">Blank note</option>${TEMPLATES.map((t, i) => `<option value="${i}">${esc(t.name)}</option>`).join('')}</select></label>
+        <span class="w-addr">Address <strong id="addr">…</strong></span>
       </div>
-      <label class="w-field"><span>Title</span><input name="title" required value="${esc(draft.title || '')}" placeholder="What is this note about?"></label>
-      <div class="w-kind-fields"></div>
-      <label class="w-field"><span>Tags <small>comma-separated</small></span><input name="tags" value="${esc(draft.tags || '')}" placeholder="philosophy-of-science, history"></label>
-      ${tags.length ? `<p class="w-chips" aria-label="Existing tags">${tags.map(t => `<button type="button" data-tag="${esc(t)}">${esc(t)}</button>`).join('')}</p>` : ''}
-      <label class="w-field"><span>Summary <small>one or two sentences; shown as the abstract</small></span><textarea name="summary" rows="2">${esc(draft.summary || '')}</textarea></label>
-      <div class="w-guides-slot"></div>
-      <div class="w-field w-editor"><span>Note</span>${toolbar()}<textarea class="w-body" name="body" rows="18" placeholder="Write in Markdown. Type [[ to link another note.">${esc(draft.body || '')}</textarea>${sidePanels()}</div>
-      <div class="w-actions"><button type="button" class="w-btn" data-clear>Clear</button><button type="button" class="w-btn w-primary" data-publish>Publish</button></div>
-      <p class="w-status" role="status"></p>
+      <div class="w-field w-editor"><span class="w-sr">Note</span>${toolbar()}<textarea class="w-body" name="body" rows="18" placeholder="Write in Markdown. Type [[ to link another note.">${esc(draft.body || '')}</textarea>${sidePanels()}</div>
+      ${detailsPanel(`<div class="w-kind-fields"></div>
+        ${tagsField(draft.tags)}
+        <label class="w-field"><span>Summary <small>one or two sentences; shown as the abstract</small></span><textarea name="summary" rows="2">${esc(draft.summary || '')}</textarea></label>
+        <div class="w-guides-slot"></div>`)}
       <datalist id="courses">${courses.map(c => `<option value="${esc(c)}">`).join('')}</datalist>
+      ${bottomBar('<button type="button" class="w-btn" data-clear>Clear</button>', 'Publish')}
     </form>
     <section class="w-preview-wrap" aria-label="Preview"><p class="w-preview-label">Preview</p><div id="preview" class="w-preview"></div></section>
   </div>`;
@@ -620,7 +763,11 @@ function writeForm() {
   const pathFor = d => uniquePath(folderOf(d.k), slug(d.title) || 'untitled');
   const tagList = s => [...new Set(s.split(',').map(t => slug(t)).filter(Boolean))];
   const getMeta = () => { const d = collect(); return { title: d.title, tags: tagList(d.tags), summary: d.summary, body: d.body, path: pathFor(d) }; };
-  const refresh = () => { const d = collect(); const { k, ...save } = d; store.set('draft', save); previewRaw(toRaw(d), pathFor(d)); const ed = $('.w-editor', form); if (ed._redraw) ed._redraw(); };
+  const refresh = () => {
+    const d = collect(); const { k, ...save } = d; store.set('draft', save); previewRaw(toRaw(d), pathFor(d)); const ed = $('.w-editor', form); if (ed._redraw) ed._redraw();
+    detailsState(form, getMeta());
+    const sv = $('.w-bar-saved', form); if (sv) { const any = d.title || d.body.trim(); if (any) { sv.dataset.at = Date.now(); sv.textContent = 'Draft saved just now'; } else { delete sv.dataset.at; sv.textContent = ''; } }
+  };
   form.addEventListener('input', e => { if (!e.target.classList.contains('w-body')) { clearTimeout(form._t); form._t = setTimeout(refresh, 250); } });
   form.kind.addEventListener('change', () => { draft.f = collect().f; kindFields(); refresh(); });
   form.tpl.addEventListener('change', () => {
@@ -656,7 +803,9 @@ function writeForm() {
     } catch (e) { status.textContent = e.message; }
     finally { busy(false); }
   });
-  kindFields(); drawGuides(); bindEditor($('.w-editor', form), refresh, getMeta); refresh();
+  kindFields(); drawGuides(); bindTags(form); bindDetails(form); bindBar(form);
+  bindEditor($('.w-editor', form), refresh, getMeta, fieldApi(form, refresh)); refresh();
+  if (!draft.title && !draft.body) form.title.focus();
 }
 
 /* ---------------- front matter for the Edit tab ---------------- */
@@ -677,40 +826,63 @@ function splitFront(raw) {
 function joinFront(blocks, body) { return '---\n' + blocks.map(b => b.text).filter(t => t.trim()).join('\n') + '\n---\n\n' + body.replace(/\s+$/, '') + '\n'; }
 
 /* ---------------- Edit tab ---------------- */
-function editList() {
-  const q = ($('#edit-q') || {}).value || '';
+const editState = { q: '', sec: '', sort: 'recent', limit: 60 };
+const day = t => t ? new Date(t).toISOString().slice(0, 10) : '';
+function editRows() {
+  const terms = editState.q.toLowerCase().split(/\s+/).filter(Boolean);
   const rows = W.notes.filter(n => n._meta).map(n => n._meta)
-    .filter(m => !q || (m.id + ' ' + m.title + ' ' + m.section).toLowerCase().includes(q.toLowerCase()))
-    .sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
-  return rows.map(m => `<li><button type="button" data-open="${esc(m.path)}"><span class="w-mono">${esc(m.id)}</span> ${esc(m.title)} <small>${esc(m.section)}</small></button></li>`).join('') || '<li class="w-empty">No matching notes.</li>';
+    .filter(m => !editState.sec || m.section === editState.sec)
+    .filter(m => { if (!terms.length) return true; const hay = (m.id + ' ' + m.title + ' ' + m.section + ' ' + m.tags.join(' ') + ' ' + m.aliases.join(' ')).toLowerCase(); return terms.every(t => hay.includes(t)); });
+  const by = { recent: (a, b) => b.updated - a.updated || a.title.localeCompare(b.title), id: (a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }), title: (a, b) => a.title.localeCompare(b.title) };
+  return rows.sort(by[editState.sort] || by.recent);
+}
+function editList() {
+  const row = m => `<li><button type="button" data-open="${esc(m.path)}"><span class="w-mono">${esc(m.id)}</span> ${esc(m.title)}
+    <small>${esc(m.section)}${m.tags.length ? ' · ' + esc(m.tags.slice(0, 4).join(', ')) : ''}${m.updated ? ' · ' + day(m.updated) : ''}</small></button></li>`;
+  const rows = editRows(), shown = rows.slice(0, editState.limit);
+  const byPath = new Map(W.notes.filter(n => n._meta).map(n => [n.path, n._meta]));
+  const recent = !editState.q && !editState.sec ? store.get('recent-edits', []).map(p => byPath.get(p)).filter(Boolean).slice(0, 5) : [];
+  const count = $('#tab-edit .w-edit-count'); if (count) count.textContent = `${rows.length} note${rows.length === 1 ? '' : 's'}${editState.q || editState.sec ? ' found' : ''}`;
+  return (recent.length ? `<li class="w-list-head">Opened recently</li>${recent.map(row).join('')}<li class="w-list-head">${{ recent: 'Latest changes first', id: 'By address', title: 'By title' }[editState.sort]}</li>` : '')
+    + (shown.map(row).join('') || '<li class="w-empty">No matching notes. Try fewer words, or a tag.</li>')
+    + (rows.length > shown.length ? `<li><button type="button" class="w-more-rows" data-more>Show ${Math.min(100, rows.length - shown.length)} more</button></li>` : '');
 }
 function editTab() {
-  $('#tab-edit').innerHTML = `<div class="w-pane"><div class="w-edit-pick"><label class="w-field"><span>Find a note</span><input id="edit-q" type="search" placeholder="Title or address"></label><ul class="w-list">${editList()}</ul></div></div>`;
-  $('#edit-q').addEventListener('input', () => { $('#tab-edit .w-list').innerHTML = editList(); });
+  const secs = [...new Set(W.notes.filter(n => n._meta).map(n => n._meta.section))].sort();
+  $('#tab-edit').innerHTML = `<div class="w-pane"><div class="w-edit-pick">
+    <div class="w-edit-find"><input id="edit-q" type="search" placeholder="Find by title, tag or address" aria-label="Find a note" value="${esc(editState.q)}">
+      <select id="edit-sec" aria-label="Section"><option value="">All sections</option>${secs.map(x => `<option${x === editState.sec ? ' selected' : ''}>${esc(x)}</option>`).join('')}</select>
+      <select id="edit-sort" aria-label="Order">${[['recent', 'Latest changes first'], ['id', 'By address'], ['title', 'By title']].map(([v, l]) => `<option value="${v}"${v === editState.sort ? ' selected' : ''}>${l}</option>`).join('')}</select></div>
+    <p class="w-muted w-edit-count"></p><ul class="w-list"></ul></div></div>`;
+  const draw = () => { $('#tab-edit .w-list').innerHTML = editList(); };
+  $('#edit-q').addEventListener('input', e => { editState.q = e.target.value.trim(); editState.limit = 60; draw(); });
+  $('#edit-sec').addEventListener('change', e => { editState.sec = e.target.value; editState.limit = 60; draw(); });
+  $('#edit-sort').addEventListener('change', e => { editState.sort = e.target.value; draw(); });
+  $('#tab-edit .w-list').addEventListener('click', e => { if (e.target.closest('[data-more]')) { editState.limit += 100; draw(); } });
+  $('#edit-q').addEventListener('keydown', e => { if (e.key === 'Enter') { const first = $('#tab-edit .w-list [data-open]'); if (first) first.click(); } });
+  draw(); $('#edit-q').focus();
 }
 async function openEditor(path, rawMode = false) {
   if (!conn()) { toast('Connect to GitHub in Settings first.'); showTab('settings'); return; }
   busy(true, 'Loading the latest version…');
   let raw; try { raw = await readFile(path); } catch (e) { busy(false); toast(e.message); return; } busy(false);
   W.editing = { path, original: raw };
+  store.set('recent-edits', [path, ...store.get('recent-edits', []).filter(p => p !== path)].slice(0, 8));
   // With readable front matter the note opens as fields; otherwise (or on request) as the raw file.
   const fmx = rawMode ? null : splitFront(raw);
   const C0 = fmx ? { title: C.str(fmx.data.title), tags: C.list(fmx.data.tags).join(', '), summary: C.str(fmx.data.summary) } : null;
   const others = fmx ? fmx.blocks.filter(b => !['title', 'tags', 'summary'].includes(b.key)).map(b => b.text).join('\n') : '';
-  const allTags = [...new Set(W.notes.flatMap(n => n._meta ? n._meta.tags : []))].sort();
   $('#tab-edit').innerHTML = `<div class="w-pane w-split">
-    <form class="w-form" onsubmit="return false">
+    <form class="w-form" autocomplete="off" onsubmit="return false">
       <p class="w-back"><button type="button" class="w-link" data-back>← All notes</button> <button type="button" class="w-link w-right" data-mode>${fmx ? 'Edit the raw file' : (splitFront(raw) ? 'Edit with fields' : '')}</button></p>
-      <label class="w-field"><span>File <small>change it to rename or move the note</small></span><input name="path" value="${esc(path)}" spellcheck="false" class="w-mono"></label>
-      ${fmx ? `<label class="w-field"><span>Title</span><input name="title" value="${esc(C0.title)}"></label>
-      <label class="w-field"><span>Tags <small>comma-separated</small></span><input name="tags" value="${esc(C0.tags)}"></label>
-      <p class="w-chips" aria-label="Existing tags">${allTags.map(t => `<button type="button" data-tag="${esc(t)}">${esc(t)}</button>`).join('')}</p>
-      <label class="w-field"><span>Summary <small>one or two sentences; shown in lists and guides</small></span><textarea name="summary" rows="2">${esc(C0.summary)}</textarea></label>
-      <div class="w-guides-slot"></div>
-      <details class="w-more"><summary>Other fields <small>address, date, author, source…</small></summary><textarea name="others" rows="${Math.min(8, others.split('\n').length + 1)}" class="w-mono" spellcheck="false">${esc(others)}</textarea></details>` : ''}
-      <div class="w-field w-editor"><span>${fmx ? 'Note' : 'Note, including its front matter'}</span>${toolbar()}<textarea class="w-body${fmx ? '' : ' w-raw'}" rows="${fmx ? 22 : 26}" spellcheck="true">${esc(fmx ? fmx.body : raw)}</textarea>${sidePanels()}</div>
-      <div class="w-actions"><button type="button" class="w-btn w-danger" data-delete>Delete</button><button type="button" class="w-btn w-primary" data-publish>Publish changes</button></div>
-      <p class="w-status" role="status"></p>
+      ${fmx ? `<label class="w-field w-title"><span class="w-sr">Title</span><input name="title" value="${esc(C0.title)}" placeholder="Title"></label>` : ''}
+      <div class="w-field w-editor"><span class="w-sr">${fmx ? 'Note' : 'Note, including its front matter'}</span>${toolbar()}<textarea class="w-body${fmx ? '' : ' w-raw'}" rows="${fmx ? 22 : 26}" spellcheck="true">${esc(fmx ? fmx.body : raw)}</textarea>${sidePanels()}</div>
+      ${detailsPanel(`${fmx ? `${tagsField(C0.tags)}
+        <label class="w-field"><span>Summary <small>one or two sentences; shown in lists and guides</small></span><textarea name="summary" rows="2">${esc(C0.summary)}</textarea></label>
+        <div class="w-guides-slot"></div>` : ''}
+        <label class="w-field"><span>File <small>change it to rename or move the note</small></span><input name="path" value="${esc(path)}" spellcheck="false" class="w-mono"></label>
+        ${fmx ? `<details class="w-more"><summary>Other fields <small>address, date, author, source…</small></summary><textarea name="others" rows="${Math.min(8, others.split('\n').length + 1)}" class="w-mono" spellcheck="false">${esc(others)}</textarea></details>` : ''}`)}
+      ${bottomBar('<button type="button" class="w-btn w-danger" data-delete>Delete</button>', 'Publish changes')}
     </form>
     <section class="w-preview-wrap" aria-label="Preview"><p class="w-preview-label">Preview</p><div id="preview" class="w-preview"></div></section>
   </div>`;
@@ -741,8 +913,13 @@ async function openEditor(path, rawMode = false) {
     const s = splitFront(ta.value); return s ? { title: C.str(s.data.title), tags: C.list(s.data.tags), summary: C.str(s.data.summary), body: s.body, path } : { title: '', tags: [], summary: '', body: ta.value, path };
   };
   const original = build();
-  const refresh = () => { previewRaw(build(), form.path.value.trim()); const ed = $('.w-editor', form); if (ed._redraw) ed._redraw(); };
-  bindEditor($('.w-editor', form), refresh, getMeta); refresh();
+  const refresh = () => {
+    const now = build(); previewRaw(now, form.path.value.trim()); const ed = $('.w-editor', form); if (ed._redraw) ed._redraw();
+    detailsState(form, getMeta());
+    const sv = $('.w-bar-saved', form); if (sv) { const changed = now !== original || form.path.value.trim() !== path; sv.textContent = changed ? 'Changes not published' : 'No changes'; sv.classList.toggle('is-changed', changed); }
+  };
+  bindTags(form); bindDetails(form); bindBar(form);
+  bindEditor($('.w-editor', form), refresh, getMeta, fmx ? fieldApi(form, () => refresh()) : null); refresh();
   form.path.addEventListener('change', refresh);
   form.addEventListener('input', e => { if (!e.target.classList.contains('w-body')) { clearTimeout(form._t); form._t = setTimeout(refresh, 250); } });
   form.addEventListener('click', e => {
@@ -901,7 +1078,7 @@ function annotate() {
   const byPath = new Map(C.S.notes.map(n => [n.path, n]));
   for (const n of W.notes) {
     const p = byPath.get(n.path);
-    n._meta = p ? { path: n.path, id: p.id, title: p.title, aliases: p.aliases, tags: p.tags, course: C.str(p.fm.course), source: C.sourceLine(p), section: p.sub ? p.sub.name : p.section.name } : null;
+    n._meta = p ? { path: n.path, id: p.id, title: p.title, aliases: p.aliases, tags: p.tags, course: C.str(p.fm.course), source: C.sourceLine(p), section: p.sub ? p.sub.name : p.section.name, updated: p.updated instanceof Date ? +p.updated : (Date.parse(p.updated) || 0) } : null;
   }
 }
 function updateConn() { const c = conn(); $('#conn').innerHTML = c && c.token ? `Publishing to <strong>${esc(c.owner)}/${esc(c.repo)}</strong>` : `<button type="button" class="w-link" data-tab="settings">Connect to GitHub</button> to publish`; }
