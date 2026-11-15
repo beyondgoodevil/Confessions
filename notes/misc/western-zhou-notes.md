@@ -45,6 +45,8 @@ tags: [china, history]
 - Zhou Gong Dan believed "Heaven helps those who help themselves."
 - Meritocracy was his preferred form of governance.
 
+### Conclusion
+
 
 ## Related
 
