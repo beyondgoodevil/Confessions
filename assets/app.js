@@ -983,7 +983,30 @@ async function initChess(main) {
 }
 
 /* ---------------- routing ---------------- */
+// Addresses. A note lives at <site>/<ID>/ (a real page, written by the build with the note already in it);
+// every other view is <site>/#/… . Old #/<ID> links still work: the address bar is corrected when they open.
+// ROOT is the site's folder; a <base> pointing at it keeps relative addresses (config.json, images, assets)
+// right whichever of the two kinds of page we are on.
+const ROOT = new URL('.', document.baseURI).href, ROOT_PATH = new URL(ROOT).pathname;
+const PRETTY = location.protocol !== 'file:';
+function pinBase() {
+  let b = document.querySelector('base'); if (!b) { b = document.createElement('base'); document.head.prepend(b); }
+  if (b.href !== ROOT) b.href = ROOT;
+}
+const notePathId = () => { const m = location.pathname.startsWith(ROOT_PATH) && location.pathname.slice(ROOT_PATH.length).match(/^([A-Za-z]+-\d+)\/?(?:index\.html)?$/); return m ? m[1].toUpperCase() : ''; };
+const noteUrl = (id, anchor, hl) => `${ROOT}${id}/${anchor ? '#' + encodeURIComponent(anchor) : hl ? '#?hl=' + encodeURIComponent(hl) : ''}`;
+// Go to an in-site address given as a hash ("#/s/books", "#/M-0416/heading") without reloading the page.
+function navigate(hash) {
+  rememberScroll();
+  try { history.pushState(null, '', ROOT + (hash === '#' ? '' : hash)); } catch (e) { location.href = ROOT + hash; return; }
+  route();
+}
 function parseHash() {
+  const pid = notePathId();
+  if (pid && !location.hash.startsWith('#/')) {       // on a note's own page: the hash is a heading, or ?hl=quoted words
+    let h = location.hash.slice(1); try { h = decodeURIComponent(h); } catch (e) {}
+    return { name: 'note', id: pid, anchor: h && !h.startsWith('?') ? h : undefined, hl: h.startsWith('?') ? new URLSearchParams(h.slice(1)).get('hl') : null };
+  }
   const raw = location.hash.replace(/^#\/?/, '');
   const [path, query = ''] = raw.split('?');
   const parts = path.split('/').filter(Boolean).map(p => { try { return decodeURIComponent(p); } catch (e) { return p; } });
@@ -997,9 +1020,13 @@ function parseHash() {
   if (parts[0] === 'series') return parts[1] ? { name: 'series', key: parts[1] } : { name: 'serieslist' };
   return { name: 'note', id: parts[0].toUpperCase(), anchor: parts[1], hl: q.get('hl') };
 }
-let lastRoute = '';
+let lastRoute = '', firstScroll = null;
+let routeTimer = 0;
+const routeSoon = () => { clearTimeout(routeTimer); routeTimer = setTimeout(route, 0); };   // Back/Forward can announce itself twice (popstate and hashchange)
 function route() {
+  clearTimeout(routeTimer);
   hidePopover();
+  if (notePathId() && location.hash.startsWith('#/')) { try { history.replaceState(history.state, '', ROOT + location.hash); } catch (e) {} }   // left a note's page for another view
   closeReader();
   if (window.ChessApp && chessMounted) { window.ChessApp.unmount(); chessMounted = false; }
   const r = parseHash(), main = $('#main');
@@ -1018,8 +1045,9 @@ function route() {
   else if (r.name === 'library') { const v = viewLibrary(r); html = v.html; title = `${v.title ? v.title + ' — ' : ''}Library — ${title}`; navKey = 'library'; }
   else {
     const n = S.byId.get(r.id) || S.byId.get(resolveTarget(r.id) || '');
-    if (n && n.id !== r.id) { location.replace('#/' + n.id); return; }
+    if (n && n.id !== r.id) { try { history.replaceState(history.state, '', ROOT + '#/' + n.id); } catch (e) { location.replace('#/' + n.id); return; } return route(); }
     html = n ? viewNote(n) : viewMissing(`There’s no note with the address ${esc(r.id)}.`);
+    if (n && PRETTY && n.explicitId && notePathId() !== n.id) { try { history.replaceState(history.state, '', noteUrl(n.id, r.anchor, r.hl)); } catch (e) {} }   // show the note's real address
     if (n) { title = `${n.title} — ${title}`; navKey = n.section.id; }
   }
   main.innerHTML = html;
@@ -1031,11 +1059,13 @@ function route() {
   $$('.nav a[data-nav]').forEach(a => a.dataset.nav === navKey ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
   const links = $('.nav-links'), cur = $('.nav a[aria-current="page"]');
   if (links && cur && links.scrollWidth > links.clientWidth) links.scrollLeft += cur.getBoundingClientRect().left - links.getBoundingClientRect().left - (links.clientWidth - cur.offsetWidth) / 2;
-  const key = r.name === 'section' ? `s/${r.sec}?${(r.topic || '').toLowerCase()}` : location.hash;
+  const key = r.name === 'section' ? `s/${r.sec}?${(r.topic || '').toLowerCase()}` : r.name === 'note' ? `n/${r.id}/${r.anchor || ''}?${r.hl || ''}` : location.hash;
   const saved = scrollMemory[entryKey()];
   if (!entryKey()) { try { history.replaceState({ ...(history.state || {}), cp: Date.now().toString(36) + Math.random().toString(36).slice(2, 7) }, ''); } catch (e) {} }
   if (saved != null) window.scrollTo(0, saved);   // Back, Forward or reload: return to where the reader was
+  else if (firstScroll != null && !r.anchor) window.scrollTo(0, firstScroll);   // the page arrived with the note already in it: stay where the reader has got to
   else { if (key !== lastRoute) window.scrollTo(0, 0); if (r.anchor) scrollToAnchor(r.anchor); }
+  firstScroll = null;
   lastRoute = key;
   { const hb = $('.hl-bar'), rs = $('.resume'); if (hb) hb.remove(); if (rs) rs.remove(); }
   updateProgress();
@@ -1078,17 +1108,17 @@ function markTocCurrent() {
 function scrollToAnchor(a) { const h = $(`[data-anchor="${CSS.escape(a)}"]`, $('#main')); if (h) h.scrollIntoView({ block: 'start' }); }
 
 /* ---------------- shell ---------------- */
-function buildShell() {
+function shellHTML(mainHTML = '') {
   const c = S.config;
-  document.body.innerHTML = `<a class="skip" href="#main">Skip to content</a>
+  return `<a class="skip" href="#main">Skip to content</a>
   <header class="topbar"><a class="brand" href="#/"><span class="brand-title">${esc(c.title || 'Notes')}</span></a>
     <nav class="nav" aria-label="Main"><span class="nav-links"><a href="#/" data-nav="index">Index</a>${S.sections.map(s => `<a href="#/s/${s.id}" data-nav="${s.id}">${esc(s.shortName || s.name)}</a>`).join('')}
     ${c.library ? '<a href="#/library" data-nav="library">Library</a>' : ''}<a href="#/tags" data-nav="tags">Tags</a></span><a href="#/chess" data-nav="chess" class="nav-chess">Chess</a><button type="button" data-action="random" title="Open a random note">Random</button><button type="button" data-action="search">Search<kbd>/</kbd></button>
     <button type="button" class="theme-btn" data-action="theme" aria-label="Switch colour theme" title="Switch colour theme"></button></nav><div class="read-progress" hidden aria-hidden="true"><span></span></div></header>
-  <main id="main" tabindex="-1"></main>
+  <main id="main" tabindex="-1">${mainHTML}</main>
   <div class="popover" id="popover" hidden></div>`;
-  updateThemeButton();
 }
+function buildShell() { document.body.innerHTML = shellHTML(); updateThemeButton(); }
 const THEMES = ['auto', 'light', 'dark'];
 function currentTheme() { try { return localStorage.getItem('theme') || 'auto'; } catch (e) { return 'auto'; } }
 function applyTheme(t) { if (t === 'auto') delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = t; }
@@ -1343,10 +1373,11 @@ function highlightIn(main, hl) {
 // On the published site each note has a share page at /<ID>/ (with a preview card) that forwards into the notebook,
 // keeping whatever follows its "#": /M-0410/#heading opens that heading, /M-0410/#?hl=… highlights a passage.
 const isLocal = /^(localhost|127\.|\[::1\])/.test(location.hostname) || location.protocol === 'file:';
-const siteBase = () => location.origin + location.pathname.replace(/[^/]*$/, '');
+const siteBase = () => ROOT;
 function shareUrl(id, { anchor = '', quote = '' } = {}) {
-  if (isLocal) return `${siteBase()}#/${id}${anchor ? '/' + anchor : ''}${quote ? '?hl=' + encodeURIComponent(quote) : ''}`;
-  return `${siteBase()}${id}/${anchor ? '#' + anchor : quote ? '#?hl=' + encodeURIComponent(quote) : ''}`;
+  const n = S.byId.get(id);
+  if (!PRETTY || (n && !n.explicitId)) return `${ROOT}#/${id}${anchor ? '/' + anchor : ''}${quote ? '?hl=' + encodeURIComponent(quote) : ''}`;
+  return noteUrl(id, anchor, quote);
 }
 function copyText(text, msg) {
   const done = () => toast(msg);
@@ -1451,7 +1482,15 @@ function bindEvents() {
       return;
     }
     const wl = e.target.closest('a.wikilink[data-heading]');
-    if (wl) { e.preventDefault(); location.hash = `#/${wl.dataset.id}/${wl.dataset.heading}`; }
+    if (wl) { e.preventDefault(); navigate(`#/${wl.dataset.id}/${wl.dataset.heading}`); return; }
+    // In-site links. On a note's own page (<site>/<ID>/) a "#/…" link would otherwise reload the whole site.
+    const a = e.target.closest('a[href]');
+    if (a && !e.defaultPrevented && e.button === 0 && !e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey && !a.target && !a.hasAttribute('download')) {
+      const href = a.getAttribute('href'), m = href.match(/^([A-Za-z]+-\d+)\/(?:#(.*))?$/);
+      const hash = href === '#' || href.startsWith('#/') ? href : m ? '#/' + m[1].toUpperCase() + (m[2] ? (m[2].startsWith('?') ? m[2] : '/' + m[2]) : '') : null;
+      if (hash != null) { if (m || location.pathname !== ROOT_PATH) { e.preventDefault(); navigate(hash); } }
+      else if (/^#[^/]/.test(href)) { e.preventDefault(); const t = document.getElementById(decodeURIComponent(href.slice(1))); if (t) { t.scrollIntoView(); if (t.focus) t.focus({ preventScroll: true }); } }   // "Skip to content" and the like
+    }
   });
   document.addEventListener('keydown', e => {
     const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName) || e.target.isContentEditable;
@@ -1509,14 +1548,16 @@ async function boot() {
   S.files = new Map((data.files || []).flatMap(f => [[f.toLowerCase(), f], [f.replace(/^notes\//, '').toLowerCase(), f], [f.split('/').pop().toLowerCase(), f]]));
   try { index(cfg, data.notes || []); }
   catch (e) { console.error(e); fail(`Something in <code>config.json</code> is wrong: ${esc(e.message)}`); return; }
-  buildShell(); bindEvents();
+  if (document.querySelector('#main article.note')) firstScroll = window.scrollY;   // a note's own page, already showing the note
+  pinBase(); buildShell(); bindEvents();
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';   // route() restores positions itself
-  addEventListener('hashchange', route);
+  addEventListener('hashchange', routeSoon);
+  addEventListener('popstate', routeSoon);
   // returning from Lichess sign-in (the chess page's opening explorer): finish it on the chess page
   if (/[?&](code|error)=/.test(location.search) && sessionStorage.getItem('cp-lichess-pkce') && !location.hash.startsWith('#/chess')) location.hash = '#/chess';
   route();
 }
 if (window.COMMONPLACE_LIBRARY) {
-  window.Commonplace = { S, loadLib, index, parseNote, viewNote, renderMarkdown, enhance, sourceLine, esc, slug, list, str, getJSON, matchType, placeNote, prepareSections };
+  window.Commonplace = { S, loadLib, index, parseNote, viewNote, shellHTML, renderMarkdown, enhance, sourceLine, esc, slug, list, str, getJSON, matchType, placeNote, prepareSections };
 } else boot();
 })();

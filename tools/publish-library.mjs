@@ -26,7 +26,7 @@ try {
   }
   const lib = collectLibrary({ withGit: false });   // also checks that library/library.json parses
   console.log(`  ${lib.items.length} PDF(s) in ${lib.channels.length} channel(s)`);
-  console.log('\n== Building the site'); build();
+  console.log('\n== Building the site'); await build();
   if (dry) { console.log('\n(dry run: nothing committed)'); process.exit(0); }
   git('add', '--', 'library');
   const staged = git('diff', '--cached', '--name-status', '--', 'library').trim();

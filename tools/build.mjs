@@ -1,8 +1,10 @@
 // Collects every Markdown file under notes/ into notes.json and assembles the
 // finished site in _site/. Run: node tools/build.mjs   (GitHub Actions runs it for you.)
 // Besides the site itself it writes:
-//   <ID>/index.html  a shareable address for each entry (e.g. /M-0052/) whose link preview shows
-//                    the entry's title and summary, and which then opens the entry
+//   <ID>/index.html  each entry's own page (e.g. /M-0052/), with the note already rendered in it: it shows at
+//                    once, reads without scripts, can be found by search engines, and carries the link preview.
+//                    (Without the npm packages it is a small page that forwards into the site instead.)
+//   sitemap.xml      every entry's address, for search engines (when SITE_URL is set)
 //   feed.xml         an Atom feed of the newest entries
 // Set SITE_URL (the workflow does) to give the feed and previews absolute addresses.
 import fs from 'node:fs';
@@ -11,6 +13,7 @@ import crypto from 'node:crypto';
 import { pathToFileURL } from 'node:url';
 import { ROOT, NOTE_EXT, MEDIA_EXT, walk, gitDates, rel, loadConfig, readFrontMatter } from './lib.mjs';
 import { canDrawCards, drawCard } from './og.mjs';
+import { makeRenderer } from './prerender.mjs';
 // (walk skips names starting with "." or "_", so library/_drafts/ stays unpublished)
 export { ROOT };
 
@@ -134,14 +137,31 @@ ${e.summary ? `    <summary>${esc(e.summary)}</summary>\n` : ''}${e.tags.map(t =
 }
 
 // page head: the site's own title and description for link previews, the feed, and asset fingerprints
+const fingerprint = html => html.replace(/(src|href)="(assets\/[^"?#]+\.(?:js|css))(?:\?v=[^"]*)?"/g, (all, attr, asset) => {
+  const p = path.join(ROOT, asset);
+  if (!fs.existsSync(p)) return all;
+  return `${attr}="${asset}?v=${crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex').slice(0, 10)}"`;
+});
+// A note's own page: the site's page with the note already in it. `body` is the top bar and the rendered note.
+function notePage(e, site, base, card, body) {
+  const head = [
+    `<meta property="og:type" content="article">`, `<meta property="og:site_name" content="${esc(site)}">`, `<meta property="og:title" content="${esc(e.title)}">`,
+    e.summary && `<meta property="og:description" content="${esc(e.summary)}">`,
+    base && `<meta property="og:url" content="${esc(base + e.id)}/">`, base && `<link rel="canonical" href="${esc(base + e.id)}/">`,
+    card && base ? `<meta property="og:image" content="${esc(base + e.id)}/card.png">\n<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n<meta property="og:image:alt" content="${esc(e.title)}">\n<meta name="twitter:card" content="summary_large_image">` : '<meta name="twitter:card" content="summary">',
+    `<link rel="alternate" type="application/atom+xml" title="${esc(site)}: newest entries" href="feed.xml">`
+  ].filter(Boolean).join('\n');
+  let html = fingerprint(fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8'));
+  html = html.replace('<meta charset="utf-8">', () => '<meta charset="utf-8">\n<base href="../">');      // assets, data and links are written relative to the site's folder
+  html = html.replace(/<title>[^<]*<\/title>/, () => `<title>${esc(e.title)} — ${esc(site)}</title>`);
+  html = html.replace(/<meta name="description" content="[^"]*">/, () => e.summary ? `<meta name="description" content="${esc(e.summary)}">` : '');
+  html = html.replace('</head>', () => head + '\n</head>');
+  html = html.replace(/<noscript>[\s\S]*?<\/noscript>/, () => body);
+  return html;
+}
 function finishPage(file, { cfg, base, isHome }) {
   if (!fs.existsSync(file)) return;
-  let html = fs.readFileSync(file, 'utf8');
-  html = html.replace(/(src|href)="(assets\/[^"?#]+\.(?:js|css))"/g, (all, attr, asset) => {
-    const p = path.join(ROOT, asset);
-    if (!fs.existsSync(p)) return all;
-    return `${attr}="${asset}?v=${crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex').slice(0, 10)}"`;
-  });
+  let html = fingerprint(fs.readFileSync(file, 'utf8'));
   if (isHome) {
     const site = cfg.title || 'Notes', desc = plain(cfg.description || cfg.subtitle || cfg.welcome || cfg.intro);
     html = html.replace(/<title>[^<]*<\/title>/, `<title>${esc(site)}</title>`);
@@ -155,7 +175,7 @@ function finishPage(file, { cfg, base, isHome }) {
   fs.writeFileSync(file, html);
 }
 
-export function build() {
+export async function build() {
   const cfg = loadConfig();   // fail early on a broken config
   const base = (process.env.SITE_URL || '').trim().replace(/\/*$/, '/').replace(/^\/$/, '');
   const out = path.join(ROOT, '_site');
@@ -176,6 +196,9 @@ export function build() {
   const cacheDir = path.join(ROOT, '.cards-cache'); if (cards) fs.mkdirSync(cacheDir, { recursive: true });
   const ogSrc = cards ? fs.readFileSync(path.join(ROOT, 'tools', 'og.mjs')) : '';
   const labelFor = id => { const sec = (cfg.sections || []).find(s => s.prefix === id.split('-')[0]); return sec ? sec.name : 'Note'; };
+  let renderer = null, rendered = 0;
+  if (process.env.NO_PRERENDER !== '1') { try { renderer = await makeRenderer(cfg, notes, files); } catch (err) { console.warn('Notes are not pre-rendered:', err.message); } }
+  if (!renderer && process.env.NO_PRERENDER !== '1') console.warn('Notes are not pre-rendered (run "npm install" once to enable it); their pages forward into the site instead.');
   for (const e of entries) {
     const dir = path.join(out, e.id);
     if (fs.existsSync(dir)) continue;   // never shadow a real folder of the site
@@ -189,16 +212,26 @@ export function build() {
       else { try { card = drawCard(spec); if (card) { fs.writeFileSync(key, card); drawn++; } } catch (err) { if (!cardErr) console.warn('Preview pictures skipped:', (cardErr = err).message); } }
     }
     if (card) fs.writeFileSync(path.join(dir, 'card.png'), card);
-    fs.writeFileSync(path.join(dir, 'index.html'), sharePage(e, site, base, !!card));
+    let body = null;
+    if (renderer) { try { body = renderer.page(e.id); } catch (err) { if (!rendered) console.warn(`Could not pre-render ${e.id}: ${err.message}`); } }
+    if (body) rendered++;
+    fs.writeFileSync(path.join(dir, 'index.html'), body ? notePage(e, site, base, !!card, body) : sharePage(e, site, base, !!card));
+  }
+  if (renderer) renderer.close();
+  if (base) {
+    const urls = [base, ...entries.map(e => `${base}${e.id}/`)], mod = new Map(entries.map(e => [`${base}${e.id}/`, e.updated]));
+    fs.writeFileSync(path.join(out, 'sitemap.xml'), `<?xml version="1.0" encoding="utf-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${esc(u)}</loc>${mod.get(u) ? `<lastmod>${mod.get(u)}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>\n`);
+    fs.writeFileSync(path.join(out, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${base}sitemap.xml\n`);
   }
   const num = e => +e.id.split('-')[1] || 0;
   const newest = [...entries].sort((a, b) => b.date.localeCompare(a.date) || num(b) - num(a)).slice(0, 30);
   fs.writeFileSync(path.join(out, 'feed.xml'), feed(newest, cfg, base));
   if (cards) for (const f of fs.readdirSync(cacheDir)) if (!used.has(f)) fs.rmSync(path.join(cacheDir, f));   // drop pictures of old titles
   if (drawn || reused) console.log(`Preview pictures: ${drawn} drawn, ${reused} reused.`);
+  if (rendered) console.log(`Pre-rendered ${rendered} note page${rendered === 1 ? '' : 's'}.`);
   console.log(`Built ${notes.length} note${notes.length === 1 ? '' : 's'} into _site/${drafts ? ` (${drafts} draft${drafts === 1 ? '' : 's'} skipped)` : ''}${library.items.length ? `, with ${library.items.length} PDF${library.items.length === 1 ? '' : 's'} in the library` : ''}.`);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
-  try { build(); } catch (e) { console.error('Build failed:', e.message); process.exit(1); }
+  try { await build(); } catch (e) { console.error('Build failed:', e.message); process.exit(1); }
 }

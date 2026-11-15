@@ -1,4 +1,5 @@
 // Local preview: node tools/serve.mjs   then open http://localhost:8000
+//   node tools/serve.mjs --built   serves the finished site in _site/ as GitHub Pages would (run node tools/build.mjs first)
 // Notes are re-read on every page load, and an open page reloads itself (keeping its place)
 // whenever a note, config.json or the site's own files change.
 import http from 'node:http';
@@ -7,7 +8,9 @@ import path from 'node:path';
 import { ROOT, collectNotes, collectLibrary } from './build.mjs';
 import { loadConfig } from './lib.mjs';
 
-const PORT = Number(process.env.PORT) || 8000;
+const BUILT = process.argv.includes('--built');
+const PORT = Number(process.env.PORT) || (BUILT ? 8001 : 8000);
+const SITE = BUILT ? path.join(ROOT, '_site') : ROOT;
 const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.md': 'text/markdown',
   '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.avif': 'image/avif', '.pdf': 'application/pdf', '.wasm': 'application/wasm' };
 
@@ -27,20 +30,27 @@ http.createServer((req, res) => {
     res.write(': listening\n\n'); listeners.add(res); req.on('close', () => listeners.delete(res));
     return;
   }
-  if (url === '/notes.json') {
+  if (!BUILT && url === '/notes.json') {
     try { loadConfig(); } catch (e) { res.writeHead(500); return res.end(e.message); }
     res.writeHead(200, { 'content-type': 'application/json', 'cache-control': 'no-store' });
     return res.end(JSON.stringify(collectNotes({ withGit: false })));
   }
-  if (url === '/library.json') {
+  if (!BUILT && url === '/library.json') {
     let lib; try { lib = collectLibrary({ withGit: false }); } catch (e) { res.writeHead(500); return res.end(e.message); }
     res.writeHead(200, { 'content-type': 'application/json', 'cache-control': 'no-store' });
     return res.end(JSON.stringify(lib));
   }
-  const file = path.join(ROOT, url === '/' ? 'index.html' : url);
-  if (!file.startsWith(ROOT) || !fs.existsSync(file) || fs.statSync(file).isDirectory()) { res.writeHead(404); return res.end('Not found'); }
+  // a note's own address (/M-0052/): the built site has a page for it; the live preview hands out the site's page, which then shows the note
+  const noteAddr = /^\/[A-Za-z]+-\d+\/?$/.test(url);
+  if (noteAddr && !url.endsWith('/')) { res.writeHead(301, { location: url + '/' }); return res.end(); }
+  if (noteAddr && !BUILT) {
+    res.writeHead(200, { 'content-type': 'text/html', 'cache-control': 'no-store' });
+    return res.end(fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8').replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<base href="../">').replace('</body>', RELOAD + '\n</body>'));
+  }
+  const file = path.join(SITE, url === '/' ? 'index.html' : url.endsWith('/') ? url + 'index.html' : url);
+  if (!file.startsWith(SITE) || !fs.existsSync(file) || fs.statSync(file).isDirectory()) { res.writeHead(404); return res.end('Not found'); }
   res.setHeader('content-type', TYPES[path.extname(file).toLowerCase()] || 'application/octet-stream'); res.setHeader('cache-control', 'no-store');
-  if (file === path.join(ROOT, 'index.html')) return res.end(fs.readFileSync(file, 'utf8').replace('</body>', RELOAD + '\n</body>'));
+  if (!BUILT && file === path.join(ROOT, 'index.html')) return res.end(fs.readFileSync(file, 'utf8').replace('</body>', RELOAD + '\n</body>'));
   // byte ranges, so the PDF reader can fetch only the pages it shows (GitHub Pages does the same)
   const size = fs.statSync(file).size, range = /^bytes=(\d*)-(\d*)$/.exec(req.headers.range || '');
   if (range && (range[1] || range[2])) {
