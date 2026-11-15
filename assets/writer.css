@@ -128,3 +128,7 @@ body.writer{min-height:100%}
 .w-btn.w-btn-small{padding:.2rem .7rem;font-size:.85rem}
 .w-guide-list li{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.3rem .8rem}
 .w-guide-list select{max-width:15rem;font:inherit;font-size:.85rem;padding:.15rem .3rem;border:1px solid var(--rule);border-radius:5px;background:var(--bg);color:var(--ink)}
+/* On wide screens the site pins a note's contents box to the left of the window. Inside the Writer's preview
+   that would land on top of the form, so keep it in the preview, above the note, as on narrow screens. */
+:root[data-design="forester"] .w-preview .note-page .toc{position:static;top:auto;left:auto;width:auto;max-width:31rem;max-height:none;overflow:visible;margin:0 auto 2.2rem;padding-right:0;font-size:.92em}
+:root[data-design="forester"] .w-preview .note-page .toc li{margin:.3rem 0}
