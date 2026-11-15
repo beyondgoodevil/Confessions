@@ -1015,6 +1015,7 @@ function parseHash() {
   if (parts[0] === 's') return { name: 'section', sec: parts[1], sub: parts[2], sort: q.get('sort'), topic: q.get('topic'), q: q.get('q') };
   if (parts[0] === 'tags') return parts[1] ? { name: 'tag', tag: parts[1] } : { name: 'tags' };
   if (parts[0] === 'graph') return { name: 'graph', tag: q.get('tag'), only: q.get('only') };
+  if (parts[0] === 'search') return { name: 'search', q: q.get('q') || '', sort: q.get('sort') || '' };
   if (parts[0] === 'chess') return { name: 'chess' };
   if (parts[0] === 'library' && S.config.library) return { name: 'library', channel: parts[1], file: parts[2], view: q.get('view'), sort: q.get('sort') };
   if (parts[0] === 'series') return parts[1] ? { name: 'series', key: parts[1] } : { name: 'serieslist' };
@@ -1039,6 +1040,7 @@ function route() {
   } else if (r.name === 'tags') { html = viewTags(); title = `Tags — ${title}`; }
   else if (r.name === 'tag') { html = viewTag(r.tag.toLowerCase()); title = `${r.tag} — ${title}`; }
   else if (r.name === 'graph') { html = viewGraph(r); title = `Graph — ${title}`; navKey = 'graph'; }
+  else if (r.name === 'search') { html = viewSearch(r); title = `${r.q ? r.q + ' — ' : ''}Search — ${title}`; }
   else if (r.name === 'series') { html = viewSeries(slug(r.key)); title = `Series — ${title}`; }
   else if (r.name === 'serieslist') { html = viewSeriesList(); title = `Series — ${title}`; }
   else if (r.name === 'chess') { html = `<div class="page page-chess"><header class="fr-head"><h1>Chess</h1><p class="home-sub">Play Stockfish at any strength, analyse positions and review your games</p></header><div class="chess-mount"><p class="fr-empty">Loading the board and engine…</p></div><p class="ch-credits">Engine: <a href="https://stockfishchess.org/" target="_blank" rel="noopener">Stockfish 19</a> (GPL v3; <a href="https://github.com/nmrugg/stockfish.js" target="_blank" rel="noopener">web build and source</a>). Pieces: cburnett (Colin M. L. Burnett) and merida (Armando Hernández Marroquín), GPL v2+, via <a href="https://github.com/lichess-org/lila" target="_blank" rel="noopener">Lichess</a>. Opening names: <a href="https://github.com/lichess-org/chess-openings" target="_blank" rel="noopener">lichess chess-openings</a>. Tablebase and opening explorer: Lichess. Shortcuts: ← → moves · ↑ ↓ start/end · F flip · L engine · X threat · E explorer · right-drag draws arrows (Shift red, Alt blue).</p></div>`; title = `Chess — ${title}`; navKey = 'chess'; }
@@ -1053,6 +1055,7 @@ function route() {
   main.innerHTML = html;
   if (r.name === 'section') initBrowse(main, r.q);   // before restoring the scroll position, since filtering changes the page's length
   if (r.name === 'graph') initGraph(main);
+  if (r.name === 'search') initSearch(main);
   if (r.name === 'library') initLibrary(main, r);
   if (r.name === 'chess') initChess(main);
   document.title = title;
@@ -1148,27 +1151,129 @@ function markTerms(text, terms) {
   for (const [a, b] of spans) { if (a < last) continue; out += esc(text.slice(last, a)) + `<mark>${esc(text.slice(a, b))}</mark>`; last = b; }
   return out + esc(text.slice(last));
 }
-function search(q, secs = []) {
-  const Q = parseQuery(q), terms = Q.terms, keys = [...Q.secs, ...secs];
-  const pool = S.notes.filter(n => secMatches(n, keys) && Q.tags.every(t => n.tags.some(x => fold(x).startsWith(t))));
-  const filtering = keys.length || Q.tags.length;
+// A note cut into its sections (the opening, then one per ## / ### / #### heading), as plain text. The anchors
+// are worked out the way the page does it, so a result can open the note at the passage.
+const stripMd = t => t.replace(/!?\[\[([^\]]+)\]\]/g, (_, i) => { const { target, label } = splitWiki(i); return label || target; })
+  .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/[#*_>`=~|$\\-]+/g, ' ').replace(/\s+/g, ' ').trim();
+function sectionsOf(n) {
+  if (n._secs) return n._secs;
+  const parts = [{ anchor: '', head: '', lines: [] }], seen = new Set(); let fence = false;
+  for (const line of n.body.split('\n')) {
+    if (/^\s*(```|~~~)/.test(line)) { fence = !fence; continue; }
+    const m = !fence && line.match(/^(#{2,4})[ \t]+(.+?)[ \t#]*$/);
+    if (m) { const head = stripMd(m[2]); let a = slug(head) || 'section', k = a, i = 2; while (seen.has(k)) k = `${a}-${i++}`; seen.add(k); parts.push({ anchor: k, head, lines: [] }); }
+    else parts[parts.length - 1].lines.push(line);
+  }
+  // a Related list is links, not text: finding a word there would only say that two notes are neighbours
+  return (n._secs = parts.map(p => { const text = /^(related|see also)$/i.test(p.head) ? '' : stripMd(p.lines.join('\n')); return { anchor: p.anchor, head: p.head, text, fold: fold(text) }; }));
+}
+const countIn = (hay, t) => { let c = 0; for (let i = hay.indexOf(t); i >= 0; i = hay.indexOf(t, i + t.length)) c++; return c; };
+const isoDay = d => { try { return d ? new Date(d).toISOString().slice(0, 10) : ''; } catch (e) { return ''; } };
+function searchFields(n) {
+  if (!n._sf) {
+    const f = n.fm || {};
+    n._sf = { title: fold(n.title), heads: fold(sectionsOf(n).map(x => x.head).join(' \u2022 ')), summary: fold(n.summary || ''),
+      meta: fold([n.id, n.tags.join(' '), sourceLine(n), n.aliases.join(' ')].join(' ')),
+      author: fold([f.author, f.lecturer, f.creator, f.host, f.guest, f.show, f.course, sourceLine(n)].map(str).join(' ')),
+      body: sectionsOf(n).map(x => x.fold).join(' • '), day: isoDay(n.created) };
+  }
+  return n._sf;
+}
+// Full-text search over every note. All words must appear (in the title, headings, tags, source, summary or text);
+// results are ranked by where they appear, how often, and how rare the word is across the notebook, with a bonus
+// when the words sit together. Each result carries its best passages. Returns { total, items }.
+function search(q, secs = [], opts = {}) {
+  const Q = parseQuery(q), terms = Q.terms, keys = [...Q.secs, ...secs], limit = opts.limit || 30;
+  let pool = S.notes.filter(n => secMatches(n, keys) && Q.tags.every(t => n.tags.some(x => fold(x).startsWith(t))));
+  if (Q.author.length || Q.title.length || Q.before || Q.after || Q.not.length) pool = pool.filter(n => {
+    const F = searchFields(n);
+    return Q.author.every(t => F.author.includes(t)) && Q.title.every(t => F.title.includes(t))
+      && (!Q.before || (F.day && F.day < Q.before)) && (!Q.after || (F.day && F.day >= Q.after))
+      && !Q.not.some(t => F.title.includes(t) || F.meta.includes(t) || F.body.includes(t));
+  });
+  const filtering = keys.length || Q.tags.length || Q.author.length || Q.title.length || Q.before || Q.after || Q.not.length;
+  const byDate = (a, b) => time(b.n.updated) - time(a.n.updated) || newest(a.n, b.n);
   if (!terms.length) {
-    const ns = Q.not.length ? pool.filter(n => { const F = folded(n); return !Q.not.some(t => F.title.includes(t) || F.meta.includes(t) || F.body.includes(t)); }) : pool;
-    return [...ns].sort((a, b) => time(b.updated) - time(a.updated) || newest(a, b)).slice(0, filtering || Q.not.length ? 40 : 8).map(n => ({ n, snip: '' }));
+    const all = pool.map(n => ({ n, snip: '', head: '', passages: [], score: 0 })).sort(byDate);
+    return { total: filtering ? all.length : 0, items: all.slice(0, filtering ? limit : Math.min(limit, 8)) };
   }
-  const res = [], whole = fold(q.trim());
+  // first pass: which notes have every word, and how often each word occurs
+  const hits = [], df = terms.map(() => 0);
   for (const n of pool) {
-    const F = folded(n), body = plainText(n);
-    if (Q.not.some(t => F.title.includes(t) || F.meta.includes(t) || F.body.includes(t))) continue;
-    let score = 0, ok = true;
-    for (const t of terms) { if (F.title.includes(t)) score += 10; else if (F.meta.includes(t)) score += 5; else if (F.body.includes(t)) score += t.includes(' ') ? 3 : 1; else { ok = false; break; } }
+    const F = searchFields(n), counts = [];
+    let ok = true;
+    for (const t of terms) { const c = countIn(F.body, t), any = c || F.title.includes(t) || F.meta.includes(t) || F.summary.includes(t) || F.heads.includes(t); if (!any) { ok = false; break; } counts.push(c); }
     if (!ok) continue;
-    if (F.title.startsWith(whole)) score += 20;
-    const t0 = terms.find(t => F.body.includes(t)), at = t0 ? F.body.indexOf(t0) : -1;
-    const snip = at < 0 ? markTerms(n.summary || body.slice(0, 140), terms) : (at > 60 ? '…' : '') + markTerms(body.slice(Math.max(0, at - 60), at + 110), terms) + '…';
-    res.push({ n, snip, score, head: t0 ? headingBefore(n, t0) : '' });
+    counts.forEach((c, i) => { if (c || true) df[i]++; });
+    hits.push({ n, F, counts });
   }
-  return res.sort((a, b) => b.score - a.score).slice(0, 30);
+  const N = Math.max(1, S.notes.length), idf = df.map(d => Math.log(1 + N / Math.max(1, d)));
+  const whole = fold(q.replace(/(?:^|\s)-?(?:tag|in|author|title|before|after):\S+/gi, ' ').replace(/"/g, '').trim());
+  const wordStart = (hay, t) => new RegExp('(^|[^\\p{L}\\p{N}])' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'u').test(hay);
+  const res = hits.map(({ n, F, counts }) => {
+    let score = 0;
+    terms.forEach((t, i) => {
+      if (F.title.includes(t)) score += wordStart(F.title, t) ? 14 : 9;
+      if (F.heads.includes(t)) score += 5;
+      if (F.meta.includes(t)) score += 5;
+      if (F.summary.includes(t)) score += 3;
+      if (counts[i]) score += (1 + Math.log(counts[i])) * idf[i] * (t.includes(' ') ? 2 : 1);
+    });
+    if (whole && F.title.startsWith(whole)) score += 22; else if (whole && terms.length > 1 && F.title.includes(whole)) score += 14;
+    if (whole && terms.length > 1 && F.body.includes(whole)) score += 6;
+    // passages: the sections where the words occur, best first
+    const secsHit = [];
+    for (const sec of sectionsOf(n)) {
+      let found = 0, total = 0, first = -1, rare = -1;
+      terms.forEach((t, i) => { const c = countIn(sec.fold, t); if (c) { found++; total += c; const at = sec.fold.indexOf(t); if (rare < 0 || idf[i] > idf[rare]) { rare = i; first = at; } } });
+      if (found) secsHit.push({ sec, w: found * 4 + Math.min(total, 6) + (found === terms.length ? 3 : 0) + (sec.head && terms.some(t => fold(sec.head).includes(t)) ? 2 : 0), first });
+    }
+    secsHit.sort((a, b) => b.w - a.w);
+    if (secsHit.length && terms.length > 1 && terms.every(t => secsHit[0].sec.fold.includes(t))) score += 4;   // the words meet in one section
+    const passages = secsHit.slice(0, opts.passages || 1).map(({ sec, first }) => ({ anchor: sec.anchor, head: sec.head,
+      snip: (first > 70 ? '…' : '') + markTerms(sec.text.slice(Math.max(0, first - 70), first + 150), terms) + (first + 150 < sec.text.length ? '…' : '') }));
+    const snip = passages.length ? passages[0].snip : markTerms(n.summary || plainText(n).slice(0, 160), terms);
+    return { n, score, snip, head: passages.length ? passages[0].head : '', passages, more: Math.max(0, secsHit.length - passages.length) };
+  });
+  res.sort(opts.sort === 'new' ? byDate : (a, b) => b.score - a.score || byDate(a, b));
+  return { total: res.length, items: res.slice(0, limit) };
+}
+// The address a result opens: the note, at the passage, with the words marked.
+const resultHref = (r, p, terms) => `#/${r.n.id}${p && p.anchor ? '/' + encodeURIComponent(p.anchor) : ''}${terms.length ? '?hl=' + encodeURIComponent(terms.join('|')) : ''}`;
+const SEARCH_HELP = 'Use <code>"exact phrase"</code>, <code>-leave-out</code>, <code>tag:plato</code>, <code>in:books</code>, <code>author:storing</code>, <code>title:republic</code>, <code>after:2026-10</code>, <code>before:2026-11</code>.';
+// The search page (#/search?q=…): every result, each with up to three passages.
+function viewSearch(r) {
+  const chips = S.sections.map(s => `<button type="button" class="s-chip" data-sec="${esc(s.id)}" aria-pressed="false">${esc(s.shortName || s.name)}</button>`).join('');
+  return `<div class="page page-search"><header class="fr-head"><h1>Search</h1></header>
+    <div class="sp-bar"><input class="sp-input" type="search" value="${esc(r.q || '')}" placeholder="Search titles, tags, sources and text" aria-label="Search" autocomplete="off">
+      <select class="sp-sort" aria-label="Order"><option value="">Best match first</option><option value="new"${r.sort === 'new' ? ' selected' : ''}>Newest first</option></select></div>
+    <div class="s-chips" role="group" aria-label="Only in">${chips}</div>
+    <p class="s-help">${SEARCH_HELP}</p>
+    <p class="sp-count" role="status"></p><ol class="sp-results"></ol><p class="sp-more"></p></div>`;
+}
+function initSearch(main) {
+  const input = $('.sp-input', main), sort = $('.sp-sort', main), list = $('.sp-results', main), count = $('.sp-count', main), moreP = $('.sp-more', main), secs = new Set();
+  let limit = 40, timer = 0;
+  const draw = () => {
+    const q = input.value.trim(), terms = parseQuery(q).terms;
+    const { total, items } = search(q, [...secs].map(fold), { limit, passages: 3, sort: sort.value });
+    count.textContent = q || secs.size ? `${plural(total, 'note', 'notes')}${total > items.length ? `, showing ${items.length}` : ''}` : 'Type a word, a phrase or a filter. The newest notes are below.';
+    list.innerHTML = items.map(r => `<li><a class="sp-title" href="${resultHref(r, null, terms)}"><span class="r-addr">${r.n.id}</span>${markTerms(r.n.title, terms)}</a>
+      <p class="sp-meta">${esc(r.n.sub ? r.n.sub.name : r.n.section.name)}${r.n.tags.length ? ' · ' + esc(r.n.tags.slice(0, 4).join(', ')) : ''}${r.n.created ? ' · ' + esc(fmtDate(r.n.created)) : ''}</p>
+      ${r.passages.length ? r.passages.map(p => `<a class="sp-pass" href="${resultHref(r, p, terms)}">${p.head ? `<span class="sp-head">§ ${esc(p.head)}</span>` : ''}<span class="sp-snip">${p.snip}</span></a>`).join('') : (r.snip ? `<p class="sp-snip sp-sum">${r.snip}</p>` : '')}
+      ${r.more ? `<p class="sp-also">and ${plural(r.more, 'more section', 'more sections')}</p>` : ''}</li>`).join('') || '<li class="sp-empty">Nothing matches. Try fewer words, another spelling, or take a filter off.</li>';
+    moreP.innerHTML = total > items.length ? `<button type="button" class="linklike" data-more>Show ${Math.min(40, total - items.length)} more</button>` : '';
+  };
+  const sync = () => { const p = new URLSearchParams(); if (input.value.trim()) p.set('q', input.value.trim()); if (sort.value) p.set('sort', sort.value); try { history.replaceState(history.state, '', ROOT + '#/search' + (p.toString() ? '?' + p : '')); } catch (e) {} };
+  input.addEventListener('input', () => { limit = 40; draw(); clearTimeout(timer); timer = setTimeout(sync, 400); });
+  sort.addEventListener('change', () => { draw(); sync(); });
+  $('.page-search', main).addEventListener('click', e => {
+    const c = e.target.closest('.page-search .s-chip');
+    if (c) { const on = !secs.has(c.dataset.sec); on ? secs.add(c.dataset.sec) : secs.delete(c.dataset.sec); c.setAttribute('aria-pressed', on); limit = 40; draw(); return; }
+    if (e.target.closest('.page-search [data-more]')) { limit += 40; draw(); }
+  });
+  draw();
+  if (!input.value) input.focus();
 }
 function openSearch() {
   if ($('.overlay')) return;
@@ -1178,23 +1283,23 @@ function openSearch() {
   ov.innerHTML = `<div class="dialog search-dialog" role="dialog" aria-modal="true" aria-label="Search notes">
     <input class="search-input" type="search" placeholder="Search titles, tags, sources and text" aria-label="Search" autocomplete="off">
     <div class="s-chips" role="group" aria-label="Only in">${chips}</div>
-    <p class="s-help">Use <code>"exact phrase"</code>, <code>-leave-out</code>, <code>tag:plato</code>, <code>in:books</code>.</p>
-    <p class="results-label">Newest</p><ul class="results" role="listbox"></ul></div>`;
+    <p class="s-help">${SEARCH_HELP}</p>
+    <p class="results-label">Newest</p><ul class="results" role="listbox"></ul><p class="results-all" hidden></p></div>`;
   document.body.append(ov);
-  const input = $('input', ov), ul = $('.results', ov), label = $('.results-label', ov), secs = new Set();
+  const input = $('input', ov), ul = $('.results', ov), label = $('.results-label', ov), allP = $('.results-all', ov), secs = new Set();
   let items = [], sel = 0;
   const draw = () => {
     const q = input.value.trim();
-    items = search(q, [...secs].map(fold)); sel = 0;
-    label.textContent = q || secs.size ? `${plural(items.length, 'result', 'results')}${items.length === 30 || items.length === 40 ? ' (showing the first)' : ''}` : 'Newest';
+    const found = search(q, [...secs].map(fold), { limit: 12 }); items = found.items; sel = 0;
+    label.textContent = q || secs.size ? `${plural(found.total, 'note', 'notes')}${found.total > items.length ? `, best ${items.length} shown` : ''}` : 'Newest';
+    allP.hidden = !q; allP.innerHTML = q ? `<a href="#/search?q=${encodeURIComponent(q)}" data-all>${found.total > items.length ? `See all ${found.total} with their passages` : 'Open as a page, with every passage'} →</a>` : '';
     ul.innerHTML = items.length ? items.map((r, i) => `<li role="option" data-i="${i}" aria-selected="${i === sel}"><div class="r-title"><span class="r-addr">${r.n.id}</span>${esc(r.n.title)}</div>${r.head ? `<p class="r-head">§ ${esc(r.head)}</p>` : ''}${r.snip ? `<p class="r-snip">${r.snip}</p>` : ''}</li>`).join('') : '<li class="r-empty">Nothing matches. Try fewer words or another section.</li>';
   };
   const mark = () => $$('li[data-i]', ul).forEach((li, i) => { li.setAttribute('aria-selected', i === sel); if (i === sel) li.scrollIntoView({ block: 'nearest' }); });
   const close = () => { ov.remove(); if (prev && prev.focus) prev.focus(); };
   const open = i => {
     const r = items[i]; if (!r) return;
-    const hl = parseQuery(input.value).terms.join('|');
-    close(); location.hash = '#/' + r.n.id + (hl ? '?hl=' + encodeURIComponent(hl) : '');
+    close(); navigate(resultHref(r, r.passages && r.passages[0], parseQuery(input.value).terms));
   };
   input.addEventListener('input', draw);
   input.addEventListener('keydown', e => {
@@ -1206,6 +1311,7 @@ function openSearch() {
   ov.addEventListener('click', e => {
     const c = e.target.closest('.s-chip');
     if (c) { const on = !secs.has(c.dataset.sec); on ? secs.add(c.dataset.sec) : secs.delete(c.dataset.sec); c.setAttribute('aria-pressed', on); draw(); input.focus(); return; }
+    if (e.target.closest('[data-all]')) { e.preventDefault(); const q = input.value.trim(); close(); navigate('#/search?q=' + encodeURIComponent(q)); return; }
     const li = e.target.closest('li[data-i]'); if (li) open(+li.dataset.i); else if (e.target === ov) close();
   });
   draw(); input.focus();
@@ -1308,12 +1414,15 @@ function offerResume(id) {
 }
 // Search syntax: words (all must match), "exact phrases", -excluded, tag:name, in:section (books, misc, lectures…).
 function parseQuery(q) {
-  const out = { terms: [], not: [], tags: [], secs: [] };
-  for (const m of String(q).matchAll(/(-?)(?:(tag|in):)?(?:"([^"]+)"?|(\S+))/gi)) {
+  const out = { terms: [], not: [], tags: [], secs: [], author: [], title: [], before: '', after: '' };
+  for (const m of String(q).matchAll(/(-?)(?:(tag|in|author|title|before|after):)?(?:"([^"]+)"?|(\S+))/gi)) {
     const neg = m[1] === '-', kind = (m[2] || '').toLowerCase(), v = fold((m[3] ?? m[4] ?? '').trim());
     if (!v) continue;
     if (kind === 'tag') out.tags.push(v.replace(/^#/, ''));
     else if (kind === 'in') out.secs.push(v);
+    else if (kind === 'author') out.author.push(v);
+    else if (kind === 'title') out.title.push(v);
+    else if (kind === 'before' || kind === 'after') { if (/^\d{4}(-\d{2}){0,2}$/.test(v)) out[kind] = v; }
     else (neg ? out.not : out.terms).push(v);
   }
   return out;

@@ -936,3 +936,29 @@ mark.hl.is-cur{outline:2px solid var(--accent);outline-offset:1px}
 @media (prefers-reduced-motion:reduce){.cx-pc,.cx-evalfill{transition:none}}
 .nav>.nav-chess{color:var(--ink-2)}
 @media (max-width:760px){.nav>.nav-chess{grid-row:1;display:flex;align-items:center;min-height:2.75rem;padding:.4rem .6rem}}
+
+/* ===== search page ===== */
+.results-all{margin:0;padding:.55rem 1.25rem .7rem;border-top:1px solid var(--rule);font-size:.88em}
+.results-all a{color:var(--accent);text-decoration:none}
+.results-all a:hover{text-decoration:underline}
+.page-search{max-width:46rem;margin:0 auto;padding:0 1rem 4rem;font-family:var(--font-ui);font-size:var(--fs-ui)}
+.sp-bar{display:flex;gap:.5rem;flex-wrap:wrap;margin:0 0 .6rem}
+.sp-input{flex:1 1 16rem;padding:.7rem .9rem;border:1px solid var(--rule);border-radius:8px;background:var(--paper);color:var(--ink);font:inherit;font-size:1.05em}
+.sp-input:focus,.sp-sort:focus{outline:2px solid var(--accent);outline-offset:-1px;border-color:transparent}
+.sp-sort{padding:.6rem .6rem;border:1px solid var(--rule);border-radius:8px;background:var(--paper);color:var(--ink);font:inherit}
+.page-search .s-chips{margin:0 0 .4rem;padding:0}
+.page-search .s-help{margin:.2rem 0 .9rem;padding:0}
+.sp-count{margin:0 0 .4rem;color:var(--muted);font-size:.9em}
+.sp-results{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.sp-results>li{padding:.9rem 0;border-bottom:1px solid var(--rule)}
+.sp-title{display:flex;gap:.5rem;align-items:baseline;font-weight:600;color:var(--ink);text-decoration:none;font-size:1.05em}
+.sp-title:hover{color:var(--accent)}
+.sp-meta{margin:.1rem 0 .35rem;font-size:.84em;color:var(--muted)}
+.sp-pass{display:block;margin:.3rem 0 0;padding:.35rem .6rem;border-left:2px solid var(--rule);color:var(--ink-2);text-decoration:none;font-size:.92em;line-height:1.5}
+.sp-pass:hover{border-left-color:var(--accent);background:var(--surface)}
+.sp-head{display:block;font-size:.86em;color:var(--muted)}
+.sp-snip mark,.sp-title mark{background:var(--mark);color:var(--ink);border-radius:2px}
+.sp-sum{margin:.2rem 0 0;color:var(--ink-2);font-size:.92em}
+.sp-also{margin:.3rem 0 0 .7rem;font-size:.82em;color:var(--muted)}
+.sp-empty{padding:1.2rem 0;color:var(--muted)}
+.sp-more{margin:1rem 0;text-align:center}
