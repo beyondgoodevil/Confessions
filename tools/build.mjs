@@ -5,6 +5,7 @@
 //                    once, reads without scripts, can be found by search engines, and carries the link preview.
 //                    (Without the npm packages it is a small page that forwards into the site instead.)
 //   sitemap.xml      every entry's address, for search engines (when SITE_URL is set)
+//   entities.json    the people and works the notes draw on (tools/entities.mjs), for the People and Works pages
 //   feed.xml         an Atom feed of the newest entries
 // Set SITE_URL (the workflow does) to give the feed and previews absolute addresses.
 import fs from 'node:fs';
@@ -14,6 +15,7 @@ import { pathToFileURL } from 'node:url';
 import { ROOT, NOTE_EXT, MEDIA_EXT, walk, gitDates, rel, loadConfig, readFrontMatter } from './lib.mjs';
 import { canDrawCards, drawCard } from './og.mjs';
 import { makeRenderer } from './prerender.mjs';
+import { buildEntities } from './entities.mjs';
 // (walk skips names starting with "." or "_", so library/_drafts/ stays unpublished)
 export { ROOT };
 
@@ -186,6 +188,7 @@ export async function build() {
   const library = collectLibrary();
   fs.writeFileSync(path.join(out, 'library.json'), JSON.stringify(library));
   fs.writeFileSync(path.join(out, 'notes.json'), JSON.stringify({ generated: new Date().toISOString(), notes, files }));
+  try { fs.writeFileSync(path.join(out, 'entities.json'), JSON.stringify(buildEntities(notes))); } catch (err) { console.warn('People and works were not worked out:', err.message); fs.writeFileSync(path.join(out, 'entities.json'), '{"people":[],"works":[],"byNote":{}}'); }
   fs.writeFileSync(path.join(out, '.nojekyll'), '');
   finishPage(path.join(out, 'index.html'), { cfg, base, isHome: true });
   finishPage(path.join(out, 'write.html'), { cfg, base, isHome: false });

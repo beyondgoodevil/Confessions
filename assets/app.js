@@ -805,6 +805,92 @@ function viewTag(key) {
 }
 const viewMissing = msg => `<div class="page page-section"><header class="fr-head"><h1>Not found</h1><p class="home-sub">${msg}</p></header><p style="text-align:center"><a href="#/">Back to the index</a></p></div>`;
 
+/* ---------------- people and works (the knowledge-base layer) ---------------- */
+// entities.json is worked out by the build from the notes' source lines, author fields and citations
+// (tools/entities.mjs). It is fetched the first time it is needed.
+const KB = { data: null, loading: null };
+function loadEntities() {
+  if (KB.data) return Promise.resolve(KB.data);
+  if (!KB.loading) KB.loading = getJSON('entities.json').then(d => {
+    d.person = new Map(d.people.map(p => [p.key, p])); d.work = new Map(d.works.map(w => [w.key, w]));
+    return (KB.data = d);
+  }).catch(e => { KB.loading = null; throw e; });
+  return KB.loading;
+}
+const kbShell = (kind, key) => `<div class="page page-section page-kb" data-kb="${kind}" data-key="${esc(key || '')}"><p class="fr-empty">Loading…</p></div>`;
+const kbCounts = p => [plural(p.notes.length, 'note', 'notes'), p.works.length && plural(p.works.length, 'work', 'works'), p.quotes.length && plural(p.quotes.length, 'quotation', 'quotations')].filter(Boolean).join(' · ');
+const kbNotes = ids => ids.map(id => S.byId.get(id)).filter(Boolean).sort(newest);
+const kbQuote = (q, who) => { const n = S.byId.get(q.note); return `<li><blockquote>“${esc(q.text)}”</blockquote><p class="kb-cite">${who ? esc(who) + ', ' : ''}${esc(q.cite)}${n ? ` · in <a href="#/${n.id}${q.anchor ? '/' + encodeURIComponent(q.anchor) : ''}?hl=${encodeURIComponent(fold(q.text.slice(0, 60)))}">${esc(n.title)}</a>${q.head ? `, § ${esc(q.head)}` : ''}` : ''}</p></li>`; };
+function kbPeople(d) {
+  return `<header class="fr-head"><h1>People</h1><p class="home-sub">${plural(d.people.length, 'author and thinker', 'authors and thinkers')} the notes draw on, worked out from their sources and citations · <a href="#/works">Works</a></p></header>
+    <div class="kb-find"><input type="search" class="kb-q" placeholder="Find a name" aria-label="Find a name"><select class="kb-sort" aria-label="Order"><option value="n">Most notes first</option><option value="a">A to Z</option></select></div>
+    <ul class="kb-list"></ul>`;
+}
+function kbPerson(d, p) {
+  const kinds = new Map(p.notes), by = k => kbNotes(p.notes.filter(([, v]) => k(v)).map(([id]) => id));
+  const about = by(v => /about|author/.test(v)), drawn = by(v => !/about|author/.test(v) && /source/.test(v)), cited = by(v => v === 'cited');
+  const works = p.works.map(k => d.work.get(k)).filter(Boolean).sort((a, b) => String(a.year || '9999').localeCompare(String(b.year || '9999')) || a.title.localeCompare(b.title));
+  const group = (title, ns) => ns.length ? `<h2 class="yr">${title}</h2><ol class="fr-list fr-list-full">${ns.map(n => entryLi(n, true)).join('')}</ol>` : '';
+  return `<header class="fr-head"><p class="note-kicker"><a class="note-taxon" href="#/people">Person</a></p><h1>${esc(p.name)}</h1>
+      <p class="home-sub">${kbCounts(p)}${p.also.length ? ` · also written ${p.also.map(esc).join(', ')}` : ''}</p>${p.about ? `<p class="kb-about">${esc(p.about)}</p>` : ''}</header>
+    ${works.length ? `<h2 class="yr">Works the notes use</h2><ul class="kb-works">${works.map(w => `<li><a href="#/works/${w.key}">${esc(w.title)}</a>${w.year ? ` <span class="kb-year">${esc(w.year)}</span>` : ''}<span class="kb-n">${plural(w.notes.length, 'note', 'notes')}</span></li>`).join('')}</ul>` : ''}
+    ${group('Notes about ' + esc(p.name), about)}${group('Notes that draw on ' + esc(p.name), drawn)}${group('Notes that cite ' + esc(p.name), cited)}
+    ${p.quotes.length ? `<h2 class="yr">Quotations</h2><ul class="kb-quotes">${p.quotes.slice(0, 40).map(q => kbQuote(q)).join('')}</ul>${p.quotes.length > 40 ? `<p class="kb-more">and ${p.quotes.length - 40} more in the notes above</p>` : ''}` : ''}
+    ${p.near.length ? `<h2 class="yr">Appears alongside</h2><p class="kb-near">${p.near.map(([k, c]) => { const o = d.person.get(k); return o ? `<a href="#/people/${o.key}">${esc(o.name)}<span>${c}</span></a>` : ''; }).join('')}</p>` : ''}`;
+}
+function kbWorks(d) {
+  return `<header class="fr-head"><h1>Works</h1><p class="home-sub">${plural(d.works.length, 'book and text', 'books and texts')} the notes cite as sources · <a href="#/people">People</a></p></header>
+    <div class="kb-find"><input type="search" class="kb-q" placeholder="Find a title or an author" aria-label="Find a work"><select class="kb-sort" aria-label="Order"><option value="n">Most notes first</option><option value="a">By author</option><option value="y">By year</option></select></div>
+    <ul class="kb-list"></ul>`;
+}
+function kbWork(d, w) {
+  const p = d.person.get(w.author), ns = kbNotes(w.notes);
+  // a quotation belongs to this work when it is the author's only work in that note
+  const qs = p ? p.quotes.filter(q => w.notes.includes(q.note) && ((d.byNote[q.note] || {}).works || []).filter(k => (d.work.get(k) || {}).author === w.author).length === 1) : [];
+  return `<header class="fr-head"><p class="note-kicker"><a class="note-taxon" href="#/works">Work</a></p><h1>${esc(w.title)}</h1>
+      <p class="home-sub">${p ? `<a href="#/people/${p.key}">${esc(p.name)}</a>` : ''}${w.year ? ` · ${esc(w.year)}` : ''} · used in ${plural(ns.length, 'note', 'notes')}</p></header>
+    <ol class="fr-list fr-list-full">${ns.map(n => entryLi(n, true)).join('')}</ol>
+    ${qs.length ? `<h2 class="yr">Quotations</h2><ul class="kb-quotes">${qs.slice(0, 40).map(q => kbQuote(q)).join('')}</ul>` : ''}`;
+}
+function initKB(main) {
+  const page = $('.page-kb', main); if (!page) return;
+  loadEntities().then(d => {
+    if (!page.isConnected) return;
+    const kind = page.dataset.kb, key = page.dataset.key;
+    if (kind === 'person') { const p = d.person.get(key); page.innerHTML = p ? kbPerson(d, p) : `<header class="fr-head"><h1>Not found</h1><p class="home-sub">The notes don’t draw on anyone filed as “${esc(key)}”. <a href="#/people">All people</a></p></header>`; if (p) document.title = `${p.name} — ${S.config.title || 'Notes'}`; return; }
+    if (kind === 'work') { const w = d.work.get(key); page.innerHTML = w ? kbWork(d, w) : `<header class="fr-head"><h1>Not found</h1><p class="home-sub">No work is filed as “${esc(key)}”. <a href="#/works">All works</a></p></header>`; if (w) document.title = `${w.title} — ${S.config.title || 'Notes'}`; return; }
+    page.innerHTML = kind === 'people' ? kbPeople(d) : kbWorks(d);
+    const q = $('.kb-q', page), sort = $('.kb-sort', page), ul = $('.kb-list', page);
+    const draw = () => {
+      const t = fold(q.value.trim());
+      if (kind === 'people') {
+        const rows = d.people.filter(p => !t || fold(p.name + ' ' + p.also.join(' ')).includes(t));
+        if (sort.value === 'a') rows.sort((a, b) => a.name.replace(/^(St\.?|Fr\.?|Sister|Metropolitan)\s+/, '').localeCompare(b.name.replace(/^(St\.?|Fr\.?|Sister|Metropolitan)\s+/, '')));
+        ul.innerHTML = rows.map(p => `<li><a href="#/people/${p.key}">${esc(p.name)}</a><span class="kb-n">${kbCounts(p)}</span></li>`).join('') || '<li class="fr-empty">No one by that name.</li>';
+      } else {
+        const name = w => (d.person.get(w.author) || {}).name || '';
+        const rows = d.works.filter(w => !t || fold(w.title + ' ' + name(w)).includes(t));
+        rows.sort(sort.value === 'a' ? (a, b) => name(a).localeCompare(name(b)) || a.title.localeCompare(b.title) : sort.value === 'y' ? (a, b) => String(a.year || '9999').localeCompare(String(b.year || '9999')) || a.title.localeCompare(b.title) : (a, b) => b.notes.length - a.notes.length || a.title.localeCompare(b.title));
+        ul.innerHTML = rows.map(w => `<li><a href="#/works/${w.key}">${esc(w.title)}</a><span class="kb-by">${esc(name(w))}${w.year ? ', ' + esc(w.year) : ''}</span><span class="kb-n">${plural(w.notes.length, 'note', 'notes')}</span></li>`).join('') || '<li class="fr-empty">Nothing by that title.</li>';
+      }
+    };
+    q.addEventListener('input', draw); sort.addEventListener('change', draw); draw();
+  }).catch(e => { if (page.isConnected) page.innerHTML = `<p class="fr-empty">The list of people and works didn’t load (${esc(e.message)}).</p>`; });
+}
+// Under a note: the people and works it draws on.
+function addEntityBox(main, id) {
+  loadEntities().then(d => {
+    const art = $(`article.note[data-id="${id}"] .note-main`, main), e = d.byNote[id];
+    if (!art || !e || $('.kb-box', art)) return;
+    const ps = e.people.map(k => d.person.get(k)).filter(Boolean), ws = (e.works || []).map(k => d.work.get(k)).filter(Boolean);
+    if (!ps.length && !ws.length) return;
+    const box = document.createElement('aside'); box.className = 'kb-box';
+    box.innerHTML = `<h2>People and works in this note</h2>${ps.length ? `<p class="kb-near">${ps.map(p => `<a href="#/people/${p.key}">${esc(p.name)}<span>${p.notes.length}</span></a>`).join('')}</p>` : ''}
+      ${ws.length ? `<ul class="kb-works">${ws.map(w => `<li><a href="#/works/${w.key}">${esc(w.title)}</a>${w.year ? ` <span class="kb-year">${esc(w.year)}</span>` : ''}<span class="kb-n">${plural(w.notes.length, 'note', 'notes')}</span></li>`).join('')}</ul>` : ''}`;
+    art.append(box);
+  }).catch(() => {});
+}
+
 /* ---------------- PDF library ---------------- */
 // library.json (built from library/<Channel>/<file>.pdf) is fetched the first time the Library is opened.
 // Channels and files are shown as square blocks; a file opens in a reader drawn with pdf.js, page by page as it scrolls into view.
@@ -1016,6 +1102,8 @@ function parseHash() {
   if (parts[0] === 'tags') return parts[1] ? { name: 'tag', tag: parts[1] } : { name: 'tags' };
   if (parts[0] === 'graph') return { name: 'graph', tag: q.get('tag'), only: q.get('only') };
   if (parts[0] === 'search') return { name: 'search', q: q.get('q') || '', sort: q.get('sort') || '' };
+  if (parts[0] === 'people') return parts[1] ? { name: 'person', key: parts[1].toLowerCase() } : { name: 'people' };
+  if (parts[0] === 'works') return parts[1] ? { name: 'work', key: parts[1].toLowerCase() } : { name: 'works' };
   if (parts[0] === 'chess') return { name: 'chess' };
   if (parts[0] === 'library' && S.config.library) return { name: 'library', channel: parts[1], file: parts[2], view: q.get('view'), sort: q.get('sort') };
   if (parts[0] === 'series') return parts[1] ? { name: 'series', key: parts[1] } : { name: 'serieslist' };
@@ -1041,6 +1129,7 @@ function route() {
   else if (r.name === 'tag') { html = viewTag(r.tag.toLowerCase()); title = `${r.tag} — ${title}`; }
   else if (r.name === 'graph') { html = viewGraph(r); title = `Graph — ${title}`; navKey = 'graph'; }
   else if (r.name === 'search') { html = viewSearch(r); title = `${r.q ? r.q + ' — ' : ''}Search — ${title}`; }
+  else if (['people', 'person', 'works', 'work'].includes(r.name)) { html = kbShell(r.name, r.key); title = `${r.name === 'works' || r.name === 'work' ? 'Works' : 'People'} — ${title}`; navKey = 'people'; }
   else if (r.name === 'series') { html = viewSeries(slug(r.key)); title = `Series — ${title}`; }
   else if (r.name === 'serieslist') { html = viewSeriesList(); title = `Series — ${title}`; }
   else if (r.name === 'chess') { html = `<div class="page page-chess"><header class="fr-head"><h1>Chess</h1><p class="home-sub">Play Stockfish at any strength, analyse positions and review your games</p></header><div class="chess-mount"><p class="fr-empty">Loading the board and engine…</p></div><p class="ch-credits">Engine: <a href="https://stockfishchess.org/" target="_blank" rel="noopener">Stockfish 19</a> (GPL v3; <a href="https://github.com/nmrugg/stockfish.js" target="_blank" rel="noopener">web build and source</a>). Pieces: cburnett (Colin M. L. Burnett) and merida (Armando Hernández Marroquín), GPL v2+, via <a href="https://github.com/lichess-org/lila" target="_blank" rel="noopener">Lichess</a>. Opening names: <a href="https://github.com/lichess-org/chess-openings" target="_blank" rel="noopener">lichess chess-openings</a>. Tablebase and opening explorer: Lichess. Shortcuts: ← → moves · ↑ ↓ start/end · F flip · L engine · X threat · E explorer · right-drag draws arrows (Shift red, Alt blue).</p></div>`; title = `Chess — ${title}`; navKey = 'chess'; }
@@ -1056,6 +1145,8 @@ function route() {
   if (r.name === 'section') initBrowse(main, r.q);   // before restoring the scroll position, since filtering changes the page's length
   if (r.name === 'graph') initGraph(main);
   if (r.name === 'search') initSearch(main);
+  if (['people', 'person', 'works', 'work'].includes(r.name)) initKB(main);
+  if (r.name === 'note' && S.byId.get(r.id)) addEntityBox(main, r.id);
   if (r.name === 'library') initLibrary(main, r);
   if (r.name === 'chess') initChess(main);
   document.title = title;
@@ -1116,7 +1207,7 @@ function shellHTML(mainHTML = '') {
   return `<a class="skip" href="#main">Skip to content</a>
   <header class="topbar"><a class="brand" href="#/"><span class="brand-title">${esc(c.title || 'Notes')}</span></a>
     <nav class="nav" aria-label="Main"><span class="nav-links"><a href="#/" data-nav="index">Index</a>${S.sections.map(s => `<a href="#/s/${s.id}" data-nav="${s.id}">${esc(s.shortName || s.name)}</a>`).join('')}
-    ${c.library ? '<a href="#/library" data-nav="library">Library</a>' : ''}<a href="#/tags" data-nav="tags">Tags</a></span><a href="#/chess" data-nav="chess" class="nav-chess">Chess</a><button type="button" data-action="random" title="Open a random note">Random</button><button type="button" data-action="search">Search<kbd>/</kbd></button>
+    ${c.library ? '<a href="#/library" data-nav="library">Library</a>' : ''}<a href="#/tags" data-nav="tags">Tags</a><a href="#/people" data-nav="people">People</a></span><a href="#/chess" data-nav="chess" class="nav-chess">Chess</a><button type="button" data-action="random" title="Open a random note">Random</button><button type="button" data-action="search">Search<kbd>/</kbd></button>
     <button type="button" class="theme-btn" data-action="theme" aria-label="Switch colour theme" title="Switch colour theme"></button></nav><div class="read-progress" hidden aria-hidden="true"><span></span></div></header>
   <main id="main" tabindex="-1">${mainHTML}</main>
   <div class="popover" id="popover" hidden></div>`;

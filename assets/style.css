@@ -962,3 +962,35 @@ mark.hl.is-cur{outline:2px solid var(--accent);outline-offset:1px}
 .sp-also{margin:.3rem 0 0 .7rem;font-size:.82em;color:var(--muted)}
 .sp-empty{padding:1.2rem 0;color:var(--muted)}
 .sp-more{margin:1rem 0;text-align:center}
+
+/* ===== people and works ===== */
+.page-kb{font-family:var(--font-ui);font-size:var(--fs-ui)}
+.kb-find{display:flex;gap:.5rem;flex-wrap:wrap;max-width:36rem;margin:0 auto 1rem}
+.kb-find input{flex:1 1 12rem;padding:.55rem .8rem;border:1px solid var(--rule);border-radius:8px;background:var(--paper);color:var(--ink);font:inherit}
+.kb-find select{padding:.5rem;border:1px solid var(--rule);border-radius:8px;background:var(--paper);color:var(--ink);font:inherit}
+.kb-find input:focus,.kb-find select:focus{outline:2px solid var(--accent);outline-offset:-1px;border-color:transparent}
+.kb-list,.kb-works{list-style:none;margin:0 auto;padding:0;max-width:44rem}
+.kb-list li,.kb-works li{display:flex;flex-wrap:wrap;align-items:baseline;gap:.2rem .7rem;padding:.45rem 0;border-bottom:1px solid var(--rule)}
+.kb-list a,.kb-works a{color:var(--ink);text-decoration:none;font-weight:600}
+.kb-list a:hover,.kb-works a:hover{color:var(--accent)}
+.kb-n{margin-left:auto;color:var(--muted);font-size:.85em;white-space:nowrap}
+.kb-by,.kb-year{color:var(--muted);font-size:.9em}
+.kb-about{max-width:36rem;margin:.6rem auto 0;color:var(--ink-2)}
+.kb-quotes{list-style:none;margin:0 auto;padding:0;max-width:44rem}
+.kb-quotes li{padding:.8rem 0;border-bottom:1px solid var(--rule)}
+.kb-quotes blockquote{margin:0;padding:0 0 0 .9rem;border-left:2px solid var(--accent);font-family:var(--font-body);font-size:1.05em;line-height:1.5;color:var(--ink)}
+.kb-cite{margin:.35rem 0 0 .9rem;font-size:.85em;color:var(--muted)}
+.kb-cite a{color:var(--accent);text-decoration:none}
+.kb-cite a:hover{text-decoration:underline}
+.kb-near{display:flex;flex-wrap:wrap;gap:.4rem;max-width:44rem;margin:0 auto}
+.kb-near a{display:inline-flex;align-items:center;gap:.4rem;border:1px solid var(--rule);border-radius:99px;padding:.15rem .7rem;color:var(--ink-2);text-decoration:none;font-size:.9em}
+.kb-near a:hover{border-color:var(--accent);color:var(--accent)}
+.kb-near a span{color:var(--muted);font-size:.85em}
+.kb-more{max-width:44rem;margin:.6rem auto 0;color:var(--muted);font-size:.88em}
+.page-kb h2.yr{max-width:44rem;margin-left:auto;margin-right:auto}
+.kb-box{margin:2.5rem 0 0;padding:1rem 0 0;border-top:1px solid var(--rule);font-family:var(--font-ui);font-size:var(--fs-ui)}
+.kb-box h2{margin:0 0 .7rem;font-size:.95em;font-weight:600;color:var(--ink-2);font-family:var(--font-ui)}
+.kb-box .kb-near{margin:0 0 .6rem;max-width:none}
+.kb-box .kb-works{max-width:none}
+.kb-box .kb-works a{font-weight:400}
+@media print{.kb-box{display:none}}

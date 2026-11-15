@@ -7,6 +7,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT, collectNotes, collectLibrary } from './build.mjs';
 import { loadConfig } from './lib.mjs';
+import { buildEntities } from './entities.mjs';
 
 const BUILT = process.argv.includes('--built');
 const PORT = Number(process.env.PORT) || (BUILT ? 8001 : 8000);
@@ -34,6 +35,10 @@ http.createServer((req, res) => {
     try { loadConfig(); } catch (e) { res.writeHead(500); return res.end(e.message); }
     res.writeHead(200, { 'content-type': 'application/json', 'cache-control': 'no-store' });
     return res.end(JSON.stringify(collectNotes({ withGit: false })));
+  }
+  if (!BUILT && url === '/entities.json') {
+    res.writeHead(200, { 'content-type': 'application/json', 'cache-control': 'no-store' });
+    try { return res.end(JSON.stringify(buildEntities(collectNotes({ withGit: false }).notes))); } catch (e) { return res.end('{"people":[],"works":[],"byNote":{}}'); }
   }
   if (!BUILT && url === '/library.json') {
     let lib; try { lib = collectLibrary({ withGit: false }); } catch (e) { res.writeHead(500); return res.end(e.message); }
