@@ -36,7 +36,7 @@ Open a terminal in this folder (needs Node.js and Git). The whole routine:
 
 **Quoting from SumatraPDF:** with the book open in SumatraPDF, select a passage, press `Ctrl+C`, and in Obsidian press `Ctrl+Alt+V` (*Paste as quotation*). The passage is pasted as one clean paragraph in quotation marks with its citation, `"…" (Storing, p. 9)`: the page is the book's printed page number, and the name comes from the note's `source:` line. The first quotation from a book takes a moment while the book is read (longer for a scan). *Open the citation under the cursor in SumatraPDF* (also in the right-click menu) opens the book at that page. *Import the highlights…* pastes every highlight saved in the PDF (in SumatraPDF: select, press `a`, save with `Ctrl+S`) as a list of quotations with pages; it needs `python -m pip install pymupdf` once. In the Writer page, text pasted from a PDF is joined into one paragraph, without the page lookup.
 
-**On the site:** every note has its own address (`…/M-0416/`) and opens with its text already there. Press `/` to search; *See all … with their passages* opens the full search page, where `author:`, `title:`, `before:` and `after:` narrow the results. **People** in the top bar lists every author and thinker the notes draw on, each with the works used, the notes and the quotations; it is built from the notes' `source:` lines and citations, and `people.json` is where to say that two spellings are one person.
+**On the site:** every note has its own address (`…/M-0416/`) and opens with its text already there. Press `/` to search; *See all … with their passages* opens the full search page, where `author:`, `title:`, `before:` and `after:` narrow the results.
 
 More helpers:
 

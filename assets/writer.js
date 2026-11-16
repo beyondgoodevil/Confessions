@@ -88,14 +88,16 @@ const yamlVal = v => /^[\w .,'()&/-]*$/.test(v) && !/^(true|false|null|yes|no|\d
 
 /* ---------------- preview ---------------- */
 function previewRaw(raw, path) {
-  const box = $('#preview');
+  // the Write and Edit tabs each have a preview box: draw in the one that is showing
+  const panel = $('#tab-' + W.tab) || document, box = $('#preview', panel);
+  if (!box) return;
   const entries = W.notes.filter(n => n.path !== path).concat([{ path, raw, created: today(), updated: today() }]);
   for (const [name, url] of W.images) { C.S.files.set(name.toLowerCase(), url); }
   try {
     C.index(W.cfg, entries);
     const n = C.S.notes.find(x => x.path === path);
     box.innerHTML = C.viewNote(n);
-    const addr = $('#addr'); if (addr) addr.textContent = n.explicitId ? n.id : `${n.id} (provisional)`;
+    const addr = $('#addr', panel); if (addr) addr.textContent = n.explicitId ? n.id : `${n.id} (provisional)`;
     C.enhance(box);
   } catch (e) { box.innerHTML = `<p class="w-error">Preview failed: ${esc(e.message)}</p>`; }
 }
@@ -1068,7 +1070,8 @@ async function openEditor(path, rawMode = false) {
   const original = build();
   const refresh = () => {
     const now = build(); const ed = $('.w-editor', form); if (ed._redraw) ed._redraw();
-    if (pvMode === 'diff') $('#changes').innerHTML = diffHTML(original, now); else   // against the note as it opened, so only your edits show previewRaw(now, form.path.value.trim());
+    if (pvMode === 'diff') $('#changes', $('#tab-edit')).innerHTML = diffHTML(original, now);   // against the note as it opened, so only your edits show
+    else previewRaw(now, form.path.value.trim());
     detailsState(form, getMeta());
     const sv = $('.w-bar-saved', form); if (sv) { const changed = now !== original || form.path.value.trim() !== path; sv.textContent = changed ? 'Changes not published' : 'No changes'; sv.classList.toggle('is-changed', changed); }
   };
@@ -1076,7 +1079,7 @@ async function openEditor(path, rawMode = false) {
   $('.w-preview-tabs', $('#tab-edit')).addEventListener('click', e => {
     const b = e.target.closest('[data-pv]'); if (!b) return;
     pvMode = b.dataset.pv; $$('[data-pv]', $('#tab-edit')).forEach(x => x.setAttribute('aria-pressed', x === b));
-    $('#preview').hidden = pvMode === 'diff'; $('#changes').hidden = pvMode !== 'diff'; refresh();
+    $('#preview', $('#tab-edit')).hidden = pvMode === 'diff'; $('#changes', $('#tab-edit')).hidden = pvMode !== 'diff'; refresh();
   });
   bindTags(form); bindDetails(form); bindBar(form);
   bindEditor($('.w-editor', form), refresh, getMeta, fmx ? fieldApi(form, () => refresh()) : null); refresh();
