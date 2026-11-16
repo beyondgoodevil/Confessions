@@ -26,6 +26,14 @@ module.exports = class PublishConfessions extends Plugin {
     this.addCommand({ id: 'publish-all', name: 'Publish everything changed', callback: () => this.publishAll() });
     this.addCommand({ id: 'check-note', name: 'Check this note', callback: () => this.review(false) });
     this.addCommand({ id: 'open-on-site', name: 'Open this note on the site', callback: () => this.openOnSite() });
+    this.addCommand({ id: 'paste-quote', name: 'Paste as quotation, with its page (from the book open in SumatraPDF)', hotkeys: [{ modifiers: ['Mod', 'Alt'], key: 'v' }], editorCallback: editor => this.pasteQuote(editor) });
+    this.addCommand({ id: 'import-highlights', name: 'Import the highlights of the book open in SumatraPDF', editorCallback: editor => this.importHighlights(editor) });
+    this.addCommand({ id: 'open-citation', name: 'Open the citation under the cursor in SumatraPDF', editorCallback: editor => this.openCitation(editor) });
+    this.registerEvent(this.app.workspace.on('editor-menu', (menu, editor) => {
+      menu.addItem(i => i.setTitle('Paste as quotation, with its page').setIcon('quote').onClick(() => this.pasteQuote(editor)));
+      const c = this.citationAt(editor);
+      if (c) menu.addItem(i => i.setTitle(`Open (${c}) in SumatraPDF`).setIcon('book-open').onClick(() => this.openCitation(editor)));
+    }));
     this.addCommand({ id: 'renumber-sections', name: 'Renumber the sections (### 1., ### 2., …)', editorCallback: editor => this.renumber(editor) });
 
     this.status = this.addStatusBarItem();
@@ -51,7 +59,7 @@ module.exports = class PublishConfessions extends Plugin {
   }
 
   /* ---- running the vault's tool ---- */
-  run(args, onLine) {
+  run(args, onLine, stdin) {
     return new Promise(resolve => {
       const child = execFile(this.settings.node || 'node', [path.join('tools', 'obsidian.mjs'), ...args], { cwd: this.root, maxBuffer: 1 << 26, windowsHide: true }, (err, stdout, stderr) => {
         const line = String(stdout || '').split(/\r?\n/).reverse().find(l => l.startsWith('RESULT '));
@@ -59,6 +67,7 @@ module.exports = class PublishConfessions extends Plugin {
         if (err && err.code === 'ENOENT') return resolve({ ok: false, error: 'Node.js was not found. Install it from nodejs.org, or put the full path to node.exe in this plugin\'s settings.' });
         resolve({ ok: false, error: String(stderr || (err && err.message) || 'The publish tool gave no answer.').trim().split('\n').slice(-8).join('\n') });
       });
+      if (stdin != null && child.stdin) { child.stdin.write(stdin); child.stdin.end(); }
       if (onLine && child.stdout) child.stdout.on('data', d => String(d).split(/\r?\n/).forEach(l => { if (l.trim() && !l.startsWith('RESULT ')) onLine(l.trim()); }));
     });
   }
@@ -144,6 +153,47 @@ module.exports = class PublishConfessions extends Plugin {
     if (!this.site()) await this.refresh();
     const url = this.link(null, id);
     if (url) window.open(url); else new Notice('Set the site address in this plugin\'s settings.');
+  }
+
+  /* ---- quoting from the book open in SumatraPDF ---- */
+  notePath() { const f = this.app.workspace.getActiveFile(); return f ? f.path : ''; }
+  // Ctrl+Alt+V: the copied passage, tidied (line breaks joined, split words mended), in quotation marks, with (Author, p. N).
+  async pasteQuote(editor) {
+    let text = ''; try { text = await navigator.clipboard.readText(); } catch (e) { new Notice('Could not read the clipboard.'); return; }
+    if (!text.trim()) { new Notice('Nothing is copied. Select the passage in SumatraPDF and press Ctrl+C first.'); return; }
+    const note = new Notice('Finding the page…', 0);
+    const r = await this.run(['quote', this.notePath()], l => note.setMessage(l + '…'), text);
+    note.hide();
+    if (!r.ok) { new Notice(r.error, 10000); return; }
+    editor.replaceSelection(r.text);
+    if (!r.found) new Notice(`Pasted without a page: the passage was not found in “${r.book}”. Check that this is the book it came from.`, 10000);
+    else if (!r.sure) new Notice(`Pasted as ${r.cite}, but the match was not exact (a scanned page?). Check the page number.`, 9000);
+  }
+  async importHighlights(editor) {
+    const note = new Notice('Reading the highlights…', 0);
+    const r = await this.run(['highlights', this.notePath()], l => note.setMessage(l + '…'));
+    note.hide();
+    if (!r.ok) { new Notice(r.error, 12000); return; }
+    editor.replaceSelection(r.items.map(i => `- ${i.text}${i.note ? `\n    - ${i.note.replace(/\s*\n\s*/g, ' ')}` : ''}`).join('\n') + '\n');
+    new Notice(`${r.items.length} highlight${r.items.length === 1 ? '' : 's'} from “${r.book}”.${r.unread ? ` ${r.unread} on scanned pages could not be read and are marked.` : ''}`, 8000);
+  }
+  // the citation the cursor is in or next to: "Storing, p. 9"
+  citationAt(editor) {
+    const cur = editor.getCursor(), line = editor.getLine(cur.line);
+    let best = null, dist = Infinity;
+    for (const m of line.matchAll(/\(([^()]*?\b(?:PDF\s+)?pp?\.\s*[0-9ivxlcdm]+[^()]*)\)/gi)) {
+      const d = cur.ch < m.index ? m.index - cur.ch : cur.ch > m.index + m[0].length ? cur.ch - m.index - m[0].length : 0;
+      if (d < dist) { dist = d; best = m[1].trim(); }
+    }
+    return best;
+  }
+  async openCitation(editor) {
+    const c = this.citationAt(editor);
+    if (!c) { new Notice('Put the cursor on a line with a citation such as (Storing, p. 9).'); return; }
+    const note = new Notice('Opening the book…', 0);
+    const r = await this.run(['goto', this.notePath(), c], l => note.setMessage(l + '…'));
+    note.hide();
+    if (!r.ok) new Notice(r.error, 12000);
   }
 
   // Puts the "### 1." numbers back in order after sections were added, removed or moved. Works on whichever

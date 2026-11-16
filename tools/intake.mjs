@@ -134,15 +134,26 @@ if (firstPage) {
   how = `PDF page ${firstPage} taken as printed page 1 (--first-page)`;
 } else if (meta.labels && !range) { labels = meta.labels.slice(0, pages.length); how = "the PDF's own page labels"; }
 else {
-  const votes = new Map(), rvotes = new Map(); let seen = 0;
-  pages.forEach((p, i) => { const c = printedOn(p); if (!c) return; if (c.n != null) { seen++; const k = base + i - c.n; votes.set(k, (votes.get(k) || 0) + 1); } else { const k = base + i - c.r; rvotes.set(k, (rvotes.get(k) || 0) + 1); } });
-  const best = [...votes.entries()].sort((a, b) => b[1] - a[1])[0];
+  // Read the number printed on each page. The gap between a page's place in the PDF and its printed number is not
+  // always the same through a book (unnumbered plates, a second volume), so each page follows the numbers printed
+  // near it: a reading is trusted when another page within four of it shows the same gap.
+  const rvotes = new Map();
+  const offs = pages.map((p, i) => { const c = printedOn(p); if (!c) return null; if (c.n != null) return base + i - c.n; const k = base + i - c.r; rvotes.set(k, (rvotes.get(k) || 0) + 1); return null; });
+  const trusted = offs.map((o, i) => o != null && offs.slice(Math.max(0, i - 4), i + 5).filter(x => x === o).length >= 2);
+  const anchors = trusted.map((t, i) => t ? i : -1).filter(i => i >= 0);
   const rbest = [...rvotes.entries()].sort((a, b) => b[1] - a[1])[0];
-  if (best && best[1] >= Math.max(3, seen * 0.4)) {
-    const off = best[0], roff = rbest && rbest[1] >= 2 ? rbest[0] : 0;
-    labels = pages.map((_, i) => { const n = base + i - off; return n >= 1 ? String(n) : toRoman(Math.max(1, base + i - roff)); });
-    how = `printed numbers found on ${best[1]} pages (PDF page ${off + 1} is printed page 1)`;
-    if (best[1] < seen * 0.7) how += '; some pages disagree, so spot-check a citation or pass --first-page';
+  if (anchors.length >= 3) {
+    const roff = rbest && rbest[1] >= 2 ? rbest[0] : 0;
+    let k = 0;
+    labels = pages.map((_, i) => {
+      while (k + 1 < anchors.length && anchors[k + 1] <= i) k++;
+      const prev = anchors[k] <= i ? anchors[k] : null, next = anchors[k] > i ? anchors[k] : anchors[k + 1] ?? null;
+      const use = prev != null && (next == null || i - prev <= next - i) ? prev : next ?? prev;
+      const n = base + i - offs[use];
+      return n >= 1 ? String(n) : toRoman(Math.max(1, base + i - roff));
+    });
+    const shifts = anchors.filter((a, j) => j && offs[a] !== offs[anchors[j - 1]]).length;
+    how = `printed numbers read from ${anchors.length} pages` + (shifts ? `; the numbering shifts ${shifts} time${shifts === 1 ? '' : 's'} (unnumbered plates and the like), and each page follows the numbers printed near it` : ` (PDF page ${offs[anchors[0]] + 1} is printed page 1)`);
   } else { labels = pages.map((_, i) => `pdf ${base + i}`); how = 'no printed numbers found, so PDF page numbers are used (pass --first-page N to set them)'; }
 }
 console.log(how);

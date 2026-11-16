@@ -140,6 +140,8 @@ When deleting a note for the owner, delete the file and run `node tools/tidy.mjs
 
 `.obsidian/plugins/publish-confessions/` (plain `main.js`, no build step) gives the owner a Publish button in Obsidian. It only shells out to `node tools/obsidian.mjs <inspect|publish|publish-all|fix|status> …`, which prints progress lines and a final `RESULT {json}` line. `publish` pulls, stamps addresses (without git dates, so it is fast), adds the ticked related notes both ways, commits `notes/` as "Add/Update note: Title" and pushes; it does not build the site locally (GitHub does). Checks live in `inspect()` in that file: add new ones there, as `{ text, line, fix? }`, problems (block publishing) or warnings. Obsidian Git stays installed for pull-on-start, but its timed auto-commit is off (`autoSaveInterval: 0`) so half-written notes are not committed behind the owner's back.
 
+The plugin also quotes from the book open in SumatraPDF, through `tools/sumatra.mjs` (`obsidian.mjs quote|highlights|goto <note>`): it finds the open PDF from the window title and SumatraPDF's settings file, takes the book in with `tools/intake.mjs` on first use (`.intake/<name>/`), finds the copied passage there to get the printed page, and takes the author's surname from the note's `source:` line. `tools/highlights.py` (PyMuPDF) reads saved highlights. `SUMATRA_DRY=1` makes `goto` resolve the page without moving the owner's SumatraPDF window; use it when testing.
+
 ## Publishing a new note (the usual routine)
 
 1. `node tools/suggest.mjs "Note Title"` ranks existing notes by shared tags and uncommon words, marks which already link, and prints a ready `npm run link` line. Use it to choose the `## Related` list and the backlinks.

@@ -621,11 +621,23 @@ function bindEditor(root, onChange, getMeta, fields) {
     else toast(t === 'strip' ? 'No section numbers to remove.' : 'The sections are already numbered in order.');
   });
   $('[data-img]', root).addEventListener('change', e => { [...e.target.files].forEach(f => addImage(f, ta)); e.target.value = ''; });
+  // Text that looks copied from a PDF page (several long lines, no blank line, no Markdown) as one paragraph; '' for anything else.
+  function pdfText(t) {
+    const lines = t.replace(/\r/g, '').replace(/\s+$/, '').split('\n').map(l => l.trim());
+    if (lines.length < 2 || lines.some(l => !l || /^(#{1,6}\s|[-*+>]\s|\d+[.)]\s|\||```|~~~)/.test(l))) return '';
+    const head = lines.slice(0, -1);
+    if (head.some(l => l.length < 30) || head.filter(l => /[.?!:;”"]$/.test(l)).length > head.length / 2) return '';
+    return lines.join('\n').replace(/([A-Za-z])[-­]\n(?=[a-z])/g, '$1').replace(/\n/g, ' ')
+      .replace(/ﬀ/g, 'ff').replace(/ﬁ/g, 'fi').replace(/ﬂ/g, 'fl').replace(/ﬃ/g, 'ffi').replace(/ﬄ/g, 'ffl').replace(/[ \s]+/g, ' ');
+  }
   ta.addEventListener('paste', e => {
     const f = [...(e.clipboardData?.files || [])].find(f => f.type.startsWith('image/')); if (f) { e.preventDefault(); addImage(f, ta); return; }
     // a web address pasted over selected words turns them into a link
     const url = (e.clipboardData?.getData('text/plain') || '').trim(), sel = ta.value.slice(ta.selectionStart, ta.selectionEnd);
-    if (sel.trim() && !/\n/.test(sel) && /^https?:\/\/\S+$/.test(url) && !/^https?:\/\//.test(sel.trim())) { e.preventDefault(); ta.setRangeText(`[${sel}](${url})`, ta.selectionStart, ta.selectionEnd, 'end'); ta.dispatchEvent(new Event('input')); }
+    if (sel.trim() && !/\n/.test(sel) && /^https?:\/\/\S+$/.test(url) && !/^https?:\/\//.test(sel.trim())) { e.preventDefault(); ta.setRangeText(`[${sel}](${url})`, ta.selectionStart, ta.selectionEnd, 'end'); ta.dispatchEvent(new Event('input')); return; }
+    // a passage copied from a PDF arrives broken into the book's lines: join them and mend the words split by a hyphen
+    const mended = pdfText(e.clipboardData?.getData('text/plain') || '');
+    if (mended) { e.preventDefault(); ta.setRangeText(mended, ta.selectionStart, ta.selectionEnd, 'end'); ta.dispatchEvent(new Event('input')); }
   });
   ta.addEventListener('drop', e => { const fs = [...(e.dataTransfer?.files || [])].filter(f => f.type.startsWith('image/')); if (fs.length) { e.preventDefault(); fs.forEach(f => addImage(f, ta)); } });
   ta.addEventListener('keydown', e => {

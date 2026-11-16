@@ -8,12 +8,16 @@
 //   node tools/obsidian.mjs publish-all ["message"]                same, for every changed file in the vault
 //   node tools/obsidian.mjs fix notes/misc/my-note.md quote-summary   apply a named fix
 //   node tools/obsidian.mjs status                                 changed notes not yet published
+//   node tools/obsidian.mjs quote <note>      (the copied text on standard input)   "…" (Author, p. 9), from the book open in SumatraPDF
+//   node tools/obsidian.mjs highlights <note>                      every highlight saved in that PDF, each with its page
+//   node tools/obsidian.mjs goto <note> "Author, p. 9"             open that page in SumatraPDF
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { ROOT, loadConfig, readNotes, planIds, addFields, today, slug } from './lib.mjs';
 import { rank } from './suggest.mjs';
 import { tidy, deletedSince } from './tidy.mjs';
+import { quote as sumatraQuote, highlights as sumatraHighlights, goTo as sumatraGoTo } from './sumatra.mjs';
 import { pathToFileURL } from 'node:url';
 await import(pathToFileURL(path.join(ROOT, 'assets', 'checks-core.js')).href);     // the checks the Writer page uses too
 const Core = globalThis.CommonplaceChecks;
@@ -131,6 +135,14 @@ try {
     const lines = git('status', '--porcelain', '--', 'notes').split('\n').filter(Boolean);
     let ahead = 0; try { ahead = +git('rev-list', '--count', '@{u}..HEAD').trim() || 0; } catch {}
     done({ ok: true, changed: lines.map(l => l.slice(3).replace(/^"|"$/g, '')), ahead, site: siteUrl() });
+  }
+
+  if (cmd === 'quote' || cmd === 'highlights' || cmd === 'goto') {
+    // the note being written tells whose book it is (its source: line), so it is read even when it is not under notes/
+    let noteRaw = ''; try { noteRaw = fs.readFileSync(path.join(ROOT, positional[0] || ''), 'utf8'); } catch {}
+    if (cmd === 'quote') { let text = ''; try { text = fs.readFileSync(0, 'utf8'); } catch {} done(sumatraQuote(text, noteRaw, say)); }
+    if (cmd === 'highlights') done(sumatraHighlights(noteRaw, say));
+    done(sumatraGoTo(positional.slice(1).join(' '), noteRaw, say));
   }
 
   if (cmd === 'inspect') {
