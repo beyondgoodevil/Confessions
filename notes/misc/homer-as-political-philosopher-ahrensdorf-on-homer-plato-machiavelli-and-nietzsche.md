@@ -163,6 +163,7 @@ The third is that there are many ways to live a philosophic life. A philosopher 
 
 ## Related
 
+- [[The Iliad as Politics: Assemblies, Thersites and Dissent]]
 - [[Did Homeric Heroes Have Minds? Decisions, the Gods and the Soul]]
 - [[Who Was Homer? The Homeric Question from Antiquity to Today]]
 - [[Plato's Quarrel With the Poets: Republic X Read Three Ways]]

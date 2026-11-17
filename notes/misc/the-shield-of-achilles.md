@@ -136,6 +136,7 @@ The shield of Achilles is Homer's picture of the world, with sky, law, marriage,
 
 ## Related
 
+- [[The Iliad as Politics: Assemblies, Thersites and Dissent]]
 - [[Was There a Trojan War? Troy, the Hittites and the Homeric Tradition]]
 - [[Who Was Homer? The Homeric Question from Antiquity to Today]]
 - [[Porphyry's Homeric Questions: Explaining Homer From Homer]]
