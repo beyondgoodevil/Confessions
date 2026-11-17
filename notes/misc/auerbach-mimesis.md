@@ -141,6 +141,7 @@ Erich Auerbach (1892–1957) was a German Jewish philologist, removed from his M
 
 ## Related
 
+- [[Odysseus Polytropos: Lies, Disguise and the Belly]]
 - [[Xenia: The Homeric Hospitality Scene]]
 - [[The Bow and the Lyre: A Platonic Reading of the Odyssey]]
 - [[The Shield of Achilles: A World on a War Shield]]

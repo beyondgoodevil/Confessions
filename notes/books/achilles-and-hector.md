@@ -195,6 +195,7 @@ Seth Benardete (1930–2001) was a student of Leo Strauss at Chicago and is best
 
 ## Related
 
+- [[Odysseus Polytropos: Lies, Disguise and the Belly]]
 - [[The Iliad as Politics: Assemblies, Thersites and Dissent]]
 - [[Did Homeric Heroes Have Minds? Decisions, the Gods and the Soul]]
 - [[Was There a Trojan War? Troy, the Hittites and the Homeric Tradition]]

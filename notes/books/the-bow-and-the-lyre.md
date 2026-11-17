@@ -225,6 +225,7 @@ Odysseus has had seven years to shape the story; it's "his understanding of his 
 
 ## Related
 
+- [[Odysseus Polytropos: Lies, Disguise and the Belly]]
 - [[Who Was Homer? The Homeric Question from Antiquity to Today]]
 - [[Homer as Political Philosopher: Ahrensdorf on Homer, Plato, Machiavelli and Nietzsche]]
 - [[Aletheia: Heidegger on Truth as Unconcealment]]

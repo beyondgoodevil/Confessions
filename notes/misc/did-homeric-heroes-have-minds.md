@@ -132,6 +132,7 @@ Snell argued that Homer's heroes lacked a unified self and real choice, and Dodd
 
 ## Related
 
+- [[Odysseus Polytropos: Lies, Disguise and the Belly]]
 - [[The Iliad as Politics: Assemblies, Thersites and Dissent]]
 - [[Homer on Life and Death]]
 - [[Achilles and Hector: The Homeric Hero]]
