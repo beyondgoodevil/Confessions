@@ -207,6 +207,7 @@ The Greeks had a poet called Homer and a set of poems they attributed to him, bu
 
 ## Related
 
+- [[Was There a Trojan War? Troy, the Hittites and the Homeric Tradition]]
 - [[Porphyry's Homeric Questions: Explaining Homer From Homer]]
 - [[How Philosophers Saved Homer: Allegory from the Stoics to the Byzantines]]
 - [[Homer on Life and Death]]

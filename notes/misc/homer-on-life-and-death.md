@@ -127,6 +127,7 @@ How later Greeks and Christians answered him:
 
 ## Related
 
+- [[Was There a Trojan War? Troy, the Hittites and the Homeric Tradition]]
 - [[Who Was Homer? The Homeric Question from Antiquity to Today]]
 - [[Homer as Political Philosopher: Ahrensdorf on Homer, Plato, Machiavelli and Nietzsche]]
 - [[Aletheia: Heidegger on Truth as Unconcealment]]

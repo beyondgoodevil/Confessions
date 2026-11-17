@@ -195,6 +195,7 @@ Seth Benardete (1930–2001) was a student of Leo Strauss at Chicago and is best
 
 ## Related
 
+- [[Was There a Trojan War? Troy, the Hittites and the Homeric Tradition]]
 - [[Who Was Homer? The Homeric Question from Antiquity to Today]]
 - [[Homer as Political Philosopher: Ahrensdorf on Homer, Plato, Machiavelli and Nietzsche]]
 - [[Politics Before Philosophy: Greek Political Thought from Homer to the Sophists]]
