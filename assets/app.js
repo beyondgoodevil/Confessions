@@ -482,7 +482,7 @@ function viewIndex() {
   return `<div class="home home-forester">
     <header class="fr-head"><h1 class="home-title">${esc(c.title || 'Notes')}</h1>${c.subtitle ? `<p class="home-sub">${esc(c.subtitle)}</p>` : ''}
     ${c.author ? `<p class="fr-author">${esc(c.author)}</p>` : ''}</header>
-    ${intro}<nav class="explore home-explore" aria-label="Explore">${plural(S.notes.length, 'note', 'notes')} · <a href="#/graph">Graph</a> · ${S.notes.some(n => n.fm.series) ? '<a href="#/series">Series</a> · ' : ''}<a href="#/tags">Tags</a> · <button type="button" class="linklike" data-action="random">Random note</button></nav>${secs}${updatedSec}</div>`;
+    ${intro}${secs}${updatedSec}</div>`;
 }
 
 /* ---------------- browsing: topics, people and the section filter ---------------- */
