@@ -482,9 +482,7 @@ function viewIndex() {
   return `<div class="home home-forester">
     <header class="fr-head"><h1 class="home-title">${esc(c.title || 'Notes')}</h1>${c.subtitle ? `<p class="home-sub">${esc(c.subtitle)}</p>` : ''}
     ${c.author ? `<p class="fr-author">${esc(c.author)}</p>` : ''}</header>
-    ${intro}<figure class="home-graph"><div class="graph-box">${graphSVG(null, 'graph graph-mini')}</div>
-    <figcaption><span class="g-legend">${graphLegend()}</span>
-    <nav class="explore" aria-label="Explore">${plural(S.notes.length, 'note', 'notes')} · <a href="#/graph">Open the full graph</a> · ${S.notes.some(n => n.fm.series) ? '<a href="#/series">Series</a> · ' : ''}<a href="#/tags">Tags</a> · <button type="button" class="linklike" data-action="random">Random note</button></nav></figcaption></figure>${secs}${updatedSec}</div>`;
+    ${intro}<nav class="explore home-explore" aria-label="Explore">${plural(S.notes.length, 'note', 'notes')} · <a href="#/graph">Graph</a> · ${S.notes.some(n => n.fm.series) ? '<a href="#/series">Series</a> · ' : ''}<a href="#/tags">Tags</a> · <button type="button" class="linklike" data-action="random">Random note</button></nav>${secs}${updatedSec}</div>`;
 }
 
 /* ---------------- browsing: topics, people and the section filter ---------------- */
