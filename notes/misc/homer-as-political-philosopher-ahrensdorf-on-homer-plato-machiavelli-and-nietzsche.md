@@ -163,6 +163,7 @@ The third is that there are many ways to live a philosophic life. A philosopher 
 
 ## Related
 
+- [[Who Was Homer? The Homeric Question from Antiquity to Today]]
 - [[Plato's Quarrel With the Poets: Republic X Read Three Ways]]
 - [[Achilles and Hector: The Homeric Hero]]
 - [[The Bow and the Lyre: A Platonic Reading of the Odyssey]]

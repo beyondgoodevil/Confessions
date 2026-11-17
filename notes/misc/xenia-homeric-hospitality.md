@@ -136,6 +136,7 @@ Xenia is the Homeric world's answer to the stranger. He might be an enemy, a beg
 
 ## Related
 
+- [[Who Was Homer? The Homeric Question from Antiquity to Today]]
 - [[The Bow and the Lyre: A Platonic Reading of the Odyssey]]
 - [[Achilles and Hector: The Homeric Hero]]
 - [[Auerbach's Mimesis: Odysseus' Scar, Peter's Denial and Figural Realism]]

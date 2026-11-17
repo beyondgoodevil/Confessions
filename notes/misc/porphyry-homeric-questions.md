@@ -95,6 +95,7 @@ Porphyry's *Homeric Questions* is where the ancient argument over Homer becomes 
 
 ## Related
 
+- [[Who Was Homer? The Homeric Question from Antiquity to Today]]
 - [[The Bow and the Lyre: A Platonic Reading of the Odyssey]]
 - [[How Philosophers Saved Homer: Allegory from the Stoics to the Byzantines]]
 - [[Neoplatonism: Plotinus, Porphyry, Proclus]]
