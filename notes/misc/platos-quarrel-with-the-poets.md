@@ -67,6 +67,7 @@ Plato doesn't banish art; he bans imitative poetry (Homer and the tragedians) wh
 
 ## Related
 
+- [[Did Homeric Heroes Have Minds? Decisions, the Gods and the Soul]]
 - [[Who Was Homer? The Homeric Question from Antiquity to Today]]
 - [[Homer as Political Philosopher: Ahrensdorf on Homer, Plato, Machiavelli and Nietzsche]]
 - [[Politics Before Philosophy: Greek Political Thought from Homer to the Sophists]]
