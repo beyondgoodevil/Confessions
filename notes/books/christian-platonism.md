@@ -131,6 +131,7 @@ The **Incarnation** and **resurrection** are where Platonism had to break. "The 
 
 ## Related
 
+- [[Pagan and Christian in an Age of Anxiety: Dodds on Religious Experience from Marcus Aurelius to Constantine]]
 - [[The Demiurge in Ancient Thought, and Genesis as Timaeus: O'Brien and Gmirkin]]
 - [[Eros and Agape: Plato, Nygren, Dionysius and the Fathers]]
 - [[Neoplatonism: Plotinus, Porphyry, Proclus]]

@@ -132,6 +132,7 @@ Dionysius's ordered ranks and triads clearly come from here. What he drops: the 
 
 ## Related
 
+- [[Pagan and Christian in an Age of Anxiety: Dodds on Religious Experience from Marcus Aurelius to Constantine]]
 - [[The Demiurge in Ancient Thought, and Genesis as Timaeus: O'Brien and Gmirkin]]
 - [[Porphyry's Homeric Questions: Explaining Homer From Homer]]
 - [[How Philosophers Saved Homer: Allegory from the Stoics to the Byzantines]]

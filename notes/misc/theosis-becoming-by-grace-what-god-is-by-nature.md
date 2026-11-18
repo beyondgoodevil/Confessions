@@ -98,6 +98,7 @@ Without the distinction you're stuck with two bad options: theosis is a metaphor
 
 ## Related
 
+- [[Pagan and Christian in an Age of Anxiety: Dodds on Religious Experience from Marcus Aurelius to Constantine]]
 - [[The Logic of Palamism: Swinburne and Rojek]]
 - [[Nietzsche: Amor Fati and Becoming What You Are]]
 - [[2 Peter 1:3-4: Theosis]]

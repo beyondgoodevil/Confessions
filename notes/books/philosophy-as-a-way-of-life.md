@@ -127,6 +127,7 @@ The most important chapter for this site.
 
 ## Related
 
+- [[Pagan and Christian in an Age of Anxiety: Dodds on Religious Experience from Marcus Aurelius to Constantine]]
 - [[Strauss's On Tyranny: Xenophon's Hiero and the Debate with Kojève]]
 - [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[The Ladder of Divine Ascent]]

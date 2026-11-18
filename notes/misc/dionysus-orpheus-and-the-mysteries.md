@@ -188,6 +188,7 @@ So, against Nietzsche, the "irrational" belonged to **Apollo** as much as to Dio
 
 ## Related
 
+- [[Pagan and Christian in an Age of Anxiety: Dodds on Religious Experience from Marcus Aurelius to Constantine]]
 - [[Greek Sacrifice: Between Beasts and Gods]]
 - [[Delphi: How the Oracle Worked, and Did It Steer History?]]
 - [[Homer on Life and Death]]
