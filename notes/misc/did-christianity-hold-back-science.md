@@ -192,6 +192,7 @@ Christianity did not hold back science in the way the popular story claims. The 
 
 ## Related
 
+- [[Were the Crusades Holy War, Pilgrimage or Colonialism?]]
 - [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[Aristotle's Physics: Nature, Change and the Four Causes]]
 - [[Aristotle East and West]]
