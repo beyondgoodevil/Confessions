@@ -119,6 +119,7 @@ The OT is clear that God is one. But there are passages that don't sit well with
 
 ## Related
 
+- [[Christophanies: Did the Son Appear in the Old Testament? Malone, the Angel of the Lord and the Icon of the Father]]
 - [[The Trinity]]
 - [[Theophanies]]
 - [[The Angel of the Lord]]

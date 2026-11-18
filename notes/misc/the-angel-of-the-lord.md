@@ -80,6 +80,7 @@ These instances affirm the Church’s belief in Christ’s eternal existence and
 
 ## Related
 
+- [[Christophanies: Did the Son Appear in the Old Testament? Malone, the Angel of the Lord and the Icon of the Father]]
 - [[Theophanies]]
 - [[Jesus in the OT as Theophany]]
 - [[Joshua 5:13-15: Joshua Met the Lord]]

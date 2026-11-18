@@ -26,6 +26,7 @@ Here are some key theophanies in the Old Testament:
 
 ## Related
 
+- [[Christophanies: Did the Son Appear in the Old Testament? Malone, the Angel of the Lord and the Icon of the Father]]
 - [[Jesus in the OT as Theophany]]
 - [[The Angel of the Lord]]
 - [[Bible: Exodus 3, I AM WHO I AM, Theophany]]

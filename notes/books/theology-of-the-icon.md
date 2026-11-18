@@ -200,6 +200,7 @@ The icon shows the world **transfigured**, not the world as it looks to ordinary
 
 ## Related
 
+- [[Christophanies: Did the Son Appear in the Old Testament? Malone, the Angel of the Lord and the Icon of the Father]]
 - [[Panofsky's Three Levels of Meaning: Iconography and Iconology]]
 - [[Heidegger's Origin of the Work of Art and the Quarrel Over Van Gogh's Shoes]]
 - [[The Beauty of the Lord: Theology as Aesthetics]]

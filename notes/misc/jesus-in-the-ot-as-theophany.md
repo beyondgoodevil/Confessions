@@ -23,6 +23,7 @@ These theophanies are understood as manifestations of the second person of the T
 
 ## Related
 
+- [[Christophanies: Did the Son Appear in the Old Testament? Malone, the Angel of the Lord and the Icon of the Father]]
 - [[Theophanies]]
 - [[The Angel of the Lord]]
 - [[Joshua 5:13-15: Joshua Met the Lord]]

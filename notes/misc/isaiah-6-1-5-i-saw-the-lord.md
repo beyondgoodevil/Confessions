@@ -19,6 +19,7 @@ Pictured: Isaiah 6:1-5, New King James Version, under the heading **Isaiah Calle
 
 ## Related
 
+- [[Christophanies: Did the Son Appear in the Old Testament? Malone, the Angel of the Lord and the Icon of the Father]]
 - [[Jesus in the OT as Theophany]]
 - [[Theophanies]]
 - [[In John 5, Jesus Explains That No One Has Seen the Father Except the One Whom He Has Sent]]
