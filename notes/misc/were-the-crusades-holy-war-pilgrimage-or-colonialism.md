@@ -129,6 +129,7 @@ The First Crusade was all three things, but not equally. It was a holy war, the 
 
 ## Related
 
+- [[Violence and Divine Commands in the Old Testament: The Conquest, the Flood, the Firstborn, Psalm 137 and Judges]]
 - [[Augustine's City of God]]
 - [[Did Christianity Hold Back Science? The Handmaiden Formula from Augustine to 1277]]
 - [[Popes Were Used as a Political Tool Throughout History 1]]
