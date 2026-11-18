@@ -191,6 +191,7 @@ In Book VII the philosophers must be compelled to go back down into the cave, an
 
 ## Related
 
+- [[Was Mao a Monster? Chang and Halliday and Their Critics]]
 - [[Why Was Socrates Executed? The Trial of 399]]
 - [[Federalists and Anti-Federalists: The Debate over the Constitution]]
 - [[The Social Contract and Its Critics: Locke, Hume and Rousseau in Rawls and Cohen]]

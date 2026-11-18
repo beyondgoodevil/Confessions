@@ -219,6 +219,7 @@ The Zhou left the Mandate as a moral idea: Heaven backs virtue and abandons wick
 
 ## Related
 
+- [[Was Mao a Monster? Chang and Halliday and Their Critics]]
 - [[Buddhism in China from Han to Song: Arrival, Triumph and the Four Persecutions]]
 - [[Early China: From the Jade Age to the Zhou Conquest]]
 - [[Eastern Zhou: The Springs and Autumns, the Warring States and the Hundred Schools]]
