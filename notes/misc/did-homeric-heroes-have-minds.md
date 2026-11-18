@@ -132,6 +132,7 @@ Snell argued that Homer's heroes lacked a unified self and real choice, and Dodd
 
 ## Related
 
+- [[Did the Greeks Believe Their Myths? Veyne, Kirk, Mikalson and Vernant]]
 - [[Odysseus Polytropos: Lies, Disguise and the Belly]]
 - [[The Iliad as Politics: Assemblies, Thersites and Dissent]]
 - [[Homer on Life and Death]]

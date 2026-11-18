@@ -100,6 +100,7 @@ The Pythia sat on Apollo's tripod about nine days a year, in a small room filled
 
 ## Related
 
+- [[Did the Greeks Believe Their Myths? Veyne, Kirk, Mikalson and Vernant]]
 - [[The Agonal Greek: Burckhardt, Pindar and the Contest]]
 - [[Why Was Socrates Executed? The Trial of 399]]
 - [[Dionysus, Orpheus and the Mysteries: Dodds and the Irrational]]

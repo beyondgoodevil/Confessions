@@ -176,6 +176,7 @@ The atomists are the ancestors of materialism. See [[Epicurus and Lucretius]].
 
 ## Related
 
+- [[Did the Greeks Believe Their Myths? Veyne, Kirk, Mikalson and Vernant]]
 - [[Nietzsche and the Greeks]]
 - [[Aletheia: Heidegger on Truth as Unconcealment]]
 - [[The Problem of the One and the Many]]

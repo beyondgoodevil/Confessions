@@ -135,6 +135,7 @@ The Fathers used the same tools, and some of the same images:
 
 ## Related
 
+- [[Did the Greeks Believe Their Myths? Veyne, Kirk, Mikalson and Vernant]]
 - [[Who Was Homer? The Homeric Question from Antiquity to Today]]
 - [[The Bow and the Lyre: A Platonic Reading of the Odyssey]]
 - [[Porphyry's Homeric Questions: Explaining Homer From Homer]]
