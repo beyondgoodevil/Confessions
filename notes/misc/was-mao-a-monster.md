@@ -138,6 +138,7 @@ Was Mao a monster? On the evidence collected here, he was something more instruc
 
 ## Related
 
+- [[Political Religions: Jacobinism, Communism and Fascism as Faiths]]
 - [[The Mandate of Heaven and the Five Phases: Legitimacy from Qin to Song]]
 - [[Did the Greeks Believe Their Myths? Veyne, Kirk, Mikalson and Vernant]]
 - [[The Republic's Ideal City: The Noble Lie, Philosopher-Kings and the Guardians' Communism]]
