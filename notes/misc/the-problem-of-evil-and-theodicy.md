@@ -71,7 +71,6 @@ Possible comeback: the atheist can run it as an internal critique ("on *your* vi
 ## Related
 
 - [[God's Character in the Hard Texts: Evil, Hardening, Inherited Guilt, Divine Regret, Isaac and Job]]
-- [[Violence and Divine Commands in the Old Testament: The Conquest, the Flood, the Firstborn, Psalm 137 and Judges]]
 - [[The Bow and the Lyre: A Platonic Reading of the Odyssey]]
 - [[Moby-Dick and the Problem of Evil: Ahab, Ishmael and Job]]
 - [[The Underground Man and the Death of God: Dostoevsky, Shestov, Girard]]

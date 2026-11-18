@@ -171,7 +171,6 @@ This note is the theory. For how Girard reads Nietzsche against it, see [[Dionys
 
 ## Related
 
-- [[Violence and Divine Commands in the Old Testament: The Conquest, the Flood, the Firstborn, Psalm 137 and Judges]]
 - [[Greek Sacrifice: Between Beasts and Gods]]
 - [[Delphi: How the Oracle Worked, and Did It Steer History?]]
 - [[Enlightenment as Myth: Horkheimer, Adorno and Baudrillard]]

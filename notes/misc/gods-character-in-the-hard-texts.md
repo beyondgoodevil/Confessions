@@ -8,7 +8,7 @@ source: "J. Alec Motyer, The Prophecy of Isaiah: An Introduction and Commentary 
 aliases: [I Create Evil, Isaiah 45:7, Hardening of Pharaoh's Heart, God Hardened Pharaoh, Romans 9 Hardening, Sins of the Fathers, Visiting the Iniquity of the Fathers, God Repented, God Regretted, Divine Regret, Binding of Isaac, Akedah, Job and the Satan, Wager in Heaven]
 ---
 
-A second group of passages troubles readers less because of what God commands people to do than because of what they seem to say about God himself. In Isaiah he says "I create evil." In Exodus he hardens Pharaoh's heart and then punishes him for it, and he visits the sins of fathers on their children. In Genesis he "regrets" making humanity, as if he had not foreseen the result, and he tells Abraham to sacrifice his son. In Job he lets the Satan destroy a righteous man's family to settle an argument. Skeptics read these as signs of a God who is capricious, unjust or not all-knowing. This note takes each in turn, states the objection at its strongest, and sets out what the commentaries answer. The commentators come from several traditions: evangelical (Motyer, Murray, Stott, Hamilton, Steinmann, Andersen, Atkinson, Wright, Guthrie), Lutheran (Fretheim), Catholic (Cotter), critical (Hendel), Orthodox (Farley) and patristic (Chrysostom, Augustine, Salvian), and on several of these texts they disagree with one another. The companion note on God's commands to Israel is [[Violence and Divine Commands in the Old Testament: The Conquest, the Flood, the Firstborn, Psalm 137 and Judges]].
+A second group of passages troubles readers less because of what God commands people to do than because of what they seem to say about God himself. In Isaiah he says "I create evil." In Exodus he hardens Pharaoh's heart and then punishes him for it, and he visits the sins of fathers on their children. In Genesis he "regrets" making humanity, as if he had not foreseen the result, and he tells Abraham to sacrifice his son. In Job he lets the Satan destroy a righteous man's family to settle an argument. Skeptics read these as signs of a God who is capricious, unjust or not all-knowing. This note takes each in turn, states the objection at its strongest, and sets out what the commentaries answer. The commentators come from several traditions: evangelical (Motyer, Murray, Stott, Hamilton, Steinmann, Andersen, Atkinson, Wright, Guthrie), Lutheran (Fretheim), Catholic (Cotter), critical (Hendel), Orthodox (Farley) and patristic (Chrysostom, Augustine, Salvian), and on several of these texts they disagree with one another. The companion note on God's commands to Israel is Violence and Divine Commands in the Old Testament: The Conquest, the Flood, the Firstborn, Psalm 137 and Judges.
 
 ### 1. Isaiah 45:7: "I Make Peace, and Create Evil"
 
@@ -113,7 +113,6 @@ The hard texts about God's character are not all hard in the same way. "I create
 
 ## Related
 
-- [[Violence and Divine Commands in the Old Testament: The Conquest, the Flood, the Firstborn, Psalm 137 and Judges]]
 - [[The Problem of Evil and Theodicy]]
 - [[Moby-Dick and the Problem of Evil: Ahab, Ishmael and Job]]
 - [[Anthropomorphic Language in the Context of God and the Bible]]
