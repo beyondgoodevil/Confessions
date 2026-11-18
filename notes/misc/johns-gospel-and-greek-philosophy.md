@@ -83,6 +83,7 @@ Diogenes Laertius on the Stoics: "the passive principle... is matter, whereas th
 
 ## Related
 
+- [[What Do John's Signs Mean? Dodd, Sanford and Kreeft on Symbol and History in the Fourth Gospel]]
 - [[The Demiurge in Ancient Thought, and Genesis as Timaeus: O'Brien and Gmirkin]]
 - [[The Presocratics: Being and Becoming]]
 - [[Christian Platonism]]

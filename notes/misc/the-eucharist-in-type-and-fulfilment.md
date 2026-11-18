@@ -136,6 +136,7 @@ Missing from this list and worth adding later: the tree of life, Elijah's bread 
 
 ## Related
 
+- [[What Do John's Signs Mean? Dodd, Sanford and Kreeft on Symbol and History in the Fourth Gospel]]
 - [[The Melchizedekian Priesthood]]
 - [[Liturgy Origins]]
 - [[EO Continuity With OT]]

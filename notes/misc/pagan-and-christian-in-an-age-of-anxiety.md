@@ -125,6 +125,7 @@ On why Christianity won, Dodds's four reasons, and especially the last, have hel
 
 ## Related
 
+- [[What Do John's Signs Mean? Dodd, Sanford and Kreeft on Symbol and History in the Fourth Gospel]]
 - [[Dionysus, Orpheus and the Mysteries: Dodds and the Irrational]]
 - [[Neoplatonism: Plotinus, Porphyry, Proclus]]
 - [[Christian Platonism]]
