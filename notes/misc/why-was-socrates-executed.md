@@ -120,3 +120,13 @@ The trial shaped what Plato did next.
 Socrates was executed because several things converged in one courtroom. There was a long-standing image of him as a godless sophist, fixed by Aristophanes. There was the memory of Critias and the Thirty, whom many Athenians blamed on his teaching. There was a city battered by war, plague and civil strife and suspicious of the new learning. And there was a defence that, by Plato's account, refused every convention that might have saved him: it treated popular opinion as error, set Arginusae beside Leon of Salamis, and asked for an Olympic victor's meals as his penalty. The *Crito* then made his death a matter of principle, though Ober shows that the Laws' argument rests on more popular opinion than Socrates admits. Plato drew the lesson that philosophy could not heal the city as it was. The execution became the founding scandal of political philosophy, which, in Finley's words, made Athens famous for killing one philosopher and nourishing another.
 
 ## Related
+
+- [[Politics Before Philosophy: Greek Political Thought from Homer to the Sophists]]
+- [[Thucydides on Human Nature and Power]]
+- [[Plato's Phaedo: Philosophy as Practice for Dying]]
+- [[The Euthyphro Dilemma and the Orthodox Answer]]
+- [[The Republic's Ideal City: The Noble Lie, Philosopher-Kings and the Guardians' Communism]]
+- [[Strauss's On Tyranny: Xenophon's Hiero and the Debate with Kojève]]
+- [[Aristotle's Politics]]
+- [[Homer as Political Philosopher: Ahrensdorf on Homer, Plato, Machiavelli and Nietzsche]]
+- [[Is Culture the Aristocratic Ideal Intellectualized? Jaeger, Donlan and the Greek Nobility]]

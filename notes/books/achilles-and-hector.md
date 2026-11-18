@@ -195,6 +195,7 @@ Seth Benardete (1930–2001) was a student of Leo Strauss at Chicago and is best
 
 ## Related
 
+- [[Is Culture the Aristocratic Ideal Intellectualized? Jaeger, Donlan and the Greek Nobility]]
 - [[Odysseus Polytropos: Lies, Disguise and the Belly]]
 - [[The Iliad as Politics: Assemblies, Thersites and Dissent]]
 - [[Did Homeric Heroes Have Minds? Decisions, the Gods and the Soul]]

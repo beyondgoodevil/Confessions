@@ -61,6 +61,7 @@ In the *Symposium*, *Phaedrus* and *Republic*, Plato puts beauty among the trans
 
 ## Related
 
+- [[Is Culture the Aristocratic Ideal Intellectualized? Jaeger, Donlan and the Greek Nobility]]
 - [[Plato's Phaedrus: Divine Madness, the Winged Soul, Rhetoric and Writing]]
 - [[The Shield of Achilles: A World on a War Shield]]
 - [[The Beauty of the Lord: Theology as Aesthetics]]

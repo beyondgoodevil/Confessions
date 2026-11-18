@@ -213,6 +213,7 @@ Goldhill argues that the theatre was itself a democratic institution and that tr
 
 ## Related
 
+- [[Is Culture the Aristocratic Ideal Intellectualized? Jaeger, Donlan and the Greek Nobility]]
 - [[Why Was Socrates Executed? The Trial of 399]]
 - [[The Iliad as Politics: Assemblies, Thersites and Dissent]]
 - [[Who Was Homer? The Homeric Question from Antiquity to Today]]
