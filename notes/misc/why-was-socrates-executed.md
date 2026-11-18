@@ -121,6 +121,7 @@ Socrates was executed because several things converged in one courtroom. There w
 
 ## Related
 
+- [[Delphi: How the Oracle Worked, and Did It Steer History?]]
 - [[Politics Before Philosophy: Greek Political Thought from Homer to the Sophists]]
 - [[Thucydides on Human Nature and Power]]
 - [[Plato's Phaedo: Philosophy as Practice for Dying]]

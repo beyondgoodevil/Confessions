@@ -188,6 +188,7 @@ So, against Nietzsche, the "irrational" belonged to **Apollo** as much as to Dio
 
 ## Related
 
+- [[Delphi: How the Oracle Worked, and Did It Steer History?]]
 - [[Homer on Life and Death]]
 - [[The Bacchae Three Ways: Euripides, Nietzsche, Dodds and Girard]]
 - [[Apollo and Dionysus: The Birth of Tragedy]]

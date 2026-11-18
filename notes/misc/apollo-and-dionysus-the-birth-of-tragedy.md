@@ -117,6 +117,7 @@ Porter reads BT against its own surface, and is the most interesting of the thre
 
 ## Related
 
+- [[Delphi: How the Oracle Worked, and Did It Steer History?]]
 - [[Nietzsche and Socrates: The Problem of Socrates]]
 - [[Wagner's Ring: Myth, Music Drama and the Leitmotif]]
 - [[The Bacchae Three Ways: Euripides, Nietzsche, Dodds and Girard]]
