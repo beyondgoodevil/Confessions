@@ -139,6 +139,7 @@ David Owen, *Nietzsche, Politics and Modernity*.
 
 ## Related
 
+- [[The Agonal Greek: Burckhardt, Pindar and the Contest]]
 - [[Is Culture the Aristocratic Ideal Intellectualized? Jaeger, Donlan and the Greek Nobility]]
 - [[Nietzsche's Character Types: Slave, Priest, Philosopher, Artist, Scientist, Noble]]
 - [[Nietzsche and the Greeks]]
