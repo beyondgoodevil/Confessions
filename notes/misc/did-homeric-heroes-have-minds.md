@@ -132,6 +132,7 @@ Snell argued that Homer's heroes lacked a unified self and real choice, and Dodd
 
 ## Related
 
+- [[The Justice of Zeus: Was Greek Religion Moral from Homer Onwards? Lloyd-Jones and Burkert]]
 - [[Honour and Shame in Mediterranean Society: Peristiany, Pitt-Rivers, Campbell, Bourdieu and Keen]]
 - [[Did the Greeks Believe Their Myths? Veyne, Kirk, Mikalson and Vernant]]
 - [[Odysseus Polytropos: Lies, Disguise and the Belly]]

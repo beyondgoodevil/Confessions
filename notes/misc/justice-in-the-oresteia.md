@@ -178,6 +178,7 @@ See [[Girard's Scapegoat Mechanism: Sacrifice, Myth and the Gospels]].
 
 ## Related
 
+- [[The Justice of Zeus: Was Greek Religion Moral from Homer Onwards? Lloyd-Jones and Burkert]]
 - [[Delphi: How the Oracle Worked, and Did It Steer History?]]
 - [[Politics Before Philosophy: Greek Political Thought from Homer to the Sophists]]
 - [[Nussbaum's Fragility of Goodness: Luck, Tragedy and the Vulnerable Good]]
