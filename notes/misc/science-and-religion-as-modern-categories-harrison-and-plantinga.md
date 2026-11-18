@@ -158,4 +158,5 @@ Harrison shows that the war between science and religion is a story told in the 
 
 ## Related
 
+- [[Did Christianity Hold Back Science? The Handmaiden Formula from Augustine to 1277]]
 - [[Keener's Miracles: Eyewitnesses, Analogy and the Gospel Accounts]]

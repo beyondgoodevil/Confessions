@@ -132,6 +132,7 @@ In nature, the formal, efficient and final often coincide: the form of the oak i
 
 ## Related
 
+- [[Did Christianity Hold Back Science? The Handmaiden Formula from Augustine to 1277]]
 - [[The Unmoved Mover]]
 - [[Aristotle and God as Pure Act]]
 - [[The Presocratics: Being and Becoming]]

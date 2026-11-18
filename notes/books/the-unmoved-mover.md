@@ -138,6 +138,7 @@ That's his answer in advance to "fine, a first cause, but why call it God?" (Pru
 
 ## Related
 
+- [[Did Christianity Hold Back Science? The Handmaiden Formula from Augustine to 1277]]
 - [[The Good in Plato]]
 - [[The Forms and the Demiurge]]
 - [[Aristotle and God as Pure Act]]

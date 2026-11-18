@@ -145,6 +145,7 @@ Very fun attack on the New Atheists. Feser's claim: the "superstition" of the ti
 
 ## Related
 
+- [[Did Christianity Hold Back Science? The Handmaiden Formula from Augustine to 1277]]
 - [[The Unmoved Mover]]
 - [[The Neo-Platonic Proof]]
 - [[The Problem of Universals: Realism vs Nominalism]]

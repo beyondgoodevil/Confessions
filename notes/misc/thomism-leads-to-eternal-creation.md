@@ -86,6 +86,7 @@ Eastern Orthodoxy, especially as articulated by St. Gregory Palamas, teaches:
 
 ## Related
 
+- [[Did Christianity Hold Back Science? The Handmaiden Formula from Augustine to 1277]]
 - [[Thomism]]
 - [[Implications of No Essence-Energies Distinction]]
 - [[Essence-Energies Distinction]]

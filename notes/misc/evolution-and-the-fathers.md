@@ -90,6 +90,7 @@ Whatever view of the mechanism:
 
 ## Related
 
+- [[Did Christianity Hold Back Science? The Handmaiden Formula from Augustine to 1277]]
 - [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[Evolution Can Be Understood as a Paradigm-Level Theory]]
 - [[The Underdetermination of Data Thesis in the Context of Evolution]]

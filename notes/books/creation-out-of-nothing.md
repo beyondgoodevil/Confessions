@@ -156,6 +156,7 @@ So the universe began to exist; whatever begins to exist has a cause; so the uni
 
 ## Related
 
+- [[Did Christianity Hold Back Science? The Handmaiden Formula from Augustine to 1277]]
 - [[The Demiurge in Ancient Thought, and Genesis as Timaeus: O'Brien and Gmirkin]]
 - [[Science and Religion as Modern Categories: Harrison and Plantinga]]
 - [[Nothingness East and West: Nishitani, Tanabe, Abe and the Christian Nihil]]
