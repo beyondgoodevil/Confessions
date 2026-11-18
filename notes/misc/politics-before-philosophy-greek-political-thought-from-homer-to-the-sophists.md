@@ -213,6 +213,7 @@ Goldhill argues that the theatre was itself a democratic institution and that tr
 
 ## Related
 
+- [[Why Was Socrates Executed? The Trial of 399]]
 - [[The Iliad as Politics: Assemblies, Thersites and Dissent]]
 - [[Who Was Homer? The Homeric Question from Antiquity to Today]]
 - [[Federalists and Anti-Federalists: The Debate over the Constitution]]

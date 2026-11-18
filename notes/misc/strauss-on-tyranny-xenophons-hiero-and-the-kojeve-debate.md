@@ -277,6 +277,7 @@ The letters show that neither man moved. Strauss's last word in their Plato exch
 
 ## Related
 
+- [[Why Was Socrates Executed? The Trial of 399]]
 - [[The Modern Break: Machiavelli and Hobbes]]
 - [[The Republic's Ideal City: The Noble Lie, Philosopher-Kings and the Guardians' Communism]]
 - [[Nietzsche: The Overman]]

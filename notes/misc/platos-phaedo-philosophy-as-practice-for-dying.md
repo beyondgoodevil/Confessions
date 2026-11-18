@@ -227,6 +227,7 @@ Each is open to objection, and the dialogue lets Simmias and Cebes make the obje
 
 ## Related
 
+- [[Why Was Socrates Executed? The Trial of 399]]
 - [[Plato's Phaedrus: Divine Madness, the Winged Soul, Rhetoric and Writing]]
 - [[Republic Book I: Cephalus, Polemarchus and Thrasymachus on Justice]]
 - [[Nietzsche and Socrates: The Problem of Socrates]]

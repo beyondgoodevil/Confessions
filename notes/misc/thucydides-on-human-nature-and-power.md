@@ -161,6 +161,7 @@ In 416, in the middle of a nominal peace, Athens came to neutral Melos, a Sparta
 
 ## Related
 
+- [[Why Was Socrates Executed? The Trial of 399]]
 - [[Politics Before Philosophy: Greek Political Thought from Homer to the Sophists]]
 - [[Strauss's On Tyranny: Xenophon's Hiero and the Debate with Kojève]]
 - [[Nietzsche and the Greeks]]
