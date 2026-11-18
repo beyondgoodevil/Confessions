@@ -114,6 +114,7 @@ Burckhardt saw that the Greeks made competition among free equals before judges 
 
 ## Related
 
+- [[Honour and Shame in Mediterranean Society: Peristiany, Pitt-Rivers, Campbell, Bourdieu and Keen]]
 - [[Is Culture the Aristocratic Ideal Intellectualized? Jaeger, Donlan and the Greek Nobility]]
 - [[Achilles and Hector: The Homeric Hero]]
 - [[Nietzsche and the Greeks]]

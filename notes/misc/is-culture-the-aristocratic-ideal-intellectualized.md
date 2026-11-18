@@ -113,6 +113,7 @@ Jaeger read Greek culture as the ideal of the *kalos kagathos*, born among Homer
 
 ## Related
 
+- [[Honour and Shame in Mediterranean Society: Peristiany, Pitt-Rivers, Campbell, Bourdieu and Keen]]
 - [[The Agonal Greek: Burckhardt, Pindar and the Contest]]
 - [[Kalos and Kallos: Did the Greeks Have a Word for Beauty?]]
 - [[Nietzsche's Aristocratic Radicalism: The Greek State, Slavery and the Pyramid of Culture]]
