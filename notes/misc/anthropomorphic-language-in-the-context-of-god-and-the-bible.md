@@ -29,7 +29,6 @@ Thus, anthropomorphic language in the Bible is a necessary but limited tool to h
 
 ## Related
 
-- [[God's Character in the Hard Texts: Evil, Hardening, Inherited Guilt, Divine Regret, Isaac and Job]]
 - [[Essence-Energies Distinction]]
 - [[Theophanies]]
 - [[Thomism Leads to Eternal Creation]]

@@ -107,7 +107,6 @@ aliases: [Moby-Dick, Moby Dick, Ahab, Ishmael, The Whiteness of the Whale, Melvi
 
 ## Related
 
-- [[God's Character in the Hard Texts: Evil, Hardening, Inherited Guilt, Divine Regret, Isaac and Job]]
 - [[Thus Spoke Zarathustra as Drama: Plot, Tragedy and Parody]]
 - [[Nietzsche: Amor Fati and Becoming What You Are]]
 - [[The Problem of Evil and Theodicy]]
