@@ -84,6 +84,7 @@ Voluntarism is a real position though, not a straw man. Ockham and some Reformed
 
 ## Related
 
+- [[God's Character in the Hard Texts: Evil, Hardening, Inherited Guilt, Divine Regret, Isaac and Job]]
 - [[Violence and Divine Commands in the Old Testament: The Conquest, the Flood, the Firstborn, Psalm 137 and Judges]]
 - [[Why Was Socrates Executed? The Trial of 399]]
 - [[Thucydides on Human Nature and Power]]

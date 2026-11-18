@@ -102,6 +102,7 @@ So the Immaculate Conception and penal substitution both rest on the Augustinian
 
 ## Related
 
+- [[God's Character in the Hard Texts: Evil, Hardening, Inherited Guilt, Divine Regret, Isaac and Job]]
 - [[The Fall of Humanity and Its Consequences]]
 - [[Adam and Eve Sin]]
 - [[Death and Corruptibility as Privations of Life and the Ability to Sin]]
