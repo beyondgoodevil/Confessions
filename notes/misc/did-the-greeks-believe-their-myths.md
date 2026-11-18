@@ -112,6 +112,7 @@ The Greeks did not divide the world into myth and fact, but into what they had s
 
 ## Related
 
+- [[Greek Sacrifice: Between Beasts and Gods]]
 - [[How Philosophers Saved Homer: Allegory from the Stoics to the Byzantines]]
 - [[Did Homeric Heroes Have Minds? Decisions, the Gods and the Soul]]
 - [[Was There a Trojan War? Troy, the Hittites and the Homeric Tradition]]

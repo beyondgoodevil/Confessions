@@ -171,6 +171,7 @@ This note is the theory. For how Girard reads Nietzsche against it, see [[Dionys
 
 ## Related
 
+- [[Greek Sacrifice: Between Beasts and Gods]]
 - [[Delphi: How the Oracle Worked, and Did It Steer History?]]
 - [[Enlightenment as Myth: Horkheimer, Adorno and Baudrillard]]
 - [[Hamlet: Revenge, the Ghost and Purgatory]]
