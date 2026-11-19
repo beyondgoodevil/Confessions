@@ -135,6 +135,7 @@ The Fathers used the same tools, and some of the same images:
 
 ## Related
 
+- [[Allegory or Metaphor? Scott and Hultgren on How Jesus' Parables Mean]]
 - [[What Do John's Signs Mean? Dodd, Sanford and Kreeft on Symbol and History in the Fourth Gospel]]
 - [[Did the Greeks Believe Their Myths? Veyne, Kirk, Mikalson and Vernant]]
 - [[Who Was Homer? The Homeric Question from Antiquity to Today]]

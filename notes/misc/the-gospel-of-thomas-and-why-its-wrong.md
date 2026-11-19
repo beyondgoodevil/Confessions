@@ -50,6 +50,7 @@ The Eastern Orthodox Church rejects the *Gospel of Thomas* because it lacks apos
 
 ## Related
 
+- [[Allegory or Metaphor? Scott and Hultgren on How Jesus' Parables Mean]]
 - [[Factors That Played a Role to Determine the Canon of the Bible]]
 - [[How the Gospel of Matthew Became Canon]]
 - [[Canon of the Bible: Its History]]

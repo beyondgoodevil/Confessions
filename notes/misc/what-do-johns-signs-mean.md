@@ -236,6 +236,7 @@ John's signs are acts that mean. Dodd shows where the language came from: the li
 
 ## Related
 
+- [[Allegory or Metaphor? Scott and Hultgren on How Jesus' Parables Mean]]
 - [[John's Gospel and Greek Philosophy]]
 - [[Pagan and Christian in an Age of Anxiety: Dodds on Religious Experience from Marcus Aurelius to Constantine]]
 - [[Dionysus, Orpheus and the Mysteries: Dodds and the Irrational]]

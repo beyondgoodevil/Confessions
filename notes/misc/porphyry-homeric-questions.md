@@ -95,6 +95,7 @@ Porphyry's *Homeric Questions* is where the ancient argument over Homer becomes 
 
 ## Related
 
+- [[Allegory or Metaphor? Scott and Hultgren on How Jesus' Parables Mean]]
 - [[Was There a Trojan War? Troy, the Hittites and the Homeric Tradition]]
 - [[Who Was Homer? The Homeric Question from Antiquity to Today]]
 - [[The Bow and the Lyre: A Platonic Reading of the Odyssey]]

@@ -105,6 +105,7 @@ Panofsky's method reads a picture in three layers: **motifs** we recognise from 
 
 ## Related
 
+- [[Allegory or Metaphor? Scott and Hultgren on How Jesus' Parables Mean]]
 - [[Heidegger's Origin of the Work of Art and the Quarrel Over Van Gogh's Shoes]]
 - [[Begetting in Beauty: Diotima's Pregnant Souls and Plotinus' On Beauty]]
 - [[Emergence of Magic and Neoplatonism in the Renaissance]]
