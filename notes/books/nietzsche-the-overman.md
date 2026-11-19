@@ -204,6 +204,7 @@ Havas fits the later N. (the sovereign individual, *Wohlgerathenheit*) better th
 
 ## Related
 
+- [[On Self-Overcoming: The Will to Power's First Appearance in Zarathustra II.12]]
 - [[Strauss's On Tyranny: Xenophon's Hiero and the Debate with Kojève]]
 - [[Thus Spoke Zarathustra as Drama: Plot, Tragedy and Parody]]
 - [[Nietzsche: Eternal Recurrence]]

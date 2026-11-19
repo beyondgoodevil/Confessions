@@ -352,6 +352,7 @@ He is clearer than most and I like the reply to Porter. But "non-physical emerge
 
 ## Related
 
+- [[On Self-Overcoming: The Will to Power's First Appearance in Zarathustra II.12]]
 - [[Nietzsche: The Overman]]
 - [[Nietzsche: Eternal Recurrence]]
 - [[Nietzsche: Amor Fati and Becoming What You Are]]
