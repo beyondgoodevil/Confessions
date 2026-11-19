@@ -114,6 +114,7 @@ The readings divide on whether the speech states a doctrine or exposes a problem
 
 ## Related
 
+- [[The Higher Men of Zarathustra IV: Kings, Leech, Magician, Pope, Ugliest Man, Beggar and Shadow]]
 - [[Nietzsche: The Will to Power]]
 - [[Thus Spoke Zarathustra as Drama: Plot, Tragedy and Parody]]
 - [[Nietzsche: The Overman]]
